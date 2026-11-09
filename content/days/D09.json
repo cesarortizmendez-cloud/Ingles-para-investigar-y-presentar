@@ -1,0 +1,925 @@
+{
+ "id": "D09",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Pasado irregular: los verbos clave de la investigación",
+ "day": 9,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy memorizas los pasados irregulares que más aparecen al contar una investigación: found, made, took, chose, wrote…",
+ "objectives": [
+  {
+   "id": "D09-O1",
+   "text": "Usar 12 pasados irregulares frecuentes."
+  },
+  {
+   "id": "D09-O2",
+   "text": "Reconocer «found» (encontró) y «made» (hizo) en textos."
+  },
+  {
+   "id": "D09-O3",
+   "text": "Contar lo que hiciste el año pasado en tu trabajo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D09-LX01",
+    "form": "found",
+    "meaning_es": "encontró, encontramos (find)",
+    "example": "We found a clear pattern.",
+    "example_es": "Encontramos un patrón claro.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX02",
+    "form": "made",
+    "meaning_es": "hizo, hicimos (make)",
+    "example": "The team made a plan.",
+    "example_es": "El equipo hizo un plan.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX03",
+    "form": "took",
+    "meaning_es": "tomó, tomamos (take)",
+    "example": "The study took six months.",
+    "example_es": "El estudio tomó seis meses.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX04",
+    "form": "chose",
+    "meaning_es": "eligió, elegimos (choose)",
+    "example": "We chose three sawmills.",
+    "example_es": "Elegimos tres aserraderos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX05",
+    "form": "wrote",
+    "meaning_es": "escribió, escribimos (write)",
+    "example": "Diego wrote the first report.",
+    "example_es": "Diego escribió el primer informe.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX06",
+    "form": "got",
+    "meaning_es": "obtuvo, consiguió (get)",
+    "example": "We got good data.",
+    "example_es": "Obtuvimos buenos datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX07",
+    "form": "began",
+    "meaning_es": "empezó (begin)",
+    "example": "The analysis began in November.",
+    "example_es": "El análisis empezó en noviembre.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX08",
+    "form": "saw",
+    "meaning_es": "vio, vimos (see)",
+    "example": "We saw a big difference.",
+    "example_es": "Vimos una gran diferencia.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX09",
+    "form": "built",
+    "meaning_es": "construyó (build)",
+    "example": "Diego built a small dashboard.",
+    "example_es": "Diego construyó un pequeño panel de control.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX10",
+    "form": "pattern",
+    "meaning_es": "patrón",
+    "example": "There is a pattern in the data.",
+    "example_es": "Hay un patrón en los datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX11",
+    "form": "dashboard",
+    "meaning_es": "panel de control (visual)",
+    "example": "The dashboard shows energy use.",
+    "example_es": "El panel muestra el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D09-LX12",
+    "form": "knew",
+    "meaning_es": "sabía (know)",
+    "example": "We knew the problem was important.",
+    "example_es": "Sabíamos que el problema era importante.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D09-G1",
+    "topic": "Pasado simple irregular"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D09-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "found",
+     "meaning_es": "encontró, encontramos (find)",
+     "example": "We found a clear pattern.",
+     "example_es": "Encontramos un patrón claro."
+    },
+    {
+     "form": "made",
+     "meaning_es": "hizo, hicimos (make)",
+     "example": "The team made a plan.",
+     "example_es": "El equipo hizo un plan."
+    },
+    {
+     "form": "took",
+     "meaning_es": "tomó, tomamos (take)",
+     "example": "The study took six months.",
+     "example_es": "El estudio tomó seis meses."
+    },
+    {
+     "form": "chose",
+     "meaning_es": "eligió, elegimos (choose)",
+     "example": "We chose three sawmills.",
+     "example_es": "Elegimos tres aserraderos."
+    },
+    {
+     "form": "wrote",
+     "meaning_es": "escribió, escribimos (write)",
+     "example": "Diego wrote the first report.",
+     "example_es": "Diego escribió el primer informe."
+    },
+    {
+     "form": "got",
+     "meaning_es": "obtuvo, consiguió (get)",
+     "example": "We got good data.",
+     "example_es": "Obtuvimos buenos datos."
+    },
+    {
+     "form": "began",
+     "meaning_es": "empezó (begin)",
+     "example": "The analysis began in November.",
+     "example_es": "El análisis empezó en noviembre."
+    },
+    {
+     "form": "saw",
+     "meaning_es": "vio, vimos (see)",
+     "example": "We saw a big difference.",
+     "example_es": "Vimos una gran diferencia."
+    },
+    {
+     "form": "built",
+     "meaning_es": "construyó (build)",
+     "example": "Diego built a small dashboard.",
+     "example_es": "Diego construyó un pequeño panel de control."
+    },
+    {
+     "form": "pattern",
+     "meaning_es": "patrón",
+     "example": "There is a pattern in the data.",
+     "example_es": "Hay un patrón en los datos."
+    },
+    {
+     "form": "dashboard",
+     "meaning_es": "panel de control (visual)",
+     "example": "The dashboard shows energy use.",
+     "example_es": "El panel muestra el uso de energía."
+    },
+    {
+     "form": "knew",
+     "meaning_es": "sabía (know)",
+     "example": "We knew the problem was important.",
+     "example_es": "Sabíamos que el problema era importante."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D09-RG",
+   "type": "capsule",
+   "title": "Pasado simple irregular",
+   "explain": "Muchos verbos frecuentes no usan -ed: tienen una forma propia que hay que memorizar.\nLa forma es la misma para todas las personas: I found, she found, they found.\nTruco: apréndelos en pares (find–found) y dentro de una oración típica de investigación: «We found a pattern».\nHoy: find–found, make–made, take–took, choose–chose, write–wrote, get–got, begin–began, see–saw, build–built, know–knew, go–went, have–had.",
+   "form": [
+    [
+     "find → found",
+     "encontrar"
+    ],
+    [
+     "make → made · take → took",
+     "hacer · tomar"
+    ],
+    [
+     "choose → chose · write → wrote",
+     "elegir · escribir"
+    ],
+    [
+     "get → got · begin → began · see → saw",
+     "obtener · empezar · ver"
+    ],
+    [
+     "have → had · go → went",
+     "tener · ir"
+    ]
+   ],
+   "examples": [
+    [
+     "We found a clear pattern.",
+     "Encontramos un patrón claro."
+    ],
+    [
+     "The study took six months.",
+     "El estudio tomó seis meses."
+    ],
+    [
+     "Ana went to Boston last year.",
+     "Ana fue a Boston el año pasado."
+    ]
+   ],
+   "tip": "«Hacer» puede ser make (crear: made a plan) o do (realizar: did an analysis).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D09-RR",
+   "type": "text",
+   "title": "The first analysis",
+   "body": "In November the team began the first analysis. It took three weeks. They chose two variables: energy use and number of hours. They saw a big difference between the day shift and the night shift. At night, the machines used more energy per unit. The team knew this was important. Diego built a simple dashboard, and Ana wrote a short report. The managers got the report in December.",
+   "translation_es": "En noviembre el equipo empezó el primer análisis. Tomó tres semanas. Eligieron dos variables: uso de energía y número de horas. Vieron una gran diferencia entre el turno de día y el de noche. De noche, las máquinas usaban más energía por unidad. El equipo sabía que esto era importante. Diego construyó un panel simple, y Ana escribió un informe breve. Los gerentes recibieron el informe en diciembre.",
+   "glossary": [
+    [
+     "shift",
+     "turno"
+    ],
+    [
+     "per unit",
+     "por unidad"
+    ],
+    [
+     "variables",
+     "variables"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D09.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D09-RV"
+   ],
+   "activities": [
+    {
+     "id": "D09.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) We [[1]] a clear pattern.  (2) The study [[2]] six months.  (3) Diego [[3]] the first report.  (4) We [[4]] a big difference.  (5) The [[5]] shows energy use.  (6) We [[6]] the problem was important.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "found"
+       ],
+       "hint": "Significa «encontró, encontramos (find)»."
+      },
+      "2": {
+       "accept": [
+        "took"
+       ],
+       "hint": "Significa «tomó, tomamos (take)»."
+      },
+      "3": {
+       "accept": [
+        "wrote"
+       ],
+       "hint": "Significa «escribió, escribimos (write)»."
+      },
+      "4": {
+       "accept": [
+        "saw"
+       ],
+       "hint": "Significa «vio, vimos (see)»."
+      },
+      "5": {
+       "accept": [
+        "dashboard"
+       ],
+       "hint": "Significa «panel de control (visual)»."
+      },
+      "6": {
+       "accept": [
+        "knew"
+       ],
+       "hint": "Significa «sabía (know)»."
+      }
+     }
+    },
+    {
+     "id": "D09.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «construyó (build)»",
+     "accept": [
+      "built"
+     ],
+     "hint": "Empieza con «bu…» · Ejemplo: Diego construyó un pequeño panel de control."
+    },
+    {
+     "id": "D09.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «obtuvo, consiguió (get)»",
+     "accept": [
+      "got"
+     ],
+     "hint": "Empieza con «go…» · Ejemplo: Obtuvimos buenos datos."
+    },
+    {
+     "id": "D09.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «eligió, elegimos (choose)»",
+     "accept": [
+      "chose"
+     ],
+     "hint": "Empieza con «ch…» · Ejemplo: Elegimos tres aserraderos."
+    },
+    {
+     "id": "D09.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «patrón»",
+     "accept": [
+      "pattern"
+     ],
+     "hint": "Empieza con «pa…» · Ejemplo: Hay un patrón en los datos."
+    },
+    {
+     "id": "D09.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hizo, hicimos (make)»",
+     "accept": [
+      "made"
+     ],
+     "hint": "Empieza con «ma…» · Ejemplo: El equipo hizo un plan."
+    },
+    {
+     "id": "D09.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «empezó (begin)»",
+     "accept": [
+      "began"
+     ],
+     "hint": "Empieza con «be…» · Ejemplo: El análisis empezó en noviembre."
+    },
+    {
+     "id": "D09.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Diego built a small dashboard.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Diego built a small dashboard."
+    }
+   ]
+  },
+  {
+   "id": "D09.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasado simple irregular",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D09-RG"
+   ],
+   "activities": [
+    {
+     "id": "D09.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We [[1]] a clear pattern in the data. (find)  (2) The study [[2]] six months. (take)  (3) Diego [[3]] the first report. (write)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "found"
+       ]
+      },
+      "2": {
+       "accept": [
+        "took"
+       ]
+      },
+      "3": {
+       "accept": [
+        "wrote"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D09.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We [[1]] three sawmills for the sample. (choose)  (2) Ana [[2]] to Boston last year. (go)  (3) The team [[3]] a meeting with the managers. (have)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "chose"
+       ]
+      },
+      "2": {
+       "accept": [
+        "went"
+       ]
+      },
+      "3": {
+       "accept": [
+        "had"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D09.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Pasado de «build»",
+     "options": [
+      {
+       "id": "a",
+       "text": "builded"
+      },
+      {
+       "id": "b",
+       "text": "built"
+      },
+      {
+       "id": "c",
+       "text": "build"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D09.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We finded a pattern."
+      },
+      {
+       "id": "b",
+       "text": "We found a pattern."
+      },
+      {
+       "id": "c",
+       "text": "We find a pattern yesterday."
+      }
+     ],
+     "answer": "b",
+     "explanation": "find → found"
+    },
+    {
+     "id": "D09.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre lo que hiciste el año pasado en tu trabajo con verbos irregulares (made, wrote, went, had…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "found",
+        "made",
+        "took",
+        "chose",
+        "wrote",
+        "got",
+        "began",
+        "saw",
+        "built",
+        "went",
+        "had",
+        "knew"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D09.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Lo que encontramos",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D09.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Lo que encontramos: escucha sin leer y responde.",
+     "audio": {
+      "text": "The analysis began in November. It took about three weeks. We saw a big difference between day and night shifts. We found a clear pattern. Diego built a dashboard, and I wrote a short report for the companies.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "The analysis began in November. It took about three weeks. We saw a big difference between day and night shifts. We found a clear pattern. Diego built a dashboard, and I wrote a short report for the companies.",
+     "translation_es": "El análisis empezó en noviembre. Tomó unas tres semanas. Vimos una gran diferencia entre los turnos de día y de noche. Encontramos un patrón claro. Diego construyó un panel, y yo escribí un informe breve para las empresas.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuándo empezó el análisis?",
+       "label": "¿Cuándo empezó el análisis?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En noviembre"
+        },
+        {
+         "id": "b",
+         "text": "En marzo"
+        },
+        {
+         "id": "c",
+         "text": "En octubre"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Entre qué hubo una gran diferencia?",
+       "label": "¿Entre qué hubo una gran diferencia?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Entre empresas grandes y pequeñas"
+        },
+        {
+         "id": "b",
+         "text": "Entre turnos de día y de noche"
+        },
+        {
+         "id": "c",
+         "text": "Entre invierno y verano"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué construyó Diego?",
+       "label": "¿Qué construyó Diego?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un sensor"
+        },
+        {
+         "id": "b",
+         "text": "Un panel de control"
+        },
+        {
+         "id": "c",
+         "text": "Una máquina"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D09.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We found a clear pattern.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "We found a clear pattern."
+    }
+   ]
+  },
+  {
+   "id": "D09.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: The first analysis",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D09-RR"
+   ],
+   "activities": [
+    {
+     "id": "D09.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto tomó el primer análisis?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Tres semanas"
+      },
+      {
+       "id": "b",
+       "text": "Tres meses"
+      },
+      {
+       "id": "c",
+       "text": "Una semana"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D09.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo usaban más energía por unidad las máquinas?",
+     "options": [
+      {
+       "id": "a",
+       "text": "De día"
+      },
+      {
+       "id": "b",
+       "text": "De noche"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D09.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo recibieron el informe los gerentes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En noviembre"
+      },
+      {
+       "id": "b",
+       "text": "En diciembre"
+      },
+      {
+       "id": "c",
+       "text": "En enero"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D09.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D09.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "In November the team began the first analysis. It took three weeks.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "In November the team began the first analysis.",
+       "It took three weeks."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D09.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta en voz alta (30–60 s) tres cosas que hiciste el año pasado en tu trabajo usando pasados irregulares (I wrote…, I went…, We found…).",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "found",
+        "made",
+        "took",
+        "chose",
+        "wrote",
+        "got",
+        "began",
+        "saw",
+        "built",
+        "pattern",
+        "dashboard",
+        "knew"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D09.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D09.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre un hallazgo o un logro reciente: qué hicieron, qué encontraron, quién escribió el informe.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "found",
+        "made",
+        "took",
+        "chose",
+        "wrote",
+        "got",
+        "began",
+        "saw",
+        "built",
+        "pattern",
+        "dashboard",
+        "knew"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "found",
+        "made",
+        "took",
+        "chose",
+        "wrote",
+        "got",
+        "began",
+        "saw",
+        "built",
+        "went",
+        "had",
+        "knew"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

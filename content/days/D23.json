@@ -1,0 +1,898 @@
+{
+ "id": "D23",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Hablar con cautela: may, might, could",
+ "day": 23,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "En ciencia rara vez se afirma algo con certeza total. Hoy aprendes a expresar posibilidad con may, might y could.",
+ "objectives": [
+  {
+   "id": "D23-O1",
+   "text": "Usar may/might/could para posibilidades."
+  },
+  {
+   "id": "D23-O2",
+   "text": "Suavizar una afirmación demasiado fuerte."
+  },
+  {
+   "id": "D23-O3",
+   "text": "Distinguir «may improve» (podría) de «improves» (mejora)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D23-LX01",
+    "form": "may",
+    "meaning_es": "puede que, podría (posibilidad)",
+    "example": "The new schedule may reduce costs.",
+    "example_es": "La nueva programación podría reducir costos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX02",
+    "form": "might",
+    "meaning_es": "podría (posibilidad menor)",
+    "example": "This might explain the difference.",
+    "example_es": "Esto podría explicar la diferencia.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX03",
+    "form": "could",
+    "meaning_es": "podría",
+    "example": "Temperature could affect the results.",
+    "example_es": "La temperatura podría afectar los resultados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX04",
+    "form": "possible",
+    "meaning_es": "posible",
+    "example": "It is possible that the sensors failed.",
+    "example_es": "Es posible que los sensores hayan fallado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX05",
+    "form": "possibly",
+    "meaning_es": "posiblemente",
+    "example": "This is possibly the main cause.",
+    "example_es": "Esta es posiblemente la causa principal.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX06",
+    "form": "affect",
+    "meaning_es": "afectar",
+    "example": "Weather can affect energy use.",
+    "example_es": "El clima puede afectar el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX07",
+    "form": "cause",
+    "meaning_es": "causa; causar",
+    "example": "The main cause is old machines.",
+    "example_es": "La causa principal son las máquinas antiguas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX08",
+    "form": "reason",
+    "meaning_es": "razón, motivo",
+    "example": "One reason is the cold weather.",
+    "example_es": "Una razón es el clima frío.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX09",
+    "form": "certain",
+    "meaning_es": "seguro/a, cierto/a",
+    "example": "We are not certain about this.",
+    "example_es": "No estamos seguros de esto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX10",
+    "form": "evidence",
+    "meaning_es": "evidencia",
+    "example": "There is some evidence of a pattern.",
+    "example_es": "Hay cierta evidencia de un patrón.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX11",
+    "form": "claim",
+    "meaning_es": "afirmación; afirmar",
+    "example": "This claim is too strong.",
+    "example_es": "Esta afirmación es demasiado fuerte.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D23-LX12",
+    "form": "strong",
+    "meaning_es": "fuerte",
+    "example": "The evidence is not strong.",
+    "example_es": "La evidencia no es fuerte.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D23-G1",
+    "topic": "Modales de posibilidad: may, might, could"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D23-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "may",
+     "meaning_es": "puede que, podría (posibilidad)",
+     "example": "The new schedule may reduce costs.",
+     "example_es": "La nueva programación podría reducir costos."
+    },
+    {
+     "form": "might",
+     "meaning_es": "podría (posibilidad menor)",
+     "example": "This might explain the difference.",
+     "example_es": "Esto podría explicar la diferencia."
+    },
+    {
+     "form": "could",
+     "meaning_es": "podría",
+     "example": "Temperature could affect the results.",
+     "example_es": "La temperatura podría afectar los resultados."
+    },
+    {
+     "form": "possible",
+     "meaning_es": "posible",
+     "example": "It is possible that the sensors failed.",
+     "example_es": "Es posible que los sensores hayan fallado."
+    },
+    {
+     "form": "possibly",
+     "meaning_es": "posiblemente",
+     "example": "This is possibly the main cause.",
+     "example_es": "Esta es posiblemente la causa principal."
+    },
+    {
+     "form": "affect",
+     "meaning_es": "afectar",
+     "example": "Weather can affect energy use.",
+     "example_es": "El clima puede afectar el uso de energía."
+    },
+    {
+     "form": "cause",
+     "meaning_es": "causa; causar",
+     "example": "The main cause is old machines.",
+     "example_es": "La causa principal son las máquinas antiguas."
+    },
+    {
+     "form": "reason",
+     "meaning_es": "razón, motivo",
+     "example": "One reason is the cold weather.",
+     "example_es": "Una razón es el clima frío."
+    },
+    {
+     "form": "certain",
+     "meaning_es": "seguro/a, cierto/a",
+     "example": "We are not certain about this.",
+     "example_es": "No estamos seguros de esto."
+    },
+    {
+     "form": "evidence",
+     "meaning_es": "evidencia",
+     "example": "There is some evidence of a pattern.",
+     "example_es": "Hay cierta evidencia de un patrón."
+    },
+    {
+     "form": "claim",
+     "meaning_es": "afirmación; afirmar",
+     "example": "This claim is too strong.",
+     "example_es": "Esta afirmación es demasiado fuerte."
+    },
+    {
+     "form": "strong",
+     "meaning_es": "fuerte",
+     "example": "The evidence is not strong.",
+     "example_es": "La evidencia no es fuerte."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D23-RG",
+   "type": "capsule",
+   "title": "Modales de posibilidad: may, might, could",
+   "explain": "may / might / could + verbo base expresan que algo es posible, no seguro.\n«The schedule reduces costs» = afirma que lo hace. «The schedule may reduce costs» = podría hacerlo.\nmay y could son los más comunes en papers; might suena un poco más incierto.\nLos modales no llevan -s ni «to»: «It may reduce» (no «It mays reduce» ni «It may to reduce»).\nPara el pasado posible: may have + participio → «The sensors may have failed» (puede que hayan fallado).",
+   "form": [
+    [
+     "may / might / could + verbo base",
+     "may reduce, might explain"
+    ],
+    [
+     "may not / might not",
+     "may not be enough"
+    ],
+    [
+     "may have + participio",
+     "may have failed (pasado posible)"
+    ],
+    [
+     "It is possible that…",
+     "Es posible que…"
+    ]
+   ],
+   "examples": [
+    [
+     "The new schedule may reduce costs.",
+     "La nueva programación podría reducir costos."
+    ],
+    [
+     "This might explain the difference between shifts.",
+     "Esto podría explicar la diferencia entre turnos."
+    ],
+    [
+     "The sensors may have failed during the power cut.",
+     "Puede que los sensores hayan fallado durante el corte de luz."
+    ]
+   ],
+   "tip": "En español «puede» sirve para posibilidad y capacidad; en inglés: can = capacidad, may/could = posibilidad.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D23-RR",
+   "type": "text",
+   "title": "Possible explanations",
+   "body": "The results show that night shifts use more energy per unit than day shifts. What is the cause? The team is not certain, but there are three possible reasons. First, the cold weather may increase the energy needed to dry the wood. Second, night shifts might have fewer experienced operators. Third, old machines could be used more at night. The evidence for the first reason is strong, but the other two claims need more data.",
+   "translation_es": "Los resultados muestran que los turnos de noche usan más energía por unidad que los de día. ¿Cuál es la causa? El equipo no está seguro, pero hay tres razones posibles. Primero, el clima frío puede aumentar la energía necesaria para secar la madera. Segundo, los turnos de noche podrían tener menos operarios con experiencia. Tercero, las máquinas antiguas podrían usarse más de noche. La evidencia de la primera razón es fuerte, pero las otras dos afirmaciones necesitan más datos.",
+   "glossary": [
+    [
+     "dry the wood",
+     "secar la madera"
+    ],
+    [
+     "needed",
+     "necesaria"
+    ],
+    [
+     "experienced",
+     "con experiencia"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D23.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D23-RV"
+   ],
+   "activities": [
+    {
+     "id": "D23.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The new schedule [[1]] reduce costs.  (2) Temperature [[2]] affect the results.  (3) It is [[3]] that the sensors failed.  (4) Weather can [[4]] energy use.  (5) The main [[5]] is old machines.  (6) One [[6]] is the cold weather.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "may"
+       ],
+       "hint": "Significa «puede que, podría (posibilidad)»."
+      },
+      "2": {
+       "accept": [
+        "could"
+       ],
+       "hint": "Significa «podría»."
+      },
+      "3": {
+       "accept": [
+        "possible"
+       ],
+       "hint": "Significa «posible»."
+      },
+      "4": {
+       "accept": [
+        "affect"
+       ],
+       "hint": "Significa «afectar»."
+      },
+      "5": {
+       "accept": [
+        "cause"
+       ],
+       "hint": "Significa «causa; causar»."
+      },
+      "6": {
+       "accept": [
+        "reason"
+       ],
+       "hint": "Significa «razón, motivo»."
+      }
+     }
+    },
+    {
+     "id": "D23.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «seguro/a, cierto/a»",
+     "accept": [
+      "certain"
+     ],
+     "hint": "Empieza con «ce…» · Ejemplo: No estamos seguros de esto."
+    },
+    {
+     "id": "D23.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «podría (posibilidad menor)»",
+     "accept": [
+      "might"
+     ],
+     "hint": "Empieza con «mi…» · Ejemplo: Esto podría explicar la diferencia."
+    },
+    {
+     "id": "D23.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «evidencia»",
+     "accept": [
+      "evidence"
+     ],
+     "hint": "Empieza con «ev…» · Ejemplo: Hay cierta evidencia de un patrón."
+    },
+    {
+     "id": "D23.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «fuerte»",
+     "accept": [
+      "strong"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: La evidencia no es fuerte."
+    },
+    {
+     "id": "D23.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «afirmación; afirmar»",
+     "accept": [
+      "claim"
+     ],
+     "hint": "Empieza con «cl…» · Ejemplo: Esta afirmación es demasiado fuerte."
+    },
+    {
+     "id": "D23.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «posiblemente»",
+     "accept": [
+      "possibly"
+     ],
+     "hint": "Empieza con «po…» · Ejemplo: Esta es posiblemente la causa principal."
+    },
+    {
+     "id": "D23.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "We are not certain about this.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We are not certain about this."
+    }
+   ]
+  },
+  {
+   "id": "D23.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Modales de posibilidad: may, might, could",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D23-RG"
+   ],
+   "activities": [
+    {
+     "id": "D23.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The new schedule [[1]] reduce costs. (podría)  (2) Temperature could [[2]] the results. (afectar)  (3) This [[3]] not be the only reason. (puede que no)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "may",
+        "might",
+        "could"
+       ],
+       "hint": "modal de posibilidad"
+      },
+      "2": {
+       "accept": [
+        "affect"
+       ],
+       "hint": "verbo base después del modal"
+      },
+      "3": {
+       "accept": [
+        "may",
+        "might"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D23.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The sensors may [[1]] failed during the power cut.  (2) It is [[2]] that the data are incomplete. (posible)  (3) The evidence is not very [[3]]. (fuerte)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "have"
+       ],
+       "hint": "pasado posible: may have + participio"
+      },
+      "2": {
+       "accept": [
+        "possible"
+       ]
+      },
+      "3": {
+       "accept": [
+        "strong"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D23.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es más prudente?",
+     "options": [
+      {
+       "id": "a",
+       "text": "The tool reduces costs in all companies."
+      },
+      {
+       "id": "b",
+       "text": "The tool may reduce costs in some companies."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D23.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "It may to reduce costs."
+      },
+      {
+       "id": "b",
+       "text": "It mays reduce costs."
+      },
+      {
+       "id": "c",
+       "text": "It may reduce costs."
+      }
+     ],
+     "answer": "c",
+     "explanation": "may + verbo base"
+    },
+    {
+     "id": "D23.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Reescribe con cautela: «La nueva máquina reduce los costos» y «El frío causa el problema» (usa may/might/could).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "may",
+        "might",
+        "could"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D23.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: ¿Por qué de noche se usa más energía?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D23.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Por qué de noche se usa más energía?: escucha sin leer y responde.",
+     "audio": {
+      "text": "Why do machines use more energy at night? We are not certain. One reason may be the cold weather. Another reason might be that night shifts have fewer experienced operators. Old machines could also affect the results. We need more evidence.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Why do machines use more energy at night? We are not certain. One reason may be the cold weather. Another reason might be that night shifts have fewer experienced operators. Old machines could also affect the results. We need more evidence.",
+     "translation_es": "¿Por qué las máquinas usan más energía de noche? No estamos seguros. Una razón puede ser el clima frío. Otra razón podría ser que los turnos de noche tienen menos operarios con experiencia. Las máquinas antiguas también podrían afectar los resultados. Necesitamos más evidencia.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Están seguros de la causa?",
+       "label": "¿Están seguros de la causa?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Sí"
+        },
+        {
+         "id": "b",
+         "text": "No"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«We are not certain.»"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuál NO es una razón mencionada?",
+       "label": "¿Cuál NO es una razón mencionada?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El clima frío"
+        },
+        {
+         "id": "b",
+         "text": "Menos operarios con experiencia"
+        },
+        {
+         "id": "c",
+         "text": "El precio de la madera"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué necesitan?",
+       "label": "¿Qué necesitan?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Más evidencia"
+        },
+        {
+         "id": "b",
+         "text": "Más dinero"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D23.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We need more evidence.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "We need more evidence."
+    }
+   ]
+  },
+  {
+   "id": "D23.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Possible explanations",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D23-RR"
+   ],
+   "activities": [
+    {
+     "id": "D23.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántas razones posibles menciona el texto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Una"
+      },
+      {
+       "id": "b",
+       "text": "Dos"
+      },
+      {
+       "id": "c",
+       "text": "Tres"
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "D23.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Para qué razón la evidencia es fuerte?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El clima frío"
+      },
+      {
+       "id": "b",
+       "text": "Los operarios"
+      },
+      {
+       "id": "c",
+       "text": "Las máquinas antiguas"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D23.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué expresa «might have fewer experienced operators»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un hecho comprobado"
+      },
+      {
+       "id": "b",
+       "text": "Una posibilidad"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D23.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D23.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The results show that night shifts use more energy per unit than day shifts. What is the cause?",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The results show that night shifts use more energy per unit than day shifts.",
+       "What is the cause?"
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D23.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en voz alta (30–60 s) un problema de tu trabajo y dos o tres causas posibles con may / might / could, sin afirmar nada con certeza total.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "may",
+        "might",
+        "could",
+        "possible",
+        "possibly",
+        "affect",
+        "cause",
+        "reason",
+        "certain",
+        "evidence",
+        "claim",
+        "strong"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D23.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D23.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras con posibles explicaciones de un resultado o problema, usando may, might, could y «we are not certain».",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "may",
+        "might",
+        "could",
+        "possible",
+        "possibly",
+        "affect",
+        "cause",
+        "reason",
+        "certain",
+        "evidence",
+        "claim",
+        "strong"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "may",
+        "might",
+        "could"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

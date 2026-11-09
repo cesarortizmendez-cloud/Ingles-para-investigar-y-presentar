@@ -1,0 +1,891 @@
+{
+ "id": "D36",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Organizar una presentación: frases de señalización",
+ "day": 36,
+ "week": 6,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes las frases que guían al público: cómo empezar, pasar de una parte a otra y cerrar.",
+ "objectives": [
+  {
+   "id": "D36-O1",
+   "text": "Usar frases para abrir, ordenar y cerrar una presentación."
+  },
+  {
+   "id": "D36-O2",
+   "text": "Anunciar la estructura de tu charla en 3 partes."
+  },
+  {
+   "id": "D36-O3",
+   "text": "Grabar la apertura de una presentación (45–60 s)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D36-LX01",
+    "form": "Good morning, everyone",
+    "meaning_es": "Buenos días a todos",
+    "example": "Good morning, everyone, and thank you for coming.",
+    "example_es": "Buenos días a todos, y gracias por venir.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX02",
+    "form": "today I'm going to",
+    "meaning_es": "hoy voy a",
+    "example": "Today I'm going to talk about energy use.",
+    "example_es": "Hoy voy a hablar sobre el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX03",
+    "form": "outline",
+    "meaning_es": "esquema, estructura (de la charla)",
+    "example": "Here is the outline of my talk.",
+    "example_es": "Este es el esquema de mi charla.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX04",
+    "form": "first of all",
+    "meaning_es": "en primer lugar",
+    "example": "First of all, I will explain the problem.",
+    "example_es": "En primer lugar, explicaré el problema.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX05",
+    "form": "let me turn to",
+    "meaning_es": "paso ahora a",
+    "example": "Now let me turn to the results.",
+    "example_es": "Ahora paso a los resultados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX06",
+    "form": "moving on",
+    "meaning_es": "pasando a",
+    "example": "Moving on, let's look at the method.",
+    "example_es": "Pasando a otra cosa, veamos el método.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX07",
+    "form": "as you can see",
+    "meaning_es": "como pueden ver",
+    "example": "As you can see, energy use peaks in July.",
+    "example_es": "Como pueden ver, el uso de energía alcanza su máximo en julio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX08",
+    "form": "to sum up",
+    "meaning_es": "en resumen",
+    "example": "To sum up, the schedule matters.",
+    "example_es": "En resumen, la programación importa.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX09",
+    "form": "key message",
+    "meaning_es": "mensaje clave",
+    "example": "The key message is simple.",
+    "example_es": "El mensaje clave es simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX10",
+    "form": "slide",
+    "meaning_es": "diapositiva",
+    "example": "This slide shows the sample.",
+    "example_es": "Esta diapositiva muestra la muestra.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX11",
+    "form": "talk",
+    "meaning_es": "charla, presentación",
+    "example": "My talk has three parts.",
+    "example_es": "Mi charla tiene tres partes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D36-LX12",
+    "form": "thank you for your attention",
+    "meaning_es": "gracias por su atención",
+    "example": "That's all. Thank you for your attention.",
+    "example_es": "Eso es todo. Gracias por su atención.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D36-G1",
+    "topic": "Lenguaje de señalización (signposting)"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D36-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "Good morning, everyone",
+     "meaning_es": "Buenos días a todos",
+     "example": "Good morning, everyone, and thank you for coming.",
+     "example_es": "Buenos días a todos, y gracias por venir."
+    },
+    {
+     "form": "today I'm going to",
+     "meaning_es": "hoy voy a",
+     "example": "Today I'm going to talk about energy use.",
+     "example_es": "Hoy voy a hablar sobre el uso de energía."
+    },
+    {
+     "form": "outline",
+     "meaning_es": "esquema, estructura (de la charla)",
+     "example": "Here is the outline of my talk.",
+     "example_es": "Este es el esquema de mi charla."
+    },
+    {
+     "form": "first of all",
+     "meaning_es": "en primer lugar",
+     "example": "First of all, I will explain the problem.",
+     "example_es": "En primer lugar, explicaré el problema."
+    },
+    {
+     "form": "let me turn to",
+     "meaning_es": "paso ahora a",
+     "example": "Now let me turn to the results.",
+     "example_es": "Ahora paso a los resultados."
+    },
+    {
+     "form": "moving on",
+     "meaning_es": "pasando a",
+     "example": "Moving on, let's look at the method.",
+     "example_es": "Pasando a otra cosa, veamos el método."
+    },
+    {
+     "form": "as you can see",
+     "meaning_es": "como pueden ver",
+     "example": "As you can see, energy use peaks in July.",
+     "example_es": "Como pueden ver, el uso de energía alcanza su máximo en julio."
+    },
+    {
+     "form": "to sum up",
+     "meaning_es": "en resumen",
+     "example": "To sum up, the schedule matters.",
+     "example_es": "En resumen, la programación importa."
+    },
+    {
+     "form": "key message",
+     "meaning_es": "mensaje clave",
+     "example": "The key message is simple.",
+     "example_es": "El mensaje clave es simple."
+    },
+    {
+     "form": "slide",
+     "meaning_es": "diapositiva",
+     "example": "This slide shows the sample.",
+     "example_es": "Esta diapositiva muestra la muestra."
+    },
+    {
+     "form": "talk",
+     "meaning_es": "charla, presentación",
+     "example": "My talk has three parts.",
+     "example_es": "Mi charla tiene tres partes."
+    },
+    {
+     "form": "thank you for your attention",
+     "meaning_es": "gracias por su atención",
+     "example": "That's all. Thank you for your attention.",
+     "example_es": "Eso es todo. Gracias por su atención."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D36-RG",
+   "type": "capsule",
+   "title": "Lenguaje de señalización (signposting)",
+   "explain": "En una presentación oral el público no puede «volver atrás» como en un texto. Por eso se usan frases que anuncian y ordenan:\nABRIR: Good morning, everyone. My name is… Today I'm going to talk about…\nESTRUCTURA: My talk has three parts. First of all… Then… Finally…\nTRANSICIÓN: Now let me turn to… Moving on to… This brings me to…\nSEÑALAR: As you can see on this slide… Let's look at Figure 2.\nCERRAR: To sum up… The key message is… Thank you for your attention. I'm happy to take questions.\nGramática útil: «I'm going to + verbo» para anunciar; «let me + verbo» para transiciones (let me show, let me explain).",
+   "form": [
+    [
+     "Today I'm going to + verbo",
+     "Today I'm going to present…"
+    ],
+    [
+     "My talk has three parts: First… Then… Finally…",
+     "estructura"
+    ],
+    [
+     "Now let me turn to + sustantivo",
+     "Now let me turn to the results."
+    ],
+    [
+     "To sum up, … Thank you for your attention.",
+     "cierre"
+    ]
+   ],
+   "examples": [
+    [
+     "Good morning, everyone. Today I'm going to talk about energy use in small sawmills.",
+     "Buenos días a todos. Hoy voy a hablar sobre el uso de energía en aserraderos pequeños."
+    ],
+    [
+     "My talk has three parts: the problem, the method and the results.",
+     "Mi charla tiene tres partes: el problema, el método y los resultados."
+    ],
+    [
+     "To sum up, the schedule matters. Thank you for your attention.",
+     "En resumen, la programación importa. Gracias por su atención."
+    ]
+   ],
+   "tip": "Escribe en tus notas solo las frases de señalización y las cifras: el resto, dilo con tus palabras.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D36-RR",
+   "type": "text",
+   "title": "Ana's speaker notes",
+   "body": "Slide 1: Good morning, everyone. Name, university, Chile. Today I'm going to talk about energy use in small sawmills. Slide 2: Outline: problem, method, results. Slide 3: First of all, the problem: energy is expensive, and small companies have little information. Slide 4: Now let me turn to the method: three sawmills, ten sensors, six months. Slide 5: As you can see, night shifts use more energy per unit. Slide 6: To sum up, the key message is: the schedule matters. Thank you for your attention.",
+   "translation_es": "Diapositiva 1: Buenos días a todos. Nombre, universidad, Chile. Hoy voy a hablar sobre el uso de energía en aserraderos pequeños. Diapositiva 2: Esquema: problema, método, resultados. Diapositiva 3: En primer lugar, el problema: la energía es cara y las empresas pequeñas tienen poca información. Diapositiva 4: Ahora paso al método: tres aserraderos, diez sensores, seis meses. Diapositiva 5: Como pueden ver, los turnos de noche usan más energía por unidad. Diapositiva 6: En resumen, el mensaje clave es: la programación importa. Gracias por su atención.",
+   "glossary": [
+    [
+     "speaker notes",
+     "notas del presentador"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D36.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D36-RV"
+   ],
+   "activities": [
+    {
+     "id": "D36.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]], let's look at the method.  (2) [[2]], energy use peaks in July.  (3) [[3]], the schedule matters.  (4) The [[4]] is simple.  (5) This [[5]] shows the sample.  (6) My [[6]] has three parts.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "moving on"
+       ],
+       "hint": "Significa «pasando a»."
+      },
+      "2": {
+       "accept": [
+        "as you can see"
+       ],
+       "hint": "Significa «como pueden ver»."
+      },
+      "3": {
+       "accept": [
+        "to sum up"
+       ],
+       "hint": "Significa «en resumen»."
+      },
+      "4": {
+       "accept": [
+        "key message"
+       ],
+       "hint": "Significa «mensaje clave»."
+      },
+      "5": {
+       "accept": [
+        "slide"
+       ],
+       "hint": "Significa «diapositiva»."
+      },
+      "6": {
+       "accept": [
+        "talk"
+       ],
+       "hint": "Significa «charla, presentación»."
+      }
+     }
+    },
+    {
+     "id": "D36.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «Buenos días a todos»",
+     "accept": [
+      "Good morning, everyone"
+     ],
+     "hint": "Empieza con «Go…» · Ejemplo: Buenos días a todos, y gracias por venir."
+    },
+    {
+     "id": "D36.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «gracias por su atención»",
+     "accept": [
+      "thank you for your attention"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: Eso es todo. Gracias por su atención."
+    },
+    {
+     "id": "D36.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hoy voy a»",
+     "accept": [
+      "today I'm going to"
+     ],
+     "hint": "Empieza con «to…» · Ejemplo: Hoy voy a hablar sobre el uso de energía."
+    },
+    {
+     "id": "D36.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «esquema, estructura (de la charla)»",
+     "accept": [
+      "outline"
+     ],
+     "hint": "Empieza con «ou…» · Ejemplo: Este es el esquema de mi charla."
+    },
+    {
+     "id": "D36.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «paso ahora a»",
+     "accept": [
+      "let me turn to"
+     ],
+     "hint": "Empieza con «le…» · Ejemplo: Ahora paso a los resultados."
+    },
+    {
+     "id": "D36.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en primer lugar»",
+     "accept": [
+      "first of all"
+     ],
+     "hint": "Empieza con «fi…» · Ejemplo: En primer lugar, explicaré el problema."
+    },
+    {
+     "id": "D36.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Good morning, everyone, and thank you for coming.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Good morning, everyone, and thank you for coming."
+    }
+   ]
+  },
+  {
+   "id": "D36.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Lenguaje de señalización (signposting)",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D36-RG"
+   ],
+   "activities": [
+    {
+     "id": "D36.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Today I'm [[1]] to talk about energy use.  (2) My talk has three [[2]]. (partes)  (3) Now let me [[3]] to the results. (paso a)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "going"
+       ]
+      },
+      "2": {
+       "accept": [
+        "parts"
+       ]
+      },
+      "3": {
+       "accept": [
+        "turn"
+       ],
+       "hint": "let me turn to"
+      }
+     }
+    },
+    {
+     "id": "D36.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) As you can [[1]], energy use peaks in July.  (2) To [[2]] up, the schedule matters. (en resumen)  (3) Thank you for your [[3]]. (atención)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "see"
+       ]
+      },
+      "2": {
+       "accept": [
+        "sum"
+       ]
+      },
+      "3": {
+       "accept": [
+        "attention"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D36.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué frase usas para pasar a los resultados?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Now let me turn to the results."
+      },
+      {
+       "id": "b",
+       "text": "Now I turn me to the results."
+      },
+      {
+       "id": "c",
+       "text": "Now let's turning the results."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D36.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué frase cierra una presentación?",
+     "options": [
+      {
+       "id": "a",
+       "text": "First of all…"
+      },
+      {
+       "id": "b",
+       "text": "Moving on…"
+      },
+      {
+       "id": "c",
+       "text": "To sum up… Thank you for your attention."
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "D36.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe la apertura de tu presentación: saludo, nombre, tema (Today I'm going to…) y estructura en tres partes.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "today i'm going to",
+        "first",
+        "then",
+        "finally",
+        "my talk"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D36.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La apertura de Ana",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D36.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La apertura de Ana: escucha sin leer y responde.",
+     "audio": {
+      "text": "Good morning, everyone, and thank you for coming. My name is Ana Rojas, and I'm from Chile. Today I'm going to talk about energy use in small sawmills. My talk has three parts. First of all, I will explain the problem. Then I will describe our method. Finally, I will present the main results.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Good morning, everyone, and thank you for coming. My name is Ana Rojas, and I'm from Chile. Today I'm going to talk about energy use in small sawmills. My talk has three parts. First of all, I will explain the problem. Then I will describe our method. Finally, I will present the main results.",
+     "translation_es": "Buenos días a todos, y gracias por venir. Me llamo Ana Rojas y soy de Chile. Hoy voy a hablar sobre el uso de energía en aserraderos pequeños. Mi charla tiene tres partes. En primer lugar, explicaré el problema. Luego describiré nuestro método. Por último, presentaré los resultados principales.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuántas partes tiene la charla?",
+       "label": "¿Cuántas partes tiene la charla?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Dos"
+        },
+        {
+         "id": "b",
+         "text": "Tres"
+        },
+        {
+         "id": "c",
+         "text": "Cuatro"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hará primero?",
+       "label": "¿Qué hará primero?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Presentar resultados"
+        },
+        {
+         "id": "b",
+         "text": "Explicar el problema"
+        },
+        {
+         "id": "c",
+         "text": "Describir el método"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué frase usa para anunciar el tema?",
+       "label": "¿Qué frase usa para anunciar el tema?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Today I'm going to talk about…"
+        },
+        {
+         "id": "b",
+         "text": "To sum up…"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D36.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "My talk has three parts.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "My talk has three parts."
+    }
+   ]
+  },
+  {
+   "id": "D36.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Ana's speaker notes",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D36-RR"
+   ],
+   "activities": [
+    {
+     "id": "D36.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿En qué diapositiva presenta el método?",
+     "options": [
+      {
+       "id": "a",
+       "text": "2"
+      },
+      {
+       "id": "b",
+       "text": "4"
+      },
+      {
+       "id": "c",
+       "text": "6"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D36.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es el mensaje clave?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Los sensores son caros"
+      },
+      {
+       "id": "b",
+       "text": "La programación importa"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D36.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué incluyen las notas de Ana?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Todo el texto completo"
+      },
+      {
+       "id": "b",
+       "text": "Frases de señalización y datos clave"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D36.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D36.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Slide 1: Good morning, everyone. Name, university, Chile.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Slide 1: Good morning, everyone.",
+       "Name, university, Chile."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D36.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Graba la apertura de tu presentación (45–60 s): saludo, quién eres, tema, estructura en tres partes. Usa las frases de hoy.",
+     "min_seconds": 45,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "Good morning, everyone",
+        "today I'm going to",
+        "outline",
+        "first of all",
+        "let me turn to",
+        "moving on",
+        "as you can see",
+        "to sum up",
+        "key message",
+        "slide",
+        "talk",
+        "thank you for your attention"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D36.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D36.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tus notas de presentador para 5 diapositivas (como las de Ana), solo con frases de señalización y datos clave.",
+     "min_words": 40,
+     "max_words": 110,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "Good morning, everyone",
+        "today I'm going to",
+        "outline",
+        "first of all",
+        "let me turn to",
+        "moving on",
+        "as you can see",
+        "to sum up",
+        "key message",
+        "slide",
+        "talk",
+        "thank you for your attention"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "today i'm going to",
+        "first",
+        "then",
+        "finally",
+        "my talk"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

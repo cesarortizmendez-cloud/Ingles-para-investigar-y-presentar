@@ -1,0 +1,678 @@
+{
+ "id": "D21",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso semana 3: explicar un método en voz pasiva",
+ "day": 21,
+ "week": 3,
+ "day_type": "repaso",
+ "intro": "Integras toda la pasiva de la semana y explicas un método completo en dos minutos.",
+ "objectives": [
+  {
+   "id": "D21-O1",
+   "text": "Recordar sin mirar el vocabulario de la semana (meta: 70 %)."
+  },
+  {
+   "id": "D21-O2",
+   "text": "Elegir el tiempo correcto de la pasiva en ejercicios mezclados."
+  },
+  {
+   "id": "D21-O3",
+   "text": "Explicar un método en 90–120 segundos y evaluarlo con la rúbrica."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D21-RR",
+   "type": "text",
+   "title": "Abstract (first version)",
+   "body": "Energy efficiency has been widely studied in large factories, but small sawmills have received little attention. This study measured energy use per shift in three sawmills in southern Chile. Data were collected by ten sensors over six months, and efficiency was defined as output per kilowatt hour. Night shifts were found to use more energy per unit than day shifts. The results suggest that energy use can be reduced by changing the production schedule. The model should be tested in other regions.",
+   "translation_es": "La eficiencia energética ha sido muy estudiada en fábricas grandes, pero los aserraderos pequeños han recibido poca atención. Este estudio midió el uso de energía por turno en tres aserraderos del sur de Chile. Los datos se recolectaron con diez sensores durante seis meses, y la eficiencia se definió como producción por kilovatio hora. Se encontró que los turnos de noche usan más energía por unidad que los de día. Los resultados sugieren que el uso de energía puede reducirse cambiando la programación de la producción. El modelo debería probarse en otras regiones.",
+   "glossary": [
+    [
+     "southern",
+     "del sur"
+    ],
+    [
+     "suggest",
+     "sugieren"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D21.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "D21.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) [[1]] studies focused on large companies.  (2) The [[2]] is not always important.  (3) Efficiency [[3]] output per kilowatt hour.  (4) Small sawmills have received [[4]].  (5) The schedule [[5]].  (6) Sensors [[6]] every month.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "previous"
+       ],
+       "hint": "Significa «anterior, previo»."
+      },
+      "2": {
+       "accept": [
+        "agent"
+       ],
+       "hint": "Significa «agente (quien hace la acción)»."
+      },
+      "3": {
+       "accept": [
+        "is defined as"
+       ],
+       "hint": "Significa «se define como»."
+      },
+      "4": {
+       "accept": [
+        "little attention"
+       ],
+       "hint": "Significa «poca atención»."
+      },
+      "5": {
+       "accept": [
+        "could be improved"
+       ],
+       "hint": "Significa «podría mejorarse»."
+      },
+      "6": {
+       "accept": [
+        "must be checked"
+       ],
+       "hint": "Significa «debe revisarse»."
+      }
+     }
+    },
+    {
+     "id": "D21.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «comentarios, retroalimentación»",
+     "accept": [
+      "feedback"
+     ],
+     "hint": "Ejemplo: Mark nos dio comentarios útiles."
+    },
+    {
+     "id": "D21.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «conocido (know)»",
+     "accept": [
+      "known"
+     ],
+     "hint": "Ejemplo: Este efecto es bien conocido."
+    },
+    {
+     "id": "D21.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «período»",
+     "accept": [
+      "period"
+     ],
+     "hint": "Ejemplo: El período de estudio fue de seis meses."
+    },
+    {
+     "id": "D21.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «recomendación»",
+     "accept": [
+      "recommendation"
+     ],
+     "hint": "Ejemplo: Nuestra principal recomendación es clara."
+    },
+    {
+     "id": "D21.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «foco; enfocarse»",
+     "accept": [
+      "focus"
+     ],
+     "hint": "Ejemplo: El foco está en el proceso."
+    },
+    {
+     "id": "D21.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «se usan»",
+     "accept": [
+      "are used"
+     ],
+     "hint": "Ejemplo: En este estudio se usan dos métodos."
+    }
+   ]
+  },
+  {
+   "id": "D21.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D21.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Efficiency is [[1]] as output per kilowatt hour. (define)  (2) The study was approved [[2]] the ethics committee.  (3) The analysis was [[3]] twice. (do)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "defined"
+       ]
+      },
+      "2": {
+       "accept": [
+        "by"
+       ]
+      },
+      "3": {
+       "accept": [
+        "done"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D21.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Old machines need to [[1]] replaced.  (2) The [[2]] of this study is to compare two schedules. (objetivo)  (3) Active: An engineer checks the machines. → Passive: The machines are [[3]] by an engineer.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "be"
+       ]
+      },
+      "2": {
+       "accept": [
+        "aim"
+       ]
+      },
+      "3": {
+       "accept": [
+        "checked"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D21.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«En este estudio se usan dos métodos»",
+     "options": [
+      {
+       "id": "a",
+       "text": "This study uses are two methods."
+      },
+      {
+       "id": "b",
+       "text": "Two methods are used in this study."
+      },
+      {
+       "id": "c",
+       "text": "Two methods is used in this study."
+      }
+     ],
+     "answer": "b",
+     "explanation": "plural → are + used"
+    },
+    {
+     "id": "D21.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Pasa a pasiva: «The team conducted the interviews in May.»",
+     "options": [
+      {
+       "id": "a",
+       "text": "The interviews were conducted in May."
+      },
+      {
+       "id": "b",
+       "text": "The interviews conducted in May."
+      },
+      {
+       "id": "c",
+       "text": "The team was conducted in May."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D21.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es el participio de «give»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "gave"
+      },
+      {
+       "id": "b",
+       "text": "given"
+      },
+      {
+       "id": "c",
+       "text": "gived"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D21.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«El modelo debería probarse en otras regiones»",
+     "options": [
+      {
+       "id": "a",
+       "text": "The model should test in other regions."
+      },
+      {
+       "id": "b",
+       "text": "The model should be tested in other regions."
+      },
+      {
+       "id": "c",
+       "text": "The model should be test in other regions."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D21.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué oración presenta una brecha (gap)?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Energy is important."
+      },
+      {
+       "id": "b",
+       "text": "However, this problem has received little attention in small companies."
+      },
+      {
+       "id": "c",
+       "text": "We use Python."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D21.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Para presentar tu aporte principal, ¿qué suena mejor?",
+     "options": [
+      {
+       "id": "a",
+       "text": "A new tool is proposed."
+      },
+      {
+       "id": "b",
+       "text": "We propose a new tool."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Activa: directa y clara para tu contribución."
+    }
+   ]
+  },
+  {
+   "id": "D21.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: El método completo",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D21.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "El método completo: escucha sin leer y responde.",
+     "audio": {
+      "text": "Energy use in large factories has been widely studied, but small sawmills have received little attention. In our study, three sawmills were selected. The data were obtained from ten sensors and stored in the cloud. Efficiency is defined as output per kilowatt hour. The results are shown in Table 2. We recommend that the model should be tested in other regions.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Energy use in large factories has been widely studied, but small sawmills have received little attention. In our study, three sawmills were selected. The data were obtained from ten sensors and stored in the cloud. Efficiency is defined as output per kilowatt hour. The results are shown in Table 2. We recommend that the model should be tested in other regions.",
+     "translation_es": "El uso de energía en fábricas grandes ha sido muy estudiado, pero los aserraderos pequeños han recibido poca atención. En nuestro estudio se seleccionaron tres aserraderos. Los datos se obtuvieron de diez sensores y se almacenaron en la nube. La eficiencia se define como producción por kilovatio hora. Los resultados se muestran en la Tabla 2. Recomendamos que el modelo se pruebe en otras regiones.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuántos sensores había?",
+       "label": "¿Cuántos sensores había?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Tres"
+        },
+        {
+         "id": "b",
+         "text": "Diez"
+        },
+        {
+         "id": "c",
+         "text": "Dos"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Dónde se muestran los resultados?",
+       "label": "¿Dónde se muestran los resultados?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En la Tabla 2"
+        },
+        {
+         "id": "b",
+         "text": "En la Figura 3"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "«should be tested» expresa:",
+       "label": "«should be tested» expresa:",
+       "options": [
+        {
+         "id": "a",
+         "text": "Una recomendación"
+        },
+        {
+         "id": "b",
+         "text": "Un hecho pasado"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D21.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "In our study, three sawmills were selected.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "In our study, three sawmills were selected."
+    }
+   ]
+  },
+  {
+   "id": "D21.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Abstract (first version)",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D21-RR"
+   ],
+   "activities": [
+    {
+     "id": "D21.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué se encontró?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Los turnos de noche usan más energía por unidad"
+      },
+      {
+       "id": "b",
+       "text": "Los turnos de día usan más energía"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D21.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué sugieren los resultados?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cambiar la programación puede reducir el uso de energía"
+      },
+      {
+       "id": "b",
+       "text": "Hay que cerrar los aserraderos"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D21.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántas formas pasivas distintas usa el abstract?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Ninguna"
+      },
+      {
+       "id": "b",
+       "text": "Varias (has been studied, were collected, can be reduced…)"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D21.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D21.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Energy efficiency has been widely studied in large factories, but small sawmills have received little attention. This study measured energy use per shift in three sawmills in southern Chile.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Energy efficiency has been widely studied in large factories, but small sawmills have received little attention.",
+       "This study measured energy use per shift in three sawmills in southern Chile."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D21.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en 90–120 segundos el método de un trabajo tuyo: lo que se ha estudiado antes (has been), cómo se hizo (was/were) y una recomendación (should be). Luego evalúate con la rúbrica.",
+     "min_seconds": 90,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "previous",
+        "agent",
+        "is defined as",
+        "little attention",
+        "could be improved",
+        "must be checked",
+        "feedback",
+        "known",
+        "period",
+        "recommendation",
+        "focus",
+        "are used",
+        "has been studied",
+        "avoid",
+        "were excluded",
+        "were recruited",
+        "gap",
+        "few",
+        "is measured",
+        "recommend",
+        "unit",
+        "schedule",
+        "was selected",
+        "to date"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "D21.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D21.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un abstract breve (80–120 palabras) de un trabajo tuyo como el de Ana: brecha, método en pasiva, resultado y recomendación.",
+     "min_words": 70,
+     "max_words": 130,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "previous",
+        "agent",
+        "is defined as",
+        "little attention",
+        "could be improved",
+        "must be checked",
+        "feedback",
+        "known",
+        "period",
+        "recommendation",
+        "focus",
+        "are used",
+        "has been studied",
+        "avoid",
+        "were excluded",
+        "were recruited",
+        "gap",
+        "few",
+        "is measured",
+        "recommend",
+        "unit",
+        "schedule",
+        "was selected",
+        "to date"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Diagnóstico{% endblock %}
+{% block content %}
+<h1>{{ pkg.data.title }}</h1>
+<p class="lead">{{ pkg.data.intro }}</p>
+<p class="notice">Es opcional y no bloquea nada: el plan de 40 días empieza igual en el día 1. El resultado te dice si te conviene hacer antes (o en paralelo) el plan base de 20 días y en qué bloques diarios (vocabulario, gramática, escucha, lectura, habla, escritura) poner más atención.</p>
+{% if pkg.status == "borrador" %}<p><span class="tag tag-draft">contenido en borrador</span></p>{% endif %}
+<ol class="lessons">
+  {% for row in rows %}
+  <li><a href="{% url 'lesson' pkg.code row.lesson.id %}">{{ row.lesson.title }}</a>
+    <span class="muted small">· ≈ {{ row.lesson.minutes }} min · {{ row.done }}/{{ row.total }}</span></li>
+  {% endfor %}
+</ol>
+<p class="muted small">En escritura y habla, después de enviar, evalúate con la rúbrica (enlace bajo cada respuesta). Solo cuenta el primer intento de cada ítem.</p>
+<p><a class="button" href="{% url 'diagnostic_result' %}">Ver o calcular el resultado</a></p>
+{% endblock %}

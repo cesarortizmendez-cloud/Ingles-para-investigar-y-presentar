@@ -1,0 +1,902 @@
+{
+ "id": "D12",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Experiencia y resultados: present perfect",
+ "day": 12,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy usas el present perfect (have done) para hablar de experiencia y de resultados que importan ahora.",
+ "objectives": [
+  {
+   "id": "D12-O1",
+   "text": "Formar el present perfect (have/has + participio)."
+  },
+  {
+   "id": "D12-O2",
+   "text": "Usar already, yet, ever y never."
+  },
+  {
+   "id": "D12-O3",
+   "text": "Decir qué has logrado hasta ahora en un proyecto."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D12-LX01",
+    "form": "so far",
+    "meaning_es": "hasta ahora",
+    "example": "So far we have collected six months of data.",
+    "example_es": "Hasta ahora hemos recolectado seis meses de datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX02",
+    "form": "already",
+    "meaning_es": "ya",
+    "example": "We have already finished the first analysis.",
+    "example_es": "Ya hemos terminado el primer análisis.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX03",
+    "form": "yet",
+    "meaning_es": "todavía (neg.), ya (preg.)",
+    "example": "We haven't published the results yet.",
+    "example_es": "Todavía no hemos publicado los resultados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX04",
+    "form": "ever",
+    "meaning_es": "alguna vez",
+    "example": "Have you ever presented at a conference?",
+    "example_es": "¿Alguna vez has presentado en un congreso?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX05",
+    "form": "never",
+    "meaning_es": "nunca",
+    "example": "I have never been to Boston.",
+    "example_es": "Nunca he estado en Boston.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX06",
+    "form": "publish",
+    "meaning_es": "publicar",
+    "example": "We want to publish two papers.",
+    "example_es": "Queremos publicar dos artículos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX07",
+    "form": "finish",
+    "meaning_es": "terminar",
+    "example": "Diego has to finish his thesis.",
+    "example_es": "Diego tiene que terminar su tesis.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX08",
+    "form": "conference",
+    "meaning_es": "congreso, conferencia",
+    "example": "The conference is in Boston.",
+    "example_es": "El congreso es en Boston.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX09",
+    "form": "present",
+    "meaning_es": "presentar",
+    "example": "Ana will present the results.",
+    "example_es": "Ana presentará los resultados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX10",
+    "form": "experience",
+    "meaning_es": "experiencia",
+    "example": "I have experience in logistics.",
+    "example_es": "Tengo experiencia en logística.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX11",
+    "form": "recently",
+    "meaning_es": "recientemente",
+    "example": "We have recently changed the model.",
+    "example_es": "Recientemente hemos cambiado el modelo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D12-LX12",
+    "form": "achieve",
+    "meaning_es": "lograr",
+    "example": "We want to achieve a ten percent reduction.",
+    "example_es": "Queremos lograr una reducción del diez por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D12-G1",
+    "topic": "Present perfect: have/has + participio"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D12-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "so far",
+     "meaning_es": "hasta ahora",
+     "example": "So far we have collected six months of data.",
+     "example_es": "Hasta ahora hemos recolectado seis meses de datos."
+    },
+    {
+     "form": "already",
+     "meaning_es": "ya",
+     "example": "We have already finished the first analysis.",
+     "example_es": "Ya hemos terminado el primer análisis."
+    },
+    {
+     "form": "yet",
+     "meaning_es": "todavía (neg.), ya (preg.)",
+     "example": "We haven't published the results yet.",
+     "example_es": "Todavía no hemos publicado los resultados."
+    },
+    {
+     "form": "ever",
+     "meaning_es": "alguna vez",
+     "example": "Have you ever presented at a conference?",
+     "example_es": "¿Alguna vez has presentado en un congreso?"
+    },
+    {
+     "form": "never",
+     "meaning_es": "nunca",
+     "example": "I have never been to Boston.",
+     "example_es": "Nunca he estado en Boston."
+    },
+    {
+     "form": "publish",
+     "meaning_es": "publicar",
+     "example": "We want to publish two papers.",
+     "example_es": "Queremos publicar dos artículos."
+    },
+    {
+     "form": "finish",
+     "meaning_es": "terminar",
+     "example": "Diego has to finish his thesis.",
+     "example_es": "Diego tiene que terminar su tesis."
+    },
+    {
+     "form": "conference",
+     "meaning_es": "congreso, conferencia",
+     "example": "The conference is in Boston.",
+     "example_es": "El congreso es en Boston."
+    },
+    {
+     "form": "present",
+     "meaning_es": "presentar",
+     "example": "Ana will present the results.",
+     "example_es": "Ana presentará los resultados."
+    },
+    {
+     "form": "experience",
+     "meaning_es": "experiencia",
+     "example": "I have experience in logistics.",
+     "example_es": "Tengo experiencia en logística."
+    },
+    {
+     "form": "recently",
+     "meaning_es": "recientemente",
+     "example": "We have recently changed the model.",
+     "example_es": "Recientemente hemos cambiado el modelo."
+    },
+    {
+     "form": "achieve",
+     "meaning_es": "lograr",
+     "example": "We want to achieve a ten percent reduction.",
+     "example_es": "Queremos lograr una reducción del diez por ciento."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D12-RG",
+   "type": "capsule",
+   "title": "Present perfect: have/has + participio",
+   "explain": "El present perfect conecta el pasado con el presente: experiencia (I have worked in logistics), resultados hasta ahora (So far we have collected…) o algo reciente.\nForma: have (I/you/we/they) o has (he/she/it) + participio pasado: worked, collected, found, written, been.\nNo se usa con un momento terminado y exacto: «I have visited Boston in 2024» es incorrecto → I visited Boston in 2024.\nPalabras típicas: already (ya), yet (todavía/ya en preguntas y negativos), ever (alguna vez), never (nunca), so far (hasta ahora).",
+   "form": [
+    [
+     "have / has + participio",
+     "We have collected data."
+    ],
+    [
+     "haven't / hasn't + participio",
+     "We haven't finished yet."
+    ],
+    [
+     "Have you ever + participio?",
+     "Have you ever presented?"
+    ],
+    [
+     "participios irregulares",
+     "found, written, been, done, made"
+    ]
+   ],
+   "examples": [
+    [
+     "So far we have collected six months of data.",
+     "Hasta ahora hemos recolectado seis meses de datos."
+    ],
+    [
+     "Ana has never been to Boston.",
+     "Ana nunca ha estado en Boston."
+    ],
+    [
+     "We haven't published the results yet.",
+     "Todavía no hemos publicado los resultados."
+    ]
+   ],
+   "tip": "«He estado» = I have been (no «I have stayed»).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D12-RR",
+   "type": "text",
+   "title": "Progress so far",
+   "body": "The project has made good progress. So far the team has collected six months of data from three sawmills. They have already finished the first analysis, and Diego has built a dashboard for the managers. They have written two internal reports, but they haven't published a paper yet. Ana has never presented at an international conference, but she has recently sent an abstract to a conference in Boston.",
+   "translation_es": "El proyecto ha avanzado bien. Hasta ahora el equipo ha recolectado seis meses de datos de tres aserraderos. Ya han terminado el primer análisis, y Diego ha construido un panel para los gerentes. Han escrito dos informes internos, pero todavía no han publicado un artículo. Ana nunca ha presentado en un congreso internacional, pero recientemente ha enviado un resumen a un congreso en Boston.",
+   "glossary": [
+    [
+     "progress",
+     "avance"
+    ],
+    [
+     "internal",
+     "internos"
+    ],
+    [
+     "abstract",
+     "resumen (de un artículo)"
+    ],
+    [
+     "sent",
+     "enviado"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D12.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D12-RV"
+   ],
+   "activities": [
+    {
+     "id": "D12.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] we have collected six months of data.  (2) We haven't published the results [[2]].  (3) I have [[3]] been to Boston.  (4) Diego has to [[4]] his thesis.  (5) The [[5]] is in Boston.  (6) I have [[6]] in logistics.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "so far"
+       ],
+       "hint": "Significa «hasta ahora»."
+      },
+      "2": {
+       "accept": [
+        "yet"
+       ],
+       "hint": "Significa «todavía (neg.), ya (preg.)»."
+      },
+      "3": {
+       "accept": [
+        "never"
+       ],
+       "hint": "Significa «nunca»."
+      },
+      "4": {
+       "accept": [
+        "finish"
+       ],
+       "hint": "Significa «terminar»."
+      },
+      "5": {
+       "accept": [
+        "conference"
+       ],
+       "hint": "Significa «congreso, conferencia»."
+      },
+      "6": {
+       "accept": [
+        "experience"
+       ],
+       "hint": "Significa «experiencia»."
+      }
+     }
+    },
+    {
+     "id": "D12.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «lograr»",
+     "accept": [
+      "achieve"
+     ],
+     "hint": "Empieza con «ac…» · Ejemplo: Queremos lograr una reducción del diez por ciento."
+    },
+    {
+     "id": "D12.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «publicar»",
+     "accept": [
+      "publish"
+     ],
+     "hint": "Empieza con «pu…» · Ejemplo: Queremos publicar dos artículos."
+    },
+    {
+     "id": "D12.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «presentar»",
+     "accept": [
+      "present"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: Ana presentará los resultados."
+    },
+    {
+     "id": "D12.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «recientemente»",
+     "accept": [
+      "recently"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Recientemente hemos cambiado el modelo."
+    },
+    {
+     "id": "D12.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «alguna vez»",
+     "accept": [
+      "ever"
+     ],
+     "hint": "Empieza con «ev…» · Ejemplo: ¿Alguna vez has presentado en un congreso?"
+    },
+    {
+     "id": "D12.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «ya»",
+     "accept": [
+      "already"
+     ],
+     "hint": "Empieza con «al…» · Ejemplo: Ya hemos terminado el primer análisis."
+    },
+    {
+     "id": "D12.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "We want to achieve a ten percent reduction.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We want to achieve a ten percent reduction."
+    }
+   ]
+  },
+  {
+   "id": "D12.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Present perfect: have/has + participio",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D12-RG"
+   ],
+   "activities": [
+    {
+     "id": "D12.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We [[1]] finished the first analysis. (have)  (2) Ana [[2]] never been to Boston.  (3) Have you [[3]] presented at a conference? (alguna vez)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "have",
+        "'ve"
+       ]
+      },
+      "2": {
+       "accept": [
+        "has"
+       ],
+       "hint": "she → has"
+      },
+      "3": {
+       "accept": [
+        "ever"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D12.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We haven't published the results [[1]].  (2) So far the team has [[2]] three reports. (write)  (3) Diego has [[3]] finished his thesis. (ya)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "yet"
+       ],
+       "hint": "negativo → yet al final"
+      },
+      "2": {
+       "accept": [
+        "written"
+       ],
+       "hint": "write → written"
+      },
+      "3": {
+       "accept": [
+        "already"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D12.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I have visited Boston in 2024."
+      },
+      {
+       "id": "b",
+       "text": "I visited Boston in 2024."
+      },
+      {
+       "id": "c",
+       "text": "I have visit Boston."
+      }
+     ],
+     "answer": "b",
+     "explanation": "fecha exacta → pasado simple"
+    },
+    {
+     "id": "D12.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Todavía no hemos terminado»",
+     "options": [
+      {
+       "id": "a",
+       "text": "We haven't finished yet."
+      },
+      {
+       "id": "b",
+       "text": "We didn't finish already."
+      },
+      {
+       "id": "c",
+       "text": "We have finished yet."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D12.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre lo que has logrado hasta ahora (so far, already, never).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "have",
+        "has",
+        "so far",
+        "already",
+        "never",
+        "yet"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D12.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: ¿Has presentado alguna vez?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D12.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Has presentado alguna vez?: escucha sin leer y responde.",
+     "audio": {
+      "text": "Have you ever presented at an international conference? No, I haven't. This will be my first time. I have presented in Chile many times, but never in English. Have you finished the paper yet? Not yet. We have already written the method section.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Have you ever presented at an international conference? No, I haven't. This will be my first time. I have presented in Chile many times, but never in English. Have you finished the paper yet? Not yet. We have already written the method section.",
+     "translation_es": "¿Alguna vez has presentado en un congreso internacional? No. Será mi primera vez. He presentado en Chile muchas veces, pero nunca en inglés. ¿Ya terminaste el artículo? Todavía no. Ya hemos escrito la sección de método.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Ana ha presentado en un congreso internacional?",
+       "label": "¿Ana ha presentado en un congreso internacional?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Sí, muchas veces"
+        },
+        {
+         "id": "b",
+         "text": "No, será su primera vez"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Dónde ha presentado antes?",
+       "label": "¿Dónde ha presentado antes?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En Chile, en español"
+        },
+        {
+         "id": "b",
+         "text": "En Boston"
+        }
+       ],
+       "answer": "a",
+       "explanation": "«in Chile… but never in English»"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué parte del artículo ya escribieron?",
+       "label": "¿Qué parte del artículo ya escribieron?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Los resultados"
+        },
+        {
+         "id": "b",
+         "text": "El método"
+        },
+        {
+         "id": "c",
+         "text": "La conclusión"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D12.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We have already written the method section.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We have already written the method section."
+    }
+   ]
+  },
+  {
+   "id": "D12.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Progress so far",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D12-RR"
+   ],
+   "activities": [
+    {
+     "id": "D12.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Han publicado ya un artículo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "Todavía no"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D12.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué ha construido Diego?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un panel para los gerentes"
+      },
+      {
+       "id": "b",
+       "text": "Un sensor nuevo"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D12.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué ha hecho Ana recientemente?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Presentar en Boston"
+      },
+      {
+       "id": "b",
+       "text": "Enviar un resumen a un congreso en Boston"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D12.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D12.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The project has made good progress. So far the team has collected six months of data from three sawmills.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The project has made good progress.",
+       "So far the team has collected six months of data from three sawmills."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D12.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Habla 30–60 s sobre tu experiencia: qué has hecho en tu carrera (I have worked…, I have taught…) y qué no has hecho todavía (I haven't… yet).",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "so far",
+        "already",
+        "yet",
+        "ever",
+        "never",
+        "publish",
+        "finish",
+        "conference",
+        "present",
+        "experience",
+        "recently",
+        "achieve"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D12.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D12.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre el avance de un proyecto tuyo: lo logrado hasta ahora y lo pendiente (so far, already, yet).",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "so far",
+        "already",
+        "yet",
+        "ever",
+        "never",
+        "publish",
+        "finish",
+        "conference",
+        "present",
+        "experience",
+        "recently",
+        "achieve"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "have",
+        "has",
+        "so far",
+        "already",
+        "never",
+        "yet"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

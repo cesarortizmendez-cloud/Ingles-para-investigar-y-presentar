@@ -1,0 +1,918 @@
+{
+ "id": "B06",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "La hora, los días y mi rutina",
+ "day": 6,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy describes tu rutina diaria con la hora y aprendes el presente simple con I, you, we, they, y las preposiciones at, on, in.",
+ "objectives": [
+  {
+   "id": "B06-O1",
+   "text": "Decir y preguntar la hora."
+  },
+  {
+   "id": "B06-O2",
+   "text": "Describir tu rutina con el presente simple."
+  },
+  {
+   "id": "B06-O3",
+   "text": "Usar at (hora), on (día) e in (parte del día)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B06-LX01",
+    "form": "get up",
+    "meaning_es": "levantarse",
+    "example": "I get up at six o'clock.",
+    "example_es": "Me levanto a las seis.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX02",
+    "form": "have breakfast",
+    "meaning_es": "tomar desayuno",
+    "example": "We have breakfast at seven.",
+    "example_es": "Tomamos desayuno a las siete.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX03",
+    "form": "go to work",
+    "meaning_es": "ir al trabajo",
+    "example": "I go to work by bus.",
+    "example_es": "Voy al trabajo en bus.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX04",
+    "form": "start",
+    "meaning_es": "empezar",
+    "example": "My classes start at eight.",
+    "example_es": "Mis clases empiezan a las ocho.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX05",
+    "form": "finish",
+    "meaning_es": "terminar",
+    "example": "I finish work at five thirty.",
+    "example_es": "Termino de trabajar a las cinco y media.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX06",
+    "form": "have lunch",
+    "meaning_es": "almorzar",
+    "example": "We have lunch at one o'clock.",
+    "example_es": "Almorzamos a la una.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX07",
+    "form": "go home",
+    "meaning_es": "irse a casa",
+    "example": "I go home at six.",
+    "example_es": "Me voy a casa a las seis.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX08",
+    "form": "go to bed",
+    "meaning_es": "acostarse",
+    "example": "I go to bed at eleven.",
+    "example_es": "Me acuesto a las once.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX09",
+    "form": "o'clock",
+    "meaning_es": "en punto (hora)",
+    "example": "The meeting is at nine o'clock.",
+    "example_es": "La reunión es a las nueve en punto.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX10",
+    "form": "half past",
+    "meaning_es": "y media",
+    "example": "It is half past ten.",
+    "example_es": "Son las diez y media.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX11",
+    "form": "every day",
+    "meaning_es": "todos los días",
+    "example": "I study English every day.",
+    "example_es": "Estudio inglés todos los días.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B06-LX12",
+    "form": "weekend",
+    "meaning_es": "fin de semana",
+    "example": "I don't work on the weekend.",
+    "example_es": "No trabajo el fin de semana.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B06-G1",
+    "topic": "Presente simple (I, you, we, they) y la hora con at, on, in"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B06-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "get up",
+     "meaning_es": "levantarse",
+     "example": "I get up at six o'clock.",
+     "example_es": "Me levanto a las seis."
+    },
+    {
+     "form": "have breakfast",
+     "meaning_es": "tomar desayuno",
+     "example": "We have breakfast at seven.",
+     "example_es": "Tomamos desayuno a las siete."
+    },
+    {
+     "form": "go to work",
+     "meaning_es": "ir al trabajo",
+     "example": "I go to work by bus.",
+     "example_es": "Voy al trabajo en bus."
+    },
+    {
+     "form": "start",
+     "meaning_es": "empezar",
+     "example": "My classes start at eight.",
+     "example_es": "Mis clases empiezan a las ocho."
+    },
+    {
+     "form": "finish",
+     "meaning_es": "terminar",
+     "example": "I finish work at five thirty.",
+     "example_es": "Termino de trabajar a las cinco y media."
+    },
+    {
+     "form": "have lunch",
+     "meaning_es": "almorzar",
+     "example": "We have lunch at one o'clock.",
+     "example_es": "Almorzamos a la una."
+    },
+    {
+     "form": "go home",
+     "meaning_es": "irse a casa",
+     "example": "I go home at six.",
+     "example_es": "Me voy a casa a las seis."
+    },
+    {
+     "form": "go to bed",
+     "meaning_es": "acostarse",
+     "example": "I go to bed at eleven.",
+     "example_es": "Me acuesto a las once."
+    },
+    {
+     "form": "o'clock",
+     "meaning_es": "en punto (hora)",
+     "example": "The meeting is at nine o'clock.",
+     "example_es": "La reunión es a las nueve en punto."
+    },
+    {
+     "form": "half past",
+     "meaning_es": "y media",
+     "example": "It is half past ten.",
+     "example_es": "Son las diez y media."
+    },
+    {
+     "form": "every day",
+     "meaning_es": "todos los días",
+     "example": "I study English every day.",
+     "example_es": "Estudio inglés todos los días."
+    },
+    {
+     "form": "weekend",
+     "meaning_es": "fin de semana",
+     "example": "I don't work on the weekend.",
+     "example_es": "No trabajo el fin de semana."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B06-RG",
+   "type": "capsule",
+   "title": "Presente simple (I, you, we, they) y la hora con at, on, in",
+   "explain": "El presente simple sirve para hábitos y rutinas: I work, we study, they live.\nCon I, you, we, they el verbo no cambia: I get up, they get up.\nLa hora: at + hora (at seven, at half past eight) · on + día (on Monday, on the weekend) · in + parte del día (in the morning, in the afternoon, in the evening), pero at night.\nPara preguntar la hora: What time is it? It's seven o'clock.",
+   "form": [
+    [
+     "I / you / we / they + verbo",
+     "I work · they study"
+    ],
+    [
+     "at + hora",
+     "at 7:00 · at half past eight"
+    ],
+    [
+     "on + día",
+     "on Monday · on the weekend"
+    ],
+    [
+     "in the morning / afternoon / evening · at night",
+     "en la mañana / tarde / noche"
+    ]
+   ],
+   "examples": [
+    [
+     "I get up at six thirty.",
+     "Me levanto a las seis y media."
+    ],
+    [
+     "We work on Saturdays.",
+     "Trabajamos los sábados."
+    ],
+    [
+     "They study in the evening.",
+     "Ellos estudian en la tarde-noche."
+    ],
+    [
+     "What time is it? It's nine o'clock.",
+     "¿Qué hora es? Son las nueve."
+    ]
+   ],
+   "tip": "Los días y los meses van con mayúscula en inglés: Monday, July.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B06-RR",
+   "type": "text",
+   "title": "A week in Boston",
+   "body": "Tomás has a busy week. From Monday to Friday, he has classes in the morning and visits laboratories in the afternoon. On Wednesdays, he finishes early, at two o'clock, and goes to the library. On the weekend, he does not have classes. On Saturday morning he goes to a museum, and on Sunday he calls his family in Chile.",
+   "translation_es": "Tomás tiene una semana ocupada. De lunes a viernes tiene clases en la mañana y visita laboratorios en la tarde. Los miércoles termina temprano, a las dos, y va a la biblioteca. El fin de semana no tiene clases. El sábado en la mañana va a un museo y el domingo llama a su familia en Chile.",
+   "glossary": [
+    [
+     "busy",
+     "ocupado/a"
+    ],
+    [
+     "early",
+     "temprano"
+    ],
+    [
+     "library",
+     "biblioteca"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B06.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B06-RV"
+   ],
+   "activities": [
+    {
+     "id": "B06.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I [[1]] by bus.  (2) I [[2]] work at five thirty.  (3) We [[3]] at one o'clock.  (4) I [[4]] at eleven.  (5) I study English [[5]].  (6) I don't work on the [[6]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "go to work"
+       ],
+       "hint": "Significa «ir al trabajo»."
+      },
+      "2": {
+       "accept": [
+        "finish"
+       ],
+       "hint": "Significa «terminar»."
+      },
+      "3": {
+       "accept": [
+        "have lunch"
+       ],
+       "hint": "Significa «almorzar»."
+      },
+      "4": {
+       "accept": [
+        "go to bed"
+       ],
+       "hint": "Significa «acostarse»."
+      },
+      "5": {
+       "accept": [
+        "every day"
+       ],
+       "hint": "Significa «todos los días»."
+      },
+      "6": {
+       "accept": [
+        "weekend"
+       ],
+       "hint": "Significa «fin de semana»."
+      }
+     }
+    },
+    {
+     "id": "B06.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «y media»",
+     "accept": [
+      "half past"
+     ],
+     "hint": "Empieza con «ha…» · Ejemplo: Son las diez y media."
+    },
+    {
+     "id": "B06.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «irse a casa»",
+     "accept": [
+      "go home"
+     ],
+     "hint": "Empieza con «go…» · Ejemplo: Me voy a casa a las seis."
+    },
+    {
+     "id": "B06.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «levantarse»",
+     "accept": [
+      "get up"
+     ],
+     "hint": "Empieza con «ge…» · Ejemplo: Me levanto a las seis."
+    },
+    {
+     "id": "B06.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «empezar»",
+     "accept": [
+      "start"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: Mis clases empiezan a las ocho."
+    },
+    {
+     "id": "B06.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tomar desayuno»",
+     "accept": [
+      "have breakfast"
+     ],
+     "hint": "Empieza con «ha…» · Ejemplo: Tomamos desayuno a las siete."
+    },
+    {
+     "id": "B06.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en punto (hora)»",
+     "accept": [
+      "o'clock"
+     ],
+     "hint": "Empieza con «o'…» · Ejemplo: La reunión es a las nueve en punto."
+    },
+    {
+     "id": "B06.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "It is half past ten.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "It is half past ten."
+    }
+   ]
+  },
+  {
+   "id": "B06.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Presente simple (I, you, we, they) y la hora con at, on, in",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B06-RG"
+   ],
+   "activities": [
+    {
+     "id": "B06.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I get up [[1]] seven o'clock.  (2) We have English class [[2]] Monday.  (3) They work [[3]] the morning.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "at"
+       ],
+       "hint": "Hora → at."
+      },
+      "2": {
+       "accept": [
+        "on"
+       ],
+       "hint": "Día → on."
+      },
+      "3": {
+       "accept": [
+        "in"
+       ],
+       "hint": "Parte del día → in."
+      }
+     }
+    },
+    {
+     "id": "B06.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I go to bed late [[1]] night.  (2) My children [[2]] to school by bus.  (3) What time [[3]] it? It's ten.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "at"
+       ],
+       "hint": "Excepción: at night."
+      },
+      "2": {
+       "accept": [
+        "go"
+       ],
+       "hint": "they → go (sin -s)."
+      },
+      "3": {
+       "accept": [
+        "is"
+       ],
+       "hint": "What time is it?"
+      }
+     }
+    },
+    {
+     "id": "B06.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Trabajo los sábados» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I work in Saturdays."
+      },
+      {
+       "id": "b",
+       "text": "I work on Saturdays."
+      },
+      {
+       "id": "c",
+       "text": "I work at Saturdays."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Días → on."
+    },
+    {
+     "id": "B06.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Son las ocho y media» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "It is half past eight."
+      },
+      {
+       "id": "b",
+       "text": "It is eight and half."
+      },
+      {
+       "id": "c",
+       "text": "It is half eight past."
+      }
+     ],
+     "answer": "a",
+     "explanation": "half past + hora (también: eight thirty)."
+    },
+    {
+     "id": "B06.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tu rutina con la hora (I get up at…, I go to work at…, On Saturdays I…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "at",
+        "on",
+        "in the"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B06.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: La rutina de Tomás en Boston",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B06.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La rutina de Tomás en Boston: escucha sin leer y responde.",
+     "audio": {
+      "text": "In Boston, I get up at half past six. I have breakfast at seven with Linda's family. My classes start at nine o'clock and finish at three. I have lunch at the university at twelve. In the evening, I study English for one hour, and I go to bed at eleven.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "In Boston, I get up at half past six. I have breakfast at seven with Linda's family. My classes start at nine o'clock and finish at three. I have lunch at the university at twelve. In the evening, I study English for one hour, and I go to bed at eleven.",
+     "translation_es": "En Boston me levanto a las seis y media. Tomo desayuno a las siete con la familia de Linda. Mis clases empiezan a las nueve y terminan a las tres. Almuerzo en la universidad a las doce. En la tarde-noche estudio inglés una hora y me acuesto a las once.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿A qué hora se levanta Tomás?",
+       "label": "¿A qué hora se levanta Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "6:00"
+        },
+        {
+         "id": "b",
+         "text": "6:30"
+        },
+        {
+         "id": "c",
+         "text": "7:30"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Dónde almuerza?",
+       "label": "¿Dónde almuerza?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En casa"
+        },
+        {
+         "id": "b",
+         "text": "En la universidad"
+        },
+        {
+         "id": "c",
+         "text": "En un restaurante"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué hace en la tarde-noche?",
+       "label": "¿Qué hace en la tarde-noche?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Ve televisión"
+        },
+        {
+         "id": "b",
+         "text": "Estudia inglés"
+        },
+        {
+         "id": "c",
+         "text": "Trabaja"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B06.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "My classes start at nine o'clock and finish at three.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "My classes start at nine o'clock and finish at three."
+    }
+   ]
+  },
+  {
+   "id": "B06.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A week in Boston",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B06-RR"
+   ],
+   "activities": [
+    {
+     "id": "B06.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hace Tomás en las tardes de lunes a viernes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Visita laboratorios"
+      },
+      {
+       "id": "b",
+       "text": "Va al museo"
+      },
+      {
+       "id": "c",
+       "text": "Duerme"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B06.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo termina temprano?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Los lunes"
+      },
+      {
+       "id": "b",
+       "text": "Los miércoles"
+      },
+      {
+       "id": "c",
+       "text": "Los viernes"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B06.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hace los domingos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Llama a su familia"
+      },
+      {
+       "id": "b",
+       "text": "Va a la biblioteca"
+      },
+      {
+       "id": "c",
+       "text": "Tiene clases"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "B06.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B06.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Tomás has a busy week. From Monday to Friday, he has classes in the morning and visits laboratories in the afternoon.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Tomás has a busy week.",
+       "From Monday to Friday, he has classes in the morning and visits laboratories in the afternoon."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B06.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe tu día típico en 30–60 s, con horas: I get up at…, I go to work at…, I have lunch at…, I go to bed at…",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "get up",
+        "have breakfast",
+        "go to work",
+        "start",
+        "finish",
+        "have lunch",
+        "go home",
+        "go to bed",
+        "o'clock",
+        "half past",
+        "every day",
+        "weekend"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B06.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B06.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tu rutina de un día de semana (25–60 palabras) con al menos tres horas.",
+     "min_words": 25,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "get up",
+        "have breakfast",
+        "go to work",
+        "start",
+        "finish",
+        "have lunch",
+        "go home",
+        "go to bed",
+        "o'clock",
+        "half past",
+        "every day",
+        "weekend"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "at",
+        "on",
+        "in the"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{% load course_tags %}
+<div class="recorder" data-recorder data-activity="{{ a.id }}" data-package="{{ vm.package.pk }}"
+     data-min="{{ a.min_seconds }}" data-max="{{ a.max_seconds }}" data-upload="{% url 'recording_upload' %}">
+  <div class="rec-controls">
+    <button type="button" data-action="test">Probar micrófono</button>
+    <button type="button" data-action="start">● Grabar</button>
+    <button type="button" data-action="stop" disabled>■ Detener</button>
+    <span class="rec-timer" aria-live="off">0:00</span>
+    <span class="muted small">objetivo {{ a.min_seconds }}–{{ a.max_seconds }} s</span>
+  </div>
+  <meter data-level min="0" max="1" value="0" aria-label="Nivel del micrófono"></meter>
+  <p class="rec-status small" role="status"></p>
+  <audio data-playback controls hidden></audio>
+  <label class="block small">Transcripción (editable; corrige lo que el reconocimiento entendió mal)
+    <textarea name="transcript" rows="3" lang="en" data-transcript></textarea></label>
+  <p class="muted small">Si el navegador ofrece reconocimiento de voz, la transcripción se llena sola. Reconocer palabras no equivale a medir pronunciación:
+    el comentario automático se limita al texto y no evalúa sonidos ni entonación.</p>
+  <input type="hidden" name="recording_id" value="" data-recording-id>
+</div>
+<label class="small"><input type="checkbox" name="no_mic" value="1"{% if vm.no_mic %} checked{% endif %}> No puedo grabar ahora: guardar como pendiente de evidencia</label>
+
+{% if a.self_check %}
+<fieldset class="selfcheck small"><legend>Autochequeo después de escucharte (no se envía)</legend>
+  {% for s in a.self_check %}<label class="opt"><input type="checkbox"> {{ s }}</label>{% endfor %}
+</fieldset>
+{% endif %}
+
+{% if vm.recordings %}
+<details class="small"><summary>Tus grabaciones recientes ({{ vm.recordings|length }})</summary>
+  <ul class="recordings">
+    {% for r in vm.recordings %}<li>{{ r.created_at|date:"d-m H:i" }}{% if r.duration_s %} · {{ r.duration_s|floatformat:0 }} s{% endif %}
+      <audio controls preload="none" src="{% url 'recording_stream' r.id %}"></audio></li>{% endfor %}
+  </ul>
+  <p>Compara con el modelo usando el botón ▶ de arriba.</p>
+</details>
+{% endif %}

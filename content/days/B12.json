@@ -1,0 +1,920 @@
+{
+ "id": "B12",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "De compras: precios, tallas y pagar",
+ "day": 12,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a comprar: preguntar precios (How much…?), cantidades (How many…?), tallas, y pedir permiso con «can».",
+ "objectives": [
+  {
+   "id": "B12-O1",
+   "text": "Preguntar precios y entender cifras en dólares."
+  },
+  {
+   "id": "B12-O2",
+   "text": "Usar how much / how many correctamente."
+  },
+  {
+   "id": "B12-O3",
+   "text": "Pedir permiso y ayuda con can (Can I pay by card?)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B12-LX01",
+    "form": "shop",
+    "meaning_es": "tienda",
+    "example": "This shop sells shoes.",
+    "example_es": "Esta tienda vende zapatos.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX02",
+    "form": "buy",
+    "meaning_es": "comprar",
+    "example": "I want to buy a jacket.",
+    "example_es": "Quiero comprar una chaqueta.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX03",
+    "form": "price",
+    "meaning_es": "precio",
+    "example": "What is the price of this bag?",
+    "example_es": "¿Cuál es el precio de este bolso?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX04",
+    "form": "cost",
+    "meaning_es": "costar",
+    "example": "How much does it cost?",
+    "example_es": "¿Cuánto cuesta?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX05",
+    "form": "cheap",
+    "meaning_es": "barato",
+    "example": "This shirt is cheap.",
+    "example_es": "Esta camisa es barata.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX06",
+    "form": "expensive",
+    "meaning_es": "caro",
+    "example": "The jacket is too expensive.",
+    "example_es": "La chaqueta es demasiado cara.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX07",
+    "form": "size",
+    "meaning_es": "talla",
+    "example": "What size are you? Medium.",
+    "example_es": "¿Qué talla eres? Mediana.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX08",
+    "form": "pay",
+    "meaning_es": "pagar",
+    "example": "Can I pay by card?",
+    "example_es": "¿Puedo pagar con tarjeta?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX09",
+    "form": "cash",
+    "meaning_es": "efectivo",
+    "example": "I don't have any cash.",
+    "example_es": "No tengo efectivo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX10",
+    "form": "credit card",
+    "meaning_es": "tarjeta de crédito",
+    "example": "Can I use my credit card here?",
+    "example_es": "¿Puedo usar mi tarjeta de crédito aquí?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX11",
+    "form": "try on",
+    "meaning_es": "probarse (ropa)",
+    "example": "Can I try on this jacket?",
+    "example_es": "¿Puedo probarme esta chaqueta?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B12-LX12",
+    "form": "receipt",
+    "meaning_es": "boleta, recibo",
+    "example": "Here is your receipt.",
+    "example_es": "Aquí está su boleta.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B12-G1",
+    "topic": "How much / how many y can para pedir y poder"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B12-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "shop",
+     "meaning_es": "tienda",
+     "example": "This shop sells shoes.",
+     "example_es": "Esta tienda vende zapatos."
+    },
+    {
+     "form": "buy",
+     "meaning_es": "comprar",
+     "example": "I want to buy a jacket.",
+     "example_es": "Quiero comprar una chaqueta."
+    },
+    {
+     "form": "price",
+     "meaning_es": "precio",
+     "example": "What is the price of this bag?",
+     "example_es": "¿Cuál es el precio de este bolso?"
+    },
+    {
+     "form": "cost",
+     "meaning_es": "costar",
+     "example": "How much does it cost?",
+     "example_es": "¿Cuánto cuesta?"
+    },
+    {
+     "form": "cheap",
+     "meaning_es": "barato",
+     "example": "This shirt is cheap.",
+     "example_es": "Esta camisa es barata."
+    },
+    {
+     "form": "expensive",
+     "meaning_es": "caro",
+     "example": "The jacket is too expensive.",
+     "example_es": "La chaqueta es demasiado cara."
+    },
+    {
+     "form": "size",
+     "meaning_es": "talla",
+     "example": "What size are you? Medium.",
+     "example_es": "¿Qué talla eres? Mediana."
+    },
+    {
+     "form": "pay",
+     "meaning_es": "pagar",
+     "example": "Can I pay by card?",
+     "example_es": "¿Puedo pagar con tarjeta?"
+    },
+    {
+     "form": "cash",
+     "meaning_es": "efectivo",
+     "example": "I don't have any cash.",
+     "example_es": "No tengo efectivo."
+    },
+    {
+     "form": "credit card",
+     "meaning_es": "tarjeta de crédito",
+     "example": "Can I use my credit card here?",
+     "example_es": "¿Puedo usar mi tarjeta de crédito aquí?"
+    },
+    {
+     "form": "try on",
+     "meaning_es": "probarse (ropa)",
+     "example": "Can I try on this jacket?",
+     "example_es": "¿Puedo probarme esta chaqueta?"
+    },
+    {
+     "form": "receipt",
+     "meaning_es": "boleta, recibo",
+     "example": "Here is your receipt.",
+     "example_es": "Aquí está su boleta."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B12-RG",
+   "type": "capsule",
+   "title": "How much / how many y can para pedir y poder",
+   "explain": "How much…? para el precio y para cosas incontables: How much is it? How much water? How many…? para cosas contables: How many shirts?\nPrecios: It's twenty dollars ($20). It's nine ninety-nine ($9.99).\nCan = poder (habilidad o permiso): Can I pay by card? Can you help me? Negativo: can't (cannot). Después de can el verbo va sin «to» y sin -s: She can speak English.",
+   "form": [
+    [
+     "How much is / are…?",
+     "¿Cuánto cuesta/n…?"
+    ],
+    [
+     "How many + plural?",
+     "¿Cuántos/as…?"
+    ],
+    [
+     "Can I…? · Can you…?",
+     "¿Puedo…? · ¿Puede…?"
+    ],
+    [
+     "can + verbo base",
+     "She can pay · I can't pay"
+    ]
+   ],
+   "examples": [
+    [
+     "How much is this jacket? It's eighty dollars.",
+     "¿Cuánto cuesta esta chaqueta? Ochenta dólares."
+    ],
+    [
+     "How many bags do you want?",
+     "¿Cuántas bolsas quiere?"
+    ],
+    [
+     "Can I try it on?",
+     "¿Me la puedo probar?"
+    ],
+    [
+     "I can't pay in cash.",
+     "No puedo pagar en efectivo."
+    ]
+   ],
+   "tip": "Error típico: «Can I to pay?» → correcto: «Can I pay?».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B12-RR",
+   "type": "text",
+   "title": "Shopping in Boston",
+   "body": "Tomás needs some presents for his family. He goes to a big shopping center near the university. There are many shops, and some are very expensive. He buys a red cap for Diego, a book for Sofía and a scarf for Carmen. The prices are good because there is a sale. He pays with his credit card and keeps the receipts in his wallet.",
+   "translation_es": "Tomás necesita regalos para su familia. Va a un centro comercial grande cerca de la universidad. Hay muchas tiendas y algunas son muy caras. Compra un jockey rojo para Diego, un libro para Sofía y una bufanda para Carmen. Los precios son buenos porque hay liquidación. Paga con su tarjeta de crédito y guarda las boletas en su billetera.",
+   "glossary": [
+    [
+     "presents",
+     "regalos"
+    ],
+    [
+     "sale",
+     "liquidación, oferta"
+    ],
+    [
+     "wallet",
+     "billetera"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B12.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B12-RV"
+   ],
+   "activities": [
+    {
+     "id": "B12.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) What is the [[1]] of this bag?  (2) How much does it [[2]]?  (3) This shirt is [[3]].  (4) Can I [[4]] by card?  (5) Can I [[5]] this jacket?  (6) Here is your [[6]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "price"
+       ],
+       "hint": "Significa «precio»."
+      },
+      "2": {
+       "accept": [
+        "cost"
+       ],
+       "hint": "Significa «costar»."
+      },
+      "3": {
+       "accept": [
+        "cheap"
+       ],
+       "hint": "Significa «barato»."
+      },
+      "4": {
+       "accept": [
+        "pay"
+       ],
+       "hint": "Significa «pagar»."
+      },
+      "5": {
+       "accept": [
+        "try on"
+       ],
+       "hint": "Significa «probarse (ropa)»."
+      },
+      "6": {
+       "accept": [
+        "receipt"
+       ],
+       "hint": "Significa «boleta, recibo»."
+      }
+     }
+    },
+    {
+     "id": "B12.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «comprar»",
+     "accept": [
+      "buy"
+     ],
+     "hint": "Empieza con «bu…» · Ejemplo: Quiero comprar una chaqueta."
+    },
+    {
+     "id": "B12.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «efectivo»",
+     "accept": [
+      "cash"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: No tengo efectivo."
+    },
+    {
+     "id": "B12.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «caro»",
+     "accept": [
+      "expensive"
+     ],
+     "hint": "Empieza con «ex…» · Ejemplo: La chaqueta es demasiado cara."
+    },
+    {
+     "id": "B12.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «talla»",
+     "accept": [
+      "size"
+     ],
+     "hint": "Empieza con «si…» · Ejemplo: ¿Qué talla eres? Mediana."
+    },
+    {
+     "id": "B12.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tienda»",
+     "accept": [
+      "shop"
+     ],
+     "hint": "Empieza con «sh…» · Ejemplo: Esta tienda vende zapatos."
+    },
+    {
+     "id": "B12.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tarjeta de crédito»",
+     "accept": [
+      "credit card"
+     ],
+     "hint": "Empieza con «cr…» · Ejemplo: ¿Puedo usar mi tarjeta de crédito aquí?"
+    },
+    {
+     "id": "B12.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "I want to buy a jacket.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I want to buy a jacket."
+    }
+   ]
+  },
+  {
+   "id": "B12.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: How much / how many y can para pedir y poder",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B12-RG"
+   ],
+   "activities": [
+    {
+     "id": "B12.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) How [[1]] is this shirt? It's $25.  (2) How [[2]] people are in the shop?  (3) [[3]] I pay by card?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "much"
+       ],
+       "hint": "Precio → how much."
+      },
+      "2": {
+       "accept": [
+        "many"
+       ],
+       "hint": "Contable → how many."
+      },
+      "3": {
+       "accept": [
+        "can"
+       ],
+       "hint": "Pedir permiso → Can I…?"
+      }
+     }
+    },
+    {
+     "id": "B12.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) She can [[1]] English and Spanish. (speak)  (2) Sorry, I [[2]] pay in cash. I only have a card.  (3) How much [[3]] these shoes?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "speak"
+       ],
+       "hint": "can + verbo base."
+      },
+      "2": {
+       "accept": [
+        "can't",
+        "cannot"
+       ],
+       "hint": "Negativo de can."
+      },
+      "3": {
+       "accept": [
+        "are"
+       ],
+       "hint": "these shoes es plural → are."
+      }
+     }
+    },
+    {
+     "id": "B12.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Can I to try on this?"
+      },
+      {
+       "id": "b",
+       "text": "Can I try this on?"
+      },
+      {
+       "id": "c",
+       "text": "I can try on this?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "can + verbo base, sin to."
+    },
+    {
+     "id": "B12.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Para preguntar por una cantidad de manzanas:",
+     "options": [
+      {
+       "id": "a",
+       "text": "How much apples?"
+      },
+      {
+       "id": "b",
+       "text": "How many apples?"
+      },
+      {
+       "id": "c",
+       "text": "How many apple?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "apples es contable → how many."
+    },
+    {
+     "id": "B12.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un diálogo de compra de tres líneas (How much is…? Can I try…? Can I pay…?).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "how much",
+        "how many",
+        "can i"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B12.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: En una tienda de ropa",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B12.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "En una tienda de ropa: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hello, can I help you? Yes, I'm looking for a warm jacket. What size are you? Large, I think. This one is very warm. How much is it? It's ninety dollars. That's expensive. This black one is cheaper: sixty dollars. Can I try it on? Of course. It fits well. I'll take it. Can I pay by card? Yes, no problem.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hello, can I help you? Yes, I'm looking for a warm jacket. What size are you? Large, I think. This one is very warm. How much is it? It's ninety dollars. That's expensive. This black one is cheaper: sixty dollars. Can I try it on? Of course. It fits well. I'll take it. Can I pay by card? Yes, no problem.",
+     "translation_es": "Hola, ¿le puedo ayudar? Sí, busco una chaqueta abrigada. ¿Qué talla es? Grande, creo. Esta es muy abrigada. ¿Cuánto cuesta? Noventa dólares. Es cara. Esta negra es más barata: sesenta dólares. ¿Me la puedo probar? Por supuesto. Me queda bien. Me la llevo. ¿Puedo pagar con tarjeta? Sí, no hay problema.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué busca el cliente?",
+       "label": "¿Qué busca el cliente?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Zapatos"
+        },
+        {
+         "id": "b",
+         "text": "Una chaqueta abrigada"
+        },
+        {
+         "id": "c",
+         "text": "Una camisa"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto cuesta la chaqueta negra?",
+       "label": "¿Cuánto cuesta la chaqueta negra?",
+       "options": [
+        {
+         "id": "a",
+         "text": "$90"
+        },
+        {
+         "id": "b",
+         "text": "$60"
+        },
+        {
+         "id": "c",
+         "text": "$16"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cómo paga?",
+       "label": "¿Cómo paga?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En efectivo"
+        },
+        {
+         "id": "b",
+         "text": "Con tarjeta"
+        },
+        {
+         "id": "c",
+         "text": "No paga"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B12.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Can I pay by card?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Can I pay by card?"
+    }
+   ]
+  },
+  {
+   "id": "B12.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Shopping in Boston",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B12-RR"
+   ],
+   "activities": [
+    {
+     "id": "B12.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué compra para Sofía?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un jockey"
+      },
+      {
+       "id": "b",
+       "text": "Un libro"
+      },
+      {
+       "id": "c",
+       "text": "Una bufanda"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B12.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué los precios son buenos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Hay liquidación"
+      },
+      {
+       "id": "b",
+       "text": "Es temporada baja"
+      },
+      {
+       "id": "c",
+       "text": "Usa un cupón"
+      }
+     ],
+     "answer": "a",
+     "explanation": "«there is a sale»."
+    },
+    {
+     "id": "B12.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde guarda las boletas?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En la bolsa"
+      },
+      {
+       "id": "b",
+       "text": "En su billetera"
+      },
+      {
+       "id": "c",
+       "text": "En el hotel"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B12.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B12.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Tomás needs some presents for his family. He goes to a big shopping center near the university.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Tomás needs some presents for his family.",
+       "He goes to a big shopping center near the university."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B12.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Juego de roles (30–60 s): compras un regalo; pregunta el precio y la talla, pide probártelo y pregunta si puedes pagar con tarjeta.",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "shop",
+        "buy",
+        "price",
+        "cost",
+        "cheap",
+        "expensive",
+        "size",
+        "pay",
+        "cash",
+        "credit card",
+        "try on",
+        "receipt"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B12.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B12.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 30–60 palabras sobre algo que quieres comprar: qué es, cuánto cuesta y cómo vas a pagar.",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "shop",
+        "buy",
+        "price",
+        "cost",
+        "cheap",
+        "expensive",
+        "size",
+        "pay",
+        "cash",
+        "credit card",
+        "try on",
+        "receipt"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "how much",
+        "how many",
+        "can i"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

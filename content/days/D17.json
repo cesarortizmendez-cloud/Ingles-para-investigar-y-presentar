@@ -1,0 +1,915 @@
+{
+ "id": "D17",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Participios irregulares que aparecen en todos los papers",
+ "day": 17,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "La pasiva necesita participios, y muchos de los más usados en investigación son irregulares: found, made, taken, chosen, shown, given…",
+ "objectives": [
+  {
+   "id": "D17-O1",
+   "text": "Memorizar 12 participios irregulares frecuentes en investigación."
+  },
+  {
+   "id": "D17-O2",
+   "text": "Usarlos en pasiva (was found, were taken)."
+  },
+  {
+   "id": "D17-O3",
+   "text": "Distinguir pasado simple (took) de participio (taken)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D17-LX01",
+    "form": "sent",
+    "meaning_es": "enviado (send)",
+    "example": "The survey was sent to forty managers.",
+    "example_es": "La encuesta fue enviada a cuarenta gerentes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX02",
+    "form": "taken",
+    "meaning_es": "tomado (take)",
+    "example": "Samples were taken every hour.",
+    "example_es": "Se tomaron muestras cada hora.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX03",
+    "form": "chosen",
+    "meaning_es": "elegido (choose)",
+    "example": "This method was chosen for its simplicity.",
+    "example_es": "Este método fue elegido por su simplicidad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX04",
+    "form": "shown",
+    "meaning_es": "mostrado (show)",
+    "example": "The results are shown in Table 2.",
+    "example_es": "Los resultados se muestran en la Tabla 2.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX05",
+    "form": "given",
+    "meaning_es": "dado (give)",
+    "example": "Each participant was given a short survey.",
+    "example_es": "A cada participante se le dio una encuesta breve.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX06",
+    "form": "written",
+    "meaning_es": "escrito (write)",
+    "example": "The code was written in Python.",
+    "example_es": "El código fue escrito en Python.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX07",
+    "form": "held",
+    "meaning_es": "realizado, celebrado (hold)",
+    "example": "The workshop was held in Concepción.",
+    "example_es": "El taller se realizó en Concepción.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX08",
+    "form": "known",
+    "meaning_es": "conocido (know)",
+    "example": "This effect is well known.",
+    "example_es": "Este efecto es bien conocido.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX09",
+    "form": "seen",
+    "meaning_es": "visto (see)",
+    "example": "A similar pattern is seen in other studies.",
+    "example_es": "Un patrón similar se ve en otros estudios.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX10",
+    "form": "been",
+    "meaning_es": "sido, estado (be)",
+    "example": "This method has been used for years.",
+    "example_es": "Este método se ha usado durante años.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX11",
+    "form": "done",
+    "meaning_es": "hecho, realizado (do)",
+    "example": "The analysis was done twice.",
+    "example_es": "El análisis se realizó dos veces.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D17-LX12",
+    "form": "table",
+    "meaning_es": "tabla",
+    "example": "Table 1 shows the sample.",
+    "example_es": "La Tabla 1 muestra la muestra.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D17-G1",
+    "topic": "Participios irregulares en la pasiva"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D17-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "sent",
+     "meaning_es": "enviado (send)",
+     "example": "The survey was sent to forty managers.",
+     "example_es": "La encuesta fue enviada a cuarenta gerentes."
+    },
+    {
+     "form": "taken",
+     "meaning_es": "tomado (take)",
+     "example": "Samples were taken every hour.",
+     "example_es": "Se tomaron muestras cada hora."
+    },
+    {
+     "form": "chosen",
+     "meaning_es": "elegido (choose)",
+     "example": "This method was chosen for its simplicity.",
+     "example_es": "Este método fue elegido por su simplicidad."
+    },
+    {
+     "form": "shown",
+     "meaning_es": "mostrado (show)",
+     "example": "The results are shown in Table 2.",
+     "example_es": "Los resultados se muestran en la Tabla 2."
+    },
+    {
+     "form": "given",
+     "meaning_es": "dado (give)",
+     "example": "Each participant was given a short survey.",
+     "example_es": "A cada participante se le dio una encuesta breve."
+    },
+    {
+     "form": "written",
+     "meaning_es": "escrito (write)",
+     "example": "The code was written in Python.",
+     "example_es": "El código fue escrito en Python."
+    },
+    {
+     "form": "held",
+     "meaning_es": "realizado, celebrado (hold)",
+     "example": "The workshop was held in Concepción.",
+     "example_es": "El taller se realizó en Concepción."
+    },
+    {
+     "form": "known",
+     "meaning_es": "conocido (know)",
+     "example": "This effect is well known.",
+     "example_es": "Este efecto es bien conocido."
+    },
+    {
+     "form": "seen",
+     "meaning_es": "visto (see)",
+     "example": "A similar pattern is seen in other studies.",
+     "example_es": "Un patrón similar se ve en otros estudios."
+    },
+    {
+     "form": "been",
+     "meaning_es": "sido, estado (be)",
+     "example": "This method has been used for years.",
+     "example_es": "Este método se ha usado durante años."
+    },
+    {
+     "form": "done",
+     "meaning_es": "hecho, realizado (do)",
+     "example": "The analysis was done twice.",
+     "example_es": "El análisis se realizó dos veces."
+    },
+    {
+     "form": "table",
+     "meaning_es": "tabla",
+     "example": "Table 1 shows the sample.",
+     "example_es": "La Tabla 1 muestra la muestra."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D17-RG",
+   "type": "capsule",
+   "title": "Participios irregulares en la pasiva",
+   "explain": "Cada verbo tiene tres formas: base – pasado – participio. En los regulares, pasado y participio son iguales (used – used).\nEn los irregulares pueden cambiar: take – took – taken; choose – chose – chosen; write – wrote – written; show – showed – shown; give – gave – given; do – did – done.\nOtros tienen pasado y participio iguales: find – found – found; make – made – made; build – built – built.\nLa pasiva y el present perfect usan el PARTICIPIO: «Samples were taken» (no «were took»).",
+   "form": [
+    [
+     "take – took – taken",
+     "were taken"
+    ],
+    [
+     "choose – chose – chosen",
+     "was chosen"
+    ],
+    [
+     "write – wrote – written",
+     "was written"
+    ],
+    [
+     "show – showed – shown",
+     "are shown"
+    ],
+    [
+     "give – gave – given · do – did – done",
+     "was given · was done"
+    ],
+    [
+     "find/make/build: found, made, built",
+     "pasado = participio"
+    ]
+   ],
+   "examples": [
+    [
+     "The results are shown in Table 2.",
+     "Los resultados se muestran en la Tabla 2."
+    ],
+    [
+     "Samples were taken every hour.",
+     "Se tomaron muestras cada hora."
+    ],
+    [
+     "No significant difference was found.",
+     "No se encontró una diferencia significativa."
+    ]
+   ],
+   "tip": "«Se muestra en la Figura 1» = is shown in Figure 1. Frase muy útil al presentar.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D17-RR",
+   "type": "text",
+   "title": "Changes to the model",
+   "body": "After the first analysis, the team made some decisions. Outside temperature was chosen as a new variable, because energy use is known to increase in winter. Samples were taken every hour instead of every minute, and the code was written again in Python. A prototype of the dashboard was built and given to the managers. The new results are shown in Table 3. No significant difference was found between the two day shifts.",
+   "translation_es": "Después del primer análisis, el equipo tomó algunas decisiones. Se eligió la temperatura exterior como variable nueva, porque se sabe que el uso de energía aumenta en invierno. Se tomaron muestras cada hora en vez de cada minuto, y el código se volvió a escribir en Python. Se construyó un prototipo del panel y se entregó a los gerentes. Los nuevos resultados se muestran en la Tabla 3. No se encontró una diferencia significativa entre los dos turnos de día.",
+   "glossary": [
+    [
+     "instead of",
+     "en vez de"
+    ],
+    [
+     "increase",
+     "aumentar"
+    ],
+    [
+     "significant",
+     "significativo/a"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D17.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D17-RV"
+   ],
+   "activities": [
+    {
+     "id": "D17.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The survey was [[1]] to forty managers.  (2) Samples were [[2]] every hour.  (3) The results are [[3]] in Table 2.  (4) The code was [[4]] in Python.  (5) This effect is well [[5]].  (6) This method has [[6]] used for years.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "sent"
+       ],
+       "hint": "Significa «enviado (send)»."
+      },
+      "2": {
+       "accept": [
+        "taken"
+       ],
+       "hint": "Significa «tomado (take)»."
+      },
+      "3": {
+       "accept": [
+        "shown"
+       ],
+       "hint": "Significa «mostrado (show)»."
+      },
+      "4": {
+       "accept": [
+        "written"
+       ],
+       "hint": "Significa «escrito (write)»."
+      },
+      "5": {
+       "accept": [
+        "known"
+       ],
+       "hint": "Significa «conocido (know)»."
+      },
+      "6": {
+       "accept": [
+        "been"
+       ],
+       "hint": "Significa «sido, estado (be)»."
+      }
+     }
+    },
+    {
+     "id": "D17.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «visto (see)»",
+     "accept": [
+      "seen"
+     ],
+     "hint": "Empieza con «se…» · Ejemplo: Un patrón similar se ve en otros estudios."
+    },
+    {
+     "id": "D17.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hecho, realizado (do)»",
+     "accept": [
+      "done"
+     ],
+     "hint": "Empieza con «do…» · Ejemplo: El análisis se realizó dos veces."
+    },
+    {
+     "id": "D17.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «elegido (choose)»",
+     "accept": [
+      "chosen"
+     ],
+     "hint": "Empieza con «ch…» · Ejemplo: Este método fue elegido por su simplicidad."
+    },
+    {
+     "id": "D17.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «dado (give)»",
+     "accept": [
+      "given"
+     ],
+     "hint": "Empieza con «gi…» · Ejemplo: A cada participante se le dio una encuesta breve."
+    },
+    {
+     "id": "D17.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «realizado, celebrado (hold)»",
+     "accept": [
+      "held"
+     ],
+     "hint": "Empieza con «he…» · Ejemplo: El taller se realizó en Concepción."
+    },
+    {
+     "id": "D17.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tabla»",
+     "accept": [
+      "table"
+     ],
+     "hint": "Empieza con «ta…» · Ejemplo: La Tabla 1 muestra la muestra."
+    },
+    {
+     "id": "D17.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "A similar pattern is seen in other studies.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "A similar pattern is seen in other studies."
+    }
+   ]
+  },
+  {
+   "id": "D17.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Participios irregulares en la pasiva",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D17-RG"
+   ],
+   "activities": [
+    {
+     "id": "D17.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Samples were [[1]] every hour. (take)  (2) This method was [[2]] for its simplicity. (choose)  (3) The results are [[3]] in Table 2. (show)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "taken"
+       ],
+       "hint": "participio de take"
+      },
+      "2": {
+       "accept": [
+        "chosen"
+       ]
+      },
+      "3": {
+       "accept": [
+        "shown"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D17.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The code was [[1]] in Python. (write)  (2) No significant difference was [[2]]. (find)  (3) The analysis was [[3]] twice. (do)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "written"
+       ]
+      },
+      "2": {
+       "accept": [
+        "found"
+       ]
+      },
+      "3": {
+       "accept": [
+        "done"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D17.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "The samples were took at noon."
+      },
+      {
+       "id": "b",
+       "text": "The samples were taken at noon."
+      },
+      {
+       "id": "c",
+       "text": "The samples were take at noon."
+      }
+     ],
+     "answer": "b",
+     "explanation": "pasiva → participio"
+    },
+    {
+     "id": "D17.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es el participio de «give»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "gave"
+      },
+      {
+       "id": "b",
+       "text": "given"
+      },
+      {
+       "id": "c",
+       "text": "gived"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D17.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones en pasiva con participios irregulares (taken, chosen, shown, written, found, made…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "taken",
+        "chosen",
+        "shown",
+        "written",
+        "found",
+        "made",
+        "given",
+        "done",
+        "built",
+        "seen"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D17.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Cambios al modelo",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D17.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Cambios al modelo: escucha sin leer y responde.",
+     "audio": {
+      "text": "After the first analysis, two changes were made to the model. A new variable was chosen: outside temperature. The code was written again by Diego. The new results are shown in Table 3. A similar pattern is seen in other studies.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "After the first analysis, two changes were made to the model. A new variable was chosen: outside temperature. The code was written again by Diego. The new results are shown in Table 3. A similar pattern is seen in other studies.",
+     "translation_es": "Después del primer análisis, se hicieron dos cambios al modelo. Se eligió una nueva variable: la temperatura exterior. Diego volvió a escribir el código. Los nuevos resultados se muestran en la Tabla 3. Un patrón similar se ve en otros estudios.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuántos cambios se hicieron al modelo?",
+       "label": "¿Cuántos cambios se hicieron al modelo?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Uno"
+        },
+        {
+         "id": "b",
+         "text": "Dos"
+        },
+        {
+         "id": "c",
+         "text": "Tres"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué variable nueva se eligió?",
+       "label": "¿Qué variable nueva se eligió?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La humedad"
+        },
+        {
+         "id": "b",
+         "text": "La temperatura exterior"
+        },
+        {
+         "id": "c",
+         "text": "El precio de la madera"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Dónde se muestran los nuevos resultados?",
+       "label": "¿Dónde se muestran los nuevos resultados?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En la Tabla 3"
+        },
+        {
+         "id": "b",
+         "text": "En la Figura 1"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D17.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "The new results are shown in Table 3.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The new results are shown in Table 3."
+    }
+   ]
+  },
+  {
+   "id": "D17.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Changes to the model",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D17-RR"
+   ],
+   "activities": [
+    {
+     "id": "D17.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué se eligió la temperatura exterior?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque es fácil de medir"
+      },
+      {
+       "id": "b",
+       "text": "Porque se sabe que el uso de energía aumenta en invierno"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D17.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cada cuánto se tomaron muestras después del cambio?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cada minuto"
+      },
+      {
+       "id": "b",
+       "text": "Cada hora"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«instead of every minute»"
+    },
+    {
+     "id": "D17.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Se encontró diferencia entre los dos turnos de día?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí, grande"
+      },
+      {
+       "id": "b",
+       "text": "No significativa"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D17.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D17.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "After the first analysis, the team made some decisions. Outside temperature was chosen as a new variable, because energy use is known to increase in winter.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "After the first analysis, the team made some decisions.",
+       "Outside temperature was chosen as a new variable, because energy use is known to increase in winter."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D17.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Di en voz alta 5 oraciones en pasiva con participios irregulares sobre un trabajo tuyo (was chosen, were taken, is shown, was written, was found).",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "sent",
+        "taken",
+        "chosen",
+        "shown",
+        "given",
+        "written",
+        "held",
+        "known",
+        "seen",
+        "been",
+        "done",
+        "table"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D17.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D17.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre cambios o decisiones en un proyecto, en pasiva con participios irregulares.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "sent",
+        "taken",
+        "chosen",
+        "shown",
+        "given",
+        "written",
+        "held",
+        "known",
+        "seen",
+        "been",
+        "done",
+        "table"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "taken",
+        "chosen",
+        "shown",
+        "written",
+        "found",
+        "made",
+        "given",
+        "done",
+        "built",
+        "seen"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

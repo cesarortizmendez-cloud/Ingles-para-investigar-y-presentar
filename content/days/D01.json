@@ -1,0 +1,924 @@
+{
+ "id": "D01",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Me presento: soy investigador/a",
+ "day": 1,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy conoces a Ana Rojas y aprendes a decir quién eres, dónde trabajas y en qué área, con el verbo «to be».",
+ "objectives": [
+  {
+   "id": "D01-O1",
+   "text": "Decir tu nombre, cargo, institución y área con «I am / I work at»."
+  },
+  {
+   "id": "D01-O2",
+   "text": "Reconocer y pronunciar 12 palabras básicas de la vida académica."
+  },
+  {
+   "id": "D01-O3",
+   "text": "Entender una presentación breve de 30 segundos."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D01-LX01",
+    "form": "researcher",
+    "meaning_es": "investigador/a",
+    "example": "Ana is a researcher in Chile.",
+    "example_es": "Ana es investigadora en Chile.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX02",
+    "form": "engineer",
+    "meaning_es": "ingeniero/a",
+    "example": "She is an industrial engineer.",
+    "example_es": "Ella es ingeniera industrial.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX03",
+    "form": "lecturer",
+    "meaning_es": "académico/a, profesor/a universitario/a",
+    "example": "Ana is a lecturer at a public university.",
+    "example_es": "Ana es académica en una universidad pública.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX04",
+    "form": "university",
+    "meaning_es": "universidad",
+    "example": "The university is in Chillán.",
+    "example_es": "La universidad está en Chillán.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX05",
+    "form": "department",
+    "meaning_es": "departamento",
+    "example": "She works in the Department of Industrial Engineering.",
+    "example_es": "Trabaja en el Departamento de Ingeniería Industrial.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX06",
+    "form": "field",
+    "meaning_es": "área, campo (de estudio)",
+    "example": "Her field is operations management.",
+    "example_es": "Su área es la gestión de operaciones.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX07",
+    "form": "project",
+    "meaning_es": "proyecto",
+    "example": "Our project is about energy use.",
+    "example_es": "Nuestro proyecto trata sobre el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX08",
+    "form": "team",
+    "meaning_es": "equipo",
+    "example": "The team has five members.",
+    "example_es": "El equipo tiene cinco integrantes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX09",
+    "form": "colleague",
+    "meaning_es": "colega",
+    "example": "Mark is a colleague from Boston.",
+    "example_es": "Mark es un colega de Boston.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX10",
+    "form": "work at",
+    "meaning_es": "trabajar en (una institución)",
+    "example": "I work at a university in the south of Chile.",
+    "example_es": "Trabajo en una universidad del sur de Chile.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX11",
+    "form": "interested in",
+    "meaning_es": "interesado/a en",
+    "example": "I am interested in data analysis.",
+    "example_es": "Me interesa el análisis de datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D01-LX12",
+    "form": "main area",
+    "meaning_es": "área principal",
+    "example": "My main area is production planning.",
+    "example_es": "Mi área principal es la planificación de la producción.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D01-G1",
+    "topic": "El verbo to be (ser/estar) y el orden de la oración"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D01-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "researcher",
+     "meaning_es": "investigador/a",
+     "example": "Ana is a researcher in Chile.",
+     "example_es": "Ana es investigadora en Chile."
+    },
+    {
+     "form": "engineer",
+     "meaning_es": "ingeniero/a",
+     "example": "She is an industrial engineer.",
+     "example_es": "Ella es ingeniera industrial."
+    },
+    {
+     "form": "lecturer",
+     "meaning_es": "académico/a, profesor/a universitario/a",
+     "example": "Ana is a lecturer at a public university.",
+     "example_es": "Ana es académica en una universidad pública."
+    },
+    {
+     "form": "university",
+     "meaning_es": "universidad",
+     "example": "The university is in Chillán.",
+     "example_es": "La universidad está en Chillán."
+    },
+    {
+     "form": "department",
+     "meaning_es": "departamento",
+     "example": "She works in the Department of Industrial Engineering.",
+     "example_es": "Trabaja en el Departamento de Ingeniería Industrial."
+    },
+    {
+     "form": "field",
+     "meaning_es": "área, campo (de estudio)",
+     "example": "Her field is operations management.",
+     "example_es": "Su área es la gestión de operaciones."
+    },
+    {
+     "form": "project",
+     "meaning_es": "proyecto",
+     "example": "Our project is about energy use.",
+     "example_es": "Nuestro proyecto trata sobre el uso de energía."
+    },
+    {
+     "form": "team",
+     "meaning_es": "equipo",
+     "example": "The team has five members.",
+     "example_es": "El equipo tiene cinco integrantes."
+    },
+    {
+     "form": "colleague",
+     "meaning_es": "colega",
+     "example": "Mark is a colleague from Boston.",
+     "example_es": "Mark es un colega de Boston."
+    },
+    {
+     "form": "work at",
+     "meaning_es": "trabajar en (una institución)",
+     "example": "I work at a university in the south of Chile.",
+     "example_es": "Trabajo en una universidad del sur de Chile."
+    },
+    {
+     "form": "interested in",
+     "meaning_es": "interesado/a en",
+     "example": "I am interested in data analysis.",
+     "example_es": "Me interesa el análisis de datos."
+    },
+    {
+     "form": "main area",
+     "meaning_es": "área principal",
+     "example": "My main area is production planning.",
+     "example_es": "Mi área principal es la planificación de la producción."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D01-RG",
+   "type": "capsule",
+   "title": "El verbo to be (ser/estar) y el orden de la oración",
+   "explain": "En inglés casi toda oración necesita un sujeto y un verbo, en ese orden: Sujeto + verbo + complemento.\n«To be» significa ser o estar: I am (soy/estoy), you are, he/she/it is, we/they are.\nEn español decimos «Es ingeniera» sin sujeto; en inglés hay que decir «She is an engineer». Tampoco se omite «it»: «It is important».\nCon profesiones se usa «a/an»: I am an engineer, She is a lecturer.",
+   "form": [
+    [
+     "I am / I'm",
+     "yo soy, yo estoy"
+    ],
+    [
+     "He / She / It is · He's",
+     "él/ella es; «it» para cosas"
+    ],
+    [
+     "We / You / They are · We're",
+     "nosotros, ustedes, ellos son"
+    ],
+    [
+     "a + consonante · an + vocal",
+     "a lecturer · an engineer"
+    ]
+   ],
+   "examples": [
+    [
+     "I am a researcher.",
+     "Soy investigador/a."
+    ],
+    [
+     "She is an engineer.",
+     "Ella es ingeniera."
+    ],
+    [
+     "It is a small project.",
+     "Es un proyecto pequeño."
+    ],
+    [
+     "We are a team of five.",
+     "Somos un equipo de cinco."
+    ]
+   ],
+   "tip": "Error típico de hispanohablantes: «Is important» → correcto: «It is important».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D01-RR",
+   "type": "text",
+   "title": "A short profile",
+   "body": "Ana Rojas is a lecturer at a public university in Chillán. She is an industrial engineer. She works in the Department of Industrial Engineering. Her main area is production planning, and she is interested in energy use. Ana is part of a small team. The team has five members: three researchers and two students. Mark Davis is a colleague from a university in Boston. He is an engineer too.",
+   "translation_es": "Ana Rojas es académica en una universidad pública de Chillán. Es ingeniera industrial. Trabaja en el Departamento de Ingeniería Industrial. Su área principal es la planificación de la producción y le interesa el uso de energía. Ana forma parte de un equipo pequeño. El equipo tiene cinco integrantes: tres investigadores y dos estudiantes. Mark Davis es un colega de una universidad en Boston. Él también es ingeniero.",
+   "glossary": [
+    [
+     "part of",
+     "parte de"
+    ],
+    [
+     "members",
+     "integrantes"
+    ],
+    [
+     "too",
+     "también"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D01.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D01-RV"
+   ],
+   "activities": [
+    {
+     "id": "D01.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Ana is a [[1]] at a public university.  (2) She works in the [[2]] of Industrial Engineering.  (3) Our [[3]] is about energy use.  (4) The [[4]] has five members.  (5) I [[5]] a university in the south of Chile.  (6) My [[6]] is production planning.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "lecturer"
+       ],
+       "hint": "Significa «académico/a, profesor/a universitario/a»."
+      },
+      "2": {
+       "accept": [
+        "department"
+       ],
+       "hint": "Significa «departamento»."
+      },
+      "3": {
+       "accept": [
+        "project"
+       ],
+       "hint": "Significa «proyecto»."
+      },
+      "4": {
+       "accept": [
+        "team"
+       ],
+       "hint": "Significa «equipo»."
+      },
+      "5": {
+       "accept": [
+        "work at"
+       ],
+       "hint": "Significa «trabajar en (una institución)»."
+      },
+      "6": {
+       "accept": [
+        "main area"
+       ],
+       "hint": "Significa «área principal»."
+      }
+     }
+    },
+    {
+     "id": "D01.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «área, campo (de estudio)»",
+     "accept": [
+      "field"
+     ],
+     "hint": "Empieza con «fi…» · Ejemplo: Su área es la gestión de operaciones."
+    },
+    {
+     "id": "D01.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «ingeniero/a»",
+     "accept": [
+      "engineer"
+     ],
+     "hint": "Empieza con «en…» · Ejemplo: Ella es ingeniera industrial."
+    },
+    {
+     "id": "D01.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «universidad»",
+     "accept": [
+      "university"
+     ],
+     "hint": "Empieza con «un…» · Ejemplo: La universidad está en Chillán."
+    },
+    {
+     "id": "D01.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «interesado/a en»",
+     "accept": [
+      "interested in"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: Me interesa el análisis de datos."
+    },
+    {
+     "id": "D01.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «colega»",
+     "accept": [
+      "colleague"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Mark es un colega de Boston."
+    },
+    {
+     "id": "D01.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «investigador/a»",
+     "accept": [
+      "researcher"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Ana es investigadora en Chile."
+    },
+    {
+     "id": "D01.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Her field is operations management.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Her field is operations management."
+    }
+   ]
+  },
+  {
+   "id": "D01.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: El verbo to be (ser/estar) y el orden de la oración",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D01-RG"
+   ],
+   "activities": [
+    {
+     "id": "D01.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] a lecturer in industrial engineering.  (2) Ana [[2]] an engineer.  (3) Mark and Ana [[3]] colleagues.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "am",
+        "'m"
+       ],
+       "hint": "Con «I» se usa am."
+      },
+      "2": {
+       "accept": [
+        "is"
+       ],
+       "hint": "Ana = she → is."
+      },
+      "3": {
+       "accept": [
+        "are"
+       ],
+       "hint": "Dos personas → are."
+      }
+     }
+    },
+    {
+     "id": "D01.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] is a very interesting project.  (2) She is [[2]] engineer.  (3) We [[3]] a small team.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "it"
+       ],
+       "hint": "En inglés no se omite el sujeto."
+      },
+      "2": {
+       "accept": [
+        "an"
+       ],
+       "hint": "Antes de sonido vocal: an."
+      },
+      "3": {
+       "accept": [
+        "are",
+        "'re"
+       ],
+       "hint": "We → are."
+      }
+     }
+    },
+    {
+     "id": "D01.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál oración es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Is a big university."
+      },
+      {
+       "id": "b",
+       "text": "It is a big university."
+      },
+      {
+       "id": "c",
+       "text": "It a big university."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Falta el sujeto «it» y el verbo «is»."
+    },
+    {
+     "id": "D01.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál oración es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She is lecturer."
+      },
+      {
+       "id": "b",
+       "text": "She is a lecturer."
+      },
+      {
+       "id": "c",
+       "text": "She a lecturer is."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Con profesiones se usa a/an, y el orden es sujeto + verbo + complemento."
+    },
+    {
+     "id": "D01.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre ti: tu cargo, dónde trabajas y tu área (usa I am / I work at / My main area is).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "i am",
+        "i'm",
+        "is",
+        "work at"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D01.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Ana se presenta",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D01.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Ana se presenta: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hello. My name is Ana Rojas. I am a lecturer and a researcher. I work at a university in Chillán, in the south of Chile. My field is industrial engineering. I am interested in energy use in small factories.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hello. My name is Ana Rojas. I am a lecturer and a researcher. I work at a university in Chillán, in the south of Chile. My field is industrial engineering. I am interested in energy use in small factories.",
+     "translation_es": "Hola. Me llamo Ana Rojas. Soy académica e investigadora. Trabajo en una universidad en Chillán, en el sur de Chile. Mi área es la ingeniería industrial. Me interesa el uso de energía en fábricas pequeñas.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Dónde trabaja Ana?",
+       "label": "¿Dónde trabaja Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En una empresa de energía en Santiago"
+        },
+        {
+         "id": "b",
+         "text": "En una universidad en Chillán"
+        },
+        {
+         "id": "c",
+         "text": "En una fábrica en Boston"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuál es su área?",
+       "label": "¿Cuál es su área?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Ingeniería industrial"
+        },
+        {
+         "id": "b",
+         "text": "Medicina"
+        },
+        {
+         "id": "c",
+         "text": "Informática"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué le interesa?",
+       "label": "¿Qué le interesa?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La enseñanza del inglés"
+        },
+        {
+         "id": "b",
+         "text": "El uso de energía en fábricas pequeñas"
+        },
+        {
+         "id": "c",
+         "text": "Los mercados financieros"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D01.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "I work at a university in Chillán, in the south of Chile.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I work at a university in Chillán, in the south of Chile."
+    }
+   ]
+  },
+  {
+   "id": "D01.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: A short profile",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D01-RR"
+   ],
+   "activities": [
+    {
+     "id": "D01.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántas personas tiene el equipo de Ana?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Tres"
+      },
+      {
+       "id": "b",
+       "text": "Cinco"
+      },
+      {
+       "id": "c",
+       "text": "Dos"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«The team has five members»."
+    },
+    {
+     "id": "D01.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Quién es Mark Davis?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un estudiante de Ana"
+      },
+      {
+       "id": "b",
+       "text": "Un colega de Boston"
+      },
+      {
+       "id": "c",
+       "text": "El director del departamento"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D01.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es el área principal de Ana?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Planificación de la producción"
+      },
+      {
+       "id": "b",
+       "text": "Uso de energía en hogares"
+      },
+      {
+       "id": "c",
+       "text": "Enseñanza"
+      }
+     ],
+     "answer": "a",
+     "explanation": "«Her main area is production planning»; la energía es un interés."
+    }
+   ]
+  },
+  {
+   "id": "D01.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D01.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Ana Rojas is a lecturer at a public university in Chillán. She is an industrial engineer.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Ana Rojas is a lecturer at a public university in Chillán.",
+       "She is an industrial engineer."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D01.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Preséntate en voz alta en 30–60 segundos: nombre, cargo, dónde trabajas, tu área y algo que te interese. Usa «I am…», «I work at…», «I am interested in…».",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "researcher",
+        "engineer",
+        "lecturer",
+        "university",
+        "department",
+        "field",
+        "project",
+        "team",
+        "colleague",
+        "work at",
+        "interested in",
+        "main area"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D01.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D01.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tu presentación profesional (40–80 palabras) como el perfil de Ana, pero sobre ti.",
+     "min_words": 30,
+     "max_words": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "researcher",
+        "engineer",
+        "lecturer",
+        "university",
+        "department",
+        "field",
+        "project",
+        "team",
+        "colleague",
+        "work at",
+        "interested in",
+        "main area"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "i am",
+        "i'm",
+        "is",
+        "work at"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

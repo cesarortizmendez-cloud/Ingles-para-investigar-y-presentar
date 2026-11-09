@@ -1,0 +1,922 @@
+{
+ "id": "B17",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Lo que hice: el pasado simple",
+ "day": 17,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy cuentas lo que hiciste: verbos regulares con -ed, los irregulares más frecuentes (went, had, saw…) y las preguntas con did.",
+ "objectives": [
+  {
+   "id": "B17-O1",
+   "text": "Usar el pasado de verbos regulares (-ed) y de 8 irregulares frecuentes."
+  },
+  {
+   "id": "B17-O2",
+   "text": "Hacer preguntas y negativas con did / didn't + verbo base."
+  },
+  {
+   "id": "B17-O3",
+   "text": "Contar en orden lo que hiciste ayer."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B17-LX01",
+    "form": "went",
+    "meaning_es": "fui, fue (pasado de go)",
+    "example": "Yesterday I went to the library.",
+    "example_es": "Ayer fui a la biblioteca.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX02",
+    "form": "had",
+    "meaning_es": "tuve, tuvo (pasado de have)",
+    "example": "We had dinner at a Mexican restaurant.",
+    "example_es": "Cenamos en un restaurante mexicano.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX03",
+    "form": "saw",
+    "meaning_es": "vi, vio (pasado de see)",
+    "example": "I saw a great movie last night.",
+    "example_es": "Anoche vi una película muy buena.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX04",
+    "form": "made",
+    "meaning_es": "hice, hizo (pasado de make)",
+    "example": "Emma made a cake for my birthday.",
+    "example_es": "Emma hizo una torta para mi cumpleaños.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX05",
+    "form": "got",
+    "meaning_es": "recibí, llegué, conseguí (pasado de get)",
+    "example": "I got an email from my boss.",
+    "example_es": "Recibí un correo de mi jefe.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX06",
+    "form": "came",
+    "meaning_es": "vine, vino (pasado de come)",
+    "example": "Mike came to Boston on Friday.",
+    "example_es": "Mike vino a Boston el viernes.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX07",
+    "form": "took",
+    "meaning_es": "tomé, tomó (pasado de take)",
+    "example": "I took a lot of photos.",
+    "example_es": "Tomé muchas fotos.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX08",
+    "form": "bought",
+    "meaning_es": "compré, compró (pasado de buy)",
+    "example": "She bought a new phone.",
+    "example_es": "Ella compró un teléfono nuevo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX09",
+    "form": "visited",
+    "meaning_es": "visité, visitó",
+    "example": "We visited a factory last Tuesday.",
+    "example_es": "Visitamos una fábrica el martes pasado.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX10",
+    "form": "called",
+    "meaning_es": "llamé, llamó",
+    "example": "I called my wife last night.",
+    "example_es": "Anoche llamé a mi esposa.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX11",
+    "form": "stayed",
+    "meaning_es": "me quedé, se quedó",
+    "example": "I stayed at home on Sunday.",
+    "example_es": "El domingo me quedé en casa.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B17-LX12",
+    "form": "didn't",
+    "meaning_es": "no (en pasado, con el verbo base)",
+    "example": "I didn't sleep well.",
+    "example_es": "No dormí bien.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B17-G1",
+    "topic": "Pasado simple: regulares (-ed), irregulares y did"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B17-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "went",
+     "meaning_es": "fui, fue (pasado de go)",
+     "example": "Yesterday I went to the library.",
+     "example_es": "Ayer fui a la biblioteca."
+    },
+    {
+     "form": "had",
+     "meaning_es": "tuve, tuvo (pasado de have)",
+     "example": "We had dinner at a Mexican restaurant.",
+     "example_es": "Cenamos en un restaurante mexicano."
+    },
+    {
+     "form": "saw",
+     "meaning_es": "vi, vio (pasado de see)",
+     "example": "I saw a great movie last night.",
+     "example_es": "Anoche vi una película muy buena."
+    },
+    {
+     "form": "made",
+     "meaning_es": "hice, hizo (pasado de make)",
+     "example": "Emma made a cake for my birthday.",
+     "example_es": "Emma hizo una torta para mi cumpleaños."
+    },
+    {
+     "form": "got",
+     "meaning_es": "recibí, llegué, conseguí (pasado de get)",
+     "example": "I got an email from my boss.",
+     "example_es": "Recibí un correo de mi jefe."
+    },
+    {
+     "form": "came",
+     "meaning_es": "vine, vino (pasado de come)",
+     "example": "Mike came to Boston on Friday.",
+     "example_es": "Mike vino a Boston el viernes."
+    },
+    {
+     "form": "took",
+     "meaning_es": "tomé, tomó (pasado de take)",
+     "example": "I took a lot of photos.",
+     "example_es": "Tomé muchas fotos."
+    },
+    {
+     "form": "bought",
+     "meaning_es": "compré, compró (pasado de buy)",
+     "example": "She bought a new phone.",
+     "example_es": "Ella compró un teléfono nuevo."
+    },
+    {
+     "form": "visited",
+     "meaning_es": "visité, visitó",
+     "example": "We visited a factory last Tuesday.",
+     "example_es": "Visitamos una fábrica el martes pasado."
+    },
+    {
+     "form": "called",
+     "meaning_es": "llamé, llamó",
+     "example": "I called my wife last night.",
+     "example_es": "Anoche llamé a mi esposa."
+    },
+    {
+     "form": "stayed",
+     "meaning_es": "me quedé, se quedó",
+     "example": "I stayed at home on Sunday.",
+     "example_es": "El domingo me quedé en casa."
+    },
+    {
+     "form": "didn't",
+     "meaning_es": "no (en pasado, con el verbo base)",
+     "example": "I didn't sleep well.",
+     "example_es": "No dormí bien."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B17-RG",
+   "type": "capsule",
+   "title": "Pasado simple: regulares (-ed), irregulares y did",
+   "explain": "Se usa para acciones terminadas en el pasado (yesterday, last week…).\nRegulares: + ed (work → worked, visit → visited, stay → stayed, study → studied). La -ed se pronuncia /t/, /d/ o /id/: worked /t/, called /d/, visited /id/.\nIrregulares frecuentes (hay que memorizarlos): go → went, have → had, see → saw, make → made, get → got, come → came, take → took, buy → bought.\nNegativo y preguntas con did + verbo BASE: I didn't go. Did you see it? Yes, I did. / No, I didn't.",
+   "form": [
+    [
+     "verbo + ed",
+     "worked · visited · studied"
+    ],
+    [
+     "irregulares",
+     "went · had · saw · bought"
+    ],
+    [
+     "didn't + verbo base",
+     "I didn't go"
+    ],
+    [
+     "Did + sujeto + verbo base?",
+     "Did you see it?"
+    ]
+   ],
+   "examples": [
+    [
+     "I visited a museum yesterday.",
+     "Ayer visité un museo."
+    ],
+    [
+     "We went to New York by train.",
+     "Fuimos a Nueva York en tren."
+    ],
+    [
+     "She didn't buy the jacket.",
+     "Ella no compró la chaqueta."
+    ],
+    [
+     "Did you call your family? Yes, I did.",
+     "¿Llamaste a tu familia? Sí."
+    ]
+   ],
+   "tip": "Error típico: «Did you went?» o «I didn't went» → correcto: «Did you go?», «I didn't go» (did ya marca el pasado).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B17-RR",
+   "type": "text",
+   "title": "A day at a factory",
+   "body": "Last Tuesday, Tomás's class visited a car factory near Boston. They took a bus at seven in the morning and arrived at nine. An engineer showed them the production line. Tomás asked many questions, and he understood most of the answers. They had lunch at the factory and came back at four. In the evening, Tomás wrote a short report in English. It was difficult, but he finished it.",
+   "translation_es": "El martes pasado, la clase de Tomás visitó una fábrica de autos cerca de Boston. Tomaron un bus a las siete de la mañana y llegaron a las nueve. Un ingeniero les mostró la línea de producción. Tomás hizo muchas preguntas y entendió la mayoría de las respuestas. Almorzaron en la fábrica y volvieron a las cuatro. En la noche, Tomás escribió un informe corto en inglés. Fue difícil, pero lo terminó.",
+   "glossary": [
+    [
+     "showed",
+     "mostró"
+    ],
+    [
+     "production line",
+     "línea de producción"
+    ],
+    [
+     "understood",
+     "entendió"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B17.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B17-RV"
+   ],
+   "activities": [
+    {
+     "id": "B17.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I [[1]] a great movie last night.  (2) I [[2]] an email from my boss.  (3) She [[3]] a new phone.  (4) We [[4]] a factory last Tuesday.  (5) I [[5]] at home on Sunday.  (6) I [[6]] sleep well.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "saw"
+       ],
+       "hint": "Significa «vi, vio (pasado de see)»."
+      },
+      "2": {
+       "accept": [
+        "got"
+       ],
+       "hint": "Significa «recibí, llegué, conseguí (pasado de get)»."
+      },
+      "3": {
+       "accept": [
+        "bought"
+       ],
+       "hint": "Significa «compré, compró (pasado de buy)»."
+      },
+      "4": {
+       "accept": [
+        "visited"
+       ],
+       "hint": "Significa «visité, visitó»."
+      },
+      "5": {
+       "accept": [
+        "stayed"
+       ],
+       "hint": "Significa «me quedé, se quedó»."
+      },
+      "6": {
+       "accept": [
+        "didn't"
+       ],
+       "hint": "Significa «no (en pasado, con el verbo base)»."
+      }
+     }
+    },
+    {
+     "id": "B17.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tuve, tuvo (pasado de have)»",
+     "accept": [
+      "had"
+     ],
+     "hint": "Empieza con «ha…» · Ejemplo: Cenamos en un restaurante mexicano."
+    },
+    {
+     "id": "B17.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tomé, tomó (pasado de take)»",
+     "accept": [
+      "took"
+     ],
+     "hint": "Empieza con «to…» · Ejemplo: Tomé muchas fotos."
+    },
+    {
+     "id": "B17.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «vine, vino (pasado de come)»",
+     "accept": [
+      "came"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: Mike vino a Boston el viernes."
+    },
+    {
+     "id": "B17.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «fui, fue (pasado de go)»",
+     "accept": [
+      "went"
+     ],
+     "hint": "Empieza con «we…» · Ejemplo: Ayer fui a la biblioteca."
+    },
+    {
+     "id": "B17.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «llamé, llamó»",
+     "accept": [
+      "called"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: Anoche llamé a mi esposa."
+    },
+    {
+     "id": "B17.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hice, hizo (pasado de make)»",
+     "accept": [
+      "made"
+     ],
+     "hint": "Empieza con «ma…» · Ejemplo: Emma hizo una torta para mi cumpleaños."
+    },
+    {
+     "id": "B17.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "We had dinner at a Mexican restaurant.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We had dinner at a Mexican restaurant."
+    }
+   ]
+  },
+  {
+   "id": "B17.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Pasado simple: regulares (-ed), irregulares y did",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B17-RG"
+   ],
+   "activities": [
+    {
+     "id": "B17.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Last week I [[1]] to the beach. (go)  (2) We [[2]] a big lunch on Sunday. (have)  (3) I [[3]] my mother yesterday. (call)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "went"
+       ],
+       "hint": "go → went."
+      },
+      "2": {
+       "accept": [
+        "had"
+       ],
+       "hint": "have → had."
+      },
+      "3": {
+       "accept": [
+        "called"
+       ],
+       "hint": "Regular: + ed."
+      }
+     }
+    },
+    {
+     "id": "B17.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Did you [[1]] the email? (get)  (2) She [[2]] go to work yesterday. (negativo)  (3) They [[3]] Chile in 2019. (visit)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "get"
+       ],
+       "hint": "Con did, verbo base."
+      },
+      "2": {
+       "accept": [
+        "didn't",
+        "did not"
+       ],
+       "hint": "Negativo en pasado → didn't."
+      },
+      "3": {
+       "accept": [
+        "visited"
+       ],
+       "hint": "Regular: + ed."
+      }
+     }
+    },
+    {
+     "id": "B17.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Did you saw the game?"
+      },
+      {
+       "id": "b",
+       "text": "Did you see the game?"
+      },
+      {
+       "id": "c",
+       "text": "Do you saw the game?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "did + verbo base."
+    },
+    {
+     "id": "B17.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "El pasado de «buy» es:",
+     "options": [
+      {
+       "id": "a",
+       "text": "buyed"
+      },
+      {
+       "id": "b",
+       "text": "bought"
+      },
+      {
+       "id": "c",
+       "text": "boughted"
+      }
+     ],
+     "answer": "b",
+     "explanation": "Es irregular."
+    },
+    {
+     "id": "B17.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre lo que hiciste ayer (I went…, I had…, I didn't…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "went",
+        "had",
+        "ed ",
+        "didn't"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B17.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Un mensaje de voz de Carmen",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B17.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Un mensaje de voz de Carmen: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hi, Tomás, it's Carmen. How are you? Yesterday was a busy day. I worked at the hospital in the morning, and in the afternoon I took the children to the dentist. Diego didn't like it! In the evening we had pizza and watched a movie. Sofía made a card for you. Call me tonight. Bye!",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hi, Tomás, it's Carmen. How are you? Yesterday was a busy day. I worked at the hospital in the morning, and in the afternoon I took the children to the dentist. Diego didn't like it! In the evening we had pizza and watched a movie. Sofía made a card for you. Call me tonight. Bye!",
+     "translation_es": "Hola, Tomás, soy Carmen. ¿Cómo estás? Ayer fue un día ocupado. Trabajé en el hospital en la mañana y en la tarde llevé a los niños al dentista. ¡A Diego no le gustó! En la noche comimos pizza y vimos una película. Sofía te hizo una tarjeta. Llámame esta noche. ¡Chao!",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Dónde trabajó Carmen?",
+       "label": "¿Dónde trabajó Carmen?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En una escuela"
+        },
+        {
+         "id": "b",
+         "text": "En el hospital"
+        },
+        {
+         "id": "c",
+         "text": "En una tienda"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿A dónde llevó a los niños?",
+       "label": "¿A dónde llevó a los niños?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Al dentista"
+        },
+        {
+         "id": "b",
+         "text": "Al cine"
+        },
+        {
+         "id": "c",
+         "text": "Al parque"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué hizo Sofía?",
+       "label": "¿Qué hizo Sofía?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Una torta"
+        },
+        {
+         "id": "b",
+         "text": "Una tarjeta"
+        },
+        {
+         "id": "c",
+         "text": "Una pizza"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«Sofía made a card for you»."
+      }
+     ]
+    },
+    {
+     "id": "B17.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "In the evening we had pizza and watched a movie.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "In the evening we had pizza and watched a movie."
+    }
+   ]
+  },
+  {
+   "id": "B17.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A day at a factory",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B17-RR"
+   ],
+   "activities": [
+    {
+     "id": "B17.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué visitó la clase?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un museo"
+      },
+      {
+       "id": "b",
+       "text": "Una fábrica de autos"
+      },
+      {
+       "id": "c",
+       "text": "Una universidad"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B17.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo llegaron?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En bus"
+      },
+      {
+       "id": "b",
+       "text": "En tren"
+      },
+      {
+       "id": "c",
+       "text": "En auto"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B17.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hizo Tomás en la noche?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Escribió un informe en inglés"
+      },
+      {
+       "id": "b",
+       "text": "Llamó a Carmen"
+      },
+      {
+       "id": "c",
+       "text": "Fue al cine"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "B17.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B17.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Last Tuesday, Tomás's class visited a car factory near Boston. They took a bus at seven in the morning and arrived at nine.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Last Tuesday, Tomás's class visited a car factory near Boston.",
+       "They took a bus at seven in the morning and arrived at nine."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B17.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta en 30–60 s qué hiciste ayer, en orden (First I…, then I…, after that…). Usa al menos cuatro verbos en pasado.",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "went",
+        "had",
+        "saw",
+        "made",
+        "got",
+        "came",
+        "took",
+        "bought",
+        "visited",
+        "called",
+        "stayed",
+        "didn't"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B17.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B17.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 30–70 palabras sobre tu último fin de semana, con al menos tres verbos irregulares.",
+     "min_words": 30,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "went",
+        "had",
+        "saw",
+        "made",
+        "got",
+        "came",
+        "took",
+        "bought",
+        "visited",
+        "called",
+        "stayed",
+        "didn't"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "went",
+        "had",
+        "ed ",
+        "didn't"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

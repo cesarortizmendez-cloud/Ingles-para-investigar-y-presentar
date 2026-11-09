@@ -1,0 +1,921 @@
+{
+ "id": "D05",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Números, cantidades y datos",
+ "day": 5,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a decir y entender números, porcentajes y cantidades, y a usar there is / there are.",
+ "objectives": [
+  {
+   "id": "D05-O1",
+   "text": "Leer en voz alta números, decimales y porcentajes."
+  },
+  {
+   "id": "D05-O2",
+   "text": "Usar there is / there are para describir una muestra."
+  },
+  {
+   "id": "D05-O3",
+   "text": "Distinguir thirteen/thirty y fifteen/fifty al escuchar."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D05-LX01",
+    "form": "there are",
+    "meaning_es": "hay (plural)",
+    "example": "There are three factories in the study.",
+    "example_es": "Hay tres fábricas en el estudio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX02",
+    "form": "percent",
+    "meaning_es": "por ciento",
+    "example": "Energy use fell by ten percent.",
+    "example_es": "El uso de energía bajó un diez por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX03",
+    "form": "average",
+    "meaning_es": "promedio",
+    "example": "The average is 120 units per day.",
+    "example_es": "El promedio es de 120 unidades por día.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX04",
+    "form": "total",
+    "meaning_es": "total",
+    "example": "The total cost is high.",
+    "example_es": "El costo total es alto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX05",
+    "form": "sample",
+    "meaning_es": "muestra",
+    "example": "The sample includes forty workers.",
+    "example_es": "La muestra incluye a cuarenta trabajadores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX06",
+    "form": "per day",
+    "meaning_es": "por día",
+    "example": "Each machine works ten hours per day.",
+    "example_es": "Cada máquina funciona diez horas por día.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX07",
+    "form": "about",
+    "meaning_es": "alrededor de, aproximadamente",
+    "example": "The study lasts about six months.",
+    "example_es": "El estudio dura alrededor de seis meses.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX08",
+    "form": "number of",
+    "meaning_es": "número de, cantidad de",
+    "example": "The number of workers is small.",
+    "example_es": "El número de trabajadores es pequeño.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX09",
+    "form": "amount of",
+    "meaning_es": "cantidad de (incontable)",
+    "example": "The amount of energy is surprising.",
+    "example_es": "La cantidad de energía es sorprendente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX10",
+    "form": "point",
+    "meaning_es": "coma decimal (se dice «point»)",
+    "example": "The value is three point five.",
+    "example_es": "El valor es tres coma cinco.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX11",
+    "form": "thousand",
+    "meaning_es": "mil",
+    "example": "The plant uses two thousand kilowatt hours.",
+    "example_es": "La planta usa dos mil kilovatios hora.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D05-LX12",
+    "form": "half",
+    "meaning_es": "mitad",
+    "example": "Half of the workers are new.",
+    "example_es": "La mitad de los trabajadores son nuevos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D05-G1",
+    "topic": "There is / there are y cómo se dicen los números"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D05-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "there are",
+     "meaning_es": "hay (plural)",
+     "example": "There are three factories in the study.",
+     "example_es": "Hay tres fábricas en el estudio."
+    },
+    {
+     "form": "percent",
+     "meaning_es": "por ciento",
+     "example": "Energy use fell by ten percent.",
+     "example_es": "El uso de energía bajó un diez por ciento."
+    },
+    {
+     "form": "average",
+     "meaning_es": "promedio",
+     "example": "The average is 120 units per day.",
+     "example_es": "El promedio es de 120 unidades por día."
+    },
+    {
+     "form": "total",
+     "meaning_es": "total",
+     "example": "The total cost is high.",
+     "example_es": "El costo total es alto."
+    },
+    {
+     "form": "sample",
+     "meaning_es": "muestra",
+     "example": "The sample includes forty workers.",
+     "example_es": "La muestra incluye a cuarenta trabajadores."
+    },
+    {
+     "form": "per day",
+     "meaning_es": "por día",
+     "example": "Each machine works ten hours per day.",
+     "example_es": "Cada máquina funciona diez horas por día."
+    },
+    {
+     "form": "about",
+     "meaning_es": "alrededor de, aproximadamente",
+     "example": "The study lasts about six months.",
+     "example_es": "El estudio dura alrededor de seis meses."
+    },
+    {
+     "form": "number of",
+     "meaning_es": "número de, cantidad de",
+     "example": "The number of workers is small.",
+     "example_es": "El número de trabajadores es pequeño."
+    },
+    {
+     "form": "amount of",
+     "meaning_es": "cantidad de (incontable)",
+     "example": "The amount of energy is surprising.",
+     "example_es": "La cantidad de energía es sorprendente."
+    },
+    {
+     "form": "point",
+     "meaning_es": "coma decimal (se dice «point»)",
+     "example": "The value is three point five.",
+     "example_es": "El valor es tres coma cinco."
+    },
+    {
+     "form": "thousand",
+     "meaning_es": "mil",
+     "example": "The plant uses two thousand kilowatt hours.",
+     "example_es": "La planta usa dos mil kilovatios hora."
+    },
+    {
+     "form": "half",
+     "meaning_es": "mitad",
+     "example": "Half of the workers are new.",
+     "example_es": "La mitad de los trabajadores son nuevos."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D05-RG",
+   "type": "capsule",
+   "title": "There is / there are y cómo se dicen los números",
+   "explain": "«Hay» se dice there is (singular) o there are (plural): There is one factory. There are three factories.\nDecimales: en inglés se usa punto y se dice «point»: 3.5 = three point five; 0.5 = zero point five.\nPorcentajes: 15% = fifteen percent. Miles: 2,000 = two thousand (en inglés la coma separa miles).\nOjo al escuchar: thirTEEN (13) lleva el acento al final; THIRty (30) al inicio. Igual fifTEEN/FIFty.",
+   "form": [
+    [
+     "There is + singular",
+     "There is a problem."
+    ],
+    [
+     "There are + plural",
+     "There are forty workers."
+    ],
+    [
+     "Is there…? / Are there…?",
+     "Are there any results?"
+    ],
+    [
+     "3.5 → three point five",
+     "decimal con «point»"
+    ]
+   ],
+   "examples": [
+    [
+     "There are three factories in the sample.",
+     "Hay tres fábricas en la muestra."
+    ],
+    [
+     "The average is twelve point five.",
+     "El promedio es doce coma cinco."
+    ],
+    [
+     "Energy use fell by fifteen percent.",
+     "El uso de energía bajó un quince por ciento."
+    ]
+   ],
+   "tip": "Escribe 3.5 (con punto) en textos en inglés; 3,5 se entiende como «tres mil quinientos» en algunos contextos.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D05-RR",
+   "type": "text",
+   "title": "The sample",
+   "body": "There are three small sawmills in the study. In total there are about forty workers, and half of them are new. Each sawmill has between four and six machines. The machines work about ten hours per day. The team measures the amount of energy every hour. The average is 12.5 kilowatt hours per machine per day. The total cost of energy is about two thousand dollars per month for each sawmill.",
+   "translation_es": "Hay tres aserraderos pequeños en el estudio. En total hay unos cuarenta trabajadores, y la mitad son nuevos. Cada aserradero tiene entre cuatro y seis máquinas. Las máquinas funcionan unas diez horas por día. El equipo mide la cantidad de energía cada hora. El promedio es de 12,5 kilovatios hora por máquina por día. El costo total de energía es de unos dos mil dólares al mes por aserradero.",
+   "glossary": [
+    [
+     "between",
+     "entre"
+    ],
+    [
+     "cost",
+     "costo"
+    ],
+    [
+     "each",
+     "cada"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D05.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D05-RV"
+   ],
+   "activities": [
+    {
+     "id": "D05.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] three factories in the study.  (2) Energy use fell by ten [[2]].  (3) The [[3]] cost is high.  (4) Each machine works ten hours [[4]].  (5) The [[5]] workers is small.  (6) The value is three [[6]] five.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "there are"
+       ],
+       "hint": "Significa «hay (plural)»."
+      },
+      "2": {
+       "accept": [
+        "percent",
+        "per cent"
+       ],
+       "hint": "Significa «por ciento»."
+      },
+      "3": {
+       "accept": [
+        "total"
+       ],
+       "hint": "Significa «total»."
+      },
+      "4": {
+       "accept": [
+        "per day"
+       ],
+       "hint": "Significa «por día»."
+      },
+      "5": {
+       "accept": [
+        "number of"
+       ],
+       "hint": "Significa «número de, cantidad de»."
+      },
+      "6": {
+       "accept": [
+        "point"
+       ],
+       "hint": "Significa «coma decimal (se dice «point»)»."
+      }
+     }
+    },
+    {
+     "id": "D05.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cantidad de (incontable)»",
+     "accept": [
+      "amount of"
+     ],
+     "hint": "Empieza con «am…» · Ejemplo: La cantidad de energía es sorprendente."
+    },
+    {
+     "id": "D05.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «muestra»",
+     "accept": [
+      "sample"
+     ],
+     "hint": "Empieza con «sa…» · Ejemplo: La muestra incluye a cuarenta trabajadores."
+    },
+    {
+     "id": "D05.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «alrededor de, aproximadamente»",
+     "accept": [
+      "about"
+     ],
+     "hint": "Empieza con «ab…» · Ejemplo: El estudio dura alrededor de seis meses."
+    },
+    {
+     "id": "D05.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mitad»",
+     "accept": [
+      "half"
+     ],
+     "hint": "Empieza con «ha…» · Ejemplo: La mitad de los trabajadores son nuevos."
+    },
+    {
+     "id": "D05.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mil»",
+     "accept": [
+      "thousand"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: La planta usa dos mil kilovatios hora."
+    },
+    {
+     "id": "D05.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «promedio»",
+     "accept": [
+      "average"
+     ],
+     "hint": "Empieza con «av…» · Ejemplo: El promedio es de 120 unidades por día."
+    },
+    {
+     "id": "D05.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The amount of energy is surprising.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The amount of energy is surprising."
+    }
+   ]
+  },
+  {
+   "id": "D05.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: There is / there are y cómo se dicen los números",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D05-RG"
+   ],
+   "activities": [
+    {
+     "id": "D05.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) There [[1]] forty workers in the sample.  (2) There [[2]] a problem with the data.  (3) [[3]] there any results yet?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are"
+       ],
+       "hint": "plural → are"
+      },
+      "2": {
+       "accept": [
+        "is"
+       ],
+       "hint": "singular → is"
+      },
+      "3": {
+       "accept": [
+        "are"
+       ],
+       "hint": "plural → are"
+      }
+     }
+    },
+    {
+     "id": "D05.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) 3.5 = three [[1]] five  (2) 15% = fifteen [[2]]  (3) [[3]] of the workers are new. (la mitad)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "point"
+       ],
+       "hint": "decimal → point"
+      },
+      "2": {
+       "accept": [
+        "percent",
+        "per cent"
+       ]
+      },
+      "3": {
+       "accept": [
+        "half"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D05.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cómo se lee 0.5?",
+     "options": [
+      {
+       "id": "a",
+       "text": "zero comma five"
+      },
+      {
+       "id": "b",
+       "text": "zero point five"
+      },
+      {
+       "id": "c",
+       "text": "five percent"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D05.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "There is three factories."
+      },
+      {
+       "id": "b",
+       "text": "There are three factories."
+      },
+      {
+       "id": "c",
+       "text": "Have three factories."
+      }
+     ],
+     "answer": "b",
+     "explanation": "«Hay» plural = there are."
+    },
+    {
+     "id": "D05.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Describe una muestra o un lugar de trabajo con dos oraciones con there is/there are y un número.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "there is",
+        "there are"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D05.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Datos de la muestra",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D05.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Datos de la muestra: escucha sin leer y responde.",
+     "audio": {
+      "text": "There are three factories in our sample. In total there are about forty workers. Each machine works ten hours per day. The average energy use is twelve point five kilowatt hours per machine. Energy use fell by fifteen percent in one factory.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "There are three factories in our sample. In total there are about forty workers. Each machine works ten hours per day. The average energy use is twelve point five kilowatt hours per machine. Energy use fell by fifteen percent in one factory.",
+     "translation_es": "Hay tres fábricas en nuestra muestra. En total hay unos cuarenta trabajadores. Cada máquina funciona diez horas por día. El uso promedio de energía es de doce coma cinco kilovatios hora por máquina. El uso de energía bajó un quince por ciento en una fábrica.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuántos trabajadores hay en total, aproximadamente?",
+       "label": "¿Cuántos trabajadores hay en total, aproximadamente?",
+       "options": [
+        {
+         "id": "a",
+         "text": "14"
+        },
+        {
+         "id": "b",
+         "text": "40"
+        },
+        {
+         "id": "c",
+         "text": "400"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«about forty» (FORty)"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuál es el uso promedio por máquina?",
+       "label": "¿Cuál es el uso promedio por máquina?",
+       "options": [
+        {
+         "id": "a",
+         "text": "12.5 kWh"
+        },
+        {
+         "id": "b",
+         "text": "15 kWh"
+        },
+        {
+         "id": "c",
+         "text": "2.5 kWh"
+        }
+       ],
+       "answer": "a",
+       "explanation": "twelve point five"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuánto bajó el uso de energía en una fábrica?",
+       "label": "¿Cuánto bajó el uso de energía en una fábrica?",
+       "options": [
+        {
+         "id": "a",
+         "text": "50 %"
+        },
+        {
+         "id": "b",
+         "text": "15 %"
+        },
+        {
+         "id": "c",
+         "text": "5 %"
+        }
+       ],
+       "answer": "b",
+       "explanation": "fifTEEN percent"
+      }
+     ]
+    },
+    {
+     "id": "D05.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Each machine works ten hours per day.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "Each machine works ten hours per day."
+    }
+   ]
+  },
+  {
+   "id": "D05.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: The sample",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D05-RR"
+   ],
+   "activities": [
+    {
+     "id": "D05.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántos aserraderos hay en el estudio?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Tres"
+      },
+      {
+       "id": "b",
+       "text": "Cuatro"
+      },
+      {
+       "id": "c",
+       "text": "Seis"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D05.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué parte de los trabajadores es nueva?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un cuarto"
+      },
+      {
+       "id": "b",
+       "text": "La mitad"
+      },
+      {
+       "id": "c",
+       "text": "Todos"
+      }
+     ],
+     "answer": "b",
+     "explanation": "half"
+    },
+    {
+     "id": "D05.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto cuesta la energía al mes por aserradero?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Unos 200 dólares"
+      },
+      {
+       "id": "b",
+       "text": "Unos 2.000 dólares"
+      },
+      {
+       "id": "c",
+       "text": "Unos 20.000 dólares"
+      }
+     ],
+     "answer": "b",
+     "explanation": "two thousand"
+    }
+   ]
+  },
+  {
+   "id": "D05.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D05.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "There are three small sawmills in the study. In total there are about forty workers, and half of them are new.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "There are three small sawmills in the study.",
+       "In total there are about forty workers, and half of them are new."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D05.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Lee en voz alta estos datos y luego descríbelos con tus palabras (30–60 s): 3 fábricas, 40 trabajadores, 12.5 kWh, 15%, 2,000 dólares.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "there are",
+        "percent",
+        "average",
+        "total",
+        "sample",
+        "per day",
+        "about",
+        "number of",
+        "amount of",
+        "point",
+        "thousand",
+        "half"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "model": {
+      "text": "There are three factories and about forty workers. The average is twelve point five kilowatt hours. Energy use fell by fifteen percent.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "D05.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D05.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Describe con números una muestra o un proceso de tu trabajo (40–80 palabras): usa there is/there are, average, percent y total.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "there are",
+        "percent",
+        "average",
+        "total",
+        "sample",
+        "per day",
+        "about",
+        "number of",
+        "amount of",
+        "point",
+        "thousand",
+        "half"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "there is",
+        "there are"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

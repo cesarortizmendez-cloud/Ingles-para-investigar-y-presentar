@@ -1,0 +1,884 @@
+{
+ "id": "D39",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Citar a otros: according to, X found that, X argues",
+ "day": 39,
+ "week": 6,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a mencionar otros estudios en una presentación o un texto: quién dijo qué, con verbos de reporte en el tiempo correcto.",
+ "objectives": [
+  {
+   "id": "D39-O1",
+   "text": "Usar verbos de reporte (found, showed, argue, suggest)."
+  },
+  {
+   "id": "D39-O2",
+   "text": "Citar con «according to» y «X et al. (2023)»."
+  },
+  {
+   "id": "D39-O3",
+   "text": "Contrastar tu resultado con el de otro autor."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D39-LX01",
+    "form": "according to",
+    "meaning_es": "según",
+    "example": "According to Mark, the effect is common.",
+    "example_es": "Según Mark, el efecto es común.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX02",
+    "form": "et al.",
+    "meaning_es": "y colaboradores (en citas)",
+    "example": "Smith et al. (2023) used a similar method.",
+    "example_es": "Smith y colaboradores (2023) usaron un método similar.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX03",
+    "form": "argue",
+    "meaning_es": "sostener, argumentar",
+    "example": "Some authors argue that size matters.",
+    "example_es": "Algunos autores sostienen que el tamaño importa.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX04",
+    "form": "show that",
+    "meaning_es": "mostrar que",
+    "example": "These studies show that size matters.",
+    "example_es": "Estos estudios muestran que el tamaño importa.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX05",
+    "form": "state",
+    "meaning_es": "afirmar, señalar",
+    "example": "The authors state that the data are limited.",
+    "example_es": "Los autores señalan que los datos son limitados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX06",
+    "form": "point out",
+    "meaning_es": "señalar, hacer notar",
+    "example": "Reviewers often point out small errors.",
+    "example_es": "Los revisores a menudo señalan errores pequeños.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX07",
+    "form": "in line with",
+    "meaning_es": "en línea con",
+    "example": "This is in line with previous work.",
+    "example_es": "Esto está en línea con trabajos anteriores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX08",
+    "form": "source",
+    "meaning_es": "fuente",
+    "example": "Always cite your source.",
+    "example_es": "Siempre cita tu fuente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX09",
+    "form": "cite",
+    "meaning_es": "citar",
+    "example": "We cite five studies.",
+    "example_es": "Citamos cinco estudios.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX10",
+    "form": "reference",
+    "meaning_es": "referencia",
+    "example": "The reference list is at the end.",
+    "example_es": "La lista de referencias está al final.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX11",
+    "form": "author",
+    "meaning_es": "autor/a",
+    "example": "The author is from Brazil.",
+    "example_es": "El autor es de Brasil.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D39-LX12",
+    "form": "propose",
+    "meaning_es": "proponer",
+    "example": "We propose a simple tool.",
+    "example_es": "Proponemos una herramienta simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D39-G1",
+    "topic": "Verbos de reporte y citas"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D39-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "according to",
+     "meaning_es": "según",
+     "example": "According to Mark, the effect is common.",
+     "example_es": "Según Mark, el efecto es común."
+    },
+    {
+     "form": "et al.",
+     "meaning_es": "y colaboradores (en citas)",
+     "example": "Smith et al. (2023) used a similar method.",
+     "example_es": "Smith y colaboradores (2023) usaron un método similar."
+    },
+    {
+     "form": "argue",
+     "meaning_es": "sostener, argumentar",
+     "example": "Some authors argue that size matters.",
+     "example_es": "Algunos autores sostienen que el tamaño importa."
+    },
+    {
+     "form": "show that",
+     "meaning_es": "mostrar que",
+     "example": "These studies show that size matters.",
+     "example_es": "Estos estudios muestran que el tamaño importa."
+    },
+    {
+     "form": "state",
+     "meaning_es": "afirmar, señalar",
+     "example": "The authors state that the data are limited.",
+     "example_es": "Los autores señalan que los datos son limitados."
+    },
+    {
+     "form": "point out",
+     "meaning_es": "señalar, hacer notar",
+     "example": "Reviewers often point out small errors.",
+     "example_es": "Los revisores a menudo señalan errores pequeños."
+    },
+    {
+     "form": "in line with",
+     "meaning_es": "en línea con",
+     "example": "This is in line with previous work.",
+     "example_es": "Esto está en línea con trabajos anteriores."
+    },
+    {
+     "form": "source",
+     "meaning_es": "fuente",
+     "example": "Always cite your source.",
+     "example_es": "Siempre cita tu fuente."
+    },
+    {
+     "form": "cite",
+     "meaning_es": "citar",
+     "example": "We cite five studies.",
+     "example_es": "Citamos cinco estudios."
+    },
+    {
+     "form": "reference",
+     "meaning_es": "referencia",
+     "example": "The reference list is at the end.",
+     "example_es": "La lista de referencias está al final."
+    },
+    {
+     "form": "author",
+     "meaning_es": "autor/a",
+     "example": "The author is from Brazil.",
+     "example_es": "El autor es de Brasil."
+    },
+    {
+     "form": "propose",
+     "meaning_es": "proponer",
+     "example": "We propose a simple tool.",
+     "example_es": "Proponemos una herramienta simple."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D39-RG",
+   "type": "capsule",
+   "title": "Verbos de reporte y citas",
+   "explain": "Para mencionar lo que encontró otro estudio:\nResultado concreto (pasado simple): Smith et al. (2023) found that… / showed that… / reported…\nOpinión o postura vigente (presente simple): Some authors argue that… / Garcia (2021) suggests that…\nFuente general: According to the International Energy Agency, …\nComparar con tu trabajo: Our results are in line with Smith et al. (2023). / Unlike Garcia (2021), we found…\n«et al.» se usa con 3 o más autores. Después de «found / showed / argue / suggest» va «that + oración».",
+   "form": [
+    [
+     "X (año) found / showed that + oración",
+     "resultado (pasado)"
+    ],
+    [
+     "X argues / suggests that + oración",
+     "postura (presente)"
+    ],
+    [
+     "According to X, …",
+     "fuente"
+    ],
+    [
+     "in line with / unlike + autor",
+     "comparar"
+    ]
+   ],
+   "examples": [
+    [
+     "Smith et al. (2023) found that night shifts used more energy.",
+     "Smith y colaboradores (2023) encontraron que los turnos de noche usaban más energía."
+    ],
+    [
+     "Some authors argue that company size is the main factor.",
+     "Algunos autores sostienen que el tamaño de la empresa es el factor principal."
+    ],
+    [
+     "Our results are in line with Smith et al. (2023).",
+     "Nuestros resultados están en línea con Smith y colaboradores (2023)."
+    ]
+   ],
+   "tip": "En una charla puedes decir la cita con naturalidad: «A study from Brazil, by Silva and colleagues, found that…».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D39-RR",
+   "type": "text",
+   "title": "Related work paragraph",
+   "body": "According to the International Energy Agency, small companies often use energy less efficiently than large ones. Silva et al. (2022) found that night shifts used more energy in Brazilian furniture factories. Some authors argue that the main factor is the age of the equipment, while others suggest that operator experience matters more. Garcia (2021) pointed out that few studies use real data. Our results are in line with Silva et al. (2022); however, unlike previous work, we propose a simple tool that small companies can use every day.",
+   "translation_es": "Según la Agencia Internacional de Energía, las empresas pequeñas a menudo usan la energía de forma menos eficiente que las grandes. Silva y colaboradores (2022) encontraron que los turnos de noche usaban más energía en fábricas de muebles brasileñas. Algunos autores sostienen que el factor principal es la antigüedad de los equipos, mientras que otros sugieren que la experiencia de los operarios importa más. García (2021) señaló que pocos estudios usan datos reales. Nuestros resultados están en línea con Silva y colaboradores (2022); sin embargo, a diferencia de trabajos anteriores, proponemos una herramienta simple que las empresas pequeñas pueden usar todos los días.",
+   "glossary": [
+    [
+     "furniture",
+     "muebles"
+    ],
+    [
+     "age of the equipment",
+     "antigüedad de los equipos"
+    ],
+    [
+     "while others",
+     "mientras que otros"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D39.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D39-RV"
+   ],
+   "activities": [
+    {
+     "id": "D39.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] Mark, the effect is common.  (2) Smith [[2]] (2023) used a similar method.  (3) Reviewers often [[3]] small errors.  (4) This is [[4]] previous work.  (5) Always cite your [[5]].  (6) We [[6]] five studies.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "according to"
+       ],
+       "hint": "Significa «según»."
+      },
+      "2": {
+       "accept": [
+        "et al."
+       ],
+       "hint": "Significa «y colaboradores (en citas)»."
+      },
+      "3": {
+       "accept": [
+        "point out"
+       ],
+       "hint": "Significa «señalar, hacer notar»."
+      },
+      "4": {
+       "accept": [
+        "in line with"
+       ],
+       "hint": "Significa «en línea con»."
+      },
+      "5": {
+       "accept": [
+        "source"
+       ],
+       "hint": "Significa «fuente»."
+      },
+      "6": {
+       "accept": [
+        "cite"
+       ],
+       "hint": "Significa «citar»."
+      }
+     }
+    },
+    {
+     "id": "D39.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «autor/a»",
+     "accept": [
+      "author"
+     ],
+     "hint": "Empieza con «au…» · Ejemplo: El autor es de Brasil."
+    },
+    {
+     "id": "D39.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «referencia»",
+     "accept": [
+      "reference"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: La lista de referencias está al final."
+    },
+    {
+     "id": "D39.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «afirmar, señalar»",
+     "accept": [
+      "state"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: Los autores señalan que los datos son limitados."
+    },
+    {
+     "id": "D39.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «proponer»",
+     "accept": [
+      "propose"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: Proponemos una herramienta simple."
+    },
+    {
+     "id": "D39.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mostrar que»",
+     "accept": [
+      "show that"
+     ],
+     "hint": "Empieza con «sh…» · Ejemplo: Estos estudios muestran que el tamaño importa."
+    },
+    {
+     "id": "D39.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «sostener, argumentar»",
+     "accept": [
+      "argue"
+     ],
+     "hint": "Empieza con «ar…» · Ejemplo: Algunos autores sostienen que el tamaño importa."
+    },
+    {
+     "id": "D39.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The author is from Brazil.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The author is from Brazil."
+    }
+   ]
+  },
+  {
+   "id": "D39.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Verbos de reporte y citas",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D39-RG"
+   ],
+   "activities": [
+    {
+     "id": "D39.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] to Mark, the effect is common. (según)  (2) Smith et al. (2023) [[2]] that night shifts used more energy. (encontraron)  (3) Some authors [[3]] that size matters. (sostienen)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "according"
+       ]
+      },
+      "2": {
+       "accept": [
+        "found",
+        "showed"
+       ],
+       "hint": "resultado → pasado"
+      },
+      "3": {
+       "accept": [
+        "argue"
+       ],
+       "hint": "postura → presente"
+      }
+     }
+    },
+    {
+     "id": "D39.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) This is in [[1]] with previous work.  (2) Previous studies [[2]] savings of ten percent. (reportan)  (3) We [[3]] a simple tool. (proponemos)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "line"
+       ],
+       "hint": "in line with"
+      },
+      "2": {
+       "accept": [
+        "report"
+       ]
+      },
+      "3": {
+       "accept": [
+        "propose"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D39.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta para un resultado de otro estudio?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Silva (2022) find that costs fell."
+      },
+      {
+       "id": "b",
+       "text": "Silva (2022) found that costs fell."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D39.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuándo se usa «et al.»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Con un autor"
+      },
+      {
+       "id": "b",
+       "text": "Con tres o más autores"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D39.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe dos oraciones citando un estudio de tu área (real o inventado con fines de práctica) y compara tu trabajo con él (in line with / unlike).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "found that",
+        "according to",
+        "argue",
+        "in line with",
+        "unlike",
+        "et al."
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D39.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Comparando con la literatura",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D39.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Comparando con la literatura: escucha sin leer y responde.",
+     "audio": {
+      "text": "According to the International Energy Agency, small companies use energy less efficiently. Silva et al. found that night shifts used more energy in Brazilian factories. Our results are in line with their study. However, unlike Silva, we used real data from sensors.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "According to the International Energy Agency, small companies use energy less efficiently. Silva et al. found that night shifts used more energy in Brazilian factories. Our results are in line with their study. However, unlike Silva, we used real data from sensors.",
+     "translation_es": "Según la Agencia Internacional de Energía, las empresas pequeñas usan la energía de forma menos eficiente. Silva y colaboradores encontraron que los turnos de noche usaban más energía en fábricas brasileñas. Nuestros resultados están en línea con su estudio. Sin embargo, a diferencia de Silva, nosotros usamos datos reales de sensores.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué encontró Silva?",
+       "label": "¿Qué encontró Silva?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Que los turnos de noche usaban más energía"
+        },
+        {
+         "id": "b",
+         "text": "Que los sensores fallaban"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Dónde trabajó Silva?",
+       "label": "¿Dónde trabajó Silva?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En Chile"
+        },
+        {
+         "id": "b",
+         "text": "En Brasil"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿En qué se diferencia el estudio de Ana?",
+       "label": "¿En qué se diferencia el estudio de Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Usó datos reales de sensores"
+        },
+        {
+         "id": "b",
+         "text": "Usó encuestas"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D39.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Our results are in line with their study.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Our results are in line with their study."
+    }
+   ]
+  },
+  {
+   "id": "D39.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Related work paragraph",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D39-RR"
+   ],
+   "activities": [
+    {
+     "id": "D39.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué señaló García (2021)?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Que pocos estudios usan datos reales"
+      },
+      {
+       "id": "b",
+       "text": "Que los turnos de noche son mejores"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D39.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué factores principales discuten los autores?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Antigüedad de equipos y experiencia de operarios"
+      },
+      {
+       "id": "b",
+       "text": "Precio y clima"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D39.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué aporta de nuevo el trabajo de Ana?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Una herramienta simple de uso diario"
+      },
+      {
+       "id": "b",
+       "text": "Una teoría nueva"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D39.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D39.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "According to the International Energy Agency, small companies often use energy less efficiently than large ones. Silva et al.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "According to the International Energy Agency, small companies often use energy less efficiently than large ones.",
+       "Silva et al."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D39.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Menciona en voz alta (30–60 s) uno o dos estudios de tu área y compáralos con tu trabajo: According to…, X found that…, Our results are in line with… / Unlike X, we…",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "according to",
+        "et al.",
+        "argue",
+        "show that",
+        "state",
+        "point out",
+        "in line with",
+        "source",
+        "cite",
+        "reference",
+        "author",
+        "propose"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D39.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D39.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un párrafo de trabajos relacionados (50–90 palabras) con al menos dos citas y una comparación con tu trabajo.",
+     "min_words": 45,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "according to",
+        "et al.",
+        "argue",
+        "show that",
+        "state",
+        "point out",
+        "in line with",
+        "source",
+        "cite",
+        "reference",
+        "author",
+        "propose"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "found that",
+        "according to",
+        "argue",
+        "in line with",
+        "unlike",
+        "et al."
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

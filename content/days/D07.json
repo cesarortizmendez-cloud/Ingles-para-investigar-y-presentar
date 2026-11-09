@@ -1,0 +1,695 @@
+{
+ "id": "D07",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso semana 1 y mini presentación",
+ "day": 7,
+ "week": 1,
+ "day_type": "repaso",
+ "intro": "Día de consolidar: mezclas todo lo de la semana sin apoyo y grabas tu primera mini presentación de un minuto.",
+ "objectives": [
+  {
+   "id": "D07-O1",
+   "text": "Recordar sin mirar las palabras de la semana (meta: 70 % o más)."
+  },
+  {
+   "id": "D07-O2",
+   "text": "Elegir la forma gramatical correcta en ejercicios mezclados."
+  },
+  {
+   "id": "D07-O3",
+   "text": "Grabar una presentación de 60–90 segundos y evaluarla con la rúbrica."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D07-RR",
+   "type": "text",
+   "title": "Week one: Ana's notes",
+   "body": "My name is Ana. I am an industrial engineer and I work at a university in Chillán. I usually teach statistics, but this semester I am teaching logistics. My team is small: three researchers and two students. We work with three local sawmills. We measure energy use every hour and analyse the data with Python. Sawmill C is more efficient than the others. We don't have final results yet, but the first results are positive.",
+   "translation_es": "Me llamo Ana. Soy ingeniera industrial y trabajo en una universidad en Chillán. Normalmente enseño estadística, pero este semestre estoy dictando logística. Mi equipo es pequeño: tres investigadores y dos estudiantes. Trabajamos con tres aserraderos locales. Medimos el uso de energía cada hora y analizamos los datos con Python. El aserradero C es más eficiente que los otros. Todavía no tenemos resultados finales, pero los primeros resultados son positivos.",
+   "glossary": [
+    [
+     "positive",
+     "positivos"
+    ],
+    [
+     "local",
+     "locales"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D07.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "D07.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) Diego needs to [[1]] his results.  (2) [[2]] the team is testing a new model.  (3) [[3]] I am a lecturer.  (4) The [[4]] energy is surprising.  (5) This [[5]] is about energy efficiency.  (6) My [[6]] is production planning.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "write up"
+       ],
+       "hint": "Significa «redactar (resultados, un informe)»."
+      },
+      "2": {
+       "accept": [
+        "this year"
+       ],
+       "hint": "Significa «este año»."
+      },
+      "3": {
+       "accept": [
+        "What do you do?"
+       ],
+       "hint": "Significa «¿A qué te dedicas?»."
+      },
+      "4": {
+       "accept": [
+        "amount of"
+       ],
+       "hint": "Significa «cantidad de (incontable)»."
+      },
+      "5": {
+       "accept": [
+        "paper"
+       ],
+       "hint": "Significa «artículo (científico)»."
+      },
+      "6": {
+       "accept": [
+        "main area"
+       ],
+       "hint": "Significa «área principal»."
+      }
+     }
+    },
+    {
+     "id": "D07.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mejorar»",
+     "accept": [
+      "improve"
+     ],
+     "hint": "Ejemplo: El objetivo es mejorar la planificación."
+    },
+    {
+     "id": "D07.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «investigador/a»",
+     "accept": [
+      "researcher"
+     ],
+     "hint": "Ejemplo: Ana es investigadora en Chile."
+    },
+    {
+     "id": "D07.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en este momento»",
+     "accept": [
+      "at the moment"
+     ],
+     "hint": "Ejemplo: En este momento estamos recolectando datos."
+    },
+    {
+     "id": "D07.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «analizar»",
+     "accept": [
+      "analyse",
+      "analyze"
+     ],
+     "hint": "Ejemplo: Analizo los datos con Python."
+    },
+    {
+     "id": "D07.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «coma decimal (se dice «point»)»",
+     "accept": [
+      "point"
+     ],
+     "hint": "Ejemplo: El valor es tres coma cinco."
+    },
+    {
+     "id": "D07.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «proyecto»",
+     "accept": [
+      "project"
+     ],
+     "hint": "Ejemplo: Nuestro proyecto trata sobre el uso de energía."
+    }
+   ]
+  },
+  {
+   "id": "D07.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D07.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) We [[1]] a small team.  (2) She [[2]] the data with Python. (analyse)  (3) What [[3]] you measure in the factory?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are",
+        "'re"
+       ],
+       "hint": "We → are."
+      },
+      "2": {
+       "accept": [
+        "analyses",
+        "analyzes"
+       ],
+       "hint": "she → -s"
+      },
+      "3": {
+       "accept": [
+        "do"
+       ],
+       "hint": "you → do"
+      }
+     }
+    },
+    {
+     "id": "D07.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) I am [[1]] working on a paper. (actualmente)  (2) [[2]] of the workers are new. (la mitad)  (3) Output is higher [[3]] last year.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "currently"
+       ],
+       "hint": "actualmente = currently"
+      },
+      "2": {
+       "accept": [
+        "half"
+       ]
+      },
+      "3": {
+       "accept": [
+        "than"
+       ],
+       "hint": "comparación → than"
+      }
+     }
+    },
+    {
+     "id": "D07.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál oración es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She is lecturer."
+      },
+      {
+       "id": "b",
+       "text": "She is a lecturer."
+      },
+      {
+       "id": "c",
+       "text": "She a lecturer is."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Con profesiones se usa a/an, y el orden es sujeto + verbo + complemento."
+    },
+    {
+     "id": "D07.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Dónde va «usually»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I usually write reports on Fridays."
+      },
+      {
+       "id": "b",
+       "text": "I write usually reports on Fridays."
+      },
+      {
+       "id": "c",
+       "text": "Usually I writes reports on Fridays."
+      }
+     ],
+     "answer": "a",
+     "explanation": "Antes del verbo principal."
+    },
+    {
+     "id": "D07.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál pregunta es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Does she teaches on Mondays?"
+      },
+      {
+       "id": "b",
+       "text": "Does she teach on Mondays?"
+      },
+      {
+       "id": "c",
+       "text": "Do she teach on Mondays?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "does + verbo base."
+    },
+    {
+     "id": "D07.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál describe algo habitual?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I teach statistics every year."
+      },
+      {
+       "id": "b",
+       "text": "I am teaching statistics at the moment."
+      }
+     ],
+     "answer": "a",
+     "explanation": "every year = habitual."
+    },
+    {
+     "id": "D07.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "There is three factories."
+      },
+      {
+       "id": "b",
+       "text": "There are three factories."
+      },
+      {
+       "id": "c",
+       "text": "Have three factories."
+      }
+     ],
+     "answer": "b",
+     "explanation": "«Hay» plural = there are."
+    },
+    {
+     "id": "D07.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "the most efficient machine"
+      },
+      {
+       "id": "b",
+       "text": "the efficientest machine"
+      },
+      {
+       "id": "c",
+       "text": "the more efficient machine of all"
+      }
+     ],
+     "answer": "a",
+     "explanation": "palabra larga → the most"
+    }
+   ]
+  },
+  {
+   "id": "D07.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Ana presenta su proyecto en un minuto",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D07.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Ana presenta su proyecto en un minuto: escucha sin leer y responde.",
+     "audio": {
+      "text": "Good morning. I am Ana Rojas, a lecturer and researcher in Chile. I work in the Department of Industrial Engineering. At the moment my team is working on a model that predicts energy use in small sawmills. There are three sawmills in our sample. Sawmill C is the most efficient, and it uses about twenty percent less energy than sawmill A.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Good morning. I am Ana Rojas, a lecturer and researcher in Chile. I work in the Department of Industrial Engineering. At the moment my team is working on a model that predicts energy use in small sawmills. There are three sawmills in our sample. Sawmill C is the most efficient, and it uses about twenty percent less energy than sawmill A.",
+     "translation_es": "Buenos días. Soy Ana Rojas, académica e investigadora en Chile. Trabajo en el Departamento de Ingeniería Industrial. En este momento mi equipo trabaja en un modelo que predice el uso de energía en aserraderos pequeños. Hay tres aserraderos en nuestra muestra. El aserradero C es el más eficiente y usa alrededor de un veinte por ciento menos de energía que el A.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué predice el modelo?",
+       "label": "¿Qué predice el modelo?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El precio de la madera"
+        },
+        {
+         "id": "b",
+         "text": "El uso de energía"
+        },
+        {
+         "id": "c",
+         "text": "El número de trabajadores"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuál aserradero es el más eficiente?",
+       "label": "¿Cuál aserradero es el más eficiente?",
+       "options": [
+        {
+         "id": "a",
+         "text": "A"
+        },
+        {
+         "id": "b",
+         "text": "B"
+        },
+        {
+         "id": "c",
+         "text": "C"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿En qué tiempo verbal dice «my team is working on»?",
+       "label": "¿En qué tiempo verbal dice «my team is working on»?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Presente continuo (en curso)"
+        },
+        {
+         "id": "b",
+         "text": "Pasado"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D07.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "There are three sawmills in our sample.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "There are three sawmills in our sample."
+    }
+   ]
+  },
+  {
+   "id": "D07.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Week one: Ana's notes",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D07-RR"
+   ],
+   "activities": [
+    {
+     "id": "D07.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué enseña Ana normalmente?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Logística"
+      },
+      {
+       "id": "b",
+       "text": "Estadística"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«usually teach statistics»"
+    },
+    {
+     "id": "D07.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo analizan los datos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Con Python"
+      },
+      {
+       "id": "b",
+       "text": "Con Excel"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D07.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Tienen resultados finales?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No, solo los primeros"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D07.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D07.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "My name is Ana. I am an industrial engineer and I work at a university in Chillán.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "My name is Ana.",
+       "I am an industrial engineer and I work at a university in Chillán."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D07.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Mini presentación (60–90 s): quién eres, dónde trabajas, qué haces normalmente, en qué estás trabajando ahora y un dato con número o comparación. Después evalúala con la rúbrica.",
+     "min_seconds": 60,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "write up",
+        "this year",
+        "What do you do?",
+        "amount of",
+        "paper",
+        "main area",
+        "improve",
+        "researcher",
+        "at the moment",
+        "analyse",
+        "point",
+        "project",
+        "percent",
+        "data",
+        "there are",
+        "method",
+        "explain",
+        "worse",
+        "colleague",
+        "the highest",
+        "ask",
+        "factory",
+        "thesis",
+        "total"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "D07.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D07.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tu perfil profesional completo (80–120 palabras) con todo lo de la semana: to be, presente simple y continuo, números y una comparación.",
+     "min_words": 70,
+     "max_words": 130,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "write up",
+        "this year",
+        "What do you do?",
+        "amount of",
+        "paper",
+        "main area",
+        "improve",
+        "researcher",
+        "at the moment",
+        "analyse",
+        "point",
+        "project",
+        "percent",
+        "data",
+        "there are",
+        "method",
+        "explain",
+        "worse",
+        "colleague",
+        "the highest",
+        "ask",
+        "factory",
+        "thesis",
+        "total"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

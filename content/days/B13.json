@@ -1,0 +1,913 @@
+{
+ "id": "B13",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "En el aeropuerto y en el transporte",
+ "day": 13,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy viajas: vocabulario de aeropuerto, tren y estación, y el presente continuo para decir lo que está pasando ahora (I am waiting).",
+ "objectives": [
+  {
+   "id": "B13-O1",
+   "text": "Entender anuncios simples en un aeropuerto."
+  },
+  {
+   "id": "B13-O2",
+   "text": "Usar el presente continuo para lo que pasa ahora."
+  },
+  {
+   "id": "B13-O3",
+   "text": "Distinguir «I work» (siempre) de «I am working» (ahora)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B13-LX01",
+    "form": "flight",
+    "meaning_es": "vuelo",
+    "example": "My flight is at ten.",
+    "example_es": "Mi vuelo es a las diez.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX02",
+    "form": "passport",
+    "meaning_es": "pasaporte",
+    "example": "Can I see your passport, please?",
+    "example_es": "¿Puedo ver su pasaporte, por favor?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX03",
+    "form": "ticket",
+    "meaning_es": "pasaje, boleto",
+    "example": "I have a train ticket to New York.",
+    "example_es": "Tengo un pasaje de tren a Nueva York.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX04",
+    "form": "gate",
+    "meaning_es": "puerta (de embarque)",
+    "example": "Our flight is at gate 22.",
+    "example_es": "Nuestro vuelo está en la puerta 22.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX05",
+    "form": "boarding pass",
+    "meaning_es": "tarjeta de embarque",
+    "example": "Here is my boarding pass.",
+    "example_es": "Aquí está mi tarjeta de embarque.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX06",
+    "form": "luggage",
+    "meaning_es": "equipaje",
+    "example": "My luggage is very heavy.",
+    "example_es": "Mi equipaje está muy pesado.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX07",
+    "form": "check in",
+    "meaning_es": "hacer el check-in",
+    "example": "We need to check in two hours before.",
+    "example_es": "Tenemos que hacer el check-in dos horas antes.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX08",
+    "form": "delayed",
+    "meaning_es": "atrasado (vuelo, tren)",
+    "example": "The flight is delayed one hour.",
+    "example_es": "El vuelo está atrasado una hora.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX09",
+    "form": "arrive",
+    "meaning_es": "llegar",
+    "example": "What time do we arrive in Miami?",
+    "example_es": "¿A qué hora llegamos a Miami?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX10",
+    "form": "leave",
+    "meaning_es": "salir, partir",
+    "example": "When does the train leave?",
+    "example_es": "¿Cuándo sale el tren?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX11",
+    "form": "train",
+    "meaning_es": "tren",
+    "example": "The train is very fast.",
+    "example_es": "El tren es muy rápido.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B13-LX12",
+    "form": "station",
+    "meaning_es": "estación",
+    "example": "The station is near the hotel.",
+    "example_es": "La estación está cerca del hotel.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B13-G1",
+    "topic": "Presente continuo: lo que pasa ahora"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B13-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "flight",
+     "meaning_es": "vuelo",
+     "example": "My flight is at ten.",
+     "example_es": "Mi vuelo es a las diez."
+    },
+    {
+     "form": "passport",
+     "meaning_es": "pasaporte",
+     "example": "Can I see your passport, please?",
+     "example_es": "¿Puedo ver su pasaporte, por favor?"
+    },
+    {
+     "form": "ticket",
+     "meaning_es": "pasaje, boleto",
+     "example": "I have a train ticket to New York.",
+     "example_es": "Tengo un pasaje de tren a Nueva York."
+    },
+    {
+     "form": "gate",
+     "meaning_es": "puerta (de embarque)",
+     "example": "Our flight is at gate 22.",
+     "example_es": "Nuestro vuelo está en la puerta 22."
+    },
+    {
+     "form": "boarding pass",
+     "meaning_es": "tarjeta de embarque",
+     "example": "Here is my boarding pass.",
+     "example_es": "Aquí está mi tarjeta de embarque."
+    },
+    {
+     "form": "luggage",
+     "meaning_es": "equipaje",
+     "example": "My luggage is very heavy.",
+     "example_es": "Mi equipaje está muy pesado."
+    },
+    {
+     "form": "check in",
+     "meaning_es": "hacer el check-in",
+     "example": "We need to check in two hours before.",
+     "example_es": "Tenemos que hacer el check-in dos horas antes."
+    },
+    {
+     "form": "delayed",
+     "meaning_es": "atrasado (vuelo, tren)",
+     "example": "The flight is delayed one hour.",
+     "example_es": "El vuelo está atrasado una hora."
+    },
+    {
+     "form": "arrive",
+     "meaning_es": "llegar",
+     "example": "What time do we arrive in Miami?",
+     "example_es": "¿A qué hora llegamos a Miami?"
+    },
+    {
+     "form": "leave",
+     "meaning_es": "salir, partir",
+     "example": "When does the train leave?",
+     "example_es": "¿Cuándo sale el tren?"
+    },
+    {
+     "form": "train",
+     "meaning_es": "tren",
+     "example": "The train is very fast.",
+     "example_es": "El tren es muy rápido."
+    },
+    {
+     "form": "station",
+     "meaning_es": "estación",
+     "example": "The station is near the hotel.",
+     "example_es": "La estación está cerca del hotel."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B13-RG",
+   "type": "capsule",
+   "title": "Presente continuo: lo que pasa ahora",
+   "explain": "Se usa para lo que está pasando ahora o en estos días: I am waiting for my flight.\nForma: am / is / are + verbo con -ing. Negativo: I'm not waiting. Pregunta: Are you waiting?\nOrtografía: leave → leaving (se va la e), sit → sitting (se dobla la consonante).\nCompara: I work in Concepción (siempre) / I am working in Boston this month (ahora, temporal).",
+   "form": [
+    [
+     "am / is / are + -ing",
+     "I am waiting · she is leaving"
+    ],
+    [
+     "not + -ing",
+     "They aren't boarding yet."
+    ],
+    [
+     "Are you …-ing?",
+     "Are you traveling alone?"
+    ],
+    [
+     "now · right now · at the moment",
+     "ahora · en este momento"
+    ]
+   ],
+   "examples": [
+    [
+     "I am waiting at gate 22.",
+     "Estoy esperando en la puerta 22."
+    ],
+    [
+     "The plane is leaving now.",
+     "El avión está saliendo ahora."
+    ],
+    [
+     "Are you traveling for work?",
+     "¿Viaja por trabajo?"
+    ],
+    [
+     "We aren't boarding yet.",
+     "Todavía no estamos embarcando."
+    ]
+   ],
+   "tip": "Para algo que pasa ahora no basta el presente simple: «Are you traveling alone?» (to be + -ing), no «Do you travel alone?».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B13-RR",
+   "type": "text",
+   "title": "A trip to New York",
+   "body": "Today Tomás is traveling to New York by train. He is sitting by the window and he is looking at the river. The train arrives in New York at half past eleven. Mike, Linda's son, is waiting for him at the station. They are going to visit the city together. Tomás is happy, but he is a little nervous about his English.",
+   "translation_es": "Hoy Tomás viaja a Nueva York en tren. Está sentado junto a la ventana y mira el río. El tren llega a Nueva York a las once y media. Mike, el hijo de Linda, lo está esperando en la estación. Van a recorrer la ciudad juntos. Tomás está contento, pero un poco nervioso por su inglés.",
+   "glossary": [
+    [
+     "window",
+     "ventana"
+    ],
+    [
+     "river",
+     "río"
+    ],
+    [
+     "nervous",
+     "nervioso"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B13.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B13-RV"
+   ],
+   "activities": [
+    {
+     "id": "B13.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Can I see your [[1]], please?  (2) I have a train [[2]] to New York.  (3) Here is my [[3]].  (4) We need to [[4]] two hours before.  (5) The flight is [[5]] one hour.  (6) The [[6]] is very fast.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "passport"
+       ],
+       "hint": "Significa «pasaporte»."
+      },
+      "2": {
+       "accept": [
+        "ticket"
+       ],
+       "hint": "Significa «pasaje, boleto»."
+      },
+      "3": {
+       "accept": [
+        "boarding pass"
+       ],
+       "hint": "Significa «tarjeta de embarque»."
+      },
+      "4": {
+       "accept": [
+        "check in"
+       ],
+       "hint": "Significa «hacer el check-in»."
+      },
+      "5": {
+       "accept": [
+        "delayed"
+       ],
+       "hint": "Significa «atrasado (vuelo, tren)»."
+      },
+      "6": {
+       "accept": [
+        "train"
+       ],
+       "hint": "Significa «tren»."
+      }
+     }
+    },
+    {
+     "id": "B13.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «equipaje»",
+     "accept": [
+      "luggage"
+     ],
+     "hint": "Empieza con «lu…» · Ejemplo: Mi equipaje está muy pesado."
+    },
+    {
+     "id": "B13.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «estación»",
+     "accept": [
+      "station"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: La estación está cerca del hotel."
+    },
+    {
+     "id": "B13.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «salir, partir»",
+     "accept": [
+      "leave"
+     ],
+     "hint": "Empieza con «le…» · Ejemplo: ¿Cuándo sale el tren?"
+    },
+    {
+     "id": "B13.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «puerta (de embarque)»",
+     "accept": [
+      "gate"
+     ],
+     "hint": "Empieza con «ga…» · Ejemplo: Nuestro vuelo está en la puerta 22."
+    },
+    {
+     "id": "B13.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «llegar»",
+     "accept": [
+      "arrive"
+     ],
+     "hint": "Empieza con «ar…» · Ejemplo: ¿A qué hora llegamos a Miami?"
+    },
+    {
+     "id": "B13.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «vuelo»",
+     "accept": [
+      "flight"
+     ],
+     "hint": "Empieza con «fl…» · Ejemplo: Mi vuelo es a las diez."
+    },
+    {
+     "id": "B13.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "My luggage is very heavy.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "My luggage is very heavy."
+    }
+   ]
+  },
+  {
+   "id": "B13.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Presente continuo: lo que pasa ahora",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B13-RG"
+   ],
+   "activities": [
+    {
+     "id": "B13.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] waiting for my luggage.  (2) The flight [[2]] leaving from gate 5.  (3) They are [[3]] in line. (stand)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "am"
+       ],
+       "hint": "I → am + -ing."
+      },
+      "2": {
+       "accept": [
+        "is"
+       ],
+       "hint": "the flight = it → is."
+      },
+      "3": {
+       "accept": [
+        "standing"
+       ],
+       "hint": "stand → standing."
+      }
+     }
+    },
+    {
+     "id": "B13.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] you traveling for work?  (2) We aren't [[2]] yet. (board)  (3) Look! The plane is [[3]] now. (arrive)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are"
+       ],
+       "hint": "Pregunta: Are you…-ing?"
+      },
+      "2": {
+       "accept": [
+        "boarding"
+       ],
+       "hint": "board → boarding."
+      },
+      "3": {
+       "accept": [
+        "arriving"
+       ],
+       "hint": "arrive → arriving (se va la e)."
+      }
+     }
+    },
+    {
+     "id": "B13.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Estoy esperando el tren» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I wait the train."
+      },
+      {
+       "id": "b",
+       "text": "I am waiting for the train."
+      },
+      {
+       "id": "c",
+       "text": "I waiting for the train."
+      }
+     ],
+     "answer": "b",
+     "explanation": "am + -ing; esperar a algo = wait for."
+    },
+    {
+     "id": "B13.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál describe algo de ESTE momento?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She works at the airport."
+      },
+      {
+       "id": "b",
+       "text": "She is working at the airport now."
+      },
+      {
+       "id": "c",
+       "text": "She work at the airport."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B13.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre lo que está pasando ahora a tu alrededor (I am…, My colleague is…, People are…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "ing"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B13.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Anuncios en el aeropuerto",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B13.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Anuncios en el aeropuerto: escucha sin leer y responde.",
+     "audio": {
+      "text": "Attention, please. Flight 845 to Miami is now boarding at gate 22. Passengers, please have your passport and boarding pass ready. Flight 312 to Chicago is delayed. The new departure time is 4:30. We are sorry for the delay. Thank you for flying with us.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Attention, please. Flight 845 to Miami is now boarding at gate 22. Passengers, please have your passport and boarding pass ready. Flight 312 to Chicago is delayed. The new departure time is 4:30. We are sorry for the delay. Thank you for flying with us.",
+     "translation_es": "Atención, por favor. El vuelo 845 a Miami está embarcando ahora en la puerta 22. Pasajeros, tengan listos su pasaporte y su tarjeta de embarque. El vuelo 312 a Chicago está atrasado. La nueva hora de salida es 4:30. Lamentamos el atraso. Gracias por volar con nosotros.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué vuelo está embarcando?",
+       "label": "¿Qué vuelo está embarcando?",
+       "options": [
+        {
+         "id": "a",
+         "text": "845 a Miami"
+        },
+        {
+         "id": "b",
+         "text": "312 a Chicago"
+        },
+        {
+         "id": "c",
+         "text": "422 a Boston"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué deben tener listo los pasajeros?",
+       "label": "¿Qué deben tener listo los pasajeros?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El equipaje"
+        },
+        {
+         "id": "b",
+         "text": "El pasaporte y la tarjeta de embarque"
+        },
+        {
+         "id": "c",
+         "text": "El pasaje de tren"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿A qué hora sale ahora el vuelo a Chicago?",
+       "label": "¿A qué hora sale ahora el vuelo a Chicago?",
+       "options": [
+        {
+         "id": "a",
+         "text": "4:00"
+        },
+        {
+         "id": "b",
+         "text": "4:30"
+        },
+        {
+         "id": "c",
+         "text": "3:40"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B13.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Flight 312 to Chicago is delayed.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Flight 312 to Chicago is delayed."
+    }
+   ]
+  },
+  {
+   "id": "B13.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A trip to New York",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B13-RR"
+   ],
+   "activities": [
+    {
+     "id": "B13.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo viaja Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En avión"
+      },
+      {
+       "id": "b",
+       "text": "En tren"
+      },
+      {
+       "id": "c",
+       "text": "En bus"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B13.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Quién lo espera?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Linda"
+      },
+      {
+       "id": "b",
+       "text": "Mike"
+      },
+      {
+       "id": "c",
+       "text": "Emma"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B13.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo se siente Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Contento, pero un poco nervioso"
+      },
+      {
+       "id": "b",
+       "text": "Cansado"
+      },
+      {
+       "id": "c",
+       "text": "Aburrido"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "B13.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B13.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Today Tomás is traveling to New York by train. He is sitting by the window and he is looking at the river.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Today Tomás is traveling to New York by train.",
+       "He is sitting by the window and he is looking at the river."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B13.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Imagina que estás en un aeropuerto: describe en 30–60 s lo que está pasando (I am waiting…, People are…, The flight is…).",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "flight",
+        "passport",
+        "ticket",
+        "gate",
+        "boarding pass",
+        "luggage",
+        "check in",
+        "delayed",
+        "arrive",
+        "leave",
+        "train",
+        "station"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B13.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B13.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un mensaje de 25–60 palabras a tu familia desde el aeropuerto: dónde estás, qué estás haciendo y a qué hora llegas.",
+     "min_words": 25,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "flight",
+        "passport",
+        "ticket",
+        "gate",
+        "boarding pass",
+        "luggage",
+        "check in",
+        "delayed",
+        "arrive",
+        "leave",
+        "train",
+        "station"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "ing"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

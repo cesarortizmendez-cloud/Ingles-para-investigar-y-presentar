@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Ingresar{% endblock %}
+{% block content %}
+<h1>Ingresar</h1>
+<form method="post" class="form narrow login-form" data-login-form>
+  {% csrf_token %}
+  {% if form.non_field_errors %}<div class="form-errors">{{ form.non_field_errors }}</div>{% endif %}
+  <p>{{ form.username.label_tag }} {{ form.username }}</p>
+  <p>{{ form.password.label_tag }} {{ form.password }}</p>
+  <div class="remember-box" data-remember-box>
+    <p class="remember-app-note" data-app-note hidden>📱 Estás usando la <strong>app instalada</strong>. ¿Quieres que la sesión quede abierta para no ingresar cada vez?</p>
+    <label class="remember-label">{{ form.remember }} <span>{{ form.remember.label }}</span></label>
+    <p class="small muted">{{ form.remember.help_text }}</p>
+  </div>
+  <input type="hidden" name="next" value="{{ next }}">
+  <button type="submit">Ingresar</button>
+</form>
+<p>¿No tienes cuenta? <a href="{% url 'signup' %}">Crear una</a></p>
+{% endblock %}

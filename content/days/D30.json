@@ -1,0 +1,886 @@
+{
+ "id": "D30",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Contrastar ideas: however, although, while, whereas",
+ "day": 30,
+ "week": 5,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a contrastar resultados y opiniones, algo esencial en una discusión académica.",
+ "objectives": [
+  {
+   "id": "D30-O1",
+   "text": "Usar however (entre oraciones) y although/while/whereas (dentro de una oración)."
+  },
+  {
+   "id": "D30-O2",
+   "text": "Puntuar correctamente los conectores de contraste."
+  },
+  {
+   "id": "D30-O3",
+   "text": "Comparar tus resultados con los de otro estudio."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D30-LX01",
+    "form": "although",
+    "meaning_es": "aunque",
+    "example": "Although the sample was small, the results were clear.",
+    "example_es": "Aunque la muestra era pequeña, los resultados fueron claros.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX02",
+    "form": "whereas",
+    "meaning_es": "mientras que (contraste)",
+    "example": "Day shifts improved, whereas night shifts did not.",
+    "example_es": "Los turnos de día mejoraron, mientras que los de noche no.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX03",
+    "form": "on the other hand",
+    "meaning_es": "por otro lado",
+    "example": "On the other hand, costs increased.",
+    "example_es": "Por otro lado, los costos aumentaron.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX04",
+    "form": "in contrast",
+    "meaning_es": "en cambio, por el contrario",
+    "example": "In contrast, large factories saved more energy.",
+    "example_es": "En cambio, las fábricas grandes ahorraron más energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX05",
+    "form": "despite",
+    "meaning_es": "a pesar de",
+    "example": "Despite the cold weather, output was stable.",
+    "example_es": "A pesar del clima frío, la producción fue estable.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX06",
+    "form": "nevertheless",
+    "meaning_es": "no obstante",
+    "example": "Nevertheless, the trend is clear.",
+    "example_es": "No obstante, la tendencia es clara.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX07",
+    "form": "unlike",
+    "meaning_es": "a diferencia de",
+    "example": "Unlike previous studies, we used real data.",
+    "example_es": "A diferencia de estudios anteriores, usamos datos reales.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX08",
+    "form": "consistent with",
+    "meaning_es": "coherente con",
+    "example": "Our results are consistent with Mark's study.",
+    "example_es": "Nuestros resultados son coherentes con el estudio de Mark.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX09",
+    "form": "contrary to",
+    "meaning_es": "contrariamente a",
+    "example": "Contrary to our hypothesis, costs did not fall.",
+    "example_es": "Contrariamente a nuestra hipótesis, los costos no bajaron.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX10",
+    "form": "hypothesis",
+    "meaning_es": "hipótesis",
+    "example": "Our hypothesis was simple.",
+    "example_es": "Nuestra hipótesis era simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX11",
+    "form": "expected",
+    "meaning_es": "esperado/a",
+    "example": "The effect was smaller than expected.",
+    "example_es": "El efecto fue menor de lo esperado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D30-LX12",
+    "form": "limitation",
+    "meaning_es": "limitación",
+    "example": "One limitation is the small sample.",
+    "example_es": "Una limitación es la muestra pequeña.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D30-G1",
+    "topic": "Conectores de contraste y su puntuación"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D30-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "although",
+     "meaning_es": "aunque",
+     "example": "Although the sample was small, the results were clear.",
+     "example_es": "Aunque la muestra era pequeña, los resultados fueron claros."
+    },
+    {
+     "form": "whereas",
+     "meaning_es": "mientras que (contraste)",
+     "example": "Day shifts improved, whereas night shifts did not.",
+     "example_es": "Los turnos de día mejoraron, mientras que los de noche no."
+    },
+    {
+     "form": "on the other hand",
+     "meaning_es": "por otro lado",
+     "example": "On the other hand, costs increased.",
+     "example_es": "Por otro lado, los costos aumentaron."
+    },
+    {
+     "form": "in contrast",
+     "meaning_es": "en cambio, por el contrario",
+     "example": "In contrast, large factories saved more energy.",
+     "example_es": "En cambio, las fábricas grandes ahorraron más energía."
+    },
+    {
+     "form": "despite",
+     "meaning_es": "a pesar de",
+     "example": "Despite the cold weather, output was stable.",
+     "example_es": "A pesar del clima frío, la producción fue estable."
+    },
+    {
+     "form": "nevertheless",
+     "meaning_es": "no obstante",
+     "example": "Nevertheless, the trend is clear.",
+     "example_es": "No obstante, la tendencia es clara."
+    },
+    {
+     "form": "unlike",
+     "meaning_es": "a diferencia de",
+     "example": "Unlike previous studies, we used real data.",
+     "example_es": "A diferencia de estudios anteriores, usamos datos reales."
+    },
+    {
+     "form": "consistent with",
+     "meaning_es": "coherente con",
+     "example": "Our results are consistent with Mark's study.",
+     "example_es": "Nuestros resultados son coherentes con el estudio de Mark."
+    },
+    {
+     "form": "contrary to",
+     "meaning_es": "contrariamente a",
+     "example": "Contrary to our hypothesis, costs did not fall.",
+     "example_es": "Contrariamente a nuestra hipótesis, los costos no bajaron."
+    },
+    {
+     "form": "hypothesis",
+     "meaning_es": "hipótesis",
+     "example": "Our hypothesis was simple.",
+     "example_es": "Nuestra hipótesis era simple."
+    },
+    {
+     "form": "expected",
+     "meaning_es": "esperado/a",
+     "example": "The effect was smaller than expected.",
+     "example_es": "El efecto fue menor de lo esperado."
+    },
+    {
+     "form": "limitation",
+     "meaning_es": "limitación",
+     "example": "One limitation is the small sample.",
+     "example_es": "Una limitación es la muestra pequeña."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D30-RG",
+   "type": "capsule",
+   "title": "Conectores de contraste y su puntuación",
+   "explain": "Entre dos oraciones: However, / Nevertheless, / In contrast, / On the other hand, → van al inicio de la segunda oración, seguidos de coma.\nDentro de una oración: although / while / whereas + oración: «Although the sample was small, the results were clear».\nCon sustantivo (no oración): despite / unlike + sustantivo: «Despite the cold weather, …» (no «despite the weather was cold»).\nError típico: «However the results…» sin coma, o «Despite of» (es despite, sin of; o in spite of).",
+   "form": [
+    [
+     "Oración. However, oración.",
+     "The sample was small. However, the trend is clear."
+    ],
+    [
+     "Although + oración, oración.",
+     "Although it was cold, output was stable."
+    ],
+    [
+     "X, whereas Y.",
+     "Day shifts improved, whereas night shifts did not."
+    ],
+    [
+     "Despite / Unlike + sustantivo",
+     "Despite the cold, … · Unlike previous studies, …"
+    ]
+   ],
+   "examples": [
+    [
+     "Although the sample was small, the trend is clear.",
+     "Aunque la muestra era pequeña, la tendencia es clara."
+    ],
+    [
+     "Day shifts improved, whereas night shifts did not.",
+     "Los turnos de día mejoraron, mientras que los de noche no."
+    ],
+    [
+     "Unlike previous studies, we used real energy data.",
+     "A diferencia de estudios anteriores, usamos datos reales de energía."
+    ]
+   ],
+   "tip": "«Despite» va con sustantivo: despite the problems. Con oración usa although.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D30-RR",
+   "type": "text",
+   "title": "Discussion: comparing studies",
+   "body": "Unlike previous studies, which used estimates, this study used real energy data. Our results are consistent with studies in large factories: night shifts used more energy per unit. However, the difference was smaller than expected. Contrary to our hypothesis, the new schedule did not reduce costs in the first month. Although the sample was small, the trend was the same in all three sawmills. Day shifts improved, whereas night shifts did not. Nevertheless, one limitation must be considered: the study covered only one region.",
+   "translation_es": "A diferencia de estudios anteriores, que usaron estimaciones, este estudio usó datos reales de energía. Nuestros resultados son coherentes con estudios en fábricas grandes: los turnos de noche usaron más energía por unidad. Sin embargo, la diferencia fue menor de lo esperado. Contrariamente a nuestra hipótesis, la nueva programación no redujo los costos en el primer mes. Aunque la muestra era pequeña, la tendencia fue la misma en los tres aserraderos. Los turnos de día mejoraron, mientras que los de noche no. No obstante, debe considerarse una limitación: el estudio abarcó solo una región.",
+   "glossary": [
+    [
+     "covered",
+     "abarcó"
+    ],
+    [
+     "must be considered",
+     "debe considerarse"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D30.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D30-RV"
+   ],
+   "activities": [
+    {
+     "id": "D30.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Day shifts improved, [[1]] night shifts did not.  (2) [[2]], costs increased.  (3) [[3]], large factories saved more energy.  (4) [[4]] previous studies, we used real data.  (5) [[5]] our hypothesis, costs did not fall.  (6) Our [[6]] was simple.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "whereas"
+       ],
+       "hint": "Significa «mientras que (contraste)»."
+      },
+      "2": {
+       "accept": [
+        "on the other hand"
+       ],
+       "hint": "Significa «por otro lado»."
+      },
+      "3": {
+       "accept": [
+        "in contrast"
+       ],
+       "hint": "Significa «en cambio, por el contrario»."
+      },
+      "4": {
+       "accept": [
+        "unlike"
+       ],
+       "hint": "Significa «a diferencia de»."
+      },
+      "5": {
+       "accept": [
+        "contrary to"
+       ],
+       "hint": "Significa «contrariamente a»."
+      },
+      "6": {
+       "accept": [
+        "hypothesis"
+       ],
+       "hint": "Significa «hipótesis»."
+      }
+     }
+    },
+    {
+     "id": "D30.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «coherente con»",
+     "accept": [
+      "consistent with"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Nuestros resultados son coherentes con el estudio de Mark."
+    },
+    {
+     "id": "D30.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «limitación»",
+     "accept": [
+      "limitation"
+     ],
+     "hint": "Empieza con «li…» · Ejemplo: Una limitación es la muestra pequeña."
+    },
+    {
+     "id": "D30.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «a pesar de»",
+     "accept": [
+      "despite"
+     ],
+     "hint": "Empieza con «de…» · Ejemplo: A pesar del clima frío, la producción fue estable."
+    },
+    {
+     "id": "D30.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «no obstante»",
+     "accept": [
+      "nevertheless"
+     ],
+     "hint": "Empieza con «ne…» · Ejemplo: No obstante, la tendencia es clara."
+    },
+    {
+     "id": "D30.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «aunque»",
+     "accept": [
+      "although"
+     ],
+     "hint": "Empieza con «al…» · Ejemplo: Aunque la muestra era pequeña, los resultados fueron claros."
+    },
+    {
+     "id": "D30.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «esperado/a»",
+     "accept": [
+      "expected"
+     ],
+     "hint": "Empieza con «ex…» · Ejemplo: El efecto fue menor de lo esperado."
+    },
+    {
+     "id": "D30.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Our results are consistent with Mark's study.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Our results are consistent with Mark's study."
+    }
+   ]
+  },
+  {
+   "id": "D30.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Conectores de contraste y su puntuación",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D30-RG"
+   ],
+   "activities": [
+    {
+     "id": "D30.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The sample was small. [[1]], the trend is clear. (sin embargo)  (2) [[2]] the sample was small, the results were clear. (aunque)  (3) Day shifts improved, [[3]] night shifts did not. (mientras que)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "however",
+        "nevertheless"
+       ],
+       "hint": "entre oraciones + coma"
+      },
+      "2": {
+       "accept": [
+        "although",
+        "though"
+       ],
+       "hint": "+ oración"
+      },
+      "3": {
+       "accept": [
+        "whereas",
+        "while"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D30.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] the cold weather, output was stable. (a pesar de)  (2) [[2]] previous studies, we used real data. (a diferencia de)  (3) Our results are consistent [[3]] Mark's study.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "despite"
+       ],
+       "hint": "+ sustantivo"
+      },
+      "2": {
+       "accept": [
+        "unlike"
+       ]
+      },
+      "3": {
+       "accept": [
+        "with"
+       ],
+       "hint": "consistent with"
+      }
+     }
+    },
+    {
+     "id": "D30.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Despite the weather was cold, output was stable."
+      },
+      {
+       "id": "b",
+       "text": "Although the weather was cold, output was stable."
+      }
+     ],
+     "answer": "b",
+     "explanation": "con oración → although"
+    },
+    {
+     "id": "D30.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál está bien puntuada?",
+     "options": [
+      {
+       "id": "a",
+       "text": "However the results are clear."
+      },
+      {
+       "id": "b",
+       "text": "However, the results are clear."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D30.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Compara tu trabajo con otro estudio en dos oraciones: una con «unlike» o «consistent with» y otra con «however» o «although».",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "however",
+        "although",
+        "whereas",
+        "unlike",
+        "consistent with",
+        "despite",
+        "in contrast"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D30.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Comparando con el estudio de Mark",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D30.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Comparando con el estudio de Mark: escucha sin leer y responde.",
+     "audio": {
+      "text": "Our results are consistent with Mark's study in Boston. However, the effect was smaller than expected. Although the sample was small, the trend was clear. In contrast to large factories, small sawmills saved less energy. Nevertheless, the savings are important for them.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Our results are consistent with Mark's study in Boston. However, the effect was smaller than expected. Although the sample was small, the trend was clear. In contrast to large factories, small sawmills saved less energy. Nevertheless, the savings are important for them.",
+     "translation_es": "Nuestros resultados son coherentes con el estudio de Mark en Boston. Sin embargo, el efecto fue menor de lo esperado. Aunque la muestra era pequeña, la tendencia fue clara. A diferencia de las fábricas grandes, los aserraderos pequeños ahorraron menos energía. No obstante, el ahorro es importante para ellos.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cómo son los resultados respecto del estudio de Mark?",
+       "label": "¿Cómo son los resultados respecto del estudio de Mark?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Contrarios"
+        },
+        {
+         "id": "b",
+         "text": "Coherentes"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cómo fue el efecto?",
+       "label": "¿Cómo fue el efecto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Mayor de lo esperado"
+        },
+        {
+         "id": "b",
+         "text": "Menor de lo esperado"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Quiénes ahorraron menos energía?",
+       "label": "¿Quiénes ahorraron menos energía?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Las fábricas grandes"
+        },
+        {
+         "id": "b",
+         "text": "Los aserraderos pequeños"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D30.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "However, the effect was smaller than expected.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "However, the effect was smaller than expected."
+    }
+   ]
+  },
+  {
+   "id": "D30.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Discussion: comparing studies",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D30-RR"
+   ],
+   "activities": [
+    {
+     "id": "D30.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué usaron los estudios anteriores?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Datos reales"
+      },
+      {
+       "id": "b",
+       "text": "Estimaciones"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D30.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué pasó contrariamente a la hipótesis?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Los costos no bajaron el primer mes"
+      },
+      {
+       "id": "b",
+       "text": "La producción se duplicó"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D30.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es la limitación mencionada?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Solo una región"
+      },
+      {
+       "id": "b",
+       "text": "Datos falsos"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D30.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D30.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Unlike previous studies, which used estimates, this study used real energy data. Our results are consistent with studies in large factories: night shifts used more energy per unit.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Unlike previous studies, which used estimates, this study used real energy data.",
+       "Our results are consistent with studies in large factories: night shifts used more energy per unit."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D30.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Compara en voz alta (45–60 s) tu trabajo o tu institución con otro caso: unlike…, however…, although…, whereas…",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "although",
+        "whereas",
+        "on the other hand",
+        "in contrast",
+        "despite",
+        "nevertheless",
+        "unlike",
+        "consistent with",
+        "contrary to",
+        "hypothesis",
+        "expected",
+        "limitation"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D30.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D30.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un párrafo de discusión (50–90 palabras) comparando resultados con otro estudio y reconociendo una limitación.",
+     "min_words": 45,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "although",
+        "whereas",
+        "on the other hand",
+        "in contrast",
+        "despite",
+        "nevertheless",
+        "unlike",
+        "consistent with",
+        "contrary to",
+        "hypothesis",
+        "expected",
+        "limitation"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "however",
+        "although",
+        "whereas",
+        "unlike",
+        "consistent with",
+        "despite",
+        "in contrast"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "INV-EN",
+  "title": "Inglés para investigar y presentar",
+  "note": "Las etiquetas B1+, B2 académico y B2+ son nombres internos del itinerario, no certificaciones oficiales.",
+  "stages": [
+    {"id": "E1", "title": "Consolidación B1", "product": "Presentación de dos minutos y explicación de un gráfico",
+     "chapters": [["C01", "Identidad académica"], ["C02", "Preguntas y conversaciones"], ["C03", "Experiencia y proyectos"], ["C04", "Datos, cantidades y tendencias"]]},
+    {"id": "E2", "title": "Puente al inglés académico", "product": "Lectura de un abstract nuevo y síntesis oral de tres minutos",
+     "chapters": [["C05", "Anatomía de la oración científica"], ["C06", "Lectura estratégica"], ["C07", "Estructura del artículo"], ["C08", "Comprender y sintetizar abstracts"]]},
+    {"id": "E3", "title": "Lectura científica B2", "product": "Ficha de un paper y resumen escrito de 200–250 palabras",
+     "chapters": [["C09", "Introducción y brecha"], ["C10", "Métodos y procedimientos"], ["C11", "Resultados y estadística"], ["C12", "Discusión y limitaciones"]]},
+    {"id": "E4", "title": "Escucha e interacción B2", "product": "Reunión simulada y presentación de cinco minutos con preguntas",
+     "chapters": [["C13", "Escuchar exposiciones"], ["C14", "Hablar de la propia investigación"], ["C15", "Reuniones y colaboración"], ["C16", "Conversaciones de congreso"]]},
+    {"id": "E5", "title": "Presentación y defensa B2+", "product": "Exposición de ocho minutos y cuatro preguntas nuevas",
+     "chapters": [["C17", "Construir el argumento"], ["C18", "Explicar gráficos y modelos"], ["C19", "Exponer con claridad"], ["C20", "Defender decisiones"]]},
+    {"id": "E6", "title": "Desempeño académico avanzado", "product": "Presentación de 10–12 minutos, preguntas y síntesis crítica de dos estudios",
+     "chapters": [["C21", "Contrastar publicaciones"], ["C22", "Evaluar afirmaciones"], ["C23", "Adaptarse a audiencias"], ["C24", "Simulación de congreso"]]}
+  ]
+}

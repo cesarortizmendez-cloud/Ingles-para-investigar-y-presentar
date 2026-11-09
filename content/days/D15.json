@@ -1,0 +1,905 @@
+{
+ "id": "D15",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "La voz pasiva: qué es y por qué domina en los papers",
+ "day": 15,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy entiendes la idea central de la pasiva: lo importante es la acción y su objeto, no quién la hizo. Empiezas con el presente: is/are + participio.",
+ "objectives": [
+  {
+   "id": "D15-O1",
+   "text": "Reconocer la pasiva (is/are + participio) en un texto de método."
+  },
+  {
+   "id": "D15-O2",
+   "text": "Identificar quién hace la acción y quién la recibe."
+  },
+  {
+   "id": "D15-O3",
+   "text": "Escribir dos oraciones de método en pasiva presente."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D15-LX01",
+    "form": "is measured",
+    "meaning_es": "se mide",
+    "example": "Energy use is measured every minute.",
+    "example_es": "El uso de energía se mide cada minuto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX02",
+    "form": "are used",
+    "meaning_es": "se usan",
+    "example": "Two methods are used in this study.",
+    "example_es": "En este estudio se usan dos métodos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX03",
+    "form": "is calculated",
+    "meaning_es": "se calcula",
+    "example": "The average is calculated for each machine.",
+    "example_es": "El promedio se calcula para cada máquina.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX04",
+    "form": "are collected",
+    "meaning_es": "se recolectan",
+    "example": "Data are collected by sensors.",
+    "example_es": "Los datos son recolectados por sensores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX05",
+    "form": "is based on",
+    "meaning_es": "se basa en",
+    "example": "The model is based on real data.",
+    "example_es": "El modelo se basa en datos reales.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX06",
+    "form": "procedure",
+    "meaning_es": "procedimiento",
+    "example": "The procedure is simple.",
+    "example_es": "El procedimiento es simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX07",
+    "form": "variable",
+    "meaning_es": "variable",
+    "example": "Each variable is measured twice.",
+    "example_es": "Cada variable se mide dos veces.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX08",
+    "form": "unit",
+    "meaning_es": "unidad",
+    "example": "Energy is measured in kilowatt hours per unit.",
+    "example_es": "La energía se mide en kilovatios hora por unidad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX09",
+    "form": "is defined as",
+    "meaning_es": "se define como",
+    "example": "Efficiency is defined as output per kilowatt hour.",
+    "example_es": "La eficiencia se define como producción por kilovatio hora.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX10",
+    "form": "output",
+    "meaning_es": "producción, resultado de un proceso",
+    "example": "Daily output is recorded by the operators.",
+    "example_es": "La producción diaria es registrada por los operarios.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX11",
+    "form": "are stored",
+    "meaning_es": "se almacenan",
+    "example": "The data are stored in the cloud.",
+    "example_es": "Los datos se almacenan en la nube.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D15-LX12",
+    "form": "by",
+    "meaning_es": "por (quién hace la acción)",
+    "example": "The report is written by the team.",
+    "example_es": "El informe es escrito por el equipo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D15-G1",
+    "topic": "Pasiva en presente: is/are + participio"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D15-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "is measured",
+     "meaning_es": "se mide",
+     "example": "Energy use is measured every minute.",
+     "example_es": "El uso de energía se mide cada minuto."
+    },
+    {
+     "form": "are used",
+     "meaning_es": "se usan",
+     "example": "Two methods are used in this study.",
+     "example_es": "En este estudio se usan dos métodos."
+    },
+    {
+     "form": "is calculated",
+     "meaning_es": "se calcula",
+     "example": "The average is calculated for each machine.",
+     "example_es": "El promedio se calcula para cada máquina."
+    },
+    {
+     "form": "are collected",
+     "meaning_es": "se recolectan",
+     "example": "Data are collected by sensors.",
+     "example_es": "Los datos son recolectados por sensores."
+    },
+    {
+     "form": "is based on",
+     "meaning_es": "se basa en",
+     "example": "The model is based on real data.",
+     "example_es": "El modelo se basa en datos reales."
+    },
+    {
+     "form": "procedure",
+     "meaning_es": "procedimiento",
+     "example": "The procedure is simple.",
+     "example_es": "El procedimiento es simple."
+    },
+    {
+     "form": "variable",
+     "meaning_es": "variable",
+     "example": "Each variable is measured twice.",
+     "example_es": "Cada variable se mide dos veces."
+    },
+    {
+     "form": "unit",
+     "meaning_es": "unidad",
+     "example": "Energy is measured in kilowatt hours per unit.",
+     "example_es": "La energía se mide en kilovatios hora por unidad."
+    },
+    {
+     "form": "is defined as",
+     "meaning_es": "se define como",
+     "example": "Efficiency is defined as output per kilowatt hour.",
+     "example_es": "La eficiencia se define como producción por kilovatio hora."
+    },
+    {
+     "form": "output",
+     "meaning_es": "producción, resultado de un proceso",
+     "example": "Daily output is recorded by the operators.",
+     "example_es": "La producción diaria es registrada por los operarios."
+    },
+    {
+     "form": "are stored",
+     "meaning_es": "se almacenan",
+     "example": "The data are stored in the cloud.",
+     "example_es": "Los datos se almacenan en la nube."
+    },
+    {
+     "form": "by",
+     "meaning_es": "por (quién hace la acción)",
+     "example": "The report is written by the team.",
+     "example_es": "El informe es escrito por el equipo."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D15-RG",
+   "type": "capsule",
+   "title": "Pasiva en presente: is/are + participio",
+   "explain": "Activa: el sujeto HACE la acción → «The sensors measure energy use» (los sensores miden).\nPasiva: el sujeto RECIBE la acción → «Energy use is measured» (el uso de energía es medido / se mide).\nForma: is/are + participio pasado (measured, used, collected, written). El verbo «be» cambia con el sujeto: is (singular), are (plural).\n¿Por qué en los papers? En un método importa QUÉ se hizo, no quién: «Data are collected» suena objetivo.\nEn español solemos decir «se mide», «se usan». En inglés eso casi siempre es pasiva: «se mide» = is measured.\nOjo: la pasiva usa SIEMPRE «be» (el «ser» del español), nunca «estar» ni «have».",
+   "form": [
+    [
+     "is + participio (singular)",
+     "Energy use is measured."
+    ],
+    [
+     "are + participio (plural)",
+     "Data are collected."
+    ],
+    [
+     "… by + quien lo hace (opcional)",
+     "… by the sensors"
+    ],
+    [
+     "«se + verbo» del español",
+     "se mide = is measured"
+    ]
+   ],
+   "examples": [
+    [
+     "The sensors measure energy use. → Energy use is measured by the sensors.",
+     "Los sensores miden el uso de energía. → El uso de energía es medido por los sensores."
+    ],
+    [
+     "Two methods are used in this study.",
+     "En este estudio se usan dos métodos."
+    ],
+    [
+     "The average is calculated for each machine.",
+     "El promedio se calcula para cada máquina."
+    ]
+   ],
+   "tip": "Truco para leer papers: si ves is/are + palabra terminada en -ed (o participio irregular), pregúntate «¿qué cosa recibe la acción?».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D15-RR",
+   "type": "text",
+   "title": "Method: data collection",
+   "body": "In this study, energy use is measured in three small sawmills. The data are collected by ten sensors, one for each main machine. The values are recorded every minute and stored in the cloud. Daily output is recorded by the operators at the end of each shift. Efficiency is defined as output per kilowatt hour. The average efficiency is calculated for each machine and each shift. The procedure is based on a method used in previous studies.",
+   "translation_es": "En este estudio, el uso de energía se mide en tres aserraderos pequeños. Los datos son recolectados por diez sensores, uno por cada máquina principal. Los valores se registran cada minuto y se almacenan en la nube. La producción diaria es registrada por los operarios al final de cada turno. La eficiencia se define como producción por kilovatio hora. La eficiencia promedio se calcula para cada máquina y cada turno. El procedimiento se basa en un método usado en estudios anteriores.",
+   "glossary": [
+    [
+     "values",
+     "valores"
+    ],
+    [
+     "previous studies",
+     "estudios anteriores"
+    ],
+    [
+     "at the end of",
+     "al final de"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D15.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D15-RV"
+   ],
+   "activities": [
+    {
+     "id": "D15.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Two methods [[1]] in this study.  (2) Data [[2]] by sensors.  (3) The model [[3]] real data.  (4) The [[4]] is simple.  (5) Energy is measured in kilowatt hours per [[5]].  (6) The data [[6]] in the cloud.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are used"
+       ],
+       "hint": "Significa «se usan»."
+      },
+      "2": {
+       "accept": [
+        "are collected"
+       ],
+       "hint": "Significa «se recolectan»."
+      },
+      "3": {
+       "accept": [
+        "is based on"
+       ],
+       "hint": "Significa «se basa en»."
+      },
+      "4": {
+       "accept": [
+        "procedure"
+       ],
+       "hint": "Significa «procedimiento»."
+      },
+      "5": {
+       "accept": [
+        "unit"
+       ],
+       "hint": "Significa «unidad»."
+      },
+      "6": {
+       "accept": [
+        "are stored"
+       ],
+       "hint": "Significa «se almacenan»."
+      }
+     }
+    },
+    {
+     "id": "D15.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «por (quién hace la acción)»",
+     "accept": [
+      "by"
+     ],
+     "hint": "Empieza con «by…» · Ejemplo: El informe es escrito por el equipo."
+    },
+    {
+     "id": "D15.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «se calcula»",
+     "accept": [
+      "is calculated"
+     ],
+     "hint": "Empieza con «is…» · Ejemplo: El promedio se calcula para cada máquina."
+    },
+    {
+     "id": "D15.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «producción, resultado de un proceso»",
+     "accept": [
+      "output"
+     ],
+     "hint": "Empieza con «ou…» · Ejemplo: La producción diaria es registrada por los operarios."
+    },
+    {
+     "id": "D15.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «se define como»",
+     "accept": [
+      "is defined as"
+     ],
+     "hint": "Empieza con «is…» · Ejemplo: La eficiencia se define como producción por kilovatio hora."
+    },
+    {
+     "id": "D15.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «variable»",
+     "accept": [
+      "variable"
+     ],
+     "hint": "Empieza con «va…» · Ejemplo: Cada variable se mide dos veces."
+    },
+    {
+     "id": "D15.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «se mide»",
+     "accept": [
+      "is measured"
+     ],
+     "hint": "Empieza con «is…» · Ejemplo: El uso de energía se mide cada minuto."
+    },
+    {
+     "id": "D15.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The report is written by the team.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The report is written by the team."
+    }
+   ]
+  },
+  {
+   "id": "D15.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasiva en presente: is/are + participio",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D15-RG"
+   ],
+   "activities": [
+    {
+     "id": "D15.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Energy use [[1]] measured every minute.  (2) The data [[2]] stored in the cloud.  (3) Two methods are [[3]] in this study. (use)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "is"
+       ],
+       "hint": "singular → is"
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "data (plural en textos científicos) → are"
+      },
+      "3": {
+       "accept": [
+        "used"
+       ],
+       "hint": "participio"
+      }
+     }
+    },
+    {
+     "id": "D15.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The average is [[1]] for each machine. (calculate)  (2) The report is written [[2]] the team.  (3) Efficiency is [[3]] as output per kilowatt hour. (define)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "calculated"
+       ],
+       "hint": "participio"
+      },
+      "2": {
+       "accept": [
+        "by"
+       ],
+       "hint": "quién hace la acción → by"
+      },
+      "3": {
+       "accept": [
+        "defined"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D15.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "En «Energy use is measured by the sensors», ¿quién hace la acción?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Energy use"
+      },
+      {
+       "id": "b",
+       "text": "The sensors"
+      },
+      {
+       "id": "c",
+       "text": "Nadie"
+      }
+     ],
+     "answer": "b",
+     "explanation": "Lo que va después de «by» es quien hace la acción."
+    },
+    {
+     "id": "D15.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«En este estudio se usan dos métodos»",
+     "options": [
+      {
+       "id": "a",
+       "text": "This study uses are two methods."
+      },
+      {
+       "id": "b",
+       "text": "Two methods are used in this study."
+      },
+      {
+       "id": "c",
+       "text": "Two methods is used in this study."
+      }
+     ],
+     "answer": "b",
+     "explanation": "plural → are + used"
+    },
+    {
+     "id": "D15.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe dos oraciones de método en pasiva presente sobre tu trabajo (qué se mide, qué se usa, cómo se calcula).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "is",
+        "are"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D15.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Explicando el método",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D15.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Explicando el método: escucha sin leer y responde.",
+     "audio": {
+      "text": "In our study, energy use is measured every minute. The data are collected by ten sensors and stored in the cloud. Then the average is calculated for each machine. Efficiency is defined as output per kilowatt hour.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "In our study, energy use is measured every minute. The data are collected by ten sensors and stored in the cloud. Then the average is calculated for each machine. Efficiency is defined as output per kilowatt hour.",
+     "translation_es": "En nuestro estudio, el uso de energía se mide cada minuto. Los datos son recolectados por diez sensores y se almacenan en la nube. Luego se calcula el promedio para cada máquina. La eficiencia se define como la producción por kilovatio hora.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cada cuánto se mide el uso de energía?",
+       "label": "¿Cada cuánto se mide el uso de energía?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Cada minuto"
+        },
+        {
+         "id": "b",
+         "text": "Cada hora"
+        },
+        {
+         "id": "c",
+         "text": "Cada día"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Quién recolecta los datos?",
+       "label": "¿Quién recolecta los datos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Los operarios"
+        },
+        {
+         "id": "b",
+         "text": "Diez sensores"
+        },
+        {
+         "id": "c",
+         "text": "Los estudiantes"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«by ten sensors»"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cómo se define la eficiencia?",
+       "label": "¿Cómo se define la eficiencia?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Producción por kilovatio hora"
+        },
+        {
+         "id": "b",
+         "text": "Costo por máquina"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D15.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Then the average is calculated for each machine.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Then the average is calculated for each machine."
+    }
+   ]
+  },
+  {
+   "id": "D15.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Method: data collection",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D15-RR"
+   ],
+   "activities": [
+    {
+     "id": "D15.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Quién registra la producción diaria?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Los sensores"
+      },
+      {
+       "id": "b",
+       "text": "Los operarios"
+      },
+      {
+       "id": "c",
+       "text": "Ana"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«is recorded by the operators»"
+    },
+    {
+     "id": "D15.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde se almacenan los datos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En la nube"
+      },
+      {
+       "id": "b",
+       "text": "En papel"
+      },
+      {
+       "id": "c",
+       "text": "En la fábrica"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D15.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿En qué se basa el procedimiento?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En una idea nueva"
+      },
+      {
+       "id": "b",
+       "text": "En un método usado en estudios anteriores"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D15.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D15.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "In this study, energy use is measured in three small sawmills. The data are collected by ten sensors, one for each main machine.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "In this study, energy use is measured in three small sawmills.",
+       "The data are collected by ten sensors, one for each main machine."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D15.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en voz alta (30–60 s) cómo se recolectan los datos en un trabajo tuyo, usando la pasiva: «… is measured…», «… are collected by…», «… is calculated…».",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "is measured",
+        "are used",
+        "is calculated",
+        "are collected",
+        "is based on",
+        "procedure",
+        "variable",
+        "unit",
+        "is defined as",
+        "output",
+        "are stored",
+        "by"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D15.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D15.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un párrafo de método (40–80 palabras) en pasiva presente, como el texto de hoy, sobre un proceso de tu trabajo.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "is measured",
+        "are used",
+        "is calculated",
+        "are collected",
+        "is based on",
+        "procedure",
+        "variable",
+        "unit",
+        "is defined as",
+        "output",
+        "are stored",
+        "by"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "is",
+        "are"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,658 @@
+{
+ "id": "B15",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso unidad 3: viajar y moverme",
+ "day": 15,
+ "week": 3,
+ "day_type": "repaso",
+ "intro": "Repaso de la unidad 3 sin lista de apoyo: direcciones, compras, aeropuerto y hotel. Termina con un juego de roles completo de viaje.",
+ "objectives": [
+  {
+   "id": "B15-O1",
+   "text": "Pedir y dar direcciones simples."
+  },
+  {
+   "id": "B15-O2",
+   "text": "Resolver compras, hotel y aeropuerto con frases corteses."
+  },
+  {
+   "id": "B15-O3",
+   "text": "Recuperar sin mirar las palabras de la unidad 3."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B15-RR",
+   "type": "text",
+   "title": "Tomás's travel notes",
+   "body": "Today I am back in Boston after my trip to New York. Here are my notes. In the hotel, always ask \"Could I have…?\". In the street, people give directions with \"go straight\" and \"turn left\". In shops, ask \"How much is it?\" and \"Can I pay by card?\". At the airport, the most important things are your passport and your boarding pass. And please, always say thank you!",
+   "translation_es": "Hoy estoy de vuelta en Boston después de mi viaje a Nueva York. Aquí van mis notas. En el hotel, pregunta siempre «Could I have…?». En la calle, la gente da direcciones con «go straight» y «turn left». En las tiendas, pregunta «How much is it?» y «Can I pay by card?». En el aeropuerto, lo más importante es tu pasaporte y tu tarjeta de embarque. ¡Y por favor, di siempre gracias!",
+   "glossary": [
+    [
+     "back",
+     "de vuelta"
+    ],
+    [
+     "notes",
+     "notas, apuntes"
+    ],
+    [
+     "most important",
+     "lo más importante"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B15.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "B15.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) What time do I [[1]]?  (2) Is there a room [[2]] for tonight?  (3) There is a [[3]] with the shower.  (4) The flight is [[4]] one hour.  (5) There is a café on the [[5]].  (6) [[6]] for two blocks.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "check out"
+       ],
+       "hint": "Significa «dejar la habitación (check-out)»."
+      },
+      "2": {
+       "accept": [
+        "available"
+       ],
+       "hint": "Significa «disponible»."
+      },
+      "3": {
+       "accept": [
+        "problem"
+       ],
+       "hint": "Significa «problema»."
+      },
+      "4": {
+       "accept": [
+        "delayed"
+       ],
+       "hint": "Significa «atrasado (vuelo, tren)»."
+      },
+      "5": {
+       "accept": [
+        "corner"
+       ],
+       "hint": "Significa «esquina»."
+      },
+      "6": {
+       "accept": [
+        "go straight"
+       ],
+       "hint": "Significa «seguir derecho»."
+      }
+     }
+    },
+    {
+     "id": "B15.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tarjeta de embarque»",
+     "accept": [
+      "boarding pass"
+     ],
+     "hint": "Ejemplo: Aquí está mi tarjeta de embarque."
+    },
+    {
+     "id": "B15.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cerca de»",
+     "accept": [
+      "near"
+     ],
+     "hint": "Ejemplo: Mi hotel está cerca de la estación."
+    },
+    {
+     "id": "B15.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «estación»",
+     "accept": [
+      "station"
+     ],
+     "hint": "Ejemplo: La estación está cerca del hotel."
+    },
+    {
+     "id": "B15.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tarjeta de crédito»",
+     "accept": [
+      "credit card"
+     ],
+     "hint": "Ejemplo: ¿Puedo usar mi tarjeta de crédito aquí?"
+    },
+    {
+     "id": "B15.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «equipaje»",
+     "accept": [
+      "luggage"
+     ],
+     "hint": "Ejemplo: Mi equipaje está muy pesado."
+    },
+    {
+     "id": "B15.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «talla»",
+     "accept": [
+      "size"
+     ],
+     "hint": "Ejemplo: ¿Qué talla eres? Mediana."
+    }
+   ]
+  },
+  {
+   "id": "B15.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B15.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) There [[1]] any taxis at night.  (2) How much [[2]] these shoes?  (3) Look! The plane is [[3]] now. (arrive)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "aren't",
+        "are not"
+       ],
+       "hint": "Negativo plural."
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "these shoes es plural → are."
+      },
+      "3": {
+       "accept": [
+        "arriving"
+       ],
+       "hint": "arrive → arriving (se va la e)."
+      }
+     }
+    },
+    {
+     "id": "B15.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Would you like a coffee? Yes, [[1]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "please"
+       ],
+       "hint": "Aceptar: Yes, please."
+      }
+     }
+    },
+    {
+     "id": "B15.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "There is two hotels."
+      },
+      {
+       "id": "b",
+       "text": "There are two hotels."
+      },
+      {
+       "id": "c",
+       "text": "It has two hotels."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Plural → there are."
+    },
+    {
+     "id": "B15.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Para preguntar por una cantidad de manzanas:",
+     "options": [
+      {
+       "id": "a",
+       "text": "How much apples?"
+      },
+      {
+       "id": "b",
+       "text": "How many apples?"
+      },
+      {
+       "id": "c",
+       "text": "How many apple?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "apples es contable → how many."
+    },
+    {
+     "id": "B15.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál describe algo de ESTE momento?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She works at the airport."
+      },
+      {
+       "id": "b",
+       "text": "She is working at the airport now."
+      },
+      {
+       "id": "c",
+       "text": "She work at the airport."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B15.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Could you to repeat?"
+      },
+      {
+       "id": "b",
+       "text": "Could you repeat that, please?"
+      },
+      {
+       "id": "c",
+       "text": "Could you repeating?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "could + verbo base."
+    }
+   ]
+  },
+  {
+   "id": "B15.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Camino a la estación",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B15.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Camino a la estación: escucha sin leer y responde.",
+     "audio": {
+      "text": "Excuse me, I'm looking for the train station. Is it far? No, it's near. Go straight on this street and turn right at the pharmacy. The station is next to a big supermarket. How much is a ticket to the airport? I think it's about ten dollars. Thank you! My flight is leaving at six, so I am in a hurry.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Excuse me, I'm looking for the train station. Is it far? No, it's near. Go straight on this street and turn right at the pharmacy. The station is next to a big supermarket. How much is a ticket to the airport? I think it's about ten dollars. Thank you! My flight is leaving at six, so I am in a hurry.",
+     "translation_es": "Disculpe, estoy buscando la estación de tren. ¿Está lejos? No, está cerca. Siga derecho por esta calle y doble a la derecha en la farmacia. La estación está al lado de un supermercado grande. ¿Cuánto cuesta un pasaje al aeropuerto? Creo que unos diez dólares. ¡Gracias! Mi vuelo sale a las seis, así que estoy apurado.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué busca la persona?",
+       "label": "¿Qué busca la persona?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El aeropuerto"
+        },
+        {
+         "id": "b",
+         "text": "La estación de tren"
+        },
+        {
+         "id": "c",
+         "text": "Una farmacia"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hay al lado de la estación?",
+       "label": "¿Qué hay al lado de la estación?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un supermercado grande"
+        },
+        {
+         "id": "b",
+         "text": "Un banco"
+        },
+        {
+         "id": "c",
+         "text": "Un hotel"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Por qué está apurada?",
+       "label": "¿Por qué está apurada?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Su vuelo sale a las seis"
+        },
+        {
+         "id": "b",
+         "text": "Cierran la estación"
+        },
+        {
+         "id": "c",
+         "text": "Está lloviendo"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "B15.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Go straight on this street and turn right at the pharmacy.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Go straight on this street and turn right at the pharmacy."
+    }
+   ]
+  },
+  {
+   "id": "B15.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Tomás's travel notes",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B15-RR"
+   ],
+   "activities": [
+    {
+     "id": "B15.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde está Tomás hoy?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En Nueva York"
+      },
+      {
+       "id": "b",
+       "text": "En Boston"
+      },
+      {
+       "id": "c",
+       "text": "En Chile"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B15.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "Según Tomás, ¿qué se pregunta en las tiendas?",
+     "options": [
+      {
+       "id": "a",
+       "text": "How much is it?"
+      },
+      {
+       "id": "b",
+       "text": "Could you call a taxi?"
+      },
+      {
+       "id": "c",
+       "text": "Where is the gate?"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B15.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué es lo más importante en el aeropuerto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El pasaporte y la tarjeta de embarque"
+      },
+      {
+       "id": "b",
+       "text": "El equipaje"
+      },
+      {
+       "id": "c",
+       "text": "El pasaje de tren"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "B15.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B15.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Today I am back in Boston after my trip to New York. Here are my notes.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Today I am back in Boston after my trip to New York.",
+       "Here are my notes."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B15.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Juego de roles completo (45–90 s): llegas a una ciudad nueva; pregunta cómo llegar al hotel, haz el check-in y pide algo con cortesía.",
+     "min_seconds": 45,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "check out",
+        "available",
+        "problem",
+        "delayed",
+        "corner",
+        "go straight",
+        "boarding pass",
+        "near",
+        "station",
+        "credit card",
+        "luggage",
+        "size",
+        "passport",
+        "room",
+        "gate",
+        "check in",
+        "arrive",
+        "flight",
+        "try on",
+        "street",
+        "towel",
+        "supermarket",
+        "receipt",
+        "password"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "B15.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B15.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre un viaje real o imaginario: transporte, hotel, compras y cómo llegar a un lugar.",
+     "min_words": 35,
+     "max_words": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "check out",
+        "available",
+        "problem",
+        "delayed",
+        "corner",
+        "go straight",
+        "boarding pass",
+        "near",
+        "station",
+        "credit card",
+        "luggage",
+        "size",
+        "passport",
+        "room",
+        "gate",
+        "check in",
+        "arrive",
+        "flight",
+        "try on",
+        "street",
+        "towel",
+        "supermarket",
+        "receipt",
+        "password"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

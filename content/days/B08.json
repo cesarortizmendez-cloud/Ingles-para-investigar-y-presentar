@@ -1,0 +1,921 @@
+{
+ "id": "B08",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Comida, bebida y el restaurante",
+ "day": 8,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a pedir en un restaurante con cortesía (I'd like…, Can I have…?) y a usar some/any con cosas contables e incontables.",
+ "objectives": [
+  {
+   "id": "B08-O1",
+   "text": "Pedir comida y bebida con cortesía y pedir la cuenta."
+  },
+  {
+   "id": "B08-O2",
+   "text": "Distinguir contables e incontables y usar some / any."
+  },
+  {
+   "id": "B08-O3",
+   "text": "Entender una conversación con un mesero."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B08-LX01",
+    "form": "menu",
+    "meaning_es": "carta, menú",
+    "example": "Can we see the menu, please?",
+    "example_es": "¿Podemos ver la carta, por favor?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX02",
+    "form": "order",
+    "meaning_es": "pedir (en un restaurante)",
+    "example": "Are you ready to order?",
+    "example_es": "¿Están listos para pedir?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX03",
+    "form": "water",
+    "meaning_es": "agua",
+    "example": "A glass of water, please.",
+    "example_es": "Un vaso de agua, por favor.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX04",
+    "form": "coffee",
+    "meaning_es": "café",
+    "example": "I drink coffee in the morning.",
+    "example_es": "Tomo café en la mañana.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX05",
+    "form": "chicken",
+    "meaning_es": "pollo",
+    "example": "The chicken is very good here.",
+    "example_es": "El pollo es muy bueno aquí.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX06",
+    "form": "salad",
+    "meaning_es": "ensalada",
+    "example": "I want a green salad.",
+    "example_es": "Quiero una ensalada verde.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX07",
+    "form": "bread",
+    "meaning_es": "pan",
+    "example": "Is there any bread?",
+    "example_es": "¿Hay pan?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX08",
+    "form": "rice",
+    "meaning_es": "arroz",
+    "example": "Chicken with rice, please.",
+    "example_es": "Pollo con arroz, por favor.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX09",
+    "form": "the bill",
+    "meaning_es": "la cuenta (en EE. UU. también «the check»)",
+    "example": "Can we have the bill, please?",
+    "example_es": "¿Nos trae la cuenta, por favor?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX10",
+    "form": "I'd like",
+    "meaning_es": "quisiera, me gustaría",
+    "example": "I'd like the fish, please.",
+    "example_es": "Quisiera el pescado, por favor.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX11",
+    "form": "can I have",
+    "meaning_es": "¿me da…?, ¿me trae…?",
+    "example": "Can I have a coffee, please?",
+    "example_es": "¿Me da un café, por favor?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B08-LX12",
+    "form": "delicious",
+    "meaning_es": "delicioso/a",
+    "example": "This soup is delicious.",
+    "example_es": "Esta sopa está deliciosa.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B08-G1",
+    "topic": "Contables e incontables: some, any y pedir con I'd like"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B08-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "menu",
+     "meaning_es": "carta, menú",
+     "example": "Can we see the menu, please?",
+     "example_es": "¿Podemos ver la carta, por favor?"
+    },
+    {
+     "form": "order",
+     "meaning_es": "pedir (en un restaurante)",
+     "example": "Are you ready to order?",
+     "example_es": "¿Están listos para pedir?"
+    },
+    {
+     "form": "water",
+     "meaning_es": "agua",
+     "example": "A glass of water, please.",
+     "example_es": "Un vaso de agua, por favor."
+    },
+    {
+     "form": "coffee",
+     "meaning_es": "café",
+     "example": "I drink coffee in the morning.",
+     "example_es": "Tomo café en la mañana."
+    },
+    {
+     "form": "chicken",
+     "meaning_es": "pollo",
+     "example": "The chicken is very good here.",
+     "example_es": "El pollo es muy bueno aquí."
+    },
+    {
+     "form": "salad",
+     "meaning_es": "ensalada",
+     "example": "I want a green salad.",
+     "example_es": "Quiero una ensalada verde."
+    },
+    {
+     "form": "bread",
+     "meaning_es": "pan",
+     "example": "Is there any bread?",
+     "example_es": "¿Hay pan?"
+    },
+    {
+     "form": "rice",
+     "meaning_es": "arroz",
+     "example": "Chicken with rice, please.",
+     "example_es": "Pollo con arroz, por favor."
+    },
+    {
+     "form": "the bill",
+     "meaning_es": "la cuenta (en EE. UU. también «the check»)",
+     "example": "Can we have the bill, please?",
+     "example_es": "¿Nos trae la cuenta, por favor?"
+    },
+    {
+     "form": "I'd like",
+     "meaning_es": "quisiera, me gustaría",
+     "example": "I'd like the fish, please.",
+     "example_es": "Quisiera el pescado, por favor."
+    },
+    {
+     "form": "can I have",
+     "meaning_es": "¿me da…?, ¿me trae…?",
+     "example": "Can I have a coffee, please?",
+     "example_es": "¿Me da un café, por favor?"
+    },
+    {
+     "form": "delicious",
+     "meaning_es": "delicioso/a",
+     "example": "This soup is delicious.",
+     "example_es": "Esta sopa está deliciosa."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B08-RG",
+   "type": "capsule",
+   "title": "Contables e incontables: some, any y pedir con I'd like",
+   "explain": "Contables se cuentan (an apple, two eggs); incontables no (water, rice, bread, coffee, money): no llevan a/an ni -s.\nsome = algo de, unos (afirmativo y ofrecimientos): some bread, some eggs. any = nada de (negativo) o algo de (preguntas): I don't have any water. Is there any rice?\nPara pedir con cortesía: I'd like… (= I would like) o Can I have…? Para ofrecer: Would you like some coffee?",
+   "form": [
+    [
+     "a / an + contable singular",
+     "an egg · a salad"
+    ],
+    [
+     "some + plural o incontable",
+     "some eggs · some rice"
+    ],
+    [
+     "not … any · any…?",
+     "I don't have any milk · Do you have any tea?"
+    ],
+    [
+     "I'd like… · Can I have…?",
+     "quisiera… · ¿me da…?"
+    ]
+   ],
+   "examples": [
+    [
+     "I'd like a salad and some water.",
+     "Quisiera una ensalada y agua."
+    ],
+    [
+     "Is there any bread?",
+     "¿Hay pan?"
+    ],
+    [
+     "We don't have any rice today.",
+     "Hoy no tenemos arroz."
+    ],
+    [
+     "Would you like some coffee?",
+     "¿Quiere café?"
+    ]
+   ],
+   "tip": "«Agua» y «pan» no llevan a/an: en vez de «a water», di «some water» o «a glass of water».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B08-RR",
+   "type": "text",
+   "title": "A Sunday lunch",
+   "body": "On Sunday, Linda invites Tomás to lunch at her house. There is chicken, rice, a big salad and some fresh bread. Tomás doesn't drink wine, so Linda gives him some juice. For dessert there is apple pie. Tomás says, \"This is delicious! In Chile, we have a big lunch on Sundays too.\" After lunch, they have coffee in the garden.",
+   "translation_es": "El domingo, Linda invita a Tomás a almorzar a su casa. Hay pollo, arroz, una ensalada grande y pan fresco. Tomás no toma vino, así que Linda le da jugo. De postre hay tarta de manzana. Tomás dice: «¡Esto está delicioso! En Chile también almorzamos mucho los domingos». Después del almuerzo toman café en el jardín.",
+   "glossary": [
+    [
+     "invites",
+     "invita"
+    ],
+    [
+     "dessert",
+     "postre"
+    ],
+    [
+     "garden",
+     "jardín"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B08.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B08-RV"
+   ],
+   "activities": [
+    {
+     "id": "B08.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Can we see the [[1]], please?  (2) A glass of [[2]], please.  (3) The [[3]] is very good here.  (4) I want a green [[4]].  (5) Is there any [[5]]?  (6) This soup is [[6]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "menu"
+       ],
+       "hint": "Significa «carta, menú»."
+      },
+      "2": {
+       "accept": [
+        "water"
+       ],
+       "hint": "Significa «agua»."
+      },
+      "3": {
+       "accept": [
+        "chicken"
+       ],
+       "hint": "Significa «pollo»."
+      },
+      "4": {
+       "accept": [
+        "salad"
+       ],
+       "hint": "Significa «ensalada»."
+      },
+      "5": {
+       "accept": [
+        "bread"
+       ],
+       "hint": "Significa «pan»."
+      },
+      "6": {
+       "accept": [
+        "delicious"
+       ],
+       "hint": "Significa «delicioso/a»."
+      }
+     }
+    },
+    {
+     "id": "B08.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «café»",
+     "accept": [
+      "coffee"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Tomo café en la mañana."
+    },
+    {
+     "id": "B08.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «pedir (en un restaurante)»",
+     "accept": [
+      "order"
+     ],
+     "hint": "Empieza con «or…» · Ejemplo: ¿Están listos para pedir?"
+    },
+    {
+     "id": "B08.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «¿me da…?, ¿me trae…?»",
+     "accept": [
+      "can I have"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: ¿Me da un café, por favor?"
+    },
+    {
+     "id": "B08.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «la cuenta (en EE. UU. también «the check»)»",
+     "accept": [
+      "the bill"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: ¿Nos trae la cuenta, por favor?"
+    },
+    {
+     "id": "B08.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «quisiera, me gustaría»",
+     "accept": [
+      "I'd like"
+     ],
+     "hint": "Empieza con «I'…» · Ejemplo: Quisiera el pescado, por favor."
+    },
+    {
+     "id": "B08.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «arroz»",
+     "accept": [
+      "rice"
+     ],
+     "hint": "Empieza con «ri…» · Ejemplo: Pollo con arroz, por favor."
+    },
+    {
+     "id": "B08.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "I drink coffee in the morning.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I drink coffee in the morning."
+    }
+   ]
+  },
+  {
+   "id": "B08.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Contables e incontables: some, any y pedir con I'd like",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B08-RG"
+   ],
+   "activities": [
+    {
+     "id": "B08.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I'd like [[1]] salad, please.  (2) Can I have [[2]] water?  (3) We don't have [[3]] chicken today.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "a"
+       ],
+       "hint": "salad es contable y singular."
+      },
+      "2": {
+       "accept": [
+        "some"
+       ],
+       "hint": "Petición con incontable → some."
+      },
+      "3": {
+       "accept": [
+        "any"
+       ],
+       "hint": "Negativo → any."
+      }
+     }
+    },
+    {
+     "id": "B08.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Is there [[1]] bread?  (2) I'd like [[2]] egg.  (3) Would you like [[3]] coffee?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "any"
+       ],
+       "hint": "Pregunta → any."
+      },
+      "2": {
+       "accept": [
+        "an"
+       ],
+       "hint": "egg empieza con vocal."
+      },
+      "3": {
+       "accept": [
+        "some"
+       ],
+       "hint": "Ofrecimiento → some."
+      }
+     }
+    },
+    {
+     "id": "B08.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Para pedir con cortesía dices:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I want water."
+      },
+      {
+       "id": "b",
+       "text": "I'd like some water, please."
+      },
+      {
+       "id": "c",
+       "text": "Give me water."
+      }
+     ],
+     "answer": "b",
+     "explanation": "I'd like… please es lo más natural en un restaurante."
+    },
+    {
+     "id": "B08.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I don't have some money."
+      },
+      {
+       "id": "b",
+       "text": "I don't have any money."
+      },
+      {
+       "id": "c",
+       "text": "I don't have a money."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Negativo → any; money es incontable."
+    },
+    {
+     "id": "B08.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un pedido de restaurante en tres oraciones (I'd like…, Can I have…?, Can we have the bill?).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "i'd like",
+        "i would like",
+        "can i have"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B08.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: En el restaurante",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B08.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "En el restaurante: escucha sin leer y responde.",
+     "audio": {
+      "text": "Good evening. Are you ready to order? Yes. I'd like the chicken with rice, please. And for you? Can I have a green salad and some bread? Of course. Anything to drink? Two glasses of water, please. Thank you. Later: Excuse me, can we have the bill, please?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Good evening. Are you ready to order? Yes. I'd like the chicken with rice, please. And for you? Can I have a green salad and some bread? Of course. Anything to drink? Two glasses of water, please. Thank you. Later: Excuse me, can we have the bill, please?",
+     "translation_es": "Buenas noches. ¿Están listos para pedir? Sí. Quisiera el pollo con arroz, por favor. ¿Y usted? ¿Me trae una ensalada verde y pan? Por supuesto. ¿Algo para tomar? Dos vasos de agua, por favor. Gracias. Más tarde: Disculpe, ¿nos trae la cuenta, por favor?",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué pide la primera persona?",
+       "label": "¿Qué pide la primera persona?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Pescado"
+        },
+        {
+         "id": "b",
+         "text": "Pollo con arroz"
+        },
+        {
+         "id": "c",
+         "text": "Ensalada"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué piden para tomar?",
+       "label": "¿Qué piden para tomar?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Café"
+        },
+        {
+         "id": "b",
+         "text": "Jugo"
+        },
+        {
+         "id": "c",
+         "text": "Agua"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué piden al final?",
+       "label": "¿Qué piden al final?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La carta"
+        },
+        {
+         "id": "b",
+         "text": "La cuenta"
+        },
+        {
+         "id": "c",
+         "text": "Postre"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«the bill»."
+      }
+     ]
+    },
+    {
+     "id": "B08.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "I'd like the chicken with rice, please.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I'd like the chicken with rice, please."
+    }
+   ]
+  },
+  {
+   "id": "B08.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A Sunday lunch",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B08-RR"
+   ],
+   "activities": [
+    {
+     "id": "B08.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué bebe Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Vino"
+      },
+      {
+       "id": "b",
+       "text": "Jugo"
+      },
+      {
+       "id": "c",
+       "text": "Café con leche"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«doesn't drink wine… some juice»."
+    },
+    {
+     "id": "B08.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hay de postre?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Helado"
+      },
+      {
+       "id": "b",
+       "text": "Tarta de manzana"
+      },
+      {
+       "id": "c",
+       "text": "Fruta"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«apple pie»."
+    },
+    {
+     "id": "B08.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde toman café?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En el jardín"
+      },
+      {
+       "id": "b",
+       "text": "En la cocina"
+      },
+      {
+       "id": "c",
+       "text": "En un café"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "B08.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B08.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "On Sunday, Linda invites Tomás to lunch at her house. There is chicken, rice, a big salad and some fresh bread.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "On Sunday, Linda invites Tomás to lunch at her house.",
+       "There is chicken, rice, a big salad and some fresh bread."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B08.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Juego de roles (30–60 s): eres el cliente; pide un plato principal y una bebida, pregunta por el pan y al final pide la cuenta.",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "menu",
+        "order",
+        "water",
+        "coffee",
+        "chicken",
+        "salad",
+        "bread",
+        "rice",
+        "the bill",
+        "I'd like",
+        "can I have",
+        "delicious"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B08.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B08.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 25–60 palabras sobre tu comida favorita y lo que comes un día normal (I usually have… / I like…).",
+     "min_words": 25,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "menu",
+        "order",
+        "water",
+        "coffee",
+        "chicken",
+        "salad",
+        "bread",
+        "rice",
+        "the bill",
+        "I'd like",
+        "can I have",
+        "delicious"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "i'd like",
+        "i would like",
+        "can i have"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

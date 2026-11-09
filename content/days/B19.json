@@ -1,0 +1,924 @@
+{
+ "id": "B19",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Preguntar bien: wh- y una consulta médica",
+ "day": 19,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy ordenas todas las preguntas (what, where, when, who, why, how…) y las usas en una situación real: pedir hora al médico.",
+ "objectives": [
+  {
+   "id": "B19-O1",
+   "text": "Formar preguntas con palabra interrogativa + auxiliar + sujeto + verbo."
+  },
+  {
+   "id": "B19-O2",
+   "text": "Pedir una hora médica y explicar cómo te sientes."
+  },
+  {
+   "id": "B19-O3",
+   "text": "Entender instrucciones simples de un médico."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B19-LX01",
+    "form": "who",
+    "meaning_es": "quién",
+    "example": "Who is your English teacher?",
+    "example_es": "¿Quién es tu profesor de inglés?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX02",
+    "form": "what",
+    "meaning_es": "qué, cuál",
+    "example": "What do you do?",
+    "example_es": "¿A qué te dedicas?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX03",
+    "form": "where",
+    "meaning_es": "dónde",
+    "example": "Where is the nearest pharmacy?",
+    "example_es": "¿Dónde está la farmacia más cercana?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX04",
+    "form": "when",
+    "meaning_es": "cuándo",
+    "example": "When is your appointment?",
+    "example_es": "¿Cuándo es tu hora (con el médico)?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX05",
+    "form": "why",
+    "meaning_es": "por qué",
+    "example": "Why are you tired?",
+    "example_es": "¿Por qué estás cansado?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX06",
+    "form": "how",
+    "meaning_es": "cómo",
+    "example": "How do you feel today?",
+    "example_es": "¿Cómo te sientes hoy?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX07",
+    "form": "which",
+    "meaning_es": "cuál (entre opciones)",
+    "example": "Which bus goes to the hospital?",
+    "example_es": "¿Qué bus va al hospital?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX08",
+    "form": "headache",
+    "meaning_es": "dolor de cabeza",
+    "example": "I have a terrible headache.",
+    "example_es": "Tengo un dolor de cabeza terrible.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX09",
+    "form": "doctor",
+    "meaning_es": "médico/a",
+    "example": "You need to see a doctor.",
+    "example_es": "Necesitas ver a un médico.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX10",
+    "form": "appointment",
+    "meaning_es": "hora (con el médico), cita",
+    "example": "I'd like to make an appointment.",
+    "example_es": "Quisiera pedir una hora.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX11",
+    "form": "feel",
+    "meaning_es": "sentirse",
+    "example": "I don't feel well.",
+    "example_es": "No me siento bien.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B19-LX12",
+    "form": "help",
+    "meaning_es": "ayudar; ayuda",
+    "example": "Can you help me, please?",
+    "example_es": "¿Me puedes ayudar, por favor?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B19-G1",
+    "topic": "Hacer preguntas: palabra interrogativa + auxiliar + sujeto + verbo"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B19-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "who",
+     "meaning_es": "quién",
+     "example": "Who is your English teacher?",
+     "example_es": "¿Quién es tu profesor de inglés?"
+    },
+    {
+     "form": "what",
+     "meaning_es": "qué, cuál",
+     "example": "What do you do?",
+     "example_es": "¿A qué te dedicas?"
+    },
+    {
+     "form": "where",
+     "meaning_es": "dónde",
+     "example": "Where is the nearest pharmacy?",
+     "example_es": "¿Dónde está la farmacia más cercana?"
+    },
+    {
+     "form": "when",
+     "meaning_es": "cuándo",
+     "example": "When is your appointment?",
+     "example_es": "¿Cuándo es tu hora (con el médico)?"
+    },
+    {
+     "form": "why",
+     "meaning_es": "por qué",
+     "example": "Why are you tired?",
+     "example_es": "¿Por qué estás cansado?"
+    },
+    {
+     "form": "how",
+     "meaning_es": "cómo",
+     "example": "How do you feel today?",
+     "example_es": "¿Cómo te sientes hoy?"
+    },
+    {
+     "form": "which",
+     "meaning_es": "cuál (entre opciones)",
+     "example": "Which bus goes to the hospital?",
+     "example_es": "¿Qué bus va al hospital?"
+    },
+    {
+     "form": "headache",
+     "meaning_es": "dolor de cabeza",
+     "example": "I have a terrible headache.",
+     "example_es": "Tengo un dolor de cabeza terrible."
+    },
+    {
+     "form": "doctor",
+     "meaning_es": "médico/a",
+     "example": "You need to see a doctor.",
+     "example_es": "Necesitas ver a un médico."
+    },
+    {
+     "form": "appointment",
+     "meaning_es": "hora (con el médico), cita",
+     "example": "I'd like to make an appointment.",
+     "example_es": "Quisiera pedir una hora."
+    },
+    {
+     "form": "feel",
+     "meaning_es": "sentirse",
+     "example": "I don't feel well.",
+     "example_es": "No me siento bien."
+    },
+    {
+     "form": "help",
+     "meaning_es": "ayudar; ayuda",
+     "example": "Can you help me, please?",
+     "example_es": "¿Me puedes ayudar, por favor?"
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B19-RG",
+   "type": "capsule",
+   "title": "Hacer preguntas: palabra interrogativa + auxiliar + sujeto + verbo",
+   "explain": "Casi todas las preguntas siguen el orden: palabra interrogativa + auxiliar (do / does / did / is / are / can…) + sujeto + verbo.\nWhere do you live? · When did you arrive? · Why is she tired? · How can I help you?\nPalabras: what (qué), where (dónde), when (cuándo), who (quién), why (por qué; respuesta: because…), how (cómo), which (cuál, entre opciones), how much / how many, how often (con qué frecuencia), how long (cuánto tiempo).\nCuando who es el sujeto no hay auxiliar: Who called you?",
+   "form": [
+    [
+     "Wh- + do / does / did + sujeto + verbo",
+     "Where do you work?"
+    ],
+    [
+     "Wh- + to be + sujeto",
+     "Why are you here?"
+    ],
+    [
+     "Wh- + can / will + sujeto + verbo",
+     "How can I help?"
+    ],
+    [
+     "Why…? — Because…",
+     "¿Por qué? — Porque…"
+    ]
+   ],
+   "examples": [
+    [
+     "Where do you work?",
+     "¿Dónde trabajas?"
+    ],
+    [
+     "What time did you arrive?",
+     "¿A qué hora llegaste?"
+    ],
+    [
+     "Why are you late? Because the bus was late.",
+     "¿Por qué llegas tarde? Porque el bus se atrasó."
+    ],
+    [
+     "How often do you exercise?",
+     "¿Con qué frecuencia haces ejercicio?"
+    ]
+   ],
+   "tip": "Error típico: «Where you live?» → correcto: «Where do you live?» (falta el auxiliar do).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B19-RR",
+   "type": "text",
+   "title": "At the doctor's",
+   "body": "The doctor asked Tomás many questions. \"When did the fever start?\" \"Yesterday.\" \"Do you have a cough?\" \"No, I don't.\" \"Which medicines do you take?\" \"None.\" The doctor said it was a cold, not the flu. She told him to drink a lot of water, rest for two days and take one tablet every eight hours. Tomás bought the tablets at the pharmacy and went home to rest.",
+   "translation_es": "La doctora le hizo muchas preguntas a Tomás. «¿Cuándo empezó la fiebre?». «Ayer». «¿Tiene tos?». «No». «¿Qué remedios toma?». «Ninguno». La doctora dijo que era un resfrío, no gripe. Le indicó tomar mucha agua, descansar dos días y tomar una pastilla cada ocho horas. Tomás compró las pastillas en la farmacia y se fue a casa a descansar.",
+   "glossary": [
+    [
+     "cough",
+     "tos"
+    ],
+    [
+     "a cold",
+     "un resfrío"
+    ],
+    [
+     "rest",
+     "descansar"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B19.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B19-RV"
+   ],
+   "activities": [
+    {
+     "id": "B19.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] do you do?  (2) [[2]] do you feel today?  (3) I have a terrible [[3]].  (4) You need to see a [[4]].  (5) I don't [[5]] well.  (6) Can you [[6]] me, please?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "what"
+       ],
+       "hint": "Significa «qué, cuál»."
+      },
+      "2": {
+       "accept": [
+        "how"
+       ],
+       "hint": "Significa «cómo»."
+      },
+      "3": {
+       "accept": [
+        "headache"
+       ],
+       "hint": "Significa «dolor de cabeza»."
+      },
+      "4": {
+       "accept": [
+        "doctor"
+       ],
+       "hint": "Significa «médico/a»."
+      },
+      "5": {
+       "accept": [
+        "feel"
+       ],
+       "hint": "Significa «sentirse»."
+      },
+      "6": {
+       "accept": [
+        "help"
+       ],
+       "hint": "Significa «ayudar; ayuda»."
+      }
+     }
+    },
+    {
+     "id": "B19.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cuándo»",
+     "accept": [
+      "when"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: ¿Cuándo es tu hora (con el médico)?"
+    },
+    {
+     "id": "B19.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «quién»",
+     "accept": [
+      "who"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: ¿Quién es tu profesor de inglés?"
+    },
+    {
+     "id": "B19.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cuál (entre opciones)»",
+     "accept": [
+      "which"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: ¿Qué bus va al hospital?"
+    },
+    {
+     "id": "B19.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hora (con el médico), cita»",
+     "accept": [
+      "appointment"
+     ],
+     "hint": "Empieza con «ap…» · Ejemplo: Quisiera pedir una hora."
+    },
+    {
+     "id": "B19.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «dónde»",
+     "accept": [
+      "where"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: ¿Dónde está la farmacia más cercana?"
+    },
+    {
+     "id": "B19.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «por qué»",
+     "accept": [
+      "why"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: ¿Por qué estás cansado?"
+    },
+    {
+     "id": "B19.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "When is your appointment?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "When is your appointment?"
+    }
+   ]
+  },
+  {
+   "id": "B19.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Hacer preguntas: palabra interrogativa + auxiliar + sujeto + verbo",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B19-RG"
+   ],
+   "activities": [
+    {
+     "id": "B19.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Where [[1]] you live?  (2) [[2]] is your birthday? In May.  (3) [[3]] are you sad? Because I miss my family.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "do"
+       ],
+       "hint": "Falta el auxiliar do."
+      },
+      "2": {
+       "accept": [
+        "when"
+       ],
+       "hint": "Respuesta con fecha → when."
+      },
+      "3": {
+       "accept": [
+        "why"
+       ],
+       "hint": "Respuesta con because → why."
+      }
+     }
+    },
+    {
+     "id": "B19.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) What time [[1]] you arrive yesterday?  (2) [[2]] is that man? He is my boss.  (3) How [[3]] do you go to the gym? Twice a week.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "did"
+       ],
+       "hint": "Pasado → did."
+      },
+      "2": {
+       "accept": [
+        "who"
+       ],
+       "hint": "Persona → who."
+      },
+      "3": {
+       "accept": [
+        "often"
+       ],
+       "hint": "Frecuencia → how often."
+      }
+     }
+    },
+    {
+     "id": "B19.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Where you work?"
+      },
+      {
+       "id": "b",
+       "text": "Where do you work?"
+      },
+      {
+       "id": "c",
+       "text": "Where does you work?"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B19.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "What did you do yesterday?"
+      },
+      {
+       "id": "b",
+       "text": "What you did yesterday?"
+      },
+      {
+       "id": "c",
+       "text": "What did you did yesterday?"
+      }
+     ],
+     "answer": "a",
+     "explanation": "did + verbo base."
+    },
+    {
+     "id": "B19.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres preguntas para conocer a alguien (Where do you…? What did you…? Why…?).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "where",
+        "what",
+        "when",
+        "why",
+        "how",
+        "who"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B19.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Una llamada al centro de salud",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B19.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una llamada al centro de salud: escucha sin leer y responde.",
+     "audio": {
+      "text": "Good morning, Boston Health Center. How can I help you? Hello. I don't feel well. I have a headache and a fever. I'd like to make an appointment, please. Of course. What is your name? Tomás Muñoz. When can you come? Today, if possible. Can you come at three o'clock? Yes, thank you. Where is the center? It's on Main Street, next to the bank.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Good morning, Boston Health Center. How can I help you? Hello. I don't feel well. I have a headache and a fever. I'd like to make an appointment, please. Of course. What is your name? Tomás Muñoz. When can you come? Today, if possible. Can you come at three o'clock? Yes, thank you. Where is the center? It's on Main Street, next to the bank.",
+     "translation_es": "Buenos días, Centro de Salud Boston. ¿En qué le puedo ayudar? Hola. No me siento bien. Tengo dolor de cabeza y fiebre. Quisiera pedir una hora, por favor. Por supuesto. ¿Cuál es su nombre? Tomás Muñoz. ¿Cuándo puede venir? Hoy, si es posible. ¿Puede venir a las tres? Sí, gracias. ¿Dónde queda el centro? En Main Street, al lado del banco.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué síntomas tiene Tomás?",
+       "label": "¿Qué síntomas tiene Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Dolor de estómago"
+        },
+        {
+         "id": "b",
+         "text": "Dolor de cabeza y fiebre"
+        },
+        {
+         "id": "c",
+         "text": "Tos"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿A qué hora es la consulta?",
+       "label": "¿A qué hora es la consulta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "A las dos"
+        },
+        {
+         "id": "b",
+         "text": "A las tres"
+        },
+        {
+         "id": "c",
+         "text": "A las cuatro"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Dónde está el centro de salud?",
+       "label": "¿Dónde está el centro de salud?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En Main Street, al lado del banco"
+        },
+        {
+         "id": "b",
+         "text": "Frente al parque"
+        },
+        {
+         "id": "c",
+         "text": "En la universidad"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "B19.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "I'd like to make an appointment, please.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I'd like to make an appointment, please."
+    }
+   ]
+  },
+  {
+   "id": "B19.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: At the doctor's",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B19-RR"
+   ],
+   "activities": [
+    {
+     "id": "B19.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo empezó la fiebre?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Ayer"
+      },
+      {
+       "id": "b",
+       "text": "Hace una semana"
+      },
+      {
+       "id": "c",
+       "text": "Hoy"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B19.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué tiene Tomás, según la doctora?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Gripe"
+      },
+      {
+       "id": "b",
+       "text": "Un resfrío"
+      },
+      {
+       "id": "c",
+       "text": "Una alergia"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«a cold, not the flu»."
+    },
+    {
+     "id": "B19.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cada cuánto debe tomar una pastilla?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cada 4 horas"
+      },
+      {
+       "id": "b",
+       "text": "Cada 8 horas"
+      },
+      {
+       "id": "c",
+       "text": "Una vez al día"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B19.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B19.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The doctor asked Tomás many questions. \"When did the fever start?\" \"Yesterday.\" \"Do you have a cough?\" \"No, I don't.\" \"Which medicines do you take?\" \"None.\" The doctor said it was a cold, not the flu.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The doctor asked Tomás many questions.",
+       "\"When did the fever start?\" \"Yesterday.\" \"Do you have a cough?\" \"No, I don't.\" \"Which medicines do you take?\" \"None.\" The doctor said it was a cold, not the flu."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B19.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Juego de roles (30–60 s): llamas para pedir hora al médico; explica cómo te sientes y pregunta cuándo y dónde te pueden atender.",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how",
+        "which",
+        "headache",
+        "doctor",
+        "appointment",
+        "feel",
+        "help"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B19.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B19.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe cinco preguntas (30–60 palabras en total) para entrevistar a un colega nuevo, con cinco palabras interrogativas distintas.",
+     "min_words": 25,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how",
+        "which",
+        "headache",
+        "doctor",
+        "appointment",
+        "feel",
+        "help"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "where",
+        "what",
+        "when",
+        "why",
+        "how",
+        "who"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

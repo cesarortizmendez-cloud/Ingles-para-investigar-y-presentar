@@ -1,0 +1,888 @@
+{
+ "id": "D38",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Responder preguntas: aclarar, ganar tiempo y reconocer límites",
+ "day": 38,
+ "week": 6,
+ "day_type": "aprendizaje",
+ "intro": "Hoy practicas lo que más miedo da: las preguntas del público. Aprendes a pedir que repitan, ganar tiempo y decir «no lo sé» con profesionalismo.",
+ "objectives": [
+  {
+   "id": "D38-O1",
+   "text": "Pedir aclaración cuando no entiendes una pregunta."
+  },
+  {
+   "id": "D38-O2",
+   "text": "Ganar tiempo con frases naturales."
+  },
+  {
+   "id": "D38-O3",
+   "text": "Reconocer un límite sin inventar información."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D38-LX01",
+    "form": "Could you repeat the question?",
+    "meaning_es": "¿Podría repetir la pregunta?",
+    "example": "Sorry, could you repeat the question?",
+    "example_es": "Disculpe, ¿podría repetir la pregunta?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX02",
+    "form": "Do you mean",
+    "meaning_es": "¿Se refiere a…?",
+    "example": "Do you mean the night shift?",
+    "example_es": "¿Se refiere al turno de noche?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX03",
+    "form": "That's a good question",
+    "meaning_es": "Es una buena pregunta",
+    "example": "That's a good question. Let me think.",
+    "example_es": "Es una buena pregunta. Déjeme pensar.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX04",
+    "form": "let me think",
+    "meaning_es": "déjeme pensar",
+    "example": "Hmm, let me think about that.",
+    "example_es": "Mmm, déjeme pensarlo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX05",
+    "form": "I'm not sure",
+    "meaning_es": "no estoy seguro/a",
+    "example": "I'm not sure, but I think so.",
+    "example_es": "No estoy seguro, pero creo que sí.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX06",
+    "form": "as far as I know",
+    "meaning_es": "hasta donde sé",
+    "example": "As far as I know, no one has measured this.",
+    "example_es": "Hasta donde sé, nadie ha medido esto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX07",
+    "form": "beyond the scope",
+    "meaning_es": "fuera del alcance",
+    "example": "That is beyond the scope of this study.",
+    "example_es": "Eso está fuera del alcance de este estudio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX08",
+    "form": "we didn't measure",
+    "meaning_es": "no medimos",
+    "example": "Unfortunately, we didn't measure humidity.",
+    "example_es": "Lamentablemente, no medimos la humedad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX09",
+    "form": "follow up",
+    "meaning_es": "dar seguimiento, retomar",
+    "example": "Can I follow up by email?",
+    "example_es": "¿Puedo darle seguimiento por correo?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX10",
+    "form": "interesting point",
+    "meaning_es": "observación interesante",
+    "example": "That's an interesting point.",
+    "example_es": "Esa es una observación interesante.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX11",
+    "form": "rephrase",
+    "meaning_es": "reformular",
+    "example": "Let me rephrase the question.",
+    "example_es": "Permítame reformular la pregunta.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D38-LX12",
+    "form": "in our case",
+    "meaning_es": "en nuestro caso",
+    "example": "In our case, the sample was small.",
+    "example_es": "En nuestro caso, la muestra era pequeña.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D38-G1",
+    "topic": "Frases para la ronda de preguntas"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D38-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "Could you repeat the question?",
+     "meaning_es": "¿Podría repetir la pregunta?",
+     "example": "Sorry, could you repeat the question?",
+     "example_es": "Disculpe, ¿podría repetir la pregunta?"
+    },
+    {
+     "form": "Do you mean",
+     "meaning_es": "¿Se refiere a…?",
+     "example": "Do you mean the night shift?",
+     "example_es": "¿Se refiere al turno de noche?"
+    },
+    {
+     "form": "That's a good question",
+     "meaning_es": "Es una buena pregunta",
+     "example": "That's a good question. Let me think.",
+     "example_es": "Es una buena pregunta. Déjeme pensar."
+    },
+    {
+     "form": "let me think",
+     "meaning_es": "déjeme pensar",
+     "example": "Hmm, let me think about that.",
+     "example_es": "Mmm, déjeme pensarlo."
+    },
+    {
+     "form": "I'm not sure",
+     "meaning_es": "no estoy seguro/a",
+     "example": "I'm not sure, but I think so.",
+     "example_es": "No estoy seguro, pero creo que sí."
+    },
+    {
+     "form": "as far as I know",
+     "meaning_es": "hasta donde sé",
+     "example": "As far as I know, no one has measured this.",
+     "example_es": "Hasta donde sé, nadie ha medido esto."
+    },
+    {
+     "form": "beyond the scope",
+     "meaning_es": "fuera del alcance",
+     "example": "That is beyond the scope of this study.",
+     "example_es": "Eso está fuera del alcance de este estudio."
+    },
+    {
+     "form": "we didn't measure",
+     "meaning_es": "no medimos",
+     "example": "Unfortunately, we didn't measure humidity.",
+     "example_es": "Lamentablemente, no medimos la humedad."
+    },
+    {
+     "form": "follow up",
+     "meaning_es": "dar seguimiento, retomar",
+     "example": "Can I follow up by email?",
+     "example_es": "¿Puedo darle seguimiento por correo?"
+    },
+    {
+     "form": "interesting point",
+     "meaning_es": "observación interesante",
+     "example": "That's an interesting point.",
+     "example_es": "Esa es una observación interesante."
+    },
+    {
+     "form": "rephrase",
+     "meaning_es": "reformular",
+     "example": "Let me rephrase the question.",
+     "example_es": "Permítame reformular la pregunta."
+    },
+    {
+     "form": "in our case",
+     "meaning_es": "en nuestro caso",
+     "example": "In our case, the sample was small.",
+     "example_es": "En nuestro caso, la muestra era pequeña."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D38-RG",
+   "type": "capsule",
+   "title": "Frases para la ronda de preguntas",
+   "explain": "Cuatro situaciones y sus frases:\n1) NO ENTENDISTE: Sorry, could you repeat the question? · Could you speak a bit more slowly? · Do you mean…?\n2) NECESITAS TIEMPO: That's a good question. · Let me think. · If I understand correctly, you're asking about…\n3) NO SABES o no está en tu estudio: I'm not sure. · We didn't measure that. · That's beyond the scope of this study. · But it's an interesting point for future work.\n4) RESPONDES: In our case, … · As far as I know, … · Our data suggest that…\nRegla de oro: nunca inventes un dato. Reconocer un límite es profesional; inventar no.\nGramática: preguntas indirectas educadas → «Could you tell me what you mean?» (no «what do you mean» después de «Could you tell me»).",
+   "form": [
+    [
+     "Could you repeat / explain…?",
+     "pedir aclaración"
+    ],
+    [
+     "Do you mean…?",
+     "confirmar"
+    ],
+    [
+     "That's a good question. Let me think.",
+     "ganar tiempo"
+    ],
+    [
+     "We didn't measure… / That's beyond the scope…",
+     "reconocer límites"
+    ],
+    [
+     "Could you tell me what you mean?",
+     "pregunta indirecta"
+    ]
+   ],
+   "examples": [
+    [
+     "Sorry, could you repeat the question?",
+     "Disculpe, ¿podría repetir la pregunta?"
+    ],
+    [
+     "Do you mean the effect of humidity?",
+     "¿Se refiere al efecto de la humedad?"
+    ],
+    [
+     "We didn't measure that, but it's an interesting point for future work.",
+     "No lo medimos, pero es una observación interesante para trabajo futuro."
+    ]
+   ],
+   "tip": "Ten estas frases escritas en tu última diapositiva o en una tarjeta: te darán seguridad.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D38-RR",
+   "type": "text",
+   "title": "Ana's Q&A card",
+   "body": "Before the conference, Ana wrote a small card with useful phrases. If I don't understand: Sorry, could you repeat the question? Do you mean…? If I need time: That's a good question. Let me think. If I don't know: I'm not sure. We didn't measure that. That's beyond the scope of this study, but I can follow up by email. Mark gave her one more piece of advice: it is better to say «I don't know» than to invent an answer.",
+   "translation_es": "Antes del congreso, Ana escribió una pequeña tarjeta con frases útiles. Si no entiendo: Disculpe, ¿podría repetir la pregunta? ¿Se refiere a…? Si necesito tiempo: Es una buena pregunta. Déjeme pensar. Si no sé: No estoy segura. No medimos eso. Eso está fuera del alcance de este estudio, pero puedo darle seguimiento por correo. Mark le dio un consejo más: es mejor decir «no sé» que inventar una respuesta.",
+   "glossary": [
+    [
+     "card",
+     "tarjeta"
+    ],
+    [
+     "invent",
+     "inventar"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D38.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D38-RV"
+   ],
+   "activities": [
+    {
+     "id": "D38.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Sorry, [[1]]  (2) [[2]] the night shift?  (3) [[3]], but I think so.  (4) [[4]], no one has measured this.  (5) That is [[5]] of this study.  (6) Unfortunately, [[6]] humidity.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "Could you repeat the question?"
+       ],
+       "hint": "Significa «¿Podría repetir la pregunta?»."
+      },
+      "2": {
+       "accept": [
+        "Do you mean"
+       ],
+       "hint": "Significa «¿Se refiere a…?»."
+      },
+      "3": {
+       "accept": [
+        "I'm not sure"
+       ],
+       "hint": "Significa «no estoy seguro/a»."
+      },
+      "4": {
+       "accept": [
+        "as far as I know"
+       ],
+       "hint": "Significa «hasta donde sé»."
+      },
+      "5": {
+       "accept": [
+        "beyond the scope"
+       ],
+       "hint": "Significa «fuera del alcance»."
+      },
+      "6": {
+       "accept": [
+        "we didn't measure"
+       ],
+       "hint": "Significa «no medimos»."
+      }
+     }
+    },
+    {
+     "id": "D38.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «observación interesante»",
+     "accept": [
+      "interesting point"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: Esa es una observación interesante."
+    },
+    {
+     "id": "D38.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «Es una buena pregunta»",
+     "accept": [
+      "That's a good question"
+     ],
+     "hint": "Empieza con «Th…» · Ejemplo: Es una buena pregunta. Déjeme pensar."
+    },
+    {
+     "id": "D38.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «dar seguimiento, retomar»",
+     "accept": [
+      "follow up"
+     ],
+     "hint": "Empieza con «fo…» · Ejemplo: ¿Puedo darle seguimiento por correo?"
+    },
+    {
+     "id": "D38.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «reformular»",
+     "accept": [
+      "rephrase"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Permítame reformular la pregunta."
+    },
+    {
+     "id": "D38.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en nuestro caso»",
+     "accept": [
+      "in our case"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: En nuestro caso, la muestra era pequeña."
+    },
+    {
+     "id": "D38.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «déjeme pensar»",
+     "accept": [
+      "let me think"
+     ],
+     "hint": "Empieza con «le…» · Ejemplo: Mmm, déjeme pensarlo."
+    },
+    {
+     "id": "D38.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "That's an interesting point.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "That's an interesting point."
+    }
+   ]
+  },
+  {
+   "id": "D38.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Frases para la ronda de preguntas",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D38-RG"
+   ],
+   "activities": [
+    {
+     "id": "D38.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Sorry, could you [[1]] the question? (repetir)  (2) Do you [[2]] the night shift? (se refiere)  (3) That's a good question. Let me [[3]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "repeat"
+       ]
+      },
+      "2": {
+       "accept": [
+        "mean"
+       ]
+      },
+      "3": {
+       "accept": [
+        "think"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D38.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) That is beyond the [[1]] of this study.  (2) As far as I [[2]], no one has measured this.  (3) Could you tell me what you [[3]]? (pregunta indirecta)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "scope"
+       ]
+      },
+      "2": {
+       "accept": [
+        "know"
+       ]
+      },
+      "3": {
+       "accept": [
+        "mean"
+       ],
+       "hint": "sin «do» en preguntas indirectas"
+      }
+     }
+    },
+    {
+     "id": "D38.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "No midieron la humedad y te preguntan por ella. ¿Qué respondes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Humidity has no effect."
+      },
+      {
+       "id": "b",
+       "text": "We didn't measure humidity, but it's an interesting point for future work."
+      }
+     ],
+     "answer": "b",
+     "explanation": "No inventes."
+    },
+    {
+     "id": "D38.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Could you tell me what do you mean?"
+      },
+      {
+       "id": "b",
+       "text": "Could you tell me what you mean?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "pregunta indirecta: sin do"
+    },
+    {
+     "id": "D38.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe cómo responderías a una pregunta que no entendiste y a otra sobre algo que no mediste.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "could you repeat",
+        "do you mean",
+        "we didn't measure",
+        "beyond the scope",
+        "i'm not sure",
+        "let me think"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D38.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Preguntas del público",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D38.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Preguntas del público: escucha sin leer y responde.",
+     "audio": {
+      "text": "Thank you. Did you consider the humidity of the wood? Sorry, could you repeat the question? Did you measure the humidity of the wood? Ah, that's a good question. Unfortunately, we didn't measure humidity. That's beyond the scope of this study, but it's an interesting point for future work.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Thank you. Did you consider the humidity of the wood? Sorry, could you repeat the question? Did you measure the humidity of the wood? Ah, that's a good question. Unfortunately, we didn't measure humidity. That's beyond the scope of this study, but it's an interesting point for future work.",
+     "translation_es": "Gracias. ¿Consideraron la humedad de la madera? Disculpe, ¿podría repetir la pregunta? ¿Midieron la humedad de la madera? Ah, es una buena pregunta. Lamentablemente, no medimos la humedad. Eso está fuera del alcance de este estudio, pero es una observación interesante para trabajo futuro.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Sobre qué fue la pregunta?",
+       "label": "¿Sobre qué fue la pregunta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La humedad de la madera"
+        },
+        {
+         "id": "b",
+         "text": "El precio de la energía"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hizo Ana primero?",
+       "label": "¿Qué hizo Ana primero?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Respondió inmediatamente"
+        },
+        {
+         "id": "b",
+         "text": "Pidió que repitieran la pregunta"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cómo respondió sobre la humedad?",
+       "label": "¿Cómo respondió sobre la humedad?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Inventó un dato"
+        },
+        {
+         "id": "b",
+         "text": "Reconoció que no la midieron"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D38.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Unfortunately, we didn't measure humidity.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "Unfortunately, we didn't measure humidity."
+    }
+   ]
+  },
+  {
+   "id": "D38.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Ana's Q&A card",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D38-RR"
+   ],
+   "activities": [
+    {
+     "id": "D38.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué escribió Ana antes del congreso?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Una tarjeta con frases útiles"
+      },
+      {
+       "id": "b",
+       "text": "Todo el discurso palabra por palabra"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D38.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué consejo le dio Mark?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Inventar una respuesta corta"
+      },
+      {
+       "id": "b",
+       "text": "Es mejor decir «no sé» que inventar"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D38.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué frase usa para ganar tiempo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "That's a good question. Let me think."
+      },
+      {
+       "id": "b",
+       "text": "Thank you for your attention."
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D38.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D38.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Before the conference, Ana wrote a small card with useful phrases. If I don't understand: Sorry, could you repeat the question?",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Before the conference, Ana wrote a small card with useful phrases.",
+       "If I don't understand: Sorry, could you repeat the question?"
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D38.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Responde en voz alta (30–60 s) a esta pregunta del público sobre tu trabajo: «Did you consider other factors, such as the cost of maintenance?». Si no lo consideraste, reconócelo profesionalmente.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "Could you repeat the question?",
+        "Do you mean",
+        "That's a good question",
+        "let me think",
+        "I'm not sure",
+        "as far as I know",
+        "beyond the scope",
+        "we didn't measure",
+        "follow up",
+        "interesting point",
+        "rephrase",
+        "in our case"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "model": {
+      "text": "Did you consider other factors, such as the cost of maintenance?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "D38.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D38.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Prepara tu propia «tarjeta de preguntas» (40–80 palabras): frases para no entender, ganar tiempo, no saber y responder.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "Could you repeat the question?",
+        "Do you mean",
+        "That's a good question",
+        "let me think",
+        "I'm not sure",
+        "as far as I know",
+        "beyond the scope",
+        "we didn't measure",
+        "follow up",
+        "interesting point",
+        "rephrase",
+        "in our case"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "could you repeat",
+        "do you mean",
+        "we didn't measure",
+        "beyond the scope",
+        "i'm not sure",
+        "let me think"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

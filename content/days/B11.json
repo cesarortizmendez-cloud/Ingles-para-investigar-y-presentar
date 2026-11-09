@@ -1,0 +1,923 @@
+{
+ "id": "B11",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "La ciudad: lugares y direcciones",
+ "day": 11,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a describir una ciudad con there is / there are y a pedir y dar direcciones (turn left, go straight).",
+ "objectives": [
+  {
+   "id": "B11-O1",
+   "text": "Preguntar si hay un lugar cerca (Is there a… near here?)."
+  },
+  {
+   "id": "B11-O2",
+   "text": "Dar y entender direcciones simples."
+  },
+  {
+   "id": "B11-O3",
+   "text": "Usar preposiciones de lugar: next to, opposite, near, on the corner."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B11-LX01",
+    "form": "street",
+    "meaning_es": "calle",
+    "example": "The hotel is on Main Street.",
+    "example_es": "El hotel está en la calle Main.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX02",
+    "form": "corner",
+    "meaning_es": "esquina",
+    "example": "There is a café on the corner.",
+    "example_es": "Hay un café en la esquina.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX03",
+    "form": "bank",
+    "meaning_es": "banco",
+    "example": "Is there a bank near here?",
+    "example_es": "¿Hay un banco cerca de aquí?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX04",
+    "form": "pharmacy",
+    "meaning_es": "farmacia",
+    "example": "The pharmacy is open until ten.",
+    "example_es": "La farmacia está abierta hasta las diez.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX05",
+    "form": "supermarket",
+    "meaning_es": "supermercado",
+    "example": "There is a big supermarket on this street.",
+    "example_es": "Hay un supermercado grande en esta calle.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX06",
+    "form": "bus stop",
+    "meaning_es": "paradero de bus",
+    "example": "The bus stop is in front of the bank.",
+    "example_es": "El paradero está delante del banco.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX07",
+    "form": "turn left",
+    "meaning_es": "doblar a la izquierda",
+    "example": "Turn left at the corner.",
+    "example_es": "Dobla a la izquierda en la esquina.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX08",
+    "form": "turn right",
+    "meaning_es": "doblar a la derecha",
+    "example": "Turn right after the pharmacy.",
+    "example_es": "Dobla a la derecha después de la farmacia.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX09",
+    "form": "go straight",
+    "meaning_es": "seguir derecho",
+    "example": "Go straight for two blocks.",
+    "example_es": "Sigue derecho dos cuadras.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX10",
+    "form": "next to",
+    "meaning_es": "al lado de",
+    "example": "The bank is next to the hotel.",
+    "example_es": "El banco está al lado del hotel.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX11",
+    "form": "opposite",
+    "meaning_es": "frente a",
+    "example": "The museum is opposite the park.",
+    "example_es": "El museo está frente al parque.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B11-LX12",
+    "form": "near",
+    "meaning_es": "cerca de",
+    "example": "My hotel is near the station.",
+    "example_es": "Mi hotel está cerca de la estación.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B11-G1",
+    "topic": "There is / there are, lugares e instrucciones"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B11-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "street",
+     "meaning_es": "calle",
+     "example": "The hotel is on Main Street.",
+     "example_es": "El hotel está en la calle Main."
+    },
+    {
+     "form": "corner",
+     "meaning_es": "esquina",
+     "example": "There is a café on the corner.",
+     "example_es": "Hay un café en la esquina."
+    },
+    {
+     "form": "bank",
+     "meaning_es": "banco",
+     "example": "Is there a bank near here?",
+     "example_es": "¿Hay un banco cerca de aquí?"
+    },
+    {
+     "form": "pharmacy",
+     "meaning_es": "farmacia",
+     "example": "The pharmacy is open until ten.",
+     "example_es": "La farmacia está abierta hasta las diez."
+    },
+    {
+     "form": "supermarket",
+     "meaning_es": "supermercado",
+     "example": "There is a big supermarket on this street.",
+     "example_es": "Hay un supermercado grande en esta calle."
+    },
+    {
+     "form": "bus stop",
+     "meaning_es": "paradero de bus",
+     "example": "The bus stop is in front of the bank.",
+     "example_es": "El paradero está delante del banco."
+    },
+    {
+     "form": "turn left",
+     "meaning_es": "doblar a la izquierda",
+     "example": "Turn left at the corner.",
+     "example_es": "Dobla a la izquierda en la esquina."
+    },
+    {
+     "form": "turn right",
+     "meaning_es": "doblar a la derecha",
+     "example": "Turn right after the pharmacy.",
+     "example_es": "Dobla a la derecha después de la farmacia."
+    },
+    {
+     "form": "go straight",
+     "meaning_es": "seguir derecho",
+     "example": "Go straight for two blocks.",
+     "example_es": "Sigue derecho dos cuadras."
+    },
+    {
+     "form": "next to",
+     "meaning_es": "al lado de",
+     "example": "The bank is next to the hotel.",
+     "example_es": "El banco está al lado del hotel."
+    },
+    {
+     "form": "opposite",
+     "meaning_es": "frente a",
+     "example": "The museum is opposite the park.",
+     "example_es": "El museo está frente al parque."
+    },
+    {
+     "form": "near",
+     "meaning_es": "cerca de",
+     "example": "My hotel is near the station.",
+     "example_es": "Mi hotel está cerca de la estación."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B11-RG",
+   "type": "capsule",
+   "title": "There is / there are, lugares e instrucciones",
+   "explain": "There is (singular) / There are (plural) = hay. Is there…? / Are there…? para preguntar. There isn't / There aren't para negar.\nLugar: in (en una ciudad: in Boston), on (en una calle: on Main Street), next to (al lado), opposite (frente a), between (entre), near (cerca), on the corner (en la esquina).\nInstrucciones con imperativo (el verbo solo, sin sujeto): Turn left. Go straight. Take the first street on the right. Para preguntar con cortesía: Excuse me, how do I get to…?",
+   "form": [
+    [
+     "There is + singular",
+     "There is a bank."
+    ],
+    [
+     "There are + plural",
+     "There are two cafés."
+    ],
+    [
+     "Is there…? · Are there…?",
+     "¿Hay…?"
+    ],
+    [
+     "Imperativo: verbo + …",
+     "Turn left · Go straight · Cross the street"
+    ]
+   ],
+   "examples": [
+    [
+     "There is a pharmacy on the corner.",
+     "Hay una farmacia en la esquina."
+    ],
+    [
+     "There are two banks on this street.",
+     "Hay dos bancos en esta calle."
+    ],
+    [
+     "Is there a bus stop near here?",
+     "¿Hay un paradero cerca de aquí?"
+    ],
+    [
+     "Go straight and turn right.",
+     "Sigue derecho y dobla a la derecha."
+    ]
+   ],
+   "tip": "Error típico: «Have a bank here?» para decir «¿hay un banco?» → correcto: «Is there a bank here?».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B11-RR",
+   "type": "text",
+   "title": "Linda's neighborhood",
+   "body": "Linda's house is on Elm Street, in a quiet neighborhood. There is a small supermarket on the corner and there is a pharmacy next to it. Opposite the supermarket there is a bus stop. The bus goes to the university in twenty minutes. There are two cafés near the house, but there isn't a bank. The nearest bank is on Main Street.",
+   "translation_es": "La casa de Linda está en Elm Street, en un barrio tranquilo. Hay un supermercado pequeño en la esquina y una farmacia al lado. Frente al supermercado hay un paradero. El bus llega a la universidad en veinte minutos. Hay dos cafés cerca de la casa, pero no hay banco. El banco más cercano está en Main Street.",
+   "glossary": [
+    [
+     "neighborhood",
+     "barrio"
+    ],
+    [
+     "quiet",
+     "tranquilo"
+    ],
+    [
+     "nearest",
+     "más cercano"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B11.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B11-RV"
+   ],
+   "activities": [
+    {
+     "id": "B11.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) There is a café on the [[1]].  (2) Is there a [[2]] near here?  (3) The [[3]] is open until ten.  (4) The [[4]] is in front of the bank.  (5) The museum is [[5]] the park.  (6) My hotel is [[6]] the station.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "corner"
+       ],
+       "hint": "Significa «esquina»."
+      },
+      "2": {
+       "accept": [
+        "bank"
+       ],
+       "hint": "Significa «banco»."
+      },
+      "3": {
+       "accept": [
+        "pharmacy"
+       ],
+       "hint": "Significa «farmacia»."
+      },
+      "4": {
+       "accept": [
+        "bus stop"
+       ],
+       "hint": "Significa «paradero de bus»."
+      },
+      "5": {
+       "accept": [
+        "opposite"
+       ],
+       "hint": "Significa «frente a»."
+      },
+      "6": {
+       "accept": [
+        "near"
+       ],
+       "hint": "Significa «cerca de»."
+      }
+     }
+    },
+    {
+     "id": "B11.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «doblar a la derecha»",
+     "accept": [
+      "turn right"
+     ],
+     "hint": "Empieza con «tu…» · Ejemplo: Dobla a la derecha después de la farmacia."
+    },
+    {
+     "id": "B11.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «doblar a la izquierda»",
+     "accept": [
+      "turn left"
+     ],
+     "hint": "Empieza con «tu…» · Ejemplo: Dobla a la izquierda en la esquina."
+    },
+    {
+     "id": "B11.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «calle»",
+     "accept": [
+      "street"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: El hotel está en la calle Main."
+    },
+    {
+     "id": "B11.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «supermercado»",
+     "accept": [
+      "supermarket"
+     ],
+     "hint": "Empieza con «su…» · Ejemplo: Hay un supermercado grande en esta calle."
+    },
+    {
+     "id": "B11.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «al lado de»",
+     "accept": [
+      "next to"
+     ],
+     "hint": "Empieza con «ne…» · Ejemplo: El banco está al lado del hotel."
+    },
+    {
+     "id": "B11.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «seguir derecho»",
+     "accept": [
+      "go straight"
+     ],
+     "hint": "Empieza con «go…» · Ejemplo: Sigue derecho dos cuadras."
+    },
+    {
+     "id": "B11.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Turn right after the pharmacy.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Turn right after the pharmacy."
+    }
+   ]
+  },
+  {
+   "id": "B11.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: There is / there are, lugares e instrucciones",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B11-RG"
+   ],
+   "activities": [
+    {
+     "id": "B11.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] is a café next to the hotel.  (2) There [[2]] three supermarkets in my city.  (3) [[3]] there a pharmacy near here?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "there"
+       ],
+       "hint": "Hay (singular) → There is."
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "Plural → there are."
+      },
+      "3": {
+       "accept": [
+        "is"
+       ],
+       "hint": "Pregunta singular → Is there…?"
+      }
+     }
+    },
+    {
+     "id": "B11.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The bank is [[1]] to the station.  (2) Go straight and [[2]] left at the corner.  (3) There [[3]] any taxis at night.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "next"
+       ],
+       "hint": "al lado de → next to."
+      },
+      "2": {
+       "accept": [
+        "turn"
+       ],
+       "hint": "doblar → turn."
+      },
+      "3": {
+       "accept": [
+        "aren't",
+        "are not"
+       ],
+       "hint": "Negativo plural."
+      }
+     }
+    },
+    {
+     "id": "B11.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«¿Hay un banco cerca?» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "Have a bank near?"
+      },
+      {
+       "id": "b",
+       "text": "Is there a bank near here?"
+      },
+      {
+       "id": "c",
+       "text": "There is a bank near?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "Pregunta: Is there…?"
+    },
+    {
+     "id": "B11.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "There is two hotels."
+      },
+      {
+       "id": "b",
+       "text": "There are two hotels."
+      },
+      {
+       "id": "c",
+       "text": "It has two hotels."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Plural → there are."
+    },
+    {
+     "id": "B11.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tu barrio con there is / there are y una instrucción (Turn left…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "there is",
+        "there are",
+        "turn",
+        "go straight"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B11.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: ¿Cómo llego al museo?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B11.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Cómo llego al museo?: escucha sin leer y responde.",
+     "audio": {
+      "text": "Excuse me, how do I get to the science museum? Go straight on this street for two blocks. Then turn left at the bank. The museum is on the right, opposite a big park. Is it near? Yes, it is about ten minutes on foot. Thank you very much! You're welcome.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Excuse me, how do I get to the science museum? Go straight on this street for two blocks. Then turn left at the bank. The museum is on the right, opposite a big park. Is it near? Yes, it is about ten minutes on foot. Thank you very much! You're welcome.",
+     "translation_es": "Disculpe, ¿cómo llego al museo de ciencias? Siga derecho por esta calle dos cuadras. Luego doble a la izquierda en el banco. El museo está a la derecha, frente a un parque grande. ¿Está cerca? Sí, a unos diez minutos a pie. ¡Muchas gracias! De nada.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuántas cuadras debe seguir derecho?",
+       "label": "¿Cuántas cuadras debe seguir derecho?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Una"
+        },
+        {
+         "id": "b",
+         "text": "Dos"
+        },
+        {
+         "id": "c",
+         "text": "Tres"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hay frente al museo?",
+       "label": "¿Qué hay frente al museo?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un banco"
+        },
+        {
+         "id": "b",
+         "text": "Un parque grande"
+        },
+        {
+         "id": "c",
+         "text": "Una farmacia"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuánto se tarda caminando?",
+       "label": "¿Cuánto se tarda caminando?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Cinco minutos"
+        },
+        {
+         "id": "b",
+         "text": "Diez minutos"
+        },
+        {
+         "id": "c",
+         "text": "Media hora"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«about ten minutes on foot»."
+      }
+     ]
+    },
+    {
+     "id": "B11.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Then turn left at the bank.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Then turn left at the bank."
+    }
+   ]
+  },
+  {
+   "id": "B11.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Linda's neighborhood",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B11-RR"
+   ],
+   "activities": [
+    {
+     "id": "B11.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hay al lado del supermercado?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un café"
+      },
+      {
+       "id": "b",
+       "text": "Una farmacia"
+      },
+      {
+       "id": "c",
+       "text": "Un banco"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B11.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Hay un banco en Elm Street?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      },
+      {
+       "id": "c",
+       "text": "No lo dice"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«there isn't a bank»."
+    },
+    {
+     "id": "B11.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto tarda el bus a la universidad?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Diez minutos"
+      },
+      {
+       "id": "b",
+       "text": "Veinte minutos"
+      },
+      {
+       "id": "c",
+       "text": "Una hora"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B11.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B11.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Linda's house is on Elm Street, in a quiet neighborhood. There is a small supermarket on the corner and there is a pharmacy next to it.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Linda's house is on Elm Street, in a quiet neighborhood.",
+       "There is a small supermarket on the corner and there is a pharmacy next to it."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B11.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en 30–60 s cómo llegar desde tu casa a un lugar cercano (Go straight…, Turn left…, It is next to…).",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "street",
+        "corner",
+        "bank",
+        "pharmacy",
+        "supermarket",
+        "bus stop",
+        "turn left",
+        "turn right",
+        "go straight",
+        "next to",
+        "opposite",
+        "near"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B11.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B11.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Describe tu barrio en 30–60 palabras con there is / there are y preposiciones de lugar.",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "street",
+        "corner",
+        "bank",
+        "pharmacy",
+        "supermarket",
+        "bus stop",
+        "turn left",
+        "turn right",
+        "go straight",
+        "next to",
+        "opposite",
+        "near"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "there is",
+        "there are",
+        "turn",
+        "go straight"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

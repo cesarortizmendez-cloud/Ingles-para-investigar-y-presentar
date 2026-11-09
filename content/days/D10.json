@@ -1,0 +1,917 @@
+{
+ "id": "D10",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Preguntar y negar en pasado",
+ "day": 10,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy preguntas sobre el pasado con «did» y niegas con «didn't», como en una entrevista o una sesión de preguntas.",
+ "objectives": [
+  {
+   "id": "D10-O1",
+   "text": "Formular preguntas en pasado con did."
+  },
+  {
+   "id": "D10-O2",
+   "text": "Negar en pasado con didn't + verbo base."
+  },
+  {
+   "id": "D10-O3",
+   "text": "Responder preguntas sobre un proyecto terminado."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D10-LX01",
+    "form": "did",
+    "meaning_es": "auxiliar del pasado (preguntas)",
+    "example": "Did you use a survey?",
+    "example_es": "¿Usaron una encuesta?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX02",
+    "form": "survey",
+    "meaning_es": "encuesta",
+    "example": "We sent a survey to the managers.",
+    "example_es": "Enviamos una encuesta a los gerentes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX03",
+    "form": "interview",
+    "meaning_es": "entrevista; entrevistar",
+    "example": "Each interview took forty minutes.",
+    "example_es": "Cada entrevista duró cuarenta minutos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX04",
+    "form": "participant",
+    "meaning_es": "participante",
+    "example": "Each participant answered ten questions.",
+    "example_es": "Cada participante respondió diez preguntas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX05",
+    "form": "respond",
+    "meaning_es": "responder",
+    "example": "Most managers did not respond.",
+    "example_es": "La mayoría de los gerentes no respondió.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX06",
+    "form": "response rate",
+    "meaning_es": "tasa de respuesta",
+    "example": "The response rate was low.",
+    "example_es": "La tasa de respuesta fue baja.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX07",
+    "form": "problem",
+    "meaning_es": "problema",
+    "example": "We had a problem with one sensor.",
+    "example_es": "Tuvimos un problema con un sensor.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX08",
+    "form": "solve",
+    "meaning_es": "resolver",
+    "example": "We wanted to solve the problem quickly.",
+    "example_es": "Queríamos resolver el problema rápido.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX09",
+    "form": "expect",
+    "meaning_es": "esperar (prever)",
+    "example": "We did not expect this result.",
+    "example_es": "No esperábamos este resultado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX10",
+    "form": "why",
+    "meaning_es": "por qué",
+    "example": "Why did you choose sawmills?",
+    "example_es": "¿Por qué eligieron aserraderos?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX11",
+    "form": "because",
+    "meaning_es": "porque",
+    "example": "We chose them because they use a lot of energy.",
+    "example_es": "Los elegimos porque usan mucha energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D10-LX12",
+    "form": "how long",
+    "meaning_es": "cuánto tiempo",
+    "example": "How long did the study take?",
+    "example_es": "¿Cuánto tiempo tomó el estudio?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D10-G1",
+    "topic": "Pasado simple: preguntas (did) y negativos (didn't)"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D10-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "did",
+     "meaning_es": "auxiliar del pasado (preguntas)",
+     "example": "Did you use a survey?",
+     "example_es": "¿Usaron una encuesta?"
+    },
+    {
+     "form": "survey",
+     "meaning_es": "encuesta",
+     "example": "We sent a survey to the managers.",
+     "example_es": "Enviamos una encuesta a los gerentes."
+    },
+    {
+     "form": "interview",
+     "meaning_es": "entrevista; entrevistar",
+     "example": "Each interview took forty minutes.",
+     "example_es": "Cada entrevista duró cuarenta minutos."
+    },
+    {
+     "form": "participant",
+     "meaning_es": "participante",
+     "example": "Each participant answered ten questions.",
+     "example_es": "Cada participante respondió diez preguntas."
+    },
+    {
+     "form": "respond",
+     "meaning_es": "responder",
+     "example": "Most managers did not respond.",
+     "example_es": "La mayoría de los gerentes no respondió."
+    },
+    {
+     "form": "response rate",
+     "meaning_es": "tasa de respuesta",
+     "example": "The response rate was low.",
+     "example_es": "La tasa de respuesta fue baja."
+    },
+    {
+     "form": "problem",
+     "meaning_es": "problema",
+     "example": "We had a problem with one sensor.",
+     "example_es": "Tuvimos un problema con un sensor."
+    },
+    {
+     "form": "solve",
+     "meaning_es": "resolver",
+     "example": "We wanted to solve the problem quickly.",
+     "example_es": "Queríamos resolver el problema rápido."
+    },
+    {
+     "form": "expect",
+     "meaning_es": "esperar (prever)",
+     "example": "We did not expect this result.",
+     "example_es": "No esperábamos este resultado."
+    },
+    {
+     "form": "why",
+     "meaning_es": "por qué",
+     "example": "Why did you choose sawmills?",
+     "example_es": "¿Por qué eligieron aserraderos?"
+    },
+    {
+     "form": "because",
+     "meaning_es": "porque",
+     "example": "We chose them because they use a lot of energy.",
+     "example_es": "Los elegimos porque usan mucha energía."
+    },
+    {
+     "form": "how long",
+     "meaning_es": "cuánto tiempo",
+     "example": "How long did the study take?",
+     "example_es": "¿Cuánto tiempo tomó el estudio?"
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D10-RG",
+   "type": "capsule",
+   "title": "Pasado simple: preguntas (did) y negativos (didn't)",
+   "explain": "Para preguntar en pasado: Did + sujeto + verbo BASE: Did you use a survey? (no «Did you used»).\nCon palabra interrogativa: Why did you choose sawmills? How long did it take?\nNegativo: didn't (did not) + verbo base: We didn't expect this. They didn't respond.\nEl pasado se marca una sola vez: en «did». Por eso el verbo principal vuelve a la forma base.\nCon «to be» no se usa did: Was it difficult? It wasn't easy.",
+   "form": [
+    [
+     "Did + sujeto + verbo base?",
+     "Did you find a pattern?"
+    ],
+    [
+     "Wh- + did + sujeto + verbo base?",
+     "Why did you choose it?"
+    ],
+    [
+     "didn't + verbo base",
+     "We didn't expect it."
+    ],
+    [
+     "Was/Were…? wasn't/weren't",
+     "con to be"
+    ]
+   ],
+   "examples": [
+    [
+     "Did you use a survey? Yes, we did.",
+     "¿Usaron una encuesta? Sí."
+    ],
+    [
+     "How long did the study take?",
+     "¿Cuánto tiempo tomó el estudio?"
+    ],
+    [
+     "Most managers didn't respond.",
+     "La mayoría de los gerentes no respondió."
+    ]
+   ],
+   "tip": "Respuestas cortas: Yes, we did. / No, we didn't.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D10-RR",
+   "type": "text",
+   "title": "Questions about the survey",
+   "body": "Why did the team use a survey? They wanted to know how managers plan production. They sent a survey to forty managers, but the response rate was low. Only twelve managers responded. Did the team expect this? No, they didn't. So they did ten interviews as well. Each interview took about forty minutes. The participants explained their problems with planning, and the interviews gave the team useful details.",
+   "translation_es": "¿Por qué el equipo usó una encuesta? Querían saber cómo los gerentes planifican la producción. Enviaron una encuesta a cuarenta gerentes, pero la tasa de respuesta fue baja. Solo doce gerentes respondieron. ¿El equipo esperaba esto? No. Así que también hicieron diez entrevistas. Cada entrevista duró unos cuarenta minutos. Los participantes explicaron sus problemas con la planificación, y las entrevistas dieron al equipo detalles útiles.",
+   "glossary": [
+    [
+     "as well",
+     "también"
+    ],
+    [
+     "useful",
+     "útiles"
+    ],
+    [
+     "So",
+     "así que"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D10.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D10-RV"
+   ],
+   "activities": [
+    {
+     "id": "D10.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] you use a survey?  (2) Each [[2]] took forty minutes.  (3) We had a [[3]] with one sensor.  (4) [[4]] did you choose sawmills?  (5) We chose them [[5]] they use a lot of energy.  (6) [[6]] did the study take?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "did"
+       ],
+       "hint": "Significa «auxiliar del pasado (preguntas)»."
+      },
+      "2": {
+       "accept": [
+        "interview"
+       ],
+       "hint": "Significa «entrevista; entrevistar»."
+      },
+      "3": {
+       "accept": [
+        "problem"
+       ],
+       "hint": "Significa «problema»."
+      },
+      "4": {
+       "accept": [
+        "why"
+       ],
+       "hint": "Significa «por qué»."
+      },
+      "5": {
+       "accept": [
+        "because"
+       ],
+       "hint": "Significa «porque»."
+      },
+      "6": {
+       "accept": [
+        "how long"
+       ],
+       "hint": "Significa «cuánto tiempo»."
+      }
+     }
+    },
+    {
+     "id": "D10.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «esperar (prever)»",
+     "accept": [
+      "expect"
+     ],
+     "hint": "Empieza con «ex…» · Ejemplo: No esperábamos este resultado."
+    },
+    {
+     "id": "D10.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «participante»",
+     "accept": [
+      "participant"
+     ],
+     "hint": "Empieza con «pa…» · Ejemplo: Cada participante respondió diez preguntas."
+    },
+    {
+     "id": "D10.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «responder»",
+     "accept": [
+      "respond"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: La mayoría de los gerentes no respondió."
+    },
+    {
+     "id": "D10.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «resolver»",
+     "accept": [
+      "solve"
+     ],
+     "hint": "Empieza con «so…» · Ejemplo: Queríamos resolver el problema rápido."
+    },
+    {
+     "id": "D10.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tasa de respuesta»",
+     "accept": [
+      "response rate"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: La tasa de respuesta fue baja."
+    },
+    {
+     "id": "D10.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «encuesta»",
+     "accept": [
+      "survey"
+     ],
+     "hint": "Empieza con «su…» · Ejemplo: Enviamos una encuesta a los gerentes."
+    },
+    {
+     "id": "D10.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "We did not expect this result.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We did not expect this result."
+    }
+   ]
+  },
+  {
+   "id": "D10.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasado simple: preguntas (did) y negativos (didn't)",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D10-RG"
+   ],
+   "activities": [
+    {
+     "id": "D10.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] you interview the workers?  (2) Why did you [[2]] sawmills? (choose)  (3) We [[3]] expect this result. (negativo)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "did"
+       ],
+       "hint": "pregunta en pasado"
+      },
+      "2": {
+       "accept": [
+        "choose"
+       ],
+       "hint": "después de did: verbo base"
+      },
+      "3": {
+       "accept": [
+        "didn't",
+        "did not"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D10.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) How long [[1]] the analysis take?  (2) [[2]] it difficult to collect the data? (to be)  (3) They didn't [[3]] to the survey. (respond)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "did"
+       ]
+      },
+      "2": {
+       "accept": [
+        "was"
+       ],
+       "hint": "con to be: was/were"
+      },
+      "3": {
+       "accept": [
+        "respond"
+       ],
+       "hint": "verbo base"
+      }
+     }
+    },
+    {
+     "id": "D10.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál pregunta es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Did you found a pattern?"
+      },
+      {
+       "id": "b",
+       "text": "Did you find a pattern?"
+      },
+      {
+       "id": "c",
+       "text": "You did find a pattern?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "did + verbo base"
+    },
+    {
+     "id": "D10.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We didn't expected it."
+      },
+      {
+       "id": "b",
+       "text": "We didn't expect it."
+      },
+      {
+       "id": "c",
+       "text": "We not expected it."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D10.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres preguntas en pasado que te harían sobre tu último proyecto y respóndelas brevemente.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "did",
+        "didn't",
+        "was",
+        "were"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D10.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Preguntas de un colega",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D10.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Preguntas de un colega: escucha sin leer y responde.",
+     "audio": {
+      "text": "Did you use a survey? Yes, we did. We sent a survey to forty managers. Did they respond? Not many. The response rate was only thirty percent. Why did you also do interviews? Because we wanted more detail.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Did you use a survey? Yes, we did. We sent a survey to forty managers. Did they respond? Not many. The response rate was only thirty percent. Why did you also do interviews? Because we wanted more detail.",
+     "translation_es": "¿Usaron una encuesta? Sí. Enviamos una encuesta a cuarenta gerentes. ¿Respondieron? No muchos. La tasa de respuesta fue solo del treinta por ciento. ¿Por qué hicieron también entrevistas? Porque queríamos más detalle.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿A cuántos gerentes enviaron la encuesta?",
+       "label": "¿A cuántos gerentes enviaron la encuesta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "14"
+        },
+        {
+         "id": "b",
+         "text": "40"
+        },
+        {
+         "id": "c",
+         "text": "30"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuál fue la tasa de respuesta?",
+       "label": "¿Cuál fue la tasa de respuesta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "13 %"
+        },
+        {
+         "id": "b",
+         "text": "30 %"
+        },
+        {
+         "id": "c",
+         "text": "40 %"
+        }
+       ],
+       "answer": "b",
+       "explanation": "THIRty"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Por qué hicieron entrevistas?",
+       "label": "¿Por qué hicieron entrevistas?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Porque la encuesta era cara"
+        },
+        {
+         "id": "b",
+         "text": "Porque querían más detalle"
+        },
+        {
+         "id": "c",
+         "text": "Porque no tenían sensores"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D10.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "The response rate was only thirty percent.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The response rate was only thirty percent."
+    }
+   ]
+  },
+  {
+   "id": "D10.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Questions about the survey",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D10-RR"
+   ],
+   "activities": [
+    {
+     "id": "D10.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántos gerentes respondieron la encuesta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cuarenta"
+      },
+      {
+       "id": "b",
+       "text": "Doce"
+      },
+      {
+       "id": "c",
+       "text": "Diez"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D10.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿El equipo esperaba una tasa baja?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«No, they didn't.»"
+    },
+    {
+     "id": "D10.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto duraba cada entrevista?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Unos 14 minutos"
+      },
+      {
+       "id": "b",
+       "text": "Unos 40 minutos"
+      },
+      {
+       "id": "c",
+       "text": "Una hora y media"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D10.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D10.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Why did the team use a survey? They wanted to know how managers plan production.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Why did the team use a survey?",
+       "They wanted to know how managers plan production."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D10.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Responde en voz alta (30–60 s) como si te entrevistaran: How long did your last project take? Did you work with a company? Why did you choose that topic?",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "did",
+        "survey",
+        "interview",
+        "participant",
+        "respond",
+        "response rate",
+        "problem",
+        "solve",
+        "expect",
+        "why",
+        "because",
+        "how long"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "model": {
+      "text": "How long did your last project take? Did you work with a company? Why did you choose that topic?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "D10.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D10.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras: una pregunta con did y su respuesta, una dificultad (we didn't…) y cómo la resolvieron.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "did",
+        "survey",
+        "interview",
+        "participant",
+        "respond",
+        "response rate",
+        "problem",
+        "solve",
+        "expect",
+        "why",
+        "because",
+        "how long"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "did",
+        "didn't",
+        "was",
+        "were"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

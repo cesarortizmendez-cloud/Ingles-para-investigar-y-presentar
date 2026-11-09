@@ -1,0 +1,898 @@
+{
+ "id": "D29",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Oraciones relativas: which, that, who, where",
+ "day": 29,
+ "week": 5,
+ "day_type": "aprendizaje",
+ "intro": "Hoy unes ideas con which/that/who/where para escribir oraciones más completas, como en los papers.",
+ "objectives": [
+  {
+   "id": "D29-O1",
+   "text": "Usar who (personas), which/that (cosas) y where (lugares)."
+  },
+  {
+   "id": "D29-O2",
+   "text": "Combinar dos oraciones en una."
+  },
+  {
+   "id": "D29-O3",
+   "text": "Entender oraciones largas identificando a qué se refiere «which»."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D29-LX01",
+    "form": "which",
+    "meaning_es": "que, el/la cual (cosas)",
+    "example": "The model, which was built in Python, is simple.",
+    "example_es": "El modelo, que se construyó en Python, es simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX02",
+    "form": "who",
+    "meaning_es": "que, quien (personas)",
+    "example": "Operators who work at night use more energy.",
+    "example_es": "Los operarios que trabajan de noche usan más energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX03",
+    "form": "where",
+    "meaning_es": "donde",
+    "example": "This is the sawmill where the test started.",
+    "example_es": "Este es el aserradero donde empezó la prueba.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX04",
+    "form": "whose",
+    "meaning_es": "cuyo/a",
+    "example": "Companies whose machines are old use more energy.",
+    "example_es": "Las empresas cuyas máquinas son antiguas usan más energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX05",
+    "form": "refer to",
+    "meaning_es": "referirse a",
+    "example": "These numbers refer to the night shift.",
+    "example_es": "Estas cifras se refieren al turno de noche.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX06",
+    "form": "include",
+    "meaning_es": "incluir",
+    "example": "The sample does not include large companies.",
+    "example_es": "La muestra no incluye empresas grandes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX07",
+    "form": "involve",
+    "meaning_es": "implicar, involucrar",
+    "example": "The project will involve five sawmills.",
+    "example_es": "El proyecto involucrará a cinco aserraderos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX08",
+    "form": "describe",
+    "meaning_es": "describir",
+    "example": "Section 2 will describe the method.",
+    "example_es": "La sección 2 describirá el método.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX09",
+    "form": "approach",
+    "meaning_es": "enfoque",
+    "example": "This approach is simple and cheap.",
+    "example_es": "Este enfoque es simple y barato.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX10",
+    "form": "feature",
+    "meaning_es": "característica",
+    "example": "The main feature of the tool is its simplicity.",
+    "example_es": "La característica principal de la herramienta es su simplicidad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX11",
+    "form": "stakeholder",
+    "meaning_es": "actor interesado, parte interesada",
+    "example": "Each stakeholder received a report.",
+    "example_es": "Cada parte interesada recibió un informe.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D29-LX12",
+    "form": "such as",
+    "meaning_es": "como (por ejemplo)",
+    "example": "Small companies, such as sawmills, need simple tools.",
+    "example_es": "Las empresas pequeñas, como los aserraderos, necesitan herramientas simples.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D29-G1",
+    "topic": "Oraciones relativas: who, which, that, where, whose"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D29-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "which",
+     "meaning_es": "que, el/la cual (cosas)",
+     "example": "The model, which was built in Python, is simple.",
+     "example_es": "El modelo, que se construyó en Python, es simple."
+    },
+    {
+     "form": "who",
+     "meaning_es": "que, quien (personas)",
+     "example": "Operators who work at night use more energy.",
+     "example_es": "Los operarios que trabajan de noche usan más energía."
+    },
+    {
+     "form": "where",
+     "meaning_es": "donde",
+     "example": "This is the sawmill where the test started.",
+     "example_es": "Este es el aserradero donde empezó la prueba."
+    },
+    {
+     "form": "whose",
+     "meaning_es": "cuyo/a",
+     "example": "Companies whose machines are old use more energy.",
+     "example_es": "Las empresas cuyas máquinas son antiguas usan más energía."
+    },
+    {
+     "form": "refer to",
+     "meaning_es": "referirse a",
+     "example": "These numbers refer to the night shift.",
+     "example_es": "Estas cifras se refieren al turno de noche."
+    },
+    {
+     "form": "include",
+     "meaning_es": "incluir",
+     "example": "The sample does not include large companies.",
+     "example_es": "La muestra no incluye empresas grandes."
+    },
+    {
+     "form": "involve",
+     "meaning_es": "implicar, involucrar",
+     "example": "The project will involve five sawmills.",
+     "example_es": "El proyecto involucrará a cinco aserraderos."
+    },
+    {
+     "form": "describe",
+     "meaning_es": "describir",
+     "example": "Section 2 will describe the method.",
+     "example_es": "La sección 2 describirá el método."
+    },
+    {
+     "form": "approach",
+     "meaning_es": "enfoque",
+     "example": "This approach is simple and cheap.",
+     "example_es": "Este enfoque es simple y barato."
+    },
+    {
+     "form": "feature",
+     "meaning_es": "característica",
+     "example": "The main feature of the tool is its simplicity.",
+     "example_es": "La característica principal de la herramienta es su simplicidad."
+    },
+    {
+     "form": "stakeholder",
+     "meaning_es": "actor interesado, parte interesada",
+     "example": "Each stakeholder received a report.",
+     "example_es": "Cada parte interesada recibió un informe."
+    },
+    {
+     "form": "such as",
+     "meaning_es": "como (por ejemplo)",
+     "example": "Small companies, such as sawmills, need simple tools.",
+     "example_es": "Las empresas pequeñas, como los aserraderos, necesitan herramientas simples."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D29-RG",
+   "type": "capsule",
+   "title": "Oraciones relativas: who, which, that, where, whose",
+   "explain": "Las oraciones relativas agregan información sobre un sustantivo:\nwho → personas: «Operators who work at night…» · which / that → cosas: «The tool that we built…» · where → lugares · whose → posesión (cuyo).\nCon información esencial (define de quién/qué hablamos) no se usan comas y se puede usar that: «Machines that are old use more energy».\nCon información extra entre comas se usa which (no that): «The model, which was built in Python, is simple».\nPara leer: busca el sustantivo que está justo antes de who/which: ese es el referente.",
+   "form": [
+    [
+     "persona + who + verbo",
+     "operators who work at night"
+    ],
+    [
+     "cosa + which/that + verbo",
+     "machines that are old"
+    ],
+    [
+     "lugar + where + oración",
+     "the sawmill where the test started"
+    ],
+    [
+     ", which … , (información extra)",
+     "The model, which…, is simple."
+    ]
+   ],
+   "examples": [
+    [
+     "Operators who work at night have less experience.",
+     "Los operarios que trabajan de noche tienen menos experiencia."
+    ],
+    [
+     "The tool that Diego built is easy to use.",
+     "La herramienta que construyó Diego es fácil de usar."
+    ],
+    [
+     "Ñuble is the region where the study was conducted.",
+     "Ñuble es la región donde se realizó el estudio."
+    ]
+   ],
+   "tip": "En español «que» sirve para todo; en inglés elige who (personas) o which/that (cosas).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D29-RR",
+   "type": "text",
+   "title": "The proposed tool",
+   "body": "The tool that we propose is a simple dashboard for small companies, such as sawmills. Its main feature is that managers who have no technical training can use it. The dashboard, which was built with free software, shows energy use per hour and per shift. It was tested in a sawmill where twelve operators work. Companies whose machines are old may benefit most. All stakeholders, including the operators, received a short training session.",
+   "translation_es": "La herramienta que proponemos es un panel simple para empresas pequeñas, como los aserraderos. Su característica principal es que los gerentes que no tienen formación técnica pueden usarla. El panel, que se construyó con software libre, muestra el uso de energía por hora y por turno. Se probó en un aserradero donde trabajan doce operarios. Las empresas cuyas máquinas son antiguas podrían beneficiarse más. Todas las partes interesadas, incluidos los operarios, recibieron una breve capacitación.",
+   "glossary": [
+    [
+     "technical training",
+     "formación técnica"
+    ],
+    [
+     "free software",
+     "software libre"
+    ],
+    [
+     "benefit most",
+     "beneficiarse más"
+    ],
+    [
+     "training session",
+     "sesión de capacitación"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D29.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D29-RV"
+   ],
+   "activities": [
+    {
+     "id": "D29.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Operators [[1]] work at night use more energy.  (2) Companies [[2]] machines are old use more energy.  (3) The sample does not [[3]] large companies.  (4) Section 2 will [[4]] the method.  (5) The main [[5]] of the tool is its simplicity.  (6) Small companies, [[6]] sawmills, need simple tools.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "who"
+       ],
+       "hint": "Significa «que, quien (personas)»."
+      },
+      "2": {
+       "accept": [
+        "whose"
+       ],
+       "hint": "Significa «cuyo/a»."
+      },
+      "3": {
+       "accept": [
+        "include"
+       ],
+       "hint": "Significa «incluir»."
+      },
+      "4": {
+       "accept": [
+        "describe"
+       ],
+       "hint": "Significa «describir»."
+      },
+      "5": {
+       "accept": [
+        "feature"
+       ],
+       "hint": "Significa «característica»."
+      },
+      "6": {
+       "accept": [
+        "such as"
+       ],
+       "hint": "Significa «como (por ejemplo)»."
+      }
+     }
+    },
+    {
+     "id": "D29.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «que, el/la cual (cosas)»",
+     "accept": [
+      "which"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: El modelo, que se construyó en Python, es simple."
+    },
+    {
+     "id": "D29.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «donde»",
+     "accept": [
+      "where"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: Este es el aserradero donde empezó la prueba."
+    },
+    {
+     "id": "D29.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «enfoque»",
+     "accept": [
+      "approach"
+     ],
+     "hint": "Empieza con «ap…» · Ejemplo: Este enfoque es simple y barato."
+    },
+    {
+     "id": "D29.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «actor interesado, parte interesada»",
+     "accept": [
+      "stakeholder"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: Cada parte interesada recibió un informe."
+    },
+    {
+     "id": "D29.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «implicar, involucrar»",
+     "accept": [
+      "involve"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: El proyecto involucrará a cinco aserraderos."
+    },
+    {
+     "id": "D29.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «referirse a»",
+     "accept": [
+      "refer to"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Estas cifras se refieren al turno de noche."
+    },
+    {
+     "id": "D29.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The model, which was built in Python, is simple.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The model, which was built in Python, is simple."
+    }
+   ]
+  },
+  {
+   "id": "D29.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Oraciones relativas: who, which, that, where, whose",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D29-RG"
+   ],
+   "activities": [
+    {
+     "id": "D29.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Operators [[1]] work at night use more energy. (personas)  (2) The model, [[2]] was built in Python, is simple. (cosa, entre comas)  (3) This is the sawmill [[3]] the test started. (lugar)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "who",
+        "that"
+       ]
+      },
+      "2": {
+       "accept": [
+        "which"
+       ],
+       "hint": "entre comas → which"
+      },
+      "3": {
+       "accept": [
+        "where"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D29.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Companies [[1]] machines are old use more energy. (cuyas)  (2) The tool [[2]] Diego built is easy to use. (cosa)  (3) Small companies, such [[3]] sawmills, need simple tools.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "whose"
+       ]
+      },
+      "2": {
+       "accept": [
+        "that",
+        "which"
+       ]
+      },
+      "3": {
+       "accept": [
+        "as"
+       ],
+       "hint": "such as"
+      }
+     }
+    },
+    {
+     "id": "D29.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "The engineers which work here are young."
+      },
+      {
+       "id": "b",
+       "text": "The engineers who work here are young."
+      }
+     ],
+     "answer": "b",
+     "explanation": "personas → who"
+    },
+    {
+     "id": "D29.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "En «The data, which were collected in winter, show a peak», ¿a qué se refiere «which»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "the peak"
+      },
+      {
+       "id": "b",
+       "text": "the data"
+      },
+      {
+       "id": "c",
+       "text": "winter"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D29.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Une estas ideas en una oración con who/which/where: «Trabajo en una universidad. La universidad está en (tu ciudad)». Luego escribe otra sobre tus estudiantes.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "who",
+        "which",
+        "that",
+        "where"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D29.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Describiendo la herramienta",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D29.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Describiendo la herramienta: escucha sin leer y responde.",
+     "audio": {
+      "text": "The tool that Diego built is a simple dashboard. Managers who use it can see energy use every hour. The sawmill where we tested it is in Coihueco. The tool, which costs very little, could help many small companies.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "The tool that Diego built is a simple dashboard. Managers who use it can see energy use every hour. The sawmill where we tested it is in Coihueco. The tool, which costs very little, could help many small companies.",
+     "translation_es": "La herramienta que construyó Diego es un panel simple. Los gerentes que la usan pueden ver el uso de energía cada hora. El aserradero donde la probamos está en Coihueco. La herramienta, que cuesta muy poco, podría ayudar a muchas empresas pequeñas.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué es la herramienta?",
+       "label": "¿Qué es la herramienta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un sensor"
+        },
+        {
+         "id": "b",
+         "text": "Un panel simple"
+        },
+        {
+         "id": "c",
+         "text": "Una máquina de secado"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Dónde la probaron?",
+       "label": "¿Dónde la probaron?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En Concepción"
+        },
+        {
+         "id": "b",
+         "text": "En Coihueco"
+        },
+        {
+         "id": "c",
+         "text": "En Boston"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuánto cuesta la herramienta?",
+       "label": "¿Cuánto cuesta la herramienta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Muy poco"
+        },
+        {
+         "id": "b",
+         "text": "Mucho"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D29.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Managers who use it can see energy use every hour.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Managers who use it can see energy use every hour."
+    }
+   ]
+  },
+  {
+   "id": "D29.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: The proposed tool",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D29-RR"
+   ],
+   "activities": [
+    {
+     "id": "D29.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Quién puede usar el panel según el texto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Solo ingenieros"
+      },
+      {
+       "id": "b",
+       "text": "Gerentes sin formación técnica"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D29.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Con qué se construyó el panel?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Con software libre"
+      },
+      {
+       "id": "b",
+       "text": "Con un programa caro"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D29.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué empresas podrían beneficiarse más?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Las que tienen máquinas antiguas"
+      },
+      {
+       "id": "b",
+       "text": "Las más grandes"
+      }
+     ],
+     "answer": "a",
+     "explanation": "whose machines are old"
+    }
+   ]
+  },
+  {
+   "id": "D29.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D29.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The tool that we propose is a simple dashboard for small companies, such as sawmills. Its main feature is that managers who have no technical training can use it.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The tool that we propose is a simple dashboard for small companies, such as sawmills.",
+       "Its main feature is that managers who have no technical training can use it."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D29.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en voz alta (30–60 s) una herramienta, curso o proceso de tu trabajo usando who, which/that y where.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "which",
+        "who",
+        "where",
+        "whose",
+        "refer to",
+        "include",
+        "involve",
+        "describe",
+        "approach",
+        "feature",
+        "stakeholder",
+        "such as"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D29.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D29.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras describiendo una herramienta o propuesta tuya con al menos tres oraciones relativas.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "which",
+        "who",
+        "where",
+        "whose",
+        "refer to",
+        "include",
+        "involve",
+        "describe",
+        "approach",
+        "feature",
+        "stakeholder",
+        "such as"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "who",
+        "which",
+        "that",
+        "where"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

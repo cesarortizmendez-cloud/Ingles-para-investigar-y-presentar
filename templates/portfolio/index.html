@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Portafolio{% endblock %}
+{% block content %}
+<h1>Portafolio</h1>
+<p><a class="button ghost" href="{% url 'portfolio_export' %}">Exportar mi progreso (JSON)</a> <a href="{% url 'privacy' %}">Privacidad y datos</a></p>
+
+<section class="card card-accent">
+  <h2>Lo que ya lograste en tus planes</h2>
+  {% for d in days_done %}
+    <details><summary><strong>{% if not d.main %}{{ d.program }} · {% endif %}Día {{ d.n }} · {{ d.title }}</strong> ✓</summary>
+      <ul class="small">{% for o in d.objectives %}<li>{{ o.text }}</li>{% endfor %}</ul></details>
+  {% empty %}
+    <p class="muted">Aún no completas ningún día (se completa con 80 % de actividades y 70 % de aciertos). <a href="{% url 'catalog' %}">Ir a la ruta</a></p>
+  {% endfor %}
+</section>
+
+{% if demonstrated %}
+<section class="card">
+  <h2>Capítulos complementarios aprobados</h2>
+  {% for d in demonstrated %}
+    <h3>{{ d.code }} · {{ d.label }}</h3>
+    <ul>{% for o in d.objectives %}<li>{{ o.text }}</li>{% endfor %}</ul>
+  {% endfor %}
+</section>
+{% endif %}
+
+<h2>Producciones (escritas y orales)</h2>
+{% for e in evidence %}
+<article class="activity">
+  <header class="activity-head">
+    {% if e.attempt.lesson_id and e.attempt.lesson_id != "deferred" %}<a class="tag" href="{% url 'lesson' e.attempt.chapter_code e.attempt.lesson_id %}#act-{{ e.attempt.activity_id }}">{{ e.chapter_title }}</a>{% else %}<span class="tag">{{ e.chapter_title }}</span>{% endif %}
+    <span class="muted small">intento {{ e.attempt.attempt_number }} · {{ e.attempt.created_at|date:"d-m-Y H:i" }}</span>
+    {% if e.act.role == "final" %}<span class="tag tag-final">Tarea integradora</span>{% endif %}
+  </header>
+  <p class="small">{{ e.act.prompt }}</p>
+  {% if e.attempt.response.text %}<blockquote lang="en" class="source-text">{{ e.attempt.response.text|linebreaksbr }}</blockquote>{% endif %}
+  {% for r in e.recordings %}
+    <div class="rec-item">
+      <audio controls preload="none" src="{% url 'recording_stream' r.id %}"></audio>
+      {% if r.transcript %}<p class="small" lang="en">{{ r.transcript }}</p>{% endif %}
+      <form method="post" action="{% url 'recording_consent' r.id %}" class="inline small">{% csrf_token %}
+        <label><input type="checkbox" name="consent_share" value="1"{% if r.consent_share %} checked{% endif %}> compartir con evaluador</label>
+        <label><input type="checkbox" name="consent_reuse" value="1"{% if r.consent_reuse %} checked{% endif %}> reutilizar para otros fines</label>
+        <button type="submit" class="small">Guardar</button>
+      </form>
+      <form method="post" action="{% url 'recording_delete' r.id %}" class="inline">{% csrf_token %}
+        <input type="hidden" name="next" value="{% url 'portfolio' %}"><button type="submit" class="danger small">Eliminar grabación</button></form>
+    </div>
+  {% endfor %}
+  {% if e.rubric %}<p>Rúbrica: <strong>{{ e.rubric.total|floatformat:0 }}/100</strong> · {{ e.rubric.get_rater_kind_display }}{% if e.rubric.notes %} · {{ e.rubric.notes }}{% endif %}</p>
+  {% elif e.act.rubric %}<p><a href="{% url 'rubric_form' e.attempt.pk %}">Evaluar con rúbrica</a></p>{% endif %}
+</article>
+{% empty %}
+<p class="muted">Todavía no hay producciones. Aparecen aquí tus textos y grabaciones de los bloques de habla y escritura de cada día.</p>
+{% endfor %}
+
+{% if loose_recordings %}
+<h2>Grabaciones no enviadas</h2>
+<ul>{% for r in loose_recordings %}<li>{{ r.activity_id }} · {{ r.created_at|date:"d-m H:i" }}
+  <audio controls preload="none" src="{% url 'recording_stream' r.id %}"></audio>
+  <form method="post" action="{% url 'recording_delete' r.id %}" class="inline">{% csrf_token %}<button type="submit" class="danger small">Eliminar</button></form></li>{% endfor %}</ul>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,663 @@
+{
+ "id": "D35",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso semana 5: escribir una discusión",
+ "day": 35,
+ "week": 5,
+ "day_type": "repaso",
+ "intro": "Integras relativas, contraste, causa-efecto, condicionales y grupos nominales para discutir resultados como en un paper.",
+ "objectives": [
+  {
+   "id": "D35-O1",
+   "text": "Recordar sin mirar el vocabulario de la semana (meta: 70 %)."
+  },
+  {
+   "id": "D35-O2",
+   "text": "Elegir el conector y el condicional adecuados en ejercicios mezclados."
+  },
+  {
+   "id": "D35-O3",
+   "text": "Explicar en 2 minutos qué significan tus resultados y sus limitaciones."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D35-RR",
+   "type": "text",
+   "title": "Discussion (final version)",
+   "body": "This study measured energy use in small-scale sawmills, which have received little attention. Unlike previous studies, it used real data. Night shifts were associated with higher energy use per unit, possibly due to colder temperatures. As a result, the pilot schedule, which moved drying work to the day shift, reduced energy use by about eight percent. Although the sample was small, the trend was consistent. If other sawmills adopt this cost-effective change, they will probably save energy. Nevertheless, a larger sample would give stronger evidence.",
+   "translation_es": "Este estudio midió el uso de energía en aserraderos de pequeña escala, que han recibido poca atención. A diferencia de estudios anteriores, usó datos reales. Los turnos de noche estuvieron asociados con un mayor uso de energía por unidad, posiblemente debido a temperaturas más frías. Como resultado, la programación piloto, que trasladó el trabajo de secado al turno de día, redujo el uso de energía en alrededor de un ocho por ciento. Aunque la muestra era pequeña, la tendencia fue coherente. Si otros aserraderos adoptan este cambio costo-eficiente, probablemente ahorrarán energía. No obstante, una muestra más grande daría evidencia más sólida.",
+   "glossary": [
+    [
+     "consistent",
+     "coherente, constante"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D35.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "D35.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) Shifts were not [[1]] assigned.  (2) Each [[2]] received a report.  (3) Our results are [[3]] Mark's study.  (4) [[4]], the trend is clear.  (5) We cannot [[5]] to all regions.  (6) The test needs one [[6]]: stable weather.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "randomly"
+       ],
+       "hint": "Significa «aleatoriamente»."
+      },
+      "2": {
+       "accept": [
+        "stakeholder"
+       ],
+       "hint": "Significa «actor interesado, parte interesada»."
+      },
+      "3": {
+       "accept": [
+        "consistent with"
+       ],
+       "hint": "Significa «coherente con»."
+      },
+      "4": {
+       "accept": [
+        "nevertheless"
+       ],
+       "hint": "Significa «no obstante»."
+      },
+      "5": {
+       "accept": [
+        "generalise"
+       ],
+       "hint": "Significa «generalizar»."
+      },
+      "6": {
+       "accept": [
+        "condition"
+       ],
+       "hint": "Significa «condición»."
+      }
+     }
+    },
+    {
+     "id": "D35.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «por otro lado»",
+     "accept": [
+      "on the other hand"
+     ],
+     "hint": "Ejemplo: Por otro lado, los costos aumentaron."
+    },
+    {
+     "id": "D35.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «esperado/a»",
+     "accept": [
+      "expected"
+     ],
+     "hint": "Ejemplo: El efecto fue menor de lo esperado."
+    },
+    {
+     "id": "D35.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «efecto»",
+     "accept": [
+      "effect"
+     ],
+     "hint": "Ejemplo: El efecto fue pequeño pero claro."
+    },
+    {
+     "id": "D35.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «que, el/la cual (cosas)»",
+     "accept": [
+      "which"
+     ],
+     "hint": "Ejemplo: El modelo, que se construyó en Python, es simple."
+    },
+    {
+     "id": "D35.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en cambio, por el contrario»",
+     "accept": [
+      "in contrast"
+     ],
+     "hint": "Ejemplo: En cambio, las fábricas grandes ahorraron más energía."
+    },
+    {
+     "id": "D35.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «limitación»",
+     "accept": [
+      "limitation"
+     ],
+     "hint": "Ejemplo: Una limitación es la muestra pequeña."
+    }
+   ]
+  },
+  {
+   "id": "D35.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D35.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Small companies, such [[1]] sawmills, need simple tools.  (2) Our results are consistent [[2]] Mark's study.  (3) Energy use was higher [[3]] the weather was cold. (porque)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "as"
+       ],
+       "hint": "such as"
+      },
+      "2": {
+       "accept": [
+        "with"
+       ],
+       "hint": "consistent with"
+      },
+      "3": {
+       "accept": [
+        "because",
+        "since",
+        "as"
+       ],
+       "hint": "+ oración"
+      }
+     }
+    },
+    {
+     "id": "D35.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) We don't know [[1]] the tool works in summer. (si)  (2) What would you do [[2]]? (de otra manera)  (3) «de pequeña escala» = small-[[3]]",
+     "gaps": {
+      "1": {
+       "accept": [
+        "whether",
+        "if"
+       ]
+      },
+      "2": {
+       "accept": [
+        "differently"
+       ]
+      },
+      "3": {
+       "accept": [
+        "scale"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D35.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "En «The data, which were collected in winter, show a peak», ¿a qué se refiere «which»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "the peak"
+      },
+      {
+       "id": "b",
+       "text": "the data"
+      },
+      {
+       "id": "c",
+       "text": "winter"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D35.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál está bien puntuada?",
+     "options": [
+      {
+       "id": "a",
+       "text": "However the results are clear."
+      },
+      {
+       "id": "b",
+       "text": "However, the results are clear."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D35.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál expresa una consecuencia?",
+     "options": [
+      {
+       "id": "a",
+       "text": "due to"
+      },
+      {
+       "id": "b",
+       "text": "as a result"
+      },
+      {
+       "id": "c",
+       "text": "because of"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D35.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«A menos que revisemos los sensores, perderemos datos»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Unless we check the sensors, we will lose data."
+      },
+      {
+       "id": "b",
+       "text": "If we check the sensors, we will lose data."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D35.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué expresa «If the sample were larger, the evidence would be stronger»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un hecho real"
+      },
+      {
+       "id": "b",
+       "text": "Una situación hipotética (la muestra no es grande)"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D35.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a costs reduction"
+      },
+      {
+       "id": "b",
+       "text": "a cost reduction"
+      }
+     ],
+     "answer": "b",
+     "explanation": "el modificador va sin plural"
+    }
+   ]
+  },
+  {
+   "id": "D35.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La discusión del paper",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D35.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La discusión del paper: escucha sin leer y responde.",
+     "audio": {
+      "text": "Unlike previous studies, which used estimates, we used real data. Night shifts were associated with higher energy use, due to colder temperatures. As a result, the pilot schedule reduced energy use by eight percent. If other sawmills adopt it, they will probably save energy. However, if we had a larger sample, the evidence would be stronger.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Unlike previous studies, which used estimates, we used real data. Night shifts were associated with higher energy use, due to colder temperatures. As a result, the pilot schedule reduced energy use by eight percent. If other sawmills adopt it, they will probably save energy. However, if we had a larger sample, the evidence would be stronger.",
+     "translation_es": "A diferencia de estudios anteriores, que usaron estimaciones, nosotros usamos datos reales. Los turnos de noche estuvieron asociados con mayor uso de energía, debido a temperaturas más frías. Como resultado, la programación piloto redujo el uso de energía en un ocho por ciento. Si otros aserraderos la adoptan, probablemente ahorrarán energía. Sin embargo, si tuviéramos una muestra más grande, la evidencia sería más sólida.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿A qué se debió el mayor uso de energía de noche?",
+       "label": "¿A qué se debió el mayor uso de energía de noche?",
+       "options": [
+        {
+         "id": "a",
+         "text": "A temperaturas más frías"
+        },
+        {
+         "id": "b",
+         "text": "A falta de personal"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto redujo la programación piloto?",
+       "label": "¿Cuánto redujo la programación piloto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "8 %"
+        },
+        {
+         "id": "b",
+         "text": "18 %"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "«if we had a larger sample» es:",
+       "label": "«if we had a larger sample» es:",
+       "options": [
+        {
+         "id": "a",
+         "text": "Primer condicional (real)"
+        },
+        {
+         "id": "b",
+         "text": "Segundo condicional (hipotético)"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D35.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Unlike previous studies, which used estimates, we used real data.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Unlike previous studies, which used estimates, we used real data."
+    }
+   ]
+  },
+  {
+   "id": "D35.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Discussion (final version)",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D35-RR"
+   ],
+   "activities": [
+    {
+     "id": "D35.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hizo la programación piloto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Trasladó el trabajo de secado al turno de día"
+      },
+      {
+       "id": "b",
+       "text": "Eliminó el turno de noche"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D35.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué daría evidencia más sólida?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Una muestra más grande"
+      },
+      {
+       "id": "b",
+       "text": "Más gerentes"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D35.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué función cumple «Although the sample was small»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Contraste/concesión"
+      },
+      {
+       "id": "b",
+       "text": "Causa"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D35.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D35.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "This study measured energy use in small-scale sawmills, which have received little attention. Unlike previous studies, it used real data.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "This study measured energy use in small-scale sawmills, which have received little attention.",
+       "Unlike previous studies, it used real data."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D35.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Discute en 90–120 segundos los resultados de tu trabajo (o del de Ana): qué significan (suggest, due to), cómo se comparan (unlike, consistent with) y una limitación (if we had…, would…). Evalúate con la rúbrica.",
+     "min_seconds": 90,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "randomly",
+        "stakeholder",
+        "consistent with",
+        "nevertheless",
+        "generalise",
+        "condition",
+        "on the other hand",
+        "expected",
+        "effect",
+        "which",
+        "in contrast",
+        "limitation",
+        "risk",
+        "who",
+        "benefit",
+        "would",
+        "depend on",
+        "savings",
+        "whose",
+        "measurement",
+        "larger sample",
+        "scenario",
+        "night-shift workers",
+        "improvement"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "D35.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D35.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe una discusión breve (80–120 palabras) de un trabajo tuyo con conectores de contraste y causa, una relativa y una limitación en segundo condicional.",
+     "min_words": 70,
+     "max_words": 130,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "randomly",
+        "stakeholder",
+        "consistent with",
+        "nevertheless",
+        "generalise",
+        "condition",
+        "on the other hand",
+        "expected",
+        "effect",
+        "which",
+        "in contrast",
+        "limitation",
+        "risk",
+        "who",
+        "benefit",
+        "would",
+        "depend on",
+        "savings",
+        "whose",
+        "measurement",
+        "larger sample",
+        "scenario",
+        "night-shift workers",
+        "improvement"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

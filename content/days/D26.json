@@ -1,0 +1,898 @@
+{
+ "id": "D26",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Contables e incontables: data, research, information",
+ "day": 26,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy evitas errores muy frecuentes: «researches», «informations», «many data». Aprendes qué palabras no tienen plural y cómo cuantificarlas.",
+ "objectives": [
+  {
+   "id": "D26-O1",
+   "text": "Distinguir sustantivos contables e incontables del ámbito académico."
+  },
+  {
+   "id": "D26-O2",
+   "text": "Usar many/much, few/little, a number of / an amount of."
+  },
+  {
+   "id": "D26-O3",
+   "text": "Corregir errores típicos en un texto."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D26-LX01",
+    "form": "research",
+    "meaning_es": "investigación (incontable)",
+    "example": "We need more research on this topic.",
+    "example_es": "Necesitamos más investigación sobre este tema.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX02",
+    "form": "information",
+    "meaning_es": "información (incontable)",
+    "example": "The managers gave us useful information.",
+    "example_es": "Los gerentes nos dieron información útil.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX03",
+    "form": "equipment",
+    "meaning_es": "equipos, equipamiento (incontable)",
+    "example": "The equipment is expensive.",
+    "example_es": "El equipamiento es caro.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX04",
+    "form": "advice",
+    "meaning_es": "consejo(s) (incontable)",
+    "example": "Mark gave us good advice.",
+    "example_es": "Mark nos dio buenos consejos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX05",
+    "form": "knowledge",
+    "meaning_es": "conocimiento (incontable)",
+    "example": "This study adds new knowledge.",
+    "example_es": "Este estudio aporta nuevo conocimiento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX06",
+    "form": "much",
+    "meaning_es": "mucho/a (incontable)",
+    "example": "We don't have much time.",
+    "example_es": "No tenemos mucho tiempo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX07",
+    "form": "many",
+    "meaning_es": "muchos/as (contable)",
+    "example": "Many companies use this tool.",
+    "example_es": "Muchas empresas usan esta herramienta.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX08",
+    "form": "little",
+    "meaning_es": "poco/a (incontable)",
+    "example": "There is little information about small sawmills.",
+    "example_es": "Hay poca información sobre aserraderos pequeños.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX09",
+    "form": "a piece of",
+    "meaning_es": "un/a (para incontables)",
+    "example": "This is a piece of useful advice.",
+    "example_es": "Este es un consejo útil.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX10",
+    "form": "a study",
+    "meaning_es": "un estudio (contable)",
+    "example": "A study from Brazil found similar results.",
+    "example_es": "Un estudio de Brasil encontró resultados similares.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX11",
+    "form": "a large amount of",
+    "meaning_es": "una gran cantidad de (incontable)",
+    "example": "We collected a large amount of data.",
+    "example_es": "Recolectamos una gran cantidad de datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D26-LX12",
+    "form": "a number of",
+    "meaning_es": "varios, un número de (contable)",
+    "example": "A number of studies have used surveys.",
+    "example_es": "Varios estudios han usado encuestas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D26-G1",
+    "topic": "Sustantivos contables e incontables en el inglés académico"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D26-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "research",
+     "meaning_es": "investigación (incontable)",
+     "example": "We need more research on this topic.",
+     "example_es": "Necesitamos más investigación sobre este tema."
+    },
+    {
+     "form": "information",
+     "meaning_es": "información (incontable)",
+     "example": "The managers gave us useful information.",
+     "example_es": "Los gerentes nos dieron información útil."
+    },
+    {
+     "form": "equipment",
+     "meaning_es": "equipos, equipamiento (incontable)",
+     "example": "The equipment is expensive.",
+     "example_es": "El equipamiento es caro."
+    },
+    {
+     "form": "advice",
+     "meaning_es": "consejo(s) (incontable)",
+     "example": "Mark gave us good advice.",
+     "example_es": "Mark nos dio buenos consejos."
+    },
+    {
+     "form": "knowledge",
+     "meaning_es": "conocimiento (incontable)",
+     "example": "This study adds new knowledge.",
+     "example_es": "Este estudio aporta nuevo conocimiento."
+    },
+    {
+     "form": "much",
+     "meaning_es": "mucho/a (incontable)",
+     "example": "We don't have much time.",
+     "example_es": "No tenemos mucho tiempo."
+    },
+    {
+     "form": "many",
+     "meaning_es": "muchos/as (contable)",
+     "example": "Many companies use this tool.",
+     "example_es": "Muchas empresas usan esta herramienta."
+    },
+    {
+     "form": "little",
+     "meaning_es": "poco/a (incontable)",
+     "example": "There is little information about small sawmills.",
+     "example_es": "Hay poca información sobre aserraderos pequeños."
+    },
+    {
+     "form": "a piece of",
+     "meaning_es": "un/a (para incontables)",
+     "example": "This is a piece of useful advice.",
+     "example_es": "Este es un consejo útil."
+    },
+    {
+     "form": "a study",
+     "meaning_es": "un estudio (contable)",
+     "example": "A study from Brazil found similar results.",
+     "example_es": "Un estudio de Brasil encontró resultados similares."
+    },
+    {
+     "form": "a large amount of",
+     "meaning_es": "una gran cantidad de (incontable)",
+     "example": "We collected a large amount of data.",
+     "example_es": "Recolectamos una gran cantidad de datos."
+    },
+    {
+     "form": "a number of",
+     "meaning_es": "varios, un número de (contable)",
+     "example": "A number of studies have used surveys.",
+     "example_es": "Varios estudios han usado encuestas."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D26-RG",
+   "type": "capsule",
+   "title": "Sustantivos contables e incontables en el inglés académico",
+   "explain": "Incontables (sin plural ni «a/an»): research, information, equipment, advice, knowledge, evidence, feedback, software.\nErrores típicos: «researches» → studies / research; «informations» → information; «an advice» → a piece of advice / some advice.\nCuantificadores: contables → many, few, a number of; incontables → much, little, an amount of. Ambos: a lot of, some, more.\n«data»: en ciencia se trata a menudo como plural (the data were), pero «a large amount of data» es correcto.\n«Investigaciones» se traduce mejor como «studies»: Several studies have shown…",
+   "form": [
+    [
+     "research / information / equipment / advice",
+     "sin -s, sin a/an"
+    ],
+    [
+     "many / few / a number of + plural",
+     "many companies"
+    ],
+    [
+     "much / little / an amount of + incontable",
+     "much information"
+    ],
+    [
+     "investigaciones → studies",
+     "two studies"
+    ]
+   ],
+   "examples": [
+    [
+     "There is little research on small sawmills.",
+     "Hay poca investigación sobre aserraderos pequeños."
+    ],
+    [
+     "Several studies have used surveys.",
+     "Varias investigaciones han usado encuestas."
+    ],
+    [
+     "Mark gave us some useful advice.",
+     "Mark nos dio algunos consejos útiles."
+    ]
+   ],
+   "tip": "En inglés «a lot of» sirve para ambos: a lot of studies, a lot of information.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D26-RR",
+   "type": "text",
+   "title": "Related work",
+   "body": "There is little research on energy use in small sawmills. A number of studies have analysed large factories, and a large amount of information is available for the paper industry. However, few studies have used real data from small companies, and much of the knowledge comes from surveys. One study from Brazil found similar results, but its equipment was very different. Our work adds new knowledge about this sector.",
+   "translation_es": "Hay poca investigación sobre el uso de energía en aserraderos pequeños. Varios estudios han analizado fábricas grandes, y hay una gran cantidad de información disponible para la industria del papel. Sin embargo, pocos estudios han usado datos reales de empresas pequeñas, y gran parte del conocimiento proviene de encuestas. Un estudio de Brasil encontró resultados similares, pero sus equipos eran muy distintos. Nuestro trabajo aporta nuevo conocimiento sobre este sector.",
+   "glossary": [
+    [
+     "available",
+     "disponible"
+    ],
+    [
+     "paper industry",
+     "industria del papel"
+    ],
+    [
+     "comes from",
+     "proviene de"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D26.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D26-RV"
+   ],
+   "activities": [
+    {
+     "id": "D26.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The managers gave us useful [[1]].  (2) The [[2]] is expensive.  (3) [[3]] companies use this tool.  (4) This is [[4]] useful advice.  (5) [[5]] from Brazil found similar results.  (6) [[6]] studies have used surveys.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "information"
+       ],
+       "hint": "Significa «información (incontable)»."
+      },
+      "2": {
+       "accept": [
+        "equipment"
+       ],
+       "hint": "Significa «equipos, equipamiento (incontable)»."
+      },
+      "3": {
+       "accept": [
+        "many"
+       ],
+       "hint": "Significa «muchos/as (contable)»."
+      },
+      "4": {
+       "accept": [
+        "a piece of"
+       ],
+       "hint": "Significa «un/a (para incontables)»."
+      },
+      "5": {
+       "accept": [
+        "a study"
+       ],
+       "hint": "Significa «un estudio (contable)»."
+      },
+      "6": {
+       "accept": [
+        "a number of"
+       ],
+       "hint": "Significa «varios, un número de (contable)»."
+      }
+     }
+    },
+    {
+     "id": "D26.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «poco/a (incontable)»",
+     "accept": [
+      "little"
+     ],
+     "hint": "Empieza con «li…» · Ejemplo: Hay poca información sobre aserraderos pequeños."
+    },
+    {
+     "id": "D26.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «investigación (incontable)»",
+     "accept": [
+      "research"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Necesitamos más investigación sobre este tema."
+    },
+    {
+     "id": "D26.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «consejo(s) (incontable)»",
+     "accept": [
+      "advice"
+     ],
+     "hint": "Empieza con «ad…» · Ejemplo: Mark nos dio buenos consejos."
+    },
+    {
+     "id": "D26.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «una gran cantidad de (incontable)»",
+     "accept": [
+      "a large amount of"
+     ],
+     "hint": "Empieza con «a …» · Ejemplo: Recolectamos una gran cantidad de datos."
+    },
+    {
+     "id": "D26.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «conocimiento (incontable)»",
+     "accept": [
+      "knowledge"
+     ],
+     "hint": "Empieza con «kn…» · Ejemplo: Este estudio aporta nuevo conocimiento."
+    },
+    {
+     "id": "D26.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mucho/a (incontable)»",
+     "accept": [
+      "much"
+     ],
+     "hint": "Empieza con «mu…» · Ejemplo: No tenemos mucho tiempo."
+    },
+    {
+     "id": "D26.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "There is little information about small sawmills.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "There is little information about small sawmills."
+    }
+   ]
+  },
+  {
+   "id": "D26.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Sustantivos contables e incontables en el inglés académico",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D26-RG"
+   ],
+   "activities": [
+    {
+     "id": "D26.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We need more [[1]] on this topic. (investigación)  (2) The managers gave us useful [[2]]. (información)  (3) [[3]] companies use this tool. (muchas)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "research"
+       ],
+       "hint": "incontable: sin -s"
+      },
+      "2": {
+       "accept": [
+        "information"
+       ],
+       "hint": "sin -s"
+      },
+      "3": {
+       "accept": [
+        "many"
+       ],
+       "hint": "contable → many"
+      }
+     }
+    },
+    {
+     "id": "D26.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We don't have [[1]] time. (mucho)  (2) Two [[2]] found similar results. (investigaciones / estudios)  (3) There is [[3]] information about this sector. (poca)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "much"
+       ],
+       "hint": "incontable → much"
+      },
+      "2": {
+       "accept": [
+        "studies"
+       ],
+       "hint": "investigaciones contables → studies"
+      },
+      "3": {
+       "accept": [
+        "little"
+       ],
+       "hint": "incontable → little"
+      }
+     }
+    },
+    {
+     "id": "D26.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We did many researches."
+      },
+      {
+       "id": "b",
+       "text": "We did a lot of research."
+      },
+      {
+       "id": "c",
+       "text": "We did a research."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D26.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "He gave me an advice."
+      },
+      {
+       "id": "b",
+       "text": "He gave me some advice."
+      },
+      {
+       "id": "c",
+       "text": "He gave me advices."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D26.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tu área con research, information y studies usados correctamente (y many/much/little).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "research",
+        "information",
+        "studies",
+        "much",
+        "many",
+        "little"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D26.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Consejos de Mark",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D26.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Consejos de Mark: escucha sin leer y responde.",
+     "audio": {
+      "text": "Can I give you some advice? In English, research has no plural. Don't say researches. Say studies or research. The same with information and equipment. And remember: many studies, but much information.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Can I give you some advice? In English, research has no plural. Don't say researches. Say studies or research. The same with information and equipment. And remember: many studies, but much information.",
+     "translation_es": "¿Puedo darte un consejo? En inglés, «research» no tiene plural. No digas «researches». Di «studies» o «research». Lo mismo con «information» y «equipment». Y recuerda: «many studies», pero «much information».",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué palabra no tiene plural según Mark?",
+       "label": "¿Qué palabra no tiene plural según Mark?",
+       "options": [
+        {
+         "id": "a",
+         "text": "study"
+        },
+        {
+         "id": "b",
+         "text": "research"
+        },
+        {
+         "id": "c",
+         "text": "company"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué propone decir en vez de «researches»?",
+       "label": "¿Qué propone decir en vez de «researches»?",
+       "options": [
+        {
+         "id": "a",
+         "text": "studies o research"
+        },
+        {
+         "id": "b",
+         "text": "investigations"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuál combinación es correcta?",
+       "label": "¿Cuál combinación es correcta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "many information"
+        },
+        {
+         "id": "b",
+         "text": "much information"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D26.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "In English, research has no plural.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "In English, research has no plural."
+    }
+   ]
+  },
+  {
+   "id": "D26.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Related work",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D26-RR"
+   ],
+   "activities": [
+    {
+     "id": "D26.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánta investigación hay sobre aserraderos pequeños?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Mucha"
+      },
+      {
+       "id": "b",
+       "text": "Poca"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D26.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿De dónde proviene gran parte del conocimiento?",
+     "options": [
+      {
+       "id": "a",
+       "text": "De datos reales"
+      },
+      {
+       "id": "b",
+       "text": "De encuestas"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D26.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué diferencia tenía el estudio de Brasil?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sus equipos eran muy distintos"
+      },
+      {
+       "id": "b",
+       "text": "Era más antiguo"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D26.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D26.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "There is little research on energy use in small sawmills. A number of studies have analysed large factories, and a large amount of information is available for the paper industry.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "There is little research on energy use in small sawmills.",
+       "A number of studies have analysed large factories, and a large amount of information is available for the paper industry."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D26.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Habla 30–60 s sobre lo que se sabe en tu área: much/little research, many/few studies, information available, y lo que aporta tu trabajo.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "research",
+        "information",
+        "equipment",
+        "advice",
+        "knowledge",
+        "much",
+        "many",
+        "little",
+        "a piece of",
+        "a study",
+        "a large amount of",
+        "a number of"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D26.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D26.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un párrafo de «trabajos relacionados» (40–80 palabras) con research, studies, information y cuantificadores correctos.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "research",
+        "information",
+        "equipment",
+        "advice",
+        "knowledge",
+        "much",
+        "many",
+        "little",
+        "a piece of",
+        "a study",
+        "a large amount of",
+        "a number of"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "research",
+        "information",
+        "studies",
+        "much",
+        "many",
+        "little"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

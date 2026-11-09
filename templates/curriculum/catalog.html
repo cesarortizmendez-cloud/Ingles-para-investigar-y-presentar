@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}Ruta{% endblock %}
+{% block content %}
+<h1>Ruta</h1>
+
+<p class="muted">Tres pasos en orden. La base prepara para el plan de 40 días; puedes hacerla antes o en paralelo.</p>
+<ol class="route-programs">
+  {% for p in overview %}
+  <li class="{% if p.started and not p.finished %}current{% endif %}">
+    <span class="week-tag">Paso {{ p.order }}</span>
+    <h2>{{ p.name }}{% if p.finished %} ✓{% endif %}</h2>
+    <p class="small muted">{{ p.role }} · {{ p.done }}/{{ p.total }} días completados</p>
+    <details{% if p.started and not p.finished %} open{% endif %}><summary>{{ p.units|length }} {% if p.meta.unit_label %}unidades{% else %}semanas{% endif %} · ver temas</summary>
+      <ol class="route-weeks">
+        {% for w in p.units %}
+        <li{% if w.current %} class="current"{% endif %}>
+          <strong>{{ p.meta.unit_label|default:"Semana" }} {{ w.n }} · {{ w.title }}</strong>{% if w.current %} <span class="tag">estás aquí</span>{% endif %}
+          <span class="muted small">Días {{ w.first }}–{{ w.last }} · {{ w.focus }}</span>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+    <p>{% if p.started %}<a class="button green" href="{{ p.today_url }}">Ir al día {{ p.today_n }} →</a>{% endif %}
+       <a class="button ghost" href="{{ p.calendar_url }}">{% if p.started %}Ver el calendario{% else %}Ver y comenzar{% endif %}</a></p>
+  </li>
+  {% endfor %}
+  <li class="soon">
+    <span class="week-tag">Paso 3</span>
+    <h2>Plan avanzado de 20 días</h2>
+    <p class="small muted">Próximamente: para después del plan de 40 días.</p>
+  </li>
+</ol>
+
+<h2 class="section-title">Capítulos complementarios (opcionales)</h2>
+<p class="muted">{{ note }} Esta ruta larga de seis etapas y 24 capítulos sirve para profundizar después o en paralelo al plan.
+Por ahora están disponibles C01 y C11; el resto aparece como «en preparación» y no tiene contenido de relleno.</p>
+{% for stage in stages %}
+<section class="stage">
+  <h2>{{ stage.id }} · {{ stage.title }}</h2>
+  <p class="muted">Producto de salida de la etapa: {{ stage.product }}</p>
+  <div class="chapters">
+    {% for c in stage.chapter_list %}
+    <article class="chapter-card{% if not c.available %} disabled{% endif %}">
+      <h3>{% if c.available %}<a href="{% url 'chapter' c.code %}">{{ c.code }} · {{ c.title }}</a>{% else %}{{ c.code }} · {{ c.title }}{% endif %}</h3>
+      {% if c.available %}
+        <p><span class="tag">{{ c.state_label }}</span>{% if c.recovery %} <span class="tag tag-warn">recuperación</span>{% endif %}
+           {% if c.status == "borrador" %}<span class="tag tag-draft">contenido en borrador</span>{% endif %}</p>
+        {% if c.week %}<p class="small"><strong>Refuerza la semana {{ c.week }} del plan.</strong></p>{% endif %}
+        <p class="small"><strong>Producto:</strong> {{ c.product }}</p>
+        <details><summary>Objetivos</summary><ul class="small">{% for o in c.objectives %}<li>{{ o.text }}</li>{% endfor %}</ul></details>
+        {% if c.suggested %}<p class="small muted">Sugeridos antes: {{ c.suggested|join:", " }}</p>{% endif %}
+      {% else %}
+        <p class="muted small">En preparación</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,142 @@
+{% load static %}<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{% block title %}Inglés para investigar y presentar{% endblock %}</title>
+  <meta name="description" content="Lee publicaciones científicas y presenta tu investigación en inglés.">
+  <meta name="theme-color" content="#0A3161">
+  <link rel="manifest" href="{% url 'manifest' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon-32.png' %}">
+  <link rel="apple-touch-icon" href="{% static 'img/apple-touch-icon.png' %}">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Inglés">
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body{% if user.is_authenticated %} data-accent="{{ user.profile.reference_voice|default:'en-US' }}"{% endif %}>
+<div class="flag-bg" aria-hidden="true" style="background-image: url('{% static 'img/flag.svg' %}')"></div>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="{% url 'home' %}">
+      <img src="{% static 'img/icon-192.png' %}" alt="" width="36" height="36">
+      <span class="brand-text"><strong>Inglés</strong> para investigar y presentar</span>
+    </a>
+    {% if user.is_authenticated %}
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-nav-toggle>
+      <span class="sr-only">Menú</span><span class="burger" aria-hidden="true"></span>
+    </button>
+    <nav id="main-nav" class="nav" aria-label="Principal">
+      <a href="{% url 'home' %}"{% if request.resolver_match.url_name == 'home' %} aria-current="page"{% endif %}>Inicio</a>
+      <a href="{% url 'program_calendar' 'base20' %}"{% if request.resolver_match.kwargs.program == 'base20' %} aria-current="page"{% endif %}>Base 20</a>
+      <a href="{% url 'plan_calendar' %}"{% if request.resolver_match.url_name == 'plan_calendar' or request.resolver_match.url_name == 'plan_day' %} aria-current="page"{% endif %}>Plan 40</a>
+      <a href="{% url 'catalog' %}"{% if request.resolver_match.url_name == 'catalog' %} aria-current="page"{% endif %}>Ruta</a>
+      <a href="{% url 'review' %}"{% if request.resolver_match.url_name == 'review' %} aria-current="page"{% endif %}>Repaso</a>
+      <a href="{% url 'diagnostic' %}"{% if request.resolver_match.url_name == 'diagnostic' %} aria-current="page"{% endif %}>Diagnóstico</a>
+      <a href="{% url 'portfolio' %}"{% if request.resolver_match.url_name == 'portfolio' %} aria-current="page"{% endif %}>Portafolio</a>
+      <a href="{% url 'profile' %}"{% if request.resolver_match.url_name == 'profile' %} aria-current="page"{% endif %}>Perfil</a>
+      {% if user.is_staff %}<a href="{% url 'admin:index' %}">Contenidos</a>{% endif %}
+      <form method="post" action="{% url 'logout' %}" class="inline">{% csrf_token %}<button type="submit" class="nav-logout">Salir</button></form>
+    </nav>
+    {% else %}
+    <nav class="nav nav-public" aria-label="Cuenta">
+      <a href="{% url 'login' %}">Ingresar</a>
+      <a class="button small green" href="{% url 'signup' %}">Crear cuenta</a>
+    </nav>
+    {% endif %}
+  </div>
+  <div class="stripe-band" aria-hidden="true"></div>
+</header>
+
+<main id="main" class="container">
+  {% if messages %}
+  <ul class="messages" role="status">
+    {% for m in messages %}<li class="msg msg-{{ m.tags }}">{{ m }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+  <div class="stars" aria-hidden="true">★ ★ ★</div>
+  <p>Prototipo piloto · B1+, B2 académico y B2+ son etiquetas internas, no certificaciones MCER.</p>
+  <p><a href="{% url 'privacy' %}">Privacidad y datos</a> · <button type="button" class="link" data-install-open>Instalar la app</button></p>
+</footer>
+
+<!-- Instalar como aplicación: el botón y las instrucciones se ajustan al equipo (static/js/pwa.js) -->
+<div class="install-fab" data-install-fab hidden>
+  <button type="button" class="install-btn" data-install-open>
+    <img src="{% static 'img/icon-192.png' %}" alt="" width="28" height="28"> Instalar la app
+  </button>
+  <button type="button" class="install-close" data-install-dismiss aria-label="Cerrar">×</button>
+</div>
+<div class="sheet" data-install-sheet hidden role="dialog" aria-modal="true" aria-labelledby="install-title">
+  <div class="sheet-card">
+    <button type="button" class="sheet-close" data-install-dismiss aria-label="Cerrar">×</button>
+    <img src="{% static 'img/icon-192.png' %}" alt="" width="64" height="64" class="sheet-icon">
+    <h2 id="install-title">Instala la app</h2>
+    <p class="small muted">Queda con su propio ícono, se abre en una ventana aparte y puedes mantener la sesión abierta.</p>
+
+    <div data-install-native-wrap hidden>
+      <p><button type="button" class="button green big" data-install-native>Instalar ahora</button></p>
+    </div>
+
+    <div data-install-platform="ios" hidden>
+      <ol class="install-steps">
+        <li>Toca <strong>Compartir</strong> <span class="ios-share" aria-hidden="true">⬆︎</span> (abajo en iPhone; arriba a la derecha en iPad).</li>
+        <li>Desliza y elige <strong>«Agregar a inicio»</strong>.</li>
+        <li>Toca <strong>«Agregar»</strong>. El ícono aparece junto a tus otras apps.</li>
+      </ol>
+    </div>
+    <div data-install-platform="ios-other" hidden>
+      <ol class="install-steps">
+        <li>Toca <strong>Compartir</strong> <span class="ios-share" aria-hidden="true">⬆︎</span> (en Chrome está junto a la barra de direcciones).</li>
+        <li>Elige <strong>«Agregar a pantalla de inicio»</strong> y confirma.</li>
+      </ol>
+      <p class="small muted">Si no aparece esa opción, abre esta página en <strong>Safari</strong> y repite los pasos.</p>
+    </div>
+    <div data-install-platform="android" hidden>
+      <div data-install-manual>
+        <ol class="install-steps">
+          <li>Toca el menú <strong>⋮</strong> (arriba a la derecha en Chrome; abajo en Samsung Internet).</li>
+          <li>Elige <strong>«Instalar aplicación»</strong> o <strong>«Agregar a la pantalla principal»</strong>.</li>
+          <li>Confirma con <strong>«Instalar»</strong>. La app queda en tu pantalla de inicio y en el cajón de apps.</li>
+        </ol>
+      </div>
+    </div>
+    <div data-install-platform="desktop" hidden>
+      <div data-install-manual>
+        <ol class="install-steps" data-chrome-only>
+          <li>En <strong>Chrome</strong>, haz clic en el ícono de instalar <span aria-hidden="true">⊕</span> al final de la barra de direcciones.</li>
+          <li>O en el menú <strong>⋮</strong> → <strong>«Transmitir, guardar y compartir»</strong> → <strong>«Instalar página como app»</strong>.</li>
+        </ol>
+        <ol class="install-steps" data-edge-only hidden>
+          <li>En <strong>Edge</strong>, haz clic en el ícono <strong>«App disponible»</strong> en la barra de direcciones.</li>
+          <li>O en el menú <strong>…</strong> → <strong>«Aplicaciones»</strong> → <strong>«Instalar este sitio como una aplicación»</strong>.</li>
+        </ol>
+      </div>
+      <p class="small">Al terminar queda un <strong>acceso directo</strong> en el menú Inicio (Windows) o en Launchpad (Mac). En Edge puedes marcar
+        <strong>«Crear acceso directo en el escritorio»</strong> y <strong>«Anclar a la barra de tareas»</strong>; en Chrome, haz clic derecho en el ícono de la barra de tareas → <strong>«Anclar»</strong>.</p>
+    </div>
+    <div data-install-platform="mac-safari" hidden>
+      <ol class="install-steps">
+        <li>En la barra de menú de Safari, elige <strong>Archivo</strong> → <strong>«Agregar al Dock»</strong>.</li>
+        <li>Confirma con <strong>«Agregar»</strong>. La app queda en el Dock y en Launchpad.</li>
+      </ol>
+      <p class="small muted">Requiere macOS Sonoma (14) o posterior. En versiones anteriores, usa Chrome o Edge.</p>
+    </div>
+    <div data-install-platform="desktop-firefox" hidden>
+      <p>Firefox todavía no instala este tipo de apps en todos los equipos. Abre esta misma dirección en <strong>Chrome</strong> o <strong>Edge</strong>
+        (en Mac también sirve <strong>Safari</strong>) y vuelve a tocar «Instalar la app».</p>
+    </div>
+  </div>
+</div>
+
+<script src="{% static 'js/voice.js' %}" defer></script>
+<script src="{% static 'js/app.js' %}" defer></script>
+<script src="{% static 'js/pwa.js' %}" defer></script>
+</body>
+</html>

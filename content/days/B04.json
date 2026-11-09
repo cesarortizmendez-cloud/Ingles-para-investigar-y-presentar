@@ -1,0 +1,924 @@
+{
+ "id": "B04",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "La familia y las personas",
+ "day": 4,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas de tu familia y aprendes los posesivos (my, his, her, their…) y el «'s» para decir «de» una persona.",
+ "objectives": [
+  {
+   "id": "B04-O1",
+   "text": "Presentar a los miembros de tu familia."
+  },
+  {
+   "id": "B04-O2",
+   "text": "Elegir bien entre his, her y their, y usar el 's (Linda's son)."
+  },
+  {
+   "id": "B04-O3",
+   "text": "Entender a alguien que describe una foto familiar."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B04-LX01",
+    "form": "family",
+    "meaning_es": "familia",
+    "example": "My family is in Chile.",
+    "example_es": "Mi familia está en Chile.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX02",
+    "form": "father",
+    "meaning_es": "padre",
+    "example": "My father is a retired teacher.",
+    "example_es": "Mi padre es profesor jubilado.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX03",
+    "form": "mother",
+    "meaning_es": "madre",
+    "example": "Her mother is from Valdivia.",
+    "example_es": "Su madre es de Valdivia.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX04",
+    "form": "brother",
+    "meaning_es": "hermano",
+    "example": "Tomás has a brother in Santiago.",
+    "example_es": "Tomás tiene un hermano en Santiago.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX05",
+    "form": "sister",
+    "meaning_es": "hermana",
+    "example": "My sister is a nurse.",
+    "example_es": "Mi hermana es enfermera.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX06",
+    "form": "son",
+    "meaning_es": "hijo",
+    "example": "Their son is ten years old.",
+    "example_es": "Su hijo tiene diez años.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX07",
+    "form": "daughter",
+    "meaning_es": "hija",
+    "example": "Linda's daughter is at university.",
+    "example_es": "La hija de Linda está en la universidad.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX08",
+    "form": "wife",
+    "meaning_es": "esposa",
+    "example": "His wife is a doctor.",
+    "example_es": "Su esposa es doctora.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX09",
+    "form": "husband",
+    "meaning_es": "esposo",
+    "example": "Her husband is a pilot.",
+    "example_es": "Su esposo es piloto.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX10",
+    "form": "children",
+    "meaning_es": "hijos, niños",
+    "example": "We have two children.",
+    "example_es": "Tenemos dos hijos.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX11",
+    "form": "married",
+    "meaning_es": "casado/a",
+    "example": "Are you married?",
+    "example_es": "¿Estás casado?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B04-LX12",
+    "form": "parents",
+    "meaning_es": "padres (papá y mamá)",
+    "example": "My parents live in the south.",
+    "example_es": "Mis padres viven en el sur.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B04-G1",
+    "topic": "Los posesivos y el 's"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B04-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "family",
+     "meaning_es": "familia",
+     "example": "My family is in Chile.",
+     "example_es": "Mi familia está en Chile."
+    },
+    {
+     "form": "father",
+     "meaning_es": "padre",
+     "example": "My father is a retired teacher.",
+     "example_es": "Mi padre es profesor jubilado."
+    },
+    {
+     "form": "mother",
+     "meaning_es": "madre",
+     "example": "Her mother is from Valdivia.",
+     "example_es": "Su madre es de Valdivia."
+    },
+    {
+     "form": "brother",
+     "meaning_es": "hermano",
+     "example": "Tomás has a brother in Santiago.",
+     "example_es": "Tomás tiene un hermano en Santiago."
+    },
+    {
+     "form": "sister",
+     "meaning_es": "hermana",
+     "example": "My sister is a nurse.",
+     "example_es": "Mi hermana es enfermera."
+    },
+    {
+     "form": "son",
+     "meaning_es": "hijo",
+     "example": "Their son is ten years old.",
+     "example_es": "Su hijo tiene diez años."
+    },
+    {
+     "form": "daughter",
+     "meaning_es": "hija",
+     "example": "Linda's daughter is at university.",
+     "example_es": "La hija de Linda está en la universidad."
+    },
+    {
+     "form": "wife",
+     "meaning_es": "esposa",
+     "example": "His wife is a doctor.",
+     "example_es": "Su esposa es doctora."
+    },
+    {
+     "form": "husband",
+     "meaning_es": "esposo",
+     "example": "Her husband is a pilot.",
+     "example_es": "Su esposo es piloto."
+    },
+    {
+     "form": "children",
+     "meaning_es": "hijos, niños",
+     "example": "We have two children.",
+     "example_es": "Tenemos dos hijos."
+    },
+    {
+     "form": "married",
+     "meaning_es": "casado/a",
+     "example": "Are you married?",
+     "example_es": "¿Estás casado?"
+    },
+    {
+     "form": "parents",
+     "meaning_es": "padres (papá y mamá)",
+     "example": "My parents live in the south.",
+     "example_es": "Mis padres viven en el sur."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B04-RG",
+   "type": "capsule",
+   "title": "Los posesivos y el 's",
+   "explain": "Los posesivos van antes del sustantivo y no cambian en plural: my brother, my brothers.\nmy (mi) · your (tu, su de usted) · his (su, de él) · her (su, de ella) · its (su, de una cosa) · our (nuestro) · their (su, de ellos).\nEn español «su» puede ser de él, de ella o de ellos; en inglés hay que elegir: his wife, her husband, their children.\nPara decir «de» una persona se usa 's: Linda's daughter (la hija de Linda), my parents' house (la casa de mis padres).",
+   "form": [
+    [
+     "my · your",
+     "mi · tu / su (de usted)"
+    ],
+    [
+     "his · her",
+     "de él · de ella"
+    ],
+    [
+     "our · their",
+     "nuestro · de ellos"
+    ],
+    [
+     "persona + 's",
+     "Linda's son = el hijo de Linda"
+    ]
+   ],
+   "examples": [
+    [
+     "This is my wife, Carmen.",
+     "Ella es mi esposa, Carmen."
+    ],
+    [
+     "His sister is a nurse.",
+     "Su hermana (de él) es enfermera."
+    ],
+    [
+     "Her son is ten.",
+     "Su hijo (de ella) tiene diez años."
+    ],
+    [
+     "Tomás's children are in Chile.",
+     "Los hijos de Tomás están en Chile."
+    ]
+   ],
+   "tip": "Error típico: «the daughter of Linda» → más natural: «Linda's daughter».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B04-RR",
+   "type": "text",
+   "title": "Linda's family",
+   "body": "Linda Carter is fifty years old. She is married. Her husband's name is Robert, and he is a pilot. They have two children. Their son, Mike, is an engineer in New York. Their daughter, Emma, is a student at the university. Linda's parents are old, and they live near Boston. On Sundays, the family has lunch together.",
+   "translation_es": "Linda Carter tiene cincuenta años. Es casada. Su esposo se llama Robert y es piloto. Tienen dos hijos. Su hijo, Mike, es ingeniero en Nueva York. Su hija, Emma, es estudiante en la universidad. Los padres de Linda son mayores y viven cerca de Boston. Los domingos, la familia almuerza junta.",
+   "glossary": [
+    [
+     "near",
+     "cerca de"
+    ],
+    [
+     "together",
+     "juntos"
+    ],
+    [
+     "lunch",
+     "almuerzo"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B04.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B04-RV"
+   ],
+   "activities": [
+    {
+     "id": "B04.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) My [[1]] is in Chile.  (2) My [[2]] is a retired teacher.  (3) Linda's [[3]] is at university.  (4) His [[4]] is a doctor.  (5) We have two [[5]].  (6) Are you [[6]]?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "family"
+       ],
+       "hint": "Significa «familia»."
+      },
+      "2": {
+       "accept": [
+        "father"
+       ],
+       "hint": "Significa «padre»."
+      },
+      "3": {
+       "accept": [
+        "daughter"
+       ],
+       "hint": "Significa «hija»."
+      },
+      "4": {
+       "accept": [
+        "wife"
+       ],
+       "hint": "Significa «esposa»."
+      },
+      "5": {
+       "accept": [
+        "children"
+       ],
+       "hint": "Significa «hijos, niños»."
+      },
+      "6": {
+       "accept": [
+        "married"
+       ],
+       "hint": "Significa «casado/a»."
+      }
+     }
+    },
+    {
+     "id": "B04.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «padres (papá y mamá)»",
+     "accept": [
+      "parents"
+     ],
+     "hint": "Empieza con «pa…» · Ejemplo: Mis padres viven en el sur."
+    },
+    {
+     "id": "B04.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «esposo»",
+     "accept": [
+      "husband"
+     ],
+     "hint": "Empieza con «hu…» · Ejemplo: Su esposo es piloto."
+    },
+    {
+     "id": "B04.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «madre»",
+     "accept": [
+      "mother"
+     ],
+     "hint": "Empieza con «mo…» · Ejemplo: Su madre es de Valdivia."
+    },
+    {
+     "id": "B04.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hermana»",
+     "accept": [
+      "sister"
+     ],
+     "hint": "Empieza con «si…» · Ejemplo: Mi hermana es enfermera."
+    },
+    {
+     "id": "B04.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hijo»",
+     "accept": [
+      "son"
+     ],
+     "hint": "Empieza con «so…» · Ejemplo: Su hijo tiene diez años."
+    },
+    {
+     "id": "B04.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hermano»",
+     "accept": [
+      "brother"
+     ],
+     "hint": "Empieza con «br…» · Ejemplo: Tomás tiene un hermano en Santiago."
+    },
+    {
+     "id": "B04.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "My parents live in the south.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "My parents live in the south."
+    }
+   ]
+  },
+  {
+   "id": "B04.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Los posesivos y el 's",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B04-RG"
+   ],
+   "activities": [
+    {
+     "id": "B04.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Linda is married. [[1]] husband is a pilot.  (2) Tomás has two children. [[2]] son is ten.  (3) We are a family of four. [[3]] house is small.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "her"
+       ],
+       "hint": "De ella → her."
+      },
+      "2": {
+       "accept": [
+        "his"
+       ],
+       "hint": "De él → his."
+      },
+      "3": {
+       "accept": [
+        "our"
+       ],
+       "hint": "De nosotros → our."
+      }
+     }
+    },
+    {
+     "id": "B04.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) They are my parents. [[1]] names are Luis and Rosa.  (2) This is [[2]] daughter. (la hija de Linda)  (3) Hello, what is [[3]] name?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "their"
+       ],
+       "hint": "De ellos → their."
+      },
+      "2": {
+       "accept": [
+        "Linda's"
+       ],
+       "hint": "Nombre + 's."
+      },
+      "3": {
+       "accept": [
+        "your"
+       ],
+       "hint": "De ti → your."
+      }
+     }
+    },
+    {
+     "id": "B04.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Su esposa (de Tomás) es doctora» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "Her wife is a doctor."
+      },
+      {
+       "id": "b",
+       "text": "His wife is a doctor."
+      },
+      {
+       "id": "c",
+       "text": "Their wife is a doctor."
+      }
+     ],
+     "answer": "b",
+     "explanation": "De él → his."
+    },
+    {
+     "id": "B04.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«El hijo de mi hermana» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "my sister's son"
+      },
+      {
+       "id": "b",
+       "text": "the son my sister"
+      },
+      {
+       "id": "c",
+       "text": "my sister son"
+      }
+     ],
+     "answer": "a",
+     "explanation": "persona + 's + cosa."
+    },
+    {
+     "id": "B04.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tu familia con posesivos (My wife is… / Her name is… / Our children are…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "my",
+        "his",
+        "her",
+        "our",
+        "their"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B04.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Una foto de familia",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B04.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una foto de familia: escucha sin leer y responde.",
+     "audio": {
+      "text": "This is a photo of my family. This is my wife, Carmen. She is a doctor. These are our children, Diego and Sofía. Diego is ten years old and Sofía is fifteen. And this is my mother. Her name is Rosa. My father is not in the photo.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "This is a photo of my family. This is my wife, Carmen. She is a doctor. These are our children, Diego and Sofía. Diego is ten years old and Sofía is fifteen. And this is my mother. Her name is Rosa. My father is not in the photo.",
+     "translation_es": "Esta es una foto de mi familia. Ella es mi esposa, Carmen. Es doctora. Estos son nuestros hijos, Diego y Sofía. Diego tiene diez años y Sofía quince. Y ella es mi madre. Se llama Rosa. Mi padre no está en la foto.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué hace Carmen?",
+       "label": "¿Qué hace Carmen?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Es profesora"
+        },
+        {
+         "id": "b",
+         "text": "Es doctora"
+        },
+        {
+         "id": "c",
+         "text": "Es ingeniera"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuántos años tiene Sofía?",
+       "label": "¿Cuántos años tiene Sofía?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Diez"
+        },
+        {
+         "id": "b",
+         "text": "Quince"
+        },
+        {
+         "id": "c",
+         "text": "Cincuenta"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Quién no está en la foto?",
+       "label": "¿Quién no está en la foto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La madre"
+        },
+        {
+         "id": "b",
+         "text": "El padre"
+        },
+        {
+         "id": "c",
+         "text": "Diego"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«My father is not in the photo»."
+      }
+     ]
+    },
+    {
+     "id": "B04.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "These are our children, Diego and Sofía.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "These are our children, Diego and Sofía."
+    }
+   ]
+  },
+  {
+   "id": "B04.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Linda's family",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B04-RR"
+   ],
+   "activities": [
+    {
+     "id": "B04.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hace el esposo de Linda?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Es piloto"
+      },
+      {
+       "id": "b",
+       "text": "Es ingeniero"
+      },
+      {
+       "id": "c",
+       "text": "Es estudiante"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B04.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde trabaja Mike?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En Boston"
+      },
+      {
+       "id": "b",
+       "text": "En Nueva York"
+      },
+      {
+       "id": "c",
+       "text": "En Chile"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B04.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hace la familia los domingos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Viaja"
+      },
+      {
+       "id": "b",
+       "text": "Almuerza junta"
+      },
+      {
+       "id": "c",
+       "text": "Trabaja"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«has lunch together»."
+    }
+   ]
+  },
+  {
+   "id": "B04.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B04.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Linda Carter is fifty years old. She is married.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Linda Carter is fifty years old.",
+       "She is married."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B04.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Muestra (o imagina) una foto de tu familia y descríbela en 30–60 s: This is my…, His/Her name is…, He/She is…",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "family",
+        "father",
+        "mother",
+        "brother",
+        "sister",
+        "son",
+        "daughter",
+        "wife",
+        "husband",
+        "children",
+        "married",
+        "parents"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B04.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B04.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 25–60 palabras sobre tu familia o la de un amigo usando my / his / her / their y 's.",
+     "min_words": 25,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "family",
+        "father",
+        "mother",
+        "brother",
+        "sister",
+        "son",
+        "daughter",
+        "wife",
+        "husband",
+        "children",
+        "married",
+        "parents"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "my",
+        "his",
+        "her",
+        "our",
+        "their"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

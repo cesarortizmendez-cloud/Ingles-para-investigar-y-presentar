@@ -1,0 +1,889 @@
+{
+ "id": "D20",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Activa o pasiva: cuándo usar cada una y el agente «by»",
+ "day": 20,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy decides cuándo conviene la activa (We found…) y cuándo la pasiva (It was found…), y cuándo mencionar al agente con «by».",
+ "objectives": [
+  {
+   "id": "D20-O1",
+   "text": "Transformar oraciones entre activa y pasiva en varios tiempos."
+  },
+  {
+   "id": "D20-O2",
+   "text": "Decidir si mencionar o no el agente (by…)."
+  },
+  {
+   "id": "D20-O3",
+   "text": "Revisar un párrafo y mejorar su estilo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D20-LX01",
+    "form": "active voice",
+    "meaning_es": "voz activa",
+    "example": "The active voice is direct.",
+    "example_es": "La voz activa es directa.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX02",
+    "form": "passive voice",
+    "meaning_es": "voz pasiva",
+    "example": "The passive voice is common in methods.",
+    "example_es": "La voz pasiva es común en los métodos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX03",
+    "form": "agent",
+    "meaning_es": "agente (quien hace la acción)",
+    "example": "The agent is not always important.",
+    "example_es": "El agente no siempre es importante.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX04",
+    "form": "focus",
+    "meaning_es": "foco; enfocarse",
+    "example": "The focus is on the process.",
+    "example_es": "El foco está en el proceso.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX05",
+    "form": "clear",
+    "meaning_es": "claro/a",
+    "example": "The sentence is clear and short.",
+    "example_es": "La oración es clara y breve.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX06",
+    "form": "rewrite",
+    "meaning_es": "reescribir",
+    "example": "Please rewrite this sentence.",
+    "example_es": "Por favor reescribe esta oración.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX07",
+    "form": "style",
+    "meaning_es": "estilo",
+    "example": "Each journal has its own style.",
+    "example_es": "Cada revista tiene su propio estilo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX08",
+    "form": "journal",
+    "meaning_es": "revista científica",
+    "example": "We sent the paper to a journal.",
+    "example_es": "Enviamos el artículo a una revista.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX09",
+    "form": "reviewer",
+    "meaning_es": "revisor/a (de un artículo)",
+    "example": "The reviewer asked for more detail.",
+    "example_es": "El revisor pidió más detalle.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX10",
+    "form": "draft",
+    "meaning_es": "borrador",
+    "example": "This is the second draft.",
+    "example_es": "Este es el segundo borrador.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX11",
+    "form": "revise",
+    "meaning_es": "revisar y corregir",
+    "example": "We need to revise the method section.",
+    "example_es": "Necesitamos revisar la sección de método.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D20-LX12",
+    "form": "feedback",
+    "meaning_es": "comentarios, retroalimentación",
+    "example": "Mark gave us useful feedback.",
+    "example_es": "Mark nos dio comentarios útiles.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D20-G1",
+    "topic": "Activa vs pasiva y el agente «by»"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D20-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "active voice",
+     "meaning_es": "voz activa",
+     "example": "The active voice is direct.",
+     "example_es": "La voz activa es directa."
+    },
+    {
+     "form": "passive voice",
+     "meaning_es": "voz pasiva",
+     "example": "The passive voice is common in methods.",
+     "example_es": "La voz pasiva es común en los métodos."
+    },
+    {
+     "form": "agent",
+     "meaning_es": "agente (quien hace la acción)",
+     "example": "The agent is not always important.",
+     "example_es": "El agente no siempre es importante."
+    },
+    {
+     "form": "focus",
+     "meaning_es": "foco; enfocarse",
+     "example": "The focus is on the process.",
+     "example_es": "El foco está en el proceso."
+    },
+    {
+     "form": "clear",
+     "meaning_es": "claro/a",
+     "example": "The sentence is clear and short.",
+     "example_es": "La oración es clara y breve."
+    },
+    {
+     "form": "rewrite",
+     "meaning_es": "reescribir",
+     "example": "Please rewrite this sentence.",
+     "example_es": "Por favor reescribe esta oración."
+    },
+    {
+     "form": "style",
+     "meaning_es": "estilo",
+     "example": "Each journal has its own style.",
+     "example_es": "Cada revista tiene su propio estilo."
+    },
+    {
+     "form": "journal",
+     "meaning_es": "revista científica",
+     "example": "We sent the paper to a journal.",
+     "example_es": "Enviamos el artículo a una revista."
+    },
+    {
+     "form": "reviewer",
+     "meaning_es": "revisor/a (de un artículo)",
+     "example": "The reviewer asked for more detail.",
+     "example_es": "El revisor pidió más detalle."
+    },
+    {
+     "form": "draft",
+     "meaning_es": "borrador",
+     "example": "This is the second draft.",
+     "example_es": "Este es el segundo borrador."
+    },
+    {
+     "form": "revise",
+     "meaning_es": "revisar y corregir",
+     "example": "We need to revise the method section.",
+     "example_es": "Necesitamos revisar la sección de método."
+    },
+    {
+     "form": "feedback",
+     "meaning_es": "comentarios, retroalimentación",
+     "example": "Mark gave us useful feedback.",
+     "example_es": "Mark nos dio comentarios útiles."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D20-RG",
+   "type": "capsule",
+   "title": "Activa vs pasiva y el agente «by»",
+   "explain": "Usa ACTIVA cuando importa quién actúa o quieres ser directo: «We propose a new tool» (es tu aporte).\nUsa PASIVA cuando importa el proceso o el objeto: «The data were collected every hour» (método).\nEl agente con «by» se menciona solo si es información útil: «The sensors were installed by an external company» (importa quién). Si es obvio o irrelevante, se omite: «Twelve managers were interviewed» (fue el equipo).\nTabla de transformación: presente is/are + p · pasado was/were + p · present perfect has/have been + p · modal + be + p.\nMuchos papers combinan ambas: introducción y discusión en activa (We argue…), método en pasiva.",
+   "form": [
+    [
+     "presente: measure → is measured",
+     ""
+    ],
+    [
+     "pasado: measured → was measured",
+     ""
+    ],
+    [
+     "present perfect: have measured → has been measured",
+     ""
+    ],
+    [
+     "modal: should measure → should be measured",
+     ""
+    ],
+    [
+     "by + agente (solo si importa)",
+     "… by an external company"
+    ]
+   ],
+   "examples": [
+    [
+     "We propose a simple tool for small companies.",
+     "Proponemos una herramienta simple para empresas pequeñas (activa: es nuestro aporte)."
+    ],
+    [
+     "The sensors were installed by an external company.",
+     "Los sensores fueron instalados por una empresa externa (el agente importa)."
+    ],
+    [
+     "Twelve managers were interviewed.",
+     "Se entrevistó a doce gerentes (el agente es obvio)."
+    ]
+   ],
+   "tip": "Si en español dirías «se + verbo», casi siempre conviene la pasiva en inglés.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D20-RR",
+   "type": "text",
+   "title": "Revising the draft",
+   "body": "Ana revised her draft after Mark's feedback. In the method section she kept the passive voice: the data were collected every hour, and two days were excluded. However, the sensors were installed by an external company, so she added the agent. In the introduction she changed several sentences to the active voice. For example, «a new tool is proposed» became «we propose a new tool». The second draft was shorter and clearer, and it was sent to a journal in March.",
+   "translation_es": "Ana revisó su borrador después de los comentarios de Mark. En la sección de método mantuvo la voz pasiva: los datos se recolectaron cada hora y se excluyeron dos días. Sin embargo, los sensores fueron instalados por una empresa externa, así que agregó el agente. En la introducción cambió varias oraciones a voz activa. Por ejemplo, «se propone una nueva herramienta» pasó a ser «proponemos una nueva herramienta». El segundo borrador fue más breve y más claro, y se envió a una revista en marzo.",
+   "glossary": [
+    [
+     "kept",
+     "mantuvo"
+    ],
+    [
+     "added",
+     "agregó"
+    ],
+    [
+     "became",
+     "pasó a ser"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D20.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D20-RV"
+   ],
+   "activities": [
+    {
+     "id": "D20.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The [[1]] is not always important.  (2) The sentence is [[2]] and short.  (3) Each journal has its own [[3]].  (4) The [[4]] asked for more detail.  (5) This is the second [[5]].  (6) We need to [[6]] the method section.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "agent"
+       ],
+       "hint": "Significa «agente (quien hace la acción)»."
+      },
+      "2": {
+       "accept": [
+        "clear"
+       ],
+       "hint": "Significa «claro/a»."
+      },
+      "3": {
+       "accept": [
+        "style"
+       ],
+       "hint": "Significa «estilo»."
+      },
+      "4": {
+       "accept": [
+        "reviewer"
+       ],
+       "hint": "Significa «revisor/a (de un artículo)»."
+      },
+      "5": {
+       "accept": [
+        "draft"
+       ],
+       "hint": "Significa «borrador»."
+      },
+      "6": {
+       "accept": [
+        "revise"
+       ],
+       "hint": "Significa «revisar y corregir»."
+      }
+     }
+    },
+    {
+     "id": "D20.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «comentarios, retroalimentación»",
+     "accept": [
+      "feedback"
+     ],
+     "hint": "Empieza con «fe…» · Ejemplo: Mark nos dio comentarios útiles."
+    },
+    {
+     "id": "D20.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «reescribir»",
+     "accept": [
+      "rewrite"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Por favor reescribe esta oración."
+    },
+    {
+     "id": "D20.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «voz pasiva»",
+     "accept": [
+      "passive voice"
+     ],
+     "hint": "Empieza con «pa…» · Ejemplo: La voz pasiva es común en los métodos."
+    },
+    {
+     "id": "D20.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «voz activa»",
+     "accept": [
+      "active voice"
+     ],
+     "hint": "Empieza con «ac…» · Ejemplo: La voz activa es directa."
+    },
+    {
+     "id": "D20.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «foco; enfocarse»",
+     "accept": [
+      "focus"
+     ],
+     "hint": "Empieza con «fo…» · Ejemplo: El foco está en el proceso."
+    },
+    {
+     "id": "D20.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «revista científica»",
+     "accept": [
+      "journal"
+     ],
+     "hint": "Empieza con «jo…» · Ejemplo: Enviamos el artículo a una revista."
+    },
+    {
+     "id": "D20.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Mark gave us useful feedback.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Mark gave us useful feedback."
+    }
+   ]
+  },
+  {
+   "id": "D20.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Activa vs pasiva y el agente «by»",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D20-RG"
+   ],
+   "activities": [
+    {
+     "id": "D20.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Active: We measure output. → Passive: Output [[1]] measured.  (2) Active: We measured output. → Passive: Output [[2]] measured.  (3) Active: We have measured output. → Passive: Output has [[3]] measured.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "is"
+       ],
+       "hint": "presente"
+      },
+      "2": {
+       "accept": [
+        "was"
+       ],
+       "hint": "pasado"
+      },
+      "3": {
+       "accept": [
+        "been"
+       ],
+       "hint": "present perfect"
+      }
+     }
+    },
+    {
+     "id": "D20.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Active: We should measure output. → Passive: Output should [[1]] measured.  (2) The sensors were installed [[2]] an external company.  (3) Active: An engineer checks the machines. → Passive: The machines are [[3]] by an engineer.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "be"
+       ],
+       "hint": "modal"
+      },
+      "2": {
+       "accept": [
+        "by"
+       ],
+       "hint": "agente"
+      },
+      "3": {
+       "accept": [
+        "checked"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D20.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿En qué caso conviene mencionar el agente?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Twelve managers were interviewed by us."
+      },
+      {
+       "id": "b",
+       "text": "The sensors were installed by an external company."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Que fue una empresa externa es información útil; «by us» sobra."
+    },
+    {
+     "id": "D20.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Para presentar tu aporte principal, ¿qué suena mejor?",
+     "options": [
+      {
+       "id": "a",
+       "text": "A new tool is proposed."
+      },
+      {
+       "id": "b",
+       "text": "We propose a new tool."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Activa: directa y clara para tu contribución."
+    },
+    {
+     "id": "D20.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Reescribe en pasiva estas dos ideas sobre tu trabajo y decide si incluyes el agente: «Mi equipo recolectó los datos» y «Una empresa externa instaló los equipos».",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "was",
+        "were",
+        "by"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D20.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Comentarios de Mark al borrador",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D20.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Comentarios de Mark al borrador: escucha sin leer y responde.",
+     "audio": {
+      "text": "I read your draft. The method section is clear. The passive voice works well there. But in the introduction, use the active voice for your contribution. Write we propose, not a tool is proposed. Also, the reviewer will want to know who installed the sensors.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "I read your draft. The method section is clear. The passive voice works well there. But in the introduction, use the active voice for your contribution. Write we propose, not a tool is proposed. Also, the reviewer will want to know who installed the sensors.",
+     "translation_es": "Leí tu borrador. La sección de método es clara. La voz pasiva funciona bien ahí. Pero en la introducción, usa la voz activa para tu aporte. Escribe «we propose», no «a tool is proposed». Además, el revisor querrá saber quién instaló los sensores.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué sección le parece clara a Mark?",
+       "label": "¿Qué sección le parece clara a Mark?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La introducción"
+        },
+        {
+         "id": "b",
+         "text": "El método"
+        },
+        {
+         "id": "c",
+         "text": "La discusión"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué recomienda para la introducción?",
+       "label": "¿Qué recomienda para la introducción?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Usar la pasiva"
+        },
+        {
+         "id": "b",
+         "text": "Usar la activa para el aporte"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué querrá saber el revisor?",
+       "label": "¿Qué querrá saber el revisor?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Quién instaló los sensores"
+        },
+        {
+         "id": "b",
+         "text": "Cuánto costó el estudio"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D20.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "The method section is clear.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The method section is clear."
+    }
+   ]
+  },
+  {
+   "id": "D20.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Revising the draft",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D20-RR"
+   ],
+   "activities": [
+    {
+     "id": "D20.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde mantuvo Ana la pasiva?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En la introducción"
+      },
+      {
+       "id": "b",
+       "text": "En el método"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D20.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué agregó el agente «by an external company»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque era información útil"
+      },
+      {
+       "id": "b",
+       "text": "Porque la revista lo exige siempre"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D20.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo quedó el segundo borrador?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Más largo"
+      },
+      {
+       "id": "b",
+       "text": "Más breve y más claro"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D20.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D20.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Ana revised her draft after Mark's feedback. In the method section she kept the passive voice: the data were collected every hour, and two days were excluded.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Ana revised her draft after Mark's feedback.",
+       "In the method section she kept the passive voice: the data were collected every hour, and two days were excluded."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D20.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Di en voz alta 4 oraciones sobre un proyecto: dos en activa (lo que tú o tu equipo proponen o encontraron) y dos en pasiva (cómo se hizo).",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "active voice",
+        "passive voice",
+        "agent",
+        "focus",
+        "clear",
+        "rewrite",
+        "style",
+        "journal",
+        "reviewer",
+        "draft",
+        "revise",
+        "feedback"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D20.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D20.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 50–90 palabras: una oración de aporte en activa (We propose / We show) y un método breve en pasiva, decidiendo cuándo usar «by».",
+     "min_words": 45,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "active voice",
+        "passive voice",
+        "agent",
+        "focus",
+        "clear",
+        "rewrite",
+        "style",
+        "journal",
+        "reviewer",
+        "draft",
+        "revise",
+        "feedback"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "was",
+        "were",
+        "by"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

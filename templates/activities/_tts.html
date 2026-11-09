@@ -1,0 +1,7 @@
+<span class="tts" data-tts data-text="{{ text }}" data-lang="{{ voice|default:'en-US' }}"{% if help %} data-tts-help="{{ help }}"{% endif %}>
+  <button type="button" data-action="play" aria-label="Reproducir: {{ label|default:text }}">▶</button>
+  <button type="button" data-action="pause" aria-label="Pausar o retomar">⏸</button>
+  {% if label %}<span class="tts-label">{{ label }}</span>{% endif %}
+  <select data-rate aria-label="Velocidad"><option value="0.7">0,7×</option><option value="0.85">0,85×</option><option value="1" selected>1×</option><option value="1.15">1,15×</option></select>
+  {% if label %}<span class="badge">voz sintetizada</span>{% endif %}
+</span>

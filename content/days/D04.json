@@ -1,0 +1,914 @@
+{
+ "id": "D04",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Lo que estoy haciendo ahora",
+ "day": 4,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy distingues lo habitual (I teach) de lo que está en curso ahora o este año (I am working on…).",
+ "objectives": [
+  {
+   "id": "D04-O1",
+   "text": "Usar el presente continuo para proyectos en curso."
+  },
+  {
+   "id": "D04-O2",
+   "text": "Distinguir currently (actualmente) de actually (en realidad)."
+  },
+  {
+   "id": "D04-O3",
+   "text": "Explicar en qué estás trabajando este semestre."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D04-LX01",
+    "form": "currently",
+    "meaning_es": "actualmente",
+    "example": "I am currently working on a new project.",
+    "example_es": "Actualmente estoy trabajando en un proyecto nuevo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX02",
+    "form": "actually",
+    "meaning_es": "en realidad, de hecho",
+    "example": "Actually, the project is quite small.",
+    "example_es": "En realidad, el proyecto es bastante pequeño.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX03",
+    "form": "work on",
+    "meaning_es": "trabajar en (un proyecto, un artículo)",
+    "example": "Two students work on this project.",
+    "example_es": "Dos estudiantes trabajan en este proyecto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX04",
+    "form": "at the moment",
+    "meaning_es": "en este momento",
+    "example": "At the moment we are collecting data.",
+    "example_es": "En este momento estamos recolectando datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX05",
+    "form": "this year",
+    "meaning_es": "este año",
+    "example": "This year the team is testing a new model.",
+    "example_es": "Este año el equipo está probando un modelo nuevo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX06",
+    "form": "test",
+    "meaning_es": "probar, poner a prueba",
+    "example": "We test the model with real data.",
+    "example_es": "Probamos el modelo con datos reales.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX07",
+    "form": "model",
+    "meaning_es": "modelo",
+    "example": "The model predicts energy use.",
+    "example_es": "El modelo predice el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX08",
+    "form": "develop",
+    "meaning_es": "desarrollar",
+    "example": "We develop simple tools for managers.",
+    "example_es": "Desarrollamos herramientas simples para gerentes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX09",
+    "form": "tool",
+    "meaning_es": "herramienta",
+    "example": "The tool helps small companies.",
+    "example_es": "La herramienta ayuda a empresas pequeñas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX10",
+    "form": "improve",
+    "meaning_es": "mejorar",
+    "example": "The goal is to improve planning.",
+    "example_es": "El objetivo es mejorar la planificación.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX11",
+    "form": "write up",
+    "meaning_es": "redactar (resultados, un informe)",
+    "example": "Diego needs to write up his results.",
+    "example_es": "Diego necesita redactar sus resultados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D04-LX12",
+    "form": "semester",
+    "meaning_es": "semestre",
+    "example": "This semester I am teaching two courses.",
+    "example_es": "Este semestre estoy dictando dos cursos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D04-G1",
+    "topic": "Presente continuo (am/is/are + -ing) frente al presente simple"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D04-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "currently",
+     "meaning_es": "actualmente",
+     "example": "I am currently working on a new project.",
+     "example_es": "Actualmente estoy trabajando en un proyecto nuevo."
+    },
+    {
+     "form": "actually",
+     "meaning_es": "en realidad, de hecho",
+     "example": "Actually, the project is quite small.",
+     "example_es": "En realidad, el proyecto es bastante pequeño."
+    },
+    {
+     "form": "work on",
+     "meaning_es": "trabajar en (un proyecto, un artículo)",
+     "example": "Two students work on this project.",
+     "example_es": "Dos estudiantes trabajan en este proyecto."
+    },
+    {
+     "form": "at the moment",
+     "meaning_es": "en este momento",
+     "example": "At the moment we are collecting data.",
+     "example_es": "En este momento estamos recolectando datos."
+    },
+    {
+     "form": "this year",
+     "meaning_es": "este año",
+     "example": "This year the team is testing a new model.",
+     "example_es": "Este año el equipo está probando un modelo nuevo."
+    },
+    {
+     "form": "test",
+     "meaning_es": "probar, poner a prueba",
+     "example": "We test the model with real data.",
+     "example_es": "Probamos el modelo con datos reales."
+    },
+    {
+     "form": "model",
+     "meaning_es": "modelo",
+     "example": "The model predicts energy use.",
+     "example_es": "El modelo predice el uso de energía."
+    },
+    {
+     "form": "develop",
+     "meaning_es": "desarrollar",
+     "example": "We develop simple tools for managers.",
+     "example_es": "Desarrollamos herramientas simples para gerentes."
+    },
+    {
+     "form": "tool",
+     "meaning_es": "herramienta",
+     "example": "The tool helps small companies.",
+     "example_es": "La herramienta ayuda a empresas pequeñas."
+    },
+    {
+     "form": "improve",
+     "meaning_es": "mejorar",
+     "example": "The goal is to improve planning.",
+     "example_es": "El objetivo es mejorar la planificación."
+    },
+    {
+     "form": "write up",
+     "meaning_es": "redactar (resultados, un informe)",
+     "example": "Diego needs to write up his results.",
+     "example_es": "Diego necesita redactar sus resultados."
+    },
+    {
+     "form": "semester",
+     "meaning_es": "semestre",
+     "example": "This semester I am teaching two courses.",
+     "example_es": "Este semestre estoy dictando dos cursos."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D04-RG",
+   "type": "capsule",
+   "title": "Presente continuo (am/is/are + -ing) frente al presente simple",
+   "explain": "Presente continuo = am/is/are + verbo con -ing. Se usa para lo que ocurre ahora o en este período (este semestre, este año): I am working on a paper.\nPresente simple = lo habitual o permanente: I teach statistics (todos los años).\nOrtografía: write → writing, develop → developing, test → testing, run → running.\nFalso amigo: «actualmente» = currently (no actually). «Actually» = en realidad.",
+   "form": [
+    [
+     "I am + -ing",
+     "I am testing a model."
+    ],
+    [
+     "he/she/it is + -ing",
+     "She is writing a paper."
+    ],
+    [
+     "we/you/they are + -ing",
+     "They are collecting data."
+    ],
+    [
+     "Are you working on…?",
+     "pregunta"
+    ]
+   ],
+   "examples": [
+    [
+     "I am currently working on a new model.",
+     "Actualmente estoy trabajando en un modelo nuevo."
+    ],
+    [
+     "I teach statistics, but this semester I am teaching logistics.",
+     "Hago clases de estadística, pero este semestre estoy dictando logística."
+    ],
+    [
+     "What are you working on?",
+     "¿En qué estás trabajando?"
+    ]
+   ],
+   "tip": "Algunos verbos casi no usan -ing: know, want, need, like (I know, no «I am knowing»).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D04-RR",
+   "type": "text",
+   "title": "This semester",
+   "body": "Ana usually teaches statistics, but this semester she is teaching a course on logistics. At the moment her team is working on a new model. The model predicts energy use in small sawmills. They are testing it with data from three companies. Diego, a master's student, is developing a simple tool for managers. Actually, the tool is still a prototype. The goal is to improve production planning and reduce costs.",
+   "translation_es": "Ana normalmente enseña estadística, pero este semestre está dictando un curso de logística. En este momento su equipo trabaja en un modelo nuevo. El modelo predice el uso de energía en aserraderos pequeños. Lo están probando con datos de tres empresas. Diego, estudiante de magíster, está desarrollando una herramienta simple para gerentes. En realidad, la herramienta todavía es un prototipo. El objetivo es mejorar la planificación de la producción y reducir costos.",
+   "glossary": [
+    [
+     "sawmills",
+     "aserraderos"
+    ],
+    [
+     "managers",
+     "gerentes, jefes"
+    ],
+    [
+     "still",
+     "todavía"
+    ],
+    [
+     "costs",
+     "costos"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D04.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D04-RV"
+   ],
+   "activities": [
+    {
+     "id": "D04.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I am [[1]] working on a new project.  (2) [[2]] we are collecting data.  (3) We [[3]] the model with real data.  (4) The [[4]] helps small companies.  (5) The goal is to [[5]] planning.  (6) This [[6]] I am teaching two courses.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "currently"
+       ],
+       "hint": "Significa «actualmente»."
+      },
+      "2": {
+       "accept": [
+        "at the moment"
+       ],
+       "hint": "Significa «en este momento»."
+      },
+      "3": {
+       "accept": [
+        "test"
+       ],
+       "hint": "Significa «probar, poner a prueba»."
+      },
+      "4": {
+       "accept": [
+        "tool"
+       ],
+       "hint": "Significa «herramienta»."
+      },
+      "5": {
+       "accept": [
+        "improve"
+       ],
+       "hint": "Significa «mejorar»."
+      },
+      "6": {
+       "accept": [
+        "semester"
+       ],
+       "hint": "Significa «semestre»."
+      }
+     }
+    },
+    {
+     "id": "D04.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «modelo»",
+     "accept": [
+      "model"
+     ],
+     "hint": "Empieza con «mo…» · Ejemplo: El modelo predice el uso de energía."
+    },
+    {
+     "id": "D04.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en realidad, de hecho»",
+     "accept": [
+      "actually"
+     ],
+     "hint": "Empieza con «ac…» · Ejemplo: En realidad, el proyecto es bastante pequeño."
+    },
+    {
+     "id": "D04.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «trabajar en (un proyecto, un artículo)»",
+     "accept": [
+      "work on"
+     ],
+     "hint": "Empieza con «wo…» · Ejemplo: Dos estudiantes trabajan en este proyecto."
+    },
+    {
+     "id": "D04.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «este año»",
+     "accept": [
+      "this year"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: Este año el equipo está probando un modelo nuevo."
+    },
+    {
+     "id": "D04.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «desarrollar»",
+     "accept": [
+      "develop"
+     ],
+     "hint": "Empieza con «de…» · Ejemplo: Desarrollamos herramientas simples para gerentes."
+    },
+    {
+     "id": "D04.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «redactar (resultados, un informe)»",
+     "accept": [
+      "write up"
+     ],
+     "hint": "Empieza con «wr…» · Ejemplo: Diego necesita redactar sus resultados."
+    },
+    {
+     "id": "D04.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The model predicts energy use.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The model predicts energy use."
+    }
+   ]
+  },
+  {
+   "id": "D04.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Presente continuo (am/is/are + -ing) frente al presente simple",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D04-RG"
+   ],
+   "activities": [
+    {
+     "id": "D04.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) At the moment we [[1]] collecting data. (be)  (2) Ana is [[2]] a new tool. (develop)  (3) I [[3]] statistics every year. (teach)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are",
+        "'re"
+       ],
+       "hint": "we → are"
+      },
+      "2": {
+       "accept": [
+        "developing"
+       ],
+       "hint": "-ing"
+      },
+      "3": {
+       "accept": [
+        "teach"
+       ],
+       "hint": "habitual → presente simple"
+      }
+     }
+    },
+    {
+     "id": "D04.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) This semester she [[1]] teaching two courses. (be)  (2) Diego is [[2]] up his results. (write)  (3) I am [[3]] working on a paper. (actualmente)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "is"
+       ],
+       "hint": "she → is"
+      },
+      "2": {
+       "accept": [
+        "writing"
+       ],
+       "hint": "write → writing"
+      },
+      "3": {
+       "accept": [
+        "currently"
+       ],
+       "hint": "actualmente = currently"
+      }
+     }
+    },
+    {
+     "id": "D04.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Actualmente estoy probando un modelo»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Actually I test a model."
+      },
+      {
+       "id": "b",
+       "text": "I am currently testing a model."
+      },
+      {
+       "id": "c",
+       "text": "I currently test a model now."
+      }
+     ],
+     "answer": "b",
+     "explanation": "currently + presente continuo."
+    },
+    {
+     "id": "D04.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál describe algo habitual?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I teach statistics every year."
+      },
+      {
+       "id": "b",
+       "text": "I am teaching statistics at the moment."
+      }
+     ],
+     "answer": "a",
+     "explanation": "every year = habitual."
+    },
+    {
+     "id": "D04.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre lo que estás haciendo este semestre (usa am/is/are + -ing y currently).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "am",
+        "is",
+        "are",
+        "ing",
+        "currently"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D04.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: ¿En qué estás trabajando?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D04.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿En qué estás trabajando?: escucha sin leer y responde.",
+     "audio": {
+      "text": "What are you working on at the moment? We are currently testing a simple model. It predicts energy use in sawmills. My student Diego is writing up the first results. Actually, the data are not complete yet.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "What are you working on at the moment? We are currently testing a simple model. It predicts energy use in sawmills. My student Diego is writing up the first results. Actually, the data are not complete yet.",
+     "translation_es": "¿En qué estás trabajando en este momento? Actualmente estamos probando un modelo simple. Predice el uso de energía en aserraderos. Mi estudiante Diego está redactando los primeros resultados. En realidad, los datos aún no están completos.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué están probando?",
+       "label": "¿Qué están probando?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un modelo simple"
+        },
+        {
+         "id": "b",
+         "text": "Una máquina nueva"
+        },
+        {
+         "id": "c",
+         "text": "Un curso en línea"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hace Diego?",
+       "label": "¿Qué hace Diego?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Recolecta datos"
+        },
+        {
+         "id": "b",
+         "text": "Redacta los primeros resultados"
+        },
+        {
+         "id": "c",
+         "text": "Dicta clases"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Están completos los datos?",
+       "label": "¿Están completos los datos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Sí"
+        },
+        {
+         "id": "b",
+         "text": "Todavía no"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«not complete yet»"
+      }
+     ]
+    },
+    {
+     "id": "D04.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We are currently testing a simple model.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We are currently testing a simple model."
+    }
+   ]
+  },
+  {
+   "id": "D04.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: This semester",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D04-RR"
+   ],
+   "activities": [
+    {
+     "id": "D04.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué enseña Ana este semestre?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Estadística"
+      },
+      {
+       "id": "b",
+       "text": "Logística"
+      },
+      {
+       "id": "c",
+       "text": "Inglés"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«this semester she is teaching… logistics»"
+    },
+    {
+     "id": "D04.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué está desarrollando Diego?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Una herramienta para gerentes"
+      },
+      {
+       "id": "b",
+       "text": "Un aserradero"
+      },
+      {
+       "id": "c",
+       "text": "Un curso"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D04.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué significa «Actually, the tool is still a prototype»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Actualmente la herramienta es un prototipo"
+      },
+      {
+       "id": "b",
+       "text": "En realidad, la herramienta todavía es un prototipo"
+      }
+     ],
+     "answer": "b",
+     "explanation": "actually = en realidad"
+    }
+   ]
+  },
+  {
+   "id": "D04.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D04.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Ana usually teaches statistics, but this semester she is teaching a course on logistics. At the moment her team is working on a new model.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Ana usually teaches statistics, but this semester she is teaching a course on logistics.",
+       "At the moment her team is working on a new model."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D04.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en 30–60 s en qué estás trabajando este semestre o este año (usa I am currently working on…, At the moment…).",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "currently",
+        "actually",
+        "work on",
+        "at the moment",
+        "this year",
+        "test",
+        "model",
+        "develop",
+        "tool",
+        "improve",
+        "write up",
+        "semester"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D04.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D04.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras: qué haces normalmente (presente simple) y qué estás haciendo este semestre (presente continuo).",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "currently",
+        "actually",
+        "work on",
+        "at the moment",
+        "this year",
+        "test",
+        "model",
+        "develop",
+        "tool",
+        "improve",
+        "write up",
+        "semester"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "am",
+        "is",
+        "are",
+        "ing",
+        "currently"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

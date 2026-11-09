@@ -1,0 +1,659 @@
+{
+ "id": "B10",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso unidad 2: mi día a día",
+ "day": 10,
+ "week": 2,
+ "day_type": "repaso",
+ "intro": "Repaso de la unidad 2 sin lista de apoyo: la hora, la rutina propia y ajena, la comida y el restaurante, los gustos y el clima.",
+ "objectives": [
+  {
+   "id": "B10-O1",
+   "text": "Describir tu rutina y la de otra persona con el presente simple."
+  },
+  {
+   "id": "B10-O2",
+   "text": "Pedir comida en un restaurante con cortesía."
+  },
+  {
+   "id": "B10-O3",
+   "text": "Recuperar sin mirar las palabras de la unidad 2."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B10-RR",
+   "type": "text",
+   "title": "My week in Boston (a blog post)",
+   "body": "This is my second week in Boston. I usually get up at half past six and have breakfast with Linda and Robert. Classes start at nine. I like my teacher very much; she always explains things clearly. In the afternoon I sometimes visit laboratories. I never miss my English homework. On Saturdays I walk around the city, and on Sundays I call my family. I miss Chilean food, but the food here is good.",
+   "translation_es": "Esta es mi segunda semana en Boston. Normalmente me levanto a las seis y media y tomo desayuno con Linda y Robert. Las clases empiezan a las nueve. Me gusta mucho mi profesora; siempre explica las cosas con claridad. En la tarde a veces visito laboratorios. Nunca dejo de hacer mi tarea de inglés. Los sábados camino por la ciudad y los domingos llamo a mi familia. Echo de menos la comida chilena, pero la comida de aquí es buena.",
+   "glossary": [
+    [
+     "miss",
+     "echar de menos; faltar a, dejar de hacer"
+    ],
+    [
+     "homework",
+     "tarea"
+    ],
+    [
+     "clearly",
+     "con claridad"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B10.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "B10.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) We [[1]] eat at home.  (2) The [[2]] is nice today.  (3) I [[3]] at six o'clock.  (4) Concepción is [[4]] in winter.  (5) I [[5]] at six.  (6) Where do you [[6]]?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "usually"
+       ],
+       "hint": "Significa «normalmente»."
+      },
+      "2": {
+       "accept": [
+        "weather"
+       ],
+       "hint": "Significa «clima, tiempo (atmosférico)»."
+      },
+      "3": {
+       "accept": [
+        "get up"
+       ],
+       "hint": "Significa «levantarse»."
+      },
+      "4": {
+       "accept": [
+        "rainy"
+       ],
+       "hint": "Significa «lluvioso»."
+      },
+      "5": {
+       "accept": [
+        "go home"
+       ],
+       "hint": "Significa «irse a casa»."
+      },
+      "6": {
+       "accept": [
+        "live"
+       ],
+       "hint": "Significa «vivir»."
+      }
+     }
+    },
+    {
+     "id": "B10.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «estudiar»",
+     "accept": [
+      "study"
+     ],
+     "hint": "Ejemplo: Estudio en la noche."
+    },
+    {
+     "id": "B10.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «manejar»",
+     "accept": [
+      "drive"
+     ],
+     "hint": "Ejemplo: ¿Ella maneja al trabajo?"
+    },
+    {
+     "id": "B10.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «pedir (en un restaurante)»",
+     "accept": [
+      "order"
+     ],
+     "hint": "Ejemplo: ¿Están listos para pedir?"
+    },
+    {
+     "id": "B10.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «siempre»",
+     "accept": [
+      "always"
+     ],
+     "hint": "Ejemplo: Siempre tomo café en la mañana."
+    },
+    {
+     "id": "B10.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «nunca»",
+     "accept": [
+      "never"
+     ],
+     "hint": "Ejemplo: Tomás nunca maneja en Boston."
+    },
+    {
+     "id": "B10.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «ensalada»",
+     "accept": [
+      "salad"
+     ],
+     "hint": "Ejemplo: Quiero una ensalada verde."
+    }
+   ]
+  },
+  {
+   "id": "B10.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B10.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) What time [[1]] it? It's ten.  (2) He [[2]] TV in the evening. (watch)  (3) Would you like [[3]] coffee?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "is"
+       ],
+       "hint": "What time is it?"
+      },
+      "2": {
+       "accept": [
+        "watches"
+       ],
+       "hint": "watch → watches."
+      },
+      "3": {
+       "accept": [
+        "some"
+       ],
+       "hint": "Ofrecimiento → some."
+      }
+     }
+    },
+    {
+     "id": "B10.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) We [[1]] go to the cinema, maybe once a month. (a veces)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "sometimes"
+       ],
+       "hint": "a veces → sometimes."
+      }
+     }
+    },
+    {
+     "id": "B10.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«Son las ocho y media» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "It is half past eight."
+      },
+      {
+       "id": "b",
+       "text": "It is eight and half."
+      },
+      {
+       "id": "c",
+       "text": "It is half eight past."
+      }
+     ],
+     "answer": "a",
+     "explanation": "half past + hora (también: eight thirty)."
+    },
+    {
+     "id": "B10.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "He don't like coffee."
+      },
+      {
+       "id": "b",
+       "text": "He doesn't like coffee."
+      },
+      {
+       "id": "c",
+       "text": "He doesn't likes coffee."
+      }
+     ],
+     "answer": "b",
+     "explanation": "he → doesn't + verbo base."
+    },
+    {
+     "id": "B10.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I don't have some money."
+      },
+      {
+       "id": "b",
+       "text": "I don't have any money."
+      },
+      {
+       "id": "c",
+       "text": "I don't have a money."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Negativo → any; money es incontable."
+    },
+    {
+     "id": "B10.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I love cook."
+      },
+      {
+       "id": "b",
+       "text": "I love cooking."
+      },
+      {
+       "id": "c",
+       "text": "I love to cooking."
+      }
+     ],
+     "answer": "b",
+     "explanation": "love + -ing (o love to cook)."
+    }
+   ]
+  },
+  {
+   "id": "B10.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Una llamada a la familia",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B10.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una llamada a la familia: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hi, Carmen! How are you? I'm fine. The children are at school. How is Boston? It's cold, but I like it. I get up early, I have classes every morning, and in the evening I study. Do you eat well? Yes, Linda cooks every day and the food is delicious. On Saturday I want to visit a museum.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hi, Carmen! How are you? I'm fine. The children are at school. How is Boston? It's cold, but I like it. I get up early, I have classes every morning, and in the evening I study. Do you eat well? Yes, Linda cooks every day and the food is delicious. On Saturday I want to visit a museum.",
+     "translation_es": "¡Hola, Carmen! ¿Cómo estás? Bien. Los niños están en el colegio. ¿Cómo está Boston? Hace frío, pero me gusta. Me levanto temprano, tengo clases todas las mañanas y en la tarde-noche estudio. ¿Comes bien? Sí, Linda cocina todos los días y la comida es deliciosa. El sábado quiero visitar un museo.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Dónde están los niños?",
+       "label": "¿Dónde están los niños?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En casa"
+        },
+        {
+         "id": "b",
+         "text": "En el colegio"
+        },
+        {
+         "id": "c",
+         "text": "Con la abuela"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hace Tomás en la tarde-noche?",
+       "label": "¿Qué hace Tomás en la tarde-noche?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Estudia"
+        },
+        {
+         "id": "b",
+         "text": "Cocina"
+        },
+        {
+         "id": "c",
+         "text": "Sale"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué quiere hacer el sábado?",
+       "label": "¿Qué quiere hacer el sábado?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Ir a la playa"
+        },
+        {
+         "id": "b",
+         "text": "Visitar un museo"
+        },
+        {
+         "id": "c",
+         "text": "Dormir"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B10.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Linda cooks every day and the food is delicious.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Linda cooks every day and the food is delicious."
+    }
+   ]
+  },
+  {
+   "id": "B10.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: My week in Boston (a blog post)",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B10-RR"
+   ],
+   "activities": [
+    {
+     "id": "B10.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Con quién toma desayuno Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Solo"
+      },
+      {
+       "id": "b",
+       "text": "Con Linda y Robert"
+      },
+      {
+       "id": "c",
+       "text": "Con Mei"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B10.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué opina de su profesora?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Explica con claridad"
+      },
+      {
+       "id": "b",
+       "text": "Es muy seria"
+      },
+      {
+       "id": "c",
+       "text": "Habla rápido"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B10.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué echa de menos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El clima"
+      },
+      {
+       "id": "b",
+       "text": "La comida chilena"
+      },
+      {
+       "id": "c",
+       "text": "Su auto"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«I miss Chilean food»."
+    }
+   ]
+  },
+  {
+   "id": "B10.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B10.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "This is my second week in Boston. I usually get up at half past six and have breakfast with Linda and Robert.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "This is my second week in Boston.",
+       "I usually get up at half past six and have breakfast with Linda and Robert."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B10.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en 45–90 s un día de semana y un fin de semana tuyos, con horas, frecuencia y comida.",
+     "min_seconds": 45,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "usually",
+        "weather",
+        "get up",
+        "rainy",
+        "go home",
+        "live",
+        "study",
+        "drive",
+        "order",
+        "always",
+        "never",
+        "salad",
+        "walk",
+        "go to work",
+        "start",
+        "work",
+        "cold",
+        "I'd like",
+        "like",
+        "menu",
+        "rice",
+        "coffee",
+        "free time",
+        "often"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "B10.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B10.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras: un día normal tuyo y qué te gusta hacer el fin de semana.",
+     "min_words": 35,
+     "max_words": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "usually",
+        "weather",
+        "get up",
+        "rainy",
+        "go home",
+        "live",
+        "study",
+        "drive",
+        "order",
+        "always",
+        "never",
+        "salad",
+        "walk",
+        "go to work",
+        "start",
+        "work",
+        "cold",
+        "I'd like",
+        "like",
+        "menu",
+        "rice",
+        "coffee",
+        "free time",
+        "often"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,882 @@
+{
+ "id": "D32",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Condicionales reales: if + presente",
+ "day": 32,
+ "week": 5,
+ "day_type": "aprendizaje",
+ "intro": "Hoy usas el condicional cero (hechos generales) y el primer condicional (resultados probables), muy útiles en recomendaciones.",
+ "objectives": [
+  {
+   "id": "D32-O1",
+   "text": "Usar if + presente → presente para hechos generales."
+  },
+  {
+   "id": "D32-O2",
+   "text": "Usar if + presente → will para resultados probables."
+  },
+  {
+   "id": "D32-O3",
+   "text": "Escribir dos recomendaciones condicionales."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D32-LX01",
+    "form": "if",
+    "meaning_es": "si (condición)",
+    "example": "If the temperature falls, energy use rises.",
+    "example_es": "Si baja la temperatura, sube el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX02",
+    "form": "unless",
+    "meaning_es": "a menos que",
+    "example": "Costs will rise unless the schedule changes.",
+    "example_es": "Los costos subirán a menos que cambie la programación.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX03",
+    "form": "as long as",
+    "meaning_es": "siempre que",
+    "example": "The tool works as long as the sensors are checked.",
+    "example_es": "La herramienta funciona siempre que se revisen los sensores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX04",
+    "form": "in case of",
+    "meaning_es": "en caso de",
+    "example": "In case of a power cut, data are stored locally.",
+    "example_es": "En caso de un corte de luz, los datos se guardan localmente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX05",
+    "form": "condition",
+    "meaning_es": "condición",
+    "example": "The test needs one condition: stable weather.",
+    "example_es": "La prueba necesita una condición: clima estable.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX06",
+    "form": "depend on",
+    "meaning_es": "depender de",
+    "example": "Savings depend on the season.",
+    "example_es": "El ahorro depende de la estación.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX07",
+    "form": "adopt",
+    "meaning_es": "adoptar",
+    "example": "Other sawmills may adopt the schedule.",
+    "example_es": "Otros aserraderos podrían adoptar la programación.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX08",
+    "form": "benefit",
+    "meaning_es": "beneficio; beneficiarse",
+    "example": "The main benefit is lower cost.",
+    "example_es": "El principal beneficio es un costo menor.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX09",
+    "form": "risk",
+    "meaning_es": "riesgo",
+    "example": "There is a small risk of delays.",
+    "example_es": "Hay un pequeño riesgo de retrasos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX10",
+    "form": "scenario",
+    "meaning_es": "escenario",
+    "example": "In the best scenario, costs fall by ten percent.",
+    "example_es": "En el mejor escenario, los costos bajan un diez por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX11",
+    "form": "otherwise",
+    "meaning_es": "de lo contrario",
+    "example": "Check the sensors; otherwise, data may be lost.",
+    "example_es": "Revisa los sensores; de lo contrario, se pueden perder datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D32-LX12",
+    "form": "whether",
+    "meaning_es": "si (alternativa)",
+    "example": "We don't know whether it works in summer.",
+    "example_es": "No sabemos si funciona en verano.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D32-G1",
+    "topic": "Condicional cero y primer condicional"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D32-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "if",
+     "meaning_es": "si (condición)",
+     "example": "If the temperature falls, energy use rises.",
+     "example_es": "Si baja la temperatura, sube el uso de energía."
+    },
+    {
+     "form": "unless",
+     "meaning_es": "a menos que",
+     "example": "Costs will rise unless the schedule changes.",
+     "example_es": "Los costos subirán a menos que cambie la programación."
+    },
+    {
+     "form": "as long as",
+     "meaning_es": "siempre que",
+     "example": "The tool works as long as the sensors are checked.",
+     "example_es": "La herramienta funciona siempre que se revisen los sensores."
+    },
+    {
+     "form": "in case of",
+     "meaning_es": "en caso de",
+     "example": "In case of a power cut, data are stored locally.",
+     "example_es": "En caso de un corte de luz, los datos se guardan localmente."
+    },
+    {
+     "form": "condition",
+     "meaning_es": "condición",
+     "example": "The test needs one condition: stable weather.",
+     "example_es": "La prueba necesita una condición: clima estable."
+    },
+    {
+     "form": "depend on",
+     "meaning_es": "depender de",
+     "example": "Savings depend on the season.",
+     "example_es": "El ahorro depende de la estación."
+    },
+    {
+     "form": "adopt",
+     "meaning_es": "adoptar",
+     "example": "Other sawmills may adopt the schedule.",
+     "example_es": "Otros aserraderos podrían adoptar la programación."
+    },
+    {
+     "form": "benefit",
+     "meaning_es": "beneficio; beneficiarse",
+     "example": "The main benefit is lower cost.",
+     "example_es": "El principal beneficio es un costo menor."
+    },
+    {
+     "form": "risk",
+     "meaning_es": "riesgo",
+     "example": "There is a small risk of delays.",
+     "example_es": "Hay un pequeño riesgo de retrasos."
+    },
+    {
+     "form": "scenario",
+     "meaning_es": "escenario",
+     "example": "In the best scenario, costs fall by ten percent.",
+     "example_es": "En el mejor escenario, los costos bajan un diez por ciento."
+    },
+    {
+     "form": "otherwise",
+     "meaning_es": "de lo contrario",
+     "example": "Check the sensors; otherwise, data may be lost.",
+     "example_es": "Revisa los sensores; de lo contrario, se pueden perder datos."
+    },
+    {
+     "form": "whether",
+     "meaning_es": "si (alternativa)",
+     "example": "We don't know whether it works in summer.",
+     "example_es": "No sabemos si funciona en verano."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D32-RG",
+   "type": "capsule",
+   "title": "Condicional cero y primer condicional",
+   "explain": "Condicional cero (hechos generales, siempre se cumple): If + presente, presente → «If the temperature falls, energy use rises».\nPrimer condicional (resultado probable en el futuro): If + presente, will + verbo → «If other sawmills adopt the schedule, they will save energy».\nOJO: después de «if» NO se usa will: «If it will rain» es incorrecto → If it rains.\nunless = if… not: «Costs will rise unless the schedule changes» (si la programación no cambia).\n«whether» = si, cuando hay alternativa (no condición): «We don't know whether it works».",
+   "form": [
+    [
+     "If + presente, presente",
+     "If it is cold, energy use rises."
+    ],
+    [
+     "If + presente, will + verbo",
+     "If they adopt it, they will save energy."
+    ],
+    [
+     "will … unless + presente",
+     "Costs will rise unless…"
+    ],
+    [
+     "whether (si = alternativa)",
+     "We don't know whether…"
+    ]
+   ],
+   "examples": [
+    [
+     "If the temperature falls, energy use rises.",
+     "Si baja la temperatura, sube el uso de energía."
+    ],
+    [
+     "If other sawmills adopt the schedule, they will probably save energy.",
+     "Si otros aserraderos adoptan la programación, probablemente ahorrarán energía."
+    ],
+    [
+     "Costs will rise unless the schedule changes.",
+     "Los costos subirán a menos que cambie la programación."
+    ]
+   ],
+   "tip": "Error típico de hispanohablantes: «If we will have more data…» → If we have more data…",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D32-RR",
+   "type": "text",
+   "title": "Scenarios for the sector",
+   "body": "The benefit of the new schedule depends on several conditions. If the temperature falls below five degrees, energy use rises sharply. Therefore, if sawmills move drying work to the day shift in winter, they will probably save about eight percent. In the best scenario, savings will be higher. However, costs will not fall unless sensors are checked every month. In case of a power cut, the tool stores data locally. We do not know yet whether the results will be the same in larger companies.",
+   "translation_es": "El beneficio de la nueva programación depende de varias condiciones. Si la temperatura baja de cinco grados, el uso de energía sube bruscamente. Por lo tanto, si los aserraderos trasladan el trabajo de secado al turno de día en invierno, probablemente ahorrarán alrededor de un ocho por ciento. En el mejor escenario, el ahorro será mayor. Sin embargo, los costos no bajarán a menos que se revisen los sensores cada mes. En caso de un corte de luz, la herramienta guarda los datos localmente. Todavía no sabemos si los resultados serán los mismos en empresas más grandes.",
+   "glossary": [
+    [
+     "below",
+     "por debajo de"
+    ],
+    [
+     "degrees",
+     "grados"
+    ],
+    [
+     "locally",
+     "localmente"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D32.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D32-RV"
+   ],
+   "activities": [
+    {
+     "id": "D32.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Costs will rise [[1]] the schedule changes.  (2) [[2]] a power cut, data are stored locally.  (3) The test needs one [[3]]: stable weather.  (4) Savings [[4]] the season.  (5) Other sawmills may [[5]] the schedule.  (6) There is a small [[6]] of delays.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "unless"
+       ],
+       "hint": "Significa «a menos que»."
+      },
+      "2": {
+       "accept": [
+        "in case of"
+       ],
+       "hint": "Significa «en caso de»."
+      },
+      "3": {
+       "accept": [
+        "condition"
+       ],
+       "hint": "Significa «condición»."
+      },
+      "4": {
+       "accept": [
+        "depend on"
+       ],
+       "hint": "Significa «depender de»."
+      },
+      "5": {
+       "accept": [
+        "adopt"
+       ],
+       "hint": "Significa «adoptar»."
+      },
+      "6": {
+       "accept": [
+        "risk"
+       ],
+       "hint": "Significa «riesgo»."
+      }
+     }
+    },
+    {
+     "id": "D32.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «si (alternativa)»",
+     "accept": [
+      "whether"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: No sabemos si funciona en verano."
+    },
+    {
+     "id": "D32.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «si (condición)»",
+     "accept": [
+      "if"
+     ],
+     "hint": "Empieza con «if…» · Ejemplo: Si baja la temperatura, sube el uso de energía."
+    },
+    {
+     "id": "D32.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «de lo contrario»",
+     "accept": [
+      "otherwise"
+     ],
+     "hint": "Empieza con «ot…» · Ejemplo: Revisa los sensores; de lo contrario, se pueden perder datos."
+    },
+    {
+     "id": "D32.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «siempre que»",
+     "accept": [
+      "as long as"
+     ],
+     "hint": "Empieza con «as…» · Ejemplo: La herramienta funciona siempre que se revisen los sensores."
+    },
+    {
+     "id": "D32.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «escenario»",
+     "accept": [
+      "scenario"
+     ],
+     "hint": "Empieza con «sc…» · Ejemplo: En el mejor escenario, los costos bajan un diez por ciento."
+    },
+    {
+     "id": "D32.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «beneficio; beneficiarse»",
+     "accept": [
+      "benefit"
+     ],
+     "hint": "Empieza con «be…» · Ejemplo: El principal beneficio es un costo menor."
+    },
+    {
+     "id": "D32.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "We don't know whether it works in summer.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We don't know whether it works in summer."
+    }
+   ]
+  },
+  {
+   "id": "D32.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Condicional cero y primer condicional",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D32-RG"
+   ],
+   "activities": [
+    {
+     "id": "D32.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) If the temperature [[1]], energy use rises. (fall)  (2) If other sawmills adopt the schedule, they [[2]] save energy.  (3) If we [[3]] more data next year, we will publish a second paper. (have)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "falls"
+       ],
+       "hint": "if + presente"
+      },
+      "2": {
+       "accept": [
+        "will",
+        "'ll"
+       ],
+       "hint": "resultado probable → will"
+      },
+      "3": {
+       "accept": [
+        "have"
+       ],
+       "hint": "después de if no va will"
+      }
+     }
+    },
+    {
+     "id": "D32.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Costs will rise [[1]] the schedule changes. (a menos que)  (2) Savings depend [[2]] the season.  (3) We don't know [[3]] the tool works in summer. (si)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "unless"
+       ]
+      },
+      "2": {
+       "accept": [
+        "on"
+       ],
+       "hint": "depend on"
+      },
+      "3": {
+       "accept": [
+        "whether",
+        "if"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D32.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "If we will get funding, we will expand."
+      },
+      {
+       "id": "b",
+       "text": "If we get funding, we will expand."
+      }
+     ],
+     "answer": "b",
+     "explanation": "if + presente"
+    },
+    {
+     "id": "D32.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«A menos que revisemos los sensores, perderemos datos»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Unless we check the sensors, we will lose data."
+      },
+      {
+       "id": "b",
+       "text": "If we check the sensors, we will lose data."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D32.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe dos condicionales sobre tu trabajo: un hecho general (If…, presente) y un resultado probable (If…, will…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "if",
+        "will",
+        "unless"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D32.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: ¿Funcionará en otros aserraderos?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D32.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Funcionará en otros aserraderos?: escucha sin leer y responde.",
+     "audio": {
+      "text": "If other sawmills adopt the new schedule, they will probably save energy. But savings depend on the season. If the temperature is high, the difference is small. And the tool works only as long as the sensors are checked. Otherwise, data may be lost.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "If other sawmills adopt the new schedule, they will probably save energy. But savings depend on the season. If the temperature is high, the difference is small. And the tool works only as long as the sensors are checked. Otherwise, data may be lost.",
+     "translation_es": "Si otros aserraderos adoptan la nueva programación, probablemente ahorrarán energía. Pero el ahorro depende de la estación. Si la temperatura es alta, la diferencia es pequeña. Y la herramienta funciona solo siempre que se revisen los sensores. De lo contrario, se pueden perder datos.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿De qué depende el ahorro?",
+       "label": "¿De qué depende el ahorro?",
+       "options": [
+        {
+         "id": "a",
+         "text": "De la estación"
+        },
+        {
+         "id": "b",
+         "text": "Del número de gerentes"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué pasa si la temperatura es alta?",
+       "label": "¿Qué pasa si la temperatura es alta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "La diferencia es pequeña"
+        },
+        {
+         "id": "b",
+         "text": "La diferencia es grande"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué condición necesita la herramienta?",
+       "label": "¿Qué condición necesita la herramienta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Que se revisen los sensores"
+        },
+        {
+         "id": "b",
+         "text": "Que haya internet rápido"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D32.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "But savings depend on the season.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "But savings depend on the season."
+    }
+   ]
+  },
+  {
+   "id": "D32.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Scenarios for the sector",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D32-RR"
+   ],
+   "activities": [
+    {
+     "id": "D32.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué pasa si la temperatura baja de 5 grados?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El uso de energía sube bruscamente"
+      },
+      {
+       "id": "b",
+       "text": "Los sensores fallan"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D32.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo no bajarán los costos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Si no se revisan los sensores cada mes"
+      },
+      {
+       "id": "b",
+       "text": "Si hace calor"
+      }
+     ],
+     "answer": "a",
+     "explanation": "unless sensors are checked"
+    },
+    {
+     "id": "D32.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué todavía no saben?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Si los resultados serán iguales en empresas más grandes"
+      },
+      {
+       "id": "b",
+       "text": "Cuánto cuesta un sensor"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D32.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D32.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The benefit of the new schedule depends on several conditions. If the temperature falls below five degrees, energy use rises sharply.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The benefit of the new schedule depends on several conditions.",
+       "If the temperature falls below five degrees, energy use rises sharply."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D32.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Plantea en voz alta (30–60 s) dos escenarios para tu trabajo o institución: If…, … will… y Unless…, … will…",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "if",
+        "unless",
+        "as long as",
+        "in case of",
+        "condition",
+        "depend on",
+        "adopt",
+        "benefit",
+        "risk",
+        "scenario",
+        "otherwise",
+        "whether"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D32.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D32.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre condiciones y escenarios de una propuesta tuya (if, will, unless, depend on).",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "if",
+        "unless",
+        "as long as",
+        "in case of",
+        "condition",
+        "depend on",
+        "adopt",
+        "benefit",
+        "risk",
+        "scenario",
+        "otherwise",
+        "whether"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "if",
+        "will",
+        "unless"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

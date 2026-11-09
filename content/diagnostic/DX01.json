@@ -1,0 +1,121 @@
+{
+  "id": "DX01",
+  "kind": "diagnostic",
+  "version": "1.0.0",
+  "status": "borrador",
+  "title": "Diagnóstico breve",
+  "intro": "Diagnóstico breve (unos 25–35 minutos, puede hacerse en dos sesiones). Estima cada habilidad por separado y con su nivel de confianza. Si la muestra es pequeña, se pedirá más evidencia en vez de inventar una etiqueta precisa. No es una certificación.",
+  "resources": [
+    {
+      "id": "DX01-R01", "type": "text", "title": "Abstract",
+      "body": "Small manufacturers often struggle to plan production when demand changes quickly. This study examines whether a simple rolling forecast improves weekly planning in small furniture workshops. We collected order and production data from 18 workshops over six months and compared planning error before and after the forecast was introduced. Planning error decreased in 13 of the 18 workshops. However, the effect was smaller in workshops with highly irregular orders. The results suggest that simple forecasting tools can support planning, although their benefit depends on demand patterns.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    },
+    {
+      "id": "DX01-R02", "type": "text", "title": "Method paragraph",
+      "body": "Data were obtained from the workshops' order books and production records. Planning error was defined as the absolute difference between planned and actual weekly output, divided by actual output. Each workshop was observed for three months before and three months after the forecast was introduced.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    },
+    {
+      "id": "DX01-R03", "type": "chart", "title": "Monthly support tickets, 2026 (units)",
+      "unit": "tickets",
+      "series": [{"label": "Jan", "value": 320}, {"label": "Feb", "value": 290}, {"label": "Mar", "value": 410}, {"label": "Apr", "value": 380}],
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "gráfico didáctico"}
+    }
+  ],
+  "lessons": [
+    {
+      "id": "DX01.1", "order": 1, "kind": "diagnostic", "minutes": 12,
+      "title": "Sesión 1 · Lectura y léxico",
+      "intro": "Lee el abstract y el párrafo de método. Responde sin traductor: el objetivo es saber desde dónde partir.",
+      "resources": ["DX01-R01", "DX01-R02"],
+      "activities": [
+        {"id": "DX01.1.a1", "type": "choice", "role": "diagnostic", "skill": "reading", "prompt": "What is the main objective of the study?",
+         "options": [{"id": "a", "text": "To design new furniture for small workshops."}, {"id": "b", "text": "To examine whether a simple rolling forecast improves weekly planning."}, {"id": "c", "text": "To compare large and small manufacturers."}], "answer": "b"},
+        {"id": "DX01.1.a2", "type": "numeric", "role": "diagnostic", "skill": "reading", "prompt": "Datos de la muestra y del resultado.",
+         "fields": [{"id": "n", "label": "Talleres estudiados", "answer": 18}, {"id": "months", "label": "Duración total (meses)", "answer": 6}, {"id": "improved", "label": "Talleres donde bajó el error", "answer": 13}]},
+        {"id": "DX01.1.a3", "type": "choice", "role": "diagnostic", "skill": "reading", "prompt": "Which statement is a limitation reported by the authors?",
+         "options": [{"id": "a", "text": "The forecast was too expensive."}, {"id": "b", "text": "The effect was smaller when orders were highly irregular."}, {"id": "c", "text": "Data were collected from only one workshop."}], "answer": "b"},
+        {"id": "DX01.1.a4", "type": "choice", "role": "diagnostic", "skill": "reading", "prompt": "In the method paragraph, how is 'planning error' defined?",
+         "options": [{"id": "a", "text": "The number of late orders per week."}, {"id": "b", "text": "The absolute difference between planned and actual output, divided by actual output."}, {"id": "c", "text": "The difference between demand and price."}], "answer": "b"},
+        {"id": "DX01.1.a5", "type": "choice", "role": "diagnostic", "skill": "reading", "prompt": "Does the abstract claim that the forecast always improves planning?",
+         "options": [{"id": "a", "text": "Yes, it improved planning in every workshop."}, {"id": "b", "text": "No; the benefit depends on demand patterns."}], "answer": "b"},
+        {"id": "DX01.1.a6", "type": "open_text", "role": "diagnostic", "skill": "reading", "rubric": "reading",
+         "prompt": "Resume el estudio en inglés en dos o tres oraciones (problema, método, resultado). Luego evalúate con la rúbrica.",
+         "min_words": 25, "max_words": 80, "checks": [
+           {"id": "result", "any_of": ["13", "thirteen", "decreased", "reduced", "lower"], "feedback": "Incluye el resultado principal."},
+           {"id": "method", "any_of": ["18", "eighteen", "workshops", "six months", "data"], "feedback": "Menciona la muestra o el método."}]},
+        {"id": "DX01.1.a7", "type": "cloze", "role": "diagnostic", "skill": "lexis_grammar", "difficulty": 1, "prompt": "Completa (nivel inicial).",
+         "text": "She [[1]] at a university in Talca. Last year she [[2]] a course on statistics.",
+         "gaps": {"1": {"accept": ["works", "teaches"]}, "2": {"accept": ["taught", "took", "gave", "completed", "attended"]}}},
+        {"id": "DX01.1.a8", "type": "choice", "role": "diagnostic", "skill": "lexis_grammar", "difficulty": 2, "prompt": "Choose the correct option: 'We ___ the data since March.'",
+         "options": [{"id": "a", "text": "collect"}, {"id": "b", "text": "have been collecting"}, {"id": "c", "text": "are collect"}], "answer": "b"},
+        {"id": "DX01.1.a9", "type": "cloze", "role": "diagnostic", "skill": "lexis_grammar", "difficulty": 3, "prompt": "Completa (una palabra).",
+         "text": "The samples [[1]] analysed in two laboratories. The results were similar, [[2]] the second laboratory used a different method.",
+         "gaps": {"1": {"accept": ["were"]}, "2": {"accept": ["although", "though", "even though", "but", "while", "whereas"]}}},
+        {"id": "DX01.1.a10", "type": "choice", "role": "diagnostic", "skill": "lexis_grammar", "difficulty": 4, "prompt": "Which sentence expresses the most cautious conclusion?",
+         "options": [{"id": "a", "text": "The tool improves planning."}, {"id": "b", "text": "The tool may help to improve planning in some contexts."}, {"id": "c", "text": "The tool clearly proves that planning improves."}], "answer": "b"},
+        {"id": "DX01.1.a11", "type": "choice", "role": "diagnostic", "skill": "lexis_grammar", "difficulty": 2, "prompt": "'Actually' means…",
+         "options": [{"id": "a", "text": "actualmente"}, {"id": "b", "text": "en realidad / de hecho"}], "answer": "b"},
+        {"id": "DX01.1.a12", "type": "ordering", "role": "diagnostic", "skill": "lexis_grammar", "difficulty": 1, "prompt": "Ordena la pregunta.",
+         "items": [{"id": "w1", "text": "Where"}, {"id": "w2", "text": "do"}, {"id": "w3", "text": "you"}, {"id": "w4", "text": "work"}],
+         "answer": ["w1", "w2", "w3", "w4"]}
+      ]
+    },
+    {
+      "id": "DX01.2", "order": 2, "kind": "diagnostic", "minutes": 8,
+      "title": "Sesión 1 · Escucha",
+      "intro": "Dos audios breves. Respóndelos primero sin transcripción; podrás revisarla después.",
+      "resources": [],
+      "activities": [
+        {"id": "DX01.2.a1", "type": "listening", "role": "diagnostic", "skill": "listening", "prompt": "Audio 1: un investigador describe su proyecto.",
+         "audio": {"text": "Our project looks at delivery times in three cities. We started in April, and so far we have data from about two thousand deliveries. The average delay is eighteen minutes.", "voice": "en-US", "source": "sintetizada"},
+         "transcript": "Our project looks at delivery times in three cities. We started in April, and so far we have data from about two thousand deliveries. The average delay is eighteen minutes.",
+         "questions": [
+           {"id": "q1", "label": "Ciudades", "fields": [{"id": "n", "label": "Número de ciudades", "answer": 3}]},
+           {"id": "q2", "label": "Inicio", "prompt": "When did the project start?", "options": [{"id": "a", "text": "In April"}, {"id": "b", "text": "In August"}], "answer": "a"},
+           {"id": "q3", "label": "Retraso medio", "fields": [{"id": "m", "label": "Minutos de retraso medio", "answer": 18}]}
+         ]},
+        {"id": "DX01.2.a2", "type": "listening", "role": "diagnostic", "skill": "listening", "prompt": "Audio 2: una pregunta después de una presentación.",
+         "audio": {"text": "Thank you for the talk. I was wondering how you selected the companies. Were they chosen randomly, or did they volunteer to take part?", "voice": "en-GB", "source": "sintetizada"},
+         "transcript": "Thank you for the talk. I was wondering how you selected the companies. Were they chosen randomly, or did they volunteer to take part?",
+         "questions": [
+           {"id": "q1", "label": "Tema de la pregunta", "prompt": "What does the person want to know?", "options": [{"id": "a", "text": "How the companies were selected."}, {"id": "b", "text": "How long the study took."}, {"id": "c", "text": "Which software was used."}], "answer": "a"},
+           {"id": "q2", "label": "Alternativas", "prompt": "Which two possibilities are mentioned?", "options": [{"id": "a", "text": "Random selection or volunteering."}, {"id": "b", "text": "Large or small companies."}], "answer": "a"}
+         ]}
+      ]
+    },
+    {
+      "id": "DX01.3", "order": 3, "kind": "diagnostic", "minutes": 10,
+      "title": "Sesión 2 · Escritura",
+      "intro": "Escribe sin traductor. Después te evaluarás con la rúbrica de escritura; esa autoevaluación tiene confianza baja hasta que haya revisión humana.",
+      "resources": [],
+      "activities": [
+        {"id": "DX01.3.a1", "type": "open_text", "role": "diagnostic", "skill": "writing", "rubric": "writing",
+         "prompt": "Escribe una presentación profesional en inglés de 100–150 palabras: quién eres, dónde trabajas, en qué área, y qué te gustaría lograr con el inglés.",
+         "min_words": 100, "max_words": 150, "checks": []}
+      ]
+    },
+    {
+      "id": "DX01.4", "order": 4, "kind": "diagnostic", "minutes": 10,
+      "title": "Sesión 2 · Habla e interacción",
+      "intro": "Necesitas micrófono. Si no tienes, puedes continuar: estas habilidades quedarán pendientes de evidencia, no aprobadas.",
+      "resources": ["DX01-R03"],
+      "activities": [
+        {"id": "DX01.4.a1", "type": "oral", "role": "diagnostic", "skill": "speaking", "rubric": "oral",
+         "prompt": "Preséntate en 60–90 segundos: trabajo, área y un proyecto.", "min_seconds": 60, "max_seconds": 90, "checks": []},
+        {"id": "DX01.4.a2", "type": "oral", "role": "diagnostic", "skill": "speaking", "rubric": "oral", "resources": ["DX01-R03"],
+         "prompt": "Describe el gráfico en 30–60 segundos: tendencia general, el valor más alto y el más bajo.", "min_seconds": 30, "max_seconds": 60,
+         "checks": [{"id": "peak", "any_of": ["march", "410"], "feedback": "Menciona el máximo (marzo, 410)."}, {"id": "low", "any_of": ["february", "290"], "feedback": "Menciona el mínimo (febrero, 290)."}]},
+        {"id": "DX01.4.a3", "type": "oral", "role": "diagnostic", "skill": "interaction", "rubric": "interaction",
+         "prompt": "Responde a tres preguntas de seguimiento, una tras otra (30–90 segundos en total). Puedes pedir aclaración.",
+         "model": {"text": "What exactly do you do in your job?", "voice": "en-US", "source": "sintetizada"},
+         "follow_ups": ["Why is English important for your work?", "Could you tell me about a recent project or paper you read?"],
+         "min_seconds": 30, "max_seconds": 90, "checks": []}
+      ]
+    }
+  ]
+}

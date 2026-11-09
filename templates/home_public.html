@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<section class="hero" style="--hero-flag: url('{% static 'img/flag.svg' %}')">
+  <span class="eyebrow">★ Para académicos e ingenieros</span>
+  <h1>Lee papers y presenta tu investigación en inglés</h1>
+  <p>Para quienes pasaron por muchos cursos y todavía no logran leer ni hablar. Aquí todo se explica en español,
+  y practicas con artículos, gráficos y presentaciones de tu propia área: comercial, industrial o informática.</p>
+  <div class="hero-actions">
+    <a class="button" href="{% url 'signup' %}">Comenzar gratis</a>
+    <a class="button ghost" href="{% url 'login' %}">Ya tengo cuenta</a>
+  </div>
+</section>
+
+<div class="features">
+  <article class="feature"><div class="ico">📄</div><h3>Leer publicaciones</h3>
+    <p class="small">Problema, método, resultados y limitaciones. Distinguir correlación de causalidad.</p></article>
+  <article class="feature"><div class="ico">🎧</div><h3>Escuchar exposiciones</h3>
+    <p class="small">Cifras, acentos y preguntas de congreso. Primero sin transcripción, luego la revisas.</p></article>
+  <article class="feature"><div class="ico">🎙️</div><h3>Hablar y presentar</h3>
+    <p class="small">Grabas, te escuchas, comparas con el modelo y mejoras dos o tres frases cada vez.</p></article>
+  <article class="feature"><div class="ico">🔁</div><h3>Recordar de verdad</h3>
+    <p class="small">Repaso espaciado: lo aprendido vuelve en días distintos para que no se olvide.</p></article>
+</div>
+
+<section class="card card-accent blue">
+  <h2>Sin promesas falsas</h2>
+  <p>El curso no promete un nivel en un plazo fijo. Cada habilidad se diagnostica y se evalúa por separado,
+  y la eficacia se comprueba con retención, materiales nuevos y revisión humana de muestras orales.</p>
+</section>
+{% endblock %}

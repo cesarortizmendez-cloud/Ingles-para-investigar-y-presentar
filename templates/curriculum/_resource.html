@@ -1,0 +1,75 @@
+{% load course_tags %}
+<figure class="resource resource-{{ r.type|default:'text' }}" id="res-{{ r.id }}">
+  <figcaption><strong>{{ r.title }}</strong>{% if r.fictional_data and r.type != "wordlist" and r.type != "capsule" %} <span class="badge">Datos didácticos ficticios</span>{% endif %}</figcaption>
+
+  {% if r.type == "wordlist" %}
+    <details class="wordlist-wrap" open>
+      <summary class="small">Lista de estudio · escucha, repite en voz alta y luego <strong>ciérrala</strong> para practicar sin mirar</summary>
+      <ol class="wordlist">
+        {% for w in r.words %}
+        <li class="word-card">
+          <div class="word-head">
+            <strong lang="en" class="word-form">{{ w.form }}</strong>
+            {% include "activities/_tts.html" with text=w.form label="" %}
+          </div>
+          <div class="word-es">{{ w.meaning_es }}</div>
+          <p lang="en" class="word-ex">{{ w.example }}</p>
+          <div class="word-tools">
+            {% include "activities/_tts.html" with text=w.example label="Oración" %}
+            <details class="small"><summary>Traducción</summary>{{ w.example_es }}</details>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+
+  {% elif r.type == "capsule" %}
+    <div class="capsule">
+      <div class="capsule-explain">{{ r.explain|linebreaksbr }}</div>
+      {% if r.form %}
+      <div class="table-wrap"><table class="table small">
+        <thead><tr><th>Forma</th><th>Para qué / ejemplo</th></tr></thead>
+        <tbody>{% for row in r.form %}<tr><td lang="en"><strong>{{ row.0 }}</strong></td><td>{{ row.1 }}</td></tr>{% endfor %}</tbody>
+      </table></div>
+      {% endif %}
+      {% if r.examples %}
+      <h4>Ejemplos</h4>
+      <ul class="examples">
+        {% for ex in r.examples %}
+        <li><span lang="en">{{ ex.0 }}</span> {% include "activities/_tts.html" with text=ex.0 label="" %}
+          <div class="muted small">{{ ex.1 }}</div></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if r.tip %}<p class="notice small">{{ r.tip }}</p>{% endif %}
+    </div>
+
+  {% elif r.type == "chart" %}
+    {% with mx=r.series|series_max %}
+    <div class="chart" role="img" aria-label="{{ r.title }}">
+      {% for s in r.series %}
+      <div class="bar-row"><span class="bar-label">{{ s.label }}</span>
+        <span class="bar-track"><span class="bar-fill" style="width: {{ s.value|bar_width:mx }}%"></span></span>
+        <span class="bar-value">{{ s.value }}</span></div>
+      {% endfor %}
+    </div>
+    {% endwith %}
+    <details class="small"><summary>Ver como tabla</summary>
+      <div class="table-wrap"><table class="table"><thead><tr><th>Categoría</th><th>{{ r.unit }}</th></tr></thead>
+      <tbody>{% for s in r.series %}<tr><td>{{ s.label }}</td><td>{{ s.value }}</td></tr>{% endfor %}</tbody></table></div>
+    </details>
+
+  {% else %}
+    {% if r.audio %}<div>{% include "activities/_tts.html" with text=r.body label="Escuchar el texto completo" %}</div>{% endif %}
+    <blockquote lang="en" class="source-text">{{ r.body|linebreaksbr }}</blockquote>
+    {% if r.glossary %}
+      <details class="small help-gloss" data-help-page="glossary"><summary>Palabras de apoyo</summary>
+        <ul>{% for g in r.glossary %}<li><strong lang="en">{{ g.0 }}</strong> — {{ g.1 }}</li>{% endfor %}</ul></details>
+    {% endif %}
+    {% if r.translation_es %}
+      <details class="translation" data-help-page="translation"><summary>Ver traducción al español (se registra como ayuda)</summary>
+        <p>{{ r.translation_es|linebreaksbr }}</p></details>
+    {% endif %}
+  {% endif %}
+  <p class="provenance">Fuente: {{ r.provenance.author }} · {{ r.provenance.license }} · {{ r.provenance.year }}{% if r.provenance.adaptation %} · {{ r.provenance.adaptation }}{% endif %}</p>
+</figure>

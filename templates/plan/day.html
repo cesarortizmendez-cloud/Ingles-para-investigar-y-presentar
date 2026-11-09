@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static course_tags %}
+{% block title %}Día {{ n }} · {{ data.title }}{% endblock %}
+{% block content %}
+<nav class="day-strip" aria-label="Días del plan">
+  {% for c in cells %}
+  <a href="{{ c.url }}" class="chip state-{{ c.state }}{% if c.n == n %} current{% endif %}"{% if c.n == n %} aria-current="page"{% endif %} title="Día {{ c.n }}: {{ c.meta.title }}">{{ c.n }}</a>
+  {% endfor %}
+</nav>
+
+<header class="day-head">
+  <p class="crumbs"><a href="{{ prog.calendar_url }}">{{ prog.name }}</a> › {{ prog.meta.unit_label|default:"Semana" }} {{ data.week }}</p>
+  <div class="day-title-row">
+    <span class="day-big">Día {{ n }}<small>/{{ prog.total }}</small></span>
+    <div>
+      <h1>{{ data.title }}</h1>
+      <p class="muted">{% if date %}{{ date|date:"l d \d\e F" }} · {% endif %}≈ {{ total_minutes }} min{% if n == today_n %} · <strong class="today-pill">HOY</strong>{% endif %}{% if progress.done %} · <strong class="done-pill">✓ Completado</strong>{% endif %}</p>
+    </div>
+  </div>
+  <div class="progress"><span style="width: {% widthratio progress.attempted progress.total 100 %}%"></span></div>
+  <p class="small muted">{{ progress.attempted|default:0 }} de {{ progress.total|default:0 }} actividades · aciertos en ítems cerrados: {{ progress.score|pct }} · se completa con 80 % de actividades y 70 % de aciertos</p>
+</header>
+
+<section class="card card-accent goals-card">
+  <h2>Metas de hoy</h2>
+  <ol class="goals">{% for o in data.objectives %}<li>{{ o.text }}</li>{% endfor %}</ol>
+  {% if phrase_en %}<p class="phrase"><span class="muted small">Frase del día:</span> <strong lang="en">{{ phrase_en }}</strong> {% include "activities/_tts.html" with text=phrase_en label="" %}<br><span class="muted small">{{ phrase_es }}</span></p>{% endif %}
+</section>
+
+<h2 class="section-title">Tu día, paso a paso</h2>
+{% if daily_minutes and daily_minutes < total_minutes %}<p class="small muted">Indicaste {{ daily_minutes }} min diarios en tu <a href="{% url 'profile' %}">perfil</a>: haz este día en dos sesiones (pasos 0–3 y luego 4–6).</p>{% endif %}
+<ol class="steps">
+  <li class="step"><a href="{% url 'review' %}">
+    <span class="step-n">0</span><span class="step-icon">🔁</span>
+    <span class="step-body"><strong>Repaso espaciado</strong><span class="muted small">{{ review_minutes }} min · siempre primero: lo de días anteriores</span></span>
+    <span class="step-state">Ir</span></a></li>
+  {% for b in blocks %}
+  <li class="step{% if b.done == b.total %} full{% elif b.done %} part{% endif %}{% if b.lesson_id == next_block.lesson_id and not progress.done %} next{% endif %}">
+    <a href="{% url 'lesson' data.id b.lesson_id %}">
+      <span class="step-n">{{ forloop.counter }}</span><span class="step-icon">{{ b.icon }}</span>
+      <span class="step-body"><strong>{{ b.label }}</strong><span class="muted small">{{ b.minutes }} min · {{ b.lesson.title }}</span>
+        <span class="mini-progress"><span style="width: {% widthratio b.done b.total 100 %}%"></span></span></span>
+      <span class="step-state">{% if b.done == b.total %}✓{% else %}{{ b.done }}/{{ b.total }}{% endif %}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ol>
+<p class="center"><a class="button green big" href="{% url 'lesson' data.id next_block.lesson_id %}">{% if progress.started %}Continuar: {{ next_block.label }}{% else %}Comenzar el día {{ n }}{% endif %} →</a></p>
+
+{% if data.language_focus.lexis %}
+<details class="card">
+  <summary><h2 class="inline">Palabras del día ({{ data.language_focus.lexis|length }})</h2></summary>
+  <ul class="small two-cols-list">{% for lx in data.language_focus.lexis %}<li><strong lang="en">{{ lx.form }}</strong> — {{ lx.meaning_es }}</li>{% endfor %}</ul>
+</details>
+{% endif %}
+
+<nav class="pager">
+  {% if prev_url %}<a class="button ghost" href="{{ prev_url }}">← Día {{ prev_n }}</a>{% else %}<span></span>{% endif %}
+  <a href="{{ prog.calendar_url }}">Ver los {{ prog.total }} días</a>
+  {% if next_url %}<a class="button ghost" href="{{ next_url }}">Día {{ next_n }} →</a>{% endif %}
+</nav>
+{% endblock %}

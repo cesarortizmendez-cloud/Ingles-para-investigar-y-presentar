@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load course_tags %}
+{% block title %}Resultado del diagnóstico{% endblock %}
+{% block content %}
+<h1>Resultado del diagnóstico</h1>
+<p class="muted">Estimación por habilidad con su confianza. Las bandas son etiquetas internas del itinerario, no un nivel MCER certificado.
+Si una habilidad tiene muestra insuficiente, se pide más evidencia en vez de inventar una etiqueta.</p>
+
+<form method="post" action="{% url 'diagnostic_compute' %}">{% csrf_token %}
+  <button type="submit">{% if result %}Recalcular con mis respuestas actuales{% else %}Calcular resultado{% endif %}</button>
+  <a href="{% url 'diagnostic' %}">Volver al diagnóstico</a>
+</form>
+
+{% if result %}
+<div class="table-wrap"><table class="table">
+  <thead><tr><th>Habilidad</th><th>Estimación</th><th>Confianza</th><th>Evidencias</th><th>Nota</th></tr></thead>
+  <tbody>
+  {% for code, name in skills.items %}{% with e=result.estimates|get:code %}
+    <tr>
+      <td>{{ name }}</td>
+      <td>{% if e.level %}<strong>{{ e.level }}</strong>{% else %}<em>sin estimar</em>{% endif %}</td>
+      <td><span class="tag conf-{{ e.confidence }}">{{ e.confidence }}</span></td>
+      <td>{{ e.n }}</td>
+      <td class="small">{{ e.note }}</td>
+    </tr>
+  {% endwith %}{% endfor %}
+  </tbody>
+</table></div>
+
+<section class="card card-accent">
+  <h2>Qué significa para tus planes</h2>
+  {% if base_first %}<p><strong>Te conviene empezar por el {{ overview.0.name|lower }}</strong> (o hacerlo en paralelo): tu resultado muestra brechas en lo básico.</p>{% endif %}
+  <ul class="small">{% for p in overview %}<li><strong>{{ p.short }}:</strong> {% if p.started %}sigue en el <a href="{{ p.today_url }}">día {{ p.today_n }}</a>{% else %}<a href="{{ p.calendar_url }}">empieza en el día 1</a>{% endif %}.</li>{% endfor %}</ul>
+  <p class="small muted">Cada día usa lo aprendido el anterior, así que no se salta ninguno.</p>
+  {% if plan_focus %}
+    <p>Pon unos minutos extra en estos bloques de cada día:</p>
+    <ul>{% for f in plan_focus %}<li><strong>{{ f.block }}</strong> <span class="muted small">— por tu resultado en {{ f.skill|lower }}</span></li>{% endfor %}</ul>
+  {% else %}
+    <p>No aparecen brechas claras: sigue la rutina diaria tal como está.</p>
+  {% endif %}
+  <ul>{% for n in result.recommendation.notes %}<li>{{ n }}</li>{% endfor %}</ul>
+  {% if result.recommendation.pending_evidence %}<p class="small">Falta evidencia en: {% for s in result.recommendation.pending_evidence %}{{ skills|get:s }}{% if not forloop.last %}, {% endif %}{% endfor %}. <a href="{% url 'diagnostic' %}">Completar el diagnóstico</a>.</p>{% endif %}
+  <p class="small muted">Complementario (opcional): <a href="{% url 'chapter' 'C01' %}">C01 · Identidad académica</a> refuerza la semana 1 y <a href="{% url 'chapter' 'C11' %}">C11 · Resultados y estadística</a> la semana 4.</p>
+</section>
+<p class="small muted">Calculado el {{ result.created_at|date:"d-m-Y H:i" }} con DX01 v{{ result.package_version }}.</p>
+{% endif %}
+{% endblock %}

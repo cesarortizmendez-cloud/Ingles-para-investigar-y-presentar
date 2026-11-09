@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load programs %}
+{% block title %}{{ lesson.title }}{% endblock %}
+{% block content %}
+<p class="crumbs">
+  {% if is_day %}<a href="{% calendar_url day_program.slug %}">{{ day_program.name }}</a> › <a href="{% day_url day_program.slug data.day %}">Día {{ data.day }} · {{ data.title }}</a>{% elif is_diagnostic %}<a href="{% url 'diagnostic' %}">Diagnóstico</a>{% else %}<a href="{% url 'catalog' %}">Ruta</a> › <a href="{% url 'chapter' data.id %}">{{ data.id }} · {{ data.title }}</a>{% endif %}
+</p>
+<h1>{{ lesson.title }}</h1>
+{% if pkg.status == "borrador" %}<p><span class="tag tag-draft">contenido en borrador</span></p>{% endif %}
+<p class="lead">{{ lesson.intro }}</p>
+<p class="muted small">≈ {{ lesson.minutes }} min · puedes dividirla en microactividades de 5–10 minutos.</p>
+
+{% if has_variants %}
+<p class="small">{% if show_all %}Mostrando todas las variantes de especialidad. <a href="?">Ver solo la mía</a>{% else %}Se muestra la variante de tu especialidad. <a href="?variantes=todas">Ver otras variantes</a>{% endif %}</p>
+{% endif %}
+
+{% for r in lesson_resources %}{% include "curriculum/_resource.html" with r=r %}{% endfor %}
+
+{% if data.language_focus.lexis and not is_diagnostic and not is_day %}
+<details class="glossary" data-help-page="glossary">
+  <summary>Glosario del capítulo (si lo abres, se registra como ayuda)</summary>
+  <ul class="small">{% for lx in data.language_focus.lexis %}<li><strong lang="en">{{ lx.form }}</strong>: {{ lx.meaning_es }}</li>{% endfor %}</ul>
+</details>
+{% endif %}
+
+{% for vm in activities %}
+  {% include "activities/_activity.html" with vm=vm %}
+{% endfor %}
+
+<nav class="pager">
+  {% if prev %}<a href="{% url 'lesson' data.id prev.id %}">← {{ prev.title }}</a>{% else %}<span></span>{% endif %}
+  {% if next %}<a href="{% url 'lesson' data.id next.id %}">{{ next.title }} →</a>
+  {% elif is_day %}<a class="button green" href="{% day_url day_program.slug data.day %}">Terminar: volver al día {{ data.day }} →</a>
+  {% elif is_diagnostic %}<a class="button" href="{% url 'diagnostic_result' %}">Ver resultado del diagnóstico →</a>
+  {% else %}<a href="{% url 'chapter' data.id %}">Volver al capítulo →</a>{% endif %}
+</nav>
+{% endblock %}

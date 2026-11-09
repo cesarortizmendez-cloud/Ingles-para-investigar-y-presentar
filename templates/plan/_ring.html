@@ -1,0 +1,33 @@
+<section class="progress-hero">
+  <div class="ring-wrap">
+    <svg viewBox="0 0 220 220" class="ring" role="img" aria-label="Avance: {{ done }} de {{ total }} días completados">
+      {% for s in ring %}<path d="{{ s.d }}" class="seg-{{ s.state }}"><title>Día {{ s.n }}</title></path>{% endfor %}
+      <text x="110" y="104" text-anchor="middle" class="ring-big">{{ done }}<tspan class="ring-of">/{{ total }}</tspan></text>
+      <text x="110" y="128" text-anchor="middle" class="ring-small">días completados</text>
+      <text x="110" y="148" text-anchor="middle" class="ring-pct">{{ pct }} %</text>
+    </svg>
+  </div>
+  <div class="progress-side">
+    <h2>{{ ring_title }}</h2>
+    <ol class="milestones">
+      {% for m in milestones %}
+      <li class="ms{% if m.reached %} reached{% endif %}{% if m.next %} next{% endif %}">
+        <span class="ms-icon">{{ m.icon }}</span>
+        <span class="ms-day">Día {{ m.n }}</span>
+        <span class="ms-label">{{ m.label }}</span>
+        {% if m.next %}<span class="ms-missing">faltan {{ m.missing }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    <div class="mini-stats">
+      <span>🔥 <strong>{{ stats.streak }}</strong> día{{ stats.streak|pluralize }} seguido{{ stats.streak|pluralize }}</span>
+      <span>🔤 <strong>{{ stats.words_seen }}</strong> palabras en repaso</span>
+      <span>🧠 <strong>{{ stats.words_retained }}</strong> recordadas en días distintos</span>
+    </div>
+    {% if projection %}
+      {% if projection.left == 0 %}<p class="proj ok">🎉 ¡Plan completado!</p>
+      {% elif projection.on_track %}<p class="proj ok">✅ Vas al día: si completas un día por día, terminas el <strong>{{ projection.finish|date:"l d \d\e F" }}</strong>.</p>
+      {% else %}<p class="proj late">⏳ Al ritmo de un día por día terminarías el <strong>{{ projection.finish|date:"d \d\e F" }}</strong>, {{ projection.delay_days }} día{{ projection.delay_days|pluralize }} después de lo planeado. Un día extra el fin de semana te pone al día.</p>{% endif %}
+    {% endif %}
+  </div>
+</section>

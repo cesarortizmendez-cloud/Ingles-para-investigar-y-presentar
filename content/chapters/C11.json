@@ -1,0 +1,466 @@
+{
+  "id": "C11",
+  "kind": "chapter",
+  "version": "1.0.0",
+  "status": "borrador",
+  "title": "Resultados y estadística: explicar resultados",
+  "stage": "E3",
+  "order": 11,
+  "product": "Explicación oral de resultados cuantitativos con una limitación, transferida a un caso nuevo",
+  "objectives": [
+    {"id": "C11-O1", "text": "Describir dos resultados cuantitativos con cifras, unidades y comparación correctas.", "critical": true, "skills": ["reading", "speaking"]},
+    {"id": "C11-O2", "text": "Distinguir asociación de causalidad al leer y al hablar.", "critical": true, "skills": ["reading", "speaking"]},
+    {"id": "C11-O3", "text": "Usar lenguaje prudente (suggest, may, was associated with) en lugar de afirmaciones causales.", "critical": true, "skills": ["writing", "speaking"]},
+    {"id": "C11-O4", "text": "Responder una pregunta sobre limitaciones del diseño.", "critical": false, "skills": ["interaction"]}
+  ],
+  "dependencies": {
+    "skills": ["comparaciones", "pasado simple", "porcentajes", "reconocer método y resultado"],
+    "suggested_chapters": ["C04", "C08", "C10"]
+  },
+  "language_level": {
+    "reading": "B2",
+    "listening": "B1+",
+    "speaking": "B1+/B2 con apoyos",
+    "writing": "B1+/B2 con apoyos",
+    "spanish_support": "medio: instrucciones en español, materiales en inglés"
+  },
+  "language_focus": {
+    "lexis": [
+      {"id": "C11-LX01", "form": "was associated with", "meaning_es": "estuvo asociado a (sin afirmar causa)", "example": "The revised procedure was associated with higher output.", "collocations": ["was associated with higher/lower …", "is strongly associated with"], "family": ["associate", "association", "associated"], "register": "académico", "confusions": "No equivale a 'caused'."},
+      {"id": "C11-LX02", "form": "compared with", "meaning_es": "en comparación con", "example": "Output was higher on Line B compared with Line A.", "collocations": ["compared with the baseline"], "family": ["compare", "comparison", "comparative"], "register": "académico", "confusions": "'compared to' también se usa; ambas son aceptables."},
+      {"id": "C11-LX03", "form": "respectively", "meaning_es": "respectivamente (en el mismo orden)", "example": "Defect rates were 4.0% and 3.5%, respectively.", "collocations": ["… and …, respectively"], "family": ["respective"], "register": "académico", "confusions": "El orden de los valores sigue el orden en que se nombraron los grupos."},
+      {"id": "C11-LX04", "form": "percentage points", "meaning_es": "puntos porcentuales", "example": "The defect rate was 0.5 percentage points lower.", "collocations": ["a difference of 0.5 percentage points"], "family": ["percentage", "percent"], "register": "técnico", "confusions": "0,5 puntos porcentuales no es lo mismo que 0,5 %: de 4,0 % a 3,5 % es una reducción relativa de 12,5 %."},
+      {"id": "C11-LX05", "form": "the findings suggest that", "meaning_es": "los hallazgos sugieren que", "example": "The findings suggest that the revised procedure may improve output.", "collocations": ["the results suggest that", "these data suggest"], "family": ["suggest", "suggestion", "suggestive"], "register": "académico", "confusions": "'suggest' no es 'sugerir hacer algo' aquí: indica inferencia prudente."},
+      {"id": "C11-LX06", "form": "may improve", "meaning_es": "podría mejorar", "example": "The revised procedure may improve output.", "collocations": ["may reduce", "may increase"], "family": ["may", "might"], "register": "académico", "confusions": "'may' expresa posibilidad, no permiso, en este contexto."},
+      {"id": "C11-LX07", "form": "do not establish causality", "meaning_es": "no establecen causalidad", "example": "These results do not establish causality.", "collocations": ["establish a causal relationship"], "family": ["cause", "causal", "causality", "causation"], "register": "académico", "confusions": "'casualty' (víctima) es otra palabra: cuidado con el orden de las letras."},
+      {"id": "C11-LX08", "form": "were not randomly assigned", "meaning_es": "no fueron asignados aleatoriamente", "example": "The lines were not randomly assigned to the procedures.", "collocations": ["random assignment", "randomly allocated"], "family": ["random", "randomly", "randomization"], "register": "técnico", "confusions": "Pasiva: el sujeto recibe la asignación."},
+      {"id": "C11-LX09", "form": "further research is needed", "meaning_es": "se necesita más investigación", "example": "Further research is needed to separate the two effects.", "collocations": ["further research is needed to …"], "family": ["further", "furthermore"], "register": "académico", "confusions": "'research' es incontable: no 'researches'."},
+      {"id": "C11-LX10", "form": "one limitation is", "meaning_es": "una limitación es", "example": "One limitation is that the teams had different levels of experience.", "collocations": ["one limitation of this study is that …"], "family": ["limit", "limitation", "limited"], "register": "académico", "confusions": ""},
+      {"id": "C11-LX11", "form": "while", "meaning_es": "mientras que (contraste)", "example": "Line A used the existing procedure, while Line B used a revised one.", "collocations": ["X …, while Y …"], "family": ["whereas"], "register": "neutro", "confusions": "También significa 'mientras' temporal; aquí contrasta dos grupos."},
+      {"id": "C11-LX12", "form": "however", "meaning_es": "sin embargo", "example": "However, the lines were not randomly assigned.", "collocations": ["However, …"], "family": [], "register": "neutro", "confusions": "Va seguido de coma al inicio de la oración."}
+    ],
+    "grammar": [
+      {"id": "C11-G01", "topic": "Pasiva en métodos y limitaciones", "pattern": "were (not) + participio", "example": "The lines were not randomly assigned."},
+      {"id": "C11-G02", "topic": "Modales de cautela", "pattern": "may / might / could + verbo", "example": "The procedure may improve output."},
+      {"id": "C11-G03", "topic": "Comparación de cifras", "pattern": "X was N% higher than Y; a difference of N percentage points", "example": "Output on Line B was 15% higher than on Line A."}
+    ],
+    "pronunciation": [
+      {"id": "C11-P01", "focus": "Números: one hundred and twenty / one hundred and thirty-eight; four point oh / three point five", "note": "En inglés estadounidense es frecuente 'one hundred twenty' sin 'and'; ambas son legítimas."},
+      {"id": "C11-P02", "focus": "Grupos de sentido y pausa antes de 'but they do not establish causality'", "note": "La cautela final lleva énfasis en NOT."},
+      {"id": "C11-P03", "focus": "thirteen /θɜːˈtiːn/ (acento final) frente a thirty /ˈθɜːti/ (acento inicial)", "note": ""}
+    ]
+  },
+  "resources": [
+    {
+      "id": "C11-R01", "type": "text", "title": "Two production lines (texto principal)",
+      "specialty": "industrial",
+      "body": "We compared two production lines over eight weeks. Line A used the existing scheduling procedure, while Line B used a revised procedure. Average daily output was 120 units on Line A and 138 units on Line B. Defect rates were 4.0% and 3.5%, respectively. However, the teams had different levels of experience, and the lines were not randomly assigned to the procedures. The findings suggest that the revised procedure may improve output, but they do not establish causality. Further research is needed to separate the effect of scheduling from the effect of team experience.",
+      "fictional_data": true,
+      "provenance": {"author": "Especificación del curso (C. Ortiz), §17", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    },
+    {
+      "id": "C11-R01C", "type": "chart", "title": "Average daily output (units/day)",
+      "unit": "units/day",
+      "series": [{"label": "Line A", "value": 120}, {"label": "Line B", "value": 138}],
+      "fictional_data": true,
+      "provenance": {"author": "Elaborado a partir de C11-R01", "license": "Original del proyecto", "year": 2026, "adaptation": "gráfico didáctico"}
+    },
+    {
+      "id": "C11-R02", "type": "text", "title": "Transfer case: response times of a web service",
+      "specialty": "informatica",
+      "body": "We compared two versions of a web service over four weeks. Version 1 used the existing cache configuration, while Version 2 used a revised configuration. Median response time was 250 milliseconds for Version 1 and 200 milliseconds for Version 2. Error rates were 1.2% and 1.0%, respectively. However, Version 2 was deployed during a period of lower traffic, and the versions were not tested under the same load.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    },
+    {
+      "id": "C11-R03", "type": "text", "title": "Transfer case: two checkout pages",
+      "specialty": "comercial",
+      "body": "An online store in Chile compared two checkout pages for six weeks. Page A was shown to customers in Santiago, while Page B was shown to customers in Concepción. The conversion rate was 2.5% on Page A and 3.0% on Page B. Average order value was 42,000 and 40,500 pesos, respectively. However, customers in the two cities have different profiles, and customers were not randomly assigned to the pages.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    },
+    {
+      "id": "C11-R05", "type": "text", "title": "Transfer case: two picking methods",
+      "specialty": "industrial",
+      "body": "A distribution centre compared two picking methods for five weeks. Zone 1 used paper lists, while Zone 2 used handheld scanners. Picking accuracy was 96.0% in Zone 1 and 98.5% in Zone 2. Average orders per hour were 52 and 55, respectively. However, Zone 2 handled smaller orders, and the zones were not randomly assigned to the methods.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    },
+    {
+      "id": "C11-R04", "type": "text", "title": "Deferred check: maintenance plans in a plant in Ñuble",
+      "body": "A plant in Ñuble compared two maintenance plans over ten weeks. Machine group 1 kept the existing plan, while group 2 followed a new preventive plan. Unplanned stops were 12 per month in group 1 and 9 per month in group 2. Average repair times were 3.2 and 3.0 hours, respectively. However, group 2 had newer machines, and the plans were not randomly assigned to the groups.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "original didáctico"}
+    }
+  ],
+  "lessons": [
+    {
+      "id": "C11.1", "order": 1, "kind": "comprender", "minutes": 25,
+      "title": "Leer y localizar diseño, duración, resultados y limitación",
+      "intro": "Lee el texto con un propósito: vas a tener que explicarlo después. Primero responde sin traducción.",
+      "resources": ["C11-R01", "C11-R01C"],
+      "activities": [
+        {
+          "id": "C11.1.a1", "type": "choice", "role": "practice", "objectives": ["C11-O2"], "skill": "reading",
+          "prompt": "What kind of study is described?",
+          "options": [
+            {"id": "a", "text": "A randomized experiment with two production lines.", "feedback": "El texto dice explícitamente que las líneas no fueron asignadas aleatoriamente."},
+            {"id": "b", "text": "A comparison of two production lines over eight weeks, without random assignment."},
+            {"id": "c", "text": "A survey of workers about two scheduling procedures.", "feedback": "No se menciona una encuesta: se comparan cifras de producción."}
+          ],
+          "answer": "b",
+          "evidence": {
+            "instruction": "Marca la oración que respalda tu respuesta.",
+            "sentences": [
+              {"id": "s1", "text": "We compared two production lines over eight weeks."},
+              {"id": "s2", "text": "Average daily output was 120 units on Line A and 138 units on Line B."},
+              {"id": "s3", "text": "However, the teams had different levels of experience, and the lines were not randomly assigned to the procedures."}
+            ],
+            "answer": ["s1", "s3"],
+            "feedback": "La oración sobre la producción da resultados, no el diseño. Busca la duración y la asignación."
+          },
+          "explanation": "Es un estudio comparativo de ocho semanas sin asignación aleatoria."
+        },
+        {
+          "id": "C11.1.a2", "type": "numeric", "role": "practice", "objectives": ["C11-O1"], "skill": "reading",
+          "prompt": "Localiza los datos clave. Usa el orden que indica 'respectively'.",
+          "fields": [
+            {"id": "weeks", "label": "Duración (semanas)", "answer": 8},
+            {"id": "out_a", "label": "Producción diaria, Line A (unidades)", "answer": 120},
+            {"id": "out_b", "label": "Producción diaria, Line B (unidades)", "answer": 138},
+            {"id": "def_a", "label": "Tasa de defectos, Line A (%)", "answer": 4.0, "tolerance": 0.001, "hint": "'respectively' asigna el primer valor al primer grupo nombrado."},
+            {"id": "def_b", "label": "Tasa de defectos, Line B (%)", "answer": 3.5, "tolerance": 0.001, "hint": "'respectively' asigna el segundo valor al segundo grupo nombrado."}
+          ],
+          "explanation": "Ocho semanas; 120 y 138 unidades/día; 4,0 % y 3,5 % de defectos."
+        },
+        {
+          "id": "C11.1.a3", "type": "choice", "role": "practice", "objectives": ["C11-O4"], "skill": "reading", "justify": true,
+          "prompt": "Which limitation does the text mention? Justify your answer in English or Spanish.",
+          "options": [
+            {"id": "a", "text": "The study was too short.", "feedback": "El texto no critica la duración."},
+            {"id": "b", "text": "The teams had different experience and the lines were not randomly assigned."},
+            {"id": "c", "text": "The defect rates were measured incorrectly.", "feedback": "No se cuestiona la medición."}
+          ],
+          "answer": "b",
+          "explanation": "La limitación es doble: experiencia distinta de los equipos y ausencia de asignación aleatoria."
+        }
+      ]
+    },
+    {
+      "id": "C11.2", "order": 2, "kind": "descubrir", "minutes": 30,
+      "title": "Calcular e interpretar: percent frente a percentage points",
+      "intro": "Calcula y luego decide cómo decirlo. Los valores no son prueba causal.",
+      "resources": ["C11-R01"],
+      "activities": [
+        {
+          "id": "C11.2.a1", "type": "numeric", "role": "practice", "objectives": ["C11-O1"], "skill": "reading",
+          "prompt": "Calcula: (1) ¿cuánto mayor, en %, es la producción de Line B que la de Line A? (2) ¿Cuál es la diferencia en defectos, en puntos porcentuales?",
+          "fields": [
+            {"id": "rel", "label": "Producción de B respecto de A (% mayor)", "answer": 15, "tolerance": 0.5, "hint": "(138 − 120) / 120 × 100."},
+            {"id": "pp", "label": "Diferencia en defectos (puntos porcentuales)", "answer": 0.5, "tolerance": 0.01, "hint": "Resta directa: 4,0 − 3,5."}
+          ],
+          "explanation": "B produce 15 % más que A; la diferencia de defectos es 0,5 puntos porcentuales (una reducción relativa de 12,5 %)."
+        },
+        {
+          "id": "C11.2.a2", "type": "choice", "role": "practice", "objectives": ["C11-O1"], "skill": "writing",
+          "prompt": "Which sentence describes the defect rates accurately?",
+          "options": [
+            {"id": "a", "text": "The defect rate on Line B was 0.5 percent lower.", "feedback": "'0.5 percent' sugiere una variación relativa; la resta de dos porcentajes se expresa en percentage points."},
+            {"id": "b", "text": "The defect rate on Line B was 0.5 percentage points lower."},
+            {"id": "c", "text": "The defect rate on Line B was 12.5 percentage points lower.", "feedback": "12,5 es la reducción relativa (en %), no la diferencia en puntos."}
+          ],
+          "answer": "b",
+          "explanation": "De 4,0 % a 3,5 % hay 0,5 percentage points; en términos relativos es 12,5 percent."
+        },
+        {
+          "id": "C11.2.a3", "type": "choice", "role": "practice", "objectives": ["C11-O2", "C11-O3"], "skill": "writing",
+          "prompt": "Which statement fits the evidence in the text?",
+          "options": [
+            {"id": "a", "text": "The revised procedure caused a 15% increase in output.", "feedback": "'caused' afirma causalidad, y el diseño no lo permite."},
+            {"id": "b", "text": "The revised procedure proves that scheduling matters.", "feedback": "'proves' es demasiado fuerte para un estudio sin asignación aleatoria."},
+            {"id": "c", "text": "The revised procedure was associated with 15% higher output."}
+          ],
+          "answer": "c",
+          "explanation": "'was associated with' describe la relación observada sin afirmar causa."
+        },
+        {
+          "id": "C11.2.a4", "type": "cloze", "role": "practice", "objectives": ["C11-O3"], "skill": "lexis_grammar",
+          "prompt": "Completa con la palabra que falta (una por espacio).",
+          "text": "Line A used the existing procedure, [[1]] Line B used a revised procedure. Defect rates were 4.0% and 3.5%, [[2]]. [[3]], the lines were not randomly assigned. The findings [[4]] that the revised procedure may improve output.",
+          "gaps": {
+            "1": {"accept": ["while", "whereas"], "hint": "Conector de contraste entre dos grupos."},
+            "2": {"accept": ["respectively"], "hint": "Indica que los valores siguen el orden de los grupos."},
+            "3": {"accept": ["however"], "hint": "Conector que introduce una objeción; va con coma."},
+            "4": {"accept": ["suggest"], "near": {"show": "'show' es más fuerte; el texto usa un verbo de inferencia prudente.", "prove": "'prove' es demasiado fuerte.", "suggests": "'findings' es plural: suggest."}, "hint": "Verbo de inferencia prudente."}
+          }
+        }
+      ]
+    },
+    {
+      "id": "C11.3", "order": 3, "kind": "escuchar", "minutes": 25,
+      "title": "Escuchar cifras, contrastes y cautela",
+      "intro": "Responde primero sin transcripción. Las voces de esta lección son sintetizadas por el navegador.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C11.3.a1", "type": "listening", "role": "practice", "objectives": ["C11-O1"], "skill": "listening",
+          "prompt": "Escucha y escribe las cifras.",
+          "audio": {"text": "Average daily output was one hundred and twenty units on Line A and one hundred and thirty-eight units on Line B. Defect rates were four point oh percent and three point five percent, respectively.", "voice": "en-GB", "source": "sintetizada"},
+          "transcript": "Average daily output was one hundred and twenty units on Line A and one hundred and thirty-eight units on Line B. Defect rates were four point oh percent and three point five percent, respectively.",
+          "questions": [
+            {"id": "q1", "label": "Cifras de producción", "fields": [
+              {"id": "a", "label": "Line A (units)", "answer": 120},
+              {"id": "b", "label": "Line B (units)", "answer": 138}
+            ]},
+            {"id": "q2", "label": "Defectos", "fields": [
+              {"id": "a", "label": "Line A (%)", "answer": 4.0, "tolerance": 0.001},
+              {"id": "b", "label": "Line B (%)", "answer": 3.5, "tolerance": 0.001}
+            ]}
+          ]
+        },
+        {
+          "id": "C11.3.a2", "type": "listening", "role": "practice", "objectives": ["C11-O1"], "skill": "listening",
+          "prompt": "Discrimina números parecidos.",
+          "audio": {"text": "The pilot lasted thirteen weeks. Output increased by fifteen percent.", "voice": "en-US", "source": "sintetizada"},
+          "transcript": "The pilot lasted thirteen weeks. Output increased by fifteen percent.",
+          "questions": [
+            {"id": "q1", "label": "Duración", "prompt": "How long did the pilot last?", "options": [{"id": "a", "text": "13 weeks"}, {"id": "b", "text": "30 weeks", "feedback": "thirTEEN lleva el acento al final; THIRty, al inicio."}], "answer": "a"},
+            {"id": "q2", "label": "Aumento", "prompt": "By how much did output increase?", "options": [{"id": "a", "text": "50%", "feedback": "FIFty lleva el acento al inicio; fifTEEN, al final."}, {"id": "b", "text": "15%"}], "answer": "b"}
+          ]
+        },
+        {
+          "id": "C11.3.a3", "type": "dictation", "role": "practice", "objectives": ["C11-O4"], "skill": "listening",
+          "prompt": "Dictado breve: escribe la oración completa.",
+          "audio": {"text": "However, the lines were not randomly assigned to the procedures.", "voice": "en-US", "source": "sintetizada"},
+          "answer": "However, the lines were not randomly assigned to the procedures."
+        },
+        {
+          "id": "C11.3.a4", "type": "oral", "role": "practice", "objectives": ["C11-O3"], "skill": "speaking",
+          "prompt": "Shadowing: escucha el modelo, imita el ritmo y la pausa antes de 'but', con énfasis en NOT. Luego, sin mirar el texto, explica en una oración qué significa.",
+          "model": {"text": "The findings suggest that the revised procedure may improve output, but they do not establish causality.", "voice": "en-GB", "source": "sintetizada", "chunks": ["The findings suggest | that the revised procedure | may improve output, ||", "but they do NOT | establish causality."]},
+          "min_seconds": 5, "max_seconds": 45,
+          "self_check": ["Hice una pausa antes de 'but'.", "Marqué el énfasis en 'not'.", "Pronuncié la -s final de 'findings' y 'suggest' sin vocal añadida."]
+        }
+      ]
+    },
+    {
+      "id": "C11.4", "order": 4, "kind": "recuperar", "minutes": 30,
+      "title": "Recuperar y aplicar: reformular una afirmación exagerada",
+      "intro": "Sin modelo a la vista. Los últimos cinco ítems son de comprobación: cuenta tu primer intento.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C11.4.a1", "type": "short_text", "role": "practice", "objectives": ["C11-O3"], "skill": "lexis_grammar",
+          "prompt": "Quieres decir que el procedimiento nuevo estuvo asociado a más producción, sin afirmar causa. Completa: «The revised procedure ______ higher output.»",
+          "accept": ["was associated with"],
+          "near": {"caused": "'caused' afirma causalidad; el diseño no lo permite.", "is associated with": "Correcto en estructura, pero el estudio ya terminó: usa pasado (was).", "associated with": "Falta el verbo: was associated with."},
+          "hint": "Expresión de tres palabras con 'associated'."
+        },
+        {
+          "id": "C11.4.a2", "type": "open_text", "role": "practice", "objectives": ["C11-O2", "C11-O3"], "skill": "writing",
+          "prompt": "Reformula esta afirmación para que respete el diseño comparativo y sus límites: «The new procedure caused a 15% increase.» Escribe una o dos oraciones en inglés.",
+          "min_words": 12, "max_words": 60,
+          "checks": [
+            {"id": "no_causal", "none_of": ["caused", "proves", "proved", "causes"], "feedback": "Evita 'caused' o 'proves': el estudio no permite afirmar causa."},
+            {"id": "cautious", "any_of": ["associated with", "may", "might", "suggest", "suggests", "could"], "feedback": "Usa lenguaje prudente: 'was associated with', 'may', 'suggest'."},
+            {"id": "limit", "any_of": ["randomly", "random", "experience", "causality", "causal"], "feedback": "Menciona el límite: sin asignación aleatoria o la experiencia distinta de los equipos."},
+            {"id": "figure", "any_of": ["15%", "15 percent", "15", "fifteen"], "feedback": "Conserva la cifra (15 %) al reformular."}
+          ]
+        },
+        {
+          "id": "C11.4.a3", "type": "choice", "role": "check", "objectives": ["C11-O2"], "skill": "reading",
+          "prompt": "A study compared two warehouses. Warehouse 1 introduced a new layout and had 8% fewer delays than Warehouse 2. The warehouses were in different regions. Which conclusion is appropriate?",
+          "options": [
+            {"id": "a", "text": "The new layout reduced delays by 8%."},
+            {"id": "b", "text": "The new layout was associated with fewer delays, but regional differences may explain part of the gap."},
+            {"id": "c", "text": "Regional differences caused the delays."}
+          ],
+          "answer": "b",
+          "explanation": "Sin asignación aleatoria y con regiones distintas, solo puede hablarse de asociación."
+        },
+        {
+          "id": "C11.4.a4", "type": "choice", "role": "check", "objectives": ["C11-O1"], "skill": "reading",
+          "prompt": "Absenteeism fell from 6% to 4%. Which description is correct?",
+          "options": [
+            {"id": "a", "text": "It fell by 2 percent."},
+            {"id": "b", "text": "It fell by 2 percentage points, a relative reduction of about 33%."},
+            {"id": "c", "text": "It fell by 33 percentage points."}
+          ],
+          "answer": "b",
+          "explanation": "6 − 4 = 2 puntos porcentuales; 2/6 ≈ 33 % de reducción relativa."
+        },
+        {
+          "id": "C11.4.a5", "type": "cloze", "role": "check", "objectives": ["C11-O1", "C11-O3"], "skill": "lexis_grammar",
+          "prompt": "Completa el texto nuevo (una palabra por espacio).",
+          "text": "Team X used the old software, [[1]] Team Y used the new version. Average task times were 14 and 11 minutes, [[2]]. The results [[3]] that the new version may save time.",
+          "gaps": {
+            "1": {"accept": ["while", "whereas"]},
+            "2": {"accept": ["respectively"]},
+            "3": {"accept": ["suggest"], "near": {"prove": "'prove' es demasiado fuerte.", "suggests": "'results' es plural: suggest."}}
+          }
+        },
+        {
+          "id": "C11.4.a6", "type": "numeric", "role": "check", "objectives": ["C11-O1"], "skill": "reading",
+          "prompt": "Line C produced 150 units per day and Line D produced 120. How many percent more did Line C produce than Line D?",
+          "fields": [{"id": "rel", "label": "% más", "answer": 25, "tolerance": 0.5, "hint": "(150 − 120) / 120 × 100."}]
+        },
+        {
+          "id": "C11.4.a7", "type": "short_text", "role": "check", "objectives": ["C11-O4"], "skill": "lexis_grammar",
+          "prompt": "Quieres introducir una limitación al final de tu exposición. Completa: «______ that the teams had different levels of experience.» (tres palabras)",
+          "accept": ["one limitation is", "a limitation is"],
+          "near": {"one limitation was": "Válido en un informe pasado; aquí se pide presente: is."}
+        }
+      ]
+    },
+    {
+      "id": "C11.5", "order": 5, "kind": "producir", "minutes": 30,
+      "title": "Producir e interactuar: explicar y defender los límites",
+      "intro": "Graba sin leer un guion completo. Puedes usar notas de tres o cuatro palabras.",
+      "resources": ["C11-R01C"],
+      "activities": [
+        {
+          "id": "C11.5.a1", "type": "oral", "role": "practice", "objectives": ["C11-O1", "C11-O2", "C11-O3"], "skill": "speaking", "rubric": "oral",
+          "prompt": "Explica en 60–90 segundos los resultados del estudio de las dos líneas: diseño, dos cifras con su comparación y una limitación.",
+          "min_seconds": 60, "max_seconds": 90,
+          "checks": [
+            {"id": "fig_out", "any_of": ["120", "138", "one hundred and twenty", "one hundred twenty", "hundred and thirty-eight", "hundred thirty-eight"], "feedback": "No aparecen las cifras de producción en la transcripción."},
+            {"id": "cautious", "any_of": ["associated", "suggest", "suggests", "may", "might"], "feedback": "Incluye lenguaje prudente: 'was associated with' o 'the findings suggest'."},
+            {"id": "no_causal", "none_of": ["caused", "proves", "proved"], "feedback": "Evita 'caused' o 'proves'."},
+            {"id": "limit", "any_of": ["random", "randomly", "experience"], "feedback": "Menciona la limitación: experiencia o asignación no aleatoria."}
+          ]
+        },
+        {
+          "id": "C11.5.a2", "type": "oral", "role": "practice", "objectives": ["C11-O4"], "skill": "interaction", "rubric": "interaction",
+          "prompt": "Pregunta del público: «Why can't you conclude that scheduling caused the difference?» Responde en 30–60 segundos. Si no entiendes, pide aclaración (Could you clarify…?).",
+          "model": {"text": "Why can't you conclude that scheduling caused the difference?", "voice": "en-US", "source": "sintetizada"},
+          "min_seconds": 30, "max_seconds": 60,
+          "follow_ups": ["Could the difference be explained by team experience alone?", "What would you change in a follow-up study?"],
+          "checks": [
+            {"id": "limit", "any_of": ["random", "randomly", "experience", "assigned"], "feedback": "La respuesta debe nombrar la razón: sin asignación aleatoria o experiencia distinta."},
+            {"id": "future", "any_of": ["further research", "future", "follow-up", "next study", "randomly assign"], "feedback": "Propón cómo separar los efectos en un estudio futuro."}
+          ]
+        },
+        {
+          "id": "C11.5.a3", "type": "open_text", "role": "practice", "objectives": ["C11-O1", "C11-O3"], "skill": "writing", "rubric": "writing",
+          "prompt": "Escribe en inglés un párrafo de 80–120 palabras con los resultados y una limitación. Atribuye la información al estudio (The study compared…).",
+          "min_words": 80, "max_words": 120,
+          "checks": [
+            {"id": "figures", "all_of": ["120", "138"], "feedback": "Incluye las dos cifras de producción."},
+            {"id": "pp", "any_of": ["percentage points", "percentage point"], "feedback": "Expresa la diferencia de defectos en percentage points."},
+            {"id": "cautious", "any_of": ["associated with", "suggest", "suggests", "may"], "feedback": "Usa lenguaje prudente."},
+            {"id": "no_causal", "none_of": ["caused", "proves"], "feedback": "Evita afirmaciones causales."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C11.6", "order": 6, "kind": "tarea", "minutes": 35,
+      "title": "Resolver la tarea: transferir a un caso nuevo",
+      "intro": "Caso nuevo de tu especialidad. No copies el modelo: presenta resultados y una limitación con tus palabras.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C11.6.a1i", "type": "oral", "role": "final", "variant_group": "C11-final", "specialty": "industrial",
+          "objectives": ["C11-O1", "C11-O2", "C11-O3", "C11-O4"], "skill": "speaking", "rubric": "oral",
+          "resources": ["C11-R05"],
+          "prompt": "Presenta en 60–120 segundos los resultados del caso de picking: dos cifras con comparación (incluye percentage points), una interpretación prudente y una limitación.",
+          "min_seconds": 60, "max_seconds": 120,
+          "checks": [
+            {"id": "figs", "any_of": ["96", "98.5", "98 point 5", "ninety-eight point five", "52", "55"], "feedback": "Incluye las cifras del caso."},
+            {"id": "pp", "any_of": ["percentage points", "percentage point"], "feedback": "La diferencia de exactitud (2,5) se expresa en percentage points."},
+            {"id": "cautious", "any_of": ["associated", "suggest", "may", "might"], "feedback": "Interpreta con prudencia."},
+            {"id": "limit", "any_of": ["random", "randomly", "smaller orders", "smaller"], "feedback": "Menciona la limitación del caso: pedidos más pequeños o sin asignación aleatoria."}
+          ]
+        },
+        {
+          "id": "C11.6.a1t", "type": "oral", "role": "final", "variant_group": "C11-final", "specialty": "informatica",
+          "objectives": ["C11-O1", "C11-O2", "C11-O3", "C11-O4"], "skill": "speaking", "rubric": "oral",
+          "resources": ["C11-R02"],
+          "prompt": "Presenta en 60–120 segundos los resultados del servicio web: dos cifras con comparación (200 ms es 20 % menos que 250 ms; errores: 0,2 percentage points), una interpretación prudente y una limitación.",
+          "min_seconds": 60, "max_seconds": 120,
+          "checks": [
+            {"id": "figs", "any_of": ["250", "200", "milliseconds"], "feedback": "Incluye los tiempos de respuesta."},
+            {"id": "cautious", "any_of": ["associated", "suggest", "may", "might"], "feedback": "Interpreta con prudencia."},
+            {"id": "limit", "any_of": ["traffic", "load", "random", "randomly"], "feedback": "Menciona la limitación: menor tráfico o carga distinta."}
+          ]
+        },
+        {
+          "id": "C11.6.a1c", "type": "oral", "role": "final", "variant_group": "C11-final", "specialty": "comercial",
+          "objectives": ["C11-O1", "C11-O2", "C11-O3", "C11-O4"], "skill": "speaking", "rubric": "oral",
+          "resources": ["C11-R03"],
+          "prompt": "Presenta en 60–120 segundos los resultados de las páginas de pago: dos cifras con comparación (de 2,5 % a 3,0 % hay 0,5 percentage points), una interpretación prudente y una limitación.",
+          "min_seconds": 60, "max_seconds": 120,
+          "checks": [
+            {"id": "figs", "any_of": ["2.5", "3.0", "two point five", "three percent"], "feedback": "Incluye las tasas de conversión."},
+            {"id": "pp", "any_of": ["percentage points", "percentage point"], "feedback": "Expresa la diferencia en percentage points."},
+            {"id": "cautious", "any_of": ["associated", "suggest", "may", "might"], "feedback": "Interpreta con prudencia."},
+            {"id": "limit", "any_of": ["random", "randomly", "profiles", "cities", "city"], "feedback": "Menciona la limitación: ciudades con perfiles distintos, sin asignación aleatoria."}
+          ]
+        },
+        {
+          "id": "C11.6.a2", "type": "open_text", "role": "practice", "objectives": [], "skill": "writing",
+          "prompt": "Plan de mejora: después de evaluar tu grabación con la rúbrica, escribe (en español o inglés) dos prioridades concretas y qué frase vas a volver a grabar.",
+          "min_words": 10, "max_words": 80,
+          "checks": []
+        }
+      ]
+    }
+  ],
+  "adaptation": {
+    "base": "Texto principal industrial (C11-R01) para todos; tarea final con variante por especialidad.",
+    "supports": ["Velocidad de audio ajustable", "Transcripción tras responder", "Glosario del capítulo", "Notas breves para la grabación"],
+    "challenge": "Explicar el estudio en 90, 60 y 45 segundos (fluidez 4/3/2 adaptada).",
+    "specialty_variants": {"industrial": "C11-R05", "informatica": "C11-R02", "comercial": "C11-R03"}
+  },
+  "assessment": {
+    "final_task": "C11-final",
+    "essential_criteria": ["task", "intelligibility"],
+    "deferred_check": {
+      "min_days": 7, "max_days": 14, "threshold": 0.75,
+      "resources": ["C11-R04"],
+      "activities": [
+        {
+          "id": "C11.D.a1", "type": "numeric", "role": "deferred", "objectives": ["C11-O1"], "skill": "reading", "resources": ["C11-R04"],
+          "prompt": "Según el caso de mantenimiento: (1) ¿cuántos por ciento menos detenciones tuvo el grupo 2? (2) ¿Cuál es la diferencia de tiempo medio de reparación, en horas?",
+          "fields": [
+            {"id": "rel", "label": "% menos detenciones (grupo 2 frente a grupo 1)", "answer": 25, "tolerance": 0.5, "hint": "(12 − 9) / 12 × 100."},
+            {"id": "hours", "label": "Diferencia de reparación (horas)", "answer": 0.2, "tolerance": 0.01, "hint": "'respectively': 3,2 corresponde al grupo 1."}
+          ]
+        },
+        {
+          "id": "C11.D.a2", "type": "choice", "role": "deferred", "objectives": ["C11-O2"], "skill": "reading", "resources": ["C11-R04"],
+          "prompt": "Which conclusion fits the maintenance case?",
+          "options": [
+            {"id": "a", "text": "The preventive plan caused 25% fewer stops."},
+            {"id": "b", "text": "The preventive plan was associated with fewer stops, but the newer machines may explain part of the difference."},
+            {"id": "c", "text": "Newer machines have no effect on stops."}
+          ],
+          "answer": "b"
+        },
+        {
+          "id": "C11.D.a3", "type": "short_text", "role": "deferred", "objectives": ["C11-O3"], "skill": "lexis_grammar",
+          "prompt": "Completa sin afirmar causa: «The preventive plan ______ fewer unplanned stops.» (tres palabras)",
+          "accept": ["was associated with"],
+          "near": {"caused": "'caused' afirma causalidad."}
+        },
+        {
+          "id": "C11.D.a4", "type": "cloze", "role": "deferred", "objectives": ["C11-O1", "C11-O4"], "skill": "lexis_grammar",
+          "prompt": "Completa (una palabra por espacio).",
+          "text": "Unplanned stops were 12 and 9 per month, [[1]]. [[2]], the plans were not [[3]] assigned to the groups.",
+          "gaps": {
+            "1": {"accept": ["respectively"]},
+            "2": {"accept": ["however"]},
+            "3": {"accept": ["randomly"], "near": {"random": "Se necesita el adverbio: randomly."}}
+          }
+        }
+      ]
+    }
+  },
+  "quality": {
+    "authors": ["César Ortiz (especificación §17)", "Claude (implementación y casos de transferencia)"],
+    "reviewed_by": "",
+    "license": "Original del proyecto",
+    "date": "2026-11-05",
+    "changelog": [{"version": "1.0.0", "date": "2026-11-05", "change": "Versión piloto inicial."}]
+  }
+}

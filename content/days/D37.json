@@ -1,0 +1,879 @@
+{
+ "id": "D37",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Explicar un gráfico en voz alta",
+ "day": 37,
+ "week": 6,
+ "day_type": "aprendizaje",
+ "intro": "Hoy practicas el momento más importante de una charla científica: explicar un gráfico de forma clara y ordenada.",
+ "objectives": [
+  {
+   "id": "D37-O1",
+   "text": "Describir ejes, unidades y tendencia de un gráfico."
+  },
+  {
+   "id": "D37-O2",
+   "text": "Destacar el dato más importante y su interpretación."
+  },
+  {
+   "id": "D37-O3",
+   "text": "Explicar un gráfico en 45–60 segundos."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D37-LX01",
+    "form": "horizontal axis",
+    "meaning_es": "eje horizontal",
+    "example": "The horizontal axis shows the months.",
+    "example_es": "El eje horizontal muestra los meses.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX02",
+    "form": "vertical axis",
+    "meaning_es": "eje vertical",
+    "example": "The vertical axis shows energy use.",
+    "example_es": "El eje vertical muestra el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX03",
+    "form": "bar chart",
+    "meaning_es": "gráfico de barras",
+    "example": "This bar chart compares the shifts.",
+    "example_es": "Este gráfico de barras compara los turnos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX04",
+    "form": "line graph",
+    "meaning_es": "gráfico de líneas",
+    "example": "The line graph shows the trend.",
+    "example_es": "El gráfico de líneas muestra la tendencia.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX05",
+    "form": "each bar",
+    "meaning_es": "cada barra",
+    "example": "Each bar represents one sawmill.",
+    "example_es": "Cada barra representa un aserradero.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX06",
+    "form": "represent",
+    "meaning_es": "representar",
+    "example": "The blue line will represent the night shift.",
+    "example_es": "La línea azul representará el turno de noche.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX07",
+    "form": "compare",
+    "meaning_es": "comparar",
+    "example": "Let's compare the two shifts.",
+    "example_es": "Comparemos los dos turnos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX08",
+    "form": "highlight",
+    "meaning_es": "destacar",
+    "example": "I want to highlight one point.",
+    "example_es": "Quiero destacar un punto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX09",
+    "form": "notice",
+    "meaning_es": "notar, observar",
+    "example": "Please notice the peak in July.",
+    "example_es": "Por favor noten el máximo en julio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX10",
+    "form": "in other words",
+    "meaning_es": "en otras palabras",
+    "example": "In other words, nights are less efficient.",
+    "example_es": "En otras palabras, las noches son menos eficientes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX11",
+    "form": "striking",
+    "meaning_es": "llamativo/a",
+    "example": "The most striking result is the July peak.",
+    "example_es": "El resultado más llamativo es el máximo de julio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D37-LX12",
+    "form": "on the left",
+    "meaning_es": "a la izquierda",
+    "example": "On the left you can see the day shift.",
+    "example_es": "A la izquierda pueden ver el turno de día.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D37-G1",
+    "topic": "Explicar un gráfico: un orden en cuatro pasos"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D37-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "horizontal axis",
+     "meaning_es": "eje horizontal",
+     "example": "The horizontal axis shows the months.",
+     "example_es": "El eje horizontal muestra los meses."
+    },
+    {
+     "form": "vertical axis",
+     "meaning_es": "eje vertical",
+     "example": "The vertical axis shows energy use.",
+     "example_es": "El eje vertical muestra el uso de energía."
+    },
+    {
+     "form": "bar chart",
+     "meaning_es": "gráfico de barras",
+     "example": "This bar chart compares the shifts.",
+     "example_es": "Este gráfico de barras compara los turnos."
+    },
+    {
+     "form": "line graph",
+     "meaning_es": "gráfico de líneas",
+     "example": "The line graph shows the trend.",
+     "example_es": "El gráfico de líneas muestra la tendencia."
+    },
+    {
+     "form": "each bar",
+     "meaning_es": "cada barra",
+     "example": "Each bar represents one sawmill.",
+     "example_es": "Cada barra representa un aserradero."
+    },
+    {
+     "form": "represent",
+     "meaning_es": "representar",
+     "example": "The blue line will represent the night shift.",
+     "example_es": "La línea azul representará el turno de noche."
+    },
+    {
+     "form": "compare",
+     "meaning_es": "comparar",
+     "example": "Let's compare the two shifts.",
+     "example_es": "Comparemos los dos turnos."
+    },
+    {
+     "form": "highlight",
+     "meaning_es": "destacar",
+     "example": "I want to highlight one point.",
+     "example_es": "Quiero destacar un punto."
+    },
+    {
+     "form": "notice",
+     "meaning_es": "notar, observar",
+     "example": "Please notice the peak in July.",
+     "example_es": "Por favor noten el máximo en julio."
+    },
+    {
+     "form": "in other words",
+     "meaning_es": "en otras palabras",
+     "example": "In other words, nights are less efficient.",
+     "example_es": "En otras palabras, las noches son menos eficientes."
+    },
+    {
+     "form": "striking",
+     "meaning_es": "llamativo/a",
+     "example": "The most striking result is the July peak.",
+     "example_es": "El resultado más llamativo es el máximo de julio."
+    },
+    {
+     "form": "on the left",
+     "meaning_es": "a la izquierda",
+     "example": "On the left you can see the day shift.",
+     "example_es": "A la izquierda pueden ver el turno de día."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D37-RG",
+   "type": "capsule",
+   "title": "Explicar un gráfico: un orden en cuatro pasos",
+   "explain": "Un buen orden para explicar un gráfico en voz alta:\n1) QUÉ ES: This line graph shows monthly energy use in three sawmills.\n2) CÓMO LEERLO: The horizontal axis shows the months, and the vertical axis shows kilowatt hours. Each line represents one sawmill.\n3) LO IMPORTANTE: As you can see, energy use rises sharply in May and reaches a peak in July. The most striking result is…\n4) QUÉ SIGNIFICA: In other words, … This suggests that…\nGramática: presente simple para describir el gráfico (shows, represents, rises), aunque los datos sean del pasado.",
+   "form": [
+    [
+     "This (bar chart / line graph) shows…",
+     "qué es"
+    ],
+    [
+     "The horizontal / vertical axis shows…",
+     "cómo leerlo"
+    ],
+    [
+     "As you can see, … rises / falls / reaches a peak",
+     "lo importante"
+    ],
+    [
+     "In other words, … / This suggests that…",
+     "qué significa"
+    ]
+   ],
+   "examples": [
+    [
+     "This bar chart compares energy use per unit in the day and night shifts.",
+     "Este gráfico de barras compara el uso de energía por unidad en los turnos de día y de noche."
+    ],
+    [
+     "The vertical axis shows kilowatt hours per unit.",
+     "El eje vertical muestra kilovatios hora por unidad."
+    ],
+    [
+     "In other words, night shifts are about twelve percent less efficient.",
+     "En otras palabras, los turnos de noche son alrededor de un doce por ciento menos eficientes."
+    ]
+   ],
+   "tip": "Señala con la mano o el puntero lo que nombras, y haz una pausa después del dato más importante.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D37-RR",
+   "type": "text",
+   "title": "Script for Figure 3",
+   "body": "Now let me turn to Figure 3. This bar chart compares energy use per unit in the day and night shifts. Each pair of bars represents one sawmill. On the left you can see the day shift, and on the right the night shift. The vertical axis shows kilowatt hours per cubic metre of wood. Please notice that the night bar is higher in all three sawmills. The most striking result is in sawmill A, where the difference is almost twenty percent. In other words, the pattern is consistent.",
+   "translation_es": "Ahora paso a la Figura 3. Este gráfico de barras compara el uso de energía por unidad en los turnos de día y de noche. Cada par de barras representa un aserradero. A la izquierda pueden ver el turno de día, y a la derecha el turno de noche. El eje vertical muestra kilovatios hora por metro cúbico de madera. Por favor noten que la barra de noche es más alta en los tres aserraderos. El resultado más llamativo está en el aserradero A, donde la diferencia es de casi un veinte por ciento. En otras palabras, el patrón es constante.",
+   "glossary": [
+    [
+     "pair of bars",
+     "par de barras"
+    ],
+    [
+     "cubic metre",
+     "metro cúbico"
+    ],
+    [
+     "almost",
+     "casi"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D37.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D37-RV"
+   ],
+   "activities": [
+    {
+     "id": "D37.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The [[1]] shows the months.  (2) This [[2]] compares the shifts.  (3) The [[3]] shows the trend.  (4) The blue line will [[4]] the night shift.  (5) Please [[5]] the peak in July.  (6) [[6]] you can see the day shift.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "horizontal axis"
+       ],
+       "hint": "Significa «eje horizontal»."
+      },
+      "2": {
+       "accept": [
+        "bar chart"
+       ],
+       "hint": "Significa «gráfico de barras»."
+      },
+      "3": {
+       "accept": [
+        "line graph"
+       ],
+       "hint": "Significa «gráfico de líneas»."
+      },
+      "4": {
+       "accept": [
+        "represent"
+       ],
+       "hint": "Significa «representar»."
+      },
+      "5": {
+       "accept": [
+        "notice"
+       ],
+       "hint": "Significa «notar, observar»."
+      },
+      "6": {
+       "accept": [
+        "on the left"
+       ],
+       "hint": "Significa «a la izquierda»."
+      }
+     }
+    },
+    {
+     "id": "D37.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «llamativo/a»",
+     "accept": [
+      "striking"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: El resultado más llamativo es el máximo de julio."
+    },
+    {
+     "id": "D37.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «comparar»",
+     "accept": [
+      "compare"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Comparemos los dos turnos."
+    },
+    {
+     "id": "D37.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en otras palabras»",
+     "accept": [
+      "in other words"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: En otras palabras, las noches son menos eficientes."
+    },
+    {
+     "id": "D37.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «eje vertical»",
+     "accept": [
+      "vertical axis"
+     ],
+     "hint": "Empieza con «ve…» · Ejemplo: El eje vertical muestra el uso de energía."
+    },
+    {
+     "id": "D37.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cada barra»",
+     "accept": [
+      "each bar"
+     ],
+     "hint": "Empieza con «ea…» · Ejemplo: Cada barra representa un aserradero."
+    },
+    {
+     "id": "D37.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «destacar»",
+     "accept": [
+      "highlight"
+     ],
+     "hint": "Empieza con «hi…» · Ejemplo: Quiero destacar un punto."
+    },
+    {
+     "id": "D37.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The most striking result is the July peak.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The most striking result is the July peak."
+    }
+   ]
+  },
+  {
+   "id": "D37.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Explicar un gráfico: un orden en cuatro pasos",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D37-RG"
+   ],
+   "activities": [
+    {
+     "id": "D37.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) This line graph [[1]] monthly energy use. (muestra)  (2) The horizontal [[2]] shows the months.  (3) Each bar [[3]] one sawmill. (representa)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "shows"
+       ],
+       "hint": "presente simple"
+      },
+      "2": {
+       "accept": [
+        "axis"
+       ]
+      },
+      "3": {
+       "accept": [
+        "represents"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D37.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) As you can see, energy use reaches a [[1]] in July.  (2) In other [[2]], nights are less efficient.  (3) I want to [[3]] one point. (destacar)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "peak"
+       ]
+      },
+      "2": {
+       "accept": [
+        "words"
+       ]
+      },
+      "3": {
+       "accept": [
+        "highlight"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D37.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué tiempo verbal se usa para describir lo que muestra un gráfico?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Presente simple (shows)"
+      },
+      {
+       "id": "b",
+       "text": "Pasado continuo (was showing)"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D37.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es el paso 2 del orden recomendado?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Explicar los ejes y qué representa cada elemento"
+      },
+      {
+       "id": "b",
+       "text": "Dar las gracias"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D37.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe la explicación de un gráfico de tu trabajo siguiendo los 4 pasos (qué es, ejes, lo importante, qué significa).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "shows",
+        "axis",
+        "as you can see",
+        "in other words",
+        "represents"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D37.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Ana explica la Figura 2",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D37.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Ana explica la Figura 2: escucha sin leer y responde.",
+     "audio": {
+      "text": "This line graph shows monthly energy use in the three sawmills. The horizontal axis shows the months, and the vertical axis shows kilowatt hours. As you can see, energy use rises sharply in May and reaches a peak in July. In other words, winter is the critical period.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "This line graph shows monthly energy use in the three sawmills. The horizontal axis shows the months, and the vertical axis shows kilowatt hours. As you can see, energy use rises sharply in May and reaches a peak in July. In other words, winter is the critical period.",
+     "translation_es": "Este gráfico de líneas muestra el uso mensual de energía en los tres aserraderos. El eje horizontal muestra los meses y el eje vertical muestra los kilovatios hora. Como pueden ver, el uso de energía sube bruscamente en mayo y alcanza su máximo en julio. En otras palabras, el invierno es el período crítico.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué tipo de gráfico es?",
+       "label": "¿Qué tipo de gráfico es?",
+       "options": [
+        {
+         "id": "a",
+         "text": "De barras"
+        },
+        {
+         "id": "b",
+         "text": "De líneas"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué muestra el eje vertical?",
+       "label": "¿Qué muestra el eje vertical?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Los meses"
+        },
+        {
+         "id": "b",
+         "text": "Los kilovatios hora"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuál es el período crítico?",
+       "label": "¿Cuál es el período crítico?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El verano"
+        },
+        {
+         "id": "b",
+         "text": "El invierno"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D37.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "In other words, winter is the critical period.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "In other words, winter is the critical period."
+    }
+   ]
+  },
+  {
+   "id": "D37.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Script for Figure 3",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D37-RR"
+   ],
+   "activities": [
+    {
+     "id": "D37.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué representa cada par de barras?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un mes"
+      },
+      {
+       "id": "b",
+       "text": "Un aserradero"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D37.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde está el resultado más llamativo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Aserradero A"
+      },
+      {
+       "id": "b",
+       "text": "Aserradero C"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D37.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué unidad muestra el eje vertical?",
+     "options": [
+      {
+       "id": "a",
+       "text": "kWh por metro cúbico de madera"
+      },
+      {
+       "id": "b",
+       "text": "Dólares por mes"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D37.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D37.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Now let me turn to Figure 3. This bar chart compares energy use per unit in the day and night shifts.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Now let me turn to Figure 3.",
+       "This bar chart compares energy use per unit in the day and night shifts."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D37.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en voz alta (45–60 s) un gráfico de tu trabajo (o la Figura 3 de Ana) con los 4 pasos: qué es, cómo leerlo, lo importante, qué significa.",
+     "min_seconds": 45,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "horizontal axis",
+        "vertical axis",
+        "bar chart",
+        "line graph",
+        "each bar",
+        "represent",
+        "compare",
+        "highlight",
+        "notice",
+        "in other words",
+        "striking",
+        "on the left"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D37.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D37.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe el guion (50–90 palabras) para explicar un gráfico de tu área, con los 4 pasos de hoy.",
+     "min_words": 45,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "horizontal axis",
+        "vertical axis",
+        "bar chart",
+        "line graph",
+        "each bar",
+        "represent",
+        "compare",
+        "highlight",
+        "notice",
+        "in other words",
+        "striking",
+        "on the left"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "shows",
+        "axis",
+        "as you can see",
+        "in other words",
+        "represents"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

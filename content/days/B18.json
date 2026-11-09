@@ -1,0 +1,918 @@
+{
+ "id": "B18",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Planes e invitaciones: going to y will",
+ "day": 18,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas del futuro: planes con «going to», decisiones y promesas con «will», y cómo invitar y aceptar una invitación.",
+ "objectives": [
+  {
+   "id": "B18-O1",
+   "text": "Contar tus planes con be going to."
+  },
+  {
+   "id": "B18-O2",
+   "text": "Usar will para decisiones del momento, ofrecimientos y promesas."
+  },
+  {
+   "id": "B18-O3",
+   "text": "Invitar, aceptar y rechazar con cortesía."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B18-LX01",
+    "form": "tomorrow",
+    "meaning_es": "mañana (el día siguiente)",
+    "example": "Tomorrow I'm going to visit Harvard.",
+    "example_es": "Mañana voy a visitar Harvard.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX02",
+    "form": "next week",
+    "meaning_es": "la próxima semana",
+    "example": "Next week we are going to have an exam.",
+    "example_es": "La próxima semana vamos a tener un examen.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX03",
+    "form": "plan",
+    "meaning_es": "plan",
+    "example": "What is your plan for Saturday?",
+    "example_es": "¿Cuál es tu plan para el sábado?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX04",
+    "form": "invite",
+    "meaning_es": "invitar",
+    "example": "I want to invite you to dinner.",
+    "example_es": "Quiero invitarte a cenar.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX05",
+    "form": "meet",
+    "meaning_es": "juntarse, encontrarse",
+    "example": "Let's meet at the café at five.",
+    "example_es": "Juntémonos en el café a las cinco.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX06",
+    "form": "free",
+    "meaning_es": "libre, desocupado/a",
+    "example": "Are you free on Friday evening?",
+    "example_es": "¿Estás libre el viernes en la tarde?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX07",
+    "form": "maybe",
+    "meaning_es": "quizás",
+    "example": "Maybe I will go to the beach.",
+    "example_es": "Quizás vaya a la playa.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX08",
+    "form": "of course",
+    "meaning_es": "claro, por supuesto",
+    "example": "Of course I will help you.",
+    "example_es": "Claro que te ayudaré.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX09",
+    "form": "sounds good",
+    "meaning_es": "suena bien, me parece bien",
+    "example": "Dinner at seven? Sounds good!",
+    "example_es": "¿Cena a las siete? ¡Me parece bien!",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX10",
+    "form": "going to",
+    "meaning_es": "ir a (plan decidido)",
+    "example": "I'm going to call my family tonight.",
+    "example_es": "Voy a llamar a mi familia esta noche.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX11",
+    "form": "I'll",
+    "meaning_es": "yo + will (decisión, promesa)",
+    "example": "It's cold. I'll take a jacket.",
+    "example_es": "Hace frío. Voy a llevar una chaqueta.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B18-LX12",
+    "form": "weather forecast",
+    "meaning_es": "pronóstico del tiempo",
+    "example": "The weather forecast says it will rain.",
+    "example_es": "El pronóstico dice que va a llover.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B18-G1",
+    "topic": "Futuro: be going to (planes) y will (decisiones, ofrecimientos, predicciones)"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B18-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "tomorrow",
+     "meaning_es": "mañana (el día siguiente)",
+     "example": "Tomorrow I'm going to visit Harvard.",
+     "example_es": "Mañana voy a visitar Harvard."
+    },
+    {
+     "form": "next week",
+     "meaning_es": "la próxima semana",
+     "example": "Next week we are going to have an exam.",
+     "example_es": "La próxima semana vamos a tener un examen."
+    },
+    {
+     "form": "plan",
+     "meaning_es": "plan",
+     "example": "What is your plan for Saturday?",
+     "example_es": "¿Cuál es tu plan para el sábado?"
+    },
+    {
+     "form": "invite",
+     "meaning_es": "invitar",
+     "example": "I want to invite you to dinner.",
+     "example_es": "Quiero invitarte a cenar."
+    },
+    {
+     "form": "meet",
+     "meaning_es": "juntarse, encontrarse",
+     "example": "Let's meet at the café at five.",
+     "example_es": "Juntémonos en el café a las cinco."
+    },
+    {
+     "form": "free",
+     "meaning_es": "libre, desocupado/a",
+     "example": "Are you free on Friday evening?",
+     "example_es": "¿Estás libre el viernes en la tarde?"
+    },
+    {
+     "form": "maybe",
+     "meaning_es": "quizás",
+     "example": "Maybe I will go to the beach.",
+     "example_es": "Quizás vaya a la playa."
+    },
+    {
+     "form": "of course",
+     "meaning_es": "claro, por supuesto",
+     "example": "Of course I will help you.",
+     "example_es": "Claro que te ayudaré."
+    },
+    {
+     "form": "sounds good",
+     "meaning_es": "suena bien, me parece bien",
+     "example": "Dinner at seven? Sounds good!",
+     "example_es": "¿Cena a las siete? ¡Me parece bien!"
+    },
+    {
+     "form": "going to",
+     "meaning_es": "ir a (plan decidido)",
+     "example": "I'm going to call my family tonight.",
+     "example_es": "Voy a llamar a mi familia esta noche."
+    },
+    {
+     "form": "I'll",
+     "meaning_es": "yo + will (decisión, promesa)",
+     "example": "It's cold. I'll take a jacket.",
+     "example_es": "Hace frío. Voy a llevar una chaqueta."
+    },
+    {
+     "form": "weather forecast",
+     "meaning_es": "pronóstico del tiempo",
+     "example": "The weather forecast says it will rain.",
+     "example_es": "El pronóstico dice que va a llover."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B18-RG",
+   "type": "capsule",
+   "title": "Futuro: be going to (planes) y will (decisiones, ofrecimientos, predicciones)",
+   "explain": "Be going to + verbo: planes ya decididos. I'm going to visit Harvard tomorrow. Are you going to travel?\nWill + verbo: decisiones en el momento, ofrecimientos y promesas, y predicciones. It's cold — I'll close the window. I'll help you. It will rain tomorrow.\nNegativo: I'm not going to… / I won't (= will not).\nPara invitar: Would you like to…? / Let's… Respuestas: Sounds good! · I'd love to. · Sorry, I can't.",
+   "form": [
+    [
+     "am / is / are going to + verbo",
+     "I'm going to visit…"
+    ],
+    [
+     "will · 'll + verbo",
+     "I'll help you"
+    ],
+    [
+     "won't + verbo",
+     "I won't be late"
+    ],
+    [
+     "Would you like to…? · Let's…",
+     "para invitar"
+    ]
+   ],
+   "examples": [
+    [
+     "We're going to have a party on Saturday.",
+     "Vamos a hacer una fiesta el sábado."
+    ],
+    [
+     "The phone is ringing. I'll answer it.",
+     "Suena el teléfono. Yo contesto."
+    ],
+    [
+     "I won't be late, I promise.",
+     "No llegaré tarde, lo prometo."
+    ],
+    [
+     "Would you like to come? I'd love to!",
+     "¿Te gustaría venir? ¡Me encantaría!"
+    ]
+   ],
+   "tip": "Para planes con fecha y lugar, los nativos también usan el presente continuo: I'm flying to Chile on Sunday.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B18-RR",
+   "type": "text",
+   "title": "Tomás's last week in Boston",
+   "body": "This is Tomás's last week in Boston, and he has many plans. On Monday he is going to present a short project to his class. On Wednesday he is going to visit a laboratory at MIT. On Friday he will go to Linda's party. The weather forecast says it will snow on Saturday, so maybe he will stay at home and pack his luggage. On Sunday he is going to fly back to Chile.",
+   "translation_es": "Esta es la última semana de Tomás en Boston y tiene muchos planes. El lunes va a presentar un proyecto corto a su clase. El miércoles va a visitar un laboratorio en el MIT. El viernes irá a la fiesta de Linda. El pronóstico dice que nevará el sábado, así que quizás se quede en casa y haga la maleta. El domingo vuelve en avión a Chile.",
+   "glossary": [
+    [
+     "pack",
+     "hacer la maleta"
+    ],
+    [
+     "fly back",
+     "volver en avión"
+    ],
+    [
+     "present",
+     "presentar"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B18.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B18-RV"
+   ],
+   "activities": [
+    {
+     "id": "B18.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] we are going to have an exam.  (2) Let's [[2]] at the café at five.  (3) [[3]] I will help you.  (4) Dinner at seven? [[4]]!  (5) I'm [[5]] call my family tonight.  (6) The [[6]] says it will rain.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "next week"
+       ],
+       "hint": "Significa «la próxima semana»."
+      },
+      "2": {
+       "accept": [
+        "meet"
+       ],
+       "hint": "Significa «juntarse, encontrarse»."
+      },
+      "3": {
+       "accept": [
+        "of course"
+       ],
+       "hint": "Significa «claro, por supuesto»."
+      },
+      "4": {
+       "accept": [
+        "sounds good"
+       ],
+       "hint": "Significa «suena bien, me parece bien»."
+      },
+      "5": {
+       "accept": [
+        "going to"
+       ],
+       "hint": "Significa «ir a (plan decidido)»."
+      },
+      "6": {
+       "accept": [
+        "weather forecast"
+       ],
+       "hint": "Significa «pronóstico del tiempo»."
+      }
+     }
+    },
+    {
+     "id": "B18.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mañana (el día siguiente)»",
+     "accept": [
+      "tomorrow"
+     ],
+     "hint": "Empieza con «to…» · Ejemplo: Mañana voy a visitar Harvard."
+    },
+    {
+     "id": "B18.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «yo + will (decisión, promesa)»",
+     "accept": [
+      "I'll"
+     ],
+     "hint": "Empieza con «I'…» · Ejemplo: Hace frío. Voy a llevar una chaqueta."
+    },
+    {
+     "id": "B18.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «quizás»",
+     "accept": [
+      "maybe"
+     ],
+     "hint": "Empieza con «ma…» · Ejemplo: Quizás vaya a la playa."
+    },
+    {
+     "id": "B18.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «plan»",
+     "accept": [
+      "plan"
+     ],
+     "hint": "Empieza con «pl…» · Ejemplo: ¿Cuál es tu plan para el sábado?"
+    },
+    {
+     "id": "B18.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «libre, desocupado/a»",
+     "accept": [
+      "free"
+     ],
+     "hint": "Empieza con «fr…» · Ejemplo: ¿Estás libre el viernes en la tarde?"
+    },
+    {
+     "id": "B18.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «invitar»",
+     "accept": [
+      "invite"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: Quiero invitarte a cenar."
+    },
+    {
+     "id": "B18.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Tomorrow I'm going to visit Harvard.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Tomorrow I'm going to visit Harvard."
+    }
+   ]
+  },
+  {
+   "id": "B18.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Futuro: be going to (planes) y will (decisiones, ofrecimientos, predicciones)",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B18-RG"
+   ],
+   "activities": [
+    {
+     "id": "B18.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Tomorrow I'm going [[1]] visit a museum.  (2) We [[2]] going to travel next week.  (3) It's hot in here. [[3]] open the window. (decisión ahora)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "to"
+       ],
+       "hint": "going to + verbo."
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "we → are going to."
+      },
+      "3": {
+       "accept": [
+        "I'll",
+        "I will"
+       ],
+       "hint": "Decisión del momento → I'll."
+      }
+     }
+    },
+    {
+     "id": "B18.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] be late, I promise. (negativo de will)  (2) [[2]] you going to call Carmen tonight?  (3) [[3]] go to the cinema tonight! (invitación: vamos)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "won't",
+        "will not"
+       ],
+       "hint": "will not = won't."
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "Pregunta: Are you going to…?"
+      },
+      "3": {
+       "accept": [
+        "let's",
+        "let us"
+       ],
+       "hint": "Let's + verbo."
+      }
+     }
+    },
+    {
+     "id": "B18.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Para un plan decidido hace días:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I'll visit my sister next week."
+      },
+      {
+       "id": "b",
+       "text": "I'm going to visit my sister next week."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Plan previo → going to."
+    },
+    {
+     "id": "B18.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Para aceptar una invitación:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I'd love to!"
+      },
+      {
+       "id": "b",
+       "text": "I love."
+      },
+      {
+       "id": "c",
+       "text": "I would love."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B18.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tus planes (Next week I'm going to…, Tomorrow I'll…, Would you like to…?).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "going to",
+        "will",
+        "i'll",
+        "would you like"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B18.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Una invitación",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B18.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una invitación: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hi, Tomás. Are you free on Friday evening? Yes, I think so. Why? We're going to have a small party at our house. Would you like to come? I'd love to! What time? At seven. Emma is going to make dinner. Sounds good. I'll bring a bottle of Chilean wine. Great! See you on Friday.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hi, Tomás. Are you free on Friday evening? Yes, I think so. Why? We're going to have a small party at our house. Would you like to come? I'd love to! What time? At seven. Emma is going to make dinner. Sounds good. I'll bring a bottle of Chilean wine. Great! See you on Friday.",
+     "translation_es": "Hola, Tomás. ¿Estás libre el viernes en la tarde? Sí, creo que sí. ¿Por qué? Vamos a hacer una pequeña fiesta en nuestra casa. ¿Te gustaría venir? ¡Me encantaría! ¿A qué hora? A las siete. Emma va a hacer la cena. Me parece bien. Llevaré una botella de vino chileno. ¡Genial! Nos vemos el viernes.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuándo es la fiesta?",
+       "label": "¿Cuándo es la fiesta?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El viernes en la tarde"
+        },
+        {
+         "id": "b",
+         "text": "El sábado"
+        },
+        {
+         "id": "c",
+         "text": "El domingo"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Quién va a cocinar?",
+       "label": "¿Quién va a cocinar?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Linda"
+        },
+        {
+         "id": "b",
+         "text": "Emma"
+        },
+        {
+         "id": "c",
+         "text": "Tomás"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué va a llevar Tomás?",
+       "label": "¿Qué va a llevar Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un postre"
+        },
+        {
+         "id": "b",
+         "text": "Vino chileno"
+        },
+        {
+         "id": "c",
+         "text": "Flores"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B18.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We're going to have a small party at our house.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We're going to have a small party at our house."
+    }
+   ]
+  },
+  {
+   "id": "B18.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Tomás's last week in Boston",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B18-RR"
+   ],
+   "activities": [
+    {
+     "id": "B18.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué va a hacer el lunes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Presentar un proyecto"
+      },
+      {
+       "id": "b",
+       "text": "Visitar el MIT"
+      },
+      {
+       "id": "c",
+       "text": "Volar a Chile"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B18.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué dice el pronóstico para el sábado?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sol"
+      },
+      {
+       "id": "b",
+       "text": "Lluvia"
+      },
+      {
+       "id": "c",
+       "text": "Nieve"
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "B18.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo vuelve a Chile?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El sábado"
+      },
+      {
+       "id": "b",
+       "text": "El domingo"
+      },
+      {
+       "id": "c",
+       "text": "El lunes"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B18.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B18.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "This is Tomás's last week in Boston, and he has many plans. On Monday he is going to present a short project to his class.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "This is Tomás's last week in Boston, and he has many plans.",
+       "On Monday he is going to present a short project to his class."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B18.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Habla 30–60 s de tus planes para la próxima semana (I'm going to…) y haz una invitación (Would you like to…?).",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "tomorrow",
+        "next week",
+        "plan",
+        "invite",
+        "meet",
+        "free",
+        "maybe",
+        "of course",
+        "sounds good",
+        "going to",
+        "I'll",
+        "weather forecast"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B18.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B18.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe una invitación de 30–60 palabras para un amigo: qué, cuándo, dónde y qué vas a llevar.",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "tomorrow",
+        "next week",
+        "plan",
+        "invite",
+        "meet",
+        "free",
+        "maybe",
+        "of course",
+        "sounds good",
+        "going to",
+        "I'll",
+        "weather forecast"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "going to",
+        "will",
+        "i'll",
+        "would you like"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

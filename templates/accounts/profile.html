@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Perfil{% endblock %}
+{% block content %}
+<h1>Perfil y preferencias</h1>
+<p class="muted">Estos datos ajustan tus planes (base de 20 días y plan de 40 días): la fecha del día 1 de cada uno define su calendario, la especialidad elige los textos de tu área y el acento define cómo suenan los audios.</p>
+{% if profile.base_start or profile.plan_start %}<p class="small">{% if profile.base_start %}Base 20: día 1 el {{ profile.base_start|date:"d-m-Y" }}. {% endif %}{% if profile.plan_start %}Plan 40: día 1 el {{ profile.plan_start|date:"d-m-Y" }}. {% endif %}Si cambias una fecha, ese calendario se recalcula; tu avance no se borra.</p>{% endif %}
+<form method="post" class="form">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Guardar</button>
+</form>
+{% endblock %}

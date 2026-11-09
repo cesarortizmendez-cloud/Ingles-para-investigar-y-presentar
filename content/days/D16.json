@@ -1,0 +1,896 @@
+{
+ "id": "D16",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Pasiva en pasado: así se hizo el estudio",
+ "day": 16,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy usas la pasiva en pasado (was/were + participio), la forma más frecuente en las secciones de método.",
+ "objectives": [
+  {
+   "id": "D16-O1",
+   "text": "Formar la pasiva en pasado (was/were + participio)."
+  },
+  {
+   "id": "D16-O2",
+   "text": "Transformar oraciones activas del pasado a pasiva."
+  },
+  {
+   "id": "D16-O3",
+   "text": "Escribir un método de tres pasos en pasado pasivo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D16-LX01",
+    "form": "was selected",
+    "meaning_es": "fue seleccionado/a",
+    "example": "Each sawmill was selected for its size.",
+    "example_es": "Cada aserradero fue seleccionado por su tamaño.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX02",
+    "form": "were recruited",
+    "meaning_es": "fueron reclutados",
+    "example": "Twelve managers were recruited for interviews.",
+    "example_es": "Se reclutó a doce gerentes para entrevistas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX03",
+    "form": "was conducted",
+    "meaning_es": "se realizó, fue realizado",
+    "example": "The study was conducted in 2024.",
+    "example_es": "El estudio se realizó en 2024.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX04",
+    "form": "were obtained",
+    "meaning_es": "se obtuvieron",
+    "example": "The data were obtained from the companies.",
+    "example_es": "Los datos se obtuvieron de las empresas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX05",
+    "form": "was carried out",
+    "meaning_es": "se llevó a cabo",
+    "example": "The analysis was carried out in Python.",
+    "example_es": "El análisis se llevó a cabo en Python.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX06",
+    "form": "were excluded",
+    "meaning_es": "fueron excluidos",
+    "example": "Two days were excluded because of a power cut.",
+    "example_es": "Se excluyeron dos días por un corte de luz.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX07",
+    "form": "criteria",
+    "meaning_es": "criterios",
+    "example": "The criteria were clear.",
+    "example_es": "Los criterios eran claros.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX08",
+    "form": "period",
+    "meaning_es": "período",
+    "example": "The study period was six months.",
+    "example_es": "El período de estudio fue de seis meses.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX09",
+    "form": "informed consent",
+    "meaning_es": "consentimiento informado",
+    "example": "Informed consent was obtained from all participants.",
+    "example_es": "Se obtuvo el consentimiento informado de todos los participantes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX10",
+    "form": "approved",
+    "meaning_es": "aprobado",
+    "example": "The study was approved by the ethics committee.",
+    "example_es": "El estudio fue aprobado por el comité de ética.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX11",
+    "form": "ethics committee",
+    "meaning_es": "comité de ética",
+    "example": "The ethics committee met in March.",
+    "example_es": "El comité de ética se reunió en marzo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D16-LX12",
+    "form": "missing data",
+    "meaning_es": "datos faltantes",
+    "example": "Missing data were less than two percent.",
+    "example_es": "Los datos faltantes fueron menos del dos por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D16-G1",
+    "topic": "Pasiva en pasado: was/were + participio"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D16-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "was selected",
+     "meaning_es": "fue seleccionado/a",
+     "example": "Each sawmill was selected for its size.",
+     "example_es": "Cada aserradero fue seleccionado por su tamaño."
+    },
+    {
+     "form": "were recruited",
+     "meaning_es": "fueron reclutados",
+     "example": "Twelve managers were recruited for interviews.",
+     "example_es": "Se reclutó a doce gerentes para entrevistas."
+    },
+    {
+     "form": "was conducted",
+     "meaning_es": "se realizó, fue realizado",
+     "example": "The study was conducted in 2024.",
+     "example_es": "El estudio se realizó en 2024."
+    },
+    {
+     "form": "were obtained",
+     "meaning_es": "se obtuvieron",
+     "example": "The data were obtained from the companies.",
+     "example_es": "Los datos se obtuvieron de las empresas."
+    },
+    {
+     "form": "was carried out",
+     "meaning_es": "se llevó a cabo",
+     "example": "The analysis was carried out in Python.",
+     "example_es": "El análisis se llevó a cabo en Python."
+    },
+    {
+     "form": "were excluded",
+     "meaning_es": "fueron excluidos",
+     "example": "Two days were excluded because of a power cut.",
+     "example_es": "Se excluyeron dos días por un corte de luz."
+    },
+    {
+     "form": "criteria",
+     "meaning_es": "criterios",
+     "example": "The criteria were clear.",
+     "example_es": "Los criterios eran claros."
+    },
+    {
+     "form": "period",
+     "meaning_es": "período",
+     "example": "The study period was six months.",
+     "example_es": "El período de estudio fue de seis meses."
+    },
+    {
+     "form": "informed consent",
+     "meaning_es": "consentimiento informado",
+     "example": "Informed consent was obtained from all participants.",
+     "example_es": "Se obtuvo el consentimiento informado de todos los participantes."
+    },
+    {
+     "form": "approved",
+     "meaning_es": "aprobado",
+     "example": "The study was approved by the ethics committee.",
+     "example_es": "El estudio fue aprobado por el comité de ética."
+    },
+    {
+     "form": "ethics committee",
+     "meaning_es": "comité de ética",
+     "example": "The ethics committee met in March.",
+     "example_es": "El comité de ética se reunió en marzo."
+    },
+    {
+     "form": "missing data",
+     "meaning_es": "datos faltantes",
+     "example": "Missing data were less than two percent.",
+     "example_es": "Los datos faltantes fueron menos del dos por ciento."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D16-RG",
+   "type": "capsule",
+   "title": "Pasiva en pasado: was/were + participio",
+   "explain": "Para describir lo que SE HIZO en un estudio terminado: was (singular) / were (plural) + participio.\nActiva: «We selected three sawmills» → Pasiva: «Three sawmills were selected».\nPasos para transformar: 1) el objeto pasa a ser sujeto; 2) was/were según singular o plural; 3) participio; 4) «by + agente» solo si importa.\nMuy común en papers: was conducted (se realizó), were obtained (se obtuvieron), was carried out (se llevó a cabo).",
+   "form": [
+    [
+     "was + participio",
+     "The study was conducted in 2024."
+    ],
+    [
+     "were + participio",
+     "The data were obtained from…"
+    ],
+    [
+     "activa → pasiva",
+     "We excluded two days → Two days were excluded."
+    ],
+    [
+     "negativo: wasn't / weren't",
+     "The sensors weren't replaced."
+    ]
+   ],
+   "examples": [
+    [
+     "The study was conducted in three sawmills.",
+     "El estudio se realizó en tres aserraderos."
+    ],
+    [
+     "Twelve managers were interviewed.",
+     "Se entrevistó a doce gerentes."
+    ],
+    [
+     "The study was approved by the ethics committee.",
+     "El estudio fue aprobado por el comité de ética."
+    ]
+   ],
+   "tip": "«Data» se trata como plural en escritura científica: the data were…",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D16-RR",
+   "type": "text",
+   "title": "Method section (draft)",
+   "body": "The study was conducted in three small sawmills in the Ñuble region over a period of six months. The sawmills were selected according to two criteria: fewer than fifty workers and at least four main machines. Energy data were obtained from ten sensors, and production data were obtained from daily records. Two days were excluded because of a power cut. Missing data were less than two percent. The study was approved by the ethics committee, and informed consent was obtained from all participants.",
+   "translation_es": "El estudio se realizó en tres aserraderos pequeños de la región de Ñuble durante un período de seis meses. Los aserraderos se seleccionaron según dos criterios: menos de cincuenta trabajadores y al menos cuatro máquinas principales. Los datos de energía se obtuvieron de diez sensores, y los de producción, de registros diarios. Se excluyeron dos días por un corte de luz. Los datos faltantes fueron menos del dos por ciento. El estudio fue aprobado por el comité de ética, y se obtuvo el consentimiento informado de todos los participantes.",
+   "glossary": [
+    [
+     "according to",
+     "según"
+    ],
+    [
+     "fewer than",
+     "menos de (contables)"
+    ],
+    [
+     "at least",
+     "al menos"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D16.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D16-RV"
+   ],
+   "activities": [
+    {
+     "id": "D16.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Each sawmill [[1]] for its size.  (2) The data [[2]] from the companies.  (3) The analysis [[3]] in Python.  (4) The [[4]] were clear.  (5) [[5]] was obtained from all participants.  (6) [[6]] were less than two percent.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "was selected"
+       ],
+       "hint": "Significa «fue seleccionado/a»."
+      },
+      "2": {
+       "accept": [
+        "were obtained"
+       ],
+       "hint": "Significa «se obtuvieron»."
+      },
+      "3": {
+       "accept": [
+        "was carried out"
+       ],
+       "hint": "Significa «se llevó a cabo»."
+      },
+      "4": {
+       "accept": [
+        "criteria"
+       ],
+       "hint": "Significa «criterios»."
+      },
+      "5": {
+       "accept": [
+        "informed consent"
+       ],
+       "hint": "Significa «consentimiento informado»."
+      },
+      "6": {
+       "accept": [
+        "missing data"
+       ],
+       "hint": "Significa «datos faltantes»."
+      }
+     }
+    },
+    {
+     "id": "D16.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «aprobado»",
+     "accept": [
+      "approved"
+     ],
+     "hint": "Empieza con «ap…» · Ejemplo: El estudio fue aprobado por el comité de ética."
+    },
+    {
+     "id": "D16.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «período»",
+     "accept": [
+      "period"
+     ],
+     "hint": "Empieza con «pe…» · Ejemplo: El período de estudio fue de seis meses."
+    },
+    {
+     "id": "D16.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «se realizó, fue realizado»",
+     "accept": [
+      "was conducted"
+     ],
+     "hint": "Empieza con «wa…» · Ejemplo: El estudio se realizó en 2024."
+    },
+    {
+     "id": "D16.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «fueron reclutados»",
+     "accept": [
+      "were recruited"
+     ],
+     "hint": "Empieza con «we…» · Ejemplo: Se reclutó a doce gerentes para entrevistas."
+    },
+    {
+     "id": "D16.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «comité de ética»",
+     "accept": [
+      "ethics committee"
+     ],
+     "hint": "Empieza con «et…» · Ejemplo: El comité de ética se reunió en marzo."
+    },
+    {
+     "id": "D16.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «fueron excluidos»",
+     "accept": [
+      "were excluded"
+     ],
+     "hint": "Empieza con «we…» · Ejemplo: Se excluyeron dos días por un corte de luz."
+    },
+    {
+     "id": "D16.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The study was approved by the ethics committee.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The study was approved by the ethics committee."
+    }
+   ]
+  },
+  {
+   "id": "D16.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasiva en pasado: was/were + participio",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D16-RG"
+   ],
+   "activities": [
+    {
+     "id": "D16.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The study [[1]] conducted in 2024.  (2) Twelve managers [[2]] recruited for interviews.  (3) The data were [[3]] from the companies. (obtain)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "was"
+       ],
+       "hint": "singular → was"
+      },
+      "2": {
+       "accept": [
+        "were"
+       ],
+       "hint": "plural → were"
+      },
+      "3": {
+       "accept": [
+        "obtained"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D16.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Two days were [[1]] because of a power cut. (exclude)  (2) The analysis was carried [[2]] in Python.  (3) The study was approved [[3]] the ethics committee.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "excluded"
+       ]
+      },
+      "2": {
+       "accept": [
+        "out"
+       ],
+       "hint": "carry out = llevar a cabo"
+      },
+      "3": {
+       "accept": [
+        "by"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D16.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Pasa a pasiva: «We selected three sawmills.»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Three sawmills was selected."
+      },
+      {
+       "id": "b",
+       "text": "Three sawmills were selected."
+      },
+      {
+       "id": "c",
+       "text": "Three sawmills are select."
+      }
+     ],
+     "answer": "b",
+     "explanation": "plural + pasado → were selected"
+    },
+    {
+     "id": "D16.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Pasa a pasiva: «The team conducted the interviews in May.»",
+     "options": [
+      {
+       "id": "a",
+       "text": "The interviews were conducted in May."
+      },
+      {
+       "id": "b",
+       "text": "The interviews conducted in May."
+      },
+      {
+       "id": "c",
+       "text": "The team was conducted in May."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D16.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres pasos de un estudio o proyecto terminado en pasiva pasada (was/were + participio).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "was",
+        "were"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D16.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La sección de método, en voz alta",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D16.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La sección de método, en voz alta: escucha sin leer y responde.",
+     "audio": {
+      "text": "The study was conducted in three sawmills between May and October. The sawmills were selected because of their size. The data were obtained from sensors and production records. Two days were excluded because of a power cut. The study was approved by the university ethics committee.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "The study was conducted in three sawmills between May and October. The sawmills were selected because of their size. The data were obtained from sensors and production records. Two days were excluded because of a power cut. The study was approved by the university ethics committee.",
+     "translation_es": "El estudio se realizó en tres aserraderos entre mayo y octubre. Los aserraderos fueron seleccionados por su tamaño. Los datos se obtuvieron de sensores y registros de producción. Se excluyeron dos días por un corte de luz. El estudio fue aprobado por el comité de ética de la universidad.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Por qué se seleccionaron los aserraderos?",
+       "label": "¿Por qué se seleccionaron los aserraderos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Por su ubicación"
+        },
+        {
+         "id": "b",
+         "text": "Por su tamaño"
+        },
+        {
+         "id": "c",
+         "text": "Por su antigüedad"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Por qué se excluyeron dos días?",
+       "label": "¿Por qué se excluyeron dos días?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Por un corte de luz"
+        },
+        {
+         "id": "b",
+         "text": "Por un feriado"
+        },
+        {
+         "id": "c",
+         "text": "Por falta de personal"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Quién aprobó el estudio?",
+       "label": "¿Quién aprobó el estudio?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Las empresas"
+        },
+        {
+         "id": "b",
+         "text": "El comité de ética de la universidad"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D16.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "The sawmills were selected because of their size.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "The sawmills were selected because of their size."
+    }
+   ]
+  },
+  {
+   "id": "D16.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Method section (draft)",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D16-RR"
+   ],
+   "activities": [
+    {
+     "id": "D16.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuáles fueron los criterios de selección?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Más de cien trabajadores"
+      },
+      {
+       "id": "b",
+       "text": "Menos de 50 trabajadores y al menos 4 máquinas principales"
+      },
+      {
+       "id": "c",
+       "text": "Estar en Santiago"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D16.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿De dónde se obtuvieron los datos de producción?",
+     "options": [
+      {
+       "id": "a",
+       "text": "De los sensores"
+      },
+      {
+       "id": "b",
+       "text": "De registros diarios"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D16.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántos datos faltaban?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Menos del 2 %"
+      },
+      {
+       "id": "b",
+       "text": "Un 20 %"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D16.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D16.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The study was conducted in three small sawmills in the Ñuble region over a period of six months. The sawmills were selected according to two criteria: fewer than fifty workers and at least four main machines.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The study was conducted in three small sawmills in the Ñuble region over a period of six months.",
+       "The sawmills were selected according to two criteria: fewer than fifty workers and at least four main machines."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D16.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en voz alta (30–60 s) cómo se hizo un estudio o proyecto tuyo, en pasiva pasada: dónde se realizó, cómo se eligió la muestra y de dónde se obtuvieron los datos.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "was selected",
+        "were recruited",
+        "was conducted",
+        "were obtained",
+        "was carried out",
+        "were excluded",
+        "criteria",
+        "period",
+        "informed consent",
+        "approved",
+        "ethics committee",
+        "missing data"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D16.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D16.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un borrador de sección de método (50–100 palabras) en pasiva pasada sobre un trabajo tuyo, como el texto de hoy.",
+     "min_words": 45,
+     "max_words": 110,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "was selected",
+        "were recruited",
+        "was conducted",
+        "were obtained",
+        "was carried out",
+        "were excluded",
+        "criteria",
+        "period",
+        "informed consent",
+        "approved",
+        "ethics committee",
+        "missing data"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "was",
+        "were"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

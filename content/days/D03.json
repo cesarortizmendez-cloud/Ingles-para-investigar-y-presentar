@@ -1,0 +1,925 @@
+{
+ "id": "D03",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Preguntar y responder sobre el trabajo",
+ "day": 3,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a hacer preguntas con do/does y a responder en negativo: lo que necesitas para conversar en un congreso.",
+ "objectives": [
+  {
+   "id": "D03-O1",
+   "text": "Formular preguntas con do/does (Where do you work?)."
+  },
+  {
+   "id": "D03-O2",
+   "text": "Responder en negativo con don't/doesn't."
+  },
+  {
+   "id": "D03-O3",
+   "text": "Mantener un intercambio de tres preguntas y respuestas."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D03-LX01",
+    "form": "question",
+    "meaning_es": "pregunta",
+    "example": "Can I ask a question?",
+    "example_es": "¿Puedo hacer una pregunta?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX02",
+    "form": "answer",
+    "meaning_es": "respuesta; responder",
+    "example": "That is a good answer.",
+    "example_es": "Esa es una buena respuesta.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX03",
+    "form": "ask",
+    "meaning_es": "preguntar, pedir",
+    "example": "Students ask many questions.",
+    "example_es": "Los estudiantes hacen muchas preguntas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX04",
+    "form": "explain",
+    "meaning_es": "explicar",
+    "example": "Can you explain your method?",
+    "example_es": "¿Puedes explicar tu método?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX05",
+    "form": "method",
+    "meaning_es": "método",
+    "example": "Our method is simple.",
+    "example_es": "Nuestro método es simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX06",
+    "form": "goal",
+    "meaning_es": "objetivo, meta",
+    "example": "The goal of the project is to save energy.",
+    "example_es": "El objetivo del proyecto es ahorrar energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX07",
+    "form": "company",
+    "meaning_es": "empresa",
+    "example": "We work with a local company.",
+    "example_es": "Trabajamos con una empresa local.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX08",
+    "form": "factory",
+    "meaning_es": "fábrica",
+    "example": "The factory produces wood panels.",
+    "example_es": "La fábrica produce paneles de madera.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX09",
+    "form": "measure",
+    "meaning_es": "medir",
+    "example": "We measure energy use every hour.",
+    "example_es": "Medimos el uso de energía cada hora.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX10",
+    "form": "result",
+    "meaning_es": "resultado",
+    "example": "The first result is positive.",
+    "example_es": "El primer resultado es positivo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX11",
+    "form": "What do you do?",
+    "meaning_es": "¿A qué te dedicas?",
+    "example": "What do you do? I am a lecturer.",
+    "example_es": "¿A qué te dedicas? Soy académico.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D03-LX12",
+    "form": "Nice to meet you",
+    "meaning_es": "Mucho gusto",
+    "example": "Nice to meet you, Mark.",
+    "example_es": "Mucho gusto, Mark.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D03-G1",
+    "topic": "Presente simple: preguntas (do/does) y negativos (don't/doesn't)"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D03-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "question",
+     "meaning_es": "pregunta",
+     "example": "Can I ask a question?",
+     "example_es": "¿Puedo hacer una pregunta?"
+    },
+    {
+     "form": "answer",
+     "meaning_es": "respuesta; responder",
+     "example": "That is a good answer.",
+     "example_es": "Esa es una buena respuesta."
+    },
+    {
+     "form": "ask",
+     "meaning_es": "preguntar, pedir",
+     "example": "Students ask many questions.",
+     "example_es": "Los estudiantes hacen muchas preguntas."
+    },
+    {
+     "form": "explain",
+     "meaning_es": "explicar",
+     "example": "Can you explain your method?",
+     "example_es": "¿Puedes explicar tu método?"
+    },
+    {
+     "form": "method",
+     "meaning_es": "método",
+     "example": "Our method is simple.",
+     "example_es": "Nuestro método es simple."
+    },
+    {
+     "form": "goal",
+     "meaning_es": "objetivo, meta",
+     "example": "The goal of the project is to save energy.",
+     "example_es": "El objetivo del proyecto es ahorrar energía."
+    },
+    {
+     "form": "company",
+     "meaning_es": "empresa",
+     "example": "We work with a local company.",
+     "example_es": "Trabajamos con una empresa local."
+    },
+    {
+     "form": "factory",
+     "meaning_es": "fábrica",
+     "example": "The factory produces wood panels.",
+     "example_es": "La fábrica produce paneles de madera."
+    },
+    {
+     "form": "measure",
+     "meaning_es": "medir",
+     "example": "We measure energy use every hour.",
+     "example_es": "Medimos el uso de energía cada hora."
+    },
+    {
+     "form": "result",
+     "meaning_es": "resultado",
+     "example": "The first result is positive.",
+     "example_es": "El primer resultado es positivo."
+    },
+    {
+     "form": "What do you do?",
+     "meaning_es": "¿A qué te dedicas?",
+     "example": "What do you do? I am a lecturer.",
+     "example_es": "¿A qué te dedicas? Soy académico."
+    },
+    {
+     "form": "Nice to meet you",
+     "meaning_es": "Mucho gusto",
+     "example": "Nice to meet you, Mark.",
+     "example_es": "Mucho gusto, Mark."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D03-RG",
+   "type": "capsule",
+   "title": "Presente simple: preguntas (do/does) y negativos (don't/doesn't)",
+   "explain": "Para preguntar en presente se agrega do o does ANTES del sujeto: Do you work here? / Does she teach?\nCon does el verbo vuelve a su forma base (sin -s): Does she teach? (no «Does she teaches?»).\nPara negar: don't / doesn't + verbo base: I don't work in Santiago. She doesn't teach on Fridays.\nCon «to be» NO se usa do: Are you a lecturer? Is it important? It isn't easy.",
+   "form": [
+    [
+     "Do + I/you/we/they + verbo?",
+     "Do you work here?"
+    ],
+    [
+     "Does + he/she/it + verbo base?",
+     "Does she teach statistics?"
+    ],
+    [
+     "Wh- + do/does + sujeto + verbo?",
+     "Where do you work? What does he study?"
+    ],
+    [
+     "don't / doesn't + verbo base",
+     "I don't know. He doesn't measure it."
+    ]
+   ],
+   "examples": [
+    [
+     "What do you do?",
+     "¿A qué te dedicas?"
+    ],
+    [
+     "Where does Ana work?",
+     "¿Dónde trabaja Ana?"
+    ],
+    [
+     "Do you measure energy use?",
+     "¿Miden el uso de energía?"
+    ],
+    [
+     "We don't work with large companies.",
+     "No trabajamos con empresas grandes."
+    ]
+   ],
+   "tip": "En español la pregunta se marca con la entonación; en inglés hay que agregar do/does.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D03-RR",
+   "type": "text",
+   "title": "Questions and answers",
+   "body": "Students often ask Ana about her project. What is the goal? The goal is to reduce energy use in small factories. What does the team measure? They measure electricity use every hour. Does the project work with companies? Yes, it works with three local companies. Does Ana explain the method in class? Yes, she does. She explains the method with simple examples. The team doesn't have final results yet.",
+   "translation_es": "Los estudiantes a menudo preguntan a Ana sobre su proyecto. ¿Cuál es el objetivo? El objetivo es reducir el uso de energía en fábricas pequeñas. ¿Qué mide el equipo? Miden el uso de electricidad cada hora. ¿El proyecto trabaja con empresas? Sí, trabaja con tres empresas locales. ¿Ana explica el método en clases? Sí. Explica el método con ejemplos simples. El equipo todavía no tiene resultados finales.",
+   "glossary": [
+    [
+     "reduce",
+     "reducir"
+    ],
+    [
+     "yet",
+     "todavía (en negativo)"
+    ],
+    [
+     "often",
+     "a menudo"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D03.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D03-RV"
+   ],
+   "activities": [
+    {
+     "id": "D03.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Can I ask a [[1]]?  (2) That is a good [[2]].  (3) Our [[3]] is simple.  (4) The [[4]] of the project is to save energy.  (5) The [[5]] produces wood panels.  (6) [[6]], Mark.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "question"
+       ],
+       "hint": "Significa «pregunta»."
+      },
+      "2": {
+       "accept": [
+        "answer"
+       ],
+       "hint": "Significa «respuesta; responder»."
+      },
+      "3": {
+       "accept": [
+        "method"
+       ],
+       "hint": "Significa «método»."
+      },
+      "4": {
+       "accept": [
+        "goal"
+       ],
+       "hint": "Significa «objetivo, meta»."
+      },
+      "5": {
+       "accept": [
+        "factory"
+       ],
+       "hint": "Significa «fábrica»."
+      },
+      "6": {
+       "accept": [
+        "Nice to meet you"
+       ],
+       "hint": "Significa «Mucho gusto»."
+      }
+     }
+    },
+    {
+     "id": "D03.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «explicar»",
+     "accept": [
+      "explain"
+     ],
+     "hint": "Empieza con «ex…» · Ejemplo: ¿Puedes explicar tu método?"
+    },
+    {
+     "id": "D03.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «empresa»",
+     "accept": [
+      "company"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Trabajamos con una empresa local."
+    },
+    {
+     "id": "D03.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «preguntar, pedir»",
+     "accept": [
+      "ask"
+     ],
+     "hint": "Empieza con «as…» · Ejemplo: Los estudiantes hacen muchas preguntas."
+    },
+    {
+     "id": "D03.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «medir»",
+     "accept": [
+      "measure"
+     ],
+     "hint": "Empieza con «me…» · Ejemplo: Medimos el uso de energía cada hora."
+    },
+    {
+     "id": "D03.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «resultado»",
+     "accept": [
+      "result"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: El primer resultado es positivo."
+    },
+    {
+     "id": "D03.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «¿A qué te dedicas?»",
+     "accept": [
+      "What do you do?"
+     ],
+     "hint": "Empieza con «Wh…» · Ejemplo: ¿A qué te dedicas? Soy académico."
+    },
+    {
+     "id": "D03.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Can you explain your method?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Can you explain your method?"
+    }
+   ]
+  },
+  {
+   "id": "D03.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Presente simple: preguntas (do/does) y negativos (don't/doesn't)",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D03-RG"
+   ],
+   "activities": [
+    {
+     "id": "D03.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] you work at a university?  (2) Where [[2]] Ana work?  (3) Does she [[3]] statistics? (teach)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "do"
+       ],
+       "hint": "you → do"
+      },
+      "2": {
+       "accept": [
+        "does"
+       ],
+       "hint": "Ana = she → does"
+      },
+      "3": {
+       "accept": [
+        "teach"
+       ],
+       "hint": "Después de does, verbo sin -s."
+      }
+     }
+    },
+    {
+     "id": "D03.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] work in Santiago. (negativo)  (2) The factory [[2]] produce furniture. (negativo)  (3) What [[3]] you measure in the factory?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "don't",
+        "do not"
+       ],
+       "hint": "I → don't"
+      },
+      "2": {
+       "accept": [
+        "doesn't",
+        "does not"
+       ],
+       "hint": "it → doesn't"
+      },
+      "3": {
+       "accept": [
+        "do"
+       ],
+       "hint": "you → do"
+      }
+     }
+    },
+    {
+     "id": "D03.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál pregunta es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Where you work?"
+      },
+      {
+       "id": "b",
+       "text": "Where do you work?"
+      },
+      {
+       "id": "c",
+       "text": "Where does you work?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "Wh- + do + you + verbo."
+    },
+    {
+     "id": "D03.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál pregunta es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Does she teaches on Mondays?"
+      },
+      {
+       "id": "b",
+       "text": "Does she teach on Mondays?"
+      },
+      {
+       "id": "c",
+       "text": "Do she teach on Mondays?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "does + verbo base."
+    },
+    {
+     "id": "D03.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres preguntas que harías a un colega en un congreso (usa do/does).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "do you",
+        "does",
+        "what do",
+        "where do"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D03.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Una conversación en un café",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D03.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una conversación en un café: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hi, I'm Mark. Nice to meet you. What do you do? I'm Ana. I'm a lecturer in Chile. What does your team study? We measure energy use in small factories. Do you work with companies? Yes, we work with three local companies.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Hi, I'm Mark. Nice to meet you. What do you do? I'm Ana. I'm a lecturer in Chile. What does your team study? We measure energy use in small factories. Do you work with companies? Yes, we work with three local companies.",
+     "translation_es": "Hola, soy Mark. Mucho gusto. ¿A qué te dedicas? Soy Ana. Soy académica en Chile. ¿Qué estudia tu equipo? Medimos el uso de energía en fábricas pequeñas. ¿Trabajan con empresas? Sí, trabajamos con tres empresas locales.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué estudia el equipo de Ana?",
+       "label": "¿Qué estudia el equipo de Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El uso de energía en fábricas pequeñas"
+        },
+        {
+         "id": "b",
+         "text": "Mercados de Boston"
+        },
+        {
+         "id": "c",
+         "text": "La calidad del agua"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Con cuántas empresas trabajan?",
+       "label": "¿Con cuántas empresas trabajan?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Una"
+        },
+        {
+         "id": "b",
+         "text": "Tres"
+        },
+        {
+         "id": "c",
+         "text": "Cinco"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué pregunta hace Mark primero?",
+       "label": "¿Qué pregunta hace Mark primero?",
+       "options": [
+        {
+         "id": "a",
+         "text": "¿Dónde vives?"
+        },
+        {
+         "id": "b",
+         "text": "¿A qué te dedicas?"
+        },
+        {
+         "id": "c",
+         "text": "¿Cuántos años tienes?"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«What do you do?»"
+      }
+     ]
+    },
+    {
+     "id": "D03.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We measure energy use in small factories.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "We measure energy use in small factories."
+    }
+   ]
+  },
+  {
+   "id": "D03.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Questions and answers",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D03-RR"
+   ],
+   "activities": [
+    {
+     "id": "D03.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es el objetivo del proyecto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Vender electricidad"
+      },
+      {
+       "id": "b",
+       "text": "Reducir el uso de energía en fábricas pequeñas"
+      },
+      {
+       "id": "c",
+       "text": "Formar estudiantes"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D03.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cada cuánto miden el uso de electricidad?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cada día"
+      },
+      {
+       "id": "b",
+       "text": "Cada hora"
+      },
+      {
+       "id": "c",
+       "text": "Cada semana"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D03.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Tienen ya resultados finales?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«doesn't have final results yet»"
+    }
+   ]
+  },
+  {
+   "id": "D03.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D03.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Students often ask Ana about her project. What is the goal?",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Students often ask Ana about her project.",
+       "What is the goal?"
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D03.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Simula una conversación: lee en voz alta (en tu mente) la pregunta «What do you do?» y respóndela; luego haz tú dos preguntas a tu colega imaginario con do/does.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "question",
+        "answer",
+        "ask",
+        "explain",
+        "method",
+        "goal",
+        "company",
+        "factory",
+        "measure",
+        "result",
+        "What do you do?",
+        "Nice to meet you"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "model": {
+      "text": "What do you do? Where do you work? What does your team study?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "D03.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D03.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un pequeño diálogo (40–80 palabras) entre tú y un colega que conoces en un congreso: 3 preguntas y 3 respuestas.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "question",
+        "answer",
+        "ask",
+        "explain",
+        "method",
+        "goal",
+        "company",
+        "factory",
+        "measure",
+        "result",
+        "What do you do?",
+        "Nice to meet you"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "do you",
+        "does",
+        "what do",
+        "where do"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

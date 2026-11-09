@@ -1,0 +1,929 @@
+{
+ "id": "D02",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Lo que hago cada semana",
+ "day": 2,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas de tu trabajo habitual con el presente simple y aprendes la -s de la tercera persona (she works).",
+ "objectives": [
+  {
+   "id": "D02-O1",
+   "text": "Describir tus tareas habituales con el presente simple."
+  },
+  {
+   "id": "D02-O2",
+   "text": "Usar bien la -s de he/she/it (works, teaches, studies)."
+  },
+  {
+   "id": "D02-O3",
+   "text": "Entender a una persona que describe su semana de trabajo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D02-LX01",
+    "form": "teach",
+    "meaning_es": "enseñar, hacer clases",
+    "example": "I teach statistics on Mondays.",
+    "example_es": "Hago clases de estadística los lunes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX02",
+    "form": "course",
+    "meaning_es": "curso, asignatura",
+    "example": "She teaches a course on quality control.",
+    "example_es": "Ella dicta un curso de control de calidad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX03",
+    "form": "student",
+    "meaning_es": "estudiante",
+    "example": "Each student writes a short report.",
+    "example_es": "Cada estudiante escribe un informe breve.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX04",
+    "form": "supervise",
+    "meaning_es": "dirigir, supervisar (tesis, estudiantes)",
+    "example": "I supervise two master's students.",
+    "example_es": "Dirijo a dos estudiantes de magíster.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX05",
+    "form": "thesis",
+    "meaning_es": "tesis",
+    "example": "His thesis is about logistics.",
+    "example_es": "Su tesis trata sobre logística.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX06",
+    "form": "meeting",
+    "meaning_es": "reunión",
+    "example": "We have a team meeting every Friday.",
+    "example_es": "Tenemos una reunión de equipo cada viernes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX07",
+    "form": "data",
+    "meaning_es": "datos",
+    "example": "We collect data from three factories.",
+    "example_es": "Recolectamos datos de tres fábricas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX08",
+    "form": "analyse",
+    "meaning_es": "analizar",
+    "example": "I analyse the data with Python.",
+    "example_es": "Analizo los datos con Python.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX09",
+    "form": "report",
+    "meaning_es": "informe",
+    "example": "The team writes a report every month.",
+    "example_es": "El equipo escribe un informe cada mes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX10",
+    "form": "usually",
+    "meaning_es": "normalmente, por lo general",
+    "example": "I usually read papers in the morning.",
+    "example_es": "Normalmente leo artículos en la mañana.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX11",
+    "form": "every week",
+    "meaning_es": "cada semana",
+    "example": "She visits a factory every week.",
+    "example_es": "Ella visita una fábrica cada semana.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D02-LX12",
+    "form": "paper",
+    "meaning_es": "artículo (científico)",
+    "example": "This paper is about energy efficiency.",
+    "example_es": "Este artículo trata sobre eficiencia energética.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D02-G1",
+    "topic": "Presente simple: hábitos y hechos"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D02-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "teach",
+     "meaning_es": "enseñar, hacer clases",
+     "example": "I teach statistics on Mondays.",
+     "example_es": "Hago clases de estadística los lunes."
+    },
+    {
+     "form": "course",
+     "meaning_es": "curso, asignatura",
+     "example": "She teaches a course on quality control.",
+     "example_es": "Ella dicta un curso de control de calidad."
+    },
+    {
+     "form": "student",
+     "meaning_es": "estudiante",
+     "example": "Each student writes a short report.",
+     "example_es": "Cada estudiante escribe un informe breve."
+    },
+    {
+     "form": "supervise",
+     "meaning_es": "dirigir, supervisar (tesis, estudiantes)",
+     "example": "I supervise two master's students.",
+     "example_es": "Dirijo a dos estudiantes de magíster."
+    },
+    {
+     "form": "thesis",
+     "meaning_es": "tesis",
+     "example": "His thesis is about logistics.",
+     "example_es": "Su tesis trata sobre logística."
+    },
+    {
+     "form": "meeting",
+     "meaning_es": "reunión",
+     "example": "We have a team meeting every Friday.",
+     "example_es": "Tenemos una reunión de equipo cada viernes."
+    },
+    {
+     "form": "data",
+     "meaning_es": "datos",
+     "example": "We collect data from three factories.",
+     "example_es": "Recolectamos datos de tres fábricas."
+    },
+    {
+     "form": "analyse",
+     "meaning_es": "analizar",
+     "example": "I analyse the data with Python.",
+     "example_es": "Analizo los datos con Python."
+    },
+    {
+     "form": "report",
+     "meaning_es": "informe",
+     "example": "The team writes a report every month.",
+     "example_es": "El equipo escribe un informe cada mes."
+    },
+    {
+     "form": "usually",
+     "meaning_es": "normalmente, por lo general",
+     "example": "I usually read papers in the morning.",
+     "example_es": "Normalmente leo artículos en la mañana."
+    },
+    {
+     "form": "every week",
+     "meaning_es": "cada semana",
+     "example": "She visits a factory every week.",
+     "example_es": "Ella visita una fábrica cada semana."
+    },
+    {
+     "form": "paper",
+     "meaning_es": "artículo (científico)",
+     "example": "This paper is about energy efficiency.",
+     "example_es": "Este artículo trata sobre eficiencia energética."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D02-RG",
+   "type": "capsule",
+   "title": "Presente simple: hábitos y hechos",
+   "explain": "El presente simple sirve para lo habitual (cada semana, normalmente) y para hechos generales.\nForma: sujeto + verbo. Con he/she/it el verbo lleva -s: I work → she works.\nReglas de la -s: teach → teaches, analyse → analyses, study → studies, have → has, go → goes.\nLa -s es pequeña pero importante: sin ella la oración suena incorrecta.",
+   "form": [
+    [
+     "I / you / we / they work",
+     "trabajo, trabajamos…"
+    ],
+    [
+     "he / she / it works",
+     "trabaja (con -s)"
+    ],
+    [
+     "teach → teaches · study → studies",
+     "-es después de ch, sh, s, x; y → ies"
+    ],
+    [
+     "have → has",
+     "irregular"
+    ]
+   ],
+   "examples": [
+    [
+     "I teach two courses.",
+     "Dicto dos cursos."
+    ],
+    [
+     "She supervises three students.",
+     "Ella dirige a tres estudiantes."
+    ],
+    [
+     "The team meets every Friday.",
+     "El equipo se reúne cada viernes."
+    ],
+    [
+     "Mark studies energy markets.",
+     "Mark estudia mercados de energía."
+    ]
+   ],
+   "tip": "Palabras de frecuencia (usually, often, always) van antes del verbo: I usually work…",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D02-RR",
+   "type": "text",
+   "title": "Ana's week",
+   "body": "Ana usually starts work at eight. On Mondays she teaches a course on statistics for engineering students. On Tuesdays and Thursdays she works on her research project. She collects data from small factories and analyses it with Python. Every week she supervises two master's students. Their theses are about energy and production. On Fridays the team has a meeting, and once a month they write a short report.",
+   "translation_es": "Ana normalmente empieza a trabajar a las ocho. Los lunes dicta un curso de estadística para estudiantes de ingeniería. Los martes y jueves trabaja en su proyecto de investigación. Recolecta datos de fábricas pequeñas y los analiza con Python. Cada semana dirige a dos estudiantes de magíster. Sus tesis tratan sobre energía y producción. Los viernes el equipo tiene una reunión, y una vez al mes escriben un informe breve.",
+   "glossary": [
+    [
+     "once a month",
+     "una vez al mes"
+    ],
+    [
+     "master's students",
+     "estudiantes de magíster"
+    ],
+    [
+     "starts",
+     "empieza"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D02.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D02-RV"
+   ],
+   "activities": [
+    {
+     "id": "D02.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I [[1]] statistics on Mondays.  (2) Each [[2]] writes a short report.  (3) I [[3]] two master's students.  (4) We have a team [[4]] every Friday.  (5) She visits a factory [[5]].  (6) This [[6]] is about energy efficiency.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "teach"
+       ],
+       "hint": "Significa «enseñar, hacer clases»."
+      },
+      "2": {
+       "accept": [
+        "student"
+       ],
+       "hint": "Significa «estudiante»."
+      },
+      "3": {
+       "accept": [
+        "supervise"
+       ],
+       "hint": "Significa «dirigir, supervisar (tesis, estudiantes)»."
+      },
+      "4": {
+       "accept": [
+        "meeting"
+       ],
+       "hint": "Significa «reunión»."
+      },
+      "5": {
+       "accept": [
+        "every week"
+       ],
+       "hint": "Significa «cada semana»."
+      },
+      "6": {
+       "accept": [
+        "paper"
+       ],
+       "hint": "Significa «artículo (científico)»."
+      }
+     }
+    },
+    {
+     "id": "D02.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «informe»",
+     "accept": [
+      "report"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: El equipo escribe un informe cada mes."
+    },
+    {
+     "id": "D02.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tesis»",
+     "accept": [
+      "thesis"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: Su tesis trata sobre logística."
+    },
+    {
+     "id": "D02.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «curso, asignatura»",
+     "accept": [
+      "course"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Ella dicta un curso de control de calidad."
+    },
+    {
+     "id": "D02.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «datos»",
+     "accept": [
+      "data"
+     ],
+     "hint": "Empieza con «da…» · Ejemplo: Recolectamos datos de tres fábricas."
+    },
+    {
+     "id": "D02.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «analizar»",
+     "accept": [
+      "analyse",
+      "analyze"
+     ],
+     "hint": "Empieza con «an…» · Ejemplo: Analizo los datos con Python."
+    },
+    {
+     "id": "D02.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «normalmente, por lo general»",
+     "accept": [
+      "usually"
+     ],
+     "hint": "Empieza con «us…» · Ejemplo: Normalmente leo artículos en la mañana."
+    },
+    {
+     "id": "D02.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The team writes a report every month.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The team writes a report every month."
+    }
+   ]
+  },
+  {
+   "id": "D02.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Presente simple: hábitos y hechos",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D02-RG"
+   ],
+   "activities": [
+    {
+     "id": "D02.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Ana [[1]] a course on quality control. (teach)  (2) We [[2]] data every week. (collect)  (3) Mark [[3]] energy markets. (study)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "teaches"
+       ],
+       "hint": "she → teaches"
+      },
+      "2": {
+       "accept": [
+        "collect"
+       ],
+       "hint": "we → sin -s"
+      },
+      "3": {
+       "accept": [
+        "studies"
+       ],
+       "hint": "y → ies"
+      }
+     }
+    },
+    {
+     "id": "D02.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The university [[1]] six departments. (have)  (2) I usually [[2]] papers in the morning. (read)  (3) She [[3]] the data with Python. (analyse)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "has"
+       ],
+       "hint": "have → has"
+      },
+      "2": {
+       "accept": [
+        "read"
+       ],
+       "hint": "I → sin -s"
+      },
+      "3": {
+       "accept": [
+        "analyses",
+        "analyzes"
+       ],
+       "hint": "she → -s"
+      }
+     }
+    },
+    {
+     "id": "D02.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál oración es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She work at a university."
+      },
+      {
+       "id": "b",
+       "text": "She works at a university."
+      },
+      {
+       "id": "c",
+       "text": "She working at a university."
+      }
+     ],
+     "answer": "b",
+     "explanation": "she → works"
+    },
+    {
+     "id": "D02.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Dónde va «usually»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I usually write reports on Fridays."
+      },
+      {
+       "id": "b",
+       "text": "I write usually reports on Fridays."
+      },
+      {
+       "id": "c",
+       "text": "Usually I writes reports on Fridays."
+      }
+     ],
+     "answer": "a",
+     "explanation": "Antes del verbo principal."
+    },
+    {
+     "id": "D02.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre la semana de un colega (usa he o she y la -s).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "works",
+        "teaches",
+        "has",
+        "writes",
+        "reads",
+        "analyses",
+        "supervises"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D02.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La semana de Mark",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D02.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La semana de Mark: escucha sin leer y responde.",
+     "audio": {
+      "text": "I am Mark. I teach two courses at my university in Boston. On Mondays and Wednesdays I teach. On Tuesdays I usually analyse data. Every Friday the team has a meeting. I also supervise three students.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "I am Mark. I teach two courses at my university in Boston. On Mondays and Wednesdays I teach. On Tuesdays I usually analyse data. Every Friday the team has a meeting. I also supervise three students.",
+     "translation_es": "Soy Mark. Dicto dos cursos en mi universidad en Boston. Los lunes y miércoles hago clases. Los martes normalmente analizo datos. Cada viernes el equipo tiene una reunión. También dirijo a tres estudiantes.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuántos cursos dicta Mark?",
+       "label": "¿Cuántos cursos dicta Mark?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Uno"
+        },
+        {
+         "id": "b",
+         "text": "Dos"
+        },
+        {
+         "id": "c",
+         "text": "Tres"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hace normalmente los martes?",
+       "label": "¿Qué hace normalmente los martes?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Hace clases"
+        },
+        {
+         "id": "b",
+         "text": "Analiza datos"
+        },
+        {
+         "id": "c",
+         "text": "Tiene reunión"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿A cuántos estudiantes dirige?",
+       "label": "¿A cuántos estudiantes dirige?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Dos"
+        },
+        {
+         "id": "b",
+         "text": "Tres"
+        },
+        {
+         "id": "c",
+         "text": "Cinco"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D02.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Every Friday the team has a meeting.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Every Friday the team has a meeting."
+    }
+   ]
+  },
+  {
+   "id": "D02.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Ana's week",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D02-RR"
+   ],
+   "activities": [
+    {
+     "id": "D02.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hace Ana los lunes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Visita fábricas"
+      },
+      {
+       "id": "b",
+       "text": "Dicta un curso de estadística"
+      },
+      {
+       "id": "c",
+       "text": "Escribe un informe"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D02.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Con qué analiza los datos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Con Excel"
+      },
+      {
+       "id": "b",
+       "text": "Con Python"
+      },
+      {
+       "id": "c",
+       "text": "Con papel y lápiz"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D02.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cada cuánto escriben un informe?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cada semana"
+      },
+      {
+       "id": "b",
+       "text": "Una vez al mes"
+      },
+      {
+       "id": "c",
+       "text": "Cada viernes"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«once a month»"
+    }
+   ]
+  },
+  {
+   "id": "D02.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D02.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Ana usually starts work at eight. On Mondays she teaches a course on statistics for engineering students.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Ana usually starts work at eight.",
+       "On Mondays she teaches a course on statistics for engineering students."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D02.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en voz alta tu semana típica de trabajo (30–60 s): qué haces los lunes, qué haces normalmente y qué haces cada semana.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "teach",
+        "course",
+        "student",
+        "supervise",
+        "thesis",
+        "meeting",
+        "data",
+        "analyse",
+        "report",
+        "usually",
+        "every week",
+        "paper"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D02.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D02.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un párrafo (40–80 palabras) sobre la semana de un colega o de Ana usando he/she y el presente simple.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "teach",
+        "course",
+        "student",
+        "supervise",
+        "thesis",
+        "meeting",
+        "data",
+        "analyse",
+        "report",
+        "usually",
+        "every week",
+        "paper"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "works",
+        "teaches",
+        "has",
+        "writes",
+        "reads",
+        "analyses",
+        "supervises"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

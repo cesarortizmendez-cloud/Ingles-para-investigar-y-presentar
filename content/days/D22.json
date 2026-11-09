@@ -1,0 +1,895 @@
+{
+ "id": "D22",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Planes y predicciones: will y be going to",
+ "day": 22,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas del futuro de un proyecto: planes ya decididos (be going to) y predicciones o decisiones (will).",
+ "objectives": [
+  {
+   "id": "D22-O1",
+   "text": "Usar be going to para planes y will para predicciones."
+  },
+  {
+   "id": "D22-O2",
+   "text": "Describir los próximos pasos de un proyecto."
+  },
+  {
+   "id": "D22-O3",
+   "text": "Entender un audio sobre planes futuros."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D22-LX01",
+    "form": "next step",
+    "meaning_es": "próximo paso",
+    "example": "The next step is a pilot test.",
+    "example_es": "El próximo paso es una prueba piloto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX02",
+    "form": "plan",
+    "meaning_es": "plan; planificar",
+    "example": "We plan to expand the study.",
+    "example_es": "Planeamos ampliar el estudio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX03",
+    "form": "expand",
+    "meaning_es": "ampliar, expandir",
+    "example": "We hope to expand the sample next year.",
+    "example_es": "Esperamos ampliar la muestra el próximo año.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX04",
+    "form": "pilot test",
+    "meaning_es": "prueba piloto",
+    "example": "The pilot test starts in March.",
+    "example_es": "La prueba piloto empieza en marzo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX05",
+    "form": "future work",
+    "meaning_es": "trabajo futuro",
+    "example": "Future work should include more companies.",
+    "example_es": "El trabajo futuro debería incluir más empresas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX06",
+    "form": "predict",
+    "meaning_es": "predecir",
+    "example": "The model can predict energy use.",
+    "example_es": "El modelo puede predecir el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX07",
+    "form": "probably",
+    "meaning_es": "probablemente",
+    "example": "Costs will probably increase.",
+    "example_es": "Los costos probablemente aumentarán.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX08",
+    "form": "likely",
+    "meaning_es": "probable",
+    "example": "It is likely that prices will rise.",
+    "example_es": "Es probable que los precios suban.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX09",
+    "form": "deadline",
+    "meaning_es": "plazo, fecha límite",
+    "example": "The deadline is in May.",
+    "example_es": "El plazo es en mayo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX10",
+    "form": "submit",
+    "meaning_es": "enviar, presentar (un trabajo)",
+    "example": "We will submit the paper in June.",
+    "example_es": "Enviaremos el artículo en junio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX11",
+    "form": "next year",
+    "meaning_es": "el próximo año",
+    "example": "Next year we are going to work with five sawmills.",
+    "example_es": "El próximo año vamos a trabajar con cinco aserraderos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D22-LX12",
+    "form": "timeline",
+    "meaning_es": "cronograma",
+    "example": "The timeline has three phases.",
+    "example_es": "El cronograma tiene tres fases.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D22-G1",
+    "topic": "Futuro: be going to y will"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D22-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "next step",
+     "meaning_es": "próximo paso",
+     "example": "The next step is a pilot test.",
+     "example_es": "El próximo paso es una prueba piloto."
+    },
+    {
+     "form": "plan",
+     "meaning_es": "plan; planificar",
+     "example": "We plan to expand the study.",
+     "example_es": "Planeamos ampliar el estudio."
+    },
+    {
+     "form": "expand",
+     "meaning_es": "ampliar, expandir",
+     "example": "We hope to expand the sample next year.",
+     "example_es": "Esperamos ampliar la muestra el próximo año."
+    },
+    {
+     "form": "pilot test",
+     "meaning_es": "prueba piloto",
+     "example": "The pilot test starts in March.",
+     "example_es": "La prueba piloto empieza en marzo."
+    },
+    {
+     "form": "future work",
+     "meaning_es": "trabajo futuro",
+     "example": "Future work should include more companies.",
+     "example_es": "El trabajo futuro debería incluir más empresas."
+    },
+    {
+     "form": "predict",
+     "meaning_es": "predecir",
+     "example": "The model can predict energy use.",
+     "example_es": "El modelo puede predecir el uso de energía."
+    },
+    {
+     "form": "probably",
+     "meaning_es": "probablemente",
+     "example": "Costs will probably increase.",
+     "example_es": "Los costos probablemente aumentarán."
+    },
+    {
+     "form": "likely",
+     "meaning_es": "probable",
+     "example": "It is likely that prices will rise.",
+     "example_es": "Es probable que los precios suban."
+    },
+    {
+     "form": "deadline",
+     "meaning_es": "plazo, fecha límite",
+     "example": "The deadline is in May.",
+     "example_es": "El plazo es en mayo."
+    },
+    {
+     "form": "submit",
+     "meaning_es": "enviar, presentar (un trabajo)",
+     "example": "We will submit the paper in June.",
+     "example_es": "Enviaremos el artículo en junio."
+    },
+    {
+     "form": "next year",
+     "meaning_es": "el próximo año",
+     "example": "Next year we are going to work with five sawmills.",
+     "example_es": "El próximo año vamos a trabajar con cinco aserraderos."
+    },
+    {
+     "form": "timeline",
+     "meaning_es": "cronograma",
+     "example": "The timeline has three phases.",
+     "example_es": "El cronograma tiene tres fases."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D22-RG",
+   "type": "capsule",
+   "title": "Futuro: be going to y will",
+   "explain": "be going to + verbo: planes ya decididos → «We are going to start a pilot test in March» (ya está planeado).\nwill + verbo: predicciones, promesas o decisiones del momento → «Costs will probably increase», «I will send you the file».\nLas dos son correctas en muchos casos; en un paper o una presentación, «will» es más frecuente para resultados esperados: «This tool will help managers».\nNegativo: won't (will not) · isn't/aren't going to.",
+   "form": [
+    [
+     "am/is/are going to + verbo",
+     "We are going to expand the study."
+    ],
+    [
+     "will + verbo",
+     "Costs will increase."
+    ],
+    [
+     "won't + verbo",
+     "It won't be easy."
+    ],
+    [
+     "will probably / is likely to",
+     "predicción prudente"
+    ]
+   ],
+   "examples": [
+    [
+     "We are going to start a pilot test in March.",
+     "Vamos a empezar una prueba piloto en marzo."
+    ],
+    [
+     "Energy prices will probably increase.",
+     "Los precios de la energía probablemente aumentarán."
+    ],
+    [
+     "I will send you the slides tomorrow.",
+     "Te enviaré las diapositivas mañana."
+    ]
+   ],
+   "tip": "«probably» va después de will: will probably increase; y antes de won't: probably won't change.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D22-RR",
+   "type": "text",
+   "title": "Plans for the next phase",
+   "body": "The project has received funding for two more years. Next year the team is going to expand the sample from three to five sawmills. In March they are going to start a pilot test of the new schedule in one sawmill. If the test works, the other sawmills will probably adopt it. Ana thinks energy prices will increase, so the results will be useful for many companies. The deadline for the first paper is in June.",
+   "translation_es": "El proyecto recibió financiamiento por dos años más. El próximo año el equipo va a ampliar la muestra de tres a cinco aserraderos. En marzo van a empezar una prueba piloto de la nueva programación en un aserradero. Si la prueba funciona, los otros aserraderos probablemente la adoptarán. Ana cree que los precios de la energía subirán, así que los resultados serán útiles para muchas empresas. El plazo del primer artículo es en junio.",
+   "glossary": [
+    [
+     "adopt",
+     "adoptar"
+    ],
+    [
+     "If the test works",
+     "Si la prueba funciona"
+    ],
+    [
+     "useful",
+     "útiles"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D22.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D22-RV"
+   ],
+   "activities": [
+    {
+     "id": "D22.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The [[1]] is a pilot test.  (2) We hope to [[2]] the sample next year.  (3) [[3]] should include more companies.  (4) Costs will [[4]] increase.  (5) It is [[5]] that prices will rise.  (6) The [[6]] is in May.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "next step"
+       ],
+       "hint": "Significa «próximo paso»."
+      },
+      "2": {
+       "accept": [
+        "expand"
+       ],
+       "hint": "Significa «ampliar, expandir»."
+      },
+      "3": {
+       "accept": [
+        "future work"
+       ],
+       "hint": "Significa «trabajo futuro»."
+      },
+      "4": {
+       "accept": [
+        "probably"
+       ],
+       "hint": "Significa «probablemente»."
+      },
+      "5": {
+       "accept": [
+        "likely"
+       ],
+       "hint": "Significa «probable»."
+      },
+      "6": {
+       "accept": [
+        "deadline"
+       ],
+       "hint": "Significa «plazo, fecha límite»."
+      }
+     }
+    },
+    {
+     "id": "D22.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «predecir»",
+     "accept": [
+      "predict"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: El modelo puede predecir el uso de energía."
+    },
+    {
+     "id": "D22.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «prueba piloto»",
+     "accept": [
+      "pilot test"
+     ],
+     "hint": "Empieza con «pi…» · Ejemplo: La prueba piloto empieza en marzo."
+    },
+    {
+     "id": "D22.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «enviar, presentar (un trabajo)»",
+     "accept": [
+      "submit"
+     ],
+     "hint": "Empieza con «su…» · Ejemplo: Enviaremos el artículo en junio."
+    },
+    {
+     "id": "D22.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «el próximo año»",
+     "accept": [
+      "next year"
+     ],
+     "hint": "Empieza con «ne…» · Ejemplo: El próximo año vamos a trabajar con cinco aserraderos."
+    },
+    {
+     "id": "D22.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «plan; planificar»",
+     "accept": [
+      "plan"
+     ],
+     "hint": "Empieza con «pl…» · Ejemplo: Planeamos ampliar el estudio."
+    },
+    {
+     "id": "D22.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cronograma»",
+     "accept": [
+      "timeline"
+     ],
+     "hint": "Empieza con «ti…» · Ejemplo: El cronograma tiene tres fases."
+    },
+    {
+     "id": "D22.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The model can predict energy use.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The model can predict energy use."
+    }
+   ]
+  },
+  {
+   "id": "D22.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Futuro: be going to y will",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D22-RG"
+   ],
+   "activities": [
+    {
+     "id": "D22.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We are [[1]] to expand the study next year.  (2) Costs [[2]] probably increase. (predicción)  (3) I [[3]] send you the file tomorrow. (promesa)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "going"
+       ],
+       "hint": "be going to"
+      },
+      "2": {
+       "accept": [
+        "will"
+       ]
+      },
+      "3": {
+       "accept": [
+        "will",
+        "'ll"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D22.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) It [[1]] be easy to find more companies. (negativo, will)  (2) The pilot test is going to [[2]] in March. (start)  (3) We will [[3]] the paper in June. (submit)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "won't",
+        "will not"
+       ]
+      },
+      "2": {
+       "accept": [
+        "start"
+       ],
+       "hint": "verbo base"
+      },
+      "3": {
+       "accept": [
+        "submit"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D22.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Plan ya decidido:",
+     "options": [
+      {
+       "id": "a",
+       "text": "We will maybe start in March."
+      },
+      {
+       "id": "b",
+       "text": "We are going to start in March."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D22.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Costs will to increase."
+      },
+      {
+       "id": "b",
+       "text": "Costs will increase."
+      },
+      {
+       "id": "c",
+       "text": "Costs will increasing."
+      }
+     ],
+     "answer": "b",
+     "explanation": "will + verbo base"
+    },
+    {
+     "id": "D22.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre los próximos pasos de un proyecto tuyo (going to para planes, will para predicciones).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "going to",
+        "will",
+        "won't"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D22.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Los próximos pasos",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D22.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Los próximos pasos: escucha sin leer y responde.",
+     "audio": {
+      "text": "What are your plans for next year? We are going to expand the study to five sawmills. We are also going to start a pilot test in March. I think the new schedule will reduce energy use. We will submit the first paper in June.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "What are your plans for next year? We are going to expand the study to five sawmills. We are also going to start a pilot test in March. I think the new schedule will reduce energy use. We will submit the first paper in June.",
+     "translation_es": "¿Cuáles son sus planes para el próximo año? Vamos a ampliar el estudio a cinco aserraderos. También vamos a empezar una prueba piloto en marzo. Creo que la nueva programación reducirá el uso de energía. Enviaremos el primer artículo en junio.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿A cuántos aserraderos ampliarán el estudio?",
+       "label": "¿A cuántos aserraderos ampliarán el estudio?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Tres"
+        },
+        {
+         "id": "b",
+         "text": "Cinco"
+        },
+        {
+         "id": "c",
+         "text": "Diez"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuándo empieza la prueba piloto?",
+       "label": "¿Cuándo empieza la prueba piloto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En marzo"
+        },
+        {
+         "id": "b",
+         "text": "En mayo"
+        },
+        {
+         "id": "c",
+         "text": "En junio"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué predice Ana?",
+       "label": "¿Qué predice Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Que la nueva programación reducirá el uso de energía"
+        },
+        {
+         "id": "b",
+         "text": "Que los costos bajarán a la mitad"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D22.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We will submit the first paper in June.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We will submit the first paper in June."
+    }
+   ]
+  },
+  {
+   "id": "D22.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Plans for the next phase",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D22-RR"
+   ],
+   "activities": [
+    {
+     "id": "D22.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por cuánto tiempo más tienen financiamiento?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un año"
+      },
+      {
+       "id": "b",
+       "text": "Dos años"
+      },
+      {
+       "id": "c",
+       "text": "Cinco años"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D22.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde se hará la prueba piloto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En un aserradero"
+      },
+      {
+       "id": "b",
+       "text": "En los cinco aserraderos"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D22.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué cree Ana sobre los precios de la energía?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Que bajarán"
+      },
+      {
+       "id": "b",
+       "text": "Que subirán"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D22.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D22.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The project has received funding for two more years. Next year the team is going to expand the sample from three to five sawmills.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The project has received funding for two more years.",
+       "Next year the team is going to expand the sample from three to five sawmills."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D22.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta en voz alta (30–60 s) tus planes profesionales para el próximo año (going to) y una predicción sobre tu área (will).",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "next step",
+        "plan",
+        "expand",
+        "pilot test",
+        "future work",
+        "predict",
+        "probably",
+        "likely",
+        "deadline",
+        "submit",
+        "next year",
+        "timeline"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D22.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D22.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre el trabajo futuro de un proyecto: planes (going to), predicciones (will probably) y un plazo.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "next step",
+        "plan",
+        "expand",
+        "pilot test",
+        "future work",
+        "predict",
+        "probably",
+        "likely",
+        "deadline",
+        "submit",
+        "next year",
+        "timeline"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "going to",
+        "will",
+        "won't"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

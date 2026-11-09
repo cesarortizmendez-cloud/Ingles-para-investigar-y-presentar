@@ -1,0 +1,889 @@
+{
+ "id": "D33",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Situaciones hipotéticas: el segundo condicional",
+ "day": 33,
+ "week": 5,
+ "day_type": "aprendizaje",
+ "intro": "Hoy imaginas situaciones que no son reales ahora: «Si tuviéramos más datos, podríamos…». Muy útil para hablar de limitaciones.",
+ "objectives": [
+  {
+   "id": "D33-O1",
+   "text": "Formar el segundo condicional: if + pasado, would + verbo."
+  },
+  {
+   "id": "D33-O2",
+   "text": "Hablar de limitaciones y mejoras hipotéticas del diseño."
+  },
+  {
+   "id": "D33-O3",
+   "text": "Responder la pregunta «¿Qué harías diferente?»."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D33-LX01",
+    "form": "would",
+    "meaning_es": "-ría (condicional)",
+    "example": "We would need more sawmills.",
+    "example_es": "Necesitaríamos más aserraderos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX02",
+    "form": "would be",
+    "meaning_es": "sería",
+    "example": "A longer study would be better.",
+    "example_es": "Un estudio más largo sería mejor.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX03",
+    "form": "if we had",
+    "meaning_es": "si tuviéramos",
+    "example": "If we had more funding, we would hire a technician.",
+    "example_es": "Si tuviéramos más financiamiento, contrataríamos a un técnico.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX04",
+    "form": "if I were",
+    "meaning_es": "si yo fuera/estuviera",
+    "example": "If I were a manager, I would test the tool.",
+    "example_es": "Si yo fuera gerente, probaría la herramienta.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX05",
+    "form": "randomly",
+    "meaning_es": "aleatoriamente",
+    "example": "Shifts were not randomly assigned.",
+    "example_es": "Los turnos no se asignaron aleatoriamente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX06",
+    "form": "design",
+    "meaning_es": "diseño; diseñar",
+    "example": "The design of the study was simple.",
+    "example_es": "El diseño del estudio era simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX07",
+    "form": "control group",
+    "meaning_es": "grupo de control",
+    "example": "A control group would help.",
+    "example_es": "Un grupo de control ayudaría.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX08",
+    "form": "larger sample",
+    "meaning_es": "muestra más grande",
+    "example": "A larger sample would give stronger evidence.",
+    "example_es": "Una muestra más grande daría evidencia más sólida.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX09",
+    "form": "ideally",
+    "meaning_es": "idealmente",
+    "example": "Ideally, the study would last two years.",
+    "example_es": "Idealmente, el estudio duraría dos años.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX10",
+    "form": "differently",
+    "meaning_es": "de otra manera",
+    "example": "What would you do differently?",
+    "example_es": "¿Qué harías de otra manera?",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX11",
+    "form": "hire",
+    "meaning_es": "contratar",
+    "example": "We need to hire a technician.",
+    "example_es": "Necesitamos contratar a un técnico.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D33-LX12",
+    "form": "generalise",
+    "meaning_es": "generalizar",
+    "example": "We cannot generalise to all regions.",
+    "example_es": "No podemos generalizar a todas las regiones.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D33-G1",
+    "topic": "Segundo condicional: if + pasado, would + verbo"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D33-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "would",
+     "meaning_es": "-ría (condicional)",
+     "example": "We would need more sawmills.",
+     "example_es": "Necesitaríamos más aserraderos."
+    },
+    {
+     "form": "would be",
+     "meaning_es": "sería",
+     "example": "A longer study would be better.",
+     "example_es": "Un estudio más largo sería mejor."
+    },
+    {
+     "form": "if we had",
+     "meaning_es": "si tuviéramos",
+     "example": "If we had more funding, we would hire a technician.",
+     "example_es": "Si tuviéramos más financiamiento, contrataríamos a un técnico."
+    },
+    {
+     "form": "if I were",
+     "meaning_es": "si yo fuera/estuviera",
+     "example": "If I were a manager, I would test the tool.",
+     "example_es": "Si yo fuera gerente, probaría la herramienta."
+    },
+    {
+     "form": "randomly",
+     "meaning_es": "aleatoriamente",
+     "example": "Shifts were not randomly assigned.",
+     "example_es": "Los turnos no se asignaron aleatoriamente."
+    },
+    {
+     "form": "design",
+     "meaning_es": "diseño; diseñar",
+     "example": "The design of the study was simple.",
+     "example_es": "El diseño del estudio era simple."
+    },
+    {
+     "form": "control group",
+     "meaning_es": "grupo de control",
+     "example": "A control group would help.",
+     "example_es": "Un grupo de control ayudaría."
+    },
+    {
+     "form": "larger sample",
+     "meaning_es": "muestra más grande",
+     "example": "A larger sample would give stronger evidence.",
+     "example_es": "Una muestra más grande daría evidencia más sólida."
+    },
+    {
+     "form": "ideally",
+     "meaning_es": "idealmente",
+     "example": "Ideally, the study would last two years.",
+     "example_es": "Idealmente, el estudio duraría dos años."
+    },
+    {
+     "form": "differently",
+     "meaning_es": "de otra manera",
+     "example": "What would you do differently?",
+     "example_es": "¿Qué harías de otra manera?"
+    },
+    {
+     "form": "hire",
+     "meaning_es": "contratar",
+     "example": "We need to hire a technician.",
+     "example_es": "Necesitamos contratar a un técnico."
+    },
+    {
+     "form": "generalise",
+     "meaning_es": "generalizar",
+     "example": "We cannot generalise to all regions.",
+     "example_es": "No podemos generalizar a todas las regiones."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D33-RG",
+   "type": "capsule",
+   "title": "Segundo condicional: if + pasado, would + verbo",
+   "explain": "Se usa para situaciones hipotéticas o poco probables AHORA: «If we had more funding, we would hire a technician» (no tenemos ese financiamiento).\nForma: If + pasado simple, would / could + verbo base.\nCon «to be» se recomienda «were» para todas las personas: If I were a manager… If it were possible…\nEn investigación sirve para limitaciones: «If the shifts were randomly assigned, we could estimate the causal effect».\nComparación: primer condicional = posible y probable; segundo = imaginado o improbable.",
+   "form": [
+    [
+     "If + pasado, would + verbo",
+     "If we had more data, we would…"
+    ],
+    [
+     "If + pasado, could + verbo",
+     "… we could compare regions."
+    ],
+    [
+     "If I/it were…",
+     "If I were a manager…"
+    ],
+    [
+     "What would you do…?",
+     "pregunta hipotética"
+    ]
+   ],
+   "examples": [
+    [
+     "If we had more funding, we would hire a technician.",
+     "Si tuviéramos más financiamiento, contrataríamos a un técnico."
+    ],
+    [
+     "If the shifts were randomly assigned, we could estimate the causal effect.",
+     "Si los turnos se asignaran aleatoriamente, podríamos estimar el efecto causal."
+    ],
+    [
+     "If I were a manager, I would test the tool.",
+     "Si yo fuera gerente, probaría la herramienta."
+    ]
+   ],
+   "tip": "En la sección de limitaciones: «A larger sample would…», «Ideally, the study would…».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D33-RR",
+   "type": "text",
+   "title": "Limitations",
+   "body": "This study has several limitations. First, the sample was small, and we cannot generalise to all regions. A larger sample would give stronger evidence. Second, the shifts were not randomly assigned. If they were, we could estimate the causal effect of the schedule. Third, the study lasted only six months; ideally, it would include two winters. If we had more funding, we would also hire a technician to check the sensors. Future studies could use a control group.",
+   "translation_es": "Este estudio tiene varias limitaciones. Primero, la muestra fue pequeña y no podemos generalizar a todas las regiones. Una muestra más grande daría evidencia más sólida. Segundo, los turnos no se asignaron aleatoriamente. Si así fuera, podríamos estimar el efecto causal de la programación. Tercero, el estudio duró solo seis meses; idealmente, incluiría dos inviernos. Si tuviéramos más financiamiento, también contrataríamos a un técnico para revisar los sensores. Estudios futuros podrían usar un grupo de control.",
+   "glossary": [
+    [
+     "several",
+     "varias"
+    ],
+    [
+     "lasted",
+     "duró"
+    ],
+    [
+     "winters",
+     "inviernos"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D33.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D33-RV"
+   ],
+   "activities": [
+    {
+     "id": "D33.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) A longer study [[1]] better.  (2) Shifts were not [[2]] assigned.  (3) A [[3]] would help.  (4) [[4]], the study would last two years.  (5) What would you do [[5]]?  (6) We cannot [[6]] to all regions.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "would be"
+       ],
+       "hint": "Significa «sería»."
+      },
+      "2": {
+       "accept": [
+        "randomly"
+       ],
+       "hint": "Significa «aleatoriamente»."
+      },
+      "3": {
+       "accept": [
+        "control group"
+       ],
+       "hint": "Significa «grupo de control»."
+      },
+      "4": {
+       "accept": [
+        "ideally"
+       ],
+       "hint": "Significa «idealmente»."
+      },
+      "5": {
+       "accept": [
+        "differently"
+       ],
+       "hint": "Significa «de otra manera»."
+      },
+      "6": {
+       "accept": [
+        "generalise"
+       ],
+       "hint": "Significa «generalizar»."
+      }
+     }
+    },
+    {
+     "id": "D33.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «-ría (condicional)»",
+     "accept": [
+      "would"
+     ],
+     "hint": "Empieza con «wo…» · Ejemplo: Necesitaríamos más aserraderos."
+    },
+    {
+     "id": "D33.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «si yo fuera/estuviera»",
+     "accept": [
+      "if I were"
+     ],
+     "hint": "Empieza con «if…» · Ejemplo: Si yo fuera gerente, probaría la herramienta."
+    },
+    {
+     "id": "D33.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «muestra más grande»",
+     "accept": [
+      "larger sample"
+     ],
+     "hint": "Empieza con «la…» · Ejemplo: Una muestra más grande daría evidencia más sólida."
+    },
+    {
+     "id": "D33.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «diseño; diseñar»",
+     "accept": [
+      "design"
+     ],
+     "hint": "Empieza con «de…» · Ejemplo: El diseño del estudio era simple."
+    },
+    {
+     "id": "D33.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «contratar»",
+     "accept": [
+      "hire"
+     ],
+     "hint": "Empieza con «hi…» · Ejemplo: Necesitamos contratar a un técnico."
+    },
+    {
+     "id": "D33.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «si tuviéramos»",
+     "accept": [
+      "if we had"
+     ],
+     "hint": "Empieza con «if…» · Ejemplo: Si tuviéramos más financiamiento, contrataríamos a un técnico."
+    },
+    {
+     "id": "D33.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "We would need more sawmills.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We would need more sawmills."
+    }
+   ]
+  },
+  {
+   "id": "D33.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Segundo condicional: if + pasado, would + verbo",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D33-RG"
+   ],
+   "activities": [
+    {
+     "id": "D33.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) If we [[1]] more funding, we would hire a technician. (have)  (2) If we had more data, we [[2]] compare regions. (podríamos)  (3) If I [[3]] a manager, I would test the tool. (be)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "had"
+       ],
+       "hint": "if + pasado"
+      },
+      "2": {
+       "accept": [
+        "could",
+        "would"
+       ]
+      },
+      "3": {
+       "accept": [
+        "were",
+        "was"
+       ],
+       "hint": "If I were"
+      }
+     }
+    },
+    {
+     "id": "D33.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) A control group [[1]] help. (ayudaría)  (2) Shifts were not [[2]] assigned. (aleatoriamente)  (3) What would you do [[3]]? (de otra manera)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "would"
+       ]
+      },
+      "2": {
+       "accept": [
+        "randomly"
+       ]
+      },
+      "3": {
+       "accept": [
+        "differently"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D33.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "If we would have more data, we would publish."
+      },
+      {
+       "id": "b",
+       "text": "If we had more data, we would publish."
+      }
+     ],
+     "answer": "b",
+     "explanation": "if + pasado, no would"
+    },
+    {
+     "id": "D33.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué expresa «If the sample were larger, the evidence would be stronger»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un hecho real"
+      },
+      {
+       "id": "b",
+       "text": "Una situación hipotética (la muestra no es grande)"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D33.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Responde por escrito «What would you do differently?» sobre un proyecto tuyo, con dos oraciones en segundo condicional.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "would",
+        "could",
+        "if we had",
+        "if i were",
+        "were"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D33.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: ¿Qué harías diferente?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D33.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Qué harías diferente?: escucha sin leer y responde.",
+     "audio": {
+      "text": "What would you do differently? If we had more funding, we would include more sawmills. Ideally, the study would last two years. And if the shifts were randomly assigned, we could estimate the causal effect. But in real companies that is very difficult.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "What would you do differently? If we had more funding, we would include more sawmills. Ideally, the study would last two years. And if the shifts were randomly assigned, we could estimate the causal effect. But in real companies that is very difficult.",
+     "translation_es": "¿Qué harías de otra manera? Si tuviéramos más financiamiento, incluiríamos más aserraderos. Idealmente, el estudio duraría dos años. Y si los turnos se asignaran aleatoriamente, podríamos estimar el efecto causal. Pero en empresas reales eso es muy difícil.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué harían con más financiamiento?",
+       "label": "¿Qué harían con más financiamiento?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Incluirían más aserraderos"
+        },
+        {
+         "id": "b",
+         "text": "Comprarían máquinas nuevas"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto duraría idealmente el estudio?",
+       "label": "¿Cuánto duraría idealmente el estudio?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Seis meses"
+        },
+        {
+         "id": "b",
+         "text": "Dos años"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué es difícil en empresas reales?",
+       "label": "¿Qué es difícil en empresas reales?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Asignar turnos aleatoriamente"
+        },
+        {
+         "id": "b",
+         "text": "Medir la energía"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D33.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Ideally, the study would last two years.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Ideally, the study would last two years."
+    }
+   ]
+  },
+  {
+   "id": "D33.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Limitations",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D33-RR"
+   ],
+   "activities": [
+    {
+     "id": "D33.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántas limitaciones se enumeran?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Dos"
+      },
+      {
+       "id": "b",
+       "text": "Tres"
+      }
+     ],
+     "answer": "b",
+     "explanation": "First, Second, Third"
+    },
+    {
+     "id": "D33.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué permitiría estimar el efecto causal?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Asignar turnos aleatoriamente"
+      },
+      {
+       "id": "b",
+       "text": "Usar más sensores"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D33.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto debería durar idealmente el estudio?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Incluir dos inviernos"
+      },
+      {
+       "id": "b",
+       "text": "Un mes"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D33.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D33.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "This study has several limitations. First, the sample was small, and we cannot generalise to all regions.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "This study has several limitations.",
+       "First, the sample was small, and we cannot generalise to all regions."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D33.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Responde en voz alta (45–60 s) a la pregunta de un evaluador: «What are the limitations of your work, and what would you do differently?»",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "would",
+        "would be",
+        "if we had",
+        "if I were",
+        "randomly",
+        "design",
+        "control group",
+        "larger sample",
+        "ideally",
+        "differently",
+        "hire",
+        "generalise"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "model": {
+      "text": "What are the limitations of your work, and what would you do differently?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     }
+    }
+   ]
+  },
+  {
+   "id": "D33.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D33.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe la sección de limitaciones (50–90 palabras) de un trabajo tuyo con el segundo condicional (would, could, if we had…).",
+     "min_words": 45,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "would",
+        "would be",
+        "if we had",
+        "if I were",
+        "randomly",
+        "design",
+        "control group",
+        "larger sample",
+        "ideally",
+        "differently",
+        "hire",
+        "generalise"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "would",
+        "could",
+        "if we had",
+        "if i were",
+        "were"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

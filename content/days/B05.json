@@ -1,0 +1,659 @@
+{
+ "id": "B05",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso unidad 1: me presento",
+ "day": 5,
+ "week": 1,
+ "day_type": "repaso",
+ "intro": "Repaso de la unidad 1 sin lista de apoyo: saludos, datos personales, países e idiomas, familia y posesivos. Termina con una mini presentación.",
+ "objectives": [
+  {
+   "id": "B05-O1",
+   "text": "Presentarte con tus datos y tu familia en menos de un minuto."
+  },
+  {
+   "id": "B05-O2",
+   "text": "Recuperar sin mirar las palabras de la unidad 1."
+  },
+  {
+   "id": "B05-O3",
+   "text": "Usar to be (afirmativo, negativo y preguntas) y los posesivos sin errores básicos."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B05-RR",
+   "type": "text",
+   "title": "An email to a new friend",
+   "body": "Hi Mei, it was nice to meet you today. Here is my information. My full name is Tomás Muñoz. I am forty-two years old and I am from Concepción, a city in the south of Chile. My email is tomas.munoz@mail.com and my phone number is 617 555 0192. My wife's name is Carmen, and our children are Diego and Sofía. See you in class! Tomás",
+   "translation_es": "Hola, Mei: fue un gusto conocerte hoy. Aquí van mis datos. Mi nombre completo es Tomás Muñoz. Tengo cuarenta y dos años y soy de Concepción, una ciudad del sur de Chile. Mi correo es tomas.munoz@mail.com y mi teléfono es 617 555 0192. Mi esposa se llama Carmen y nuestros hijos son Diego y Sofía. ¡Nos vemos en clases! Tomás",
+   "glossary": [
+    [
+     "full name",
+     "nombre completo"
+    ],
+    [
+     "it was nice",
+     "fue un gusto"
+    ],
+    [
+     "information",
+     "datos, información"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B05.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "B05.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) This is my [[1]] book.  (2) What is your room [[2]]?  (3) Linda's [[3]] is at university.  (4) Her [[4]] is a pilot.  (5) We have two [[5]].  (6) I have a class now. [[6]]!",
+     "gaps": {
+      "1": {
+       "accept": [
+        "English"
+       ],
+       "hint": "Significa «inglés (idioma)»."
+      },
+      "2": {
+       "accept": [
+        "number"
+       ],
+       "hint": "Significa «número»."
+      },
+      "3": {
+       "accept": [
+        "daughter"
+       ],
+       "hint": "Significa «hija»."
+      },
+      "4": {
+       "accept": [
+        "husband"
+       ],
+       "hint": "Significa «esposo»."
+      },
+      "5": {
+       "accept": [
+        "children"
+       ],
+       "hint": "Significa «hijos, niños»."
+      },
+      "6": {
+       "accept": [
+        "see you later"
+       ],
+       "hint": "Significa «nos vemos, hasta luego»."
+      }
+     }
+    },
+    {
+     "id": "B05.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «familia»",
+     "accept": [
+      "family"
+     ],
+     "hint": "Ejemplo: Mi familia está en Chile."
+    },
+    {
+     "id": "B05.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «por favor»",
+     "accept": [
+      "please"
+     ],
+     "hint": "Ejemplo: Un café, por favor."
+    },
+    {
+     "id": "B05.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hijo»",
+     "accept": [
+      "son"
+     ],
+     "hint": "Ejemplo: Su hijo tiene diez años."
+    },
+    {
+     "id": "B05.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «estadounidense»",
+     "accept": [
+      "American"
+     ],
+     "hint": "Ejemplo: Linda es estadounidense."
+    },
+    {
+     "id": "B05.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mundo»",
+     "accept": [
+      "world"
+     ],
+     "hint": "Ejemplo: Estos estudiantes son de todo el mundo."
+    },
+    {
+     "id": "B05.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «buenos días»",
+     "accept": [
+      "good morning"
+     ],
+     "hint": "Ejemplo: ¡Buenos días, Linda!"
+    }
+   ]
+  },
+  {
+   "id": "B05.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B05.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Linda is American. [[1]] is from Boston.  (2) I [[2]] forty-two years old.  (3) [[3]] students here are from Peru.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "she"
+       ],
+       "hint": "Linda → she."
+      },
+      "2": {
+       "accept": [
+        "am"
+       ],
+       "hint": "La edad va con to be."
+      },
+      "3": {
+       "accept": [
+        "these"
+       ],
+       "hint": "Cerca y plural."
+      }
+     }
+    },
+    {
+     "id": "B05.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Hello, what is [[1]] name?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "your"
+       ],
+       "hint": "De ti → your."
+      }
+     }
+    },
+    {
+     "id": "B05.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cómo se dice «Ella es de Chile»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She is from Chile."
+      },
+      {
+       "id": "b",
+       "text": "Is from Chile."
+      },
+      {
+       "id": "c",
+       "text": "She are from Chile."
+      }
+     ],
+     "answer": "a",
+     "explanation": "En inglés el sujeto no se omite y con she va is."
+    },
+    {
+     "id": "B05.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Respuesta corta correcta a «Are you Chilean?»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Yes, I'm."
+      },
+      {
+       "id": "b",
+       "text": "Yes, I am."
+      },
+      {
+       "id": "c",
+       "text": "Yes, I are."
+      }
+     ],
+     "answer": "b",
+     "explanation": "En la respuesta corta afirmativa no se contrae."
+    },
+    {
+     "id": "B05.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "These people is from Chile."
+      },
+      {
+       "id": "b",
+       "text": "These people are from Chile."
+      },
+      {
+       "id": "c",
+       "text": "This people are from Chile."
+      }
+     ],
+     "answer": "b",
+     "explanation": "people es plural: these … are."
+    },
+    {
+     "id": "B05.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«El hijo de mi hermana» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "my sister's son"
+      },
+      {
+       "id": "b",
+       "text": "the son my sister"
+      },
+      {
+       "id": "c",
+       "text": "my sister son"
+      }
+     ],
+     "answer": "a",
+     "explanation": "persona + 's + cosa."
+    }
+   ]
+  },
+  {
+   "id": "B05.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Una conversación en la cafetería",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B05.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una conversación en la cafetería: escucha sin leer y responde.",
+     "audio": {
+      "text": "Excuse me, is this seat free? Yes, please sit down. Thank you. My name is Tomás. I am from Chile. Nice to meet you, Tomás. I am Mei, from China. Are you a student? No, I am not. I am an engineer and a teacher. Are you married? Yes, I am. My wife is a doctor and we have two children.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Excuse me, is this seat free? Yes, please sit down. Thank you. My name is Tomás. I am from Chile. Nice to meet you, Tomás. I am Mei, from China. Are you a student? No, I am not. I am an engineer and a teacher. Are you married? Yes, I am. My wife is a doctor and we have two children.",
+     "translation_es": "Disculpa, ¿este asiento está libre? Sí, siéntate por favor. Gracias. Me llamo Tomás. Soy de Chile. Encantada, Tomás. Soy Mei, de China. ¿Eres estudiante? No. Soy ingeniero y profesor. ¿Estás casado? Sí. Mi esposa es doctora y tenemos dos hijos.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Quién habla con Tomás?",
+       "label": "¿Quién habla con Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Linda"
+        },
+        {
+         "id": "b",
+         "text": "Mei"
+        },
+        {
+         "id": "c",
+         "text": "Carlos"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Tomás es estudiante?",
+       "label": "¿Tomás es estudiante?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Sí"
+        },
+        {
+         "id": "b",
+         "text": "No, es ingeniero y profesor"
+        },
+        {
+         "id": "c",
+         "text": "No, es doctor"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuántos hijos tiene Tomás?",
+       "label": "¿Cuántos hijos tiene Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Uno"
+        },
+        {
+         "id": "b",
+         "text": "Dos"
+        },
+        {
+         "id": "c",
+         "text": "Tres"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B05.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Are you a student?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Are you a student?"
+    }
+   ]
+  },
+  {
+   "id": "B05.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: An email to a new friend",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B05-RR"
+   ],
+   "activities": [
+    {
+     "id": "B05.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿De qué ciudad es Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Santiago"
+      },
+      {
+       "id": "b",
+       "text": "Concepción"
+      },
+      {
+       "id": "c",
+       "text": "Boston"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B05.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo se llama la esposa de Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Mei"
+      },
+      {
+       "id": "b",
+       "text": "Carmen"
+      },
+      {
+       "id": "c",
+       "text": "Sofía"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B05.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Para qué escribe Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Para dar sus datos"
+      },
+      {
+       "id": "b",
+       "text": "Para pedir un favor"
+      },
+      {
+       "id": "c",
+       "text": "Para cancelar una clase"
+      }
+     ],
+     "answer": "a",
+     "explanation": "«Here is my information»."
+    }
+   ]
+  },
+  {
+   "id": "B05.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B05.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Hi Mei, it was nice to meet you today. Here is my information.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Hi Mei, it was nice to meet you today.",
+       "Here is my information."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B05.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Mini presentación (45–90 s): saluda, di tu nombre y deletrea tu apellido, tu edad, de dónde eres, qué idiomas hablas y quiénes son tu familia. Termina con «Nice to meet you».",
+     "min_seconds": 45,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "English",
+        "number",
+        "daughter",
+        "husband",
+        "children",
+        "see you later",
+        "family",
+        "please",
+        "son",
+        "American",
+        "world",
+        "good morning",
+        "years old",
+        "mother",
+        "parents",
+        "wife",
+        "country",
+        "map",
+        "my name is",
+        "age",
+        "fine",
+        "Chilean",
+        "how are you",
+        "married"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "B05.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B05.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un correo de 40–80 palabras para presentarte a tu nuevo profesor de inglés: tus datos, tu país, tus idiomas y tu familia.",
+     "min_words": 35,
+     "max_words": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "English",
+        "number",
+        "daughter",
+        "husband",
+        "children",
+        "see you later",
+        "family",
+        "please",
+        "son",
+        "American",
+        "world",
+        "good morning",
+        "years old",
+        "mother",
+        "parents",
+        "wife",
+        "country",
+        "map",
+        "my name is",
+        "age",
+        "fine",
+        "Chilean",
+        "how are you",
+        "married"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

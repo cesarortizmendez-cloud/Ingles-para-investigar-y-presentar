@@ -1,0 +1,814 @@
+{
+ "id": "D40",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Día 40: tu presentación final",
+ "day": 40,
+ "week": 6,
+ "day_type": "final",
+ "intro": "Llegaste al último día. Hoy presentas tu trabajo de 3 a 5 minutos, respondes preguntas del público y escribes un resumen. Es tu evidencia de lo logrado en 40 días.",
+ "objectives": [
+  {
+   "id": "D40-O1",
+   "text": "Presentar un trabajo propio durante 3–5 minutos con señalización, un gráfico y cifras."
+  },
+  {
+   "id": "D40-O2",
+   "text": "Responder tres preguntas del público, pidiendo aclaración o reconociendo límites cuando haga falta."
+  },
+  {
+   "id": "D40-O3",
+   "text": "Escribir un abstract de 100–150 palabras y evaluar todo con las rúbricas."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D40-RR",
+   "type": "text",
+   "title": "Final abstract",
+   "body": "Energy efficiency has been widely studied in large factories, but small sawmills have received little attention. This study measured energy use per shift in three sawmills in southern Chile over six months, using ten sensors and daily production records. Night shifts were associated with about twelve percent more energy per unit, possibly due to colder temperatures. A pilot schedule, which moved drying work to the day shift, reduced energy use by eight percent without lowering output. Although the sample was small, the results suggest that simple schedule changes can be a cost-effective way to save energy. Future studies should include more regions.",
+   "translation_es": "La eficiencia energética ha sido muy estudiada en fábricas grandes, pero los aserraderos pequeños han recibido poca atención. Este estudio midió el uso de energía por turno en tres aserraderos del sur de Chile durante seis meses, con diez sensores y registros diarios de producción. Los turnos de noche estuvieron asociados con alrededor de un doce por ciento más de energía por unidad, posiblemente por temperaturas más frías. Una programación piloto, que trasladó el trabajo de secado al turno de día, redujo el uso de energía en un ocho por ciento sin bajar la producción. Aunque la muestra era pequeña, los resultados sugieren que cambios simples de programación pueden ser una forma costo-eficiente de ahorrar energía. Estudios futuros deberían incluir más regiones.",
+   "glossary": [
+    [
+     "without lowering",
+     "sin bajar"
+    ],
+    [
+     "way",
+     "forma, manera"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D40.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "D40.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) Savings [[1]] the season.  (2) [[2]], but I think so.  (3) [[3]], I will explain the problem.  (4) The [[4]] was done in Python.  (5) [[5]], the sample was small.  (6) We cannot [[6]] to all regions.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "depend on"
+       ],
+       "hint": "Significa «depender de»."
+      },
+      "2": {
+       "accept": [
+        "I'm not sure"
+       ],
+       "hint": "Significa «no estoy seguro/a»."
+      },
+      "3": {
+       "accept": [
+        "first of all"
+       ],
+       "hint": "Significa «en primer lugar»."
+      },
+      "4": {
+       "accept": [
+        "analysis"
+       ],
+       "hint": "Significa «análisis (analyse)»."
+      },
+      "5": {
+       "accept": [
+        "in our case"
+       ],
+       "hint": "Significa «en nuestro caso»."
+      },
+      "6": {
+       "accept": [
+        "generalise"
+       ],
+       "hint": "Significa «generalizar»."
+      }
+     }
+    },
+    {
+     "id": "D40.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «afirmar, señalar»",
+     "accept": [
+      "state"
+     ],
+     "hint": "Ejemplo: Los autores señalan que los datos son limitados."
+    },
+    {
+     "id": "D40.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mensaje clave»",
+     "accept": [
+      "key message"
+     ],
+     "hint": "Ejemplo: El mensaje clave es simple."
+    },
+    {
+     "id": "D40.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «esperado/a»",
+     "accept": [
+      "expected"
+     ],
+     "hint": "Ejemplo: El efecto fue menor de lo esperado."
+    },
+    {
+     "id": "D40.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «siempre que»",
+     "accept": [
+      "as long as"
+     ],
+     "hint": "Ejemplo: La herramienta funciona siempre que se revisen los sensores."
+    },
+    {
+     "id": "D40.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «grupo de control»",
+     "accept": [
+      "control group"
+     ],
+     "hint": "Ejemplo: Un grupo de control ayudaría."
+    },
+    {
+     "id": "D40.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «¿Se refiere a…?»",
+     "accept": [
+      "Do you mean"
+     ],
+     "hint": "Ejemplo: ¿Se refiere al turno de noche?"
+    }
+   ]
+  },
+  {
+   "id": "D40.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D40.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Small companies, such [[1]] sawmills, need simple tools.  (2) Our results are consistent [[2]] Mark's study.  (3) Energy use was higher [[3]] the weather was cold. (porque)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "as"
+       ],
+       "hint": "such as"
+      },
+      "2": {
+       "accept": [
+        "with"
+       ],
+       "hint": "consistent with"
+      },
+      "3": {
+       "accept": [
+        "because",
+        "since",
+        "as"
+       ],
+       "hint": "+ oración"
+      }
+     }
+    },
+    {
+     "id": "D40.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) We don't know [[1]] the tool works in summer. (si)  (2) What would you do [[2]]? (de otra manera)  (3) «de pequeña escala» = small-[[3]]",
+     "gaps": {
+      "1": {
+       "accept": [
+        "whether",
+        "if"
+       ]
+      },
+      "2": {
+       "accept": [
+        "differently"
+       ]
+      },
+      "3": {
+       "accept": [
+        "scale"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D40.2.a3",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Thank you for your [[1]]. (atención)  (2) I want to [[2]] one point. (destacar)  (3) Could you tell me what you [[3]]? (pregunta indirecta)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "attention"
+       ]
+      },
+      "2": {
+       "accept": [
+        "highlight"
+       ]
+      },
+      "3": {
+       "accept": [
+        "mean"
+       ],
+       "hint": "sin «do» en preguntas indirectas"
+      }
+     }
+    },
+    {
+     "id": "D40.2.a4",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) We [[1]] a simple tool. (proponemos)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "propose"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D40.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "En «The data, which were collected in winter, show a peak», ¿a qué se refiere «which»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "the peak"
+      },
+      {
+       "id": "b",
+       "text": "the data"
+      },
+      {
+       "id": "c",
+       "text": "winter"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D40.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál está bien puntuada?",
+     "options": [
+      {
+       "id": "a",
+       "text": "However the results are clear."
+      },
+      {
+       "id": "b",
+       "text": "However, the results are clear."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D40.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál expresa una consecuencia?",
+     "options": [
+      {
+       "id": "a",
+       "text": "due to"
+      },
+      {
+       "id": "b",
+       "text": "as a result"
+      },
+      {
+       "id": "c",
+       "text": "because of"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D40.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«A menos que revisemos los sensores, perderemos datos»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Unless we check the sensors, we will lose data."
+      },
+      {
+       "id": "b",
+       "text": "If we check the sensors, we will lose data."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D40.2.a9",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué expresa «If the sample were larger, the evidence would be stronger»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un hecho real"
+      },
+      {
+       "id": "b",
+       "text": "Una situación hipotética (la muestra no es grande)"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D40.2.a10",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a costs reduction"
+      },
+      {
+       "id": "b",
+       "text": "a cost reduction"
+      }
+     ],
+     "answer": "b",
+     "explanation": "el modificador va sin plural"
+    },
+    {
+     "id": "D40.2.a11",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué frase cierra una presentación?",
+     "options": [
+      {
+       "id": "a",
+       "text": "First of all…"
+      },
+      {
+       "id": "b",
+       "text": "Moving on…"
+      },
+      {
+       "id": "c",
+       "text": "To sum up… Thank you for your attention."
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "D40.2.a12",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es el paso 2 del orden recomendado?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Explicar los ejes y qué representa cada elemento"
+      },
+      {
+       "id": "b",
+       "text": "Dar las gracias"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D40.2.a13",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Could you tell me what do you mean?"
+      },
+      {
+       "id": "b",
+       "text": "Could you tell me what you mean?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "pregunta indirecta: sin do"
+    },
+    {
+     "id": "D40.2.a14",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuándo se usa «et al.»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Con un autor"
+      },
+      {
+       "id": "b",
+       "text": "Con tres o más autores"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D40.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La presentación de Ana en Boston (extracto)",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D40.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La presentación de Ana en Boston (extracto): escucha sin leer y responde.",
+     "audio": {
+      "text": "Good morning, everyone. Today I'm going to talk about energy use in small sawmills. Energy efficiency has been widely studied in large factories, but small companies have received little attention. We measured energy use in three sawmills for six months. As you can see in this graph, night shifts used about twelve percent more energy per unit. A pilot schedule reduced energy use by eight percent. To sum up, the schedule matters. Thank you for your attention.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Good morning, everyone. Today I'm going to talk about energy use in small sawmills. Energy efficiency has been widely studied in large factories, but small companies have received little attention. We measured energy use in three sawmills for six months. As you can see in this graph, night shifts used about twelve percent more energy per unit. A pilot schedule reduced energy use by eight percent. To sum up, the schedule matters. Thank you for your attention.",
+     "translation_es": "Buenos días a todos. Hoy voy a hablar sobre el uso de energía en aserraderos pequeños. La eficiencia energética ha sido muy estudiada en fábricas grandes, pero las empresas pequeñas han recibido poca atención. Medimos el uso de energía en tres aserraderos durante seis meses. Como pueden ver en este gráfico, los turnos de noche usaron alrededor de un doce por ciento más de energía por unidad. Una programación piloto redujo el uso de energía en un ocho por ciento. En resumen, la programación importa. Gracias por su atención.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuánto más usaron los turnos de noche?",
+       "label": "¿Cuánto más usaron los turnos de noche?",
+       "options": [
+        {
+         "id": "a",
+         "text": "8 %"
+        },
+        {
+         "id": "b",
+         "text": "12 %"
+        },
+        {
+         "id": "c",
+         "text": "20 %"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto redujo la programación piloto?",
+       "label": "¿Cuánto redujo la programación piloto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "8 %"
+        },
+        {
+         "id": "b",
+         "text": "12 %"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué estructura usa Ana?",
+       "label": "¿Qué estructura usa Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Señalización: apertura, brecha, método, resultado, cierre"
+        },
+        {
+         "id": "b",
+         "text": "Solo lee una tabla"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D40.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "To sum up, the schedule matters.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "To sum up, the schedule matters."
+    }
+   ]
+  },
+  {
+   "id": "D40.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Final abstract",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D40-RR"
+   ],
+   "activities": [
+    {
+     "id": "D40.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto duró el estudio?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Tres meses"
+      },
+      {
+       "id": "b",
+       "text": "Seis meses"
+      },
+      {
+       "id": "c",
+       "text": "Dos años"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D40.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Bajó la producción con la programación piloto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      }
+     ],
+     "answer": "b",
+     "explanation": "without lowering output"
+    },
+    {
+     "id": "D40.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué recomiendan para estudios futuros?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Incluir más regiones"
+      },
+      {
+       "id": "b",
+       "text": "Eliminar sensores"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D40.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D40.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Energy efficiency has been widely studied in large factories, but small sawmills have received little attention. This study measured energy use per shift in three sawmills in southern Chile over six months, using ten sensors and daily production records.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Energy efficiency has been widely studied in large factories, but small sawmills have received little attention.",
+       "This study measured energy use per shift in three sawmills in southern Chile over six months, using ten sensors and daily production records."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D40.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "PRESENTACIÓN FINAL (3–5 minutos): apertura y estructura, el problema y la brecha (has been studied… however…), el método en pasiva, un resultado con cifras y cautela, una limitación y el cierre. Usa notas breves, no un guion. Después evalúala con la rúbrica oral.",
+     "min_seconds": 180,
+     "max_seconds": 300,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "depend on",
+        "I'm not sure",
+        "first of all",
+        "analysis",
+        "in our case",
+        "generalise",
+        "state",
+        "key message",
+        "expected",
+        "as long as",
+        "control group",
+        "Do you mean",
+        "as far as I know",
+        "despite",
+        "randomly",
+        "horizontal axis",
+        "rephrase",
+        "condition",
+        "propose",
+        "measurement",
+        "approach",
+        "hire",
+        "unlike",
+        "et al."
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    },
+    {
+     "id": "D40.5.a3",
+     "type": "oral",
+     "role": "practice",
+     "skill": "interaction",
+     "rubric": "interaction",
+     "prompt": "Preguntas del público: responde cada una en 30–60 segundos. Si no entiendes, pide aclaración (Could you repeat the question, please?).",
+     "model": {
+      "text": "Thank you for your talk. Why did you choose this topic?",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "follow_ups": [
+      "How did you collect your data, and what are the main limitations?",
+      "What would you do differently if you started the project again?"
+     ],
+     "min_seconds": 30,
+     "max_seconds": 120,
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "D40.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D40.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe el abstract de tu propio trabajo (100–150 palabras) siguiendo el modelo de Ana: brecha, objetivo, método (pasiva), resultados (cifras y cautela), limitación o trabajo futuro.",
+     "min_words": 90,
+     "max_words": 160,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "depend on",
+        "I'm not sure",
+        "first of all",
+        "analysis",
+        "in our case",
+        "generalise",
+        "state",
+        "key message",
+        "expected",
+        "as long as",
+        "control group",
+        "Do you mean",
+        "as far as I know",
+        "despite",
+        "randomly",
+        "horizontal axis",
+        "rephrase",
+        "condition",
+        "propose",
+        "measurement",
+        "approach",
+        "hire",
+        "unlike",
+        "et al."
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

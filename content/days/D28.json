@@ -1,0 +1,677 @@
+{
+ "id": "D28",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso semana 4: presentar resultados con cautela",
+ "day": 28,
+ "week": 4,
+ "day_type": "repaso",
+ "intro": "Integras futuro, cautela, tendencias y artículos para presentar resultados como un investigador.",
+ "objectives": [
+  {
+   "id": "D28-O1",
+   "text": "Recordar sin mirar el vocabulario de la semana (meta: 70 %)."
+  },
+  {
+   "id": "D28-O2",
+   "text": "Elegir correctamente by/to, percent/percentage points y verbos prudentes."
+  },
+  {
+   "id": "D28-O3",
+   "text": "Presentar dos resultados con cautela en 90–120 segundos."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D28-RR",
+   "type": "text",
+   "title": "Results and discussion (summary)",
+   "body": "Overall, energy use remained stable in summer and rose sharply in winter. Night shifts were associated with about twelve percent more energy per unit, and cold weather may explain part of this difference. Older machines also tend to use more energy. However, the shifts were not randomly assigned, so these findings do not prove causality. A pilot test is going to start in March. If the new schedule works, it will probably reduce costs for many small companies.",
+   "translation_es": "En general, el uso de energía se mantuvo estable en verano y subió bruscamente en invierno. Los turnos de noche estuvieron asociados con alrededor de un doce por ciento más de energía por unidad, y el clima frío podría explicar parte de esta diferencia. Las máquinas más antiguas también tienden a usar más energía. Sin embargo, los turnos no fueron asignados aleatoriamente, así que estos hallazgos no demuestran causalidad. Una prueba piloto va a comenzar en marzo. Si la nueva programación funciona, probablemente reducirá los costos de muchas empresas pequeñas.",
+   "glossary": [
+    [
+     "part of",
+     "parte de"
+    ],
+    [
+     "If … works",
+     "Si … funciona"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D28.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "D28.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) The defect rate fell by two [[1]].  (2) It is [[2]] that prices will rise.  (3) The [[3]] is clear.  (4) The new schedule [[4]] reduce costs.  (5) It is [[5]] that the sensors failed.  (6) Our [[6]] are similar to previous studies.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "percentage points"
+       ],
+       "hint": "Significa «puntos porcentuales»."
+      },
+      "2": {
+       "accept": [
+        "likely"
+       ],
+       "hint": "Significa «probable»."
+      },
+      "3": {
+       "accept": [
+        "trend"
+       ],
+       "hint": "Significa «tendencia»."
+      },
+      "4": {
+       "accept": [
+        "may"
+       ],
+       "hint": "Significa «puede que, podría (posibilidad)»."
+      },
+      "5": {
+       "accept": [
+        "possible"
+       ],
+       "hint": "Significa «posible»."
+      },
+      "6": {
+       "accept": [
+        "findings"
+       ],
+       "hint": "Significa «hallazgos»."
+      }
+     }
+    },
+    {
+     "id": "D28.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «muchos/as (contable)»",
+     "accept": [
+      "many"
+     ],
+     "hint": "Ejemplo: Muchas empresas usan esta herramienta."
+    },
+    {
+     "id": "D28.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «poco/a (incontable)»",
+     "accept": [
+      "little"
+     ],
+     "hint": "Ejemplo: Hay poca información sobre aserraderos pequeños."
+    },
+    {
+     "id": "D28.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «sector»",
+     "accept": [
+      "sector"
+     ],
+     "hint": "Ejemplo: El sector forestal es importante en Ñuble."
+    },
+    {
+     "id": "D28.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «conclusión»",
+     "accept": [
+      "conclusion"
+     ],
+     "hint": "Ejemplo: La conclusión principal es prudente."
+    },
+    {
+     "id": "D28.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «evidencia»",
+     "accept": [
+      "evidence"
+     ],
+     "hint": "Ejemplo: Hay cierta evidencia de un patrón."
+    },
+    {
+     "id": "D28.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «un/a significativo/a»",
+     "accept": [
+      "a significant"
+     ],
+     "hint": "Ejemplo: Encontramos una diferencia significativa."
+    }
+   ]
+  },
+  {
+   "id": "D28.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D28.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) We will [[1]] the paper in June. (submit)  (2) The evidence is not very [[2]]. (fuerte)  (3) [[3]], the results are positive. (en general)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "submit"
+       ]
+      },
+      "2": {
+       "accept": [
+        "strong"
+       ]
+      },
+      "3": {
+       "accept": [
+        "overall"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D28.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Output remained [[1]]. (estable)  (2) There is [[2]] information about this sector. (poca)  (3) We used [[3]] same method as Mark.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "stable"
+       ]
+      },
+      "2": {
+       "accept": [
+        "little"
+       ],
+       "hint": "incontable → little"
+      },
+      "3": {
+       "accept": [
+        "the"
+       ],
+       "hint": "the same"
+      }
+     }
+    },
+    {
+     "id": "D28.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Costs will to increase."
+      },
+      {
+       "id": "b",
+       "text": "Costs will increase."
+      },
+      {
+       "id": "c",
+       "text": "Costs will increasing."
+      }
+     ],
+     "answer": "b",
+     "explanation": "will + verbo base"
+    },
+    {
+     "id": "D28.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "It may to reduce costs."
+      },
+      {
+       "id": "b",
+       "text": "It mays reduce costs."
+      },
+      {
+       "id": "c",
+       "text": "It may reduce costs."
+      }
+     ],
+     "answer": "c",
+     "explanation": "may + verbo base"
+    },
+    {
+     "id": "D28.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál verbo es el más prudente?",
+     "options": [
+      {
+       "id": "a",
+       "text": "show"
+      },
+      {
+       "id": "b",
+       "text": "demonstrate"
+      },
+      {
+       "id": "c",
+       "text": "suggest"
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "D28.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«Subió a 150 unidades»",
+     "options": [
+      {
+       "id": "a",
+       "text": "It rose by 150 units."
+      },
+      {
+       "id": "b",
+       "text": "It rose to 150 units."
+      }
+     ],
+     "answer": "b",
+     "explanation": "valor final → to"
+    },
+    {
+     "id": "D28.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "He gave me an advice."
+      },
+      {
+       "id": "b",
+       "text": "He gave me some advice."
+      },
+      {
+       "id": "c",
+       "text": "He gave me advices."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D28.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "The Figure 2 shows the results."
+      },
+      {
+       "id": "b",
+       "text": "Figure 2 shows the results."
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D28.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Resultados en una reunión",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D28.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Resultados en una reunión: escucha sin leer y responde.",
+     "audio": {
+      "text": "Energy use rose sharply in May and reached a peak in July. Night shifts appear to use about twelve percent more energy per unit. The defect rate fell from six to five percent, a decrease of one percentage point. These results suggest that the schedule matters, but they do not prove causality. Next year we are going to test a new schedule.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Energy use rose sharply in May and reached a peak in July. Night shifts appear to use about twelve percent more energy per unit. The defect rate fell from six to five percent, a decrease of one percentage point. These results suggest that the schedule matters, but they do not prove causality. Next year we are going to test a new schedule.",
+     "translation_es": "El uso de energía subió bruscamente en mayo y alcanzó su máximo en julio. Los turnos de noche parecen usar alrededor de un doce por ciento más de energía por unidad. La tasa de defectos bajó de seis a cinco por ciento, una disminución de un punto porcentual. Estos resultados sugieren que la programación importa, pero no demuestran causalidad. El próximo año vamos a probar una nueva programación.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuánto más usan los turnos de noche por unidad?",
+       "label": "¿Cuánto más usan los turnos de noche por unidad?",
+       "options": [
+        {
+         "id": "a",
+         "text": "2 %"
+        },
+        {
+         "id": "b",
+         "text": "12 %"
+        },
+        {
+         "id": "c",
+         "text": "20 %"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto bajó la tasa de defectos?",
+       "label": "¿Cuánto bajó la tasa de defectos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un punto porcentual"
+        },
+        {
+         "id": "b",
+         "text": "Un uno por ciento relativo"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué harán el próximo año?",
+       "label": "¿Qué harán el próximo año?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Probar una nueva programación"
+        },
+        {
+         "id": "b",
+         "text": "Cerrar un aserradero"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D28.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "These results suggest that the schedule matters, but they do not prove causality.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "These results suggest that the schedule matters, but they do not prove causality."
+    }
+   ]
+  },
+  {
+   "id": "D28.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Results and discussion (summary)",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D28-RR"
+   ],
+   "activities": [
+    {
+     "id": "D28.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué podría explicar parte de la diferencia?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El clima frío"
+      },
+      {
+       "id": "b",
+       "text": "El precio de la madera"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D28.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué no se demuestra causalidad?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque los turnos no fueron asignados aleatoriamente"
+      },
+      {
+       "id": "b",
+       "text": "Porque hay pocos datos"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D28.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué ocurrirá probablemente si la programación funciona?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Reducirá costos"
+      },
+      {
+       "id": "b",
+       "text": "Aumentará la producción al doble"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D28.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D28.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Overall, energy use remained stable in summer and rose sharply in winter. Night shifts were associated with about twelve percent more energy per unit, and cold weather may explain part of this difference.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Overall, energy use remained stable in summer and rose sharply in winter.",
+       "Night shifts were associated with about twelve percent more energy per unit, and cold weather may explain part of this difference."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D28.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Presenta en 90–120 segundos dos resultados de tu trabajo (o del de Ana): una tendencia con cifras (by/to), una interpretación prudente (suggest, may) y un plan futuro (going to). Evalúate con la rúbrica.",
+     "min_seconds": 90,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "percentage points",
+        "likely",
+        "trend",
+        "may",
+        "possible",
+        "findings",
+        "many",
+        "little",
+        "sector",
+        "conclusion",
+        "evidence",
+        "a significant",
+        "predict",
+        "claim",
+        "timeline",
+        "certain",
+        "the main",
+        "cause",
+        "in general",
+        "information",
+        "future work",
+        "plan",
+        "relationship",
+        "increase"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "D28.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D28.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un resumen de resultados y discusión (80–120 palabras) con tendencias, cifras, cautela y una limitación.",
+     "min_words": 70,
+     "max_words": 130,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "percentage points",
+        "likely",
+        "trend",
+        "may",
+        "possible",
+        "findings",
+        "many",
+        "little",
+        "sector",
+        "conclusion",
+        "evidence",
+        "a significant",
+        "predict",
+        "claim",
+        "timeline",
+        "certain",
+        "the main",
+        "cause",
+        "in general",
+        "information",
+        "future work",
+        "plan",
+        "relationship",
+        "increase"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

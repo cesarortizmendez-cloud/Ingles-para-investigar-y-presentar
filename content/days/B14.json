@@ -1,0 +1,919 @@
+{
+ "id": "B14",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "En el hotel: reservas y peticiones",
+ "day": 14,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy llegas a un hotel: haces el check-in, pides cosas con cortesía (Could you…? Could I have…?) y resuelves un problema.",
+ "objectives": [
+  {
+   "id": "B14-O1",
+   "text": "Hacer el check-in y preguntar por servicios del hotel."
+  },
+  {
+   "id": "B14-O2",
+   "text": "Pedir con cortesía usando could y would."
+  },
+  {
+   "id": "B14-O3",
+   "text": "Explicar un problema simple y aceptar una solución."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B14-LX01",
+    "form": "reservation",
+    "meaning_es": "reserva",
+    "example": "I have a reservation for three nights.",
+    "example_es": "Tengo una reserva por tres noches.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX02",
+    "form": "room",
+    "meaning_es": "habitación",
+    "example": "My room is on the fifth floor.",
+    "example_es": "Mi habitación está en el quinto piso.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX03",
+    "form": "key",
+    "meaning_es": "llave",
+    "example": "Here is your key.",
+    "example_es": "Aquí está su llave.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX04",
+    "form": "reception",
+    "meaning_es": "recepción",
+    "example": "The reception is open all night.",
+    "example_es": "La recepción está abierta toda la noche.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX05",
+    "form": "available",
+    "meaning_es": "disponible",
+    "example": "Is there a room available for tonight?",
+    "example_es": "¿Hay una habitación disponible para esta noche?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX06",
+    "form": "towel",
+    "meaning_es": "toalla",
+    "example": "Could I have another towel, please?",
+    "example_es": "¿Me podría dar otra toalla, por favor?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX07",
+    "form": "password",
+    "meaning_es": "contraseña",
+    "example": "What is the wifi password?",
+    "example_es": "¿Cuál es la contraseña del wifi?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX08",
+    "form": "problem",
+    "meaning_es": "problema",
+    "example": "There is a problem with the shower.",
+    "example_es": "Hay un problema con la ducha.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX09",
+    "form": "broken",
+    "meaning_es": "roto, malo",
+    "example": "The air conditioner is broken.",
+    "example_es": "El aire acondicionado está malo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX10",
+    "form": "quiet",
+    "meaning_es": "tranquilo, silencioso",
+    "example": "Could I have a quiet room?",
+    "example_es": "¿Podría tener una habitación tranquila?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX11",
+    "form": "upstairs",
+    "meaning_es": "arriba (en el piso de arriba)",
+    "example": "The restaurant is upstairs.",
+    "example_es": "El restaurante está en el piso de arriba.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B14-LX12",
+    "form": "check out",
+    "meaning_es": "dejar la habitación (check-out)",
+    "example": "What time do I check out?",
+    "example_es": "¿A qué hora debo dejar la habitación?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B14-G1",
+    "topic": "Pedir con cortesía: Could you…? Could I…? Would you like…?"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B14-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "reservation",
+     "meaning_es": "reserva",
+     "example": "I have a reservation for three nights.",
+     "example_es": "Tengo una reserva por tres noches."
+    },
+    {
+     "form": "room",
+     "meaning_es": "habitación",
+     "example": "My room is on the fifth floor.",
+     "example_es": "Mi habitación está en el quinto piso."
+    },
+    {
+     "form": "key",
+     "meaning_es": "llave",
+     "example": "Here is your key.",
+     "example_es": "Aquí está su llave."
+    },
+    {
+     "form": "reception",
+     "meaning_es": "recepción",
+     "example": "The reception is open all night.",
+     "example_es": "La recepción está abierta toda la noche."
+    },
+    {
+     "form": "available",
+     "meaning_es": "disponible",
+     "example": "Is there a room available for tonight?",
+     "example_es": "¿Hay una habitación disponible para esta noche?"
+    },
+    {
+     "form": "towel",
+     "meaning_es": "toalla",
+     "example": "Could I have another towel, please?",
+     "example_es": "¿Me podría dar otra toalla, por favor?"
+    },
+    {
+     "form": "password",
+     "meaning_es": "contraseña",
+     "example": "What is the wifi password?",
+     "example_es": "¿Cuál es la contraseña del wifi?"
+    },
+    {
+     "form": "problem",
+     "meaning_es": "problema",
+     "example": "There is a problem with the shower.",
+     "example_es": "Hay un problema con la ducha."
+    },
+    {
+     "form": "broken",
+     "meaning_es": "roto, malo",
+     "example": "The air conditioner is broken.",
+     "example_es": "El aire acondicionado está malo."
+    },
+    {
+     "form": "quiet",
+     "meaning_es": "tranquilo, silencioso",
+     "example": "Could I have a quiet room?",
+     "example_es": "¿Podría tener una habitación tranquila?"
+    },
+    {
+     "form": "upstairs",
+     "meaning_es": "arriba (en el piso de arriba)",
+     "example": "The restaurant is upstairs.",
+     "example_es": "El restaurante está en el piso de arriba."
+    },
+    {
+     "form": "check out",
+     "meaning_es": "dejar la habitación (check-out)",
+     "example": "What time do I check out?",
+     "example_es": "¿A qué hora debo dejar la habitación?"
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B14-RG",
+   "type": "capsule",
+   "title": "Pedir con cortesía: Could you…? Could I…? Would you like…?",
+   "explain": "Can es directo; could es más cortés: Could you help me, please? Could I have a towel?\nWould you like…? = ¿Le gustaría…? / ¿Quiere…?, para ofrecer: Would you like a map? Respuesta: Yes, please. / No, thank you.\nI would like (I'd like) = quisiera: I'd like a room for two nights.\nDespués de could y would el verbo va sin «to»: Could you call a taxi?",
+   "form": [
+    [
+     "Could you + verbo…?",
+     "¿Podría usted…?"
+    ],
+    [
+     "Could I have…?",
+     "¿Me podría dar…?"
+    ],
+    [
+     "Would you like…?",
+     "¿Le gustaría…?"
+    ],
+    [
+     "I'd like… · I would like…",
+     "Quisiera…"
+    ]
+   ],
+   "examples": [
+    [
+     "Could you call a taxi for me, please?",
+     "¿Me podría llamar un taxi, por favor?"
+    ],
+    [
+     "Could I have the wifi password?",
+     "¿Me podría dar la contraseña del wifi?"
+    ],
+    [
+     "Would you like a room with a view?",
+     "¿Le gustaría una habitación con vista?"
+    ],
+    [
+     "I'd like to check out, please.",
+     "Quisiera hacer el check-out, por favor."
+    ]
+   ],
+   "tip": "En inglés «please» y «thank you» se usan mucho más que en español; sin ellos, una petición puede sonar brusca.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B14-RR",
+   "type": "text",
+   "title": "A problem in room 512",
+   "body": "At ten at night, Tomás calls the reception. \"Hello, this is room 512. I'm sorry, but there is a problem. The heating is broken and the room is very cold. Could you send someone, please?\" The receptionist says, \"I'm very sorry. Would you like a different room? Room 604 is available and it is quiet.\" Tomás says, \"Yes, please. Thank you very much.\"",
+   "translation_es": "A las diez de la noche, Tomás llama a la recepción. «Hola, habla la habitación 512. Disculpe, pero hay un problema. La calefacción está mala y la habitación está muy fría. ¿Podría enviar a alguien, por favor?». La recepcionista dice: «Lo siento mucho. ¿Le gustaría otra habitación? La 604 está disponible y es tranquila». Tomás dice: «Sí, por favor. Muchas gracias».",
+   "glossary": [
+    [
+     "heating",
+     "calefacción"
+    ],
+    [
+     "send someone",
+     "enviar a alguien"
+    ],
+    [
+     "different",
+     "otra, distinta"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B14.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B14-RV"
+   ],
+   "activities": [
+    {
+     "id": "B14.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I have a [[1]] for three nights.  (2) Here is your [[2]].  (3) The air conditioner is [[3]].  (4) Could I have a [[4]] room?  (5) The restaurant is [[5]].  (6) What time do I [[6]]?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "reservation"
+       ],
+       "hint": "Significa «reserva»."
+      },
+      "2": {
+       "accept": [
+        "key"
+       ],
+       "hint": "Significa «llave»."
+      },
+      "3": {
+       "accept": [
+        "broken"
+       ],
+       "hint": "Significa «roto, malo»."
+      },
+      "4": {
+       "accept": [
+        "quiet"
+       ],
+       "hint": "Significa «tranquilo, silencioso»."
+      },
+      "5": {
+       "accept": [
+        "upstairs"
+       ],
+       "hint": "Significa «arriba (en el piso de arriba)»."
+      },
+      "6": {
+       "accept": [
+        "check out"
+       ],
+       "hint": "Significa «dejar la habitación (check-out)»."
+      }
+     }
+    },
+    {
+     "id": "B14.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «toalla»",
+     "accept": [
+      "towel"
+     ],
+     "hint": "Empieza con «to…» · Ejemplo: ¿Me podría dar otra toalla, por favor?"
+    },
+    {
+     "id": "B14.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «disponible»",
+     "accept": [
+      "available"
+     ],
+     "hint": "Empieza con «av…» · Ejemplo: ¿Hay una habitación disponible para esta noche?"
+    },
+    {
+     "id": "B14.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «contraseña»",
+     "accept": [
+      "password"
+     ],
+     "hint": "Empieza con «pa…» · Ejemplo: ¿Cuál es la contraseña del wifi?"
+    },
+    {
+     "id": "B14.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «habitación»",
+     "accept": [
+      "room"
+     ],
+     "hint": "Empieza con «ro…» · Ejemplo: Mi habitación está en el quinto piso."
+    },
+    {
+     "id": "B14.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «problema»",
+     "accept": [
+      "problem"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: Hay un problema con la ducha."
+    },
+    {
+     "id": "B14.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «recepción»",
+     "accept": [
+      "reception"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: La recepción está abierta toda la noche."
+    },
+    {
+     "id": "B14.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Could I have another towel, please?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Could I have another towel, please?"
+    }
+   ]
+  },
+  {
+   "id": "B14.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Pedir con cortesía: Could you…? Could I…? Would you like…?",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B14-RG"
+   ],
+   "activities": [
+    {
+     "id": "B14.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] you help me with my luggage, please?  (2) [[2]] I have another towel?  (3) [[3]] you like breakfast in your room?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "could",
+        "can"
+       ],
+       "hint": "Petición cortés → Could you…?"
+      },
+      "2": {
+       "accept": [
+        "could",
+        "can"
+       ],
+       "hint": "Pedir algo para ti → Could I have…?"
+      },
+      "3": {
+       "accept": [
+        "would"
+       ],
+       "hint": "Ofrecer → Would you like…?"
+      }
+     }
+    },
+    {
+     "id": "B14.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I'd [[1]] a quiet room, please.  (2) Could you [[2]] me a taxi? (call)  (3) Would you like a coffee? Yes, [[3]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "like"
+       ],
+       "hint": "I'd like = quisiera."
+      },
+      "2": {
+       "accept": [
+        "call"
+       ],
+       "hint": "could + verbo base."
+      },
+      "3": {
+       "accept": [
+        "please"
+       ],
+       "hint": "Aceptar: Yes, please."
+      }
+     }
+    },
+    {
+     "id": "B14.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "La forma más cortés:",
+     "options": [
+      {
+       "id": "a",
+       "text": "Give me a towel."
+      },
+      {
+       "id": "b",
+       "text": "I want a towel."
+      },
+      {
+       "id": "c",
+       "text": "Could I have a towel, please?"
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "B14.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Could you to repeat?"
+      },
+      {
+       "id": "b",
+       "text": "Could you repeat that, please?"
+      },
+      {
+       "id": "c",
+       "text": "Could you repeating?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "could + verbo base."
+    },
+    {
+     "id": "B14.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres peticiones corteses para un hotel (Could you…? Could I have…? I'd like…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "could you",
+        "could i",
+        "i'd like",
+        "i would like"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B14.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: En la recepción del hotel",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B14.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "En la recepción del hotel: escucha sin leer y responde.",
+     "audio": {
+      "text": "Good evening. I have a reservation. My name is Tomás Muñoz. Welcome, Mr. Muñoz. A single room for two nights, right? Yes. Here is your key. Your room is 512, on the fifth floor. Breakfast is from seven to ten. Could I have the wifi password, please? Of course, it's on this card. Would you like help with your luggage? No, thank you.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Good evening. I have a reservation. My name is Tomás Muñoz. Welcome, Mr. Muñoz. A single room for two nights, right? Yes. Here is your key. Your room is 512, on the fifth floor. Breakfast is from seven to ten. Could I have the wifi password, please? Of course, it's on this card. Would you like help with your luggage? No, thank you.",
+     "translation_es": "Buenas noches. Tengo una reserva. Me llamo Tomás Muñoz. Bienvenido, señor Muñoz. Una habitación individual por dos noches, ¿verdad? Sí. Aquí está su llave. Su habitación es la 512, en el quinto piso. El desayuno es de siete a diez. ¿Me podría dar la contraseña del wifi, por favor? Por supuesto, está en esta tarjeta. ¿Quiere ayuda con su equipaje? No, gracias.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Por cuántas noches es la reserva?",
+       "label": "¿Por cuántas noches es la reserva?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Una"
+        },
+        {
+         "id": "b",
+         "text": "Dos"
+        },
+        {
+         "id": "c",
+         "text": "Tres"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿En qué piso está la habitación?",
+       "label": "¿En qué piso está la habitación?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Quinto"
+        },
+        {
+         "id": "b",
+         "text": "Decimoquinto"
+        },
+        {
+         "id": "c",
+         "text": "Primero"
+        }
+       ],
+       "answer": "a",
+       "explanation": "«on the fifth floor»."
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Acepta ayuda con el equipaje?",
+       "label": "¿Acepta ayuda con el equipaje?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Sí"
+        },
+        {
+         "id": "b",
+         "text": "No"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«No, thank you»."
+      }
+     ]
+    },
+    {
+     "id": "B14.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Could I have the wifi password, please?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Could I have the wifi password, please?"
+    }
+   ]
+  },
+  {
+   "id": "B14.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A problem in room 512",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B14-RR"
+   ],
+   "activities": [
+    {
+     "id": "B14.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es el problema?",
+     "options": [
+      {
+       "id": "a",
+       "text": "No hay agua caliente"
+      },
+      {
+       "id": "b",
+       "text": "La calefacción está mala"
+      },
+      {
+       "id": "c",
+       "text": "No funciona el wifi"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B14.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué le ofrecen?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Otra habitación"
+      },
+      {
+       "id": "b",
+       "text": "Un descuento"
+      },
+      {
+       "id": "c",
+       "text": "Una frazada"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B14.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo es la habitación 604?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Grande"
+      },
+      {
+       "id": "b",
+       "text": "Tranquila"
+      },
+      {
+       "id": "c",
+       "text": "Barata"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B14.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B14.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "At ten at night, Tomás calls the reception. \"Hello, this is room 512.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "At ten at night, Tomás calls the reception.",
+       "\"Hello, this is room 512."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B14.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Juego de roles (30–60 s): llegas al hotel, das tu nombre, preguntas por el desayuno y el wifi, y reportas un problema con cortesía.",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "reservation",
+        "room",
+        "key",
+        "reception",
+        "available",
+        "towel",
+        "password",
+        "problem",
+        "broken",
+        "quiet",
+        "upstairs",
+        "check out"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B14.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B14.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un correo de 30–60 palabras a un hotel: pide una reserva (fechas y tipo de habitación) y haz una petición especial.",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "reservation",
+        "room",
+        "key",
+        "reception",
+        "available",
+        "towel",
+        "password",
+        "problem",
+        "broken",
+        "quiet",
+        "upstairs",
+        "check out"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "could you",
+        "could i",
+        "i'd like",
+        "i would like"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load course_tags %}
+{% block title %}{{ data.id }} · {{ data.title }}{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{% url 'catalog' %}">Ruta</a> › {{ data.stage }}</p>
+<h1>{{ data.id }} · {{ data.title }}</h1>
+<p><span class="tag">{{ state.label }}</span> <span class="muted small">v{{ pkg.version }} · {{ pkg.get_status_display }}</span>
+{% if pkg.status == "borrador" %}<span class="tag tag-draft">contenido en borrador: pendiente de revisión editorial</span>{% endif %}</p>
+
+<section class="card">
+  <h2>Estado del capítulo</h2>
+  <ul>
+    <li>Comprobación con ítems nuevos (primer intento): <strong>{{ state.check|pct }}</strong> · se requiere 80 %</li>
+    <li>Tarea integradora:
+      {% if state.task %}<strong>{{ state.task.total|floatformat:0 }}/100</strong> ({{ state.task.rater_kind }}){% if state.task.passed %} · cumple{% else %} · no cumple aún{% endif %}
+      {% else %}<strong>sin evaluar</strong>{% endif %} · se requiere 70/100 y ningún criterio esencial bajo 2/4</li>
+    <li>Confirmación diferida: {% if state.deferred is not None %}<strong>{{ state.deferred|pct }}</strong>{% else %}pendiente{% endif %} · se requiere 75 %, de 7 a 14 días después</li>
+  </ul>
+  {% if state.reasons %}<ul class="feedback">{% for r in state.reasons %}<li>{{ r }}</li>{% endfor %}</ul>{% endif %}
+  {% if state.deferred_available %}<p><a class="button" href="{% url 'deferred' data.id %}">Hacer la confirmación diferida</a></p>{% endif %}
+  <p class="muted small">Estos umbrales son reglas iniciales de producto que deben pilotearse; no son puntuaciones MCER.</p>
+</section>
+
+{% if recovery %}
+<section class="card warn">
+  <h2>Recuperación específica</h2>
+  <p>La confirmación diferida mostró una brecha. Practica estas actividades (no se borra tu historial ni debes repetir el capítulo):</p>
+  <ul>{% for r in recovery %}<li><a href="{% url 'lesson' data.id r.lesson_id %}#act-{{ r.activity.id }}">{{ r.activity.id }}</a> · {{ r.activity.prompt|truncatechars:90 }}</li>{% endfor %}</ul>
+</section>
+{% endif %}
+
+<div class="two-col">
+<section>
+  <h2>Objetivos</h2>
+  <ul>{% for o in data.objectives %}<li>{{ o.text }}{% if o.critical %} <span class="tag">crítico</span>{% endif %}</li>{% endfor %}</ul>
+  <p><strong>Producto:</strong> {{ data.product }}</p>
+  <p class="small"><strong>Prerrequisitos:</strong> {{ data.dependencies.skills|join:", " }}{% if data.dependencies.suggested_chapters %} · sugeridos: {{ data.dependencies.suggested_chapters|join:", " }}{% endif %}</p>
+  <p class="small"><strong>Nivel objetivo:</strong>
+    {% for k, v in data.language_level.items %}{{ k }}: {{ v }}{% if not forloop.last %} · {% endif %}{% endfor %}</p>
+</section>
+<section>
+  <h2>Lecciones</h2>
+  <ol class="lessons">
+    {% for row in lessons %}
+      <li><a href="{% url 'lesson' data.id row.lesson.id %}">{{ row.lesson.title }}</a>
+        <span class="muted small">· {{ row.lesson.minutes }} min · {{ row.done }}/{{ row.total }} actividades</span></li>
+    {% endfor %}
+  </ol>
+</section>
+</div>
+
+<details class="card">
+  <summary><h2 class="inline">Lenguaje del capítulo</h2></summary>
+  <h3>Unidades léxicas prioritarias</h3>
+  <div class="table-wrap"><table class="table small">
+    <thead><tr><th>Expresión</th><th>Significado</th><th>Ejemplo</th><th>Atención</th></tr></thead>
+    <tbody>{% for lx in data.language_focus.lexis %}
+      <tr><td lang="en"><strong>{{ lx.form }}</strong></td><td>{{ lx.meaning_es }}</td><td lang="en">{{ lx.example }}</td><td>{{ lx.confusions }}</td></tr>
+    {% endfor %}</tbody>
+  </table></div>
+  <h3>Gramática</h3>
+  <ul>{% for g in data.language_focus.grammar %}<li><strong>{{ g.topic }}</strong>: {{ g.pattern }} — <span lang="en">{{ g.example }}</span></li>{% endfor %}</ul>
+  <h3>Pronunciación</h3>
+  <ul>{% for p in data.language_focus.pronunciation %}<li>{{ p.focus }}{% if p.note %} <span class="muted">({{ p.note }})</span>{% endif %}</li>{% endfor %}</ul>
+</details>
+{% endblock %}

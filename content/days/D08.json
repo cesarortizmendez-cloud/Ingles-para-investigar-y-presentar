@@ -1,0 +1,909 @@
+{
+ "id": "D08",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Cómo empezó todo: pasado regular",
+ "day": 8,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy cuentas cómo empezó un proyecto con el pasado simple regular (-ed) y aprendes a pronunciar sus tres sonidos.",
+ "objectives": [
+  {
+   "id": "D08-O1",
+   "text": "Formar el pasado regular con -ed."
+  },
+  {
+   "id": "D08-O2",
+   "text": "Pronunciar -ed como /t/, /d/ o /ɪd/ (worked, used, started)."
+  },
+  {
+   "id": "D08-O3",
+   "text": "Contar en 4–5 oraciones cómo empezó un proyecto."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D08-LX01",
+    "form": "start",
+    "meaning_es": "empezar, comenzar",
+    "example": "We wanted to start in March.",
+    "example_es": "Queríamos empezar en marzo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX02",
+    "form": "decide",
+    "meaning_es": "decidir",
+    "example": "The team had to decide quickly.",
+    "example_es": "El equipo tuvo que decidir rápido.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX03",
+    "form": "contact",
+    "meaning_es": "contactar",
+    "example": "We had to contact three companies.",
+    "example_es": "Tuvimos que contactar a tres empresas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX04",
+    "form": "visit",
+    "meaning_es": "visitar",
+    "example": "Ana wanted to visit the first sawmill in April.",
+    "example_es": "Ana quería visitar el primer aserradero en abril.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX05",
+    "form": "collect",
+    "meaning_es": "recolectar, reunir",
+    "example": "It is important to collect data every day.",
+    "example_es": "Es importante recolectar datos todos los días.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX06",
+    "form": "record",
+    "meaning_es": "registrar",
+    "example": "The sensors record energy use every minute.",
+    "example_es": "Los sensores registran el uso de energía cada minuto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX07",
+    "form": "install",
+    "meaning_es": "instalar",
+    "example": "We need to install ten sensors.",
+    "example_es": "Necesitamos instalar diez sensores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX08",
+    "form": "sensor",
+    "meaning_es": "sensor",
+    "example": "Each sensor sends data every minute.",
+    "example_es": "Cada sensor envía datos cada minuto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX09",
+    "form": "last year",
+    "meaning_es": "el año pasado",
+    "example": "The project started last year.",
+    "example_es": "El proyecto empezó el año pasado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX10",
+    "form": "ago",
+    "meaning_es": "hace (tiempo)",
+    "example": "We started two years ago.",
+    "example_es": "Empezamos hace dos años.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX11",
+    "form": "then",
+    "meaning_es": "luego, después",
+    "example": "Then we analysed the data.",
+    "example_es": "Luego analizamos los datos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D08-LX12",
+    "form": "funding",
+    "meaning_es": "financiamiento",
+    "example": "The project received funding from the government.",
+    "example_es": "El proyecto recibió financiamiento del gobierno.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D08-G1",
+    "topic": "Pasado simple regular (-ed) y su pronunciación"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D08-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "start",
+     "meaning_es": "empezar, comenzar",
+     "example": "We wanted to start in March.",
+     "example_es": "Queríamos empezar en marzo."
+    },
+    {
+     "form": "decide",
+     "meaning_es": "decidir",
+     "example": "The team had to decide quickly.",
+     "example_es": "El equipo tuvo que decidir rápido."
+    },
+    {
+     "form": "contact",
+     "meaning_es": "contactar",
+     "example": "We had to contact three companies.",
+     "example_es": "Tuvimos que contactar a tres empresas."
+    },
+    {
+     "form": "visit",
+     "meaning_es": "visitar",
+     "example": "Ana wanted to visit the first sawmill in April.",
+     "example_es": "Ana quería visitar el primer aserradero en abril."
+    },
+    {
+     "form": "collect",
+     "meaning_es": "recolectar, reunir",
+     "example": "It is important to collect data every day.",
+     "example_es": "Es importante recolectar datos todos los días."
+    },
+    {
+     "form": "record",
+     "meaning_es": "registrar",
+     "example": "The sensors record energy use every minute.",
+     "example_es": "Los sensores registran el uso de energía cada minuto."
+    },
+    {
+     "form": "install",
+     "meaning_es": "instalar",
+     "example": "We need to install ten sensors.",
+     "example_es": "Necesitamos instalar diez sensores."
+    },
+    {
+     "form": "sensor",
+     "meaning_es": "sensor",
+     "example": "Each sensor sends data every minute.",
+     "example_es": "Cada sensor envía datos cada minuto."
+    },
+    {
+     "form": "last year",
+     "meaning_es": "el año pasado",
+     "example": "The project started last year.",
+     "example_es": "El proyecto empezó el año pasado."
+    },
+    {
+     "form": "ago",
+     "meaning_es": "hace (tiempo)",
+     "example": "We started two years ago.",
+     "example_es": "Empezamos hace dos años."
+    },
+    {
+     "form": "then",
+     "meaning_es": "luego, después",
+     "example": "Then we analysed the data.",
+     "example_es": "Luego analizamos los datos."
+    },
+    {
+     "form": "funding",
+     "meaning_es": "financiamiento",
+     "example": "The project received funding from the government.",
+     "example_es": "El proyecto recibió financiamiento del gobierno."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D08-RG",
+   "type": "capsule",
+   "title": "Pasado simple regular (-ed) y su pronunciación",
+   "explain": "El pasado simple cuenta acciones terminadas en un momento del pasado (last year, in 2024, two years ago).\nVerbos regulares: verbo + -ed, igual para todas las personas: I worked, she worked, they worked.\nOrtografía: decide → decided, study → studied, stop → stopped.\nPronunciación de -ed: suena /t/ después de sonidos sordos como k, p, s, sh, ch (worked, helped); /d/ después de sonidos sonoros (used, installed, studied); y /ɪd/ (una sílaba extra) SOLO después de t o d (started, decided, recorded, collected). Por eso «worked» tiene una sola sílaba.",
+   "form": [
+    [
+     "verbo + -ed",
+     "worked, visited, installed"
+    ],
+    [
+     "-e → -d",
+     "decide → decided"
+    ],
+    [
+     "consonante + y → -ied",
+     "study → studied"
+    ],
+    [
+     "/ɪd/ solo tras t o d",
+     "started, decided, collected"
+    ]
+   ],
+   "examples": [
+    [
+     "We started the project last year.",
+     "Empezamos el proyecto el año pasado."
+    ],
+    [
+     "Ana visited three sawmills.",
+     "Ana visitó tres aserraderos."
+    ],
+    [
+     "They installed ten sensors two years ago.",
+     "Instalaron diez sensores hace dos años."
+    ]
+   ],
+   "tip": "«Hace dos años» = two years ago (ago va al final).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D08-RR",
+   "type": "text",
+   "title": "How the project started",
+   "body": "Two years ago, Ana's team received funding from the regional government. They decided to study energy use in small sawmills. First, they contacted ten companies in Ñuble. Three companies agreed to take part. In April, Ana visited the first sawmill with two students. Then the team installed ten sensors. The sensors recorded electricity use every minute. The team collected data for six months, from May to October.",
+   "translation_es": "Hace dos años, el equipo de Ana recibió financiamiento del gobierno regional. Decidieron estudiar el uso de energía en aserraderos pequeños. Primero contactaron a diez empresas en Ñuble. Tres empresas aceptaron participar. En abril, Ana visitó el primer aserradero con dos estudiantes. Luego el equipo instaló diez sensores. Los sensores registraron el uso de electricidad cada minuto. El equipo recolectó datos durante seis meses, de mayo a octubre.",
+   "glossary": [
+    [
+     "received",
+     "recibió"
+    ],
+    [
+     "agreed to take part",
+     "aceptaron participar"
+    ],
+    [
+     "regional government",
+     "gobierno regional"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D08.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D08-RV"
+   ],
+   "activities": [
+    {
+     "id": "D08.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) We wanted to [[1]] in March.  (2) The team had to [[2]] quickly.  (3) Ana wanted to [[3]] the first sawmill in April.  (4) Each [[4]] sends data every minute.  (5) The project started [[5]].  (6) The project received [[6]] from the government.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "start"
+       ],
+       "hint": "Significa «empezar, comenzar»."
+      },
+      "2": {
+       "accept": [
+        "decide"
+       ],
+       "hint": "Significa «decidir»."
+      },
+      "3": {
+       "accept": [
+        "visit"
+       ],
+       "hint": "Significa «visitar»."
+      },
+      "4": {
+       "accept": [
+        "sensor"
+       ],
+       "hint": "Significa «sensor»."
+      },
+      "5": {
+       "accept": [
+        "last year"
+       ],
+       "hint": "Significa «el año pasado»."
+      },
+      "6": {
+       "accept": [
+        "funding"
+       ],
+       "hint": "Significa «financiamiento»."
+      }
+     }
+    },
+    {
+     "id": "D08.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «recolectar, reunir»",
+     "accept": [
+      "collect"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Es importante recolectar datos todos los días."
+    },
+    {
+     "id": "D08.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «luego, después»",
+     "accept": [
+      "then"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: Luego analizamos los datos."
+    },
+    {
+     "id": "D08.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «registrar»",
+     "accept": [
+      "record"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Los sensores registran el uso de energía cada minuto."
+    },
+    {
+     "id": "D08.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «instalar»",
+     "accept": [
+      "install"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: Necesitamos instalar diez sensores."
+    },
+    {
+     "id": "D08.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hace (tiempo)»",
+     "accept": [
+      "ago"
+     ],
+     "hint": "Empieza con «ag…» · Ejemplo: Empezamos hace dos años."
+    },
+    {
+     "id": "D08.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «contactar»",
+     "accept": [
+      "contact"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Tuvimos que contactar a tres empresas."
+    },
+    {
+     "id": "D08.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "It is important to collect data every day.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "It is important to collect data every day."
+    }
+   ]
+  },
+  {
+   "id": "D08.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasado simple regular (-ed) y su pronunciación",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D08-RG"
+   ],
+   "activities": [
+    {
+     "id": "D08.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The project [[1]] last year. (start)  (2) We [[2]] three companies. (contact)  (3) Diego [[3]] data in 2024. (study)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "started"
+       ],
+       "hint": "-ed"
+      },
+      "2": {
+       "accept": [
+        "contacted"
+       ],
+       "hint": "-ed"
+      },
+      "3": {
+       "accept": [
+        "studied"
+       ],
+       "hint": "y → ied"
+      }
+     }
+    },
+    {
+     "id": "D08.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The team [[1]] to use sensors. (decide)  (2) We started two years [[2]]. (hace)  (3) They [[3]] ten sensors. (install)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "decided"
+       ],
+       "hint": "-e → -d"
+      },
+      "2": {
+       "accept": [
+        "ago"
+       ],
+       "hint": "ago al final"
+      },
+      "3": {
+       "accept": [
+        "installed"
+       ],
+       "hint": "-ed"
+      }
+     }
+    },
+    {
+     "id": "D08.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cómo se pronuncia «worked»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "/wɜːkt/, una sílaba"
+      },
+      {
+       "id": "b",
+       "text": "/wɜːkɪd/, dos sílabas"
+      }
+     ],
+     "answer": "a",
+     "explanation": "-ed suena /t/ tras /k/."
+    },
+    {
+     "id": "D08.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Empezamos hace dos años»",
+     "options": [
+      {
+       "id": "a",
+       "text": "We started ago two years."
+      },
+      {
+       "id": "b",
+       "text": "We started two years ago."
+      },
+      {
+       "id": "c",
+       "text": "We start two years ago."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D08.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre cómo empezó un proyecto tuyo (usa verbos regulares en pasado y ago o last year).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "ed",
+        "ago",
+        "last year"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D08.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: El comienzo del proyecto",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D08.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "El comienzo del proyecto: escucha sin leer y responde.",
+     "audio": {
+      "text": "The project started two years ago. First we contacted ten companies. Three companies agreed to take part. Then we installed sensors in each sawmill. We collected data for six months.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "The project started two years ago. First we contacted ten companies. Three companies agreed to take part. Then we installed sensors in each sawmill. We collected data for six months.",
+     "translation_es": "El proyecto empezó hace dos años. Primero contactamos a diez empresas. Tres empresas aceptaron participar. Luego instalamos sensores en cada aserradero. Recolectamos datos durante seis meses.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuándo empezó el proyecto?",
+       "label": "¿Cuándo empezó el proyecto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Hace dos años"
+        },
+        {
+         "id": "b",
+         "text": "Hace seis meses"
+        },
+        {
+         "id": "c",
+         "text": "El año pasado"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuántas empresas aceptaron participar?",
+       "label": "¿Cuántas empresas aceptaron participar?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Diez"
+        },
+        {
+         "id": "b",
+         "text": "Tres"
+        },
+        {
+         "id": "c",
+         "text": "Seis"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Durante cuánto tiempo recolectaron datos?",
+       "label": "¿Durante cuánto tiempo recolectaron datos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Dos años"
+        },
+        {
+         "id": "b",
+         "text": "Seis meses"
+        },
+        {
+         "id": "c",
+         "text": "Tres meses"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D08.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Then we installed sensors in each sawmill.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Then we installed sensors in each sawmill."
+    }
+   ]
+  },
+  {
+   "id": "D08.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: How the project started",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D08-RR"
+   ],
+   "activities": [
+    {
+     "id": "D08.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Quién financió el proyecto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Una empresa privada"
+      },
+      {
+       "id": "b",
+       "text": "El gobierno regional"
+      },
+      {
+       "id": "c",
+       "text": "La universidad de Boston"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D08.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cada cuánto registraban los sensores?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Cada minuto"
+      },
+      {
+       "id": "b",
+       "text": "Cada hora"
+      },
+      {
+       "id": "c",
+       "text": "Cada día"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D08.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántas empresas contactaron?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Tres"
+      },
+      {
+       "id": "b",
+       "text": "Diez"
+      },
+      {
+       "id": "c",
+       "text": "Seis"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D08.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D08.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Two years ago, Ana's team received funding from the regional government. They decided to study energy use in small sawmills.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Two years ago, Ana's team received funding from the regional government.",
+       "They decided to study energy use in small sawmills."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D08.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta en voz alta (30–60 s) cómo empezó un proyecto, curso o trabajo tuyo: cuándo, qué decidieron, a quién contactaron y qué hicieron luego.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "start",
+        "decide",
+        "contact",
+        "visit",
+        "collect",
+        "record",
+        "install",
+        "sensor",
+        "last year",
+        "ago",
+        "then",
+        "funding"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D08.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D08.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras sobre el inicio de un proyecto tuyo con verbos regulares en pasado (started, decided, contacted…).",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "start",
+        "decide",
+        "contact",
+        "visit",
+        "collect",
+        "record",
+        "install",
+        "sensor",
+        "last year",
+        "ago",
+        "then",
+        "funding"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "ed",
+        "ago",
+        "last year"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

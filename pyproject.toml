@@ -1,0 +1,19 @@
+# Configuración para Vercel (Python). Las dependencias son las mismas de requirements.txt.
+[project]
+name = "ingles-para-investigar"
+version = "1.0.0"
+description = "Inglés para investigar y presentar (Django)"
+requires-python = ">=3.12"
+dependencies = [
+    "Django>=5.2,<6.0",
+    "dj-database-url>=2.2",
+    "psycopg[binary]>=3.2",
+    "whitenoise>=6.7",
+]
+
+[tool.vercel]
+entrypoint = "config.wsgi:application"
+
+[tool.vercel.scripts]
+# Después de instalar dependencias: migraciones + contenido + administrador en Neon.
+build = "python vercel_build.py"

@@ -1,0 +1,898 @@
+{
+ "id": "D18",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Pasiva con modales: can be, should be, must be",
+ "day": 18,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy combinas la pasiva con modales para recomendaciones y posibilidades: «can be reduced», «should be tested».",
+ "objectives": [
+  {
+   "id": "D18-O1",
+   "text": "Formar modal + be + participio."
+  },
+  {
+   "id": "D18-O2",
+   "text": "Expresar recomendaciones (should be) y posibilidades (can be, could be)."
+  },
+  {
+   "id": "D18-O3",
+   "text": "Escribir dos recomendaciones para una empresa."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D18-LX01",
+    "form": "can be reduced",
+    "meaning_es": "puede reducirse",
+    "example": "Energy use can be reduced at night.",
+    "example_es": "El uso de energía puede reducirse de noche.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX02",
+    "form": "should be tested",
+    "meaning_es": "debería probarse",
+    "example": "The model should be tested in other regions.",
+    "example_es": "El modelo debería probarse en otras regiones.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX03",
+    "form": "must be checked",
+    "meaning_es": "debe revisarse",
+    "example": "Sensors must be checked every month.",
+    "example_es": "Los sensores deben revisarse cada mes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX04",
+    "form": "could be improved",
+    "meaning_es": "podría mejorarse",
+    "example": "The schedule could be improved.",
+    "example_es": "La programación podría mejorarse.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX05",
+    "form": "may be explained",
+    "meaning_es": "puede explicarse",
+    "example": "This difference may be explained by temperature.",
+    "example_es": "Esta diferencia puede explicarse por la temperatura.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX06",
+    "form": "need to be",
+    "meaning_es": "necesitan ser",
+    "example": "Old machines need to be replaced.",
+    "example_es": "Las máquinas antiguas necesitan ser reemplazadas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX07",
+    "form": "schedule",
+    "meaning_es": "programación, calendario; programar",
+    "example": "The production schedule changes every week.",
+    "example_es": "La programación de la producción cambia cada semana.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX08",
+    "form": "maintenance",
+    "meaning_es": "mantenimiento",
+    "example": "Regular maintenance saves energy.",
+    "example_es": "El mantenimiento regular ahorra energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX09",
+    "form": "recommend",
+    "meaning_es": "recomendar",
+    "example": "We recommend a simple change.",
+    "example_es": "Recomendamos un cambio simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX10",
+    "form": "recommendation",
+    "meaning_es": "recomendación",
+    "example": "Our main recommendation is clear.",
+    "example_es": "Nuestra principal recomendación es clara.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX11",
+    "form": "avoid",
+    "meaning_es": "evitar",
+    "example": "Managers want to avoid long night shifts.",
+    "example_es": "Los gerentes quieren evitar los turnos de noche largos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D18-LX12",
+    "form": "implement",
+    "meaning_es": "implementar",
+    "example": "The plan is easy to implement.",
+    "example_es": "El plan es fácil de implementar.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D18-G1",
+    "topic": "Pasiva con modales: modal + be + participio"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D18-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "can be reduced",
+     "meaning_es": "puede reducirse",
+     "example": "Energy use can be reduced at night.",
+     "example_es": "El uso de energía puede reducirse de noche."
+    },
+    {
+     "form": "should be tested",
+     "meaning_es": "debería probarse",
+     "example": "The model should be tested in other regions.",
+     "example_es": "El modelo debería probarse en otras regiones."
+    },
+    {
+     "form": "must be checked",
+     "meaning_es": "debe revisarse",
+     "example": "Sensors must be checked every month.",
+     "example_es": "Los sensores deben revisarse cada mes."
+    },
+    {
+     "form": "could be improved",
+     "meaning_es": "podría mejorarse",
+     "example": "The schedule could be improved.",
+     "example_es": "La programación podría mejorarse."
+    },
+    {
+     "form": "may be explained",
+     "meaning_es": "puede explicarse",
+     "example": "This difference may be explained by temperature.",
+     "example_es": "Esta diferencia puede explicarse por la temperatura."
+    },
+    {
+     "form": "need to be",
+     "meaning_es": "necesitan ser",
+     "example": "Old machines need to be replaced.",
+     "example_es": "Las máquinas antiguas necesitan ser reemplazadas."
+    },
+    {
+     "form": "schedule",
+     "meaning_es": "programación, calendario; programar",
+     "example": "The production schedule changes every week.",
+     "example_es": "La programación de la producción cambia cada semana."
+    },
+    {
+     "form": "maintenance",
+     "meaning_es": "mantenimiento",
+     "example": "Regular maintenance saves energy.",
+     "example_es": "El mantenimiento regular ahorra energía."
+    },
+    {
+     "form": "recommend",
+     "meaning_es": "recomendar",
+     "example": "We recommend a simple change.",
+     "example_es": "Recomendamos un cambio simple."
+    },
+    {
+     "form": "recommendation",
+     "meaning_es": "recomendación",
+     "example": "Our main recommendation is clear.",
+     "example_es": "Nuestra principal recomendación es clara."
+    },
+    {
+     "form": "avoid",
+     "meaning_es": "evitar",
+     "example": "Managers want to avoid long night shifts.",
+     "example_es": "Los gerentes quieren evitar los turnos de noche largos."
+    },
+    {
+     "form": "implement",
+     "meaning_es": "implementar",
+     "example": "The plan is easy to implement.",
+     "example_es": "El plan es fácil de implementar."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D18-RG",
+   "type": "capsule",
+   "title": "Pasiva con modales: modal + be + participio",
+   "explain": "Los modales (can, could, should, must, may) van siempre seguidos de un verbo en forma base. En pasiva ese verbo es «be»: modal + be + participio.\ncan be reduced = puede reducirse · should be tested = debería probarse · must be checked = debe revisarse · may be explained = puede explicarse.\nEs la forma típica de las recomendaciones y limitaciones en un paper, porque no dice quién debe hacerlo.\nError típico: «should tested» o «can reduced» (falta «be»).",
+   "form": [
+    [
+     "can / could be + participio",
+     "can be reduced"
+    ],
+    [
+     "should be + participio",
+     "should be tested"
+    ],
+    [
+     "must be + participio",
+     "must be checked"
+    ],
+    [
+     "may / might be + participio",
+     "may be explained"
+    ]
+   ],
+   "examples": [
+    [
+     "Energy use can be reduced by changing the schedule.",
+     "El uso de energía puede reducirse cambiando la programación."
+    ],
+    [
+     "The model should be tested in other regions.",
+     "El modelo debería probarse en otras regiones."
+    ],
+    [
+     "This difference may be explained by temperature.",
+     "Esta diferencia podría explicarse por la temperatura."
+    ]
+   ],
+   "tip": "«need to be + participio» funciona igual: Old machines need to be replaced.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D18-RR",
+   "type": "text",
+   "title": "Recommendations",
+   "body": "Based on the results, the team made four recommendations to the sawmills. First, energy use can be reduced by moving some work from the night shift to the day shift. Second, long night shifts should be avoided in winter. Third, sensors must be checked every month, because missing data could be a problem. Finally, regular maintenance should be implemented, and the oldest machines need to be replaced. These changes could be implemented at a low cost.",
+   "translation_es": "Con base en los resultados, el equipo hizo cuatro recomendaciones a los aserraderos. Primero, el uso de energía puede reducirse moviendo parte del trabajo del turno de noche al de día. Segundo, deberían evitarse los turnos de noche largos en invierno. Tercero, los sensores deben revisarse cada mes, porque los datos faltantes podrían ser un problema. Por último, debería implementarse un mantenimiento regular, y las máquinas más antiguas necesitan reemplazarse. Estos cambios podrían implementarse a bajo costo.",
+   "glossary": [
+    [
+     "Based on",
+     "Con base en"
+    ],
+    [
+     "Finally",
+     "Por último"
+    ],
+    [
+     "at a low cost",
+     "a bajo costo"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D18.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D18-RV"
+   ],
+   "activities": [
+    {
+     "id": "D18.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The model [[1]] in other regions.  (2) Sensors [[2]] every month.  (3) The schedule [[3]].  (4) We [[4]] a simple change.  (5) Managers want to [[5]] long night shifts.  (6) The plan is easy to [[6]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "should be tested"
+       ],
+       "hint": "Significa «debería probarse»."
+      },
+      "2": {
+       "accept": [
+        "must be checked"
+       ],
+       "hint": "Significa «debe revisarse»."
+      },
+      "3": {
+       "accept": [
+        "could be improved"
+       ],
+       "hint": "Significa «podría mejorarse»."
+      },
+      "4": {
+       "accept": [
+        "recommend"
+       ],
+       "hint": "Significa «recomendar»."
+      },
+      "5": {
+       "accept": [
+        "avoid"
+       ],
+       "hint": "Significa «evitar»."
+      },
+      "6": {
+       "accept": [
+        "implement"
+       ],
+       "hint": "Significa «implementar»."
+      }
+     }
+    },
+    {
+     "id": "D18.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «necesitan ser»",
+     "accept": [
+      "need to be"
+     ],
+     "hint": "Empieza con «ne…» · Ejemplo: Las máquinas antiguas necesitan ser reemplazadas."
+    },
+    {
+     "id": "D18.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «puede explicarse»",
+     "accept": [
+      "may be explained"
+     ],
+     "hint": "Empieza con «ma…» · Ejemplo: Esta diferencia puede explicarse por la temperatura."
+    },
+    {
+     "id": "D18.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «programación, calendario; programar»",
+     "accept": [
+      "schedule"
+     ],
+     "hint": "Empieza con «sc…» · Ejemplo: La programación de la producción cambia cada semana."
+    },
+    {
+     "id": "D18.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «recomendación»",
+     "accept": [
+      "recommendation"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Nuestra principal recomendación es clara."
+    },
+    {
+     "id": "D18.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «puede reducirse»",
+     "accept": [
+      "can be reduced"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: El uso de energía puede reducirse de noche."
+    },
+    {
+     "id": "D18.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mantenimiento»",
+     "accept": [
+      "maintenance"
+     ],
+     "hint": "Empieza con «ma…» · Ejemplo: El mantenimiento regular ahorra energía."
+    },
+    {
+     "id": "D18.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Old machines need to be replaced.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Old machines need to be replaced."
+    }
+   ]
+  },
+  {
+   "id": "D18.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasiva con modales: modal + be + participio",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D18-RG"
+   ],
+   "activities": [
+    {
+     "id": "D18.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Energy use can [[1]] reduced at night.  (2) The model should be [[2]] in other regions. (test)  (3) Sensors [[3]] be checked every month. (deben)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "be"
+       ],
+       "hint": "modal + be + participio"
+      },
+      "2": {
+       "accept": [
+        "tested"
+       ]
+      },
+      "3": {
+       "accept": [
+        "must"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D18.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) This difference may be [[1]] by temperature. (explain)  (2) Long night shifts should be [[2]]. (avoid)  (3) Old machines need to [[3]] replaced.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "explained"
+       ]
+      },
+      "2": {
+       "accept": [
+        "avoided"
+       ]
+      },
+      "3": {
+       "accept": [
+        "be"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D18.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "The schedule could improved."
+      },
+      {
+       "id": "b",
+       "text": "The schedule could be improved."
+      },
+      {
+       "id": "c",
+       "text": "The schedule could be improve."
+      }
+     ],
+     "answer": "b",
+     "explanation": "could + be + participio"
+    },
+    {
+     "id": "D18.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«El modelo debería probarse en otras regiones»",
+     "options": [
+      {
+       "id": "a",
+       "text": "The model should test in other regions."
+      },
+      {
+       "id": "b",
+       "text": "The model should be tested in other regions."
+      },
+      {
+       "id": "c",
+       "text": "The model should be test in other regions."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D18.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe dos recomendaciones para una empresa u organización en pasiva con modales (should be…, can be…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "should be",
+        "can be",
+        "could be",
+        "must be",
+        "may be",
+        "need to be"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D18.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Recomendaciones para los gerentes",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D18.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Recomendaciones para los gerentes: escucha sin leer y responde.",
+     "audio": {
+      "text": "Our main recommendation is simple. Energy use can be reduced by changing the production schedule. Long night shifts should be avoided. Sensors must be checked every month, and old machines need to be replaced in the next two years.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Our main recommendation is simple. Energy use can be reduced by changing the production schedule. Long night shifts should be avoided. Sensors must be checked every month, and old machines need to be replaced in the next two years.",
+     "translation_es": "Nuestra principal recomendación es simple. El uso de energía puede reducirse cambiando la programación de la producción. Deberían evitarse los turnos de noche largos. Los sensores deben revisarse cada mes, y las máquinas antiguas necesitan reemplazarse en los próximos dos años.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cómo puede reducirse el uso de energía?",
+       "label": "¿Cómo puede reducirse el uso de energía?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Comprando sensores"
+        },
+        {
+         "id": "b",
+         "text": "Cambiando la programación de la producción"
+        },
+        {
+         "id": "c",
+         "text": "Despidiendo personal"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cada cuánto deben revisarse los sensores?",
+       "label": "¿Cada cuánto deben revisarse los sensores?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Cada semana"
+        },
+        {
+         "id": "b",
+         "text": "Cada mes"
+        },
+        {
+         "id": "c",
+         "text": "Cada año"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué debería evitarse?",
+       "label": "¿Qué debería evitarse?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Los turnos de noche largos"
+        },
+        {
+         "id": "b",
+         "text": "El mantenimiento"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D18.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Long night shifts should be avoided.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "Long night shifts should be avoided."
+    }
+   ]
+  },
+  {
+   "id": "D18.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Recommendations",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D18-RR"
+   ],
+   "activities": [
+    {
+     "id": "D18.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo se puede reducir el uso de energía según la primera recomendación?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Mover trabajo del turno de noche al de día"
+      },
+      {
+       "id": "b",
+       "text": "Trabajar solo de noche"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D18.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué deben revisarse los sensores cada mes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque son caros"
+      },
+      {
+       "id": "b",
+       "text": "Porque los datos faltantes podrían ser un problema"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D18.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo sería el costo de estos cambios?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Alto"
+      },
+      {
+       "id": "b",
+       "text": "Bajo"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D18.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D18.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Based on the results, the team made four recommendations to the sawmills. First, energy use can be reduced by moving some work from the night shift to the day shift.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Based on the results, the team made four recommendations to the sawmills.",
+       "First, energy use can be reduced by moving some work from the night shift to the day shift."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D18.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Da en voz alta (30–60 s) tres recomendaciones para tu institución o una empresa que conozcas, usando should be / can be / must be + participio.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "can be reduced",
+        "should be tested",
+        "must be checked",
+        "could be improved",
+        "may be explained",
+        "need to be",
+        "schedule",
+        "maintenance",
+        "recommend",
+        "recommendation",
+        "avoid",
+        "implement"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D18.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D18.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras con recomendaciones en pasiva con modales, como el texto de hoy (First…, Second…, Finally…).",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "can be reduced",
+        "should be tested",
+        "must be checked",
+        "could be improved",
+        "may be explained",
+        "need to be",
+        "schedule",
+        "maintenance",
+        "recommend",
+        "recommendation",
+        "avoid",
+        "implement"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "should be",
+        "can be",
+        "could be",
+        "must be",
+        "may be",
+        "need to be"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

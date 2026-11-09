@@ -1,0 +1,888 @@
+{
+ "id": "D24",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Verbos prudentes: suggest, indicate, appear",
+ "day": 24,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes los verbos que los investigadores usan para presentar resultados sin exagerar: suggest, indicate, appear to, seem to.",
+ "objectives": [
+  {
+   "id": "D24-O1",
+   "text": "Usar suggest that / indicate that / appear to."
+  },
+  {
+   "id": "D24-O2",
+   "text": "Distinguir asociación de causalidad."
+  },
+  {
+   "id": "D24-O3",
+   "text": "Reescribir una conclusión exagerada."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D24-LX01",
+    "form": "suggest",
+    "meaning_es": "sugerir (indicar con cautela)",
+    "example": "The results suggest that the schedule matters.",
+    "example_es": "Los resultados sugieren que la programación importa.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX02",
+    "form": "indicate",
+    "meaning_es": "indicar",
+    "example": "The data indicate a clear pattern.",
+    "example_es": "Los datos indican un patrón claro.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX03",
+    "form": "appear to",
+    "meaning_es": "parecer (que)",
+    "example": "Night shifts appear to use more energy.",
+    "example_es": "Los turnos de noche parecen usar más energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX04",
+    "form": "seem to",
+    "meaning_es": "parecer",
+    "example": "The new tool does seem to work well.",
+    "example_es": "La nueva herramienta parece funcionar bien.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX05",
+    "form": "associated with",
+    "meaning_es": "asociado/a con",
+    "example": "Cold weather was associated with higher energy use.",
+    "example_es": "El clima frío estuvo asociado con un mayor uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX06",
+    "form": "causality",
+    "meaning_es": "causalidad",
+    "example": "These data do not show causality.",
+    "example_es": "Estos datos no muestran causalidad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX07",
+    "form": "prove",
+    "meaning_es": "demostrar, probar",
+    "example": "One study cannot prove this.",
+    "example_es": "Un estudio no puede demostrar esto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX08",
+    "form": "tend to",
+    "meaning_es": "tender a",
+    "example": "Older machines tend to use more energy.",
+    "example_es": "Las máquinas más antiguas tienden a usar más energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX09",
+    "form": "findings",
+    "meaning_es": "hallazgos",
+    "example": "Our findings are similar to previous studies.",
+    "example_es": "Nuestros hallazgos son similares a estudios anteriores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX10",
+    "form": "conclusion",
+    "meaning_es": "conclusión",
+    "example": "The main conclusion is cautious.",
+    "example_es": "La conclusión principal es prudente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX11",
+    "form": "overall",
+    "meaning_es": "en general, en conjunto",
+    "example": "Overall, the results are positive.",
+    "example_es": "En general, los resultados son positivos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D24-LX12",
+    "form": "relationship",
+    "meaning_es": "relación",
+    "example": "There is a relationship between temperature and energy use.",
+    "example_es": "Hay una relación entre la temperatura y el uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D24-G1",
+    "topic": "Verbos de cautela (hedging) y asociación vs causalidad"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D24-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "suggest",
+     "meaning_es": "sugerir (indicar con cautela)",
+     "example": "The results suggest that the schedule matters.",
+     "example_es": "Los resultados sugieren que la programación importa."
+    },
+    {
+     "form": "indicate",
+     "meaning_es": "indicar",
+     "example": "The data indicate a clear pattern.",
+     "example_es": "Los datos indican un patrón claro."
+    },
+    {
+     "form": "appear to",
+     "meaning_es": "parecer (que)",
+     "example": "Night shifts appear to use more energy.",
+     "example_es": "Los turnos de noche parecen usar más energía."
+    },
+    {
+     "form": "seem to",
+     "meaning_es": "parecer",
+     "example": "The new tool does seem to work well.",
+     "example_es": "La nueva herramienta parece funcionar bien."
+    },
+    {
+     "form": "associated with",
+     "meaning_es": "asociado/a con",
+     "example": "Cold weather was associated with higher energy use.",
+     "example_es": "El clima frío estuvo asociado con un mayor uso de energía."
+    },
+    {
+     "form": "causality",
+     "meaning_es": "causalidad",
+     "example": "These data do not show causality.",
+     "example_es": "Estos datos no muestran causalidad."
+    },
+    {
+     "form": "prove",
+     "meaning_es": "demostrar, probar",
+     "example": "One study cannot prove this.",
+     "example_es": "Un estudio no puede demostrar esto."
+    },
+    {
+     "form": "tend to",
+     "meaning_es": "tender a",
+     "example": "Older machines tend to use more energy.",
+     "example_es": "Las máquinas más antiguas tienden a usar más energía."
+    },
+    {
+     "form": "findings",
+     "meaning_es": "hallazgos",
+     "example": "Our findings are similar to previous studies.",
+     "example_es": "Nuestros hallazgos son similares a estudios anteriores."
+    },
+    {
+     "form": "conclusion",
+     "meaning_es": "conclusión",
+     "example": "The main conclusion is cautious.",
+     "example_es": "La conclusión principal es prudente."
+    },
+    {
+     "form": "overall",
+     "meaning_es": "en general, en conjunto",
+     "example": "Overall, the results are positive.",
+     "example_es": "En general, los resultados son positivos."
+    },
+    {
+     "form": "relationship",
+     "meaning_es": "relación",
+     "example": "There is a relationship between temperature and energy use.",
+     "example_es": "Hay una relación entre la temperatura y el uso de energía."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D24-RG",
+   "type": "capsule",
+   "title": "Verbos de cautela (hedging) y asociación vs causalidad",
+   "explain": "Para presentar resultados se usan verbos que muestran el grado de certeza:\nMás fuerte → show, demonstrate · Medio → indicate · Prudente → suggest, appear to, seem to.\nEstructuras: The results suggest that + oración · X appears to + verbo · X tends to + verbo.\nAsociación no es causalidad: si dos cosas ocurren juntas, di «was associated with», no «caused», salvo que el diseño lo permita (experimento con asignación aleatoria).\n«prove» casi nunca se usa para un solo estudio: suena exagerado.",
+   "form": [
+    [
+     "suggest that + oración",
+     "The results suggest that…"
+    ],
+    [
+     "indicate that + oración",
+     "The data indicate that…"
+    ],
+    [
+     "appear to / seem to / tend to + verbo",
+     "appear to use more energy"
+    ],
+    [
+     "be associated with",
+     "was associated with higher use"
+    ]
+   ],
+   "examples": [
+    [
+     "The results suggest that the schedule affects energy use.",
+     "Los resultados sugieren que la programación afecta el uso de energía."
+    ],
+    [
+     "Night shifts appear to use more energy per unit.",
+     "Los turnos de noche parecen usar más energía por unidad."
+    ],
+    [
+     "Cold weather was associated with higher energy use.",
+     "El clima frío estuvo asociado con un mayor uso de energía."
+    ]
+   ],
+   "tip": "Cambio rápido para sonar profesional: «X causes Y» → «X is associated with Y».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D24-RR",
+   "type": "text",
+   "title": "Discussing the findings",
+   "body": "Overall, our findings indicate a clear relationship between shift and energy use. Night shifts appear to use about twelve percent more energy per unit. Cold weather was also associated with higher energy use. However, these data do not prove causality, because the shifts were not randomly assigned. The results suggest that the production schedule matters, and older machines tend to use more energy. These findings are similar to previous studies in other sectors.",
+   "translation_es": "En general, nuestros hallazgos indican una relación clara entre el turno y el uso de energía. Los turnos de noche parecen usar alrededor de un doce por ciento más de energía por unidad. El clima frío también estuvo asociado con un mayor uso de energía. Sin embargo, estos datos no demuestran causalidad, porque los turnos no fueron asignados aleatoriamente. Los resultados sugieren que la programación de la producción importa, y las máquinas más antiguas tienden a usar más energía. Estos hallazgos son similares a estudios anteriores en otros sectores.",
+   "glossary": [
+    [
+     "randomly assigned",
+     "asignados aleatoriamente"
+    ],
+    [
+     "sectors",
+     "sectores"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D24.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D24-RV"
+   ],
+   "activities": [
+    {
+     "id": "D24.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The results [[1]] that the schedule matters.  (2) The new tool does [[2]] work well.  (3) Cold weather was [[3]] higher energy use.  (4) These data do not show [[4]].  (5) One study cannot [[5]] this.  (6) Our [[6]] are similar to previous studies.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "suggest"
+       ],
+       "hint": "Significa «sugerir (indicar con cautela)»."
+      },
+      "2": {
+       "accept": [
+        "seem to"
+       ],
+       "hint": "Significa «parecer»."
+      },
+      "3": {
+       "accept": [
+        "associated with"
+       ],
+       "hint": "Significa «asociado/a con»."
+      },
+      "4": {
+       "accept": [
+        "causality"
+       ],
+       "hint": "Significa «causalidad»."
+      },
+      "5": {
+       "accept": [
+        "prove"
+       ],
+       "hint": "Significa «demostrar, probar»."
+      },
+      "6": {
+       "accept": [
+        "findings"
+       ],
+       "hint": "Significa «hallazgos»."
+      }
+     }
+    },
+    {
+     "id": "D24.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tender a»",
+     "accept": [
+      "tend to"
+     ],
+     "hint": "Empieza con «te…» · Ejemplo: Las máquinas más antiguas tienden a usar más energía."
+    },
+    {
+     "id": "D24.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «conclusión»",
+     "accept": [
+      "conclusion"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: La conclusión principal es prudente."
+    },
+    {
+     "id": "D24.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «indicar»",
+     "accept": [
+      "indicate"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: Los datos indican un patrón claro."
+    },
+    {
+     "id": "D24.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «parecer (que)»",
+     "accept": [
+      "appear to"
+     ],
+     "hint": "Empieza con «ap…» · Ejemplo: Los turnos de noche parecen usar más energía."
+    },
+    {
+     "id": "D24.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en general, en conjunto»",
+     "accept": [
+      "overall"
+     ],
+     "hint": "Empieza con «ov…» · Ejemplo: En general, los resultados son positivos."
+    },
+    {
+     "id": "D24.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «relación»",
+     "accept": [
+      "relationship"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Hay una relación entre la temperatura y el uso de energía."
+    },
+    {
+     "id": "D24.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Older machines tend to use more energy.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Older machines tend to use more energy."
+    }
+   ]
+  },
+  {
+   "id": "D24.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Verbos de cautela (hedging) y asociación vs causalidad",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D24-RG"
+   ],
+   "activities": [
+    {
+     "id": "D24.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The results [[1]] that the schedule matters. (sugieren)  (2) Night shifts appear [[2]] use more energy.  (3) Cold weather was associated [[3]] higher energy use.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "suggest"
+       ],
+       "hint": "results es plural → suggest"
+      },
+      "2": {
+       "accept": [
+        "to"
+       ],
+       "hint": "appear to + verbo"
+      },
+      "3": {
+       "accept": [
+        "with"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D24.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Older machines tend [[1]] use more energy.  (2) These data do not show [[2]]. (causalidad)  (3) [[3]], the results are positive. (en general)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "to"
+       ]
+      },
+      "2": {
+       "accept": [
+        "causality"
+       ]
+      },
+      "3": {
+       "accept": [
+        "overall"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D24.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál conclusión es adecuada para un estudio observacional?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Night shifts cause higher energy use."
+      },
+      {
+       "id": "b",
+       "text": "Night shifts were associated with higher energy use."
+      },
+      {
+       "id": "c",
+       "text": "We proved that night shifts are bad."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D24.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál verbo es el más prudente?",
+     "options": [
+      {
+       "id": "a",
+       "text": "show"
+      },
+      {
+       "id": "b",
+       "text": "demonstrate"
+      },
+      {
+       "id": "c",
+       "text": "suggest"
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "D24.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Reescribe con cautela esta conclusión exagerada: «Our study proves that the new schedule causes a 15% reduction».",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "suggest",
+        "associated with",
+        "appear",
+        "indicate",
+        "may"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D24.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Una conclusión demasiado fuerte",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D24.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Una conclusión demasiado fuerte: escucha sin leer y responde.",
+     "audio": {
+      "text": "Diego wrote: our study proves that night shifts cause higher energy use. Ana said: that claim is too strong. Our data don't show causality. Write: night shifts were associated with higher energy use. The results suggest that the schedule matters.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Diego wrote: our study proves that night shifts cause higher energy use. Ana said: that claim is too strong. Our data don't show causality. Write: night shifts were associated with higher energy use. The results suggest that the schedule matters.",
+     "translation_es": "Diego escribió: nuestro estudio demuestra que los turnos de noche causan un mayor uso de energía. Ana dijo: esa afirmación es demasiado fuerte. Nuestros datos no muestran causalidad. Escribe: los turnos de noche estuvieron asociados con un mayor uso de energía. Los resultados sugieren que la programación importa.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué problema tenía la frase de Diego?",
+       "label": "¿Qué problema tenía la frase de Diego?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Era demasiado fuerte"
+        },
+        {
+         "id": "b",
+         "text": "Tenía errores de números"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué frase propone Ana?",
+       "label": "¿Qué frase propone Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Night shifts cause higher energy use"
+        },
+        {
+         "id": "b",
+         "text": "Night shifts were associated with higher energy use"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué muestran los datos según Ana?",
+       "label": "¿Qué muestran los datos según Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Causalidad"
+        },
+        {
+         "id": "b",
+         "text": "No muestran causalidad"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D24.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Our data don't show causality.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Our data don't show causality."
+    }
+   ]
+  },
+  {
+   "id": "D24.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Discussing the findings",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D24-RR"
+   ],
+   "activities": [
+    {
+     "id": "D24.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánta energía más por unidad parecen usar los turnos de noche?",
+     "options": [
+      {
+       "id": "a",
+       "text": "2 %"
+      },
+      {
+       "id": "b",
+       "text": "12 %"
+      },
+      {
+       "id": "c",
+       "text": "20 %"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D24.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué los datos no demuestran causalidad?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque la muestra es grande"
+      },
+      {
+       "id": "b",
+       "text": "Porque los turnos no fueron asignados aleatoriamente"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D24.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Con qué se asoció el mayor uso de energía además del turno?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El clima frío"
+      },
+      {
+       "id": "b",
+       "text": "Los gerentes"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D24.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D24.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Overall, our findings indicate a clear relationship between shift and energy use. Night shifts appear to use about twelve percent more energy per unit.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Overall, our findings indicate a clear relationship between shift and energy use.",
+       "Night shifts appear to use about twelve percent more energy per unit."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D24.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Presenta en voz alta (30–60 s) un resultado de tu trabajo con cautela: The results suggest that…, X appears to…, X was associated with…, but this does not prove…",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "suggest",
+        "indicate",
+        "appear to",
+        "seem to",
+        "associated with",
+        "causality",
+        "prove",
+        "tend to",
+        "findings",
+        "conclusion",
+        "overall",
+        "relationship"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D24.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D24.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras discutiendo un resultado: un verbo prudente (suggest/indicate), una asociación y una limitación sobre la causalidad.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "suggest",
+        "indicate",
+        "appear to",
+        "seem to",
+        "associated with",
+        "causality",
+        "prove",
+        "tend to",
+        "findings",
+        "conclusion",
+        "overall",
+        "relationship"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "suggest",
+        "associated with",
+        "appear",
+        "indicate",
+        "may"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

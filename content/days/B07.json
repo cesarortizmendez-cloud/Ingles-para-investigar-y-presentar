@@ -1,0 +1,925 @@
+{
+ "id": "B07",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "La rutina de otras personas",
+ "day": 7,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas de la rutina de otras personas: la -s de he/she (she works) y las preguntas y negativas con do/does.",
+ "objectives": [
+  {
+   "id": "B07-O1",
+   "text": "Usar bien la -s de he/she/it (works, watches, studies, has)."
+  },
+  {
+   "id": "B07-O2",
+   "text": "Hacer preguntas y negativas con do/does."
+  },
+  {
+   "id": "B07-O3",
+   "text": "Entender la descripción del día de otra persona."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B07-LX01",
+    "form": "live",
+    "meaning_es": "vivir",
+    "example": "Where do you live?",
+    "example_es": "¿Dónde vives?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX02",
+    "form": "work",
+    "meaning_es": "trabajar",
+    "example": "Do you work on Saturdays?",
+    "example_es": "¿Trabajas los sábados?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX03",
+    "form": "study",
+    "meaning_es": "estudiar",
+    "example": "I study at night.",
+    "example_es": "Estudio en la noche.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX04",
+    "form": "watch",
+    "meaning_es": "mirar, ver (TV)",
+    "example": "We watch the news at nine.",
+    "example_es": "Vemos las noticias a las nueve.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX05",
+    "form": "read",
+    "meaning_es": "leer",
+    "example": "I read the newspaper on Sundays.",
+    "example_es": "Leo el diario los domingos.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX06",
+    "form": "cook",
+    "meaning_es": "cocinar",
+    "example": "Robert doesn't cook.",
+    "example_es": "Robert no cocina.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX07",
+    "form": "drive",
+    "meaning_es": "manejar",
+    "example": "Does she drive to work?",
+    "example_es": "¿Ella maneja al trabajo?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX08",
+    "form": "walk",
+    "meaning_es": "caminar",
+    "example": "I walk to the university.",
+    "example_es": "Camino a la universidad.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX09",
+    "form": "take",
+    "meaning_es": "tomar (un bus, un tren)",
+    "example": "I take the train at eight.",
+    "example_es": "Tomo el tren a las ocho.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX10",
+    "form": "like",
+    "meaning_es": "gustar",
+    "example": "I like Boston.",
+    "example_es": "Me gusta Boston.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX11",
+    "form": "need",
+    "meaning_es": "necesitar",
+    "example": "I need a new phone.",
+    "example_es": "Necesito un teléfono nuevo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B07-LX12",
+    "form": "want",
+    "meaning_es": "querer",
+    "example": "Do you want a coffee?",
+    "example_es": "¿Quieres un café?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B07-G1",
+    "topic": "Presente simple con he/she/it y preguntas con do/does"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B07-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "live",
+     "meaning_es": "vivir",
+     "example": "Where do you live?",
+     "example_es": "¿Dónde vives?"
+    },
+    {
+     "form": "work",
+     "meaning_es": "trabajar",
+     "example": "Do you work on Saturdays?",
+     "example_es": "¿Trabajas los sábados?"
+    },
+    {
+     "form": "study",
+     "meaning_es": "estudiar",
+     "example": "I study at night.",
+     "example_es": "Estudio en la noche."
+    },
+    {
+     "form": "watch",
+     "meaning_es": "mirar, ver (TV)",
+     "example": "We watch the news at nine.",
+     "example_es": "Vemos las noticias a las nueve."
+    },
+    {
+     "form": "read",
+     "meaning_es": "leer",
+     "example": "I read the newspaper on Sundays.",
+     "example_es": "Leo el diario los domingos."
+    },
+    {
+     "form": "cook",
+     "meaning_es": "cocinar",
+     "example": "Robert doesn't cook.",
+     "example_es": "Robert no cocina."
+    },
+    {
+     "form": "drive",
+     "meaning_es": "manejar",
+     "example": "Does she drive to work?",
+     "example_es": "¿Ella maneja al trabajo?"
+    },
+    {
+     "form": "walk",
+     "meaning_es": "caminar",
+     "example": "I walk to the university.",
+     "example_es": "Camino a la universidad."
+    },
+    {
+     "form": "take",
+     "meaning_es": "tomar (un bus, un tren)",
+     "example": "I take the train at eight.",
+     "example_es": "Tomo el tren a las ocho."
+    },
+    {
+     "form": "like",
+     "meaning_es": "gustar",
+     "example": "I like Boston.",
+     "example_es": "Me gusta Boston."
+    },
+    {
+     "form": "need",
+     "meaning_es": "necesitar",
+     "example": "I need a new phone.",
+     "example_es": "Necesito un teléfono nuevo."
+    },
+    {
+     "form": "want",
+     "meaning_es": "querer",
+     "example": "Do you want a coffee?",
+     "example_es": "¿Quieres un café?"
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B07-RG",
+   "type": "capsule",
+   "title": "Presente simple con he/she/it y preguntas con do/does",
+   "explain": "Con he, she, it el verbo lleva -s: she works, he lives. Se agrega -es después de ch, sh, s, x, o (watches, goes, does); consonante + y → ies (study → studies). Irregular: have → has.\nNegativo: don't (I, you, we, they) y doesn't (he, she, it) + verbo SIN -s: She doesn't work on Sundays.\nPreguntas: Do / Does + sujeto + verbo sin -s: Does he drive? Yes, he does. / No, he doesn't.",
+   "form": [
+    [
+     "he / she / it + verbo-s",
+     "she works · he watches · it has"
+    ],
+    [
+     "don't / doesn't + verbo",
+     "I don't drive · she doesn't drive"
+    ],
+    [
+     "Do / Does + sujeto + verbo?",
+     "Do you cook? · Does she cook?"
+    ],
+    [
+     "Yes, she does. · No, she doesn't.",
+     "respuestas cortas"
+    ]
+   ],
+   "examples": [
+    [
+     "Linda works at the university.",
+     "Linda trabaja en la universidad."
+    ],
+    [
+     "Robert doesn't cook.",
+     "Robert no cocina."
+    ],
+    [
+     "Does Tomás drive in Boston? No, he doesn't.",
+     "¿Tomás maneja en Boston? No."
+    ],
+    [
+     "Emma studies engineering.",
+     "Emma estudia ingeniería."
+    ]
+   ],
+   "tip": "Error típico: «She don't work» o «Does she works?» → correcto: «She doesn't work», «Does she work?» (la -s pasa a does).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B07-RR",
+   "type": "text",
+   "title": "Two different days",
+   "body": "Mike and Emma are brother and sister, but their days are very different. Mike lives in New York. He works in an office and takes the subway every day. He doesn't like cooking, so he eats at restaurants. Emma lives near Boston. She studies at the university and walks to her classes. She likes cooking and makes dinner for her friends.",
+   "translation_es": "Mike y Emma son hermanos, pero sus días son muy distintos. Mike vive en Nueva York. Trabaja en una oficina y toma el metro todos los días. No le gusta cocinar, así que come en restaurantes. Emma vive cerca de Boston. Estudia en la universidad y camina a sus clases. Le gusta cocinar y prepara la cena para sus amigos.",
+   "glossary": [
+    [
+     "subway",
+     "metro"
+    ],
+    [
+     "so",
+     "así que, por eso"
+    ],
+    [
+     "makes dinner",
+     "prepara la cena"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B07.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B07-RV"
+   ],
+   "activities": [
+    {
+     "id": "B07.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Where do you [[1]]?  (2) I [[2]] at night.  (3) We [[3]] the news at nine.  (4) I [[4]] the newspaper on Sundays.  (5) I [[5]] Boston.  (6) I [[6]] a new phone.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "live"
+       ],
+       "hint": "Significa «vivir»."
+      },
+      "2": {
+       "accept": [
+        "study"
+       ],
+       "hint": "Significa «estudiar»."
+      },
+      "3": {
+       "accept": [
+        "watch"
+       ],
+       "hint": "Significa «mirar, ver (TV)»."
+      },
+      "4": {
+       "accept": [
+        "read"
+       ],
+       "hint": "Significa «leer»."
+      },
+      "5": {
+       "accept": [
+        "like"
+       ],
+       "hint": "Significa «gustar»."
+      },
+      "6": {
+       "accept": [
+        "need"
+       ],
+       "hint": "Significa «necesitar»."
+      }
+     }
+    },
+    {
+     "id": "B07.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «caminar»",
+     "accept": [
+      "walk"
+     ],
+     "hint": "Empieza con «wa…» · Ejemplo: Camino a la universidad."
+    },
+    {
+     "id": "B07.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «manejar»",
+     "accept": [
+      "drive"
+     ],
+     "hint": "Empieza con «dr…» · Ejemplo: ¿Ella maneja al trabajo?"
+    },
+    {
+     "id": "B07.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «querer»",
+     "accept": [
+      "want"
+     ],
+     "hint": "Empieza con «wa…» · Ejemplo: ¿Quieres un café?"
+    },
+    {
+     "id": "B07.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cocinar»",
+     "accept": [
+      "cook"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Robert no cocina."
+    },
+    {
+     "id": "B07.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tomar (un bus, un tren)»",
+     "accept": [
+      "take"
+     ],
+     "hint": "Empieza con «ta…» · Ejemplo: Tomo el tren a las ocho."
+    },
+    {
+     "id": "B07.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «trabajar»",
+     "accept": [
+      "work"
+     ],
+     "hint": "Empieza con «wo…» · Ejemplo: ¿Trabajas los sábados?"
+    },
+    {
+     "id": "B07.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "I walk to the university.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I walk to the university."
+    }
+   ]
+  },
+  {
+   "id": "B07.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Presente simple con he/she/it y preguntas con do/does",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B07-RG"
+   ],
+   "activities": [
+    {
+     "id": "B07.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Linda [[1]] at the university. (work)  (2) Emma [[2]] engineering. (study)  (3) Robert [[3]] cook. (negativo)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "works"
+       ],
+       "hint": "she → works."
+      },
+      "2": {
+       "accept": [
+        "studies"
+       ],
+       "hint": "study → studies."
+      },
+      "3": {
+       "accept": [
+        "doesn't",
+        "does not"
+       ],
+       "hint": "he → doesn't."
+      }
+     }
+    },
+    {
+     "id": "B07.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] you take the bus?  (2) [[2]] Tomás drive in Boston?  (3) He [[3]] TV in the evening. (watch)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "do"
+       ],
+       "hint": "you → Do."
+      },
+      "2": {
+       "accept": [
+        "does"
+       ],
+       "hint": "he → Does."
+      },
+      "3": {
+       "accept": [
+        "watches"
+       ],
+       "hint": "watch → watches."
+      }
+     }
+    },
+    {
+     "id": "B07.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Does she works here?"
+      },
+      {
+       "id": "b",
+       "text": "Does she work here?"
+      },
+      {
+       "id": "c",
+       "text": "Do she work here?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "Con does, el verbo va sin -s."
+    },
+    {
+     "id": "B07.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "He don't like coffee."
+      },
+      {
+       "id": "b",
+       "text": "He doesn't like coffee."
+      },
+      {
+       "id": "c",
+       "text": "He doesn't likes coffee."
+      }
+     ],
+     "answer": "b",
+     "explanation": "he → doesn't + verbo base."
+    },
+    {
+     "id": "B07.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre la rutina de otra persona (She gets up…, He doesn't…, Does she…?).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "doesn't",
+        "does",
+        "works",
+        "lives",
+        "gets"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B07.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: La rutina de Linda",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B07.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La rutina de Linda: escucha sin leer y responde.",
+     "audio": {
+      "text": "Linda gets up at six. She doesn't have breakfast at home; she has a coffee on the way. She drives to the university and starts work at eight. She works in the international office. In the evening, she cooks dinner and reads. Robert doesn't cook, but he washes the dishes.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Linda gets up at six. She doesn't have breakfast at home; she has a coffee on the way. She drives to the university and starts work at eight. She works in the international office. In the evening, she cooks dinner and reads. Robert doesn't cook, but he washes the dishes.",
+     "translation_es": "Linda se levanta a las seis. No toma desayuno en casa: toma un café en el camino. Maneja a la universidad y empieza a trabajar a las ocho. Trabaja en la oficina internacional. En la tarde-noche cocina la cena y lee. Robert no cocina, pero lava la loza.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Dónde toma desayuno Linda?",
+       "label": "¿Dónde toma desayuno Linda?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En casa"
+        },
+        {
+         "id": "b",
+         "text": "En el camino, solo un café"
+        },
+        {
+         "id": "c",
+         "text": "En la oficina"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cómo va al trabajo?",
+       "label": "¿Cómo va al trabajo?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En bus"
+        },
+        {
+         "id": "b",
+         "text": "Caminando"
+        },
+        {
+         "id": "c",
+         "text": "Manejando"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué hace Robert después de la cena?",
+       "label": "¿Qué hace Robert después de la cena?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Cocina"
+        },
+        {
+         "id": "b",
+         "text": "Lava la loza"
+        },
+        {
+         "id": "c",
+         "text": "Lee"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«he washes the dishes»."
+      }
+     ]
+    },
+    {
+     "id": "B07.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "She drives to the university and starts work at eight.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "She drives to the university and starts work at eight."
+    }
+   ]
+  },
+  {
+   "id": "B07.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Two different days",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B07-RR"
+   ],
+   "activities": [
+    {
+     "id": "B07.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo va Mike al trabajo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En metro"
+      },
+      {
+       "id": "b",
+       "text": "Caminando"
+      },
+      {
+       "id": "c",
+       "text": "En auto"
+      }
+     ],
+     "answer": "a",
+     "explanation": "«takes the subway»."
+    },
+    {
+     "id": "B07.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué Mike come en restaurantes?",
+     "options": [
+      {
+       "id": "a",
+       "text": "No le gusta cocinar"
+      },
+      {
+       "id": "b",
+       "text": "Trabaja de noche"
+      },
+      {
+       "id": "c",
+       "text": "Vive solo"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B07.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué le gusta a Emma?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Manejar"
+      },
+      {
+       "id": "b",
+       "text": "Cocinar"
+      },
+      {
+       "id": "c",
+       "text": "Ver televisión"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B07.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B07.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Mike and Emma are brother and sister, but their days are very different. Mike lives in New York.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Mike and Emma are brother and sister, but their days are very different.",
+       "Mike lives in New York."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B07.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en 30–60 s el día de alguien de tu familia: He/She gets up at…, works…, doesn't…",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "live",
+        "work",
+        "study",
+        "watch",
+        "read",
+        "cook",
+        "drive",
+        "walk",
+        "take",
+        "like",
+        "need",
+        "want"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B07.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B07.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 30–60 palabras comparando tu rutina con la de otra persona (I… but my wife/brother…).",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "live",
+        "work",
+        "study",
+        "watch",
+        "read",
+        "cook",
+        "drive",
+        "walk",
+        "take",
+        "like",
+        "need",
+        "want"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "doesn't",
+        "does",
+        "works",
+        "lives",
+        "gets"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

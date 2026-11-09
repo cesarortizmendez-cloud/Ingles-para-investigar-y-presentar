@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Repaso{% endblock %}
+{% block content %}
+<h1>Repaso de hoy</h1>
+<p class="muted">Recupera antes de mirar la respuesta. Intervalos provisionales: 1, 3, 7, 14 y 30 días. Acertar con pista no avanza el intervalo.</p>
+{% if moved %}<p class="notice">Había más repasos vencidos que el tope diario: {{ moved }} se redistribuyeron en los próximos días para no acumular deuda.</p>{% endif %}
+
+{% for card in cards %}
+  {% if card.kind == "lexis" %}
+  <article class="activity" id="rev-{{ card.item.pk }}">
+    <header class="activity-head"><span class="tag">expresión</span><span class="muted small">{{ card.origin }}</span></header>
+    <p class="prompt">Quieres decir: <strong>{{ card.entry.meaning_es }}</strong></p>
+    <p lang="en">{{ card.gapped }}</p>
+    <form method="post" action="{% url 'review_lexis' card.item.pk %}" class="activity-form">
+      {% csrf_token %}
+      <input type="hidden" name="helped" value="0" data-helped>
+      <input type="text" name="text" class="wide" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" required aria-label="Expresión">
+      <details class="help" data-lexis-hint><summary>Pista (cuenta como ayuda)</summary>Empieza por «{{ card.entry.form|slice:":3" }}…»</details>
+      <button type="submit">Comprobar</button>
+    </form>
+  </article>
+  {% else %}
+    {% include "activities/_activity.html" with vm=card.vm %}
+  {% endif %}
+{% empty %}
+  <section class="card">
+    <p><strong>No hay repasos para hoy.</strong>{% if next_due %} El próximo es el {{ next_due.date|date:"l d \d\e F" }} ({{ next_due.n }} ítem{{ next_due.n|pluralize }}).{% endif %}</p>
+    {% if focus %}<p><a class="button green" href="{{ focus.today_url }}">Seguir con el día {{ focus.today_n }} · {{ focus.short }} →</a></p>
+    {% else %}<p><a class="button green" href="{% url 'catalog' %}">Elegir un plan para comenzar →</a></p>{% endif %}
+  </section>
+{% endfor %}
+{% if cards and focus %}<p class="center"><a class="button ghost" href="{{ focus.today_url }}">Terminé el repaso: ir al día {{ focus.today_n }} · {{ focus.short }} →</a></p>{% endif %}
+{% endblock %}

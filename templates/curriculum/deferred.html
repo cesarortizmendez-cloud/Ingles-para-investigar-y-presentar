@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Confirmación diferida · {{ data.id }}{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{% url 'chapter' data.id %}">{{ data.id }} · {{ data.title }}</a></p>
+<h1>Confirmación diferida</h1>
+<p class="lead">Un caso nuevo con cifras diferentes y la misma necesidad comunicativa. Cuenta el primer intento de cada ítem; se requiere 75 %.
+Si no se alcanza, se activa una recuperación específica: no se borra tu historial.</p>
+{% for r in deferred_resources %}{% include "curriculum/_resource.html" with r=r %}{% endfor %}
+{% for vm in activities %}{% include "activities/_activity.html" with vm=vm %}{% endfor %}
+<p><a href="{% url 'chapter' data.id %}">Volver al capítulo</a></p>
+{% endblock %}

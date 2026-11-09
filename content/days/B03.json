@@ -1,0 +1,921 @@
+{
+ "id": "B03",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Países, nacionalidades e idiomas",
+ "day": 3,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas de países, nacionalidades e idiomas, y aprendes a usar a/an, los plurales y this/that/these/those.",
+ "objectives": [
+  {
+   "id": "B03-O1",
+   "text": "Decir de dónde eres y qué idiomas hablas."
+  },
+  {
+   "id": "B03-O2",
+   "text": "Usar a/an, plurales y this/that/these/those."
+  },
+  {
+   "id": "B03-O3",
+   "text": "Entender a varias personas que se presentan en una clase."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B03-LX01",
+    "form": "country",
+    "meaning_es": "país",
+    "example": "Chile is a long country.",
+    "example_es": "Chile es un país largo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX02",
+    "form": "city",
+    "meaning_es": "ciudad",
+    "example": "Boston is an old city.",
+    "example_es": "Boston es una ciudad antigua.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX03",
+    "form": "Chilean",
+    "meaning_es": "chileno/a",
+    "example": "Tomás is Chilean.",
+    "example_es": "Tomás es chileno.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX04",
+    "form": "American",
+    "meaning_es": "estadounidense",
+    "example": "Linda is American.",
+    "example_es": "Linda es estadounidense.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX05",
+    "form": "speak",
+    "meaning_es": "hablar (un idioma)",
+    "example": "I speak Spanish and a little English.",
+    "example_es": "Hablo español y un poco de inglés.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX06",
+    "form": "language",
+    "meaning_es": "idioma",
+    "example": "English is an important language.",
+    "example_es": "El inglés es un idioma importante.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX07",
+    "form": "Spanish",
+    "meaning_es": "español (idioma)",
+    "example": "Do you understand Spanish?",
+    "example_es": "¿Entiendes español?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX08",
+    "form": "English",
+    "meaning_es": "inglés (idioma)",
+    "example": "This is my English book.",
+    "example_es": "Este es mi libro de inglés.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX09",
+    "form": "from",
+    "meaning_es": "de (origen)",
+    "example": "Where are you from?",
+    "example_es": "¿De dónde eres?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX10",
+    "form": "world",
+    "meaning_es": "mundo",
+    "example": "These students are from all over the world.",
+    "example_es": "Estos estudiantes son de todo el mundo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX11",
+    "form": "map",
+    "meaning_es": "mapa",
+    "example": "This map shows the city.",
+    "example_es": "Este mapa muestra la ciudad.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B03-LX12",
+    "form": "capital",
+    "meaning_es": "capital",
+    "example": "Santiago is the capital of Chile.",
+    "example_es": "Santiago es la capital de Chile.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B03-G1",
+    "topic": "a/an, plurales y this/that/these/those"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B03-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "country",
+     "meaning_es": "país",
+     "example": "Chile is a long country.",
+     "example_es": "Chile es un país largo."
+    },
+    {
+     "form": "city",
+     "meaning_es": "ciudad",
+     "example": "Boston is an old city.",
+     "example_es": "Boston es una ciudad antigua."
+    },
+    {
+     "form": "Chilean",
+     "meaning_es": "chileno/a",
+     "example": "Tomás is Chilean.",
+     "example_es": "Tomás es chileno."
+    },
+    {
+     "form": "American",
+     "meaning_es": "estadounidense",
+     "example": "Linda is American.",
+     "example_es": "Linda es estadounidense."
+    },
+    {
+     "form": "speak",
+     "meaning_es": "hablar (un idioma)",
+     "example": "I speak Spanish and a little English.",
+     "example_es": "Hablo español y un poco de inglés."
+    },
+    {
+     "form": "language",
+     "meaning_es": "idioma",
+     "example": "English is an important language.",
+     "example_es": "El inglés es un idioma importante."
+    },
+    {
+     "form": "Spanish",
+     "meaning_es": "español (idioma)",
+     "example": "Do you understand Spanish?",
+     "example_es": "¿Entiendes español?"
+    },
+    {
+     "form": "English",
+     "meaning_es": "inglés (idioma)",
+     "example": "This is my English book.",
+     "example_es": "Este es mi libro de inglés."
+    },
+    {
+     "form": "from",
+     "meaning_es": "de (origen)",
+     "example": "Where are you from?",
+     "example_es": "¿De dónde eres?"
+    },
+    {
+     "form": "world",
+     "meaning_es": "mundo",
+     "example": "These students are from all over the world.",
+     "example_es": "Estos estudiantes son de todo el mundo."
+    },
+    {
+     "form": "map",
+     "meaning_es": "mapa",
+     "example": "This map shows the city.",
+     "example_es": "Este mapa muestra la ciudad."
+    },
+    {
+     "form": "capital",
+     "meaning_es": "capital",
+     "example": "Santiago is the capital of Chile.",
+     "example_es": "Santiago es la capital de Chile."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B03-RG",
+   "type": "capsule",
+   "title": "a/an, plurales y this/that/these/those",
+   "explain": "a / an = un, una (solo con una cosa): a city, an engineer. «an» va antes de sonido vocal: an English class, an hour.\nPlural: normalmente + s (maps); + es después de s, sh, ch, x (classes); consonante + y → ies (city → cities). Irregulares frecuentes: man → men, woman → women, person → people, child → children.\nthis (este/esta, cerca) · that (ese/aquel, lejos) · these (estos, cerca) · those (esos, lejos).\nLos adjetivos no tienen plural: two American students (no «Americans students»).",
+   "form": [
+    [
+     "a + consonante · an + vocal",
+     "a map · an English class"
+    ],
+    [
+     "+s · +es · y→ies",
+     "maps · classes · cities"
+    ],
+    [
+     "this / these",
+     "este, esta / estos, estas (cerca)"
+    ],
+    [
+     "that / those",
+     "ese, aquel / esos, aquellos (lejos)"
+    ]
+   ],
+   "examples": [
+    [
+     "This is a map of Boston.",
+     "Este es un mapa de Boston."
+    ],
+    [
+     "These people are from Chile.",
+     "Estas personas son de Chile."
+    ],
+    [
+     "That is an old building.",
+     "Ese es un edificio antiguo."
+    ],
+    [
+     "Those cities are very big.",
+     "Esas ciudades son muy grandes."
+    ]
+   ],
+   "tip": "Error típico: «the people is» → correcto: «the people are» (people es plural).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B03-RR",
+   "type": "text",
+   "title": "A class of many countries",
+   "body": "Tomás is in an English class in Boston. The students are from many countries. Two students are from Brazil, one is from Japan, and three are from Mexico. Tomás is the only Chilean. The teacher is American. Her name is Mrs. Brown. In the class, everybody speaks English. On the wall there is a big map of the world.",
+   "translation_es": "Tomás está en una clase de inglés en Boston. Los estudiantes son de muchos países. Dos son de Brasil, uno es de Japón y tres son de México. Tomás es el único chileno. La profesora es estadounidense. Se llama Mrs. Brown. En la clase todos hablan inglés. En la pared hay un gran mapa del mundo.",
+   "glossary": [
+    [
+     "only",
+     "único/a, solo"
+    ],
+    [
+     "everybody",
+     "todos"
+    ],
+    [
+     "wall",
+     "pared"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B03.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B03-RV"
+   ],
+   "activities": [
+    {
+     "id": "B03.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Chile is a long [[1]].  (2) I [[2]] Spanish and a little English.  (3) This is my [[3]] book.  (4) Where are you [[4]]?  (5) These students are from all over the [[5]].  (6) This [[6]] shows the city.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "country"
+       ],
+       "hint": "Significa «país»."
+      },
+      "2": {
+       "accept": [
+        "speak"
+       ],
+       "hint": "Significa «hablar (un idioma)»."
+      },
+      "3": {
+       "accept": [
+        "English"
+       ],
+       "hint": "Significa «inglés (idioma)»."
+      },
+      "4": {
+       "accept": [
+        "from"
+       ],
+       "hint": "Significa «de (origen)»."
+      },
+      "5": {
+       "accept": [
+        "world"
+       ],
+       "hint": "Significa «mundo»."
+      },
+      "6": {
+       "accept": [
+        "map"
+       ],
+       "hint": "Significa «mapa»."
+      }
+     }
+    },
+    {
+     "id": "B03.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «chileno/a»",
+     "accept": [
+      "Chilean"
+     ],
+     "hint": "Empieza con «Ch…» · Ejemplo: Tomás es chileno."
+    },
+    {
+     "id": "B03.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «idioma»",
+     "accept": [
+      "language"
+     ],
+     "hint": "Empieza con «la…» · Ejemplo: El inglés es un idioma importante."
+    },
+    {
+     "id": "B03.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «capital»",
+     "accept": [
+      "capital"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: Santiago es la capital de Chile."
+    },
+    {
+     "id": "B03.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «ciudad»",
+     "accept": [
+      "city"
+     ],
+     "hint": "Empieza con «ci…» · Ejemplo: Boston es una ciudad antigua."
+    },
+    {
+     "id": "B03.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «español (idioma)»",
+     "accept": [
+      "Spanish"
+     ],
+     "hint": "Empieza con «Sp…» · Ejemplo: ¿Entiendes español?"
+    },
+    {
+     "id": "B03.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «estadounidense»",
+     "accept": [
+      "American"
+     ],
+     "hint": "Empieza con «Am…» · Ejemplo: Linda es estadounidense."
+    },
+    {
+     "id": "B03.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Tomás is Chilean.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Tomás is Chilean."
+    }
+   ]
+  },
+  {
+   "id": "B03.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: a/an, plurales y this/that/these/those",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B03-RG"
+   ],
+   "activities": [
+    {
+     "id": "B03.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) It is [[1]] English class.  (2) Boston and Chicago are big [[2]].  (3) [[3]] is my phone, here in my hand.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "an"
+       ],
+       "hint": "English empieza con sonido vocal."
+      },
+      "2": {
+       "accept": [
+        "cities"
+       ],
+       "hint": "city → cities."
+      },
+      "3": {
+       "accept": [
+        "this"
+       ],
+       "hint": "Cerca y singular."
+      }
+     }
+    },
+    {
+     "id": "B03.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Look at [[1]] buildings over there.  (2) Two [[2]] are in the room: Tomás and Mark.  (3) [[3]] students here are from Peru.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "those"
+       ],
+       "hint": "Lejos y plural."
+      },
+      "2": {
+       "accept": [
+        "men"
+       ],
+       "hint": "man → men."
+      },
+      "3": {
+       "accept": [
+        "these"
+       ],
+       "hint": "Cerca y plural."
+      }
+     }
+    },
+    {
+     "id": "B03.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "They are Americans engineers."
+      },
+      {
+       "id": "b",
+       "text": "They are American engineers."
+      },
+      {
+       "id": "c",
+       "text": "They are American engineer."
+      }
+     ],
+     "answer": "b",
+     "explanation": "El adjetivo no lleva -s; el sustantivo sí."
+    },
+    {
+     "id": "B03.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "These people is from Chile."
+      },
+      {
+       "id": "b",
+       "text": "These people are from Chile."
+      },
+      {
+       "id": "c",
+       "text": "This people are from Chile."
+      }
+     ],
+     "answer": "b",
+     "explanation": "people es plural: these … are."
+    },
+    {
+     "id": "B03.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones con this / that / these / those sobre cosas que ves ahora (This is a…, Those are…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "this",
+        "that",
+        "these",
+        "those"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B03.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Estudiantes de todo el mundo",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B03.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Estudiantes de todo el mundo: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hi, I am Mei. I am from China. I speak Chinese and English. This is Carlos. He is from Mexico. He speaks Spanish. And those two people are Anna and Paul. They are from Germany. We are all students in the same English class.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hi, I am Mei. I am from China. I speak Chinese and English. This is Carlos. He is from Mexico. He speaks Spanish. And those two people are Anna and Paul. They are from Germany. We are all students in the same English class.",
+     "translation_es": "Hola, soy Mei. Soy de China. Hablo chino e inglés. Él es Carlos. Es de México. Habla español. Y esas dos personas son Anna y Paul. Son de Alemania. Todos somos estudiantes de la misma clase de inglés.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿De dónde es Mei?",
+       "label": "¿De dónde es Mei?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Japón"
+        },
+        {
+         "id": "b",
+         "text": "China"
+        },
+        {
+         "id": "c",
+         "text": "Corea"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué idioma habla Carlos?",
+       "label": "¿Qué idioma habla Carlos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Inglés"
+        },
+        {
+         "id": "b",
+         "text": "Alemán"
+        },
+        {
+         "id": "c",
+         "text": "Español"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿De dónde son Anna y Paul?",
+       "label": "¿De dónde son Anna y Paul?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Alemania"
+        },
+        {
+         "id": "b",
+         "text": "Francia"
+        },
+        {
+         "id": "c",
+         "text": "Estados Unidos"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "B03.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "We are all students in the same English class.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "We are all students in the same English class."
+    }
+   ]
+  },
+  {
+   "id": "B03.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A class of many countries",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B03-RR"
+   ],
+   "activities": [
+    {
+     "id": "B03.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántos estudiantes son de México?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Uno"
+      },
+      {
+       "id": "b",
+       "text": "Dos"
+      },
+      {
+       "id": "c",
+       "text": "Tres"
+      }
+     ],
+     "answer": "c"
+    },
+    {
+     "id": "B03.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿De dónde es la profesora?",
+     "options": [
+      {
+       "id": "a",
+       "text": "De Estados Unidos"
+      },
+      {
+       "id": "b",
+       "text": "De Chile"
+      },
+      {
+       "id": "c",
+       "text": "De Japón"
+      }
+     ],
+     "answer": "a",
+     "explanation": "«The teacher is American»."
+    },
+    {
+     "id": "B03.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hay en la pared?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un reloj"
+      },
+      {
+       "id": "b",
+       "text": "Un mapa del mundo"
+      },
+      {
+       "id": "c",
+       "text": "Una bandera"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B03.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B03.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Tomás is in an English class in Boston. The students are from many countries.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Tomás is in an English class in Boston.",
+       "The students are from many countries."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B03.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Habla 20–40 s sobre ti y tu país: Where are you from? What languages do you speak? What is the capital of your country?",
+     "min_seconds": 20,
+     "max_seconds": 60,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "country",
+        "city",
+        "Chilean",
+        "American",
+        "speak",
+        "language",
+        "Spanish",
+        "English",
+        "from",
+        "world",
+        "map",
+        "capital"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B03.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B03.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 20–50 palabras sobre las personas de tu trabajo o de un curso: de dónde son y qué idiomas hablan.",
+     "min_words": 20,
+     "max_words": 60,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "country",
+        "city",
+        "Chilean",
+        "American",
+        "speak",
+        "language",
+        "Spanish",
+        "English",
+        "from",
+        "world",
+        "map",
+        "capital"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "this",
+        "that",
+        "these",
+        "those"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Rúbrica · {{ act.id }}{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ back_url }}">← Volver a la actividad</a></p>
+<h1>Rúbrica: {{ rubric_title }}</h1>
+<p class="prompt">{{ act.prompt }}</p>
+<p class="small muted">Intento n.º {{ attempt.attempt_number }} · {{ attempt.created_at|date:"d-m-Y H:i" }} ·
+  {% if attempt.helps %}ayudas: {{ attempt.helps|join:", " }}{% else %}sin ayudas registradas{% endif %}</p>
+
+{% if is_owner %}
+<p class="notice">Estás haciendo una <strong>autoevaluación</strong>. Es útil para aprender, pero tiene confianza baja: se recomienda revisión humana periódica,
+especialmente de voz e interacción. La evaluación automática no está calibrada y no se usa para aprobar.</p>
+{% else %}
+<p class="notice">Evaluación <strong>humana</strong> (usuario con rol de evaluador).</p>
+{% endif %}
+
+<section class="card">
+  <h2>Evidencia</h2>
+  {% for r in recordings %}
+    <p><audio controls preload="none" src="{% url 'recording_stream' r.id %}"></audio>{% if r.duration_s %} {{ r.duration_s|floatformat:0 }} s{% endif %}</p>
+    {% if r.transcript %}<p class="small"><strong>Transcripción (ASR/editada):</strong> <span lang="en">{{ r.transcript }}</span></p>{% endif %}
+  {% empty %}
+    {% if attempt.response.text %}<blockquote lang="en" class="source-text">{{ attempt.response.text|linebreaksbr }}</blockquote>
+    {% else %}<p class="muted">Sin grabación ni texto asociados.</p>{% endif %}
+  {% endfor %}
+  {% if attempt.feedback %}<h3 class="small">Comentario orientativo por reglas</h3><ul class="feedback small">{% for f in attempt.feedback %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+</section>
+
+<form method="post" class="form rubric">
+  {% csrf_token %}
+  <div class="table-wrap"><table class="table">
+    <thead><tr><th>Criterio</th><th>Peso</th>{% for score, label in anchors %}<th title="{{ label }}">{{ score }}</th>{% endfor %}</tr></thead>
+    <tbody>
+      {% for c in criteria %}
+      <tr>
+        <th scope="row">{{ c.name }}{% if c.essential %} <span class="tag">esencial</span>{% endif %}</th>
+        <td>{{ c.weight }} %</td>
+        {% for score, label in anchors %}
+          <td><label><input type="radio" name="c_{{ c.id }}" value="{{ score }}" required><span class="sr-only">{{ c.name }}: {{ score }} — {{ label }}</span></label></td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table></div>
+  <ul class="anchors small">{% for score, label in anchors %}<li><strong>{{ score }}</strong> = {{ label }}</li>{% endfor %}</ul>
+  <p class="small muted">Total = suma de peso × puntuación / 4. Regla de tarea: ≥ 70/100 y ningún criterio esencial bajo 2/4. El acento chileno no es un error por sí mismo: evalúa inteligibilidad.</p>
+  <label class="block">Dos o tres prioridades para el próximo intento
+    <textarea name="notes" rows="3"></textarea></label>
+  <button type="submit">Guardar evaluación</button>
+</form>
+
+{% if previous %}
+<h2>Evaluaciones anteriores de este intento</h2>
+<ul>{% for p in previous %}<li>{{ p.created_at|date:"d-m H:i" }} · {{ p.get_rater_kind_display }} · {{ p.total|floatformat:0 }}/100 · {% if p.passed %}cumple{% else %}no cumple{% endif %}{% if p.notes %} — {{ p.notes }}{% endif %}</li>{% endfor %}</ul>
+{% endif %}
+{% endblock %}

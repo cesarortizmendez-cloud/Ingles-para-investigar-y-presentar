@@ -1,0 +1,873 @@
+{
+ "id": "B20",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Prueba de salida: listo para el plan de 40 días",
+ "day": 20,
+ "week": 4,
+ "day_type": "final",
+ "intro": "Último día del plan base: repaso mixto de lo más importante, una presentación final y preguntas como en una conversación real. Al terminar, pasas al plan de 40 días.",
+ "objectives": [
+  {
+   "id": "B20-O1",
+   "text": "Usar en una presentación de 1–2 minutos lo esencial: presente, pasado y futuro."
+  },
+  {
+   "id": "B20-O2",
+   "text": "Responder preguntas simples sobre ti, pidiendo que repitan si no entiendes."
+  },
+  {
+   "id": "B20-O3",
+   "text": "Confirmar que estás listo/a para comenzar el plan de 40 días."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B20-RR",
+   "type": "text",
+   "title": "Back home",
+   "body": "Tomás is back in Concepción. His trip was a great experience. He went to many places, he met people from all over the world, and he used English every day. Now he understands simple conversations and he can ask questions without fear. His next goal is to read articles and present his work in English. Next Monday he is going to start a forty-day plan with his colleague Ana Rojas.",
+   "translation_es": "Tomás está de vuelta en Concepción. Su viaje fue una gran experiencia. Fue a muchos lugares, conoció gente de todo el mundo y usó el inglés todos los días. Ahora entiende conversaciones simples y puede hacer preguntas sin miedo. Su próxima meta es leer artículos y presentar su trabajo en inglés. El próximo lunes va a empezar un plan de cuarenta días con su colega Ana Rojas.",
+   "glossary": [
+    [
+     "experience",
+     "experiencia"
+    ],
+    [
+     "without fear",
+     "sin miedo"
+    ],
+    [
+     "goal",
+     "meta"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B20.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "B20.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) [[1]] we were in New York.  (2) [[2]] is your English teacher?  (3) I [[3]] reading on the weekend.  (4) What time do we [[4]] in Miami?  (5) My hotel is [[5]] the station.  (6) [[6]] I will help you.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "last week"
+       ],
+       "hint": "Significa «la semana pasada»."
+      },
+      "2": {
+       "accept": [
+        "who"
+       ],
+       "hint": "Significa «quién»."
+      },
+      "3": {
+       "accept": [
+        "enjoy"
+       ],
+       "hint": "Significa «disfrutar»."
+      },
+      "4": {
+       "accept": [
+        "arrive"
+       ],
+       "hint": "Significa «llegar»."
+      },
+      "5": {
+       "accept": [
+        "near"
+       ],
+       "hint": "Significa «cerca de»."
+      },
+      "6": {
+       "accept": [
+        "of course"
+       ],
+       "hint": "Significa «claro, por supuesto»."
+      }
+     }
+    },
+    {
+     "id": "B20.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «lluvioso»",
+     "accept": [
+      "rainy"
+     ],
+     "hint": "Ejemplo: Concepción es lluviosa en invierno."
+    },
+    {
+     "id": "B20.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tren»",
+     "accept": [
+      "train"
+     ],
+     "hint": "Ejemplo: El tren es muy rápido."
+    },
+    {
+     "id": "B20.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «pasaporte»",
+     "accept": [
+      "passport"
+     ],
+     "hint": "Ejemplo: ¿Puedo ver su pasaporte, por favor?"
+    },
+    {
+     "id": "B20.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «farmacia»",
+     "accept": [
+      "pharmacy"
+     ],
+     "hint": "Ejemplo: La farmacia está abierta hasta las diez."
+    },
+    {
+     "id": "B20.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «vi, vio (pasado de see)»",
+     "accept": [
+      "saw"
+     ],
+     "hint": "Ejemplo: Anoche vi una película muy buena."
+    },
+    {
+     "id": "B20.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cansado/a»",
+     "accept": [
+      "tired"
+     ],
+     "hint": "Ejemplo: ¿Estabas cansado después del viaje?"
+    }
+   ]
+  },
+  {
+   "id": "B20.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B20.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) Would you like [[1]] coffee?  (2) We [[2]] go to the cinema, maybe once a month. (a veces)  (3) There [[3]] any taxis at night.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "some"
+       ],
+       "hint": "Ofrecimiento → some."
+      },
+      "2": {
+       "accept": [
+        "sometimes"
+       ],
+       "hint": "a veces → sometimes."
+      },
+      "3": {
+       "accept": [
+        "aren't",
+        "are not"
+       ],
+       "hint": "Negativo plural."
+      }
+     }
+    },
+    {
+     "id": "B20.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) How much [[1]] these shoes?  (2) Look! The plane is [[2]] now. (arrive)  (3) Would you like a coffee? Yes, [[3]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are"
+       ],
+       "hint": "these shoes es plural → are."
+      },
+      "2": {
+       "accept": [
+        "arriving"
+       ],
+       "hint": "arrive → arriving (se va la e)."
+      },
+      "3": {
+       "accept": [
+        "please"
+       ],
+       "hint": "Aceptar: Yes, please."
+      }
+     }
+    },
+    {
+     "id": "B20.2.a3",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) There [[1]] many people at the station.  (2) They [[2]] Chile in 2019. (visit)  (3) [[3]] go to the cinema tonight! (invitación: vamos)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "were"
+       ],
+       "hint": "Plural → there were."
+      },
+      "2": {
+       "accept": [
+        "visited"
+       ],
+       "hint": "Regular: + ed."
+      },
+      "3": {
+       "accept": [
+        "let's",
+        "let us"
+       ],
+       "hint": "Let's + verbo."
+      }
+     }
+    },
+    {
+     "id": "B20.2.a4",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) How [[1]] do you go to the gym? Twice a week.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "often"
+       ],
+       "hint": "Frecuencia → how often."
+      }
+     }
+    },
+    {
+     "id": "B20.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I don't have some money."
+      },
+      {
+       "id": "b",
+       "text": "I don't have any money."
+      },
+      {
+       "id": "c",
+       "text": "I don't have a money."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Negativo → any; money es incontable."
+    },
+    {
+     "id": "B20.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I love cook."
+      },
+      {
+       "id": "b",
+       "text": "I love cooking."
+      },
+      {
+       "id": "c",
+       "text": "I love to cooking."
+      }
+     ],
+     "answer": "b",
+     "explanation": "love + -ing (o love to cook)."
+    },
+    {
+     "id": "B20.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "There is two hotels."
+      },
+      {
+       "id": "b",
+       "text": "There are two hotels."
+      },
+      {
+       "id": "c",
+       "text": "It has two hotels."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Plural → there are."
+    },
+    {
+     "id": "B20.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Para preguntar por una cantidad de manzanas:",
+     "options": [
+      {
+       "id": "a",
+       "text": "How much apples?"
+      },
+      {
+       "id": "b",
+       "text": "How many apples?"
+      },
+      {
+       "id": "c",
+       "text": "How many apple?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "apples es contable → how many."
+    },
+    {
+     "id": "B20.2.a9",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál describe algo de ESTE momento?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She works at the airport."
+      },
+      {
+       "id": "b",
+       "text": "She is working at the airport now."
+      },
+      {
+       "id": "c",
+       "text": "She work at the airport."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B20.2.a10",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Could you to repeat?"
+      },
+      {
+       "id": "b",
+       "text": "Could you repeat that, please?"
+      },
+      {
+       "id": "c",
+       "text": "Could you repeating?"
+      }
+     ],
+     "answer": "b",
+     "explanation": "could + verbo base."
+    },
+    {
+     "id": "B20.2.a11",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We was busy."
+      },
+      {
+       "id": "b",
+       "text": "We were busy."
+      },
+      {
+       "id": "c",
+       "text": "We are busy yesterday."
+      }
+     ],
+     "answer": "b",
+     "explanation": "we → were."
+    },
+    {
+     "id": "B20.2.a12",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "El pasado de «buy» es:",
+     "options": [
+      {
+       "id": "a",
+       "text": "buyed"
+      },
+      {
+       "id": "b",
+       "text": "bought"
+      },
+      {
+       "id": "c",
+       "text": "boughted"
+      }
+     ],
+     "answer": "b",
+     "explanation": "Es irregular."
+    },
+    {
+     "id": "B20.2.a13",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Para aceptar una invitación:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I'd love to!"
+      },
+      {
+       "id": "b",
+       "text": "I love."
+      },
+      {
+       "id": "c",
+       "text": "I would love."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B20.2.a14",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "What did you do yesterday?"
+      },
+      {
+       "id": "b",
+       "text": "What you did yesterday?"
+      },
+      {
+       "id": "c",
+       "text": "What did you did yesterday?"
+      }
+     ],
+     "answer": "a",
+     "explanation": "did + verbo base."
+    }
+   ]
+  },
+  {
+   "id": "B20.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Bienvenida al plan de 40 días",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B20.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Bienvenida al plan de 40 días: escucha sin leer y responde.",
+     "audio": {
+      "text": "Welcome to the course. My name is Ana Rojas. I am a researcher at a university in Chillán. In the next forty days, you are going to read, listen and speak about research. Every day there are six short blocks. Don't worry if you don't understand everything. Listen, repeat and come back tomorrow. You will be surprised!",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Welcome to the course. My name is Ana Rojas. I am a researcher at a university in Chillán. In the next forty days, you are going to read, listen and speak about research. Every day there are six short blocks. Don't worry if you don't understand everything. Listen, repeat and come back tomorrow. You will be surprised!",
+     "translation_es": "Bienvenidos al curso. Me llamo Ana Rojas. Soy investigadora en una universidad de Chillán. En los próximos cuarenta días van a leer, escuchar y hablar sobre investigación. Cada día hay seis bloques cortos. No se preocupen si no entienden todo. Escuchen, repitan y vuelvan mañana. ¡Se van a sorprender!",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Quién habla?",
+       "label": "¿Quién habla?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Linda Carter"
+        },
+        {
+         "id": "b",
+         "text": "Ana Rojas"
+        },
+        {
+         "id": "c",
+         "text": "Mrs. Brown"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuántos días dura el plan siguiente?",
+       "label": "¿Cuántos días dura el plan siguiente?",
+       "options": [
+        {
+         "id": "a",
+         "text": "20"
+        },
+        {
+         "id": "b",
+         "text": "30"
+        },
+        {
+         "id": "c",
+         "text": "40"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué consejo da?",
+       "label": "¿Qué consejo da?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Entender todo antes de seguir"
+        },
+        {
+         "id": "b",
+         "text": "Escuchar, repetir y volver mañana"
+        },
+        {
+         "id": "c",
+         "text": "Usar el traductor"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B20.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Every day there are six short blocks.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Every day there are six short blocks."
+    }
+   ]
+  },
+  {
+   "id": "B20.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Back home",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B20-RR"
+   ],
+   "activities": [
+    {
+     "id": "B20.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde está Tomás ahora?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En Boston"
+      },
+      {
+       "id": "b",
+       "text": "En Concepción"
+      },
+      {
+       "id": "c",
+       "text": "En Nueva York"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B20.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué puede hacer ahora?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Hacer preguntas sin miedo"
+      },
+      {
+       "id": "b",
+       "text": "Escribir libros"
+      },
+      {
+       "id": "c",
+       "text": "Dar clases de inglés"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B20.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es su próxima meta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Viajar a Japón"
+      },
+      {
+       "id": "b",
+       "text": "Leer artículos y presentar su trabajo en inglés"
+      },
+      {
+       "id": "c",
+       "text": "Aprender francés"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B20.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B20.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Tomás is back in Concepción. His trip was a great experience.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Tomás is back in Concepción.",
+       "His trip was a great experience."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B20.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Presentación final (60–120 s): preséntate, describe tu rutina, cuenta un viaje o un fin de semana pasado y di qué vas a hacer en el plan de 40 días.",
+     "min_seconds": 60,
+     "max_seconds": 150,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "last week",
+        "who",
+        "enjoy",
+        "arrive",
+        "near",
+        "of course",
+        "rainy",
+        "train",
+        "passport",
+        "pharmacy",
+        "saw",
+        "tired",
+        "got",
+        "interesting",
+        "rice",
+        "corner",
+        "help",
+        "go straight",
+        "check in",
+        "doctor",
+        "station",
+        "pay",
+        "called",
+        "plan"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    },
+    {
+     "id": "B20.5.a3",
+     "type": "oral",
+     "role": "practice",
+     "skill": "interaction",
+     "rubric": "interaction",
+     "prompt": "Preguntas del público: responde cada una en 30–60 segundos. Si no entiendes, pide aclaración (Could you repeat the question, please?).",
+     "model": {
+      "text": "Where are you from, and what do you do?",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "follow_ups": [
+      "Why are you learning English?",
+      "What did you do last weekend?",
+      "What are you going to do next week?"
+     ],
+     "min_seconds": 30,
+     "max_seconds": 120,
+     "checks": []
+    }
+   ]
+  },
+  {
+   "id": "B20.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B20.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 60–100 palabras: quién eres, qué hiciste en estos 20 días y qué vas a hacer en el plan de 40 días.",
+     "min_words": 50,
+     "max_words": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "last week",
+        "who",
+        "enjoy",
+        "arrive",
+        "near",
+        "of course",
+        "rainy",
+        "train",
+        "passport",
+        "pharmacy",
+        "saw",
+        "tired",
+        "got",
+        "interesting",
+        "rice",
+        "corner",
+        "help",
+        "go straight",
+        "check in",
+        "doctor",
+        "station",
+        "pay",
+        "called",
+        "plan"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

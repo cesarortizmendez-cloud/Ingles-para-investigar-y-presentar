@@ -1,0 +1,916 @@
+{
+ "id": "B16",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Ayer y el fin de semana: was / were",
+ "day": 16,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy empiezas a hablar del pasado con el verbo «to be»: was / were. Dices dónde estabas, cómo fue algo y dónde naciste.",
+ "objectives": [
+  {
+   "id": "B16-O1",
+   "text": "Usar was / were en afirmativo, negativo y preguntas."
+  },
+  {
+   "id": "B16-O2",
+   "text": "Decir dónde y cuándo naciste (I was born in…)."
+  },
+  {
+   "id": "B16-O3",
+   "text": "Usar expresiones de pasado: yesterday, last week, two days ago."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B16-LX01",
+    "form": "yesterday",
+    "meaning_es": "ayer",
+    "example": "Yesterday was a long day.",
+    "example_es": "Ayer fue un día largo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX02",
+    "form": "last night",
+    "meaning_es": "anoche",
+    "example": "Last night I was very tired.",
+    "example_es": "Anoche estaba muy cansado.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX03",
+    "form": "last week",
+    "meaning_es": "la semana pasada",
+    "example": "Last week we were in New York.",
+    "example_es": "La semana pasada estuvimos en Nueva York.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX04",
+    "form": "ago",
+    "meaning_es": "hace (tiempo)",
+    "example": "I was in Chile two weeks ago.",
+    "example_es": "Estaba en Chile hace dos semanas.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX05",
+    "form": "born",
+    "meaning_es": "nacido",
+    "example": "I was born in 1984.",
+    "example_es": "Nací en 1984.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX06",
+    "form": "tired",
+    "meaning_es": "cansado/a",
+    "example": "Were you tired after the trip?",
+    "example_es": "¿Estabas cansado después del viaje?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX07",
+    "form": "busy",
+    "meaning_es": "ocupado/a",
+    "example": "Linda was busy all day.",
+    "example_es": "Linda estuvo ocupada todo el día.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX08",
+    "form": "at home",
+    "meaning_es": "en casa",
+    "example": "We were at home on Sunday.",
+    "example_es": "Estuvimos en casa el domingo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX09",
+    "form": "interesting",
+    "meaning_es": "interesante",
+    "example": "The museum was very interesting.",
+    "example_es": "El museo era muy interesante.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX10",
+    "form": "boring",
+    "meaning_es": "aburrido/a",
+    "example": "The film was boring.",
+    "example_es": "La película era aburrida.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX11",
+    "form": "trip",
+    "meaning_es": "viaje",
+    "example": "How was your trip?",
+    "example_es": "¿Cómo estuvo tu viaje?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B16-LX12",
+    "form": "party",
+    "meaning_es": "fiesta",
+    "example": "There was a party at the university.",
+    "example_es": "Hubo una fiesta en la universidad.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B16-G1",
+    "topic": "El pasado de to be: was / were"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B16-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "yesterday",
+     "meaning_es": "ayer",
+     "example": "Yesterday was a long day.",
+     "example_es": "Ayer fue un día largo."
+    },
+    {
+     "form": "last night",
+     "meaning_es": "anoche",
+     "example": "Last night I was very tired.",
+     "example_es": "Anoche estaba muy cansado."
+    },
+    {
+     "form": "last week",
+     "meaning_es": "la semana pasada",
+     "example": "Last week we were in New York.",
+     "example_es": "La semana pasada estuvimos en Nueva York."
+    },
+    {
+     "form": "ago",
+     "meaning_es": "hace (tiempo)",
+     "example": "I was in Chile two weeks ago.",
+     "example_es": "Estaba en Chile hace dos semanas."
+    },
+    {
+     "form": "born",
+     "meaning_es": "nacido",
+     "example": "I was born in 1984.",
+     "example_es": "Nací en 1984."
+    },
+    {
+     "form": "tired",
+     "meaning_es": "cansado/a",
+     "example": "Were you tired after the trip?",
+     "example_es": "¿Estabas cansado después del viaje?"
+    },
+    {
+     "form": "busy",
+     "meaning_es": "ocupado/a",
+     "example": "Linda was busy all day.",
+     "example_es": "Linda estuvo ocupada todo el día."
+    },
+    {
+     "form": "at home",
+     "meaning_es": "en casa",
+     "example": "We were at home on Sunday.",
+     "example_es": "Estuvimos en casa el domingo."
+    },
+    {
+     "form": "interesting",
+     "meaning_es": "interesante",
+     "example": "The museum was very interesting.",
+     "example_es": "El museo era muy interesante."
+    },
+    {
+     "form": "boring",
+     "meaning_es": "aburrido/a",
+     "example": "The film was boring.",
+     "example_es": "La película era aburrida."
+    },
+    {
+     "form": "trip",
+     "meaning_es": "viaje",
+     "example": "How was your trip?",
+     "example_es": "¿Cómo estuvo tu viaje?"
+    },
+    {
+     "form": "party",
+     "meaning_es": "fiesta",
+     "example": "There was a party at the university.",
+     "example_es": "Hubo una fiesta en la universidad."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B16-RG",
+   "type": "capsule",
+   "title": "El pasado de to be: was / were",
+   "explain": "Was: I, he, she, it (I was tired). Were: you, we, they (we were at home).\nNegativo: wasn't / weren't. Preguntas: Was it…? Were you…?\nThere was / there were = hubo, había.\nExpresiones de pasado: yesterday, last night, last week, last year, two days ago, in 2010.\nNacer se dice con was / were: I was born in Concepción.",
+   "form": [
+    [
+     "I / he / she / it + was",
+     "I was busy"
+    ],
+    [
+     "you / we / they + were",
+     "They were at home"
+    ],
+    [
+     "wasn't / weren't",
+     "no estaba(n), no fue / fueron"
+    ],
+    [
+     "Was…? / Were…?",
+     "¿Estaba…? / ¿Fue…?"
+    ]
+   ],
+   "examples": [
+    [
+     "I was in New York last week.",
+     "Estuve en Nueva York la semana pasada."
+    ],
+    [
+     "The museum was interesting.",
+     "El museo era interesante."
+    ],
+    [
+     "We weren't at home yesterday.",
+     "Ayer no estábamos en casa."
+    ],
+    [
+     "Where were you born? I was born in Chile.",
+     "¿Dónde naciste? Nací en Chile."
+    ]
+   ],
+   "tip": "Error típico: «I born in 1984» → correcto: «I was born in 1984».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B16-RR",
+   "type": "text",
+   "title": "Tomás's life in short",
+   "body": "Tomás was born in Talca in 1984. His parents were teachers, and his childhood was happy. In 2002 he was a student at a university in Concepción. Life was not easy: there were many exams and he was always busy. Twenty years ago he was a young engineer in a factory. Today he is a teacher and an engineer, and this month he is in Boston.",
+   "translation_es": "Tomás nació en Talca en 1984. Sus padres eran profesores y su infancia fue feliz. En 2002 era estudiante en una universidad de Concepción. La vida no era fácil: había muchos exámenes y siempre estaba ocupado. Hace veinte años era un ingeniero joven en una fábrica. Hoy es profesor e ingeniero, y este mes está en Boston.",
+   "glossary": [
+    [
+     "childhood",
+     "infancia"
+    ],
+    [
+     "exams",
+     "exámenes"
+    ],
+    [
+     "factory",
+     "fábrica"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B16.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B16-RV"
+   ],
+   "activities": [
+    {
+     "id": "B16.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] was a long day.  (2) [[2]] I was very tired.  (3) [[3]] we were in New York.  (4) We were [[4]] on Sunday.  (5) The film was [[5]].  (6) How was your [[6]]?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "yesterday"
+       ],
+       "hint": "Significa «ayer»."
+      },
+      "2": {
+       "accept": [
+        "last night"
+       ],
+       "hint": "Significa «anoche»."
+      },
+      "3": {
+       "accept": [
+        "last week"
+       ],
+       "hint": "Significa «la semana pasada»."
+      },
+      "4": {
+       "accept": [
+        "at home"
+       ],
+       "hint": "Significa «en casa»."
+      },
+      "5": {
+       "accept": [
+        "boring"
+       ],
+       "hint": "Significa «aburrido/a»."
+      },
+      "6": {
+       "accept": [
+        "trip"
+       ],
+       "hint": "Significa «viaje»."
+      }
+     }
+    },
+    {
+     "id": "B16.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «interesante»",
+     "accept": [
+      "interesting"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: El museo era muy interesante."
+    },
+    {
+     "id": "B16.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cansado/a»",
+     "accept": [
+      "tired"
+     ],
+     "hint": "Empieza con «ti…» · Ejemplo: ¿Estabas cansado después del viaje?"
+    },
+    {
+     "id": "B16.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hace (tiempo)»",
+     "accept": [
+      "ago"
+     ],
+     "hint": "Empieza con «ag…» · Ejemplo: Estaba en Chile hace dos semanas."
+    },
+    {
+     "id": "B16.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «ocupado/a»",
+     "accept": [
+      "busy"
+     ],
+     "hint": "Empieza con «bu…» · Ejemplo: Linda estuvo ocupada todo el día."
+    },
+    {
+     "id": "B16.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «fiesta»",
+     "accept": [
+      "party"
+     ],
+     "hint": "Empieza con «pa…» · Ejemplo: Hubo una fiesta en la universidad."
+    },
+    {
+     "id": "B16.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «nacido»",
+     "accept": [
+      "born"
+     ],
+     "hint": "Empieza con «bo…» · Ejemplo: Nací en 1984."
+    },
+    {
+     "id": "B16.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The museum was very interesting.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The museum was very interesting."
+    }
+   ]
+  },
+  {
+   "id": "B16.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: El pasado de to be: was / were",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B16-RG"
+   ],
+   "activities": [
+    {
+     "id": "B16.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] very tired last night.  (2) Mike and Emma [[2]] at the party.  (3) [[3]] you at home yesterday?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "was"
+       ],
+       "hint": "I → was."
+      },
+      "2": {
+       "accept": [
+        "were"
+       ],
+       "hint": "they → were."
+      },
+      "3": {
+       "accept": [
+        "were"
+       ],
+       "hint": "you → Were you…?"
+      }
+     }
+    },
+    {
+     "id": "B16.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The film [[1]] boring. It was great!  (2) I was born in Chile forty years [[2]].  (3) There [[3]] many people at the station.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "wasn't",
+        "was not"
+       ],
+       "hint": "Negativo con it."
+      },
+      "2": {
+       "accept": [
+        "ago"
+       ],
+       "hint": "hace cuarenta años → forty years ago."
+      },
+      "3": {
+       "accept": [
+        "were"
+       ],
+       "hint": "Plural → there were."
+      }
+     }
+    },
+    {
+     "id": "B16.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Nací en Concepción» se dice:",
+     "options": [
+      {
+       "id": "a",
+       "text": "I born in Concepción."
+      },
+      {
+       "id": "b",
+       "text": "I was born in Concepción."
+      },
+      {
+       "id": "c",
+       "text": "I am born in Concepción."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B16.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We was busy."
+      },
+      {
+       "id": "b",
+       "text": "We were busy."
+      },
+      {
+       "id": "c",
+       "text": "We are busy yesterday."
+      }
+     ],
+     "answer": "b",
+     "explanation": "we → were."
+    },
+    {
+     "id": "B16.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre ayer o el fin de semana pasado con was / were (Yesterday I was…, It was…, There were…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "was",
+        "were"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B16.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: ¿Cómo estuvo tu fin de semana?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B16.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Cómo estuvo tu fin de semana?: escucha sin leer y responde.",
+     "audio": {
+      "text": "Hi, Tomás! How was your weekend? It was great, thanks. On Saturday I was in New York with Mike. The city was amazing, but it was very cold. Were the museums interesting? Yes, they were. But on Sunday I was very tired, so I was at home all day. And you? My weekend was boring. I was busy with work.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Hi, Tomás! How was your weekend? It was great, thanks. On Saturday I was in New York with Mike. The city was amazing, but it was very cold. Were the museums interesting? Yes, they were. But on Sunday I was very tired, so I was at home all day. And you? My weekend was boring. I was busy with work.",
+     "translation_es": "¡Hola, Tomás! ¿Cómo estuvo tu fin de semana? Muy bien, gracias. El sábado estuve en Nueva York con Mike. La ciudad era increíble, pero hacía mucho frío. ¿Los museos eran interesantes? Sí. Pero el domingo estaba muy cansado, así que estuve en casa todo el día. ¿Y tú? Mi fin de semana fue aburrido. Estuve ocupada con trabajo.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Con quién estuvo Tomás en Nueva York?",
+       "label": "¿Con quién estuvo Tomás en Nueva York?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Linda"
+        },
+        {
+         "id": "b",
+         "text": "Mike"
+        },
+        {
+         "id": "c",
+         "text": "Emma"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cómo estaba el clima?",
+       "label": "¿Cómo estaba el clima?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Muy frío"
+        },
+        {
+         "id": "b",
+         "text": "Soleado"
+        },
+        {
+         "id": "c",
+         "text": "Lluvioso"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cómo fue el fin de semana de la otra persona?",
+       "label": "¿Cómo fue el fin de semana de la otra persona?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Divertido"
+        },
+        {
+         "id": "b",
+         "text": "Aburrido, por trabajo"
+        },
+        {
+         "id": "c",
+         "text": "Interesante"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "B16.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "On Saturday I was in New York with Mike.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "On Saturday I was in New York with Mike."
+    }
+   ]
+  },
+  {
+   "id": "B16.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Tomás's life in short",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B16-RR"
+   ],
+   "activities": [
+    {
+     "id": "B16.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Dónde nació Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Concepción"
+      },
+      {
+       "id": "b",
+       "text": "Talca"
+      },
+      {
+       "id": "c",
+       "text": "Boston"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B16.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué eran sus padres?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Ingenieros"
+      },
+      {
+       "id": "b",
+       "text": "Profesores"
+      },
+      {
+       "id": "c",
+       "text": "Doctores"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B16.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué era hace veinte años?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Estudiante"
+      },
+      {
+       "id": "b",
+       "text": "Ingeniero joven en una fábrica"
+      },
+      {
+       "id": "c",
+       "text": "Profesor en Boston"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "B16.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B16.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Tomás was born in Talca in 1984. His parents were teachers, and his childhood was happy.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Tomás was born in Talca in 1984.",
+       "His parents were teachers, and his childhood was happy."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B16.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta en 30–60 s dónde naciste y cómo fue tu fin de semana pasado (I was born in…, Last weekend I was…, It was…).",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "yesterday",
+        "last night",
+        "last week",
+        "ago",
+        "born",
+        "tired",
+        "busy",
+        "at home",
+        "interesting",
+        "boring",
+        "trip",
+        "party"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B16.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B16.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 30–60 palabras sobre un día pasado: dónde estabas, con quién y cómo fue.",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "yesterday",
+        "last night",
+        "last week",
+        "ago",
+        "born",
+        "tired",
+        "busy",
+        "at home",
+        "interesting",
+        "boring",
+        "trip",
+        "party"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "was",
+        "were"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

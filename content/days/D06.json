@@ -1,0 +1,915 @@
+{
+ "id": "D06",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Comparar: más, menos, el mayor",
+ "day": 6,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy comparas resultados, máquinas o empresas con comparativos (higher than) y superlativos (the highest).",
+ "objectives": [
+  {
+   "id": "D06-O1",
+   "text": "Formar comparativos y superlativos (-er/-est, more/most)."
+  },
+  {
+   "id": "D06-O2",
+   "text": "Comparar dos cifras con «than»."
+  },
+  {
+   "id": "D06-O3",
+   "text": "Describir cuál es el valor más alto y el más bajo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D06-LX01",
+    "form": "higher than",
+    "meaning_es": "más alto que",
+    "example": "Energy use is higher than last year.",
+    "example_es": "El uso de energía es más alto que el año pasado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX02",
+    "form": "lower than",
+    "meaning_es": "más bajo que",
+    "example": "The cost is lower than expected.",
+    "example_es": "El costo es más bajo de lo esperado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX03",
+    "form": "the highest",
+    "meaning_es": "el más alto",
+    "example": "Machine A has the highest energy use.",
+    "example_es": "La máquina A tiene el uso de energía más alto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX04",
+    "form": "the lowest",
+    "meaning_es": "el más bajo",
+    "example": "Factory C has the lowest cost.",
+    "example_es": "La fábrica C tiene el costo más bajo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX05",
+    "form": "more efficient",
+    "meaning_es": "más eficiente",
+    "example": "The new machine is more efficient.",
+    "example_es": "La máquina nueva es más eficiente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX06",
+    "form": "less",
+    "meaning_es": "menos",
+    "example": "The new process uses less energy.",
+    "example_es": "El proceso nuevo usa menos energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX07",
+    "form": "compared with",
+    "meaning_es": "en comparación con",
+    "example": "Output increased compared with the old method.",
+    "example_es": "La producción aumentó en comparación con el método antiguo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX08",
+    "form": "similar to",
+    "meaning_es": "similar a",
+    "example": "Our results are similar to other studies.",
+    "example_es": "Nuestros resultados son similares a otros estudios.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX09",
+    "form": "difference",
+    "meaning_es": "diferencia",
+    "example": "The difference is small.",
+    "example_es": "La diferencia es pequeña.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX10",
+    "form": "better",
+    "meaning_es": "mejor",
+    "example": "The new plan is better.",
+    "example_es": "El plan nuevo es mejor.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX11",
+    "form": "worse",
+    "meaning_es": "peor",
+    "example": "The results are worse in winter.",
+    "example_es": "Los resultados son peores en invierno.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D06-LX12",
+    "form": "cost",
+    "meaning_es": "costo; costar",
+    "example": "The cost of energy is rising.",
+    "example_es": "El costo de la energía está subiendo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D06-G1",
+    "topic": "Comparativos y superlativos"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D06-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "higher than",
+     "meaning_es": "más alto que",
+     "example": "Energy use is higher than last year.",
+     "example_es": "El uso de energía es más alto que el año pasado."
+    },
+    {
+     "form": "lower than",
+     "meaning_es": "más bajo que",
+     "example": "The cost is lower than expected.",
+     "example_es": "El costo es más bajo de lo esperado."
+    },
+    {
+     "form": "the highest",
+     "meaning_es": "el más alto",
+     "example": "Machine A has the highest energy use.",
+     "example_es": "La máquina A tiene el uso de energía más alto."
+    },
+    {
+     "form": "the lowest",
+     "meaning_es": "el más bajo",
+     "example": "Factory C has the lowest cost.",
+     "example_es": "La fábrica C tiene el costo más bajo."
+    },
+    {
+     "form": "more efficient",
+     "meaning_es": "más eficiente",
+     "example": "The new machine is more efficient.",
+     "example_es": "La máquina nueva es más eficiente."
+    },
+    {
+     "form": "less",
+     "meaning_es": "menos",
+     "example": "The new process uses less energy.",
+     "example_es": "El proceso nuevo usa menos energía."
+    },
+    {
+     "form": "compared with",
+     "meaning_es": "en comparación con",
+     "example": "Output increased compared with the old method.",
+     "example_es": "La producción aumentó en comparación con el método antiguo."
+    },
+    {
+     "form": "similar to",
+     "meaning_es": "similar a",
+     "example": "Our results are similar to other studies.",
+     "example_es": "Nuestros resultados son similares a otros estudios."
+    },
+    {
+     "form": "difference",
+     "meaning_es": "diferencia",
+     "example": "The difference is small.",
+     "example_es": "La diferencia es pequeña."
+    },
+    {
+     "form": "better",
+     "meaning_es": "mejor",
+     "example": "The new plan is better.",
+     "example_es": "El plan nuevo es mejor."
+    },
+    {
+     "form": "worse",
+     "meaning_es": "peor",
+     "example": "The results are worse in winter.",
+     "example_es": "Los resultados son peores en invierno."
+    },
+    {
+     "form": "cost",
+     "meaning_es": "costo; costar",
+     "example": "The cost of energy is rising.",
+     "example_es": "El costo de la energía está subiendo."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D06-RG",
+   "type": "capsule",
+   "title": "Comparativos y superlativos",
+   "explain": "Palabras cortas: -er / the -est: high → higher → the highest; low → lower → the lowest.\nPalabras largas: more / the most: efficient → more efficient → the most efficient.\nPara comparar dos cosas se usa «than» (que): A is higher than B.\nIrregulares: good → better → the best; bad → worse → the worst. «Menos» = less.",
+   "form": [
+    [
+     "adjetivo corto + -er + than",
+     "lower than"
+    ],
+    [
+     "more + adjetivo largo + than",
+     "more efficient than"
+    ],
+    [
+     "the + adjetivo + -est",
+     "the highest"
+    ],
+    [
+     "good/better/best · bad/worse/worst",
+     "irregulares"
+    ]
+   ],
+   "examples": [
+    [
+     "Factory A is larger than factory B.",
+     "La fábrica A es más grande que la B."
+    ],
+    [
+     "The new machine is more efficient than the old one.",
+     "La máquina nueva es más eficiente que la antigua."
+    ],
+    [
+     "Winter has the highest energy use.",
+     "El invierno tiene el uso de energía más alto."
+    ]
+   ],
+   "tip": "No uses «more» con -er: «more higher» es incorrecto.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D06-RR",
+   "type": "text",
+   "title": "Comparing the sawmills",
+   "body": "The three sawmills are similar in size, but their results are different. Sawmill A has the highest energy use and the highest cost. Sawmill C has the lowest cost because its machines are newer and more efficient. Compared with sawmill A, sawmill C uses about twenty percent less energy. Sawmill B is in the middle. Results are worse in winter, when machines work longer hours.",
+   "translation_es": "Los tres aserraderos son similares en tamaño, pero sus resultados son distintos. El aserradero A tiene el uso de energía y el costo más altos. El aserradero C tiene el costo más bajo porque sus máquinas son más nuevas y más eficientes. En comparación con el A, el aserradero C usa alrededor de un veinte por ciento menos de energía. El aserradero B está en el medio. Los resultados son peores en invierno, cuando las máquinas trabajan más horas.",
+   "glossary": [
+    [
+     "size",
+     "tamaño"
+    ],
+    [
+     "because",
+     "porque"
+    ],
+    [
+     "newer",
+     "más nuevas"
+    ],
+    [
+     "in the middle",
+     "en el medio"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D06.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D06-RV"
+   ],
+   "activities": [
+    {
+     "id": "D06.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) The cost is [[1]] expected.  (2) Factory C has [[2]] cost.  (3) The new machine is [[3]].  (4) The new process uses [[4]] energy.  (5) Output increased [[5]] the old method.  (6) The [[6]] of energy is rising.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "lower than"
+       ],
+       "hint": "Significa «más bajo que»."
+      },
+      "2": {
+       "accept": [
+        "the lowest"
+       ],
+       "hint": "Significa «el más bajo»."
+      },
+      "3": {
+       "accept": [
+        "more efficient"
+       ],
+       "hint": "Significa «más eficiente»."
+      },
+      "4": {
+       "accept": [
+        "less"
+       ],
+       "hint": "Significa «menos»."
+      },
+      "5": {
+       "accept": [
+        "compared with"
+       ],
+       "hint": "Significa «en comparación con»."
+      },
+      "6": {
+       "accept": [
+        "cost"
+       ],
+       "hint": "Significa «costo; costar»."
+      }
+     }
+    },
+    {
+     "id": "D06.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «similar a»",
+     "accept": [
+      "similar to"
+     ],
+     "hint": "Empieza con «si…» · Ejemplo: Nuestros resultados son similares a otros estudios."
+    },
+    {
+     "id": "D06.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «mejor»",
+     "accept": [
+      "better"
+     ],
+     "hint": "Empieza con «be…» · Ejemplo: El plan nuevo es mejor."
+    },
+    {
+     "id": "D06.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «diferencia»",
+     "accept": [
+      "difference"
+     ],
+     "hint": "Empieza con «di…» · Ejemplo: La diferencia es pequeña."
+    },
+    {
+     "id": "D06.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «peor»",
+     "accept": [
+      "worse"
+     ],
+     "hint": "Empieza con «wo…» · Ejemplo: Los resultados son peores en invierno."
+    },
+    {
+     "id": "D06.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «más alto que»",
+     "accept": [
+      "higher than"
+     ],
+     "hint": "Empieza con «hi…» · Ejemplo: El uso de energía es más alto que el año pasado."
+    },
+    {
+     "id": "D06.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «el más alto»",
+     "accept": [
+      "the highest"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: La máquina A tiene el uso de energía más alto."
+    },
+    {
+     "id": "D06.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Our results are similar to other studies.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Our results are similar to other studies."
+    }
+   ]
+  },
+  {
+   "id": "D06.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Comparativos y superlativos",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D06-RG"
+   ],
+   "activities": [
+    {
+     "id": "D06.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Energy use in winter is [[1]] than in summer. (high)  (2) The new process is [[2]] efficient. (más)  (3) Factory C has [[3]] lowest cost.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "higher"
+       ],
+       "hint": "high → higher"
+      },
+      "2": {
+       "accept": [
+        "more"
+       ],
+       "hint": "palabra larga → more"
+      },
+      "3": {
+       "accept": [
+        "the"
+       ],
+       "hint": "superlativo con the"
+      }
+     }
+    },
+    {
+     "id": "D06.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) This result is [[1]] than the first one. (good)  (2) Machine B uses [[2]] energy than machine A. (menos)  (3) Output is higher [[3]] last year.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "better"
+       ],
+       "hint": "good → better"
+      },
+      "2": {
+       "accept": [
+        "less"
+       ]
+      },
+      "3": {
+       "accept": [
+        "than"
+       ],
+       "hint": "comparación → than"
+      }
+     }
+    },
+    {
+     "id": "D06.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "more higher than"
+      },
+      {
+       "id": "b",
+       "text": "higher than"
+      },
+      {
+       "id": "c",
+       "text": "highest than"
+      }
+     ],
+     "answer": "b",
+     "explanation": "high → higher than"
+    },
+    {
+     "id": "D06.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "the most efficient machine"
+      },
+      {
+       "id": "b",
+       "text": "the efficientest machine"
+      },
+      {
+       "id": "c",
+       "text": "the more efficient machine of all"
+      }
+     ],
+     "answer": "a",
+     "explanation": "palabra larga → the most"
+    },
+    {
+     "id": "D06.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Compara dos máquinas, empresas o métodos de tu trabajo en dos oraciones (usa than y un superlativo).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "than",
+        "the most",
+        "the highest",
+        "the lowest",
+        "better",
+        "more"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D06.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Comparando tres aserraderos",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D06.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Comparando tres aserraderos: escucha sin leer y responde.",
+     "audio": {
+      "text": "Sawmill A has the highest energy use. Sawmill B uses less energy than sawmill A. Sawmill C is the most efficient. Its cost is lower than the others. The difference between B and C is small.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Sawmill A has the highest energy use. Sawmill B uses less energy than sawmill A. Sawmill C is the most efficient. Its cost is lower than the others. The difference between B and C is small.",
+     "translation_es": "El aserradero A tiene el uso de energía más alto. El aserradero B usa menos energía que el A. El aserradero C es el más eficiente. Su costo es más bajo que el de los otros. La diferencia entre B y C es pequeña.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuál tiene el uso de energía más alto?",
+       "label": "¿Cuál tiene el uso de energía más alto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "A"
+        },
+        {
+         "id": "b",
+         "text": "B"
+        },
+        {
+         "id": "c",
+         "text": "C"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuál es el más eficiente?",
+       "label": "¿Cuál es el más eficiente?",
+       "options": [
+        {
+         "id": "a",
+         "text": "A"
+        },
+        {
+         "id": "b",
+         "text": "B"
+        },
+        {
+         "id": "c",
+         "text": "C"
+        }
+       ],
+       "answer": "c"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cómo es la diferencia entre B y C?",
+       "label": "¿Cómo es la diferencia entre B y C?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Grande"
+        },
+        {
+         "id": "b",
+         "text": "Pequeña"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D06.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Sawmill C is the most efficient.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Sawmill C is the most efficient."
+    }
+   ]
+  },
+  {
+   "id": "D06.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Comparing the sawmills",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D06-RR"
+   ],
+   "activities": [
+    {
+     "id": "D06.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué el aserradero C tiene el costo más bajo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Tiene más trabajadores"
+      },
+      {
+       "id": "b",
+       "text": "Sus máquinas son más nuevas y eficientes"
+      },
+      {
+       "id": "c",
+       "text": "Trabaja menos días"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D06.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "En comparación con A, ¿cuánta energía menos usa C?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Alrededor de 20 %"
+      },
+      {
+       "id": "b",
+       "text": "Alrededor de 2 %"
+      },
+      {
+       "id": "c",
+       "text": "La mitad"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D06.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuándo son peores los resultados?",
+     "options": [
+      {
+       "id": "a",
+       "text": "En verano"
+      },
+      {
+       "id": "b",
+       "text": "En invierno"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D06.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D06.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The three sawmills are similar in size, but their results are different. Sawmill A has the highest energy use and the highest cost.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The three sawmills are similar in size, but their results are different.",
+       "Sawmill A has the highest energy use and the highest cost."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D06.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Compara en voz alta (30–60 s) dos o tres cosas de tu trabajo: máquinas, cursos, empresas o métodos. Usa than, the highest/lowest, more/less.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "higher than",
+        "lower than",
+        "the highest",
+        "the lowest",
+        "more efficient",
+        "less",
+        "compared with",
+        "similar to",
+        "difference",
+        "better",
+        "worse",
+        "cost"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D06.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D06.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras comparando dos situaciones (antes y ahora, invierno y verano, A y B) con comparativos y un superlativo.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "higher than",
+        "lower than",
+        "the highest",
+        "the lowest",
+        "more efficient",
+        "less",
+        "compared with",
+        "similar to",
+        "difference",
+        "better",
+        "worse",
+        "cost"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "than",
+        "the most",
+        "the highest",
+        "the lowest",
+        "better",
+        "more"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

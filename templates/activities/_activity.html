@@ -1,0 +1,123 @@
+{% load course_tags %}
+{% with a=vm.act latest=vm.latest %}
+<article class="activity activity-{{ a.type }} role-{{ a.role|default:'practice' }}" id="act-{{ a.id }}">
+  <header class="activity-head">
+    <span class="tag mono">{{ a.id }}</span>
+    {% if a.role == "check" %}<span class="tag tag-check">Comprobación · cuenta el primer intento</span>{% endif %}
+    {% if a.role == "deferred" %}<span class="tag tag-check">Confirmación diferida · cuenta el primer intento</span>{% endif %}
+    {% if a.role == "final" %}<span class="tag tag-final">Tarea integradora</span>{% endif %}
+    {% if a.specialty and a.specialty != "comun" %}<span class="tag">{{ a.specialty }}</span>{% endif %}
+    {% if vm.n_attempts %}<span class="muted small">{{ vm.n_attempts }} intento{{ vm.n_attempts|pluralize }}</span>{% endif %}
+  </header>
+
+  <p class="prompt">{{ a.prompt }}</p>
+  {% if a.prompt_es %}<p class="prompt-es small">{{ a.prompt_es }}</p>{% endif %}
+
+  {% for r in vm.act_resources %}{% include "curriculum/_resource.html" with r=r %}{% endfor %}
+
+  {% if a.model %}
+    {% if a.model.chunks %}
+      <ol class="chunks" lang="en">{% for ch in a.model.chunks %}
+        <li>{% include "activities/_tts.html" with text=ch voice=vm.voice label=ch %}</li>{% endfor %}</ol>
+    {% endif %}
+    {% include "activities/_tts.html" with text=a.model.text voice=vm.voice label="Escuchar modelo" help="model_audio" %}
+  {% endif %}
+
+  {% if a.type == "listening" or a.type == "dictation" %}
+    {% include "activities/_tts.html" with text=a.audio.text voice=vm.voice label="Escuchar audio" %}
+  {% endif %}
+
+  <form method="post" action="{% url 'activity_submit' vm.package.pk a.id %}" class="activity-form" data-type="{{ a.type }}">
+    {% csrf_token %}
+    <input type="hidden" name="next" value="{{ vm.next_url }}">
+    <input type="hidden" name="source" value="{{ vm.source }}">
+    <input type="hidden" name="elapsed_ms" value="">
+    <input type="hidden" name="helps_csv" value="">
+
+    {% if a.type == "choice" %}
+      <fieldset class="options"><legend class="sr-only">Opciones</legend>
+        {% for o in a.options %}<label class="opt"><input type="radio" name="option" value="{{ o.id }}" required> <span lang="en">{{ o.text }}</span></label>{% endfor %}
+      </fieldset>
+      {% if a.evidence %}
+      <fieldset class="evidence"><legend>{{ a.evidence.instruction }}</legend>
+        {% for s in a.evidence.sentences %}<label class="opt"><input type="checkbox" name="evidence" value="{{ s.id }}"> <span lang="en">{{ s.text }}</span></label>{% endfor %}
+      </fieldset>
+      {% endif %}
+      {% if a.justify %}<label class="block">Justificación breve<textarea name="justification" rows="2" required></textarea></label>{% endif %}
+
+    {% elif a.type == "cloze" %}
+      <p class="cloze" lang="en">{% for s in vm.segments %}{% if s.gap %}<label class="gap"><span class="sr-only">Espacio {{ s.gap }}</span><input type="text" name="gap_{{ s.gap }}" size="12" autocomplete="off" autocapitalize="off" spellcheck="false"><sup>{{ s.gap }}</sup></label>{% else %}{{ s.text }}{% endif %}{% endfor %}</p>
+
+    {% elif a.type == "ordering" %}
+      <p class="small muted">Asigna una posición (1, 2, 3…) a cada elemento.</p>
+      <ul class="ordering">
+        {% for it in vm.items %}<li><label><select name="pos_{{ it.id }}" required><option value="">—</option>{% for p in vm.positions %}<option value="{{ p }}">{{ p }}</option>{% endfor %}</select> <span lang="en">{{ it.text }}</span></label></li>{% endfor %}
+      </ul>
+      {% if a.justify %}<label class="block">Justificación<textarea name="justification" rows="2" required></textarea></label>{% endif %}
+
+    {% elif a.type == "numeric" %}
+      {% for f in a.fields %}<label class="num">{{ f.label }} <input type="text" inputmode="decimal" name="num_{{ f.id }}" autocomplete="off"></label>{% endfor %}
+
+    {% elif a.type == "short_text" %}
+      <input type="text" name="text" class="wide" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" required aria-label="Respuesta">
+      {% if a.hint %}<details class="help" data-help="hint"><summary>Pista (se registra como ayuda)</summary>{{ a.hint }}</details>{% endif %}
+
+    {% elif a.type == "dictation" %}
+      <textarea name="text" rows="2" class="wide" lang="en" spellcheck="false" required aria-label="Dictado"></textarea>
+
+    {% elif a.type == "listening" %}
+      {% for q in a.questions %}
+        <fieldset class="question"><legend>{{ q.prompt|default:q.label }}</legend>
+          {% if q.options %}
+            {% for o in q.options %}<label class="opt"><input type="radio" name="q_{{ q.id }}" value="{{ o.id }}"> <span lang="en">{{ o.text }}</span></label>{% endfor %}
+          {% else %}
+            {% for f in q.fields %}<label class="num">{{ f.label }} <input type="text" inputmode="decimal" name="q_{{ q.id }}_{{ f.id }}" autocomplete="off"></label>{% endfor %}
+          {% endif %}
+        </fieldset>
+      {% endfor %}
+
+    {% elif a.type == "open_text" %}
+      <textarea name="text" rows="7" class="wide" lang="en" data-words data-min="{{ a.min_words|default:'' }}" data-max="{{ a.max_words|default:'' }}" required aria-label="Texto"></textarea>
+      <p class="small muted" data-word-count>0 palabras{% if a.min_words %} · meta {{ a.min_words }}–{{ a.max_words }}{% endif %}</p>
+
+    {% elif a.type == "oral" %}
+      {% include "activities/_recorder.html" with vm=vm a=a %}
+    {% endif %}
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  {% if a.type == "listening" %}
+    {% if vm.show_transcript %}
+      <details class="help" data-help="transcript"><summary>Transcripción (revisión posterior)</summary><pre class="transcript" lang="en">{{ a.transcript }}</pre></details>
+      {% if a.translation_es %}<details class="help" data-help="translation"><summary>Traducción al español</summary><p class="transcript">{{ a.translation_es }}</p></details>{% endif %}
+    {% else %}
+      <p class="small muted">La transcripción se habilita después de tu primera respuesta.</p>
+    {% endif %}
+  {% endif %}
+
+  {% if latest %}
+  <section class="result status-{{ latest.status }}" aria-live="polite">
+    <h4>Último intento (n.º {{ latest.attempt_number }}){% if latest.status == "corregido" and latest.score is not None %} · {{ latest.score|pct }}{% if latest.correct %} ✓{% endif %}{% endif %}</h4>
+    {% if latest.status == "pendiente_rubrica" %}
+      <p>Pendiente de evaluación con la rúbrica «{{ vm.rubric_title }}». <a class="button small" href="{% url 'rubric_form' latest.pk %}">Evaluar con rúbrica</a></p>
+      {% if vm.latest_rubric %}<p>Rúbrica: <strong>{{ vm.latest_rubric.total|floatformat:0 }}/100</strong> · {{ vm.latest_rubric.get_rater_kind_display }} · {% if vm.latest_rubric.passed %}cumple la regla de tarea{% else %}aún no cumple{% endif %}</p>{% endif %}
+    {% elif latest.status == "pendiente_evidencia" %}
+      <p>Habilidad oral pendiente de evidencia (modo sin micrófono). No se considera aprobada.</p>
+    {% endif %}
+    {% if latest.feedback %}<ul class="feedback">{% for f in latest.feedback %}<li>{{ f }}</li>{% endfor %}</ul>{% endif %}
+    {% for n in latest.notices %}<p class="notice small">{{ n }}</p>{% endfor %}
+    {% if latest.helps %}<p class="muted small">Ayudas registradas: {{ latest.helps|join:", " }}. Acertar con ayuda no es la misma evidencia que sin ella.</p>{% endif %}
+    {% if a.role == "check" or a.role == "deferred" %}<p class="muted small">En comprobación cuenta solo el primer intento; los siguientes son práctica.</p>{% endif %}
+  </section>
+  {% endif %}
+
+  {% if a.type == "oral" and vm.show_follow_ups and vm.follow_ups %}
+  <section class="followups">
+    <h4>Preguntas de seguimiento <span class="badge">{{ vm.tutor_name }}</span></h4>
+    <ol lang="en">{% for q in vm.follow_ups %}<li>{% include "activities/_tts.html" with text=q voice=vm.voice label=q %}</li>{% endfor %}</ol>
+    <p class="small muted">Responde cada una en voz alta y graba de nuevo arriba (un intento nuevo por pregunta).</p>
+  </section>
+  {% endif %}
+</article>
+{% endwith %}

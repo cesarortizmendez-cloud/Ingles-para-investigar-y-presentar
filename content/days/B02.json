@@ -1,0 +1,924 @@
+{
+ "id": "B02",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "El alfabeto, los números y tus datos",
+ "day": 2,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy aprendes a dar tus datos personales: deletrear tu nombre, decir tu edad, tu teléfono y tu correo. También el negativo y las preguntas con «to be».",
+ "objectives": [
+  {
+   "id": "B02-O1",
+   "text": "Deletrear tu nombre y dar tu teléfono y tu correo."
+  },
+  {
+   "id": "B02-O2",
+   "text": "Decir tu edad con «I am … years old»."
+  },
+  {
+   "id": "B02-O3",
+   "text": "Hacer y responder preguntas con «to be» (Are you…? Yes, I am.)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B02-LX01",
+    "form": "number",
+    "meaning_es": "número",
+    "example": "What is your room number?",
+    "example_es": "¿Cuál es el número de tu habitación?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX02",
+    "form": "zero",
+    "meaning_es": "cero",
+    "example": "My code ends in zero.",
+    "example_es": "Mi código termina en cero.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX03",
+    "form": "phone number",
+    "meaning_es": "número de teléfono",
+    "example": "My phone number is 617 555 0192.",
+    "example_es": "Mi número de teléfono es 617 555 0192.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX04",
+    "form": "email",
+    "meaning_es": "correo electrónico",
+    "example": "Please write your email here.",
+    "example_es": "Por favor escribe tu correo aquí.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX05",
+    "form": "address",
+    "meaning_es": "dirección",
+    "example": "What is your address in Boston?",
+    "example_es": "¿Cuál es tu dirección en Boston?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX06",
+    "form": "age",
+    "meaning_es": "edad",
+    "example": "Write your name and age on the card.",
+    "example_es": "Escribe tu nombre y edad en la tarjeta.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX07",
+    "form": "years old",
+    "meaning_es": "años (de edad)",
+    "example": "I am forty-two years old.",
+    "example_es": "Tengo cuarenta y dos años.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX08",
+    "form": "first name",
+    "meaning_es": "nombre (de pila)",
+    "example": "My first name is Tomás.",
+    "example_es": "Mi nombre es Tomás.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX09",
+    "form": "last name",
+    "meaning_es": "apellido",
+    "example": "My last name is Muñoz.",
+    "example_es": "Mi apellido es Muñoz.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX10",
+    "form": "spell",
+    "meaning_es": "deletrear",
+    "example": "How do you spell your last name?",
+    "example_es": "¿Cómo se deletrea tu apellido?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX11",
+    "form": "letter",
+    "meaning_es": "letra; carta",
+    "example": "The first letter is M.",
+    "example_es": "La primera letra es M.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B02-LX12",
+    "form": "form",
+    "meaning_es": "formulario",
+    "example": "Please complete this form.",
+    "example_es": "Por favor completa este formulario.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B02-G1",
+    "topic": "To be en negativo y en preguntas"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B02-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "number",
+     "meaning_es": "número",
+     "example": "What is your room number?",
+     "example_es": "¿Cuál es el número de tu habitación?"
+    },
+    {
+     "form": "zero",
+     "meaning_es": "cero",
+     "example": "My code ends in zero.",
+     "example_es": "Mi código termina en cero."
+    },
+    {
+     "form": "phone number",
+     "meaning_es": "número de teléfono",
+     "example": "My phone number is 617 555 0192.",
+     "example_es": "Mi número de teléfono es 617 555 0192."
+    },
+    {
+     "form": "email",
+     "meaning_es": "correo electrónico",
+     "example": "Please write your email here.",
+     "example_es": "Por favor escribe tu correo aquí."
+    },
+    {
+     "form": "address",
+     "meaning_es": "dirección",
+     "example": "What is your address in Boston?",
+     "example_es": "¿Cuál es tu dirección en Boston?"
+    },
+    {
+     "form": "age",
+     "meaning_es": "edad",
+     "example": "Write your name and age on the card.",
+     "example_es": "Escribe tu nombre y edad en la tarjeta."
+    },
+    {
+     "form": "years old",
+     "meaning_es": "años (de edad)",
+     "example": "I am forty-two years old.",
+     "example_es": "Tengo cuarenta y dos años."
+    },
+    {
+     "form": "first name",
+     "meaning_es": "nombre (de pila)",
+     "example": "My first name is Tomás.",
+     "example_es": "Mi nombre es Tomás."
+    },
+    {
+     "form": "last name",
+     "meaning_es": "apellido",
+     "example": "My last name is Muñoz.",
+     "example_es": "Mi apellido es Muñoz."
+    },
+    {
+     "form": "spell",
+     "meaning_es": "deletrear",
+     "example": "How do you spell your last name?",
+     "example_es": "¿Cómo se deletrea tu apellido?"
+    },
+    {
+     "form": "letter",
+     "meaning_es": "letra; carta",
+     "example": "The first letter is M.",
+     "example_es": "La primera letra es M."
+    },
+    {
+     "form": "form",
+     "meaning_es": "formulario",
+     "example": "Please complete this form.",
+     "example_es": "Por favor completa este formulario."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B02-RG",
+   "type": "capsule",
+   "title": "To be en negativo y en preguntas",
+   "explain": "Negativo: se agrega «not» después de am / is / are: I am not (I'm not), she is not (she isn't), they are not (they aren't).\nPreguntas: el verbo va ANTES del sujeto: You are Chilean → Are you Chilean? She is a teacher → Is she a teacher?\nRespuestas cortas: Yes, I am. / No, I'm not. · Yes, she is. / No, she isn't. En la respuesta afirmativa no se contrae (no se dice «Yes, I'm»).\nLa edad se dice con «to be»: I am forty (years old). How old are you?",
+   "form": [
+    [
+     "I'm not · he/she isn't · we/they aren't",
+     "no soy · no es · no son"
+    ],
+    [
+     "Are you…? · Is he/she…?",
+     "pregunta: el verbo primero"
+    ],
+    [
+     "Yes, I am. · No, I'm not.",
+     "respuestas cortas"
+    ],
+    [
+     "How old are you? I'm 42.",
+     "la edad va con to be"
+    ]
+   ],
+   "examples": [
+    [
+     "I am not from Boston.",
+     "No soy de Boston."
+    ],
+    [
+     "Is she a teacher? Yes, she is.",
+     "¿Es profesora? Sí."
+    ],
+    [
+     "Are you tired? No, I'm not.",
+     "¿Estás cansado? No."
+    ],
+    [
+     "How old are you? I am forty.",
+     "¿Cuántos años tienes? Tengo cuarenta."
+    ]
+   ],
+   "tip": "Error típico: «I have forty years» → correcto: «I am forty (years old)».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B02-RR",
+   "type": "text",
+   "title": "A registration form",
+   "body": "This is the registration form of Tomás. His first name is Tomás and his last name is Muñoz. He is forty-two years old. He is from Concepción, in Chile. His phone number is 617 555 0192. His address in Boston is 25 Park Street, and his room number is 12. He is not a student; he is a teacher at a technical school.",
+   "translation_es": "Este es el formulario de inscripción de Tomás. Su nombre es Tomás y su apellido es Muñoz. Tiene cuarenta y dos años. Es de Concepción, en Chile. Su número de teléfono es 617 555 0192. Su dirección en Boston es Park Street 25, y el número de su habitación es el 12. No es estudiante: es profesor en una escuela técnica.",
+   "glossary": [
+    [
+     "registration",
+     "inscripción"
+    ],
+    [
+     "his",
+     "su (de él)"
+    ],
+    [
+     "technical school",
+     "escuela técnica"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B02.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B02-RV"
+   ],
+   "activities": [
+    {
+     "id": "B02.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) What is your room [[1]]?  (2) My code ends in [[2]].  (3) My [[3]] is 617 555 0192.  (4) What is your [[4]] in Boston?  (5) I am forty-two [[5]].  (6) My [[6]] is Muñoz.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "number"
+       ],
+       "hint": "Significa «número»."
+      },
+      "2": {
+       "accept": [
+        "zero"
+       ],
+       "hint": "Significa «cero»."
+      },
+      "3": {
+       "accept": [
+        "phone number"
+       ],
+       "hint": "Significa «número de teléfono»."
+      },
+      "4": {
+       "accept": [
+        "address"
+       ],
+       "hint": "Significa «dirección»."
+      },
+      "5": {
+       "accept": [
+        "years old"
+       ],
+       "hint": "Significa «años (de edad)»."
+      },
+      "6": {
+       "accept": [
+        "last name"
+       ],
+       "hint": "Significa «apellido»."
+      }
+     }
+    },
+    {
+     "id": "B02.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «deletrear»",
+     "accept": [
+      "spell"
+     ],
+     "hint": "Empieza con «sp…» · Ejemplo: ¿Cómo se deletrea tu apellido?"
+    },
+    {
+     "id": "B02.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «formulario»",
+     "accept": [
+      "form"
+     ],
+     "hint": "Empieza con «fo…» · Ejemplo: Por favor completa este formulario."
+    },
+    {
+     "id": "B02.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «edad»",
+     "accept": [
+      "age"
+     ],
+     "hint": "Empieza con «ag…» · Ejemplo: Escribe tu nombre y edad en la tarjeta."
+    },
+    {
+     "id": "B02.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «correo electrónico»",
+     "accept": [
+      "email"
+     ],
+     "hint": "Empieza con «em…» · Ejemplo: Por favor escribe tu correo aquí."
+    },
+    {
+     "id": "B02.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «nombre (de pila)»",
+     "accept": [
+      "first name"
+     ],
+     "hint": "Empieza con «fi…» · Ejemplo: Mi nombre es Tomás."
+    },
+    {
+     "id": "B02.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «letra; carta»",
+     "accept": [
+      "letter"
+     ],
+     "hint": "Empieza con «le…» · Ejemplo: La primera letra es M."
+    },
+    {
+     "id": "B02.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "How do you spell your last name?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "How do you spell your last name?"
+    }
+   ]
+  },
+  {
+   "id": "B02.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: To be en negativo y en preguntas",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B02-RG"
+   ],
+   "activities": [
+    {
+     "id": "B02.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] you an engineer?  (2) I am [[2]] American. I am Chilean.  (3) She [[3]] a student. She is a teacher.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "are"
+       ],
+       "hint": "Pregunta con you → Are you…?"
+      },
+      "2": {
+       "accept": [
+        "not"
+       ],
+       "hint": "Negativo: am not."
+      },
+      "3": {
+       "accept": [
+        "isn't",
+        "is not"
+       ],
+       "hint": "Negativo con she."
+      }
+     }
+    },
+    {
+     "id": "B02.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] he from Chile? Yes, he is.  (2) How old [[2]] you?  (3) I [[3]] forty-two years old.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "is"
+       ],
+       "hint": "Pregunta con he → Is he…?"
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "How old are you?"
+      },
+      "3": {
+       "accept": [
+        "am"
+       ],
+       "hint": "La edad va con to be."
+      }
+     }
+    },
+    {
+     "id": "B02.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cómo se dice «Tengo 40 años»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I have 40 years."
+      },
+      {
+       "id": "b",
+       "text": "I am 40 years old."
+      },
+      {
+       "id": "c",
+       "text": "I am 40 years."
+      }
+     ],
+     "answer": "b",
+     "explanation": "La edad va con «to be» + years old (o solo el número)."
+    },
+    {
+     "id": "B02.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Respuesta corta correcta a «Are you Chilean?»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Yes, I'm."
+      },
+      {
+       "id": "b",
+       "text": "Yes, I am."
+      },
+      {
+       "id": "c",
+       "text": "Yes, I are."
+      }
+     ],
+     "answer": "b",
+     "explanation": "En la respuesta corta afirmativa no se contrae."
+    },
+    {
+     "id": "B02.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres preguntas y sus respuestas sobre ti con «to be» (por ejemplo: Are you a teacher? Yes, I am.).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "are you",
+        "is ",
+        "i am",
+        "i'm not"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B02.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: En la recepción de la universidad",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B02.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "En la recepción de la universidad: escucha sin leer y responde.",
+     "audio": {
+      "text": "Good morning. What is your first name? Tomás. And your last name? Muñoz. How do you spell it? M, U, N, O, Z. Thank you. What is your phone number? It is 617 555 0192. And your email? It is tomas dot munoz at mail dot com. Thank you, Mr. Muñoz.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Good morning. What is your first name? Tomás. And your last name? Muñoz. How do you spell it? M, U, N, O, Z. Thank you. What is your phone number? It is 617 555 0192. And your email? It is tomas dot munoz at mail dot com. Thank you, Mr. Muñoz.",
+     "translation_es": "Buenos días. ¿Cuál es su nombre? Tomás. ¿Y su apellido? Muñoz. ¿Cómo se deletrea? M, U, N, O, Z. Gracias. ¿Cuál es su número de teléfono? Es el 617 555 0192. ¿Y su correo? Es tomas punto munoz arroba mail punto com. Gracias, señor Muñoz.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué pide primero la recepcionista?",
+       "label": "¿Qué pide primero la recepcionista?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El apellido"
+        },
+        {
+         "id": "b",
+         "text": "El nombre"
+        },
+        {
+         "id": "c",
+         "text": "El teléfono"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«What is your first name?»"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cómo deletrea Tomás su apellido?",
+       "label": "¿Cómo deletrea Tomás su apellido?",
+       "options": [
+        {
+         "id": "a",
+         "text": "M-U-N-O-Z"
+        },
+        {
+         "id": "b",
+         "text": "M-O-N-U-S"
+        },
+        {
+         "id": "c",
+         "text": "N-U-M-O-Z"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuál es el número de teléfono?",
+       "label": "¿Cuál es el número de teléfono?",
+       "options": [
+        {
+         "id": "a",
+         "text": "617 555 0192"
+        },
+        {
+         "id": "b",
+         "text": "716 555 0129"
+        },
+        {
+         "id": "c",
+         "text": "617 505 1920"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "B02.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "What is your phone number?",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "What is your phone number?"
+    }
+   ]
+  },
+  {
+   "id": "B02.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: A registration form",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B02-RR"
+   ],
+   "activities": [
+    {
+     "id": "B02.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántos años tiene Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "24"
+      },
+      {
+       "id": "b",
+       "text": "42"
+      },
+      {
+       "id": "c",
+       "text": "52"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«forty-two years old»."
+    },
+    {
+     "id": "B02.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál es su dirección en Boston?",
+     "options": [
+      {
+       "id": "a",
+       "text": "12 Park Street"
+      },
+      {
+       "id": "b",
+       "text": "25 Park Street"
+      },
+      {
+       "id": "c",
+       "text": "25 Pine Street"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B02.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Es estudiante Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No, es profesor"
+      },
+      {
+       "id": "c",
+       "text": "No, es médico"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«He is not a student; he is a teacher»."
+    }
+   ]
+  },
+  {
+   "id": "B02.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B02.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "This is the registration form of Tomás. His first name is Tomás and his last name is Muñoz.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "This is the registration form of Tomás.",
+       "His first name is Tomás and his last name is Muñoz."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B02.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Di tus datos en voz alta (20–40 s): nombre, apellido deletreado (M, U, …), edad, ciudad y un teléfono inventado.",
+     "min_seconds": 20,
+     "max_seconds": 60,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "number",
+        "zero",
+        "phone number",
+        "email",
+        "address",
+        "age",
+        "years old",
+        "first name",
+        "last name",
+        "spell",
+        "letter",
+        "form"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B02.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B02.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tus datos como en un formulario, pero en oraciones (20–50 palabras): My first name is… My last name is… I am … years old. My email is…",
+     "min_words": 20,
+     "max_words": 60,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "number",
+        "zero",
+        "phone number",
+        "email",
+        "address",
+        "age",
+        "years old",
+        "first name",
+        "last name",
+        "spell",
+        "letter",
+        "form"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "are you",
+        "is ",
+        "i am",
+        "i'm not"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

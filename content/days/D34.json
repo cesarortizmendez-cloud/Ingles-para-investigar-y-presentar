@@ -1,0 +1,891 @@
+{
+ "id": "D34",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Grupos nominales: cómo leer «energy use reduction strategy»",
+ "day": 34,
+ "week": 5,
+ "day_type": "aprendizaje",
+ "intro": "El inglés técnico apila sustantivos: «production scheduling system». Hoy aprendes a leerlos de derecha a izquierda y a formarlos.",
+ "objectives": [
+  {
+   "id": "D34-O1",
+   "text": "Leer grupos nominales empezando por el último sustantivo."
+  },
+  {
+   "id": "D34-O2",
+   "text": "Transformar «el uso de energía» en «energy use»."
+  },
+  {
+   "id": "D34-O3",
+   "text": "Reconocer nominalizaciones (reduce → reduction)."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D34-LX01",
+    "form": "energy use",
+    "meaning_es": "uso de energía",
+    "example": "Energy use is measured every hour.",
+    "example_es": "El uso de energía se mide cada hora.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX02",
+    "form": "production schedule",
+    "meaning_es": "programación de la producción",
+    "example": "The production schedule changes every week.",
+    "example_es": "La programación de la producción cambia cada semana.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX03",
+    "form": "data collection",
+    "meaning_es": "recolección de datos",
+    "example": "Data collection took six months.",
+    "example_es": "La recolección de datos tomó seis meses.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX04",
+    "form": "reduction",
+    "meaning_es": "reducción (reduce)",
+    "example": "We observed a cost reduction.",
+    "example_es": "Observamos una reducción de costos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX05",
+    "form": "improvement",
+    "meaning_es": "mejora (improve)",
+    "example": "This is a small improvement.",
+    "example_es": "Esta es una pequeña mejora.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX06",
+    "form": "measurement",
+    "meaning_es": "medición (measure)",
+    "example": "Each measurement takes one minute.",
+    "example_es": "Cada medición toma un minuto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX07",
+    "form": "analysis",
+    "meaning_es": "análisis (analyse)",
+    "example": "The analysis was done in Python.",
+    "example_es": "El análisis se hizo en Python.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX08",
+    "form": "implementation",
+    "meaning_es": "implementación",
+    "example": "The implementation was simple.",
+    "example_es": "La implementación fue simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX09",
+    "form": "decision-making",
+    "meaning_es": "toma de decisiones",
+    "example": "The tool supports decision-making.",
+    "example_es": "La herramienta apoya la toma de decisiones.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX10",
+    "form": "cost-effective",
+    "meaning_es": "costo-eficiente, rentable",
+    "example": "The solution is cost-effective.",
+    "example_es": "La solución es costo-eficiente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX11",
+    "form": "small-scale",
+    "meaning_es": "de pequeña escala",
+    "example": "This is a small-scale study.",
+    "example_es": "Este es un estudio de pequeña escala.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D34-LX12",
+    "form": "night-shift workers",
+    "meaning_es": "trabajadores del turno de noche",
+    "example": "Night-shift workers were interviewed.",
+    "example_es": "Se entrevistó a los trabajadores del turno de noche.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D34-G1",
+    "topic": "Grupos nominales y nominalización"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D34-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "energy use",
+     "meaning_es": "uso de energía",
+     "example": "Energy use is measured every hour.",
+     "example_es": "El uso de energía se mide cada hora."
+    },
+    {
+     "form": "production schedule",
+     "meaning_es": "programación de la producción",
+     "example": "The production schedule changes every week.",
+     "example_es": "La programación de la producción cambia cada semana."
+    },
+    {
+     "form": "data collection",
+     "meaning_es": "recolección de datos",
+     "example": "Data collection took six months.",
+     "example_es": "La recolección de datos tomó seis meses."
+    },
+    {
+     "form": "reduction",
+     "meaning_es": "reducción (reduce)",
+     "example": "We observed a cost reduction.",
+     "example_es": "Observamos una reducción de costos."
+    },
+    {
+     "form": "improvement",
+     "meaning_es": "mejora (improve)",
+     "example": "This is a small improvement.",
+     "example_es": "Esta es una pequeña mejora."
+    },
+    {
+     "form": "measurement",
+     "meaning_es": "medición (measure)",
+     "example": "Each measurement takes one minute.",
+     "example_es": "Cada medición toma un minuto."
+    },
+    {
+     "form": "analysis",
+     "meaning_es": "análisis (analyse)",
+     "example": "The analysis was done in Python.",
+     "example_es": "El análisis se hizo en Python."
+    },
+    {
+     "form": "implementation",
+     "meaning_es": "implementación",
+     "example": "The implementation was simple.",
+     "example_es": "La implementación fue simple."
+    },
+    {
+     "form": "decision-making",
+     "meaning_es": "toma de decisiones",
+     "example": "The tool supports decision-making.",
+     "example_es": "La herramienta apoya la toma de decisiones."
+    },
+    {
+     "form": "cost-effective",
+     "meaning_es": "costo-eficiente, rentable",
+     "example": "The solution is cost-effective.",
+     "example_es": "La solución es costo-eficiente."
+    },
+    {
+     "form": "small-scale",
+     "meaning_es": "de pequeña escala",
+     "example": "This is a small-scale study.",
+     "example_es": "Este es un estudio de pequeña escala."
+    },
+    {
+     "form": "night-shift workers",
+     "meaning_es": "trabajadores del turno de noche",
+     "example": "Night-shift workers were interviewed.",
+     "example_es": "Se entrevistó a los trabajadores del turno de noche."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D34-RG",
+   "type": "capsule",
+   "title": "Grupos nominales y nominalización",
+   "explain": "En inglés, el sustantivo principal va AL FINAL y lo que está antes lo describe: «energy use» = uso (de energía).\nPara traducir, lee de derecha a izquierda: «energy use reduction strategy» = estrategia (de reducción (del uso (de energía))).\nLos sustantivos que van delante no llevan plural: «a cost reduction» (no «costs reduction»), «night-shift workers».\nNominalización: convertir verbos en sustantivos, muy típico de los papers: reduce → reduction, improve → improvement, measure → measurement, analyse → analysis, implement → implementation, decide → decision.\nAdjetivos compuestos con guion: cost-effective, small-scale, long-term.",
+   "form": [
+    [
+     "modificador + SUSTANTIVO PRINCIPAL",
+     "energy USE, production SCHEDULE"
+    ],
+    [
+     "leer de derecha a izquierda",
+     "data collection period = período de recolección de datos"
+    ],
+    [
+     "-tion / -ment / -sis",
+     "reduction, improvement, analysis"
+    ],
+    [
+     "compuesto con guion",
+     "cost-effective, small-scale"
+    ]
+   ],
+   "examples": [
+    [
+     "Energy use reduction is the main goal.",
+     "La reducción del uso de energía es el objetivo principal."
+    ],
+    [
+     "The data collection period was six months.",
+     "El período de recolección de datos fue de seis meses."
+    ],
+    [
+     "This small-scale study supports decision-making in sawmills.",
+     "Este estudio de pequeña escala apoya la toma de decisiones en aserraderos."
+    ]
+   ],
+   "tip": "Si no entiendes un grupo largo, busca el último sustantivo: ese es «de qué se habla».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D34-RR",
+   "type": "text",
+   "title": "Title and keywords",
+   "body": "Ana and Mark discussed the title of the paper. The first version was «A study about how small sawmills use energy and how the schedule of production can reduce it». Mark said it was too long. The final title is «Energy use reduction through production schedule changes in small-scale sawmills». The keywords are: energy efficiency, production scheduling, data collection, decision-making and cost-effective tools.",
+   "translation_es": "Ana y Mark discutieron el título del artículo. La primera versión era «Un estudio sobre cómo los aserraderos pequeños usan energía y cómo la programación de la producción puede reducirla». Mark dijo que era demasiado largo. El título final es «Reducción del uso de energía mediante cambios en la programación de la producción en aserraderos de pequeña escala». Las palabras clave son: eficiencia energética, programación de la producción, recolección de datos, toma de decisiones y herramientas costo-eficientes.",
+   "glossary": [
+    [
+     "through",
+     "mediante, a través de"
+    ],
+    [
+     "keywords",
+     "palabras clave"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D34.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D34-RV"
+   ],
+   "activities": [
+    {
+     "id": "D34.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] is measured every hour.  (2) This is a small [[2]].  (3) Each [[3]] takes one minute.  (4) The solution is [[4]].  (5) This is a [[5]] study.  (6) [[6]] were interviewed.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "energy use"
+       ],
+       "hint": "Significa «uso de energía»."
+      },
+      "2": {
+       "accept": [
+        "improvement"
+       ],
+       "hint": "Significa «mejora (improve)»."
+      },
+      "3": {
+       "accept": [
+        "measurement"
+       ],
+       "hint": "Significa «medición (measure)»."
+      },
+      "4": {
+       "accept": [
+        "cost-effective"
+       ],
+       "hint": "Significa «costo-eficiente, rentable»."
+      },
+      "5": {
+       "accept": [
+        "small-scale"
+       ],
+       "hint": "Significa «de pequeña escala»."
+      },
+      "6": {
+       "accept": [
+        "night-shift workers"
+       ],
+       "hint": "Significa «trabajadores del turno de noche»."
+      }
+     }
+    },
+    {
+     "id": "D34.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «toma de decisiones»",
+     "accept": [
+      "decision-making"
+     ],
+     "hint": "Empieza con «de…» · Ejemplo: La herramienta apoya la toma de decisiones."
+    },
+    {
+     "id": "D34.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «reducción (reduce)»",
+     "accept": [
+      "reduction"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: Observamos una reducción de costos."
+    },
+    {
+     "id": "D34.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «análisis (analyse)»",
+     "accept": [
+      "analysis"
+     ],
+     "hint": "Empieza con «an…» · Ejemplo: El análisis se hizo en Python."
+    },
+    {
+     "id": "D34.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «programación de la producción»",
+     "accept": [
+      "production schedule"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: La programación de la producción cambia cada semana."
+    },
+    {
+     "id": "D34.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «recolección de datos»",
+     "accept": [
+      "data collection"
+     ],
+     "hint": "Empieza con «da…» · Ejemplo: La recolección de datos tomó seis meses."
+    },
+    {
+     "id": "D34.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «implementación»",
+     "accept": [
+      "implementation"
+     ],
+     "hint": "Empieza con «im…» · Ejemplo: La implementación fue simple."
+    },
+    {
+     "id": "D34.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The tool supports decision-making.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The tool supports decision-making."
+    }
+   ]
+  },
+  {
+   "id": "D34.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Grupos nominales y nominalización",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D34-RG"
+   ],
+   "activities": [
+    {
+     "id": "D34.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) «uso de energía» = energy [[1]]  (2) «programación de la producción» = production [[2]]  (3) reduce → [[3]] (sustantivo)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "use"
+       ],
+       "hint": "el sustantivo principal va al final"
+      },
+      "2": {
+       "accept": [
+        "schedule"
+       ]
+      },
+      "3": {
+       "accept": [
+        "reduction"
+       ],
+       "hint": "-tion"
+      }
+     }
+    },
+    {
+     "id": "D34.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) improve → [[1]] (sustantivo)  (2) «período de recolección de datos» = data collection [[2]]  (3) «de pequeña escala» = small-[[3]]",
+     "gaps": {
+      "1": {
+       "accept": [
+        "improvement"
+       ],
+       "hint": "-ment"
+      },
+      "2": {
+       "accept": [
+        "period"
+       ]
+      },
+      "3": {
+       "accept": [
+        "scale"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D34.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué significa «energy use reduction strategy»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Estrategia de reducción del uso de energía"
+      },
+      {
+       "id": "b",
+       "text": "Energía de la estrategia de uso reducido"
+      }
+     ],
+     "answer": "a",
+     "explanation": "derecha a izquierda"
+    },
+    {
+     "id": "D34.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "a costs reduction"
+      },
+      {
+       "id": "b",
+       "text": "a cost reduction"
+      }
+     ],
+     "answer": "b",
+     "explanation": "el modificador va sin plural"
+    },
+    {
+     "id": "D34.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres grupos nominales de tu área en inglés (por ejemplo «sistema de gestión de calidad» = quality management system) y úsalos en una oración.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "system",
+        "management",
+        "analysis",
+        "reduction",
+        "use",
+        "process",
+        "schedule"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D34.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Títulos técnicos",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D34.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Títulos técnicos: escucha sin leer y responde.",
+     "audio": {
+      "text": "Here are three titles. One: energy use reduction in small-scale sawmills. Two: a cost-effective production scheduling tool. Three: data collection methods for night-shift workers. Remember: the main noun is at the end.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "Here are three titles. One: energy use reduction in small-scale sawmills. Two: a cost-effective production scheduling tool. Three: data collection methods for night-shift workers. Remember: the main noun is at the end.",
+     "translation_es": "Aquí hay tres títulos. Uno: reducción del uso de energía en aserraderos de pequeña escala. Dos: una herramienta costo-eficiente de programación de la producción. Tres: métodos de recolección de datos para trabajadores del turno de noche. Recuerda: el sustantivo principal está al final.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "En «a cost-effective production scheduling tool», ¿qué es lo principal?",
+       "label": "En «a cost-effective production scheduling tool», ¿qué es lo principal?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El costo"
+        },
+        {
+         "id": "b",
+         "text": "La herramienta (tool)"
+        },
+        {
+         "id": "c",
+         "text": "La producción"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué significa «data collection methods»?",
+       "label": "¿Qué significa «data collection methods»?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Métodos de recolección de datos"
+        },
+        {
+         "id": "b",
+         "text": "Datos de métodos recolectados"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Dónde está el sustantivo principal?",
+       "label": "¿Dónde está el sustantivo principal?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Al principio"
+        },
+        {
+         "id": "b",
+         "text": "Al final"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D34.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Remember: the main noun is at the end.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "Remember: the main noun is at the end."
+    }
+   ]
+  },
+  {
+   "id": "D34.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Title and keywords",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D34-RR"
+   ],
+   "activities": [
+    {
+     "id": "D34.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué cambiaron el título?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Era demasiado largo"
+      },
+      {
+       "id": "b",
+       "text": "Tenía errores de datos"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D34.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué técnica usa el título final?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Grupos nominales"
+      },
+      {
+       "id": "b",
+       "text": "Preguntas"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D34.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál NO es una palabra clave?",
+     "options": [
+      {
+       "id": "a",
+       "text": "energy efficiency"
+      },
+      {
+       "id": "b",
+       "text": "decision-making"
+      },
+      {
+       "id": "c",
+       "text": "marketing strategy"
+      }
+     ],
+     "answer": "c"
+    }
+   ]
+  },
+  {
+   "id": "D34.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D34.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Ana and Mark discussed the title of the paper. The first version was «A study about how small sawmills use energy and how the schedule of production can reduce it».",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Ana and Mark discussed the title of the paper.",
+       "The first version was «A study about how small sawmills use energy and how the schedule of production can reduce it»."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D34.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Di en voz alta el título de un trabajo tuyo en inglés usando grupos nominales, y explica en 30 s qué significa cada parte.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "energy use",
+        "production schedule",
+        "data collection",
+        "reduction",
+        "improvement",
+        "measurement",
+        "analysis",
+        "implementation",
+        "decision-making",
+        "cost-effective",
+        "small-scale",
+        "night-shift workers"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D34.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D34.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un título (con grupo nominal) y 5 palabras clave para un trabajo tuyo, más dos oraciones con nominalizaciones (reduction, analysis, improvement…).",
+     "min_words": 25,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "energy use",
+        "production schedule",
+        "data collection",
+        "reduction",
+        "improvement",
+        "measurement",
+        "analysis",
+        "implementation",
+        "decision-making",
+        "cost-effective",
+        "small-scale",
+        "night-shift workers"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "system",
+        "management",
+        "analysis",
+        "reduction",
+        "use",
+        "process",
+        "schedule"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

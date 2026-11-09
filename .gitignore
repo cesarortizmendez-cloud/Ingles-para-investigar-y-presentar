@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Secretos y datos locales (NUNCA subir)
+.env
+.env.*
+!.env.example
+db.sqlite3
+
+# Generados
+staticfiles/
+.vercel
+
+# Archivos de transferencia y respaldos locales
+_to_delete/
+*.zip

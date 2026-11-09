@@ -1,0 +1,682 @@
+{
+ "id": "D14",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Repaso semana 2: contar la historia del proyecto",
+ "day": 14,
+ "week": 2,
+ "day_type": "repaso",
+ "intro": "Mezclas todos los tiempos pasados de la semana y cuentas en dos minutos la historia de un proyecto.",
+ "objectives": [
+  {
+   "id": "D14-O1",
+   "text": "Recordar sin mirar el vocabulario de la semana (meta: 70 %)."
+  },
+  {
+   "id": "D14-O2",
+   "text": "Elegir entre pasado simple, pasado continuo y present perfect."
+  },
+  {
+   "id": "D14-O3",
+   "text": "Contar la historia de un proyecto en 90–120 segundos."
+  }
+ ],
+ "language_focus": {
+  "lexis": [],
+  "grammar": [],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D14-RR",
+   "type": "text",
+   "title": "Ana's email to Mark",
+   "body": "Dear Mark, thank you for your message. Our project started two years ago. We chose three sawmills and installed ten sensors. In June, while we were collecting data, we had a power cut and two sensors failed, but we fixed the problem. So far we have finished the first analysis, and we have found that machines use more energy per unit at night. We haven't published yet, but I have sent an abstract to the conference in Boston. Best wishes, Ana.",
+   "translation_es": "Estimado Mark: gracias por tu mensaje. Nuestro proyecto empezó hace dos años. Elegimos tres aserraderos e instalamos diez sensores. En junio, mientras recolectábamos datos, tuvimos un corte de luz y fallaron dos sensores, pero resolvimos el problema. Hasta ahora hemos terminado el primer análisis y hemos encontrado que las máquinas usan más energía por unidad de noche. Todavía no hemos publicado, pero envié un resumen al congreso en Boston. Saludos cordiales, Ana.",
+   "glossary": [
+    [
+     "Dear",
+     "Estimado/a (en correos)"
+    ],
+    [
+     "Best wishes",
+     "Saludos cordiales"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D14.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Repaso acumulado de vocabulario",
+   "resources": [],
+   "intro": "Sin lista: recupera de memoria. Lo que falles volverá mañana en el repaso espaciado.",
+   "activities": [
+    {
+     "id": "D14.1.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso acumulado: completa con palabras de la semana (sin mirar).",
+     "text": "(1) We [[1]] three sawmills.  (2) It is important to [[2]] data every day.  (3) [[3]], I was a planning engineer.  (4) [[4]] you use a survey?  (5) Diego is doing a [[5]].  (6) We [[6]] a clear pattern.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "chose"
+       ],
+       "hint": "Significa «eligió, elegimos (choose)»."
+      },
+      "2": {
+       "accept": [
+        "collect"
+       ],
+       "hint": "Significa «recolectar, reunir»."
+      },
+      "3": {
+       "accept": [
+        "previously"
+       ],
+       "hint": "Significa «anteriormente»."
+      },
+      "4": {
+       "accept": [
+        "did"
+       ],
+       "hint": "Significa «auxiliar del pasado (preguntas)»."
+      },
+      "5": {
+       "accept": [
+        "master's degree"
+       ],
+       "hint": "Significa «magíster»."
+      },
+      "6": {
+       "accept": [
+        "found"
+       ],
+       "hint": "Significa «encontró, encontramos (find)»."
+      }
+     }
+    },
+    {
+     "id": "D14.1.a2",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «empezar, comenzar»",
+     "accept": [
+      "start"
+     ],
+     "hint": "Ejemplo: Queríamos empezar en marzo."
+    },
+    {
+     "id": "D14.1.a3",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cuando»",
+     "accept": [
+      "when"
+     ],
+     "hint": "Ejemplo: Se cortó la luz cuando estábamos probando el modelo."
+    },
+    {
+     "id": "D14.1.a4",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «patrón»",
+     "accept": [
+      "pattern"
+     ],
+     "hint": "Ejemplo: Hay un patrón en los datos."
+    },
+    {
+     "id": "D14.1.a5",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «resolver»",
+     "accept": [
+      "solve"
+     ],
+     "hint": "Ejemplo: Queríamos resolver el problema rápido."
+    },
+    {
+     "id": "D14.1.a6",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «escribió, escribimos (write)»",
+     "accept": [
+      "wrote"
+     ],
+     "hint": "Ejemplo: Diego escribió el primer informe."
+    },
+    {
+     "id": "D14.1.a7",
+     "type": "short_text",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «de repente»",
+     "accept": [
+      "suddenly"
+     ],
+     "hint": "Ejemplo: De repente los datos se detuvieron."
+    }
+   ]
+  },
+  {
+   "id": "D14.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Repaso mixto de gramática",
+   "intro": "Mezcla de todo lo de la semana: así se aprende a elegir la forma correcta, no solo a repetirla.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D14.2.a1",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) They [[1]] ten sensors. (install)  (2) The team [[2]] a meeting with the managers. (have)  (3) They didn't [[3]] to the survey. (respond)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "installed"
+       ],
+       "hint": "-ed"
+      },
+      "2": {
+       "accept": [
+        "had"
+       ]
+      },
+      "3": {
+       "accept": [
+        "respond"
+       ],
+       "hint": "verbo base"
+      }
+     }
+    },
+    {
+     "id": "D14.2.a2",
+     "type": "cloze",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "Repaso mixto de la gramática de la semana.",
+     "text": "(1) A sensor [[1]] while they were working. (fail)  (2) Diego has [[2]] finished his thesis. (ya)  (3) Previously, I [[3]] a planning engineer. (be)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "failed"
+       ],
+       "hint": "acción corta → pasado simple"
+      },
+      "2": {
+       "accept": [
+        "already"
+       ]
+      },
+      "3": {
+       "accept": [
+        "was"
+       ],
+       "hint": "terminado → was"
+      }
+     }
+    },
+    {
+     "id": "D14.2.a3",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«Empezamos hace dos años»",
+     "options": [
+      {
+       "id": "a",
+       "text": "We started ago two years."
+      },
+      {
+       "id": "b",
+       "text": "We started two years ago."
+      },
+      {
+       "id": "c",
+       "text": "We start two years ago."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D14.2.a4",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We finded a pattern."
+      },
+      {
+       "id": "b",
+       "text": "We found a pattern."
+      },
+      {
+       "id": "c",
+       "text": "We find a pattern yesterday."
+      }
+     ],
+     "answer": "b",
+     "explanation": "find → found"
+    },
+    {
+     "id": "D14.2.a5",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We didn't expected it."
+      },
+      {
+       "id": "b",
+       "text": "We didn't expect it."
+      },
+      {
+       "id": "c",
+       "text": "We not expected it."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D14.2.a6",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué expresa «I was working when he called»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Dos acciones largas"
+      },
+      {
+       "id": "b",
+       "text": "Una acción en curso interrumpida por otra"
+      },
+      {
+       "id": "c",
+       "text": "Un hábito"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D14.2.a7",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "«Todavía no hemos terminado»",
+     "options": [
+      {
+       "id": "a",
+       "text": "We haven't finished yet."
+      },
+      {
+       "id": "b",
+       "text": "We didn't finish already."
+      },
+      {
+       "id": "c",
+       "text": "We have finished yet."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D14.2.a8",
+     "type": "choice",
+     "role": "check",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I have joined the university in 2015."
+      },
+      {
+       "id": "b",
+       "text": "I joined the university in 2015."
+      }
+     ],
+     "answer": "b",
+     "explanation": "fecha → pasado simple"
+    }
+   ]
+  },
+  {
+   "id": "D14.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La historia completa",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D14.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La historia completa: escucha sin leer y responde.",
+     "audio": {
+      "text": "Two years ago we received funding and contacted ten companies. Three of them agreed to take part. We were collecting data in June when a power cut damaged two sensors. We replaced them and continued. So far we have collected six months of data, and we have found a clear pattern between shifts.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Two years ago we received funding and contacted ten companies. Three of them agreed to take part. We were collecting data in June when a power cut damaged two sensors. We replaced them and continued. So far we have collected six months of data, and we have found a clear pattern between shifts.",
+     "translation_es": "Hace dos años recibimos financiamiento y contactamos a diez empresas. Tres aceptaron participar. Estábamos recolectando datos en junio cuando un corte de luz dañó dos sensores. Los reemplazamos y continuamos. Hasta ahora hemos recolectado seis meses de datos y hemos encontrado un patrón claro entre turnos.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué dañó los sensores?",
+       "label": "¿Qué dañó los sensores?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un corte de luz"
+        },
+        {
+         "id": "b",
+         "text": "El frío"
+        },
+        {
+         "id": "c",
+         "text": "Un operario"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué han encontrado hasta ahora?",
+       "label": "¿Qué han encontrado hasta ahora?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un patrón entre turnos"
+        },
+        {
+         "id": "b",
+         "text": "Un error en los datos"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "«We were collecting data when…» indica:",
+       "label": "«We were collecting data when…» indica:",
+       "options": [
+        {
+         "id": "a",
+         "text": "Una acción en curso interrumpida"
+        },
+        {
+         "id": "b",
+         "text": "Un hábito actual"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D14.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Three of them agreed to take part.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Three of them agreed to take part."
+    }
+   ]
+  },
+  {
+   "id": "D14.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Ana's email to Mark",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D14-RR"
+   ],
+   "activities": [
+    {
+     "id": "D14.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué encontraron en el primer análisis?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Que de noche se usa más energía por unidad"
+      },
+      {
+       "id": "b",
+       "text": "Que los sensores son caros"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D14.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Ya publicaron?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D14.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué envió Ana al congreso?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Un artículo completo"
+      },
+      {
+       "id": "b",
+       "text": "Un resumen (abstract)"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D14.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D14.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Dear Mark, thank you for your message. Our project started two years ago.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Dear Mark, thank you for your message.",
+       "Our project started two years ago."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D14.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta la historia de un proyecto tuyo en 90–120 segundos: cómo empezó (pasado simple), un imprevisto (was/were + -ing… when…) y lo logrado hasta ahora (have/has). Luego evalúate con la rúbrica.",
+     "min_seconds": 90,
+     "max_seconds": 120,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "chose",
+        "collect",
+        "previously",
+        "did",
+        "master's degree",
+        "found",
+        "start",
+        "when",
+        "pattern",
+        "solve",
+        "wrote",
+        "suddenly",
+        "funding",
+        "decide",
+        "PhD",
+        "got",
+        "delay",
+        "while",
+        "last year",
+        "position",
+        "replace",
+        "install",
+        "ever",
+        "fail"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ],
+     "rubric": "oral"
+    }
+   ]
+  },
+  {
+   "id": "D14.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D14.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un correo (80–120 palabras) a un colega extranjero contando la historia y el avance de tu proyecto, como el de Ana.",
+     "min_words": 70,
+     "max_words": 130,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "chose",
+        "collect",
+        "previously",
+        "did",
+        "master's degree",
+        "found",
+        "start",
+        "when",
+        "pattern",
+        "solve",
+        "wrote",
+        "suddenly",
+        "funding",
+        "decide",
+        "PhD",
+        "got",
+        "delay",
+        "while",
+        "last year",
+        "position",
+        "replace",
+        "install",
+        "ever",
+        "fail"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      }
+     ],
+     "rubric": "writing"
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

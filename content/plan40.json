@@ -1,0 +1,364 @@
+{
+ "title": "Plan intensivo de 40 días",
+ "intro": "Seis semanas, dos horas al día, todo explicado en español. Sigues la historia de Ana Rojas, una investigadora chilena que prepara su primera presentación en un congreso en Boston: así el vocabulario se repite de forma natural.",
+ "routine": [
+  {
+   "block": "Repaso espaciado",
+   "minutes": 15,
+   "what": "Lo de días anteriores vuelve en 1, 3, 7, 14 y 30 días. Siempre primero."
+  },
+  {
+   "block": "Vocabulario",
+   "minutes": 25,
+   "what": "12 palabras o expresiones nuevas: escuchar, repetir y recordar sin mirar."
+  },
+  {
+   "block": "Gramática",
+   "minutes": 25,
+   "what": "Una cápsula en español, ejemplos con audio y práctica."
+  },
+  {
+   "block": "Escucha",
+   "minutes": 15,
+   "what": "Un audio breve: primero sin texto, luego transcripción y traducción."
+  },
+  {
+   "block": "Lectura",
+   "minutes": 20,
+   "what": "Un texto con audio completo, palabras de apoyo y traducción opcional."
+  },
+  {
+   "block": "Habla",
+   "minutes": 15,
+   "what": "Imitar el audio (shadowing) y luego hablar con tus palabras."
+  },
+  {
+   "block": "Escritura",
+   "minutes": 10,
+   "what": "Un texto corto usando las palabras y la gramática del día."
+  }
+ ],
+ "method_note": "Por qué así: practicar en días distintos ayuda a recordar más que repetir todo el mismo día; una explicación breve y explícita de la gramática funciona mejor que esperar a descubrirla sola; y los textos usan sobre todo palabras ya vistas, porque se entiende y se aprende mejor cuando casi todas las palabras son conocidas.",
+ "weeks": [
+  {
+   "n": 1,
+   "title": "Quién soy y qué hago",
+   "focus": "Verbo to be, presente simple y continuo, preguntas, números y comparaciones."
+  },
+  {
+   "n": 2,
+   "title": "Cómo empezó el proyecto",
+   "focus": "Pasado simple (regular e irregular), pasado continuo y present perfect."
+  },
+  {
+   "n": 3,
+   "title": "Cómo se hizo: la voz pasiva",
+   "focus": "Pasiva en presente, pasado, con modales y en present perfect; métodos de investigación."
+  },
+  {
+   "n": 4,
+   "title": "Qué se encontró",
+   "focus": "Futuro, modales de cautela, tendencias y porcentajes, contables/incontables y artículos."
+  },
+  {
+   "n": 5,
+   "title": "Qué significa",
+   "focus": "Oraciones relativas, conectores de contraste y causa, condicionales y grupos nominales."
+  },
+  {
+   "n": 6,
+   "title": "Presentarlo en público",
+   "focus": "Señalizar una presentación, explicar gráficos, responder preguntas y citar a otros."
+  }
+ ],
+ "outcomes": [
+  "Presentarte y explicar tu trabajo en inglés durante 2–3 minutos con notas breves.",
+  "Leer un abstract sencillo e identificar objetivo, método, resultado y limitación.",
+  "Reconocer y usar la voz pasiva y los tiempos principales al describir un método o un resultado.",
+  "Disponer de unas 400 palabras y expresiones académicas frecuentes en repaso espaciado.",
+  "Hacer una presentación breve (3–5 minutos) y responder preguntas simples, pidiendo aclaración cuando haga falta."
+ ],
+ "honesty": "En 40 días no se «aprende inglés» completo: es una base intensiva y medible. Las metas de arriba son alcanzables con unas 80 horas de práctica constante; la fluidez general requiere más tiempo y más práctica oral. El repaso espaciado sigue activo después del día 40.",
+ "days": [
+  {
+   "day": 1,
+   "code": "D01",
+   "week": 1,
+   "title": "Me presento: soy investigador/a",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 2,
+   "code": "D02",
+   "week": 1,
+   "title": "Lo que hago cada semana",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 3,
+   "code": "D03",
+   "week": 1,
+   "title": "Preguntar y responder sobre el trabajo",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 4,
+   "code": "D04",
+   "week": 1,
+   "title": "Lo que estoy haciendo ahora",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 5,
+   "code": "D05",
+   "week": 1,
+   "title": "Números, cantidades y datos",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 6,
+   "code": "D06",
+   "week": 1,
+   "title": "Comparar: más, menos, el mayor",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 7,
+   "code": "D07",
+   "week": 1,
+   "title": "Repaso semana 1 y mini presentación",
+   "type": "repaso"
+  },
+  {
+   "day": 8,
+   "code": "D08",
+   "week": 2,
+   "title": "Cómo empezó todo: pasado regular",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 9,
+   "code": "D09",
+   "week": 2,
+   "title": "Pasado irregular: los verbos clave de la investigación",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 10,
+   "code": "D10",
+   "week": 2,
+   "title": "Preguntar y negar en pasado",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 11,
+   "code": "D11",
+   "week": 2,
+   "title": "Lo que estaba pasando: pasado continuo",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 12,
+   "code": "D12",
+   "week": 2,
+   "title": "Experiencia y resultados: present perfect",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 13,
+   "code": "D13",
+   "week": 2,
+   "title": "¿Pasado simple o present perfect?",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 14,
+   "code": "D14",
+   "week": 2,
+   "title": "Repaso semana 2: contar la historia del proyecto",
+   "type": "repaso"
+  },
+  {
+   "day": 15,
+   "code": "D15",
+   "week": 3,
+   "title": "La voz pasiva: qué es y por qué domina en los papers",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 16,
+   "code": "D16",
+   "week": 3,
+   "title": "Pasiva en pasado: así se hizo el estudio",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 17,
+   "code": "D17",
+   "week": 3,
+   "title": "Participios irregulares que aparecen en todos los papers",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 18,
+   "code": "D18",
+   "week": 3,
+   "title": "Pasiva con modales: can be, should be, must be",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 19,
+   "code": "D19",
+   "week": 3,
+   "title": "Pasiva en present perfect: has been / have been",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 20,
+   "code": "D20",
+   "week": 3,
+   "title": "Activa o pasiva: cuándo usar cada una y el agente «by»",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 21,
+   "code": "D21",
+   "week": 3,
+   "title": "Repaso semana 3: explicar un método en voz pasiva",
+   "type": "repaso"
+  },
+  {
+   "day": 22,
+   "code": "D22",
+   "week": 4,
+   "title": "Planes y predicciones: will y be going to",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 23,
+   "code": "D23",
+   "week": 4,
+   "title": "Hablar con cautela: may, might, could",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 24,
+   "code": "D24",
+   "week": 4,
+   "title": "Verbos prudentes: suggest, indicate, appear",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 25,
+   "code": "D25",
+   "week": 4,
+   "title": "Tendencias y porcentajes: percent vs percentage points",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 26,
+   "code": "D26",
+   "week": 4,
+   "title": "Contables e incontables: data, research, information",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 27,
+   "code": "D27",
+   "week": 4,
+   "title": "Artículos: a, an, the y sin artículo",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 28,
+   "code": "D28",
+   "week": 4,
+   "title": "Repaso semana 4: presentar resultados con cautela",
+   "type": "repaso"
+  },
+  {
+   "day": 29,
+   "code": "D29",
+   "week": 5,
+   "title": "Oraciones relativas: which, that, who, where",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 30,
+   "code": "D30",
+   "week": 5,
+   "title": "Contrastar ideas: however, although, while, whereas",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 31,
+   "code": "D31",
+   "week": 5,
+   "title": "Causa y efecto: because, due to, therefore, as a result",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 32,
+   "code": "D32",
+   "week": 5,
+   "title": "Condicionales reales: if + presente",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 33,
+   "code": "D33",
+   "week": 5,
+   "title": "Situaciones hipotéticas: el segundo condicional",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 34,
+   "code": "D34",
+   "week": 5,
+   "title": "Grupos nominales: cómo leer «energy use reduction strategy»",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 35,
+   "code": "D35",
+   "week": 5,
+   "title": "Repaso semana 5: escribir una discusión",
+   "type": "repaso"
+  },
+  {
+   "day": 36,
+   "code": "D36",
+   "week": 6,
+   "title": "Organizar una presentación: frases de señalización",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 37,
+   "code": "D37",
+   "week": 6,
+   "title": "Explicar un gráfico en voz alta",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 38,
+   "code": "D38",
+   "week": 6,
+   "title": "Responder preguntas: aclarar, ganar tiempo y reconocer límites",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 39,
+   "code": "D39",
+   "week": 6,
+   "title": "Citar a otros: according to, X found that, X argues",
+   "type": "aprendizaje"
+  },
+  {
+   "day": 40,
+   "code": "D40",
+   "week": 6,
+   "title": "Día 40: tu presentación final",
+   "type": "final"
+  }
+ ]
+}

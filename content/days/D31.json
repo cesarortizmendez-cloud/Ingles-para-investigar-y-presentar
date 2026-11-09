@@ -1,0 +1,895 @@
+{
+ "id": "D31",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Causa y efecto: because, due to, therefore, as a result",
+ "day": 31,
+ "week": 5,
+ "day_type": "aprendizaje",
+ "intro": "Hoy explicas por qué ocurre algo y qué consecuencias tiene, con los conectores más usados en textos técnicos.",
+ "objectives": [
+  {
+   "id": "D31-O1",
+   "text": "Usar because / because of / due to correctamente."
+  },
+  {
+   "id": "D31-O2",
+   "text": "Expresar consecuencias con therefore / as a result / so."
+  },
+  {
+   "id": "D31-O3",
+   "text": "Escribir una cadena causa → efecto de tres pasos."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D31-LX01",
+    "form": "due to",
+    "meaning_es": "debido a",
+    "example": "The delay was due to a power cut.",
+    "example_es": "El retraso se debió a un corte de luz.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX02",
+    "form": "because of",
+    "meaning_es": "debido a, por (+ sustantivo)",
+    "example": "Costs rose because of the cold weather.",
+    "example_es": "Los costos subieron por el clima frío.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX03",
+    "form": "therefore",
+    "meaning_es": "por lo tanto",
+    "example": "Therefore, the schedule should change.",
+    "example_es": "Por lo tanto, la programación debería cambiar.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX04",
+    "form": "as a result",
+    "meaning_es": "como resultado",
+    "example": "As a result, costs fell by eight percent.",
+    "example_es": "Como resultado, los costos bajaron un ocho por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX05",
+    "form": "lead to",
+    "meaning_es": "llevar a, provocar",
+    "example": "Old machines can lead to higher costs.",
+    "example_es": "Las máquinas antiguas pueden provocar costos más altos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX06",
+    "form": "result in",
+    "meaning_es": "resultar en, dar como resultado",
+    "example": "The change could result in lower costs.",
+    "example_es": "El cambio podría resultar en costos más bajos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX07",
+    "form": "effect",
+    "meaning_es": "efecto",
+    "example": "The effect was small but clear.",
+    "example_es": "El efecto fue pequeño pero claro.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX08",
+    "form": "impact",
+    "meaning_es": "impacto",
+    "example": "The impact on workers was positive.",
+    "example_es": "El impacto en los trabajadores fue positivo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX09",
+    "form": "consequence",
+    "meaning_es": "consecuencia",
+    "example": "One consequence is higher energy use.",
+    "example_es": "Una consecuencia es un mayor uso de energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX10",
+    "form": "so that",
+    "meaning_es": "para que, de modo que",
+    "example": "We moved the work so that machines use less energy.",
+    "example_es": "Trasladamos el trabajo para que las máquinas usen menos energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX11",
+    "form": "thus",
+    "meaning_es": "así, de este modo",
+    "example": "Thus, the tool may help small companies.",
+    "example_es": "Así, la herramienta podría ayudar a empresas pequeñas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D31-LX12",
+    "form": "savings",
+    "meaning_es": "ahorro(s)",
+    "example": "The savings were about eight percent.",
+    "example_es": "El ahorro fue de alrededor de un ocho por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D31-G1",
+    "topic": "Conectores de causa y consecuencia"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D31-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "due to",
+     "meaning_es": "debido a",
+     "example": "The delay was due to a power cut.",
+     "example_es": "El retraso se debió a un corte de luz."
+    },
+    {
+     "form": "because of",
+     "meaning_es": "debido a, por (+ sustantivo)",
+     "example": "Costs rose because of the cold weather.",
+     "example_es": "Los costos subieron por el clima frío."
+    },
+    {
+     "form": "therefore",
+     "meaning_es": "por lo tanto",
+     "example": "Therefore, the schedule should change.",
+     "example_es": "Por lo tanto, la programación debería cambiar."
+    },
+    {
+     "form": "as a result",
+     "meaning_es": "como resultado",
+     "example": "As a result, costs fell by eight percent.",
+     "example_es": "Como resultado, los costos bajaron un ocho por ciento."
+    },
+    {
+     "form": "lead to",
+     "meaning_es": "llevar a, provocar",
+     "example": "Old machines can lead to higher costs.",
+     "example_es": "Las máquinas antiguas pueden provocar costos más altos."
+    },
+    {
+     "form": "result in",
+     "meaning_es": "resultar en, dar como resultado",
+     "example": "The change could result in lower costs.",
+     "example_es": "El cambio podría resultar en costos más bajos."
+    },
+    {
+     "form": "effect",
+     "meaning_es": "efecto",
+     "example": "The effect was small but clear.",
+     "example_es": "El efecto fue pequeño pero claro."
+    },
+    {
+     "form": "impact",
+     "meaning_es": "impacto",
+     "example": "The impact on workers was positive.",
+     "example_es": "El impacto en los trabajadores fue positivo."
+    },
+    {
+     "form": "consequence",
+     "meaning_es": "consecuencia",
+     "example": "One consequence is higher energy use.",
+     "example_es": "Una consecuencia es un mayor uso de energía."
+    },
+    {
+     "form": "so that",
+     "meaning_es": "para que, de modo que",
+     "example": "We moved the work so that machines use less energy.",
+     "example_es": "Trasladamos el trabajo para que las máquinas usen menos energía."
+    },
+    {
+     "form": "thus",
+     "meaning_es": "así, de este modo",
+     "example": "Thus, the tool may help small companies.",
+     "example_es": "Así, la herramienta podría ayudar a empresas pequeñas."
+    },
+    {
+     "form": "savings",
+     "meaning_es": "ahorro(s)",
+     "example": "The savings were about eight percent.",
+     "example_es": "El ahorro fue de alrededor de un ocho por ciento."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D31-RG",
+   "type": "capsule",
+   "title": "Conectores de causa y consecuencia",
+   "explain": "CAUSA con oración: because / since + sujeto + verbo → «because the weather was cold».\nCAUSA con sustantivo: because of / due to + sustantivo → «because of the cold weather», «due to a power cut».\nCONSECUENCIA entre oraciones: Therefore, / As a result, / Thus, + oración (con coma).\nVerbos de causa-efecto: X leads to Y · X results in Y · Y is due to X.\nError típico: «because the cold weather» (falta of) → because of the cold weather.",
+   "form": [
+    [
+     "because / since + oración",
+     "because prices are rising"
+    ],
+    [
+     "because of / due to + sustantivo",
+     "due to a power cut"
+    ],
+    [
+     "Therefore, / As a result, / Thus, + oración",
+     "As a result, costs fell."
+    ],
+    [
+     "X leads to / results in Y",
+     "Old machines lead to higher costs."
+    ]
+   ],
+   "examples": [
+    [
+     "Energy use was higher because the weather was cold.",
+     "El uso de energía fue mayor porque el clima estaba frío."
+    ],
+    [
+     "The delay was due to a power cut.",
+     "El retraso se debió a un corte de luz."
+    ],
+    [
+     "The new schedule was used in May. As a result, costs fell by eight percent.",
+     "La nueva programación se usó en mayo. Como resultado, los costos bajaron un ocho por ciento."
+    ]
+   ],
+   "tip": "En un paper, «due to» y «therefore» son más formales que «because of» y «so».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D31-RR",
+   "type": "text",
+   "title": "Pilot test results",
+   "body": "The pilot test was conducted in one sawmill from March to May. Since night hours are colder, part of the drying work was moved to the day shift. As a result, energy use per unit fell by about eight percent. This effect was due to warmer temperatures and, possibly, to the experience of day-shift operators. The change did not result in lower output. Therefore, the new schedule could lead to real savings for small companies. Thus, the tool may have a positive impact on the sector.",
+   "translation_es": "La prueba piloto se realizó en un aserradero de marzo a mayo. Ya que las horas nocturnas son más frías, parte del trabajo de secado se trasladó al turno de día. Como resultado, el uso de energía por unidad bajó alrededor de un ocho por ciento. Este efecto se debió a temperaturas más cálidas y, posiblemente, a la experiencia de los operarios del turno de día. El cambio no resultó en menor producción. Por lo tanto, la nueva programación podría generar ahorros reales para empresas pequeñas. Así, la herramienta podría tener un impacto positivo en el sector.",
+   "glossary": [
+    [
+     "drying work",
+     "trabajo de secado"
+    ],
+    [
+     "day-shift operators",
+     "operarios del turno de día"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D31.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D31-RV"
+   ],
+   "activities": [
+    {
+     "id": "D31.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) Costs rose [[1]] the cold weather.  (2) [[2]], the schedule should change.  (3) [[3]], costs fell by eight percent.  (4) The [[4]] on workers was positive.  (5) One [[5]] is higher energy use.  (6) The [[6]] were about eight percent.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "because of"
+       ],
+       "hint": "Significa «debido a, por (+ sustantivo)»."
+      },
+      "2": {
+       "accept": [
+        "therefore"
+       ],
+       "hint": "Significa «por lo tanto»."
+      },
+      "3": {
+       "accept": [
+        "as a result"
+       ],
+       "hint": "Significa «como resultado»."
+      },
+      "4": {
+       "accept": [
+        "impact"
+       ],
+       "hint": "Significa «impacto»."
+      },
+      "5": {
+       "accept": [
+        "consequence"
+       ],
+       "hint": "Significa «consecuencia»."
+      },
+      "6": {
+       "accept": [
+        "savings"
+       ],
+       "hint": "Significa «ahorro(s)»."
+      }
+     }
+    },
+    {
+     "id": "D31.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «llevar a, provocar»",
+     "accept": [
+      "lead to"
+     ],
+     "hint": "Empieza con «le…» · Ejemplo: Las máquinas antiguas pueden provocar costos más altos."
+    },
+    {
+     "id": "D31.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «efecto»",
+     "accept": [
+      "effect"
+     ],
+     "hint": "Empieza con «ef…» · Ejemplo: El efecto fue pequeño pero claro."
+    },
+    {
+     "id": "D31.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «debido a»",
+     "accept": [
+      "due to"
+     ],
+     "hint": "Empieza con «du…» · Ejemplo: El retraso se debió a un corte de luz."
+    },
+    {
+     "id": "D31.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «para que, de modo que»",
+     "accept": [
+      "so that"
+     ],
+     "hint": "Empieza con «so…» · Ejemplo: Trasladamos el trabajo para que las máquinas usen menos energía."
+    },
+    {
+     "id": "D31.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «así, de este modo»",
+     "accept": [
+      "thus"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: Así, la herramienta podría ayudar a empresas pequeñas."
+    },
+    {
+     "id": "D31.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «resultar en, dar como resultado»",
+     "accept": [
+      "result in"
+     ],
+     "hint": "Empieza con «re…» · Ejemplo: El cambio podría resultar en costos más bajos."
+    },
+    {
+     "id": "D31.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Old machines can lead to higher costs.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Old machines can lead to higher costs."
+    }
+   ]
+  },
+  {
+   "id": "D31.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Conectores de causa y consecuencia",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D31-RG"
+   ],
+   "activities": [
+    {
+     "id": "D31.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Costs rose [[1]] of the cold weather.  (2) The delay was [[2]] to a power cut.  (3) Prices are rising. [[3]], efficiency matters. (por lo tanto)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "because"
+       ],
+       "hint": "because of + sustantivo"
+      },
+      "2": {
+       "accept": [
+        "due"
+       ],
+       "hint": "due to"
+      },
+      "3": {
+       "accept": [
+        "therefore",
+        "thus"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D31.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) As a [[1]], costs fell by eight percent.  (2) Old machines can [[2]] to higher costs. (llevar a)  (3) Energy use was higher [[3]] the weather was cold. (porque)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "result"
+       ]
+      },
+      "2": {
+       "accept": [
+        "lead"
+       ],
+       "hint": "lead to"
+      },
+      "3": {
+       "accept": [
+        "because",
+        "since",
+        "as"
+       ],
+       "hint": "+ oración"
+      }
+     }
+    },
+    {
+     "id": "D31.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Costs rose because the cold weather."
+      },
+      {
+       "id": "b",
+       "text": "Costs rose because of the cold weather."
+      }
+     ],
+     "answer": "b",
+     "explanation": "sustantivo → because of"
+    },
+    {
+     "id": "D31.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál expresa una consecuencia?",
+     "options": [
+      {
+       "id": "a",
+       "text": "due to"
+      },
+      {
+       "id": "b",
+       "text": "as a result"
+      },
+      {
+       "id": "c",
+       "text": "because of"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D31.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe una cadena de causa y efecto de tu trabajo en tres oraciones (because/due to → therefore/as a result).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "because",
+        "due to",
+        "therefore",
+        "as a result",
+        "leads to",
+        "results in",
+        "thus"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D31.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Los resultados de la prueba piloto",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D31.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Los resultados de la prueba piloto: escucha sin leer y responde.",
+     "audio": {
+      "text": "In the pilot test, part of the work moved from the night shift to the day shift. As a result, energy use per unit fell by eight percent. The savings were due to two factors: warmer hours and more experienced operators. Therefore, we recommend the new schedule.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "In the pilot test, part of the work moved from the night shift to the day shift. As a result, energy use per unit fell by eight percent. The savings were due to two factors: warmer hours and more experienced operators. Therefore, we recommend the new schedule.",
+     "translation_es": "En la prueba piloto, parte del trabajo se trasladó del turno de noche al de día. Como resultado, el uso de energía por unidad bajó un ocho por ciento. El ahorro se debió a dos factores: horas más cálidas y operarios con más experiencia. Por lo tanto, recomendamos la nueva programación.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué cambió en la prueba piloto?",
+       "label": "¿Qué cambió en la prueba piloto?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Se trasladó trabajo del turno de noche al de día"
+        },
+        {
+         "id": "b",
+         "text": "Se compraron máquinas nuevas"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto bajó el uso de energía por unidad?",
+       "label": "¿Cuánto bajó el uso de energía por unidad?",
+       "options": [
+        {
+         "id": "a",
+         "text": "8 %"
+        },
+        {
+         "id": "b",
+         "text": "18 %"
+        },
+        {
+         "id": "c",
+         "text": "80 %"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿A qué se debió el ahorro?",
+       "label": "¿A qué se debió el ahorro?",
+       "options": [
+        {
+         "id": "a",
+         "text": "A horas más cálidas y operarios con más experiencia"
+        },
+        {
+         "id": "b",
+         "text": "A precios más bajos"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D31.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "As a result, energy use per unit fell by eight percent.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "As a result, energy use per unit fell by eight percent."
+    }
+   ]
+  },
+  {
+   "id": "D31.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Pilot test results",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D31-RR"
+   ],
+   "activities": [
+    {
+     "id": "D31.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué se trasladó trabajo al turno de día?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque las horas nocturnas son más frías"
+      },
+      {
+       "id": "b",
+       "text": "Porque los operarios lo pidieron"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D31.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Bajó la producción con el cambio?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«did not result in lower output»"
+    },
+    {
+     "id": "D31.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué palabra introduce la conclusión práctica?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Since"
+      },
+      {
+       "id": "b",
+       "text": "Therefore"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D31.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D31.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "The pilot test was conducted in one sawmill from March to May. Since night hours are colder, part of the drying work was moved to the day shift.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "The pilot test was conducted in one sawmill from March to May.",
+       "Since night hours are colder, part of the drying work was moved to the day shift."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D31.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en voz alta (30–60 s) la causa de un problema en tu trabajo y su consecuencia, usando because of / due to y as a result / therefore.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "due to",
+        "because of",
+        "therefore",
+        "as a result",
+        "lead to",
+        "result in",
+        "effect",
+        "impact",
+        "consequence",
+        "so that",
+        "thus",
+        "savings"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D31.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D31.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras explicando un resultado: causa (due to / because), consecuencia (as a result / therefore) y una recomendación.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "due to",
+        "because of",
+        "therefore",
+        "as a result",
+        "lead to",
+        "result in",
+        "effect",
+        "impact",
+        "consequence",
+        "so that",
+        "thus",
+        "savings"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "because",
+        "due to",
+        "therefore",
+        "as a result",
+        "leads to",
+        "results in",
+        "thus"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Privacidad y datos{% endblock %}
+{% block content %}
+<h1>Privacidad y datos</h1>
+<section class="card">
+  <h2>Qué se guarda</h2>
+  <ul>
+    <li>Tu perfil y preferencias.</li>
+    <li>{{ n_attempts }} intento{{ n_attempts|pluralize }} con respuestas, ayudas usadas y tiempo.</li>
+    <li>{{ n_recordings }} grabaci{{ n_recordings|pluralize:"ón,ones" }} de voz, guardadas en la base de datos de esta aplicación.
+      {{ shared }} con autorización para evaluador externo.</li>
+  </ul>
+  <p>El micrófono solo se activa cuando pulsas «Probar micrófono» o «Grabar». Las grabaciones no se envían a terceros
+  ni se reutilizan para otros fines sin una autorización separada, que puedes dar o retirar en el portafolio.
+  El reconocimiento de voz, si tu navegador lo ofrece, es un servicio del navegador (puede procesar audio en servidores de su fabricante).</p>
+  <p><a class="button ghost" href="{% url 'portfolio_export' %}">Exportar mi progreso (JSON)</a></p>
+</section>
+
+<section class="card warn">
+  <h2>Eliminar todas mis grabaciones</h2>
+  <p>Se conservan intentos y rúbricas, sin audio.</p>
+  <form method="post" action="{% url 'delete_recordings' %}">{% csrf_token %}
+    <label>Escribe ELIMINAR para confirmar <input type="text" name="confirm" autocomplete="off"></label>
+    <button type="submit" class="danger">Eliminar grabaciones</button>
+  </form>
+</section>
+
+<section class="card warn">
+  <h2>Eliminar mi cuenta</h2>
+  <p>Borra la cuenta y todos sus datos (perfil, intentos, grabaciones, repaso, rúbricas y diagnósticos). No se puede deshacer.</p>
+  <form method="post" action="{% url 'delete_account' %}">{% csrf_token %}
+    <label>Escribe ELIMINAR MI CUENTA <input type="text" name="confirm" autocomplete="off"></label>
+    <button type="submit" class="danger">Eliminar cuenta</button>
+  </form>
+</section>
+{% endblock %}

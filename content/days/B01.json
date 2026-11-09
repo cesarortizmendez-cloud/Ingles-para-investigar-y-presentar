@@ -1,0 +1,922 @@
+{
+ "id": "B01",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Hola: saludar y presentarte",
+ "day": 1,
+ "week": 1,
+ "day_type": "aprendizaje",
+ "intro": "Hoy conoces a Tomás Muñoz, un ingeniero chileno que llega a Boston, y aprendes a saludar, presentarte y despedirte con el verbo «to be».",
+ "objectives": [
+  {
+   "id": "B01-O1",
+   "text": "Saludar, presentarte y despedirte en una conversación breve."
+  },
+  {
+   "id": "B01-O2",
+   "text": "Usar I am, you are, he/she is con el sujeto siempre presente."
+  },
+  {
+   "id": "B01-O3",
+   "text": "Entender un saludo de bienvenida en el aeropuerto."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B01-LX01",
+    "form": "hello",
+    "meaning_es": "hola",
+    "example": "Hello, I am Tomás.",
+    "example_es": "Hola, soy Tomás.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX02",
+    "form": "good morning",
+    "meaning_es": "buenos días",
+    "example": "Good morning, Linda!",
+    "example_es": "¡Buenos días, Linda!",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX03",
+    "form": "goodbye",
+    "meaning_es": "adiós",
+    "example": "Goodbye and have a nice day.",
+    "example_es": "Adiós y que tengas un buen día.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX04",
+    "form": "see you later",
+    "meaning_es": "nos vemos, hasta luego",
+    "example": "I have a class now. See you later!",
+    "example_es": "Tengo clase ahora. ¡Nos vemos!",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX05",
+    "form": "nice to meet you",
+    "meaning_es": "encantado/a de conocerte",
+    "example": "Nice to meet you, Tomás.",
+    "example_es": "Encantada de conocerte, Tomás.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX06",
+    "form": "my name is",
+    "meaning_es": "me llamo, mi nombre es",
+    "example": "My name is Linda Carter.",
+    "example_es": "Me llamo Linda Carter.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX07",
+    "form": "how are you",
+    "meaning_es": "¿cómo estás?",
+    "example": "Hi, Linda. How are you today?",
+    "example_es": "Hola, Linda. ¿Cómo estás hoy?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX08",
+    "form": "fine",
+    "meaning_es": "bien",
+    "example": "I am fine, thanks.",
+    "example_es": "Estoy bien, gracias.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX09",
+    "form": "thank you",
+    "meaning_es": "gracias",
+    "example": "Thank you for your help.",
+    "example_es": "Gracias por tu ayuda.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX10",
+    "form": "please",
+    "meaning_es": "por favor",
+    "example": "A coffee, please.",
+    "example_es": "Un café, por favor.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX11",
+    "form": "sorry",
+    "meaning_es": "perdón, lo siento",
+    "example": "Sorry, I am late.",
+    "example_es": "Perdón, estoy atrasado.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B01-LX12",
+    "form": "excuse me",
+    "meaning_es": "disculpe (para llamar la atención)",
+    "example": "Excuse me, are you Mr. Muñoz?",
+    "example_es": "Disculpe, ¿es usted el señor Muñoz?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B01-G1",
+    "topic": "Pronombres personales y el verbo to be"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B01-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "hello",
+     "meaning_es": "hola",
+     "example": "Hello, I am Tomás.",
+     "example_es": "Hola, soy Tomás."
+    },
+    {
+     "form": "good morning",
+     "meaning_es": "buenos días",
+     "example": "Good morning, Linda!",
+     "example_es": "¡Buenos días, Linda!"
+    },
+    {
+     "form": "goodbye",
+     "meaning_es": "adiós",
+     "example": "Goodbye and have a nice day.",
+     "example_es": "Adiós y que tengas un buen día."
+    },
+    {
+     "form": "see you later",
+     "meaning_es": "nos vemos, hasta luego",
+     "example": "I have a class now. See you later!",
+     "example_es": "Tengo clase ahora. ¡Nos vemos!"
+    },
+    {
+     "form": "nice to meet you",
+     "meaning_es": "encantado/a de conocerte",
+     "example": "Nice to meet you, Tomás.",
+     "example_es": "Encantada de conocerte, Tomás."
+    },
+    {
+     "form": "my name is",
+     "meaning_es": "me llamo, mi nombre es",
+     "example": "My name is Linda Carter.",
+     "example_es": "Me llamo Linda Carter."
+    },
+    {
+     "form": "how are you",
+     "meaning_es": "¿cómo estás?",
+     "example": "Hi, Linda. How are you today?",
+     "example_es": "Hola, Linda. ¿Cómo estás hoy?"
+    },
+    {
+     "form": "fine",
+     "meaning_es": "bien",
+     "example": "I am fine, thanks.",
+     "example_es": "Estoy bien, gracias."
+    },
+    {
+     "form": "thank you",
+     "meaning_es": "gracias",
+     "example": "Thank you for your help.",
+     "example_es": "Gracias por tu ayuda."
+    },
+    {
+     "form": "please",
+     "meaning_es": "por favor",
+     "example": "A coffee, please.",
+     "example_es": "Un café, por favor."
+    },
+    {
+     "form": "sorry",
+     "meaning_es": "perdón, lo siento",
+     "example": "Sorry, I am late.",
+     "example_es": "Perdón, estoy atrasado."
+    },
+    {
+     "form": "excuse me",
+     "meaning_es": "disculpe (para llamar la atención)",
+     "example": "Excuse me, are you Mr. Muñoz?",
+     "example_es": "Disculpe, ¿es usted el señor Muñoz?"
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B01-RG",
+   "type": "capsule",
+   "title": "Pronombres personales y el verbo to be",
+   "explain": "Los pronombres sujeto son: I (yo), you (tú, usted, ustedes), he (él), she (ella), it (eso, para cosas), we (nosotros), they (ellos/ellas).\n«To be» significa ser o estar: I am, you are, he/she/it is, we are, they are.\nEn español decimos «Soy Tomás» sin sujeto; en inglés el sujeto es obligatorio: «I am Tomás». «I» va siempre con mayúscula.\nEn conversación se usan contracciones: I'm, you're, he's, she's, it's, we're, they're.",
+   "form": [
+    [
+     "I am · I'm",
+     "yo soy / estoy"
+    ],
+    [
+     "you are · you're",
+     "tú eres, usted es, ustedes son"
+    ],
+    [
+     "he / she / it is · he's, she's, it's",
+     "él / ella es; «it» para cosas"
+    ],
+    [
+     "we / they are · we're, they're",
+     "nosotros / ellos son"
+    ]
+   ],
+   "examples": [
+    [
+     "I am Tomás. I'm from Chile.",
+     "Soy Tomás. Soy de Chile."
+    ],
+    [
+     "She is my teacher.",
+     "Ella es mi profesora."
+    ],
+    [
+     "It is a big airport.",
+     "Es un aeropuerto grande."
+    ],
+    [
+     "We are friends.",
+     "Somos amigos."
+    ]
+   ],
+   "tip": "Error típico: «Am Tomás» o «Is my friend» → correcto: «I am Tomás», «He is my friend».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B01-RR",
+   "type": "text",
+   "title": "Tomás and Linda",
+   "body": "Tomás Muñoz is from Chile. He is an engineer and a teacher in Concepción. He is in Boston for a short course. Linda Carter is his contact at the university. She is very friendly. Tomás says, \"Hello, my name is Tomás. Nice to meet you.\" Linda says, \"Nice to meet you too. Welcome!\"",
+   "translation_es": "Tomás Muñoz es de Chile. Es ingeniero y profesor en Concepción. Está en Boston por un curso corto. Linda Carter es su contacto en la universidad. Ella es muy amable. Tomás dice: «Hola, me llamo Tomás. Encantado de conocerte». Linda dice: «Igualmente. ¡Bienvenido!».",
+   "glossary": [
+    [
+     "short course",
+     "curso corto"
+    ],
+    [
+     "friendly",
+     "amable, simpático/a"
+    ],
+    [
+     "says",
+     "dice"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B01.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B01-RV"
+   ],
+   "activities": [
+    {
+     "id": "B01.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]], I am Tomás.  (2) [[2]] and have a nice day.  (3) [[3]] Linda Carter.  (4) Hi, Linda. [[4]] today?  (5) [[5]] for your help.  (6) [[6]], are you Mr. Muñoz?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "hello"
+       ],
+       "hint": "Significa «hola»."
+      },
+      "2": {
+       "accept": [
+        "goodbye"
+       ],
+       "hint": "Significa «adiós»."
+      },
+      "3": {
+       "accept": [
+        "my name is"
+       ],
+       "hint": "Significa «me llamo, mi nombre es»."
+      },
+      "4": {
+       "accept": [
+        "how are you"
+       ],
+       "hint": "Significa «¿cómo estás?»."
+      },
+      "5": {
+       "accept": [
+        "thank you"
+       ],
+       "hint": "Significa «gracias»."
+      },
+      "6": {
+       "accept": [
+        "excuse me"
+       ],
+       "hint": "Significa «disculpe (para llamar la atención)»."
+      }
+     }
+    },
+    {
+     "id": "B01.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «bien»",
+     "accept": [
+      "fine"
+     ],
+     "hint": "Empieza con «fi…» · Ejemplo: Estoy bien, gracias."
+    },
+    {
+     "id": "B01.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «perdón, lo siento»",
+     "accept": [
+      "sorry"
+     ],
+     "hint": "Empieza con «so…» · Ejemplo: Perdón, estoy atrasado."
+    },
+    {
+     "id": "B01.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «buenos días»",
+     "accept": [
+      "good morning"
+     ],
+     "hint": "Empieza con «go…» · Ejemplo: ¡Buenos días, Linda!"
+    },
+    {
+     "id": "B01.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «encantado/a de conocerte»",
+     "accept": [
+      "nice to meet you"
+     ],
+     "hint": "Empieza con «ni…» · Ejemplo: Encantada de conocerte, Tomás."
+    },
+    {
+     "id": "B01.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «por favor»",
+     "accept": [
+      "please"
+     ],
+     "hint": "Empieza con «pl…» · Ejemplo: Un café, por favor."
+    },
+    {
+     "id": "B01.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «nos vemos, hasta luego»",
+     "accept": [
+      "see you later"
+     ],
+     "hint": "Empieza con «se…» · Ejemplo: Tengo clase ahora. ¡Nos vemos!"
+    },
+    {
+     "id": "B01.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "I am fine, thanks.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I am fine, thanks."
+    }
+   ]
+  },
+  {
+   "id": "B01.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Pronombres personales y el verbo to be",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B01-RG"
+   ],
+   "activities": [
+    {
+     "id": "B01.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] Tomás.  (2) She [[2]] my teacher.  (3) They [[3]] from Boston.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "am"
+       ],
+       "hint": "Con «I» siempre am."
+      },
+      "2": {
+       "accept": [
+        "is"
+       ],
+       "hint": "she → is."
+      },
+      "3": {
+       "accept": [
+        "are"
+       ],
+       "hint": "they → are."
+      }
+     }
+    },
+    {
+     "id": "B01.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] am an engineer.  (2) We [[2]] friends.  (3) Linda is American. [[3]] is from Boston.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "I"
+       ],
+       "hint": "El sujeto «yo» es I, con mayúscula."
+      },
+      "2": {
+       "accept": [
+        "are"
+       ],
+       "hint": "we → are."
+      },
+      "3": {
+       "accept": [
+        "she"
+       ],
+       "hint": "Linda → she."
+      }
+     }
+    },
+    {
+     "id": "B01.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál oración es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I is Tomás."
+      },
+      {
+       "id": "b",
+       "text": "I am Tomás."
+      },
+      {
+       "id": "c",
+       "text": "I are Tomás."
+      }
+     ],
+     "answer": "b",
+     "explanation": "Con «I» siempre se usa am."
+    },
+    {
+     "id": "B01.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cómo se dice «Ella es de Chile»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "She is from Chile."
+      },
+      {
+       "id": "b",
+       "text": "Is from Chile."
+      },
+      {
+       "id": "c",
+       "text": "She are from Chile."
+      }
+     ],
+     "answer": "a",
+     "explanation": "En inglés el sujeto no se omite y con she va is."
+    },
+    {
+     "id": "B01.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones: saluda, di tu nombre y de dónde eres (Hello… / My name is… / I am from…).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "my name is",
+        "i am",
+        "i'm"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B01.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: Bienvenida en el aeropuerto",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B01.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Bienvenida en el aeropuerto: escucha sin leer y responde.",
+     "audio": {
+      "text": "Excuse me, are you Tomás Muñoz? Yes, I am. Hello! My name is Linda Carter. Nice to meet you, Linda. Nice to meet you too. How are you? I am fine, thank you. Welcome to Boston!",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Excuse me, are you Tomás Muñoz? Yes, I am. Hello! My name is Linda Carter. Nice to meet you, Linda. Nice to meet you too. How are you? I am fine, thank you. Welcome to Boston!",
+     "translation_es": "Disculpe, ¿es usted Tomás Muñoz? Sí, soy yo. ¡Hola! Me llamo Linda Carter. Encantado de conocerte, Linda. Igualmente. ¿Cómo estás? Estoy bien, gracias. ¡Bienvenido a Boston!",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cómo se llama la mujer?",
+       "label": "¿Cómo se llama la mujer?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Ana Rojas"
+        },
+        {
+         "id": "b",
+         "text": "Linda Carter"
+        },
+        {
+         "id": "c",
+         "text": "Mary Smith"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cómo está Tomás?",
+       "label": "¿Cómo está Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Cansado"
+        },
+        {
+         "id": "b",
+         "text": "Bien"
+        },
+        {
+         "id": "c",
+         "text": "Enfermo"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«I am fine, thank you»."
+      },
+      {
+       "id": "q3",
+       "prompt": "¿A qué ciudad llega Tomás?",
+       "label": "¿A qué ciudad llega Tomás?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Boston"
+        },
+        {
+         "id": "b",
+         "text": "Londres"
+        },
+        {
+         "id": "c",
+         "text": "Santiago"
+        }
+       ],
+       "answer": "a",
+       "explanation": "«Welcome to Boston!»"
+      }
+     ]
+    },
+    {
+     "id": "B01.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "My name is Linda Carter.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "My name is Linda Carter."
+    }
+   ]
+  },
+  {
+   "id": "B01.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: Tomás and Linda",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B01-RR"
+   ],
+   "activities": [
+    {
+     "id": "B01.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿De dónde es Tomás?",
+     "options": [
+      {
+       "id": "a",
+       "text": "De Estados Unidos"
+      },
+      {
+       "id": "b",
+       "text": "De Chile"
+      },
+      {
+       "id": "c",
+       "text": "De España"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B01.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué está Tomás en Boston?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Por vacaciones"
+      },
+      {
+       "id": "b",
+       "text": "Por un curso corto"
+      },
+      {
+       "id": "c",
+       "text": "Por trabajo en una fábrica"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«He is in Boston for a short course»."
+    },
+    {
+     "id": "B01.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo es Linda?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Muy amable"
+      },
+      {
+       "id": "b",
+       "text": "Muy seria"
+      },
+      {
+       "id": "c",
+       "text": "Muy cansada"
+      }
+     ],
+     "answer": "a",
+     "explanation": "«She is very friendly»."
+    }
+   ]
+  },
+  {
+   "id": "B01.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B01.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Tomás Muñoz is from Chile. He is an engineer and a teacher in Concepción.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Tomás Muñoz is from Chile.",
+       "He is an engineer and a teacher in Concepción."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B01.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Saluda y preséntate en voz alta (20–40 s): Hello / Good morning, My name is…, I am from…, I am a/an…, Nice to meet you.",
+     "min_seconds": 20,
+     "max_seconds": 60,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "see you later",
+        "nice to meet you",
+        "my name is",
+        "how are you",
+        "fine",
+        "thank you",
+        "please",
+        "sorry",
+        "excuse me"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B01.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B01.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un mensaje corto (20–50 palabras) para presentarte a Linda: saludo, nombre, de dónde eres, tu trabajo y despedida.",
+     "min_words": 20,
+     "max_words": 60,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "hello",
+        "good morning",
+        "goodbye",
+        "see you later",
+        "nice to meet you",
+        "my name is",
+        "how are you",
+        "fine",
+        "thank you",
+        "please",
+        "sorry",
+        "excuse me"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "my name is",
+        "i am",
+        "i'm"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

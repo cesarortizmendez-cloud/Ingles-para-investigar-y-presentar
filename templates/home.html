@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<section class="programs" aria-label="Tus planes">
+  {% for p in overview %}
+  <article class="program-card{% if p.slug == prog.slug %} focus{% endif %}{% if p.finished %} finished{% endif %}">
+    <span class="week-tag">Paso {{ p.order }} · {{ p.short }}</span>
+    <h2>{{ p.name }}</h2>
+    <p class="small muted">{{ p.role }}</p>
+    <div class="pbar" role="img" aria-label="{{ p.done }} de {{ p.total }} días"><span style="width: {{ p.pct }}%"></span></div>
+    <p class="small"><strong>{{ p.done }}</strong>/{{ p.total }} días completados{% if p.finished %} · ✓ terminado{% endif %}</p>
+    {% if p.started %}
+      <p><a class="button green" href="{{ p.today_url }}">Ir al día {{ p.today_n }} de {{ p.total }} →</a></p>
+      <p class="small muted">{{ p.today_title }} · <a href="{{ p.calendar_url }}">calendario</a></p>
+    {% else %}
+      <p><a class="button ghost" href="{{ p.calendar_url }}">Ver y comenzar →</a></p>
+    {% endif %}
+  </article>
+  {% endfor %}
+  <article class="program-card soon">
+    <span class="week-tag">Paso 3 · Avanzado 20</span>
+    <h2>Plan avanzado de 20 días</h2>
+    <p class="small muted">Próximamente, para después del plan de 40 días.</p>
+  </article>
+</section>
+
+<h2 class="section-title">Avance: {{ prog.name|lower }}</h2>
+{% include "plan/_ring.html" %}
+
+<div class="cards">
+  <section class="card card-accent">
+    <h2>Repaso de hoy</h2>
+    <div class="kpi">{{ due }}</div>
+    {% if due %}
+      <p class="small muted">ítem{{ due|pluralize }} pendiente{{ due|pluralize }} · máximo 20 por día; el resto se reparte sin acumular deuda.</p>
+      <p><a class="button green" href="{% url 'review' %}">Repasar</a></p>
+    {% else %}
+      <p class="small muted">No hay repasos vencidos. ¡Bien!{% if next_due %} Próximo repaso: {{ next_due.date|date:"l d \d\e F" }} ({{ next_due.n }} ítem{{ next_due.n|pluralize }}).{% endif %}</p>
+    {% endif %}
+  </section>
+
+  <section class="card card-accent blue">
+    <h2>Diagnóstico</h2>
+    {% if diagnostic %}
+      <p>Último resultado: {{ diagnostic.created_at|date:"d-m-Y" }}.</p>
+      <p><a class="button ghost" href="{% url 'diagnostic_result' %}">Ver qué reforzar en el plan</a></p>
+    {% else %}
+      <p>Mide cada habilidad por separado para saber en qué bloques del plan poner más atención.</p>
+      <p><a class="button" href="{% url 'diagnostic' %}">Hacer el diagnóstico breve</a></p>
+    {% endif %}
+  </section>
+
+  <section class="card card-accent red">
+    <h2>Capítulos complementarios</h2>
+    <p class="small muted">Opcionales: profundizan temas del plan, sin reemplazarlo.</p>
+    <ul>
+      {% for c in available %}
+        <li><a href="{% url 'chapter' c.code %}">{{ c.code }} · {{ c.title }}</a>{% if c.week %} <span class="muted small">(refuerza la semana {{ c.week }})</span>{% endif %}</li>
+      {% empty %}
+        <li>No hay contenido importado. Ejecuta <code>python manage.py import_content</code>.</li>
+      {% endfor %}
+    </ul>
+    <p><a href="{% url 'catalog' %}">Ver la ruta completa →</a></p>
+  </section>
+</div>
+
+{% if progress %}
+<h2>Tus capítulos complementarios</h2>
+<div class="table-wrap"><table class="table">
+  <thead><tr><th>Capítulo</th><th>Estado</th><th>Aprobado provisional</th><th>Consolidado</th></tr></thead>
+  <tbody>
+  {% for row in progress %}
+    <tr>
+      <td><a href="{% url 'chapter' row.p.chapter_code %}">{{ row.p.chapter_code }} · {{ row.title }}</a></td>
+      <td>{{ row.label }}{% if row.p.recovery_needed %} · <span class="tag tag-warn">recuperación</span>{% endif %}</td>
+      <td>{{ row.p.provisional_on|date:"d-m-Y"|default:"—" }}</td>
+      <td>{{ row.p.consolidated_on|date:"d-m-Y"|default:"—" }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% endif %}
+
+{% if profile.conference_dates %}
+<section class="card"><h2>Próximas presentaciones</h2><p>{{ profile.conference_dates|linebreaksbr }}</p></section>
+{% endif %}
+{% endblock %}

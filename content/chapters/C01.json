@@ -1,0 +1,357 @@
+{
+  "id": "C01",
+  "kind": "chapter",
+  "version": "1.0.0",
+  "status": "borrador",
+  "title": "Identidad académica",
+  "stage": "E1",
+  "order": 1,
+  "product": "Presentación profesional oral de 60–90 segundos y versión escrita de 80–120 palabras",
+  "objectives": [
+    {"id": "C01-O1", "text": "Presentarse profesionalmente (cargo, institución, área) en 60–90 segundos.", "critical": true, "skills": ["speaking"]},
+    {"id": "C01-O2", "text": "Describir la propia línea de trabajo o investigación con presente simple y presente continuo.", "critical": true, "skills": ["speaking", "writing"]},
+    {"id": "C01-O3", "text": "Formular y responder preguntas básicas sobre trabajo e investigación.", "critical": true, "skills": ["interaction"]},
+    {"id": "C01-O4", "text": "Escribir una presentación profesional breve con orden de oración correcto.", "critical": false, "skills": ["writing"]}
+  ],
+  "dependencies": {
+    "skills": ["presente simple", "verbo to be", "vocabulario básico de trabajo"],
+    "suggested_chapters": []
+  },
+  "language_level": {
+    "reading": "B1",
+    "listening": "B1",
+    "speaking": "B1",
+    "writing": "B1",
+    "spanish_support": "alto: explicaciones en español de Chile, materiales en inglés"
+  },
+  "language_focus": {
+    "lexis": [
+      {"id": "C01-LX01", "form": "I work as", "meaning_es": "trabajo como", "example": "I work as a lecturer in industrial engineering.", "collocations": ["work as a + cargo"], "family": ["work", "worker", "workplace"], "register": "neutro", "confusions": "'I work like a lecturer' significa 'trabajo del modo en que lo hace un profesor'."},
+      {"id": "C01-LX02", "form": "lecturer", "meaning_es": "profesor/a universitario/a (académico/a)", "example": "She is a lecturer at a university in Concepción.", "collocations": ["senior lecturer", "lecturer in + área"], "family": ["lecture", "lecturer"], "register": "neutro", "confusions": "'lecture' es clase expositiva; 'lecture' no es 'lectura' (reading)."},
+      {"id": "C01-LX03", "form": "my research focuses on", "meaning_es": "mi investigación se centra en", "example": "My research focuses on production scheduling.", "collocations": ["focuses on + sustantivo / -ing"], "family": ["focus", "focused"], "register": "académico", "confusions": "Lleva -s (focuses) porque el sujeto es 'my research'."},
+      {"id": "C01-LX04", "form": "I'm currently working on", "meaning_es": "actualmente estoy trabajando en", "example": "I'm currently working on a project with a sawmill.", "collocations": ["currently working on a project / a paper"], "family": ["current", "currently"], "register": "neutro", "confusions": "'actually' significa 'en realidad', no 'actualmente'."},
+      {"id": "C01-LX05", "form": "in the field of", "meaning_es": "en el área de", "example": "I work in the field of operations management.", "collocations": ["in the field of + disciplina"], "family": [], "register": "académico", "confusions": ""},
+      {"id": "C01-LX06", "form": "I'm interested in", "meaning_es": "me interesa", "example": "I'm interested in simulation and data analysis.", "collocations": ["interested in + sustantivo / -ing"], "family": ["interest", "interesting"], "register": "neutro", "confusions": "Preposición 'in', no 'on'. 'interesting' describe la cosa, 'interested' a la persona."},
+      {"id": "C01-LX07", "form": "at the University of", "meaning_es": "en la Universidad de", "example": "I teach at the University of Santiago.", "collocations": ["at + institución"], "family": [], "register": "neutro", "confusions": "Se usa 'at' para la institución e 'in' para la ciudad."},
+      {"id": "C01-LX08", "form": "What's your area of research?", "meaning_es": "¿Cuál es tu área de investigación?", "example": "What's your area of research?", "collocations": ["area of research", "research area"], "family": [], "register": "neutro", "confusions": "Orden de la pregunta: What + is + sujeto."},
+      {"id": "C01-LX09", "form": "I'm responsible for", "meaning_es": "estoy a cargo de", "example": "I'm responsible for the quality control course.", "collocations": ["responsible for + sustantivo / -ing"], "family": ["responsibility"], "register": "neutro", "confusions": "Preposición 'for', no 'of'."},
+      {"id": "C01-LX10", "form": "I have experience in", "meaning_es": "tengo experiencia en", "example": "I have experience in logistics and simulation.", "collocations": ["ten years of experience in"], "family": ["experienced"], "register": "neutro", "confusions": "'experience' incontable: no 'experiences' en este sentido."}
+    ],
+    "grammar": [
+      {"id": "C01-G01", "topic": "Orden de la oración", "pattern": "Sujeto + verbo + complemento + lugar + tiempo", "example": "I teach statistics at the university on Mondays."},
+      {"id": "C01-G02", "topic": "Presente simple frente a presente continuo", "pattern": "I teach… (habitual) / I'm working on… (proyecto actual)", "example": "I teach operations research. This year I'm working on a scheduling model."},
+      {"id": "C01-G03", "topic": "Preguntas con verbo auxiliar", "pattern": "Wh- + do/does/are + sujeto + verbo", "example": "Where do you work? What are you working on?"}
+    ],
+    "pronunciation": [
+      {"id": "C01-P01", "focus": "Acento de palabra: inDUStrial, engiNEER, uniVERsity, LECturer", "note": "research admite /rɪˈsɜːtʃ/ y /ˈriːsɜːtʃ/ (esta última frecuente en inglés estadounidense como sustantivo)."},
+      {"id": "C01-P02", "focus": "Inicio /s/ + consonante sin vocal añadida: study, strategy, Spanish, Santiago", "note": "Evitar «estudy»; empezar directamente en /s/."},
+      {"id": "C01-P03", "focus": "-s de tercera persona: focuses /ɪz/, works /s/, teaches /ɪz/", "note": ""}
+    ]
+  },
+  "resources": [
+    {
+      "id": "C01-R01", "type": "text", "title": "A short academic profile",
+      "body": "Paula Riquelme is a lecturer in industrial engineering at a public university in Chillán. She teaches operations research and quality management. Her research focuses on production scheduling in small sawmills in the Ñuble region. Before joining the university, she worked for six years as a planning engineer in a forestry company. She is currently working on a project that compares two scheduling methods with data from three local sawmills. She is interested in simulation and in practical tools that small companies can use.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "persona ficticia"}
+    },
+    {
+      "id": "C01-R02", "type": "text", "title": "Three short profiles (for transfer)",
+      "body": "Diego works as a data engineer at a software company in Valparaíso. He is currently working on a cloud migration for a hospital. — Camila is responsible for the marketing analytics team at a retail company in Santiago. She is interested in customer retention. — Andrés teaches logistics at a technical institute in Concepción. His research focuses on last-mile delivery.",
+      "fictional_data": true,
+      "provenance": {"author": "Equipo editorial del curso", "license": "Original del proyecto", "year": 2026, "adaptation": "personas ficticias"}
+    }
+  ],
+  "lessons": [
+    {
+      "id": "C01.1", "order": 1, "kind": "comprender", "minutes": 20,
+      "title": "Leer un perfil académico",
+      "intro": "Lee el perfil para saber quién es Paula y en qué trabaja ahora. Luego responderás sin volver a leer todo.",
+      "resources": ["C01-R01"],
+      "activities": [
+        {
+          "id": "C01.1.a1", "type": "choice", "role": "practice", "objectives": ["C01-O2"], "skill": "reading",
+          "prompt": "What is Paula's current project?",
+          "options": [
+            {"id": "a", "text": "She is planning production for a forestry company.", "feedback": "Eso lo hizo antes de entrar a la universidad (worked: pasado)."},
+            {"id": "b", "text": "She is comparing two scheduling methods with data from three sawmills."},
+            {"id": "c", "text": "She is teaching a course on simulation.", "feedback": "Le interesa la simulación, pero el texto no dice que la enseñe."}
+          ],
+          "answer": "b",
+          "evidence": {
+            "instruction": "Marca la oración que lo dice.",
+            "sentences": [
+              {"id": "s1", "text": "Before joining the university, she worked for six years as a planning engineer in a forestry company."},
+              {"id": "s2", "text": "She is currently working on a project that compares two scheduling methods with data from three local sawmills."},
+              {"id": "s3", "text": "She is interested in simulation and in practical tools that small companies can use."}
+            ],
+            "answer": ["s2"],
+            "feedback": "Busca 'currently' y el presente continuo."
+          }
+        },
+        {
+          "id": "C01.1.a2", "type": "choice", "role": "practice", "objectives": ["C01-O2"], "skill": "reading", "justify": true,
+          "prompt": "Why does the text use 'teaches' for her courses but 'is working on' for the project? Choose and justify.",
+          "options": [
+            {"id": "a", "text": "'teaches' is a regular activity; 'is working on' is a project in progress now."},
+            {"id": "b", "text": "'teaches' is past; 'is working on' is future.", "feedback": "Ambas formas son presente."},
+            {"id": "c", "text": "There is no difference; they are interchangeable.", "feedback": "Sí hay diferencia: habitual frente a en curso."}
+          ],
+          "answer": "a",
+          "explanation": "Presente simple para lo habitual; presente continuo para un proyecto en curso."
+        },
+        {
+          "id": "C01.1.a3", "type": "numeric", "role": "practice", "objectives": ["C01-O1"], "skill": "reading",
+          "prompt": "Datos del perfil.",
+          "fields": [
+            {"id": "years", "label": "Años de experiencia en la empresa forestal", "answer": 6},
+            {"id": "mills", "label": "Aserraderos en el proyecto", "answer": 3}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C01.2", "order": 2, "kind": "descubrir", "minutes": 25,
+      "title": "Descubrir el lenguaje de una presentación profesional",
+      "intro": "Fíjate en las preposiciones y en el orden de las palabras. Explicación breve: 'at' + institución, 'in' + ciudad o área, 'on' + proyecto.",
+      "resources": ["C01-R01"],
+      "activities": [
+        {
+          "id": "C01.2.a1", "type": "cloze", "role": "practice", "objectives": ["C01-O4"], "skill": "lexis_grammar",
+          "prompt": "Completa con una palabra (preposición o forma verbal).",
+          "text": "I work [[1]] a lecturer [[2]] the University of Santiago. My research focuses [[3]] supply chains. I'm interested [[4]] simulation.",
+          "gaps": {
+            "1": {"accept": ["as"], "near": {"like": "'work like' significa 'trabajar del modo en que lo hace'. Para el cargo: work as."}},
+            "2": {"accept": ["at"], "near": {"in": "Para la institución se usa 'at'; 'in' para la ciudad."}},
+            "3": {"accept": ["on"], "near": {"in": "focus on, no focus in."}},
+            "4": {"accept": ["in"], "near": {"on": "interested in, no interested on."}}
+          }
+        },
+        {
+          "id": "C01.2.a2", "type": "choice", "role": "practice", "objectives": ["C01-O2"], "skill": "lexis_grammar",
+          "prompt": "Quieres decir «Actualmente estoy trabajando en un modelo de simulación». ¿Qué opción es correcta?",
+          "options": [
+            {"id": "a", "text": "Actually, I work in a simulation model.", "feedback": "'Actually' significa 'en realidad'; además falta el presente continuo."},
+            {"id": "b", "text": "I'm currently working on a simulation model."},
+            {"id": "c", "text": "I'm actually working in a simulation model.", "feedback": "Falso amigo: 'actually' ≠ actualmente. Y es 'work on' un proyecto."}
+          ],
+          "answer": "b",
+          "explanation": "currently = actualmente; work on + proyecto."
+        },
+        {
+          "id": "C01.2.a3", "type": "ordering", "role": "practice", "objectives": ["C01-O4"], "skill": "lexis_grammar",
+          "prompt": "Ordena las palabras para formar una oración correcta.",
+          "items": [
+            {"id": "w1", "text": "I"},
+            {"id": "w2", "text": "teach"},
+            {"id": "w3", "text": "statistics"},
+            {"id": "w4", "text": "at the university"},
+            {"id": "w5", "text": "on Mondays"}
+          ],
+          "answer": ["w1", "w2", "w3", "w4", "w5"],
+          "explanation": "Sujeto + verbo + objeto + lugar + tiempo."
+        }
+      ]
+    },
+    {
+      "id": "C01.3", "order": 3, "kind": "escuchar", "minutes": 25,
+      "title": "Escuchar una presentación en un café de congreso",
+      "intro": "Responde primero sin transcripción. Las voces son sintetizadas por el navegador; elige la variante en tu perfil.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C01.3.a1", "type": "listening", "role": "practice", "objectives": ["C01-O3"], "skill": "listening",
+          "prompt": "Escucha a dos investigadores que se presentan.",
+          "audio": {"text": "Hi, I'm Tom. I work as a software engineer at a research centre in Manchester. What about you? — Nice to meet you, Tom. I'm Carla. I'm a lecturer in industrial engineering in Chile. At the moment I'm working on a project about energy use in small factories. — That sounds interesting. How many factories are in the study? — Fourteen, all in the south of Chile.", "voice": "en-GB", "source": "sintetizada"},
+          "transcript": "Tom: Hi, I'm Tom. I work as a software engineer at a research centre in Manchester. What about you?\nCarla: Nice to meet you, Tom. I'm Carla. I'm a lecturer in industrial engineering in Chile. At the moment I'm working on a project about energy use in small factories.\nTom: That sounds interesting. How many factories are in the study?\nCarla: Fourteen, all in the south of Chile.",
+          "questions": [
+            {"id": "q1", "label": "Trabajo de Tom", "prompt": "What does Tom do?", "options": [{"id": "a", "text": "He is a software engineer."}, {"id": "b", "text": "He is a lecturer.", "feedback": "Carla es la académica."}], "answer": "a"},
+            {"id": "q2", "label": "Proyecto de Carla", "prompt": "What is Carla's project about?", "options": [{"id": "a", "text": "Software in research centres."}, {"id": "b", "text": "Energy use in small factories."}], "answer": "b"},
+            {"id": "q3", "label": "Número de fábricas", "fields": [{"id": "n", "label": "Fábricas en el estudio", "answer": 14, "hint": "fourTEEN (acento al final) ≠ FORty."}]}
+          ]
+        },
+        {
+          "id": "C01.3.a2", "type": "choice", "role": "practice", "objectives": ["C01-O1"], "skill": "listening",
+          "prompt": "Escucha la palabra «industrial» en el modelo de audio (botón ▶ en 'Escuchar modelo'). ¿Qué sílaba lleva el acento?",
+          "model": {"text": "industrial. industrial engineering.", "voice": "en-US", "source": "sintetizada"},
+          "options": [
+            {"id": "a", "text": "IN-dus-tri-al", "feedback": "En español el acento cae en 'trial'; en inglés cae en DUS."},
+            {"id": "b", "text": "in-DUS-tri-al"},
+            {"id": "c", "text": "in-dus-tri-AL"}
+          ],
+          "answer": "b"
+        },
+        {
+          "id": "C01.3.a3", "type": "oral", "role": "practice", "objectives": ["C01-O1"], "skill": "speaking",
+          "prompt": "Shadowing: escucha e imita el ritmo. Empieza 'study' directamente en /s/, sin «e» inicial.",
+          "model": {"text": "My research focuses on production scheduling. I study small sawmills in the south of Chile.", "voice": "en-US", "source": "sintetizada", "chunks": ["My research focuses on | production scheduling.", "I study | small sawmills | in the south of Chile."]},
+          "min_seconds": 4, "max_seconds": 30,
+          "self_check": ["Dije 'study' y 'small' sin «e» inicial.", "Pronuncié 'focuses' con tres sílabas.", "Hice las pausas de los grupos de sentido."]
+        }
+      ]
+    },
+    {
+      "id": "C01.4", "order": 4, "kind": "recuperar", "minutes": 25,
+      "title": "Recuperar y aplicar sin modelo",
+      "intro": "Escribe la expresión desde la intención, sin opciones. Los últimos cinco ítems son de comprobación.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C01.4.a1", "type": "short_text", "role": "practice", "objectives": ["C01-O1"], "skill": "lexis_grammar",
+          "prompt": "Quieres decir tu cargo: «Trabajo como ingeniero de calidad». Escribe las tres primeras palabras: «______ a quality engineer.»",
+          "accept": ["I work as"],
+          "near": {"I work like": "'like' ≠ 'as' para un cargo.", "I am working as": "Posible, pero sugiere algo temporal; para el cargo habitual: I work as."}
+        },
+        {
+          "id": "C01.4.a2", "type": "short_text", "role": "check", "objectives": ["C01-O2"], "skill": "lexis_grammar",
+          "prompt": "Quieres decir «Mi investigación se centra en la logística». Completa: «My research ______ logistics.» (dos palabras)",
+          "accept": ["focuses on"],
+          "near": {"focus on": "El sujeto es 'my research' (tercera persona): focuses.", "focuses in": "Preposición: on."}
+        },
+        {
+          "id": "C01.4.a3", "type": "choice", "role": "check", "objectives": ["C01-O2"], "skill": "lexis_grammar",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            {"id": "a", "text": "Actually I am lecturer at the university."},
+            {"id": "b", "text": "Currently, I'm working on a paper about quality control."},
+            {"id": "c", "text": "I'm currently work on a paper about quality control."}
+          ],
+          "answer": "b",
+          "explanation": "currently + presente continuo completo (I'm working)."
+        },
+        {
+          "id": "C01.4.a4", "type": "ordering", "role": "check", "objectives": ["C01-O3"], "skill": "lexis_grammar",
+          "prompt": "Ordena la pregunta.",
+          "items": [
+            {"id": "q1", "text": "What"},
+            {"id": "q2", "text": "is"},
+            {"id": "q3", "text": "your"},
+            {"id": "q4", "text": "area of research"}
+          ],
+          "answer": ["q1", "q2", "q3", "q4"]
+        },
+        {
+          "id": "C01.4.a5", "type": "cloze", "role": "check", "objectives": ["C01-O4"], "skill": "lexis_grammar",
+          "prompt": "Completa el perfil nuevo (una palabra por espacio).",
+          "text": "Diego works [[1]] a data engineer [[2]] a software company in Valparaíso. He is responsible [[3]] cloud services.",
+          "gaps": {
+            "1": {"accept": ["as"]},
+            "2": {"accept": ["at", "for"]},
+            "3": {"accept": ["for"], "near": {"of": "responsible for, no responsible of."}}
+          }
+        },
+        {
+          "id": "C01.4.a6", "type": "short_text", "role": "check", "objectives": ["C01-O3"], "skill": "interaction",
+          "prompt": "En un congreso quieres preguntar «¿Dónde trabajas?». Escribe la pregunta completa.",
+          "accept": ["Where do you work?", "Where do you work"],
+          "near": {"Where you work?": "Falta el auxiliar: Where do you work?", "Where are you work?": "Con verbo principal 'work' el auxiliar es 'do'."}
+        }
+      ]
+    },
+    {
+      "id": "C01.5", "order": 5, "kind": "producir", "minutes": 30,
+      "title": "Producir e interactuar: tu presentación",
+      "intro": "Escribe primero tu versión; después responde preguntas en voz alta sin leerla.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C01.5.a1", "type": "open_text", "role": "practice", "objectives": ["C01-O1", "C01-O2", "C01-O4"], "skill": "writing", "rubric": "writing",
+          "prompt": "Escribe tu presentación profesional en inglés (80–120 palabras): cargo e institución, área, qué enseñas o haces habitualmente, un proyecto actual y un interés.",
+          "min_words": 80, "max_words": 120,
+          "checks": [
+            {"id": "role", "any_of": ["I work as", "I am a", "I'm a", "lecturer", "engineer", "professor"], "feedback": "Indica tu cargo (I work as… / I'm a…)."},
+            {"id": "current", "any_of": ["currently", "at the moment", "I'm working on", "I am working on"], "feedback": "Incluye un proyecto actual con presente continuo (I'm currently working on…)."},
+            {"id": "false_friend", "none_of": ["actually"], "feedback": "Revisa 'actually': significa 'en realidad'. Para 'actualmente' usa 'currently'."},
+            {"id": "interest", "any_of": ["interested in", "focuses on", "research"], "feedback": "Menciona tu área o interés (My research focuses on… / I'm interested in…)."}
+          ]
+        },
+        {
+          "id": "C01.5.a2", "type": "oral", "role": "practice", "objectives": ["C01-O3"], "skill": "interaction", "rubric": "interaction",
+          "prompt": "Responde en voz alta, 30–60 segundos: «So, what do you do?» Después verás dos preguntas de seguimiento.",
+          "model": {"text": "So, what do you do?", "voice": "en-US", "source": "sintetizada"},
+          "min_seconds": 30, "max_seconds": 60,
+          "follow_ups": ["What are you working on at the moment?", "Why is that project important for companies in your region?"],
+          "checks": [
+            {"id": "role", "any_of": ["I work as", "I'm a", "I am a", "lecturer", "engineer"], "feedback": "Responde primero con tu cargo."},
+            {"id": "current", "any_of": ["working on", "currently", "at the moment"], "feedback": "Agrega qué estás haciendo ahora."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C01.6", "order": 6, "kind": "tarea", "minutes": 30,
+      "title": "Resolver la tarea: presentación de 60–90 segundos",
+      "intro": "Graba tu presentación con notas breves (no leas tu texto). Luego evalúala con la rúbrica y vuelve a grabar las dos frases más débiles.",
+      "resources": [],
+      "activities": [
+        {
+          "id": "C01.6.a1", "type": "oral", "role": "final", "objectives": ["C01-O1", "C01-O2"], "skill": "speaking", "rubric": "oral",
+          "prompt": "Preséntate profesionalmente en 60–90 segundos: cargo e institución, área, actividad habitual, proyecto actual y por qué te interesa.",
+          "min_seconds": 60, "max_seconds": 90,
+          "checks": [
+            {"id": "role", "any_of": ["I work as", "I'm a", "I am a", "lecturer", "engineer", "professor"], "feedback": "No aparece tu cargo en la transcripción."},
+            {"id": "current", "any_of": ["working on", "currently", "at the moment"], "feedback": "Falta el proyecto actual (I'm currently working on…)."},
+            {"id": "false_friend", "none_of": ["actually"], "feedback": "Si querías decir 'actualmente', usa 'currently'."}
+          ]
+        },
+        {
+          "id": "C01.6.a2", "type": "open_text", "role": "practice", "objectives": [], "skill": "writing",
+          "prompt": "Plan de mejora: escribe dos prioridades según tu rúbrica y la frase que vas a volver a grabar.",
+          "min_words": 10, "max_words": 80,
+          "checks": []
+        }
+      ]
+    }
+  ],
+  "adaptation": {
+    "base": "Perfil académico industrial (C01-R01) para todos.",
+    "supports": ["Explicaciones en español", "Velocidad de audio ajustable", "Transcripción tras responder"],
+    "challenge": "Hacer la presentación en 90, 60 y 45 segundos.",
+    "specialty_variants": {"comercial": "C01-R02 (Camila)", "informatica": "C01-R02 (Diego)", "industrial": "C01-R02 (Andrés)"}
+  },
+  "assessment": {
+    "final_task": "C01.6.a1",
+    "essential_criteria": ["task", "intelligibility"],
+    "deferred_check": {
+      "min_days": 7, "max_days": 14, "threshold": 0.75,
+      "resources": ["C01-R02"],
+      "activities": [
+        {
+          "id": "C01.D.a1", "type": "choice", "role": "deferred", "objectives": ["C01-O2"], "skill": "reading", "resources": ["C01-R02"],
+          "prompt": "In the profiles, who is working on something in progress now?",
+          "options": [
+            {"id": "a", "text": "Diego: he is currently working on a cloud migration."},
+            {"id": "b", "text": "Andrés: he teaches logistics."},
+            {"id": "c", "text": "Camila: she is interested in customer retention."}
+          ],
+          "answer": "a"
+        },
+        {
+          "id": "C01.D.a2", "type": "cloze", "role": "deferred", "objectives": ["C01-O4"], "skill": "lexis_grammar",
+          "prompt": "Completa (una palabra por espacio).",
+          "text": "Camila is responsible [[1]] the analytics team. She is interested [[2]] customer retention. Andrés's research focuses [[3]] last-mile delivery.",
+          "gaps": {"1": {"accept": ["for"]}, "2": {"accept": ["in"]}, "3": {"accept": ["on"]}}
+        },
+        {
+          "id": "C01.D.a3", "type": "short_text", "role": "deferred", "objectives": ["C01-O3"], "skill": "interaction",
+          "prompt": "Pregunta a alguien «¿En qué estás trabajando ahora?». Completa: «What ______ working on at the moment?» (dos palabras)",
+          "accept": ["are you"],
+          "near": {"do you": "Con -ing se usa 'are': What are you working on?"}
+        },
+        {
+          "id": "C01.D.a4", "type": "short_text", "role": "deferred", "objectives": ["C01-O2"], "skill": "lexis_grammar",
+          "prompt": "Traduce la intención sin falso amigo: «Actualmente estoy trabajando en un artículo.» Completa: «I'm ______ working on a paper.»",
+          "accept": ["currently"],
+          "near": {"actually": "'actually' = en realidad. Actualmente = currently."}
+        }
+      ]
+    }
+  },
+  "quality": {
+    "authors": ["Claude (redacción inicial)", "Pendiente: revisión de César Ortiz"],
+    "reviewed_by": "",
+    "license": "Original del proyecto",
+    "date": "2026-11-05",
+    "changelog": [{"version": "1.0.0", "date": "2026-11-05", "change": "Versión piloto inicial."}]
+  }
+}

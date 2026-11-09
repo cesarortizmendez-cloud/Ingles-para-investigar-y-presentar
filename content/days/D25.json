@@ -1,0 +1,910 @@
+{
+ "id": "D25",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Tendencias y porcentajes: percent vs percentage points",
+ "day": 25,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Hoy describes cambios en los datos (aumentar, disminuir, mantenerse) y aprendes la diferencia clave entre percent y percentage points.",
+ "objectives": [
+  {
+   "id": "D25-O1",
+   "text": "Describir tendencias con increase/decrease/remain stable."
+  },
+  {
+   "id": "D25-O2",
+   "text": "Usar «by» (cuánto cambió) y «to» (a cuánto llegó)."
+  },
+  {
+   "id": "D25-O3",
+   "text": "Distinguir percent de percentage points."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D25-LX01",
+    "form": "increase",
+    "meaning_es": "aumentar; aumento",
+    "example": "We expect energy use to increase by ten percent.",
+    "example_es": "Esperamos que el uso de energía aumente un diez por ciento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX02",
+    "form": "decrease",
+    "meaning_es": "disminuir; disminución",
+    "example": "Costs usually decrease in summer.",
+    "example_es": "Los costos normalmente disminuyen en verano.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX03",
+    "form": "rise",
+    "meaning_es": "subir; alza",
+    "example": "Prices rise every winter.",
+    "example_es": "Los precios suben cada invierno.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX04",
+    "form": "fall",
+    "meaning_es": "caer, bajar; caída",
+    "example": "Output did not fall in July.",
+    "example_es": "La producción no cayó en julio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX05",
+    "form": "remain stable",
+    "meaning_es": "mantenerse estable",
+    "example": "Output will remain stable.",
+    "example_es": "La producción se mantendrá estable.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX06",
+    "form": "peak",
+    "meaning_es": "punto máximo; alcanzar el máximo",
+    "example": "Energy use reached a peak in July.",
+    "example_es": "El uso de energía alcanzó su punto máximo en julio.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX07",
+    "form": "trend",
+    "meaning_es": "tendencia",
+    "example": "The trend is clear.",
+    "example_es": "La tendencia es clara.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX08",
+    "form": "sharply",
+    "meaning_es": "bruscamente, marcadamente",
+    "example": "Costs rose sharply in winter.",
+    "example_es": "Los costos subieron bruscamente en invierno.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX09",
+    "form": "slightly",
+    "meaning_es": "ligeramente",
+    "example": "Output increased slightly.",
+    "example_es": "La producción aumentó ligeramente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX10",
+    "form": "percentage points",
+    "meaning_es": "puntos porcentuales",
+    "example": "The defect rate fell by two percentage points.",
+    "example_es": "La tasa de defectos bajó dos puntos porcentuales.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX11",
+    "form": "rate",
+    "meaning_es": "tasa, índice",
+    "example": "The error rate is low.",
+    "example_es": "La tasa de error es baja.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D25-LX12",
+    "form": "steadily",
+    "meaning_es": "de forma constante",
+    "example": "Output grew steadily during the year.",
+    "example_es": "La producción creció de forma constante durante el año.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D25-G1",
+    "topic": "Describir tendencias: by / to / from…to; percent vs percentage points"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D25-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "increase",
+     "meaning_es": "aumentar; aumento",
+     "example": "We expect energy use to increase by ten percent.",
+     "example_es": "Esperamos que el uso de energía aumente un diez por ciento."
+    },
+    {
+     "form": "decrease",
+     "meaning_es": "disminuir; disminución",
+     "example": "Costs usually decrease in summer.",
+     "example_es": "Los costos normalmente disminuyen en verano."
+    },
+    {
+     "form": "rise",
+     "meaning_es": "subir; alza",
+     "example": "Prices rise every winter.",
+     "example_es": "Los precios suben cada invierno."
+    },
+    {
+     "form": "fall",
+     "meaning_es": "caer, bajar; caída",
+     "example": "Output did not fall in July.",
+     "example_es": "La producción no cayó en julio."
+    },
+    {
+     "form": "remain stable",
+     "meaning_es": "mantenerse estable",
+     "example": "Output will remain stable.",
+     "example_es": "La producción se mantendrá estable."
+    },
+    {
+     "form": "peak",
+     "meaning_es": "punto máximo; alcanzar el máximo",
+     "example": "Energy use reached a peak in July.",
+     "example_es": "El uso de energía alcanzó su punto máximo en julio."
+    },
+    {
+     "form": "trend",
+     "meaning_es": "tendencia",
+     "example": "The trend is clear.",
+     "example_es": "La tendencia es clara."
+    },
+    {
+     "form": "sharply",
+     "meaning_es": "bruscamente, marcadamente",
+     "example": "Costs rose sharply in winter.",
+     "example_es": "Los costos subieron bruscamente en invierno."
+    },
+    {
+     "form": "slightly",
+     "meaning_es": "ligeramente",
+     "example": "Output increased slightly.",
+     "example_es": "La producción aumentó ligeramente."
+    },
+    {
+     "form": "percentage points",
+     "meaning_es": "puntos porcentuales",
+     "example": "The defect rate fell by two percentage points.",
+     "example_es": "La tasa de defectos bajó dos puntos porcentuales."
+    },
+    {
+     "form": "rate",
+     "meaning_es": "tasa, índice",
+     "example": "The error rate is low.",
+     "example_es": "La tasa de error es baja."
+    },
+    {
+     "form": "steadily",
+     "meaning_es": "de forma constante",
+     "example": "Output grew steadily during the year.",
+     "example_es": "La producción creció de forma constante durante el año."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D25-RG",
+   "type": "capsule",
+   "title": "Describir tendencias: by / to / from…to; percent vs percentage points",
+   "explain": "Verbos: increase / rise (subir), decrease / fall (bajar), remain stable (mantenerse), reach a peak (alcanzar el máximo).\nAdverbios de intensidad: sharply (bruscamente), slightly (ligeramente), steadily (de forma constante).\n«by» = cuánto cambió: increased BY 10% · «to» = valor final: increased TO 120 · «from … to …»: rose from 100 to 120.\nMUY IMPORTANTE: si una tasa pasa de 6 % a 4 %, bajó 2 percentage points (puntos porcentuales), que es una reducción de 33 percent (relativa). No son lo mismo.\nPasados irregulares: rise → rose, fall → fell.",
+   "form": [
+    [
+     "increase/rise by + cantidad",
+     "rose by 10%"
+    ],
+    [
+     "increase/rise to + valor final",
+     "rose to 120 units"
+    ],
+    [
+     "from X to Y",
+     "fell from 6% to 4%"
+    ],
+    [
+     "percentage points vs percent",
+     "6% → 4% = −2 pp = −33 %"
+    ]
+   ],
+   "examples": [
+    [
+     "Energy use rose sharply in June and reached a peak in July.",
+     "El uso de energía subió bruscamente en junio y alcanzó su máximo en julio."
+    ],
+    [
+     "The defect rate fell from 6% to 4%, a decrease of two percentage points.",
+     "La tasa de defectos bajó de 6 % a 4 %, una disminución de dos puntos porcentuales."
+    ],
+    [
+     "Output remained stable.",
+     "La producción se mantuvo estable."
+    ]
+   ],
+   "tip": "Al presentar cifras, di siempre la unidad: «two percentage points», «twelve percent», «kilowatt hours».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D25-RR",
+   "type": "text",
+   "title": "Describing the monthly results",
+   "body": "Figure 2 shows monthly energy use in the three sawmills. Energy use remained stable from January to April. It rose sharply in May, when temperatures fell, and reached a peak in July at about 15,000 kilowatt hours. After August it decreased steadily. Output did not change much, so energy use per unit followed the same trend. The defect rate fell slightly, from 6% to 5%, a decrease of one percentage point, or about 17 percent.",
+   "translation_es": "La Figura 2 muestra el uso mensual de energía en los tres aserraderos. El uso de energía se mantuvo estable de enero a abril. Subió bruscamente en mayo, cuando bajaron las temperaturas, y alcanzó un máximo en julio, de unos 15.000 kilovatios hora. Después de agosto disminuyó de forma constante. La producción no cambió mucho, así que el uso de energía por unidad siguió la misma tendencia. La tasa de defectos bajó ligeramente, de 6 % a 5 %, una disminución de un punto porcentual, o alrededor de un 17 por ciento.",
+   "glossary": [
+    [
+     "steadily",
+     "de forma constante"
+    ],
+    [
+     "followed",
+     "siguió"
+    ],
+    [
+     "level",
+     "nivel"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D25.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D25-RV"
+   ],
+   "activities": [
+    {
+     "id": "D25.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) We expect energy use to [[1]] by ten percent.  (2) Prices [[2]] every winter.  (3) Output will [[3]].  (4) Energy use reached a [[4]] in July.  (5) Costs rose [[5]] in winter.  (6) Output increased [[6]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "increase"
+       ],
+       "hint": "Significa «aumentar; aumento»."
+      },
+      "2": {
+       "accept": [
+        "rise"
+       ],
+       "hint": "Significa «subir; alza»."
+      },
+      "3": {
+       "accept": [
+        "remain stable"
+       ],
+       "hint": "Significa «mantenerse estable»."
+      },
+      "4": {
+       "accept": [
+        "peak"
+       ],
+       "hint": "Significa «punto máximo; alcanzar el máximo»."
+      },
+      "5": {
+       "accept": [
+        "sharply"
+       ],
+       "hint": "Significa «bruscamente, marcadamente»."
+      },
+      "6": {
+       "accept": [
+        "slightly"
+       ],
+       "hint": "Significa «ligeramente»."
+      }
+     }
+    },
+    {
+     "id": "D25.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «de forma constante»",
+     "accept": [
+      "steadily"
+     ],
+     "hint": "Empieza con «st…» · Ejemplo: La producción creció de forma constante durante el año."
+    },
+    {
+     "id": "D25.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «caer, bajar; caída»",
+     "accept": [
+      "fall"
+     ],
+     "hint": "Empieza con «fa…» · Ejemplo: La producción no cayó en julio."
+    },
+    {
+     "id": "D25.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «disminuir; disminución»",
+     "accept": [
+      "decrease"
+     ],
+     "hint": "Empieza con «de…» · Ejemplo: Los costos normalmente disminuyen en verano."
+    },
+    {
+     "id": "D25.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tasa, índice»",
+     "accept": [
+      "rate"
+     ],
+     "hint": "Empieza con «ra…» · Ejemplo: La tasa de error es baja."
+    },
+    {
+     "id": "D25.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «tendencia»",
+     "accept": [
+      "trend"
+     ],
+     "hint": "Empieza con «tr…» · Ejemplo: La tendencia es clara."
+    },
+    {
+     "id": "D25.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «puntos porcentuales»",
+     "accept": [
+      "percentage points"
+     ],
+     "hint": "Empieza con «pe…» · Ejemplo: La tasa de defectos bajó dos puntos porcentuales."
+    },
+    {
+     "id": "D25.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "Output grew steadily during the year.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Output grew steadily during the year."
+    }
+   ]
+  },
+  {
+   "id": "D25.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Describir tendencias: by / to / from…to; percent vs percentage points",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D25-RG"
+   ],
+   "activities": [
+    {
+     "id": "D25.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) Energy use increased [[1]] ten percent. (cuánto)  (2) Output rose [[2]] 120 units per day. (valor final)  (3) Prices [[3]] sharply last winter. (rise, pasado)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "by"
+       ],
+       "hint": "by = cantidad del cambio"
+      },
+      "2": {
+       "accept": [
+        "to"
+       ],
+       "hint": "to = valor final"
+      },
+      "3": {
+       "accept": [
+        "rose"
+       ],
+       "hint": "rise → rose"
+      }
+     }
+    },
+    {
+     "id": "D25.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) The rate fell from 6% to 4%: two percentage [[1]].  (2) Costs [[2]] slightly in summer. (fall, pasado)  (3) Output remained [[3]]. (estable)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "points"
+       ]
+      },
+      "2": {
+       "accept": [
+        "fell"
+       ],
+       "hint": "fall → fell"
+      },
+      "3": {
+       "accept": [
+        "stable"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D25.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "La tasa de error pasó de 5 % a 4 %. ¿Qué es correcto?",
+     "options": [
+      {
+       "id": "a",
+       "text": "It fell by 1 percent."
+      },
+      {
+       "id": "b",
+       "text": "It fell by 1 percentage point (a 20% relative decrease)."
+      },
+      {
+       "id": "c",
+       "text": "It fell by 20 percentage points."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D25.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Subió a 150 unidades»",
+     "options": [
+      {
+       "id": "a",
+       "text": "It rose by 150 units."
+      },
+      {
+       "id": "b",
+       "text": "It rose to 150 units."
+      }
+     ],
+     "answer": "b",
+     "explanation": "valor final → to"
+    },
+    {
+     "id": "D25.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Describe un cambio en datos de tu trabajo en dos oraciones: usa by o to, un adverbio (sharply/slightly) y, si aplica, percentage points.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "by",
+        "to",
+        "increase",
+        "decrease",
+        "rose",
+        "fell",
+        "percentage points"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D25.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: El gráfico mensual",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D25.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "El gráfico mensual: escucha sin leer y responde.",
+     "audio": {
+      "text": "Energy use remained stable from January to April. Then it rose sharply in May and reached a peak in July. In September it fell to the level of April. The defect rate fell from five percent to four percent, a decrease of one percentage point.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Energy use remained stable from January to April. Then it rose sharply in May and reached a peak in July. In September it fell to the level of April. The defect rate fell from five percent to four percent, a decrease of one percentage point.",
+     "translation_es": "El uso de energía se mantuvo estable de enero a abril. Luego subió bruscamente en mayo y alcanzó su punto máximo en julio. En septiembre bajó al nivel de abril. La tasa de defectos bajó de cinco por ciento a cuatro por ciento, una disminución de un punto porcentual.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuándo alcanzó el máximo el uso de energía?",
+       "label": "¿Cuándo alcanzó el máximo el uso de energía?",
+       "options": [
+        {
+         "id": "a",
+         "text": "En mayo"
+        },
+        {
+         "id": "b",
+         "text": "En julio"
+        },
+        {
+         "id": "c",
+         "text": "En septiembre"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cómo estuvo de enero a abril?",
+       "label": "¿Cómo estuvo de enero a abril?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Estable"
+        },
+        {
+         "id": "b",
+         "text": "Subiendo"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuánto bajó la tasa de defectos?",
+       "label": "¿Cuánto bajó la tasa de defectos?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Un punto porcentual"
+        },
+        {
+         "id": "b",
+         "text": "Veinte puntos porcentuales"
+        },
+        {
+         "id": "c",
+         "text": "Cinco puntos porcentuales"
+        }
+       ],
+       "answer": "a",
+       "explanation": "De 5 % a 4 % = 1 punto porcentual (un 20 % relativo)."
+      }
+     ]
+    },
+    {
+     "id": "D25.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Then it rose sharply in May and reached a peak in July.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "Then it rose sharply in May and reached a peak in July."
+    }
+   ]
+  },
+  {
+   "id": "D25.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Describing the monthly results",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D25-RR"
+   ],
+   "activities": [
+    {
+     "id": "D25.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué subió el uso de energía en mayo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque bajaron las temperaturas"
+      },
+      {
+       "id": "b",
+       "text": "Porque aumentó la producción"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D25.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál fue el máximo aproximado?",
+     "options": [
+      {
+       "id": "a",
+       "text": "1.500 kWh"
+      },
+      {
+       "id": "b",
+       "text": "15.000 kWh"
+      },
+      {
+       "id": "c",
+       "text": "150.000 kWh"
+      }
+     ],
+     "answer": "b",
+     "explanation": "fifteen thousand"
+    },
+    {
+     "id": "D25.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "La tasa de defectos bajó 1 punto porcentual. ¿Cuánto es en términos relativos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "1 %"
+      },
+      {
+       "id": "b",
+       "text": "Alrededor de 17 %"
+      },
+      {
+       "id": "c",
+       "text": "6 %"
+      }
+     ],
+     "answer": "b",
+     "explanation": "1/6 ≈ 17 %"
+    }
+   ]
+  },
+  {
+   "id": "D25.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D25.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Figure 2 shows monthly energy use in the three sawmills. Energy use remained stable from January to April.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Figure 2 shows monthly energy use in the three sawmills.",
+       "Energy use remained stable from January to April."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D25.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en voz alta (45–60 s) cómo cambió un indicador de tu trabajo durante un año: estable, subió/bajó (by/to), máximo y mínimo.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "increase",
+        "decrease",
+        "rise",
+        "fall",
+        "remain stable",
+        "peak",
+        "trend",
+        "sharply",
+        "slightly",
+        "percentage points",
+        "rate",
+        "steadily"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D25.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D25.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 50–90 palabras describiendo la tendencia de un gráfico real o inventado de tu área (rose, fell, peak, by, to, percentage points).",
+     "min_words": 45,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "increase",
+        "decrease",
+        "rise",
+        "fall",
+        "remain stable",
+        "peak",
+        "trend",
+        "sharply",
+        "slightly",
+        "percentage points",
+        "rate",
+        "steadily"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "by",
+        "to",
+        "increase",
+        "decrease",
+        "rose",
+        "fell",
+        "percentage points"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

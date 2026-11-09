@@ -1,0 +1,910 @@
+{
+ "id": "D11",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Lo que estaba pasando: pasado continuo",
+ "day": 11,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy describes situaciones en curso en el pasado (was working) y lo que las interrumpió (when… happened).",
+ "objectives": [
+  {
+   "id": "D11-O1",
+   "text": "Formar el pasado continuo (was/were + -ing)."
+  },
+  {
+   "id": "D11-O2",
+   "text": "Combinarlo con el pasado simple usando when y while."
+  },
+  {
+   "id": "D11-O3",
+   "text": "Narrar un problema que ocurrió durante un trabajo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D11-LX01",
+    "form": "while",
+    "meaning_es": "mientras",
+    "example": "While we were collecting data, a sensor failed.",
+    "example_es": "Mientras recolectábamos datos, un sensor falló.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX02",
+    "form": "when",
+    "meaning_es": "cuando",
+    "example": "The power went off when we were testing the model.",
+    "example_es": "Se cortó la luz cuando estábamos probando el modelo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX03",
+    "form": "fail",
+    "meaning_es": "fallar",
+    "example": "Machines often fail in winter.",
+    "example_es": "Las máquinas a menudo fallan en invierno.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX04",
+    "form": "break down",
+    "meaning_es": "averiarse, descomponerse",
+    "example": "The old machine can break down at any time.",
+    "example_es": "La máquina antigua puede averiarse en cualquier momento.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX05",
+    "form": "delay",
+    "meaning_es": "retraso; retrasar",
+    "example": "There was a delay of two weeks.",
+    "example_es": "Hubo un retraso de dos semanas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX06",
+    "form": "replace",
+    "meaning_es": "reemplazar",
+    "example": "We had to replace two sensors.",
+    "example_es": "Tuvimos que reemplazar dos sensores.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX07",
+    "form": "shift",
+    "meaning_es": "turno",
+    "example": "The night shift starts at ten.",
+    "example_es": "El turno de noche empieza a las diez.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX08",
+    "form": "operator",
+    "meaning_es": "operario/a",
+    "example": "An operator called the team.",
+    "example_es": "Un operario llamó al equipo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX09",
+    "form": "unexpected",
+    "meaning_es": "inesperado/a",
+    "example": "It was an unexpected problem.",
+    "example_es": "Fue un problema inesperado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX10",
+    "form": "suddenly",
+    "meaning_es": "de repente",
+    "example": "Suddenly the data stopped.",
+    "example_es": "De repente los datos se detuvieron.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX11",
+    "form": "power cut",
+    "meaning_es": "corte de luz",
+    "example": "A power cut stopped production.",
+    "example_es": "Un corte de luz detuvo la producción.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D11-LX12",
+    "form": "fix",
+    "meaning_es": "arreglar, reparar",
+    "example": "They managed to fix it in one day.",
+    "example_es": "Lograron arreglarlo en un día.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D11-G1",
+    "topic": "Pasado continuo (was/were + -ing) con when y while"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D11-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "while",
+     "meaning_es": "mientras",
+     "example": "While we were collecting data, a sensor failed.",
+     "example_es": "Mientras recolectábamos datos, un sensor falló."
+    },
+    {
+     "form": "when",
+     "meaning_es": "cuando",
+     "example": "The power went off when we were testing the model.",
+     "example_es": "Se cortó la luz cuando estábamos probando el modelo."
+    },
+    {
+     "form": "fail",
+     "meaning_es": "fallar",
+     "example": "Machines often fail in winter.",
+     "example_es": "Las máquinas a menudo fallan en invierno."
+    },
+    {
+     "form": "break down",
+     "meaning_es": "averiarse, descomponerse",
+     "example": "The old machine can break down at any time.",
+     "example_es": "La máquina antigua puede averiarse en cualquier momento."
+    },
+    {
+     "form": "delay",
+     "meaning_es": "retraso; retrasar",
+     "example": "There was a delay of two weeks.",
+     "example_es": "Hubo un retraso de dos semanas."
+    },
+    {
+     "form": "replace",
+     "meaning_es": "reemplazar",
+     "example": "We had to replace two sensors.",
+     "example_es": "Tuvimos que reemplazar dos sensores."
+    },
+    {
+     "form": "shift",
+     "meaning_es": "turno",
+     "example": "The night shift starts at ten.",
+     "example_es": "El turno de noche empieza a las diez."
+    },
+    {
+     "form": "operator",
+     "meaning_es": "operario/a",
+     "example": "An operator called the team.",
+     "example_es": "Un operario llamó al equipo."
+    },
+    {
+     "form": "unexpected",
+     "meaning_es": "inesperado/a",
+     "example": "It was an unexpected problem.",
+     "example_es": "Fue un problema inesperado."
+    },
+    {
+     "form": "suddenly",
+     "meaning_es": "de repente",
+     "example": "Suddenly the data stopped.",
+     "example_es": "De repente los datos se detuvieron."
+    },
+    {
+     "form": "power cut",
+     "meaning_es": "corte de luz",
+     "example": "A power cut stopped production.",
+     "example_es": "Un corte de luz detuvo la producción."
+    },
+    {
+     "form": "fix",
+     "meaning_es": "arreglar, reparar",
+     "example": "They managed to fix it in one day.",
+     "example_es": "Lograron arreglarlo en un día."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D11-RG",
+   "type": "capsule",
+   "title": "Pasado continuo (was/were + -ing) con when y while",
+   "explain": "El pasado continuo describe algo que estaba en curso en un momento del pasado: We were collecting data in May.\nForma: was (I/he/she/it) o were (we/you/they) + verbo con -ing.\nSe combina con el pasado simple para una acción que interrumpe: We were testing the model when the power went off.\n«while» va con la acción larga (continuo); «when» suele ir con la acción corta (simple).",
+   "form": [
+    [
+     "I / he / she / it was + -ing",
+     "The machine was working."
+    ],
+    [
+     "we / you / they were + -ing",
+     "We were collecting data."
+    ],
+    [
+     "acción larga + when + acción corta",
+     "We were working when it failed."
+    ],
+    [
+     "While + continuo, simple",
+     "While we were testing, a sensor failed."
+    ]
+   ],
+   "examples": [
+    [
+     "We were collecting data when a sensor failed.",
+     "Estábamos recolectando datos cuando falló un sensor."
+    ],
+    [
+     "While the night shift was working, the power went off.",
+     "Mientras trabajaba el turno de noche, se cortó la luz."
+    ]
+   ],
+   "tip": "No uses el continuo para acciones cortas: «a sensor failed», no «a sensor was failing».",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D11-RR",
+   "type": "text",
+   "title": "The power cut",
+   "body": "It was a cold night in June. The team was collecting data in the second sawmill, and the night shift was working as usual. Suddenly there was a power cut. When the power came back, two sensors were not sending data. An operator called Diego at midnight. The next day the team replaced the sensors, but there was a delay of two weeks. It was an unexpected problem, and the team learned an important lesson about backups.",
+   "translation_es": "Era una noche fría de junio. El equipo estaba recolectando datos en el segundo aserradero, y el turno de noche trabajaba como siempre. De repente hubo un corte de luz. Cuando volvió la electricidad, dos sensores no estaban enviando datos. Un operario llamó a Diego a medianoche. Al día siguiente el equipo reemplazó los sensores, pero hubo un retraso de dos semanas. Fue un problema inesperado, y el equipo aprendió una lección importante sobre los respaldos.",
+   "glossary": [
+    [
+     "as usual",
+     "como siempre"
+    ],
+    [
+     "came back",
+     "volvió"
+    ],
+    [
+     "backups",
+     "respaldos"
+    ],
+    [
+     "learned",
+     "aprendió"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D11.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D11-RV"
+   ],
+   "activities": [
+    {
+     "id": "D11.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] we were collecting data, a sensor failed.  (2) Machines often [[2]] in winter.  (3) We had to [[3]] two sensors.  (4) An [[4]] called the team.  (5) It was an [[5]] problem.  (6) A [[6]] stopped production.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "while"
+       ],
+       "hint": "Significa «mientras»."
+      },
+      "2": {
+       "accept": [
+        "fail"
+       ],
+       "hint": "Significa «fallar»."
+      },
+      "3": {
+       "accept": [
+        "replace"
+       ],
+       "hint": "Significa «reemplazar»."
+      },
+      "4": {
+       "accept": [
+        "operator"
+       ],
+       "hint": "Significa «operario/a»."
+      },
+      "5": {
+       "accept": [
+        "unexpected"
+       ],
+       "hint": "Significa «inesperado/a»."
+      },
+      "6": {
+       "accept": [
+        "power cut"
+       ],
+       "hint": "Significa «corte de luz»."
+      }
+     }
+    },
+    {
+     "id": "D11.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «cuando»",
+     "accept": [
+      "when"
+     ],
+     "hint": "Empieza con «wh…» · Ejemplo: Se cortó la luz cuando estábamos probando el modelo."
+    },
+    {
+     "id": "D11.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «arreglar, reparar»",
+     "accept": [
+      "fix"
+     ],
+     "hint": "Empieza con «fi…» · Ejemplo: Lograron arreglarlo en un día."
+    },
+    {
+     "id": "D11.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «de repente»",
+     "accept": [
+      "suddenly"
+     ],
+     "hint": "Empieza con «su…» · Ejemplo: De repente los datos se detuvieron."
+    },
+    {
+     "id": "D11.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «retraso; retrasar»",
+     "accept": [
+      "delay"
+     ],
+     "hint": "Empieza con «de…» · Ejemplo: Hubo un retraso de dos semanas."
+    },
+    {
+     "id": "D11.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «turno»",
+     "accept": [
+      "shift"
+     ],
+     "hint": "Empieza con «sh…» · Ejemplo: El turno de noche empieza a las diez."
+    },
+    {
+     "id": "D11.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «averiarse, descomponerse»",
+     "accept": [
+      "break down"
+     ],
+     "hint": "Empieza con «br…» · Ejemplo: La máquina antigua puede averiarse en cualquier momento."
+    },
+    {
+     "id": "D11.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The power went off when we were testing the model.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The power went off when we were testing the model."
+    }
+   ]
+  },
+  {
+   "id": "D11.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasado continuo (was/were + -ing) con when y while",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D11-RG"
+   ],
+   "activities": [
+    {
+     "id": "D11.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We [[1]] collecting data when the sensor failed. (be)  (2) The machine [[2]] working at night. (be)  (3) Ana was [[3]] the data when Diego called. (check)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "were"
+       ],
+       "hint": "we → were"
+      },
+      "2": {
+       "accept": [
+        "was"
+       ],
+       "hint": "it → was"
+      },
+      "3": {
+       "accept": [
+        "checking"
+       ],
+       "hint": "-ing"
+      }
+     }
+    },
+    {
+     "id": "D11.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] we were testing the model, the power went off.  (2) The operator called [[2]] the machine stopped.  (3) A sensor [[3]] while they were working. (fail)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "while"
+       ],
+       "hint": "acción larga → while"
+      },
+      "2": {
+       "accept": [
+        "when"
+       ],
+       "hint": "acción corta → when"
+      },
+      "3": {
+       "accept": [
+        "failed"
+       ],
+       "hint": "acción corta → pasado simple"
+      }
+     }
+    },
+    {
+     "id": "D11.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "We were test the model."
+      },
+      {
+       "id": "b",
+       "text": "We were testing the model when it failed."
+      },
+      {
+       "id": "c",
+       "text": "We was testing the model."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D11.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué expresa «I was working when he called»?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Dos acciones largas"
+      },
+      {
+       "id": "b",
+       "text": "Una acción en curso interrumpida por otra"
+      },
+      {
+       "id": "c",
+       "text": "Un hábito"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D11.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe dos oraciones sobre un problema que ocurrió mientras trabajabas (usa was/were + -ing y when/while).",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "was",
+        "were",
+        "when",
+        "while"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D11.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Un problema inesperado",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D11.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Un problema inesperado: escucha sin leer y responde.",
+     "audio": {
+      "text": "In June we were collecting data in the second sawmill. The night shift was working when suddenly the power went off. Two sensors failed. We had to replace them, and there was a delay of two weeks.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "transcript": "In June we were collecting data in the second sawmill. The night shift was working when suddenly the power went off. Two sensors failed. We had to replace them, and there was a delay of two weeks.",
+     "translation_es": "En junio estábamos recolectando datos en el segundo aserradero. El turno de noche estaba trabajando cuando de repente se cortó la luz. Fallaron dos sensores. Tuvimos que reemplazarlos y hubo un retraso de dos semanas.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué turno estaba trabajando?",
+       "label": "¿Qué turno estaba trabajando?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El de día"
+        },
+        {
+         "id": "b",
+         "text": "El de noche"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuántos sensores fallaron?",
+       "label": "¿Cuántos sensores fallaron?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Uno"
+        },
+        {
+         "id": "b",
+         "text": "Dos"
+        },
+        {
+         "id": "c",
+         "text": "Diez"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuánto fue el retraso?",
+       "label": "¿Cuánto fue el retraso?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Dos días"
+        },
+        {
+         "id": "b",
+         "text": "Dos semanas"
+        },
+        {
+         "id": "c",
+         "text": "Dos meses"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D11.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "Two sensors failed.",
+      "voice": "en-GB",
+      "source": "sintetizada"
+     },
+     "answer": "Two sensors failed."
+    }
+   ]
+  },
+  {
+   "id": "D11.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: The power cut",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D11-RR"
+   ],
+   "activities": [
+    {
+     "id": "D11.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué estaba haciendo el equipo esa noche?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Instalando máquinas"
+      },
+      {
+       "id": "b",
+       "text": "Recolectando datos"
+      },
+      {
+       "id": "c",
+       "text": "Escribiendo un informe"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D11.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Quién llamó a Diego?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Ana"
+      },
+      {
+       "id": "b",
+       "text": "Un operario"
+      },
+      {
+       "id": "c",
+       "text": "Mark"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D11.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué lección aprendió el equipo?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sobre los respaldos"
+      },
+      {
+       "id": "b",
+       "text": "Sobre los turnos"
+      },
+      {
+       "id": "c",
+       "text": "Sobre el financiamiento"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D11.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D11.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "It was a cold night in June. The team was collecting data in the second sawmill, and the night shift was working as usual.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "It was a cold night in June.",
+       "The team was collecting data in the second sawmill, and the night shift was working as usual."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D11.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta en voz alta (30–60 s) un problema inesperado que tuviste en el trabajo: qué estabas haciendo cuando ocurrió y cómo lo resolviste.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "while",
+        "when",
+        "fail",
+        "break down",
+        "delay",
+        "replace",
+        "shift",
+        "operator",
+        "unexpected",
+        "suddenly",
+        "power cut",
+        "fix"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D11.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D11.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 40–80 palabras narrando un imprevisto: situación en curso (was/were + -ing), lo que pasó (pasado simple) y la solución.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "while",
+        "when",
+        "fail",
+        "break down",
+        "delay",
+        "replace",
+        "shift",
+        "operator",
+        "unexpected",
+        "suddenly",
+        "power cut",
+        "fix"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "was",
+        "were",
+        "when",
+        "while"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ prog.name }}{% endblock %}
+{% block content %}
+
+<header class="program-head">
+  <p class="crumbs"><a href="{% url 'catalog' %}">Ruta</a> › {{ prog.short }}</p>
+  <h1>{{ prog.name }}</h1>
+  <p class="muted">{{ plan.intro }}</p>
+  <nav class="program-switch" aria-label="Otros planes">{% for o in others %}<a href="{{ o.url }}">{{ o.short }} →</a>{% endfor %}</nav>
+</header>
+
+{% if not start %}
+<section class="card card-accent start-card">
+  <h2>Elige tu día 1</h2>
+  {% if plan.start_note %}<p>{{ plan.start_note }}</p>{% endif %}
+  <form method="post" action="{{ start_action }}" class="start-form">{% csrf_token %}
+    <label>Fecha de inicio <input type="date" name="start" value="{% now 'Y-m-d' %}"></label>
+    <button type="submit" class="green">Comenzar el plan</button>
+  </form>
+  <p class="small muted">Puedes cambiar la fecha después en tu perfil. Opcional antes de empezar: el <a href="{% url 'diagnostic' %}">diagnóstico breve</a> te dice qué bloques diarios reforzar.</p>
+</section>
+{% else %}
+<p class="today-cta"><a class="button green big" href="{{ today_url }}">Ir al día {{ today_n }} de {{ total }} →</a> <span class="muted">{{ today_title }}</span></p>
+{% endif %}
+
+{% include "plan/_ring.html" %}
+
+<h2 class="section-title">Día a día</h2>
+<p class="muted small">Cada día tiene seis bloques. Los íconos se marcan cuando terminas cada bloque: 🔤 vocabulario · 🧩 gramática · 🎧 escucha · 📄 lectura · 🎙️ habla · ✍️ escritura.</p>
+
+{% for wk in weeks %}
+<section class="week-block">
+  <header class="week-head">
+    <div><span class="week-tag">{{ plan.unit_label|default:"Semana" }} {{ wk.n }}</span><h3>{{ wk.title }}</h3><p class="small muted">{{ wk.focus }}</p></div>
+    <div class="week-count"><strong>{{ wk.done }}</strong>/{{ wk.count }}</div>
+  </header>
+  <ol class="timeline">
+    {% for c in wk.days %}
+    <li class="tl-day state-{{ c.state }}{% if c.meta.type != 'aprendizaje' %} tl-special{% endif %}">
+      <a href="{{ c.url }}">
+        <span class="tl-num">{{ c.n }}</span>
+        <span class="tl-body">
+          <span class="tl-top"><strong>{{ c.meta.title }}</strong>{% if c.date %}<span class="tl-date">{{ c.date|date:"D d M" }}</span>{% endif %}</span>
+          <span class="tl-blocks">
+            {% for b in c.progress.blocks %}<span class="blk{% if b.done == b.total %} full{% elif b.done %} part{% endif %}" title="{{ b.label }}: {{ b.done }}/{{ b.total }}">{{ b.icon }}</span>{% endfor %}
+            {% if c.meta.type == 'repaso' %}<span class="tag">repaso{% if not plan.unit_label %} semanal{% endif %}</span>{% elif c.meta.type == 'final' %}<span class="tag tag-final">{{ plan.final_label|default:"presentación final" }}</span>{% endif %}
+          </span>
+        </span>
+        <span class="tl-state">{{ c.label }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+<section class="card card-accent blue">
+  <h2>Qué puedes esperar al día {{ total }}</h2>
+  <ul>{% for g in plan.outcomes %}<li>{{ g }}</li>{% endfor %}</ul>
+  <p class="small muted">{{ plan.honesty }}</p>
+  <details class="small"><summary>Cómo funciona cada día</summary>
+    <ol class="routine">{% for b in plan.routine %}<li><strong>{{ b.block }}</strong> · {{ b.minutes }} min — {{ b.what }}</li>{% endfor %}</ol>
+    <p class="muted">{{ plan.method_note }}</p></details>
+</section>
+{% endblock %}

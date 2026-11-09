@@ -1,0 +1,923 @@
+{
+ "id": "B09",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Tiempo libre, gustos y el clima",
+ "day": 9,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas de lo que te gusta hacer, con qué frecuencia lo haces (always, usually, never…) y del clima.",
+ "objectives": [
+  {
+   "id": "B09-O1",
+   "text": "Decir con qué frecuencia haces algo (always … never)."
+  },
+  {
+   "id": "B09-O2",
+   "text": "Expresar gustos con like / love / hate + -ing."
+  },
+  {
+   "id": "B09-O3",
+   "text": "Describir el clima de tu ciudad."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "B09-LX01",
+    "form": "always",
+    "meaning_es": "siempre",
+    "example": "I always drink coffee in the morning.",
+    "example_es": "Siempre tomo café en la mañana.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX02",
+    "form": "usually",
+    "meaning_es": "normalmente",
+    "example": "We usually eat at home.",
+    "example_es": "Normalmente comemos en casa.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX03",
+    "form": "often",
+    "meaning_es": "a menudo, seguido",
+    "example": "I often walk in the park.",
+    "example_es": "Camino seguido en el parque.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX04",
+    "form": "sometimes",
+    "meaning_es": "a veces",
+    "example": "Sometimes I watch a movie.",
+    "example_es": "A veces veo una película.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX05",
+    "form": "never",
+    "meaning_es": "nunca",
+    "example": "Tomás never drives in Boston.",
+    "example_es": "Tomás nunca maneja en Boston.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX06",
+    "form": "free time",
+    "meaning_es": "tiempo libre",
+    "example": "What do you do in your free time?",
+    "example_es": "¿Qué haces en tu tiempo libre?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX07",
+    "form": "weather",
+    "meaning_es": "clima, tiempo (atmosférico)",
+    "example": "The weather is nice today.",
+    "example_es": "Hoy hace buen tiempo.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX08",
+    "form": "sunny",
+    "meaning_es": "soleado",
+    "example": "It is sunny and warm.",
+    "example_es": "Está soleado y templado.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX09",
+    "form": "rainy",
+    "meaning_es": "lluvioso",
+    "example": "Concepción is rainy in winter.",
+    "example_es": "Concepción es lluviosa en invierno.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX10",
+    "form": "cold",
+    "meaning_es": "frío",
+    "example": "It is very cold in January.",
+    "example_es": "Hace mucho frío en enero.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX11",
+    "form": "hot",
+    "meaning_es": "caluroso, caliente",
+    "example": "Is it hot in Chile in December?",
+    "example_es": "¿Hace calor en Chile en diciembre?",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   },
+   {
+    "id": "B09-LX12",
+    "form": "enjoy",
+    "meaning_es": "disfrutar",
+    "example": "I enjoy reading on the weekend.",
+    "example_es": "Disfruto leer el fin de semana.",
+    "collocations": [],
+    "family": [],
+    "register": "cotidiano",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "B09-G1",
+    "topic": "Adverbios de frecuencia y gustos (like, love, hate + -ing)"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "B09-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "always",
+     "meaning_es": "siempre",
+     "example": "I always drink coffee in the morning.",
+     "example_es": "Siempre tomo café en la mañana."
+    },
+    {
+     "form": "usually",
+     "meaning_es": "normalmente",
+     "example": "We usually eat at home.",
+     "example_es": "Normalmente comemos en casa."
+    },
+    {
+     "form": "often",
+     "meaning_es": "a menudo, seguido",
+     "example": "I often walk in the park.",
+     "example_es": "Camino seguido en el parque."
+    },
+    {
+     "form": "sometimes",
+     "meaning_es": "a veces",
+     "example": "Sometimes I watch a movie.",
+     "example_es": "A veces veo una película."
+    },
+    {
+     "form": "never",
+     "meaning_es": "nunca",
+     "example": "Tomás never drives in Boston.",
+     "example_es": "Tomás nunca maneja en Boston."
+    },
+    {
+     "form": "free time",
+     "meaning_es": "tiempo libre",
+     "example": "What do you do in your free time?",
+     "example_es": "¿Qué haces en tu tiempo libre?"
+    },
+    {
+     "form": "weather",
+     "meaning_es": "clima, tiempo (atmosférico)",
+     "example": "The weather is nice today.",
+     "example_es": "Hoy hace buen tiempo."
+    },
+    {
+     "form": "sunny",
+     "meaning_es": "soleado",
+     "example": "It is sunny and warm.",
+     "example_es": "Está soleado y templado."
+    },
+    {
+     "form": "rainy",
+     "meaning_es": "lluvioso",
+     "example": "Concepción is rainy in winter.",
+     "example_es": "Concepción es lluviosa en invierno."
+    },
+    {
+     "form": "cold",
+     "meaning_es": "frío",
+     "example": "It is very cold in January.",
+     "example_es": "Hace mucho frío en enero."
+    },
+    {
+     "form": "hot",
+     "meaning_es": "caluroso, caliente",
+     "example": "Is it hot in Chile in December?",
+     "example_es": "¿Hace calor en Chile en diciembre?"
+    },
+    {
+     "form": "enjoy",
+     "meaning_es": "disfrutar",
+     "example": "I enjoy reading on the weekend.",
+     "example_es": "Disfruto leer el fin de semana."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B09-RG",
+   "type": "capsule",
+   "title": "Adverbios de frecuencia y gustos (like, love, hate + -ing)",
+   "explain": "Frecuencia, de más a menos: always (siempre) · usually (normalmente) · often (seguido) · sometimes (a veces) · never (nunca).\nVan ANTES del verbo principal (I usually walk) pero DESPUÉS de to be (It is often cold).\nGustos: like / love / enjoy / hate + verbo con -ing: I like reading, she loves cooking, he hates waiting.\nEl clima se describe con «it»: It is sunny. It is cold. It rains a lot.",
+   "form": [
+    [
+     "sujeto + adverbio + verbo",
+     "I often walk"
+    ],
+    [
+     "to be + adverbio",
+     "It is always cold"
+    ],
+    [
+     "like / love / hate + -ing",
+     "I love reading"
+    ],
+    [
+     "It is + clima",
+     "It is rainy · It is hot"
+    ]
+   ],
+   "examples": [
+    [
+     "I usually get up early.",
+     "Normalmente me levanto temprano."
+    ],
+    [
+     "It is often rainy in the south.",
+     "En el sur llueve seguido."
+    ],
+    [
+     "She loves walking in the park.",
+     "A ella le encanta caminar en el parque."
+    ],
+    [
+     "We never watch TV in the morning.",
+     "Nunca vemos televisión en la mañana."
+    ]
+   ],
+   "tip": "Error típico: «I like walk» → correcto: «I like walking» (o «I like to walk»).",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "B09-RR",
+   "type": "text",
+   "title": "The weather in Boston",
+   "body": "Boston has four very different seasons. In winter it is very cold and it often snows. In spring the weather is usually nice, but sometimes it is rainy. Summer is hot and sunny, and many people enjoy going to the beach. Autumn is beautiful: the trees are red and yellow. Tomás is in Boston in November, so he always takes a warm jacket.",
+   "translation_es": "Boston tiene cuatro estaciones muy distintas. En invierno hace mucho frío y nieva seguido. En primavera el tiempo normalmente es agradable, pero a veces llueve. El verano es caluroso y soleado, y mucha gente disfruta ir a la playa. El otoño es hermoso: los árboles son rojos y amarillos. Tomás está en Boston en noviembre, así que siempre lleva una chaqueta abrigada.",
+   "glossary": [
+    [
+     "seasons",
+     "estaciones"
+    ],
+    [
+     "snows",
+     "nieva"
+    ],
+    [
+     "warm jacket",
+     "chaqueta abrigada"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "B09.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 15,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "B09-RV"
+   ],
+   "activities": [
+    {
+     "id": "B09.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I [[1]] drink coffee in the morning.  (2) We [[2]] eat at home.  (3) I [[3]] walk in the park.  (4) Tomás [[4]] drives in Boston.  (5) What do you do in your [[5]]?  (6) Is it [[6]] in Chile in December?",
+     "gaps": {
+      "1": {
+       "accept": [
+        "always"
+       ],
+       "hint": "Significa «siempre»."
+      },
+      "2": {
+       "accept": [
+        "usually"
+       ],
+       "hint": "Significa «normalmente»."
+      },
+      "3": {
+       "accept": [
+        "often"
+       ],
+       "hint": "Significa «a menudo, seguido»."
+      },
+      "4": {
+       "accept": [
+        "never"
+       ],
+       "hint": "Significa «nunca»."
+      },
+      "5": {
+       "accept": [
+        "free time"
+       ],
+       "hint": "Significa «tiempo libre»."
+      },
+      "6": {
+       "accept": [
+        "hot"
+       ],
+       "hint": "Significa «caluroso, caliente»."
+      }
+     }
+    },
+    {
+     "id": "B09.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «frío»",
+     "accept": [
+      "cold"
+     ],
+     "hint": "Empieza con «co…» · Ejemplo: Hace mucho frío en enero."
+    },
+    {
+     "id": "B09.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «clima, tiempo (atmosférico)»",
+     "accept": [
+      "weather"
+     ],
+     "hint": "Empieza con «we…» · Ejemplo: Hoy hace buen tiempo."
+    },
+    {
+     "id": "B09.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «lluvioso»",
+     "accept": [
+      "rainy"
+     ],
+     "hint": "Empieza con «ra…» · Ejemplo: Concepción es lluviosa en invierno."
+    },
+    {
+     "id": "B09.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «a veces»",
+     "accept": [
+      "sometimes"
+     ],
+     "hint": "Empieza con «so…» · Ejemplo: A veces veo una película."
+    },
+    {
+     "id": "B09.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «disfrutar»",
+     "accept": [
+      "enjoy"
+     ],
+     "hint": "Empieza con «en…» · Ejemplo: Disfruto leer el fin de semana."
+    },
+    {
+     "id": "B09.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «soleado»",
+     "accept": [
+      "sunny"
+     ],
+     "hint": "Empieza con «su…» · Ejemplo: Está soleado y templado."
+    },
+    {
+     "id": "B09.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "It is very cold in January.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "It is very cold in January."
+    }
+   ]
+  },
+  {
+   "id": "B09.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 15,
+   "title": "Gramática: Adverbios de frecuencia y gustos (like, love, hate + -ing)",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "B09-RG"
+   ],
+   "activities": [
+    {
+     "id": "B09.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] drink coffee. I don't like it. (nunca)  (2) She [[2]] walks to work. Every day! (siempre)  (3) It [[3]] cold in July in Chile.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "never"
+       ],
+       "hint": "nunca → never."
+      },
+      "2": {
+       "accept": [
+        "always"
+       ],
+       "hint": "siempre → always."
+      },
+      "3": {
+       "accept": [
+        "is"
+       ],
+       "hint": "El clima: It is…"
+      }
+     }
+    },
+    {
+     "id": "B09.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I like [[1]] in my free time. (read)  (2) He hates [[2]] for the bus. (wait)  (3) We [[3]] go to the cinema, maybe once a month. (a veces)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "reading"
+       ],
+       "hint": "like + -ing."
+      },
+      "2": {
+       "accept": [
+        "waiting"
+       ],
+       "hint": "hate + -ing."
+      },
+      "3": {
+       "accept": [
+        "sometimes"
+       ],
+       "hint": "a veces → sometimes."
+      }
+     }
+    },
+    {
+     "id": "B09.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I go usually to work by bus."
+      },
+      {
+       "id": "b",
+       "text": "I usually go to work by bus."
+      },
+      {
+       "id": "c",
+       "text": "Usually I go always to work."
+      }
+     ],
+     "answer": "b",
+     "explanation": "El adverbio va antes del verbo principal."
+    },
+    {
+     "id": "B09.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I love cook."
+      },
+      {
+       "id": "b",
+       "text": "I love cooking."
+      },
+      {
+       "id": "c",
+       "text": "I love to cooking."
+      }
+     ],
+     "answer": "b",
+     "explanation": "love + -ing (o love to cook)."
+    },
+    {
+     "id": "B09.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tu tiempo libre con always / usually / sometimes / never y like + -ing.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B09.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 10,
+   "title": "Escucha: ¿Qué haces el fin de semana?",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B09.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "¿Qué haces el fin de semana?: escucha sin leer y responde.",
+     "audio": {
+      "text": "What do you usually do on the weekend, Tomás? In Chile, I often go to the beach with my family. In winter it is rainy, so we sometimes watch movies at home. And here in Boston? Here it is cold, so I usually visit museums. I love walking in the city when it is sunny. I never go out late.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "What do you usually do on the weekend, Tomás? In Chile, I often go to the beach with my family. In winter it is rainy, so we sometimes watch movies at home. And here in Boston? Here it is cold, so I usually visit museums. I love walking in the city when it is sunny. I never go out late.",
+     "translation_es": "¿Qué haces normalmente el fin de semana, Tomás? En Chile voy seguido a la playa con mi familia. En invierno llueve, así que a veces vemos películas en casa. ¿Y aquí en Boston? Aquí hace frío, así que normalmente visito museos. Me encanta caminar por la ciudad cuando hay sol. Nunca salgo tarde.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué hace Tomás seguido en Chile?",
+       "label": "¿Qué hace Tomás seguido en Chile?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Va a la playa"
+        },
+        {
+         "id": "b",
+         "text": "Va al cine"
+        },
+        {
+         "id": "c",
+         "text": "Juega fútbol"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué hace normalmente en Boston?",
+       "label": "¿Qué hace normalmente en Boston?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Visita museos"
+        },
+        {
+         "id": "b",
+         "text": "Va a la playa"
+        },
+        {
+         "id": "c",
+         "text": "Trabaja"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Qué no hace nunca?",
+       "label": "¿Qué no hace nunca?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Caminar"
+        },
+        {
+         "id": "b",
+         "text": "Salir tarde"
+        },
+        {
+         "id": "c",
+         "text": "Ver películas"
+        }
+       ],
+       "answer": "b",
+       "explanation": "«I never go out late»."
+      }
+     ]
+    },
+    {
+     "id": "B09.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "I love walking in the city when it is sunny.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I love walking in the city when it is sunny."
+    }
+   ]
+  },
+  {
+   "id": "B09.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 10,
+   "title": "Lectura: The weather in Boston",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "B09-RR"
+   ],
+   "activities": [
+    {
+     "id": "B09.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cómo es el invierno en Boston?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Caluroso"
+      },
+      {
+       "id": "b",
+       "text": "Muy frío, con nieve"
+      },
+      {
+       "id": "c",
+       "text": "Lluvioso y templado"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "B09.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué hace la gente en verano?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Va a la playa"
+      },
+      {
+       "id": "b",
+       "text": "Esquía"
+      },
+      {
+       "id": "c",
+       "text": "Se queda en casa"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "B09.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Por qué Tomás lleva una chaqueta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Porque está en Boston en noviembre"
+      },
+      {
+       "id": "b",
+       "text": "Porque llueve en verano"
+      },
+      {
+       "id": "c",
+       "text": "Porque es su favorita"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "B09.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 10,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B09.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Boston has four very different seasons. In winter it is very cold and it often snows.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Boston has four very different seasons.",
+       "In winter it is very cold and it often snows."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "B09.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Habla 30–60 s sobre tu fin de semana típico y el clima de tu ciudad (I usually…, I love…, It is often…).",
+     "min_seconds": 30,
+     "max_seconds": 75,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never",
+        "free time",
+        "weather",
+        "sunny",
+        "rainy",
+        "cold",
+        "hot",
+        "enjoy"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B09.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 5,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "B09.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe 30–60 palabras sobre tu tiempo libre: qué haces siempre, a veces y nunca.",
+     "min_words": 30,
+     "max_words": 70,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never",
+        "free time",
+        "weather",
+        "sunny",
+        "rainy",
+        "cold",
+        "hot",
+        "enjoy"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-08",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "change": "Plan base de 20 días, versión inicial."
+   }
+  ]
+ }
+}

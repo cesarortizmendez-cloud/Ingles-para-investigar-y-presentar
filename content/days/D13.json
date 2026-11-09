@@ -1,0 +1,910 @@
+{
+ "id": "D13",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "¿Pasado simple o present perfect?",
+ "day": 13,
+ "week": 2,
+ "day_type": "aprendizaje",
+ "intro": "Hoy eliges entre «I worked» y «I have worked», y usas for, since y ago correctamente.",
+ "objectives": [
+  {
+   "id": "D13-O1",
+   "text": "Elegir pasado simple (fecha terminada) o present perfect (hasta ahora)."
+  },
+  {
+   "id": "D13-O2",
+   "text": "Usar for (durante), since (desde) y ago (hace)."
+  },
+  {
+   "id": "D13-O3",
+   "text": "Contar tu trayectoria profesional en orden."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D13-LX01",
+    "form": "since",
+    "meaning_es": "desde",
+    "example": "I have worked here since 2015.",
+    "example_es": "Trabajo aquí desde 2015.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX02",
+    "form": "for",
+    "meaning_es": "durante, por (duración)",
+    "example": "She has taught for ten years.",
+    "example_es": "Ella enseña hace diez años.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX03",
+    "form": "career",
+    "meaning_es": "carrera (profesional)",
+    "example": "My career started in industry.",
+    "example_es": "Mi carrera empezó en la industria.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX04",
+    "form": "join",
+    "meaning_es": "unirse a, ingresar a",
+    "example": "I decided to join the university in 2015.",
+    "example_es": "Decidí ingresar a la universidad en 2015.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX05",
+    "form": "degree",
+    "meaning_es": "título, grado",
+    "example": "She has a degree in industrial engineering.",
+    "example_es": "Tiene un título en ingeniería industrial.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX06",
+    "form": "master's degree",
+    "meaning_es": "magíster",
+    "example": "Diego is doing a master's degree.",
+    "example_es": "Diego está haciendo un magíster.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX07",
+    "form": "PhD",
+    "meaning_es": "doctorado",
+    "example": "Mark finished his PhD in 2012.",
+    "example_es": "Mark terminó su doctorado en 2012.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX08",
+    "form": "industry",
+    "meaning_es": "industria (sector productivo)",
+    "example": "I worked in industry for six years.",
+    "example_es": "Trabajé en la industria durante seis años.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX09",
+    "form": "move",
+    "meaning_es": "mudarse, cambiarse",
+    "example": "She decided to move to Chillán.",
+    "example_es": "Decidió mudarse a Chillán.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX10",
+    "form": "background",
+    "meaning_es": "formación, antecedentes",
+    "example": "My background is in engineering.",
+    "example_es": "Mi formación es en ingeniería.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX11",
+    "form": "position",
+    "meaning_es": "cargo, puesto",
+    "example": "She has held this position since 2019.",
+    "example_es": "Ocupa este cargo desde 2019.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D13-LX12",
+    "form": "previously",
+    "meaning_es": "anteriormente",
+    "example": "Previously, I was a planning engineer.",
+    "example_es": "Anteriormente fui ingeniero de planificación.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D13-G1",
+    "topic": "Pasado simple vs present perfect; for, since, ago"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D13-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "since",
+     "meaning_es": "desde",
+     "example": "I have worked here since 2015.",
+     "example_es": "Trabajo aquí desde 2015."
+    },
+    {
+     "form": "for",
+     "meaning_es": "durante, por (duración)",
+     "example": "She has taught for ten years.",
+     "example_es": "Ella enseña hace diez años."
+    },
+    {
+     "form": "career",
+     "meaning_es": "carrera (profesional)",
+     "example": "My career started in industry.",
+     "example_es": "Mi carrera empezó en la industria."
+    },
+    {
+     "form": "join",
+     "meaning_es": "unirse a, ingresar a",
+     "example": "I decided to join the university in 2015.",
+     "example_es": "Decidí ingresar a la universidad en 2015."
+    },
+    {
+     "form": "degree",
+     "meaning_es": "título, grado",
+     "example": "She has a degree in industrial engineering.",
+     "example_es": "Tiene un título en ingeniería industrial."
+    },
+    {
+     "form": "master's degree",
+     "meaning_es": "magíster",
+     "example": "Diego is doing a master's degree.",
+     "example_es": "Diego está haciendo un magíster."
+    },
+    {
+     "form": "PhD",
+     "meaning_es": "doctorado",
+     "example": "Mark finished his PhD in 2012.",
+     "example_es": "Mark terminó su doctorado en 2012."
+    },
+    {
+     "form": "industry",
+     "meaning_es": "industria (sector productivo)",
+     "example": "I worked in industry for six years.",
+     "example_es": "Trabajé en la industria durante seis años."
+    },
+    {
+     "form": "move",
+     "meaning_es": "mudarse, cambiarse",
+     "example": "She decided to move to Chillán.",
+     "example_es": "Decidió mudarse a Chillán."
+    },
+    {
+     "form": "background",
+     "meaning_es": "formación, antecedentes",
+     "example": "My background is in engineering.",
+     "example_es": "Mi formación es en ingeniería."
+    },
+    {
+     "form": "position",
+     "meaning_es": "cargo, puesto",
+     "example": "She has held this position since 2019.",
+     "example_es": "Ocupa este cargo desde 2019."
+    },
+    {
+     "form": "previously",
+     "meaning_es": "anteriormente",
+     "example": "Previously, I was a planning engineer.",
+     "example_es": "Anteriormente fui ingeniero de planificación."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D13-RG",
+   "type": "capsule",
+   "title": "Pasado simple vs present perfect; for, since, ago",
+   "explain": "Pasado simple: acción terminada en un momento concreto (in 2015, last year, two years ago): I joined the university in 2015.\nPresent perfect: algo que empezó antes y sigue ahora, o un resultado sin fecha: I have worked here since 2015 (y sigo).\n«Trabajo aquí hace diez años» = I have worked here for ten years (no «I work here since ten years»).\nfor + duración (for ten years); since + punto de inicio (since 2015); ago + pasado simple (ten years ago).",
+   "form": [
+    [
+     "for + duración",
+     "for six years, for a long time"
+    ],
+    [
+     "since + inicio",
+     "since 2015, since March"
+    ],
+    [
+     "pasado simple + ago",
+     "I joined ten years ago."
+    ],
+    [
+     "have/has + participio + for/since",
+     "I have worked here since 2015."
+    ]
+   ],
+   "examples": [
+    [
+     "I decided to join the university in 2015.",
+     "Decidí ingresar a la universidad en 2015."
+    ],
+    [
+     "I have worked here since 2015.",
+     "Trabajo aquí desde 2015."
+    ],
+    [
+     "Before that, I worked in industry for six years.",
+     "Antes de eso, trabajé en la industria durante seis años (ya terminó)."
+    ]
+   ],
+   "tip": "Error típico: «I work here since 2015» → I have worked here since 2015.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D13-RR",
+   "type": "text",
+   "title": "Ana's career",
+   "body": "Ana's background is in industrial engineering. She finished her degree in 2008. Previously, she worked in industry for six years as a planning engineer in a forestry company. She joined the university in 2014 and moved to Chillán with her family. She has taught statistics since then. In 2019 she finished a PhD in operations management. She has held her current position since 2020, and she has supervised eight master's students so far.",
+   "translation_es": "La formación de Ana es en ingeniería industrial. Terminó su título en 2008. Anteriormente trabajó en la industria durante seis años como ingeniera de planificación en una empresa forestal. Ingresó a la universidad en 2014 y se mudó a Chillán con su familia. Desde entonces enseña estadística. En 2019 terminó un doctorado en gestión de operaciones. Ocupa su cargo actual desde 2020 y hasta ahora ha dirigido a ocho estudiantes de magíster.",
+   "glossary": [
+    [
+     "forestry company",
+     "empresa forestal"
+    ],
+    [
+     "held",
+     "ocupado (un cargo)"
+    ],
+    [
+     "current",
+     "actual"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D13.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D13-RV"
+   ],
+   "activities": [
+    {
+     "id": "D13.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) I have worked here [[1]] 2015.  (2) She has taught [[2]] ten years.  (3) She has a [[3]] in industrial engineering.  (4) She decided to [[4]] to Chillán.  (5) My [[5]] is in engineering.  (6) She has held this [[6]] since 2019.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "since"
+       ],
+       "hint": "Significa «desde»."
+      },
+      "2": {
+       "accept": [
+        "for"
+       ],
+       "hint": "Significa «durante, por (duración)»."
+      },
+      "3": {
+       "accept": [
+        "degree"
+       ],
+       "hint": "Significa «título, grado»."
+      },
+      "4": {
+       "accept": [
+        "move"
+       ],
+       "hint": "Significa «mudarse, cambiarse»."
+      },
+      "5": {
+       "accept": [
+        "background"
+       ],
+       "hint": "Significa «formación, antecedentes»."
+      },
+      "6": {
+       "accept": [
+        "position"
+       ],
+       "hint": "Significa «cargo, puesto»."
+      }
+     }
+    },
+    {
+     "id": "D13.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «industria (sector productivo)»",
+     "accept": [
+      "industry"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: Trabajé en la industria durante seis años."
+    },
+    {
+     "id": "D13.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «doctorado»",
+     "accept": [
+      "PhD"
+     ],
+     "hint": "Empieza con «Ph…» · Ejemplo: Mark terminó su doctorado en 2012."
+    },
+    {
+     "id": "D13.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «unirse a, ingresar a»",
+     "accept": [
+      "join"
+     ],
+     "hint": "Empieza con «jo…» · Ejemplo: Decidí ingresar a la universidad en 2015."
+    },
+    {
+     "id": "D13.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «magíster»",
+     "accept": [
+      "master's degree"
+     ],
+     "hint": "Empieza con «ma…» · Ejemplo: Diego está haciendo un magíster."
+    },
+    {
+     "id": "D13.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «anteriormente»",
+     "accept": [
+      "previously"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: Anteriormente fui ingeniero de planificación."
+    },
+    {
+     "id": "D13.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «carrera (profesional)»",
+     "accept": [
+      "career"
+     ],
+     "hint": "Empieza con «ca…» · Ejemplo: Mi carrera empezó en la industria."
+    },
+    {
+     "id": "D13.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "I worked in industry for six years.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I worked in industry for six years."
+    }
+   ]
+  },
+  {
+   "id": "D13.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasado simple vs present perfect; for, since, ago",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D13-RG"
+   ],
+   "activities": [
+    {
+     "id": "D13.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I have taught statistics [[1]] 2018.  (2) She has worked here [[2]] ten years.  (3) Mark finished his PhD twelve years [[3]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "since"
+       ],
+       "hint": "punto de inicio → since"
+      },
+      "2": {
+       "accept": [
+        "for"
+       ],
+       "hint": "duración → for"
+      },
+      "3": {
+       "accept": [
+        "ago"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D13.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) I [[1]] the university in 2015. (join)  (2) We [[2]] worked together since 2022. (have)  (3) Previously, I [[3]] a planning engineer. (be)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "joined"
+       ],
+       "hint": "fecha exacta → pasado simple"
+      },
+      "2": {
+       "accept": [
+        "have",
+        "'ve"
+       ]
+      },
+      "3": {
+       "accept": [
+        "was"
+       ],
+       "hint": "terminado → was"
+      }
+     }
+    },
+    {
+     "id": "D13.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "«Trabajo aquí hace diez años»",
+     "options": [
+      {
+       "id": "a",
+       "text": "I work here since ten years."
+      },
+      {
+       "id": "b",
+       "text": "I have worked here for ten years."
+      },
+      {
+       "id": "c",
+       "text": "I worked here for ten years ago."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D13.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "I have joined the university in 2015."
+      },
+      {
+       "id": "b",
+       "text": "I joined the university in 2015."
+      }
+     ],
+     "answer": "b",
+     "explanation": "fecha → pasado simple"
+    },
+    {
+     "id": "D13.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tu trayectoria en tres oraciones: algo terminado con fecha, algo que sigue con since y algo con for.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "since",
+        "for",
+        "ago",
+        "have",
+        "has"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D13.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: La trayectoria de Mark",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D13.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "La trayectoria de Mark: escucha sin leer y responde.",
+     "audio": {
+      "text": "My background is in mechanical engineering. I finished my PhD in 2012. Then I worked in industry for four years. I joined the university in 2016, and I have taught energy systems since then. I have known Ana for two years.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "My background is in mechanical engineering. I finished my PhD in 2012. Then I worked in industry for four years. I joined the university in 2016, and I have taught energy systems since then. I have known Ana for two years.",
+     "translation_es": "Mi formación es en ingeniería mecánica. Terminé mi doctorado en 2012. Luego trabajé en la industria durante cuatro años. Ingresé a la universidad en 2016 y desde entonces enseño sistemas de energía. Conozco a Ana hace dos años.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Cuándo terminó Mark su doctorado?",
+       "label": "¿Cuándo terminó Mark su doctorado?",
+       "options": [
+        {
+         "id": "a",
+         "text": "2012"
+        },
+        {
+         "id": "b",
+         "text": "2016"
+        },
+        {
+         "id": "c",
+         "text": "2020"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Cuánto tiempo trabajó en la industria?",
+       "label": "¿Cuánto tiempo trabajó en la industria?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Dos años"
+        },
+        {
+         "id": "b",
+         "text": "Cuatro años"
+        },
+        {
+         "id": "c",
+         "text": "Doce años"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Desde cuándo conoce a Ana?",
+       "label": "¿Desde cuándo conoce a Ana?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Hace dos años"
+        },
+        {
+         "id": "b",
+         "text": "Desde 2016"
+        }
+       ],
+       "answer": "a",
+       "explanation": "«for two years»"
+      }
+     ]
+    },
+    {
+     "id": "D13.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "I finished my PhD in 2012.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "I finished my PhD in 2012."
+    }
+   ]
+  },
+  {
+   "id": "D13.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Ana's career",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D13-RR"
+   ],
+   "activities": [
+    {
+     "id": "D13.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuánto tiempo trabajó Ana en la industria?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Seis años"
+      },
+      {
+       "id": "b",
+       "text": "Ocho años"
+      },
+      {
+       "id": "c",
+       "text": "Desde 2014"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D13.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Desde cuándo enseña estadística?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Desde 2008"
+      },
+      {
+       "id": "b",
+       "text": "Desde 2014"
+      },
+      {
+       "id": "c",
+       "text": "Desde 2019"
+      }
+     ],
+     "answer": "b",
+     "explanation": "«since then» = desde que ingresó"
+    },
+    {
+     "id": "D13.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuántos estudiantes de magíster ha dirigido?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Seis"
+      },
+      {
+       "id": "b",
+       "text": "Ocho"
+      },
+      {
+       "id": "c",
+       "text": "Dos"
+      }
+     ],
+     "answer": "b"
+    }
+   ]
+  },
+  {
+   "id": "D13.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D13.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Ana's background is in industrial engineering. She finished her degree in 2008.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Ana's background is in industrial engineering.",
+       "She finished her degree in 2008."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D13.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Cuenta tu trayectoria profesional en 60 segundos: formación, trabajos anteriores con fechas (pasado simple) y tu cargo actual desde cuándo (since/for).",
+     "min_seconds": 45,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "since",
+        "for",
+        "career",
+        "join",
+        "degree",
+        "master's degree",
+        "PhD",
+        "industry",
+        "move",
+        "background",
+        "position",
+        "previously"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D13.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D13.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tu trayectoria (60–100 palabras) como la de Ana: fechas terminadas en pasado simple y situación actual con have/has + since/for.",
+     "min_words": 50,
+     "max_words": 110,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "since",
+        "for",
+        "career",
+        "join",
+        "degree",
+        "master's degree",
+        "PhD",
+        "industry",
+        "move",
+        "background",
+        "position",
+        "previously"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "since",
+        "for",
+        "ago",
+        "have",
+        "has"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

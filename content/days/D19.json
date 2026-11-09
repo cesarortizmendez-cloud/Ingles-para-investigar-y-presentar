@@ -1,0 +1,886 @@
+{
+ "id": "D19",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Pasiva en present perfect: has been / have been",
+ "day": 19,
+ "week": 3,
+ "day_type": "aprendizaje",
+ "intro": "Hoy hablas de lo que se ha hecho hasta ahora en un campo de estudio: «has been studied», «have been proposed».",
+ "objectives": [
+  {
+   "id": "D19-O1",
+   "text": "Formar has/have been + participio."
+  },
+  {
+   "id": "D19-O2",
+   "text": "Escribir la introducción de un paper: qué se ha estudiado y qué falta."
+  },
+  {
+   "id": "D19-O3",
+   "text": "Reconocer frases típicas de la «brecha» de investigación."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D19-LX01",
+    "form": "has been studied",
+    "meaning_es": "ha sido estudiado",
+    "example": "Energy use in large factories has been studied widely.",
+    "example_es": "El uso de energía en fábricas grandes ha sido muy estudiado.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX02",
+    "form": "have been proposed",
+    "meaning_es": "se han propuesto",
+    "example": "Several models have been proposed.",
+    "example_es": "Se han propuesto varios modelos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX03",
+    "form": "little attention",
+    "meaning_es": "poca atención",
+    "example": "Small sawmills have received little attention.",
+    "example_es": "Los aserraderos pequeños han recibido poca atención.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX04",
+    "form": "gap",
+    "meaning_es": "brecha, vacío (de conocimiento)",
+    "example": "This study addresses a gap in the literature.",
+    "example_es": "Este estudio aborda un vacío en la literatura.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX05",
+    "form": "literature",
+    "meaning_es": "literatura (científica)",
+    "example": "The literature on this topic is growing.",
+    "example_es": "La literatura sobre este tema está creciendo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX06",
+    "form": "previous",
+    "meaning_es": "anterior, previo",
+    "example": "Previous studies focused on large companies.",
+    "example_es": "Los estudios anteriores se centraron en empresas grandes.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX07",
+    "form": "widely",
+    "meaning_es": "ampliamente",
+    "example": "This method is widely used.",
+    "example_es": "Este método se usa ampliamente.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX08",
+    "form": "however",
+    "meaning_es": "sin embargo",
+    "example": "However, few studies include small companies.",
+    "example_es": "Sin embargo, pocos estudios incluyen empresas pequeñas.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX09",
+    "form": "few",
+    "meaning_es": "pocos/as",
+    "example": "Few studies have used real data.",
+    "example_es": "Pocos estudios han usado datos reales.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX10",
+    "form": "aim",
+    "meaning_es": "objetivo; tener como objetivo",
+    "example": "The aim of this study is to compare two schedules.",
+    "example_es": "El objetivo de este estudio es comparar dos programaciones.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX11",
+    "form": "address",
+    "meaning_es": "abordar (un problema)",
+    "example": "We address this problem with real data.",
+    "example_es": "Abordamos este problema con datos reales.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D19-LX12",
+    "form": "to date",
+    "meaning_es": "hasta la fecha",
+    "example": "To date, no study has measured this.",
+    "example_es": "Hasta la fecha, ningún estudio ha medido esto.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D19-G1",
+    "topic": "Pasiva en present perfect: has/have been + participio"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D19-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "has been studied",
+     "meaning_es": "ha sido estudiado",
+     "example": "Energy use in large factories has been studied widely.",
+     "example_es": "El uso de energía en fábricas grandes ha sido muy estudiado."
+    },
+    {
+     "form": "have been proposed",
+     "meaning_es": "se han propuesto",
+     "example": "Several models have been proposed.",
+     "example_es": "Se han propuesto varios modelos."
+    },
+    {
+     "form": "little attention",
+     "meaning_es": "poca atención",
+     "example": "Small sawmills have received little attention.",
+     "example_es": "Los aserraderos pequeños han recibido poca atención."
+    },
+    {
+     "form": "gap",
+     "meaning_es": "brecha, vacío (de conocimiento)",
+     "example": "This study addresses a gap in the literature.",
+     "example_es": "Este estudio aborda un vacío en la literatura."
+    },
+    {
+     "form": "literature",
+     "meaning_es": "literatura (científica)",
+     "example": "The literature on this topic is growing.",
+     "example_es": "La literatura sobre este tema está creciendo."
+    },
+    {
+     "form": "previous",
+     "meaning_es": "anterior, previo",
+     "example": "Previous studies focused on large companies.",
+     "example_es": "Los estudios anteriores se centraron en empresas grandes."
+    },
+    {
+     "form": "widely",
+     "meaning_es": "ampliamente",
+     "example": "This method is widely used.",
+     "example_es": "Este método se usa ampliamente."
+    },
+    {
+     "form": "however",
+     "meaning_es": "sin embargo",
+     "example": "However, few studies include small companies.",
+     "example_es": "Sin embargo, pocos estudios incluyen empresas pequeñas."
+    },
+    {
+     "form": "few",
+     "meaning_es": "pocos/as",
+     "example": "Few studies have used real data.",
+     "example_es": "Pocos estudios han usado datos reales."
+    },
+    {
+     "form": "aim",
+     "meaning_es": "objetivo; tener como objetivo",
+     "example": "The aim of this study is to compare two schedules.",
+     "example_es": "El objetivo de este estudio es comparar dos programaciones."
+    },
+    {
+     "form": "address",
+     "meaning_es": "abordar (un problema)",
+     "example": "We address this problem with real data.",
+     "example_es": "Abordamos este problema con datos reales."
+    },
+    {
+     "form": "to date",
+     "meaning_es": "hasta la fecha",
+     "example": "To date, no study has measured this.",
+     "example_es": "Hasta la fecha, ningún estudio ha medido esto."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D19-RG",
+   "type": "capsule",
+   "title": "Pasiva en present perfect: has/have been + participio",
+   "explain": "Para decir lo que SE HA hecho hasta ahora sin decir quién: has been (singular) / have been (plural) + participio.\nActiva: «Researchers have studied this topic» → Pasiva: «This topic has been studied».\nEs la forma típica de la introducción de un paper: qué se ha estudiado (has been studied), qué se ha propuesto (have been proposed) y qué NO (has not been measured).\nEstructura de la «brecha»: X has been widely studied. However, Y has received little attention. The aim of this study is to…",
+   "form": [
+    [
+     "has been + participio",
+     "This topic has been studied."
+    ],
+    [
+     "have been + participio",
+     "Several models have been proposed."
+    ],
+    [
+     "has not / hasn't been + participio",
+     "It has not been measured."
+    ],
+    [
+     "Esquema de brecha",
+     "X has been studied. However, Y… The aim…"
+    ]
+   ],
+   "examples": [
+    [
+     "Energy use in large factories has been widely studied.",
+     "El uso de energía en fábricas grandes ha sido ampliamente estudiado."
+    ],
+    [
+     "However, small sawmills have received little attention.",
+     "Sin embargo, los aserraderos pequeños han recibido poca atención."
+    ],
+    [
+     "To date, this effect has not been measured in Chile.",
+     "Hasta la fecha, este efecto no se ha medido en Chile."
+    ]
+   ],
+   "tip": "Las tres primeras oraciones de muchas introducciones siguen el esquema: lo estudiado → lo que falta → el objetivo.",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D19-RR",
+   "type": "text",
+   "title": "Introduction (draft)",
+   "body": "Energy efficiency in manufacturing has been widely studied, and many tools have been proposed for large companies. However, small and medium-sized companies have received little attention in the literature. Previous studies have used surveys or estimates, and few have used real energy data. In the forestry sector, small sawmills have rarely been studied. To date, no study has measured energy use per shift in Chilean sawmills. The aim of this study is to address this gap with data from three sawmills in Ñuble.",
+   "translation_es": "La eficiencia energética en la manufactura ha sido ampliamente estudiada, y se han propuesto muchas herramientas para grandes empresas. Sin embargo, las pequeñas y medianas empresas han recibido poca atención en la literatura. Los estudios anteriores han usado encuestas o estimaciones, y pocos han usado datos reales de energía. En el sector forestal, los aserraderos pequeños rara vez han sido estudiados. Hasta la fecha, ningún estudio ha medido el uso de energía por turno en aserraderos chilenos. El objetivo de este estudio es abordar este vacío con datos de tres aserraderos de Ñuble.",
+   "glossary": [
+    [
+     "small and medium-sized",
+     "pequeñas y medianas"
+    ],
+    [
+     "estimates",
+     "estimaciones"
+    ],
+    [
+     "rarely",
+     "rara vez"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D19.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D19-RV"
+   ],
+   "activities": [
+    {
+     "id": "D19.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) This study addresses a [[1]] in the literature.  (2) The [[2]] on this topic is growing.  (3) [[3]] studies focused on large companies.  (4) This method is [[4]] used.  (5) The [[5]] of this study is to compare two schedules.  (6) We [[6]] this problem with real data.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "gap"
+       ],
+       "hint": "Significa «brecha, vacío (de conocimiento)»."
+      },
+      "2": {
+       "accept": [
+        "literature"
+       ],
+       "hint": "Significa «literatura (científica)»."
+      },
+      "3": {
+       "accept": [
+        "previous"
+       ],
+       "hint": "Significa «anterior, previo»."
+      },
+      "4": {
+       "accept": [
+        "widely"
+       ],
+       "hint": "Significa «ampliamente»."
+      },
+      "5": {
+       "accept": [
+        "aim"
+       ],
+       "hint": "Significa «objetivo; tener como objetivo»."
+      },
+      "6": {
+       "accept": [
+        "address"
+       ],
+       "hint": "Significa «abordar (un problema)»."
+      }
+     }
+    },
+    {
+     "id": "D19.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «hasta la fecha»",
+     "accept": [
+      "to date"
+     ],
+     "hint": "Empieza con «to…» · Ejemplo: Hasta la fecha, ningún estudio ha medido esto."
+    },
+    {
+     "id": "D19.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «pocos/as»",
+     "accept": [
+      "few"
+     ],
+     "hint": "Empieza con «fe…» · Ejemplo: Pocos estudios han usado datos reales."
+    },
+    {
+     "id": "D19.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «poca atención»",
+     "accept": [
+      "little attention"
+     ],
+     "hint": "Empieza con «li…» · Ejemplo: Los aserraderos pequeños han recibido poca atención."
+    },
+    {
+     "id": "D19.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «sin embargo»",
+     "accept": [
+      "however"
+     ],
+     "hint": "Empieza con «ho…» · Ejemplo: Sin embargo, pocos estudios incluyen empresas pequeñas."
+    },
+    {
+     "id": "D19.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «se han propuesto»",
+     "accept": [
+      "have been proposed"
+     ],
+     "hint": "Empieza con «ha…» · Ejemplo: Se han propuesto varios modelos."
+    },
+    {
+     "id": "D19.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «ha sido estudiado»",
+     "accept": [
+      "has been studied"
+     ],
+     "hint": "Empieza con «ha…» · Ejemplo: El uso de energía en fábricas grandes ha sido muy estudiado."
+    },
+    {
+     "id": "D19.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "To date, no study has measured this.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "To date, no study has measured this."
+    }
+   ]
+  },
+  {
+   "id": "D19.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Pasiva en present perfect: has/have been + participio",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D19-RG"
+   ],
+   "activities": [
+    {
+     "id": "D19.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) This topic [[1]] been widely studied.  (2) Several models have [[2]] proposed.  (3) Small sawmills have received little [[3]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "has"
+       ],
+       "hint": "singular → has been"
+      },
+      "2": {
+       "accept": [
+        "been"
+       ],
+       "hint": "have + been + participio"
+      },
+      "3": {
+       "accept": [
+        "attention"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D19.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]], few studies have used real data. (sin embargo)  (2) To date, this effect has not been [[2]]. (measure)  (3) The [[3]] of this study is to compare two schedules. (objetivo)",
+     "gaps": {
+      "1": {
+       "accept": [
+        "however"
+       ]
+      },
+      "2": {
+       "accept": [
+        "measured"
+       ]
+      },
+      "3": {
+       "accept": [
+        "aim"
+       ]
+      }
+     }
+    },
+    {
+     "id": "D19.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Pasa a pasiva: «Researchers have proposed several models.»",
+     "options": [
+      {
+       "id": "a",
+       "text": "Several models have been proposed."
+      },
+      {
+       "id": "b",
+       "text": "Several models has proposed."
+      },
+      {
+       "id": "c",
+       "text": "Several models were propose."
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D19.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Qué oración presenta una brecha (gap)?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Energy is important."
+      },
+      {
+       "id": "b",
+       "text": "However, this problem has received little attention in small companies."
+      },
+      {
+       "id": "c",
+       "text": "We use Python."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D19.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe una mini introducción de 3 oraciones sobre tu tema: lo que se ha estudiado, lo que falta (However…) y tu objetivo.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "has been",
+        "have been",
+        "however",
+        "aim"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D19.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Por qué este estudio es necesario",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D19.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Por qué este estudio es necesario: escucha sin leer y responde.",
+     "audio": {
+      "text": "Energy use in large factories has been widely studied, and several models have been proposed. However, small sawmills have received little attention. To date, energy use in this sector has not been measured with real data. The aim of our study is to address this gap.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Energy use in large factories has been widely studied, and several models have been proposed. However, small sawmills have received little attention. To date, energy use in this sector has not been measured with real data. The aim of our study is to address this gap.",
+     "translation_es": "El uso de energía en fábricas grandes ha sido ampliamente estudiado, y se han propuesto varios modelos. Sin embargo, los aserraderos pequeños han recibido poca atención. Hasta la fecha, el uso de energía en este sector no se ha medido con datos reales. El objetivo de nuestro estudio es abordar este vacío.",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Qué ha sido muy estudiado?",
+       "label": "¿Qué ha sido muy estudiado?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Los aserraderos pequeños"
+        },
+        {
+         "id": "b",
+         "text": "El uso de energía en fábricas grandes"
+        }
+       ],
+       "answer": "b"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Qué no se ha medido hasta la fecha?",
+       "label": "¿Qué no se ha medido hasta la fecha?",
+       "options": [
+        {
+         "id": "a",
+         "text": "El uso de energía en el sector de aserraderos pequeños con datos reales"
+        },
+        {
+         "id": "b",
+         "text": "La temperatura"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿Cuál es el objetivo del estudio?",
+       "label": "¿Cuál es el objetivo del estudio?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Abordar ese vacío"
+        },
+        {
+         "id": "b",
+         "text": "Vender sensores"
+        }
+       ],
+       "answer": "a"
+      }
+     ]
+    },
+    {
+     "id": "D19.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "However, small sawmills have received little attention.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "However, small sawmills have received little attention."
+    }
+   ]
+  },
+  {
+   "id": "D19.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Introduction (draft)",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D19-RR"
+   ],
+   "activities": [
+    {
+     "id": "D19.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué tipo de empresas ha recibido poca atención?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Grandes"
+      },
+      {
+       "id": "b",
+       "text": "Pequeñas y medianas"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D19.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué usaron los estudios anteriores en general?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Datos reales de energía"
+      },
+      {
+       "id": "b",
+       "text": "Encuestas o estimaciones"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D19.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Qué no ha medido ningún estudio hasta la fecha?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El uso de energía por turno en aserraderos chilenos"
+      },
+      {
+       "id": "b",
+       "text": "La producción de madera"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D19.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D19.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Energy efficiency in manufacturing has been widely studied, and many tools have been proposed for large companies. However, small and medium-sized companies have received little attention in the literature.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Energy efficiency in manufacturing has been widely studied, and many tools have been proposed for large companies.",
+       "However, small and medium-sized companies have received little attention in the literature."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D19.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Explica en voz alta (45–60 s) por qué tu tema es importante con el esquema: «X has been widely studied. However, Y has received little attention. The aim of my work is…».",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "has been studied",
+        "have been proposed",
+        "little attention",
+        "gap",
+        "literature",
+        "previous",
+        "widely",
+        "however",
+        "few",
+        "aim",
+        "address",
+        "to date"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D19.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D19.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe la introducción breve (50–100 palabras) de un trabajo tuyo con has/have been + participio y el esquema de la brecha.",
+     "min_words": 45,
+     "max_words": 110,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "has been studied",
+        "have been proposed",
+        "little attention",
+        "gap",
+        "literature",
+        "previous",
+        "widely",
+        "however",
+        "few",
+        "aim",
+        "address",
+        "to date"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "has been",
+        "have been",
+        "however",
+        "aim"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}

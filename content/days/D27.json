@@ -1,0 +1,885 @@
+{
+ "id": "D27",
+ "kind": "day",
+ "version": "1.0.0",
+ "status": "borrador",
+ "title": "Artículos: a, an, the y sin artículo",
+ "day": 27,
+ "week": 4,
+ "day_type": "aprendizaje",
+ "intro": "Los artículos son una fuente constante de errores para hispanohablantes. Hoy aprendes las reglas que más importan en textos académicos.",
+ "objectives": [
+  {
+   "id": "D27-O1",
+   "text": "Usar «the» para algo ya mencionado o único."
+  },
+  {
+   "id": "D27-O2",
+   "text": "Omitir el artículo con generalizaciones (Energy is expensive)."
+  },
+  {
+   "id": "D27-O3",
+   "text": "Corregir artículos en un párrafo."
+  }
+ ],
+ "language_focus": {
+  "lexis": [
+   {
+    "id": "D27-LX01",
+    "form": "the same",
+    "meaning_es": "el/la mismo/a",
+    "example": "We used the same method.",
+    "example_es": "Usamos el mismo método.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX02",
+    "form": "the first",
+    "meaning_es": "el/la primero/a",
+    "example": "The first step was simple.",
+    "example_es": "El primer paso fue simple.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX03",
+    "form": "the main",
+    "meaning_es": "el/la principal",
+    "example": "The main problem is the cost.",
+    "example_es": "El problema principal es el costo.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX04",
+    "form": "the following",
+    "meaning_es": "el/la siguiente",
+    "example": "The following table shows the results.",
+    "example_es": "La siguiente tabla muestra los resultados.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX05",
+    "form": "a significant",
+    "meaning_es": "un/a significativo/a",
+    "example": "We found a significant difference.",
+    "example_es": "Encontramos una diferencia significativa.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX06",
+    "form": "an increase",
+    "meaning_es": "un aumento",
+    "example": "There was an increase in costs.",
+    "example_es": "Hubo un aumento de costos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX07",
+    "form": "in general",
+    "meaning_es": "en general",
+    "example": "In general, energy is expensive in Chile.",
+    "example_es": "En general, la energía es cara en Chile.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX08",
+    "form": "figure",
+    "meaning_es": "figura, gráfico",
+    "example": "Figure 1 shows the process.",
+    "example_es": "La Figura 1 muestra el proceso.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX09",
+    "form": "process",
+    "meaning_es": "proceso",
+    "example": "The drying process uses a lot of energy.",
+    "example_es": "El proceso de secado usa mucha energía.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX10",
+    "form": "sector",
+    "meaning_es": "sector",
+    "example": "The forestry sector is important in Ñuble.",
+    "example_es": "El sector forestal es importante en Ñuble.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX11",
+    "form": "society",
+    "meaning_es": "sociedad",
+    "example": "Energy efficiency is good for society.",
+    "example_es": "La eficiencia energética es buena para la sociedad.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   },
+   {
+    "id": "D27-LX12",
+    "form": "people",
+    "meaning_es": "personas, gente",
+    "example": "People in small towns work in sawmills.",
+    "example_es": "Las personas de pueblos pequeños trabajan en aserraderos.",
+    "collocations": [],
+    "family": [],
+    "register": "académico",
+    "confusions": ""
+   }
+  ],
+  "grammar": [
+   {
+    "id": "D27-G1",
+    "topic": "Artículos: a/an, the y artículo cero"
+   }
+  ],
+  "pronunciation": []
+ },
+ "resources": [
+  {
+   "id": "D27-RV",
+   "type": "wordlist",
+   "title": "Palabras y expresiones del día",
+   "words": [
+    {
+     "form": "the same",
+     "meaning_es": "el/la mismo/a",
+     "example": "We used the same method.",
+     "example_es": "Usamos el mismo método."
+    },
+    {
+     "form": "the first",
+     "meaning_es": "el/la primero/a",
+     "example": "The first step was simple.",
+     "example_es": "El primer paso fue simple."
+    },
+    {
+     "form": "the main",
+     "meaning_es": "el/la principal",
+     "example": "The main problem is the cost.",
+     "example_es": "El problema principal es el costo."
+    },
+    {
+     "form": "the following",
+     "meaning_es": "el/la siguiente",
+     "example": "The following table shows the results.",
+     "example_es": "La siguiente tabla muestra los resultados."
+    },
+    {
+     "form": "a significant",
+     "meaning_es": "un/a significativo/a",
+     "example": "We found a significant difference.",
+     "example_es": "Encontramos una diferencia significativa."
+    },
+    {
+     "form": "an increase",
+     "meaning_es": "un aumento",
+     "example": "There was an increase in costs.",
+     "example_es": "Hubo un aumento de costos."
+    },
+    {
+     "form": "in general",
+     "meaning_es": "en general",
+     "example": "In general, energy is expensive in Chile.",
+     "example_es": "En general, la energía es cara en Chile."
+    },
+    {
+     "form": "figure",
+     "meaning_es": "figura, gráfico",
+     "example": "Figure 1 shows the process.",
+     "example_es": "La Figura 1 muestra el proceso."
+    },
+    {
+     "form": "process",
+     "meaning_es": "proceso",
+     "example": "The drying process uses a lot of energy.",
+     "example_es": "El proceso de secado usa mucha energía."
+    },
+    {
+     "form": "sector",
+     "meaning_es": "sector",
+     "example": "The forestry sector is important in Ñuble.",
+     "example_es": "El sector forestal es importante en Ñuble."
+    },
+    {
+     "form": "society",
+     "meaning_es": "sociedad",
+     "example": "Energy efficiency is good for society.",
+     "example_es": "La eficiencia energética es buena para la sociedad."
+    },
+    {
+     "form": "people",
+     "meaning_es": "personas, gente",
+     "example": "People in small towns work in sawmills.",
+     "example_es": "Las personas de pueblos pequeños trabajan en aserraderos."
+    }
+   ],
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D27-RG",
+   "type": "capsule",
+   "title": "Artículos: a/an, the y artículo cero",
+   "explain": "a/an: algo singular contable que se menciona por primera vez o no es específico: «We found a difference».\nthe: algo ya mencionado, único o específico: «The difference was small», «the first step», «the main problem».\nSIN artículo (artículo cero) para generalizaciones con incontables o plurales: «Energy is expensive», «Companies need data».\nError típico: «The energy is expensive» (en general) → «Energy is expensive». «The people need…» (en general) → «People need…».\nCon números de figuras y tablas no se usa artículo: «Figure 1 shows…», «in Table 2».",
+   "form": [
+    [
+     "a/an + singular nuevo",
+     "a difference, an increase"
+    ],
+    [
+     "the + ya mencionado / único",
+     "the difference, the main problem"
+    ],
+    [
+     "Ø + generalización",
+     "Energy is expensive. Companies need data."
+    ],
+    [
+     "Figure 1 / Table 2 (sin artículo)",
+     "Figure 1 shows…"
+    ]
+   ],
+   "examples": [
+    [
+     "We found a difference. The difference was small.",
+     "Encontramos una diferencia. La diferencia fue pequeña."
+    ],
+    [
+     "Energy is expensive in Chile.",
+     "La energía es cara en Chile (en general)."
+    ],
+    [
+     "Figure 1 shows the drying process.",
+     "La Figura 1 muestra el proceso de secado."
+    ]
+   ],
+   "tip": "Pregúntate: ¿hablo de algo en general (sin artículo) o de algo concreto que el lector ya identifica (the)?",
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  },
+  {
+   "id": "D27-RR",
+   "type": "text",
+   "title": "Results: first paragraph",
+   "body": "Figure 3 shows energy use per unit in each shift. In general, energy is more expensive in winter, and companies try to reduce costs. We found a significant difference between day and night shifts. The difference was larger in July, the coldest month. The main reason appears to be the drying process. The same pattern was found in the three sawmills. The following section discusses what this means for the forestry industry and for people who work at night.",
+   "translation_es": "La Figura 3 muestra el uso de energía por unidad en cada turno. En general, la energía es más cara en invierno, y las empresas intentan reducir costos. Encontramos una diferencia significativa entre los turnos de día y de noche. La diferencia fue mayor en julio, el mes más frío. La razón principal parece ser el proceso de secado. El mismo patrón se encontró en los tres aserraderos. La siguiente sección discute qué significa esto para la industria forestal y para las personas que trabajan de noche.",
+   "glossary": [
+    [
+     "coldest",
+     "más frío"
+    ],
+    [
+     "discusses",
+     "discute"
+    ],
+    [
+     "what this means",
+     "qué significa esto"
+    ]
+   ],
+   "audio": true,
+   "fictional_data": true,
+   "provenance": {
+    "author": "Equipo editorial del curso (Claude, revisión pendiente)",
+    "license": "Original del proyecto",
+    "year": 2026,
+    "adaptation": "texto didáctico original; personajes y datos ficticios"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "D27.1",
+   "order": 1,
+   "kind": "vocabulario",
+   "minutes": 25,
+   "title": "Vocabulario: escuchar, repetir y recuperar",
+   "intro": "1) Escucha cada palabra y su ejemplo, y repítelos en voz alta. 2) Cierra la lista. 3) Responde sin mirar: recordar con esfuerzo es lo que fija la palabra. Mañana volverán en el repaso.",
+   "resources": [
+    "D27-RV"
+   ],
+   "activities": [
+    {
+     "id": "D27.1.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada oración con la palabra o expresión del día que corresponde (sin mirar la lista).",
+     "text": "(1) [[1]] problem is the cost.  (2) [[2]] table shows the results.  (3) We found [[3]] difference.  (4) [[4]] 1 shows the process.  (5) The forestry [[5]] is important in Ñuble.  (6) Energy efficiency is good for [[6]].",
+     "gaps": {
+      "1": {
+       "accept": [
+        "the main"
+       ],
+       "hint": "Significa «el/la principal»."
+      },
+      "2": {
+       "accept": [
+        "the following"
+       ],
+       "hint": "Significa «el/la siguiente»."
+      },
+      "3": {
+       "accept": [
+        "a significant"
+       ],
+       "hint": "Significa «un/a significativo/a»."
+      },
+      "4": {
+       "accept": [
+        "figure"
+       ],
+       "hint": "Significa «figura, gráfico»."
+      },
+      "5": {
+       "accept": [
+        "sector"
+       ],
+       "hint": "Significa «sector»."
+      },
+      "6": {
+       "accept": [
+        "society"
+       ],
+       "hint": "Significa «sociedad»."
+      }
+     }
+    },
+    {
+     "id": "D27.1.a2",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «proceso»",
+     "accept": [
+      "process"
+     ],
+     "hint": "Empieza con «pr…» · Ejemplo: El proceso de secado usa mucha energía."
+    },
+    {
+     "id": "D27.1.a3",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «un aumento»",
+     "accept": [
+      "an increase"
+     ],
+     "hint": "Empieza con «an…» · Ejemplo: Hubo un aumento de costos."
+    },
+    {
+     "id": "D27.1.a4",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «personas, gente»",
+     "accept": [
+      "people"
+     ],
+     "hint": "Empieza con «pe…» · Ejemplo: Las personas de pueblos pequeños trabajan en aserraderos."
+    },
+    {
+     "id": "D27.1.a5",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «el/la mismo/a»",
+     "accept": [
+      "the same"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: Usamos el mismo método."
+    },
+    {
+     "id": "D27.1.a6",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «en general»",
+     "accept": [
+      "in general"
+     ],
+     "hint": "Empieza con «in…» · Ejemplo: En general, la energía es cara en Chile."
+    },
+    {
+     "id": "D27.1.a7",
+     "type": "short_text",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Escríbelo en inglés: «el/la primero/a»",
+     "accept": [
+      "the first"
+     ],
+     "hint": "Empieza con «th…» · Ejemplo: El primer paso fue simple."
+    },
+    {
+     "id": "D27.1.a8",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado: escucha la oración (puedes repetirla) y escríbela completa.",
+     "audio": {
+      "text": "The drying process uses a lot of energy.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "The drying process uses a lot of energy."
+    }
+   ]
+  },
+  {
+   "id": "D27.2",
+   "order": 2,
+   "kind": "gramatica",
+   "minutes": 25,
+   "title": "Gramática: Artículos: a/an, the y artículo cero",
+   "intro": "Lee la explicación en español, escucha los ejemplos y luego practica. Fíjate primero en el significado y después en la forma.",
+   "resources": [
+    "D27-RG"
+   ],
+   "activities": [
+    {
+     "id": "D27.2.a1",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) We found [[1]] significant difference between shifts.  (2) [[2]] difference was larger in winter.  (3) There was [[3]] increase in costs.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "a"
+       ],
+       "hint": "primera mención → a"
+      },
+      "2": {
+       "accept": [
+        "the"
+       ],
+       "hint": "ya mencionada → the"
+      },
+      "3": {
+       "accept": [
+        "an"
+       ],
+       "hint": "sonido vocal → an"
+      }
+     }
+    },
+    {
+     "id": "D27.2.a2",
+     "type": "cloze",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Completa cada espacio con la forma correcta.",
+     "text": "(1) [[1]] main problem is the cost of energy.  (2) Figure [[2]] shows the process. (número)  (3) We used [[3]] same method as Mark.",
+     "gaps": {
+      "1": {
+       "accept": [
+        "the"
+       ]
+      },
+      "2": {
+       "accept": [
+        "1",
+        "one"
+       ],
+       "hint": "sin artículo antes de Figure 1"
+      },
+      "3": {
+       "accept": [
+        "the"
+       ],
+       "hint": "the same"
+      }
+     }
+    },
+    {
+     "id": "D27.2.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "Generalización:",
+     "options": [
+      {
+       "id": "a",
+       "text": "The energy is expensive in Chile."
+      },
+      {
+       "id": "b",
+       "text": "Energy is expensive in Chile."
+      }
+     ],
+     "answer": "b",
+     "explanation": "en general → sin artículo"
+    },
+    {
+     "id": "D27.2.a4",
+     "type": "choice",
+     "role": "practice",
+     "skill": "lexis_grammar",
+     "prompt": "¿Cuál es correcta?",
+     "options": [
+      {
+       "id": "a",
+       "text": "The Figure 2 shows the results."
+      },
+      {
+       "id": "b",
+       "text": "Figure 2 shows the results."
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D27.2.a5",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe tres oraciones sobre tu área: una generalización sin artículo, una primera mención con a/an y la misma cosa luego con the.",
+     "min_words": 10,
+     "max_words": 80,
+     "checks": [
+      {
+       "id": "estructura",
+       "any_of": [
+        "a",
+        "an",
+        "the"
+       ],
+       "feedback": "Usa la estructura de hoy (revisa la cápsula y los ejemplos)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D27.3",
+   "order": 3,
+   "kind": "escucha",
+   "minutes": 15,
+   "title": "Escucha: Revisando artículos",
+   "intro": "Escucha dos veces sin leer. Primero la idea general, después los detalles. Si te cuesta, baja la velocidad a 0,85× (queda registrado como ayuda). La transcripción y la traducción se abren después de responder.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D27.3.a1",
+     "type": "listening",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Revisando artículos: escucha sin leer y responde.",
+     "audio": {
+      "text": "Look at this sentence: the energy is expensive in Chile. In English we say: energy is expensive in Chile, with no article, because it is general. But: the energy used at night was higher. That is specific, so we use the.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "transcript": "Look at this sentence: the energy is expensive in Chile. In English we say: energy is expensive in Chile, with no article, because it is general. But: the energy used at night was higher. That is specific, so we use the.",
+     "translation_es": "Mira esta oración: «the energy is expensive in Chile». En inglés decimos: «energy is expensive in Chile», sin artículo, porque es general. Pero: «the energy used at night was higher». Eso es específico, así que usamos «the».",
+     "questions": [
+      {
+       "id": "q1",
+       "prompt": "¿Por qué «energy is expensive» no lleva artículo?",
+       "label": "¿Por qué «energy is expensive» no lleva artículo?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Porque es una generalización"
+        },
+        {
+         "id": "b",
+         "text": "Porque es plural"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q2",
+       "prompt": "¿Por qué «the energy used at night» lleva «the»?",
+       "label": "¿Por qué «the energy used at night» lleva «the»?",
+       "options": [
+        {
+         "id": "a",
+         "text": "Porque es específico"
+        },
+        {
+         "id": "b",
+         "text": "Porque es incontable"
+        }
+       ],
+       "answer": "a"
+      },
+      {
+       "id": "q3",
+       "prompt": "¿De qué trata el audio?",
+       "label": "¿De qué trata el audio?",
+       "options": [
+        {
+         "id": "a",
+         "text": "De pronunciación"
+        },
+        {
+         "id": "b",
+         "text": "Del uso de artículos"
+        }
+       ],
+       "answer": "b"
+      }
+     ]
+    },
+    {
+     "id": "D27.3.a2",
+     "type": "dictation",
+     "role": "practice",
+     "skill": "listening",
+     "prompt": "Dictado breve de una oración del audio.",
+     "audio": {
+      "text": "That is specific, so we use the.",
+      "voice": "en-US",
+      "source": "sintetizada"
+     },
+     "answer": "That is specific, so we use the."
+    }
+   ]
+  },
+  {
+   "id": "D27.4",
+   "order": 4,
+   "kind": "lectura",
+   "minutes": 20,
+   "title": "Lectura: Results: first paragraph",
+   "intro": "Lee primero sin traducción y subraya mentalmente las palabras del día. Escucha el texto completo mientras lo sigues con la vista. Usa la traducción solo al final, para comprobar.",
+   "resources": [
+    "D27-RR"
+   ],
+   "activities": [
+    {
+     "id": "D27.4.a1",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿En qué mes fue mayor la diferencia?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Enero"
+      },
+      {
+       "id": "b",
+       "text": "Julio"
+      },
+      {
+       "id": "c",
+       "text": "Octubre"
+      }
+     ],
+     "answer": "b"
+    },
+    {
+     "id": "D27.4.a2",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Cuál parece ser la razón principal?",
+     "options": [
+      {
+       "id": "a",
+       "text": "El proceso de secado"
+      },
+      {
+       "id": "b",
+       "text": "Los gerentes"
+      }
+     ],
+     "answer": "a"
+    },
+    {
+     "id": "D27.4.a3",
+     "type": "choice",
+     "role": "practice",
+     "skill": "reading",
+     "prompt": "¿Se encontró el mismo patrón en los tres aserraderos?",
+     "options": [
+      {
+       "id": "a",
+       "text": "Sí"
+      },
+      {
+       "id": "b",
+       "text": "No"
+      }
+     ],
+     "answer": "a"
+    }
+   ]
+  },
+  {
+   "id": "D27.5",
+   "order": 5,
+   "kind": "habla",
+   "minutes": 15,
+   "title": "Habla: imitar y luego producir",
+   "intro": "Primero imitas (shadowing) para ganar ritmo; después hablas con tus propias palabras. Puedes tener notas de tres o cuatro palabras, pero no leas un guion.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D27.5.a1",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Shadowing: escucha el modelo frase por frase e imítalo al mismo tiempo (ritmo, pausas, acento). Graba tu mejor versión y compárala.",
+     "model": {
+      "text": "Figure 3 shows energy use per unit in each shift. In general, energy is more expensive in winter, and companies try to reduce costs.",
+      "voice": "en-US",
+      "source": "sintetizada",
+      "chunks": [
+       "Figure 3 shows energy use per unit in each shift.",
+       "In general, energy is more expensive in winter, and companies try to reduce costs."
+      ]
+     },
+     "min_seconds": 5,
+     "max_seconds": 60,
+     "self_check": [
+      "Hice las pausas en los mismos lugares que el modelo.",
+      "Pronuncié las terminaciones (-s, -ed) sin agregar vocales.",
+      "Lo repetí al menos tres veces antes de grabar."
+     ]
+    },
+    {
+     "id": "D27.5.a2",
+     "type": "oral",
+     "role": "practice",
+     "skill": "speaking",
+     "prompt": "Describe en voz alta (30–60 s) una figura o tabla de tu trabajo: «Figure 1 shows… We found a… The… was…». Cuida los artículos.",
+     "min_seconds": 30,
+     "max_seconds": 90,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 2,
+       "phrases": [
+        "the same",
+        "the first",
+        "the main",
+        "the following",
+        "a significant",
+        "an increase",
+        "in general",
+        "figure",
+        "process",
+        "sector",
+        "society",
+        "people"
+       ],
+       "feedback": "Intenta usar al menos dos palabras o expresiones del día."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D27.6",
+   "order": 6,
+   "kind": "escritura",
+   "minutes": 10,
+   "title": "Escritura breve",
+   "intro": "Escribe sin traductor. Es mejor un texto corto y correcto que uno largo copiado.",
+   "resources": [],
+   "activities": [
+    {
+     "id": "D27.6.a1",
+     "type": "open_text",
+     "role": "practice",
+     "skill": "writing",
+     "prompt": "Escribe un primer párrafo de resultados (40–80 palabras) cuidando a/an/the y las generalizaciones sin artículo.",
+     "min_words": 40,
+     "max_words": 100,
+     "checks": [
+      {
+       "id": "vocab",
+       "min_count": 3,
+       "phrases": [
+        "the same",
+        "the first",
+        "the main",
+        "the following",
+        "a significant",
+        "an increase",
+        "in general",
+        "figure",
+        "process",
+        "sector",
+        "society",
+        "people"
+       ],
+       "feedback": "Incluye al menos tres palabras o expresiones del día."
+      },
+      {
+       "id": "gram",
+       "any_of": [
+        "a",
+        "an",
+        "the"
+       ],
+       "feedback": "Usa la estructura gramatical del día."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quality": {
+  "authors": [
+   "Claude (redacción inicial)"
+  ],
+  "reviewed_by": "",
+  "license": "Original del proyecto",
+  "date": "2026-11-07",
+  "changelog": [
+   {
+    "version": "1.0.0",
+    "date": "2026-11-07",
+    "change": "Plan 40 días, versión inicial."
+   }
+  ]
+ }
+}
